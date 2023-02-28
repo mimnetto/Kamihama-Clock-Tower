@@ -23,6 +23,11 @@
 	color-scheme: dark;
 }
 
+.theme-dark div#header h1{
+    color: #ff80f7;
+    font-family: 'Righteous', cursive;
+}
+
 .theme-dark body {
 	background-color: #131313;
 	color: #dedad6;
@@ -83,6 +88,10 @@
 }
 .theme-dark .top-weekendboss .line.header {
     background-color: #323232;
+}
+
+.theme-dark h1.c-header{
+	color:#ff80f7;
 }
 
 /* body.theme-pink {
