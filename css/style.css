@@ -4,6 +4,16 @@ body {
     padding-bottom: 64px;
 }
 
+div#header{
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+div#header h1{
+
+    font-family: 'Righteous', cursive;
+}
+
 .timer-number {
     color:violet;
     font-size: xx-large;
@@ -37,6 +47,7 @@ body {
     position: relative;
     text-align: center;
 }
+
 
 /* Progress bar thingies */
 
@@ -546,7 +557,7 @@ body {
         top: 15px;
         right: 15px;
         width: 180px;
-        margin-top: 0;
+        margin-top: 2%;
     }
 
     .alert {

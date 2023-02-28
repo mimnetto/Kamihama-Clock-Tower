@@ -202,19 +202,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Valentines Login Bonus",
-			"バレンタインログインボーナス"
+            "Puella・Historia: Mirage of Alexandria Arc",
+			"『ピュエラ・ヒストリア アレクサンドリアの蜃気楼編』"
         ],
         "image": [
-            "imgs/1002/banner_0651_m.png"
+            "imgs/2602/banner_0657_m.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
 				name: "",
-				start: "feb 10 2023, 16:00",
-				end: "feb 20 2023, 23:59",
+				start: "mar 10 2023, 16:00",
+				end: "mar 20 2023, 23:59",
 				extraPriority: 100
 			}
         ]
