@@ -2,8 +2,13 @@ body {
     background-color: #ececec;
     overflow-y: scroll;
     padding-bottom: 64px;
-    margin: auto 50px;
+    margin: auto;
     background: url("../imgs/bg-anthony.png") #ececec fixed no-repeat bottom right;
+}
+
+a{
+    color: #ff5bb6;
+    text-decoration: none;
 }
 
 div#header{
@@ -533,6 +538,14 @@ h1.c-header{
 /* MODAL               */
 /* ******************* */
 
+.btn-primary {
+    color: #2d075e;
+    font-weight: 500;
+    border-width: 2px;
+    border-color: #2d075e !important;
+    background-color: #e9d7e5 !important;
+}
+
 .contact-button {
     padding: 0.5rem;
     text-align: center;
@@ -541,6 +554,7 @@ h1.c-header{
     margin-top: 0.5rem;
     margin-bottom: 25px;
     display: block;
+    font-family: 'Righteous', cursive;
     background-color: violet!important;
 }
 .contact-button:hover {
@@ -549,9 +563,26 @@ h1.c-header{
 #columns-holder {
     margin-top: 1rem;
 }
+button.close {
+    text-align: end;
+    margin: 0;
+    color: #5f00b5;
+    font-family: 'Righteous', cursive;
+    font-size: 42px;
+    margin-top: 0px;
+    text-transform: uppercase;
+  }
 
 .modal-content{
     background-color: white;
+}
+
+h5#exampleModalLabel.modal-title {
+	color:#ff80f7;
+    margin-left: auto;
+    margin-top: auto;
+    font-family: 'Righteous', cursive;
+    font-size: 24pt;
 }
 
 .alert {
@@ -588,6 +619,12 @@ h1.c-header{
 
     .alert {
         margin-top: 0.5rem;
+    }
+
+    .container-fluid {
+        margin-right: 50px;
+        margin-left: 50px;
+        width: auto;
     }
 }
 

@@ -94,6 +94,16 @@
 	color:#ff80f7;
 }
 
+.theme-dark h5#exampleModalLabel.modal-title {
+	color:#ff80f7;
+}
+
+.theme-dark button.close {
+	color:#ff80f7;
+	text-shadow: none;
+    opacity: 100;
+}
+
 /* body.theme-pink {
 	background-color: #ee00ee;
 	color: #880066;
