@@ -72,6 +72,14 @@
     background-color: #323232;
 }
 
+.theme-dark h4.link-type {
+    color:#d7c1f3;
+    margin-left: auto;
+    margin-top: auto;
+    font-family: 'Righteous', cursive;
+	font-weight: 500;
+}
+
 .theme-dark .modal-content{
 	background-color: #242424;
 }
@@ -94,7 +102,7 @@
 	color:#ff80f7;
 }
 
-.theme-dark h5#exampleModalLabel.modal-title {
+.theme-dark h5#ModalInfo.modal-title {
 	color:#ff80f7;
 }
 

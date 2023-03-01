@@ -1,14 +1,30 @@
 body {
     background-color: #ececec;
     overflow-y: scroll;
-    padding-bottom: 64px;
+    padding-bottom: 75px;
     margin: auto;
     background: url("../imgs/bg-anthony.png") #ececec fixed no-repeat bottom right;
+}
+
+#app {
+    min-height: 100%;
+}
+
+p.center{
+    text-align: center;
+
 }
 
 a{
     color: #ff5bb6;
     text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover{
+    color: #8f46d3;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 div#header{
@@ -71,7 +87,7 @@ h1.c-header{
 }
 
 .progress-bar {
-    background-color: #007bff;
+    background-color: #9263dd;
 }
 
 /**/
@@ -178,7 +194,7 @@ h1.c-header{
 .line {
     flex-grow: 1;
     text-align: center;
-    background-color: rgba(219, 177, 24, 0.3);
+    background-color: rgb(0 123 255 / 25%);
     border: 1px solid #BDBDBD;
     border-right: 0;
     border-left: 0;
@@ -186,7 +202,7 @@ h1.c-header{
     display: flex;
 }
 .line.header {
-    background-color: #dbb118;
+    background-color: #7fbdff;
     font-weight: bold;
     color: white;
 }
@@ -196,6 +212,18 @@ h1.c-header{
 .line span {
     margin: auto;
 }
+
+/*footer*/
+footer{
+    margin-top: 5rem;
+    padding: 1rem 3rem;
+    height: 60px;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
 
 /* Top bar color according to types */
 /* Events */
@@ -267,7 +295,7 @@ h1.c-header{
 /* CONTENT             */
 /* ******************* */
 .content .timer {
-    background-color: #EFE6D4;
+    background-color: #ffece5;
     border: 1px solid #c2c2c2;
     padding: 0.25rem 0.5rem 0.5rem;
     margin-top: 0.5rem;
@@ -396,6 +424,13 @@ h1.c-header{
     padding: 3px 5px;
 }
 
+.badge-success {
+    background-color: #ff7979 !important; 
+}
+
+.badge-secondary {
+    background-color: #7c597c;
+}
 /* BANNER */
 
 .summon-banner {
@@ -551,12 +586,25 @@ h1.c-header{
     text-align: center;
     line-height: 1.0rem;
     cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 25px;
+    display: block;
+    font-family: 'Righteous', cursive;
+    background-color: violet!important;
+}
+
+.link-button {
+    padding: 0.5rem;
+    text-align: center;
+    line-height: 1.0rem;
+    cursor: pointer;
     margin-top: 0.5rem;
     margin-bottom: 25px;
     display: block;
     font-family: 'Righteous', cursive;
     background-color: violet!important;
 }
+
 .contact-button:hover {
     background-color: #cb49cb!important;
 }
@@ -575,6 +623,8 @@ button.close {
 
 .modal-content{
     background-color: white;
+    border-color: #2d075e;
+    border-width: 4px;
 }
 
 h5#exampleModalLabel.modal-title {
@@ -583,6 +633,13 @@ h5#exampleModalLabel.modal-title {
     margin-top: auto;
     font-family: 'Righteous', cursive;
     font-size: 24pt;
+}
+
+h4.link-type {
+    color:#2d075e;
+    margin-left: auto;
+    margin-top: auto;
+    font-family: 'Righteous', cursive;
 }
 
 .alert {
@@ -608,9 +665,18 @@ h5#exampleModalLabel.modal-title {
 }
 
 @media screen and (min-width: 580px) {
-    .contact-button {
+    .contact-button  {
         position: absolute;
-        top: 15px;
+        top: 5px;
+        right: 15px;
+        width: 180px;
+        margin-top: 2%;
+        margin-right: 50px;
+    }
+
+    .link-button {
+        position: absolute;
+        top: 50px;
         right: 15px;
         width: 180px;
         margin-top: 2%;
@@ -630,6 +696,7 @@ h5#exampleModalLabel.modal-title {
 
 #theme-switcher{
     margin-right: 50px;
+    bottom: auto;
 }
 
 /* ******************* */

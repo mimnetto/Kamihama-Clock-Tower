@@ -37,7 +37,8 @@
 	</head>
 	<body>
 		<div class="container-fluid" id="app">
-			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<!--info modal-->
+			<div class="modal fade" id="modalInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
@@ -47,12 +48,21 @@
 							</button>
 						</div>
 						<div class="modal-body">
-							<p>This webpage is a modded version of <a href='https://github.com/IceKirby/kirafan-timer'>RiceKirby's kirafan-timer</a> by Darrukou.</p>
+							<p class="center"><a target="_blank" href="https://github.com/mimnetto/Kamihama-Clock-Tower">
+								<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+									<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+								</svg>
+							</a>
+							</p>
+							<p>
+								I have made a lot of changes so if you notice an error or bug please reach out to me on Discord: <b>Mimi Hamburger#0707</b> - Thanks!
+							</p>
+							<hr>
+							<p>This webpage is a modded version of <a target="_blank" href='https://github.com/IceKirby/kirafan-timer'>RiceKirby's kirafan-timer</a> by Darrukou.</p>
 							<p>To report information errors or to send general feedback and opinions, please contact Mimi Hamburger:</p>
 							<ul>
 								<li> Discord: Mimi Hamburger#0707 </li>
-								<li> Twitter: <a href='https://twitter.com/mimihamburger'>@mimihamburger</a></li>
-								<li> GitHub: <a href='https://github.com/mimnetto'> miminetto</a></li>
+								<li> GitHub: <a target="_blank" href='https://github.com/mimnetto'> miminetto</a></li>
 							</ul>
 							<p><b>Special thanks to:</b></p>
 							<ul>
@@ -65,12 +75,55 @@
 						</div>
 					</div>
 				</div>
+			</div> <!--info modal-->
+			<div class="modal fade" id="modalLinks" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Links</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<h4 class="link-type">Community</h4>
+							<ul>
+								<li> <a target="_blank" href="https://discord.gg/magiarecord">Magia Record Discord</a> </li>
+								<li> <a target="_blank" href="https://www.reddit.com/r/magiarecord/">Magia Record Reddit</a> </li>
+								<li> <a target="_blank" href="https://magireco-friends.com/lang/en">Magireco-friends</a> </li>
+							</ul>
+							<h4 class="link-type">Wikis</h4>
+							<ul>
+								<li> <a target="_blank" href="https://magireco.fandom.com/wiki/Magia_Record_English_Wiki">Fandom wiki</a> </li>
+								<li> <a target="_blank" href="https://wikiwiki.jp/magireco/">2ch wiki (日本語)  </a> </li>
+							</ul>
+							<h4 class="link-type">Story and Puella Magi (EN)</h4>
+							<ul>
+								<li> <a target="_blank" href="https://wiki.puella-magi.net/Magia_Record_Characters">Character Wiki</a> </li>
+								<li> <a target="_blank" href="https://www.youtube.com/@MagiaUnionTranslations">Magia Union Translations  </a> </li>
+								<li> <a target="_blank" href="https://magireco.fandom.com/wiki/Translated_Stories">Translated Stories Collection </a> </li>
+							</ul>
+							<h4 class="link-type">Official</h4>
+							<ul>
+								<li> <a target="_blank" href="https://magireco.com/">Official Website (日本語)</a> </li>
+								<li> <a target="_blank" href="https://twitter.com/magireco/">Twitter (日本語)  </a> </li>
+								<li> <a target="_blank" href="https://twitter.com/magireco/">Magia☆Repo Comic (日本語) </a> </li>
+							</ul>
+							<h4 class="link-type">More to come!</h4>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<div id="header" v-show="showHeader">
 				<h1>Kamihama Clock Tower: MagiReco Event Timers</h1>
 				<text-timer v-bind:d_since_release='d_since_release' v-bind:t_to_next_ann='t_to_next_ann' v-bind:t_to_next_anniv='t_to_anniv'></text-timer>
-				<span class='contact-button bg-warning text-dark' data-toggle="modal" data-target="#exampleModal">Info</span>
+				<!--info button-->
+				<span class='contact-button bg-warning text-dark' data-toggle="modal" data-target="#modalInfo">Info</span>
+				<span class='link-button bg-warning text-dark' data-toggle="modal" data-target="#modalLinks">Links</span>
 				<select id="theme-switcher">
 					<option value="default" selected>Light Mode</option>
 					<option value="dark">Dark Mode</option>
