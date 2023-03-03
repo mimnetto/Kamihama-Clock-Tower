@@ -1,9 +1,20 @@
+:root {
+    --homura: #a993ed;
+    --madoka: #ee82ee;
+    --kyoko: #dc3545;
+    --mami: #ffd24d;
+    --sayaka: #385EE8;
+    --akuma: #5f00b5;
+    --kami: #bb0e79;
+  }
+
 body {
     background-color: #ececec;
     overflow-y: scroll;
     padding-bottom: 75px;
     margin: auto;
-    background: url("../imgs/bg-anthony.png") #ececec fixed no-repeat bottom right;
+    background: url(../imgs/bg-anthony.png) no-repeat bottom center, url(../imgs/madoka-gem.png) no-repeat bottom right;
+    background-color: var(--main-bg-color);
 }
 
 #app {
@@ -33,24 +44,30 @@ div#header{
 }
 
 div#header h1{
-    color: #5f00b5;
+    color:var(--kami);
     font-family: 'Righteous', cursive;
 }
 
 .timer-number {
-    color:violet;
-    font-size: xx-large;
+    color:var(--madoka);
+    font-size: 24pt;
+    font-weight: 800;
+    font-family: 'Kaushan Script', cursive;
 }
-
+div#header h4{
+    font-variant: small-caps;
+}
 .event-group {
     background-color: white;
     padding: 0.5rem;
     margin-bottom: 5%;
-    border: 1px solid #c2c2c2;
+    border: 2px solid var(--mami);
 }
 
 .c-header {
     /*text-align: center;*/
+
+
     position: relative;
     display: block;
     text-align: center;
@@ -87,7 +104,7 @@ h1.c-header{
 }
 
 .progress-bar {
-    background-color: #9263dd;
+    background-color: #ff96ca;
 }
 
 /**/
@@ -214,16 +231,16 @@ h1.c-header{
 }
 
 /*footer*/
-footer{
-    margin-top: 5rem;
-    padding: 1rem 3rem;
-    height: 60px;
-    background-color: transparent;
-    bottom: 0;
-    left: 0;
+/*.footer{
+    position:fixed;
+    right:0;
+    bottom:0;
+    margin: 30px 100px;
+    padding:0;
+    height: 150px;
     width: 100%;
-    text-align: center;
-  }
+    background: url(../imgs/madoka-gem.png) no-repeat bottom right;
+  }*/
 
 /* Top bar color according to types */
 /* Events */
@@ -587,10 +604,10 @@ footer{
     line-height: 1.0rem;
     cursor: pointer;
     margin-top: 1rem;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     display: block;
     font-family: 'Righteous', cursive;
-    background-color: violet!important;
+    background-color: var(--madoka)!important;
 }
 
 .link-button {
@@ -599,15 +616,20 @@ footer{
     line-height: 1.0rem;
     cursor: pointer;
     margin-top: 0.5rem;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     display: block;
     font-family: 'Righteous', cursive;
-    background-color: violet!important;
+    background-color: var(--madoka)!important;
 }
 
 .contact-button:hover {
     background-color: #cb49cb!important;
 }
+
+.link-button:hover {
+    background-color: #cb49cb!important;
+}
+
 #columns-holder {
     margin-top: 1rem;
 }
@@ -664,7 +686,17 @@ h4.link-type {
     background-color: #bb0e79 !important;
 }
 
-@media screen and (min-width: 580px) {
+#theme-switcher{
+	border: 2px solid var(--madoka);
+    color: var(--kami);
+    font-weight: 500;
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background: url(../imgs/bg-anthony.png) no-repeat bottom left 2%, url(../imgs/madoka-gem.png) no-repeat bottom right;
+    }
+
     .contact-button  {
         position: absolute;
         top: 5px;
@@ -692,12 +724,20 @@ h4.link-type {
         margin-left: 50px;
         width: auto;
     }
+    #theme-switcher{
+    margin-right: 70px;
+    bottom: auto;
+	border: 2px solid var(--madoka);
+    color: var(--kami)
+}
 }
 
-#theme-switcher{
-    margin-right: 50px;
-    bottom: auto;
+@media screen and (min-width: 900px) {
+    h1.heading{    
+        margin-right: 20%;
+    }
 }
+
 
 /* ******************* */
 /* EFFECTS             */

@@ -1,3 +1,17 @@
+:root {
+    --homura: #a993ed;
+    --madoka: #ee82ee;
+    --kyoko: #dc3545;
+    --mami: #ffd24d;
+    --sayaka: #385EE8;
+    --akuma: #5f00b5;
+    --kami: #bb0e79;
+  }
+
+  .theme-dark body {
+	background: url(../imgs/bg-anthony.png) no-repeat bottom center, url(../imgs/homura-gem.png) no-repeat bottom right;
+}
+
 #theme-switcher {
 	position: relative;
 	display: block;
@@ -5,13 +19,18 @@
 	text-align: center;
 }
 
+
 @media screen and (min-width: 580px) {
+	.theme-dark body {
+        background: url(../imgs/bg-anthony.png) no-repeat bottom left, url(../imgs/homura-gem.png) no-repeat bottom right;
+    }
+
 	#theme-switcher {
 		position: fixed;
 		bottom: 1%;
 		right: 2%;
-		opacity: 0.4;
 		z-index: 80;
+		opacity: 0.8;
 		width:min-content;
 	}
 	#theme-switcher:hover {
@@ -24,7 +43,7 @@
 }
 
 .theme-dark div#header h1{
-    color: #ff80f7;
+    color:var(--akuma);
     font-family: 'Righteous', cursive;
 }
 
@@ -38,6 +57,10 @@
 .theme-dark .event-group {
 	background-color: black;
 	border: 1px solid #3d3d3d;
+}
+.theme-dark .timer-number {
+    color:var(--homura);
+    font-size: xx-large;
 }
 .theme-dark .content .timer {
 	background-color: #10192b;
@@ -69,7 +92,7 @@
 	color: #dedad6;
 }
 .theme-dark .bar .progress {
-    background-color: #323232;
+    background-color: #a3a3a3;
 }
 
 .theme-dark h4.link-type {
@@ -99,7 +122,7 @@
 }
 
 .theme-dark h1.c-header{
-	color:#ff80f7;
+	color:var(--homura);
 }
 
 .theme-dark h5#ModalInfo.modal-title {
@@ -110,6 +133,15 @@
 	color:#ff80f7;
 	text-shadow: none;
     opacity: 100;
+}
+
+.theme-dark .progress-bar {
+    background-color: #9263dd;
+}
+
+.theme-dark #theme-switcher{
+	border: 2px solid var(--akuma);
+    color: var(--homura)
 }
 
 /* body.theme-pink {
