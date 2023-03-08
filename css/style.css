@@ -92,7 +92,7 @@ h1.c-header{
     text-align: center;
     font-family: 'Righteous', cursive;
     margin-bottom: 3%;
-    color:#5f00b5;
+    color:var(--kami);
 
 }
 

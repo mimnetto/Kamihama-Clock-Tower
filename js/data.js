@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Mar 8 2023, 18:00";
+var possibleNextAnnouncementDate = "Mar 17 2023, 05:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -125,7 +125,7 @@ var timerData = [
         "type": "Event",
         "title": [
             "Extermination Battle: Witches Paradox",
-			"殲滅戦 魔女たちのパラドクス"
+			"『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
         "image": [
             "imgs/2001/banner_0494_m.png"
@@ -149,31 +149,32 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "2000 Days Since Release Campaign",
-			"リリース2000日記念キャンペーン"
+            "Puella・Historia Strategy Campaign",
+			"『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
         "image": [
-            "imgs/1002/banner_0652_m.png",
-			"imgs/1002/banner_0654_m.png"
+            "imgs/2602/banner_0661_m.png",
+			"imgs/2602/banner_0662_m.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
-			{
+			/*{
 				name: "Login Bonus",
 				start: "feb 10 2023, 16:00",
 				end: "feb 20 2023, 23:59",
 				extraPriority: 100
-			},
+			},*/
 			{
 				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
-				start: "feb 10 2023, 16:00",
-				end: "feb 20 2023, 14:59"
+				start: "mar 10 2023, 04:00",
+				end: "mar 20 2023, 01:59",
+				extraPriority: 100
 			},
 			{
 				name: "Limited-time Daily Missions",
-				start: "feb 10 2023, 16:00",
-				end: "feb 20 2023, 14:59"
+				start: "mar 10 2023, 04:00",
+				end: "mar 20 2023, 01:59"
 			}
         ]
     },
@@ -213,8 +214,8 @@ var timerData = [
         "timers": [
 			{
 				name: "",
-				start: "mar 10 2023, 16:00",
-				end: "mar 20 2023, 23:59",
+				start: "mar 10 2023, 04:00",
+				end: "mar 20 2023, 01:59",
 				extraPriority: 100
 			}
         ]
@@ -232,11 +233,6 @@ var timerData = [
         "column": 2,
         "priority": 100,
         "timers": [
-			{
-				name: "Adjuster Coin Shop: Purple - Sudachi Valentines Gacha",
-				start: "Feb 10 2023, 16:00",
-				end: "Feb 27 2023, 14:59"
-			},
 			{
 				name: "Adjuster Coin Shop: Water - Past Valentines Units Gachas",
 				start: "Feb 10 2023, 16:00",
@@ -271,6 +267,11 @@ var timerData = [
 				name: "Little Bird's Star - Event Shop & Missions",
 				start: "Feb 27 2023, 16:00",
 				end: "Mar 17 2023, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Ebony Gacha",
+				start: "mar 10 2023, 04:00",
+				end: "mar 27 2023, 14:59"
 			}
         ]
     },
@@ -349,8 +350,8 @@ var timerData = [
         timers: [
             {
                 name: "",
-                start: "Feb 27 2023, 15:00",
-                end: "Feb 27 2023, 16:00",
+                start: "mar 10 2023, 01:00",
+                end: "mar 10 2023, 04:00",
 				extraPriority: 1000
             }
         ]
@@ -398,7 +399,7 @@ var timerData = [
 		{
         "type": "Gacha",
         "title": [
-			"Limited-time Paid 4★ Flame Attribute Magical Girl Guaranteed Gacha",
+			"Limited-time Ebony Pickup Gacha",
             "有償限定 火属性★4魔法少女確定ガチャ"
         ],
         "image": [
@@ -644,13 +645,12 @@ var timerData = [
 		{
         "type": "Gacha",
         "title": [
-			"Limited-time Past Halloween Gachas Rerun",
-            "期間限定 ハロウィン魔法少女編ピックアップガチャ復刻"
+			"Limited-time Ebony Pickup Gacha",
+            "『有償限定 ステップアップガチャ エボニー編』"
         ],
         "image": [
-            "imgs/0910/gachabanner_1133_m.png",
-			"imgs/0910/gachabanner_1134_m.png",
-			"imgs/0910/gachabanner_1135_m.png"
+            "imgs/2602/gachabanner_1349_m.png",
+			"imgs/2602/gachabanner_1350_m.png"
 			
 
         ],
@@ -659,8 +659,8 @@ var timerData = [
         "timers": [
             {
                 name: "",
-                start: "Oct 11 2022, 16:00",
-				end: "Oct 24 2022, 14:59",
+                start: "mar 10 2023, 04:00",
+				end: "mar 20 2023, 01:59",
                 extraPriority: 100
             }
         ]
