@@ -1,5 +1,5 @@
 Vue.component("text-timer", {
-    props: ["d_since_release", "t_to_next_ann", "t_to_next_anniv"],
+    props: ["d_since_release", "t_to_next_ann", "t_to_next_anniv", "t_to_mandatory"],
     template: 
     `<h4>
         <span class="timer-number">{{ d_since_release }}</span> days since <span >Magia Record</span> released<span v-if="nextAnnVisible()">; <span v-html="tNext(t_to_next_anniv)"></span> until 6th anniversary.</span></br>
