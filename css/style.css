@@ -13,8 +13,7 @@ body {
     overflow-y: scroll;
     padding-bottom: 75px;
     margin: auto;
-    background: url(../imgs/bg-anthony.png) no-repeat bottom center, url(../imgs/madoka-gem.png) no-repeat bottom right;
-    background-color: var(--main-bg-color);
+    background: url(../imgs/bg-bubbles.png), url(../imgs/bg-anthony.png) no-repeat bottom center, url(../imgs/madoka-gem.png) no-repeat bottom right;
 }
 
 #app {
@@ -694,7 +693,8 @@ h4.link-type {
 
 @media screen and (min-width: 900px) {
     body {
-        background: url(../imgs/bg-anthony.png) no-repeat bottom left 2%, url(../imgs/madoka-gem.png) no-repeat bottom right;
+        background-color: #ececec;
+        background: url(../imgs/bg-bubbles.png) transparent, url(../imgs/bg-anthony.png) no-repeat bottom left 2%, url(../imgs/madoka-gem.png) no-repeat bottom right;
     }
 
     .contact-button  {
