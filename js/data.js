@@ -167,14 +167,14 @@ var timerData = [
 			},*/
 			{
 				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
-				start: "mar 10 2023, 04:00",
-				end: "mar 20 2023, 01:59",
+				start: "mar 10 2023, 18:00",
+				end: "mar 20 2023, 14:59",
 				extraPriority: 100
 			},
 			{
 				name: "Limited-time Daily Missions",
-				start: "mar 10 2023, 04:00",
-				end: "mar 20 2023, 01:59"
+				start: "mar 10 2023, 18:00",
+				end: "mar 20 2023, 14:59"
 			}
         ]
     },
@@ -214,7 +214,7 @@ var timerData = [
         "timers": [
 			{
 				name: "",
-				start: "mar 10 2023, 04:00",
+				start: "mar 10 2023, 18:00",
 				end: "mar 20 2023, 01:59",
 				extraPriority: 100
 			}
@@ -270,7 +270,7 @@ var timerData = [
 			},
 			{
 				name: "Adjuster Coin Shop: Ebony Gacha",
-				start: "mar 10 2023, 04:00",
+				start: "mar 10 2023, 18:00",
 				end: "mar 27 2023, 14:59"
 			}
         ]
@@ -350,8 +350,8 @@ var timerData = [
         timers: [
             {
                 name: "",
-                start: "mar 10 2023, 01:00",
-                end: "mar 10 2023, 04:00",
+                start: "mar 10 2023, 16:00",
+                end: "mar 10 2023, 18:00",
 				extraPriority: 1000
             }
         ]
@@ -659,8 +659,8 @@ var timerData = [
         "timers": [
             {
                 name: "",
-                start: "mar 10 2023, 04:00",
-				end: "mar 20 2023, 01:59",
+                start: "mar 10 2023, 18:00",
+				end: "mar 20 2023, 14:59",
                 extraPriority: 100
             }
         ]

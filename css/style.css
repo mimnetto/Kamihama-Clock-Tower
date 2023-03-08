@@ -6,6 +6,7 @@
     --sayaka: #385EE8;
     --akuma: #5f00b5;
     --kami: #bb0e79;
+    --sana: #029f32;
   }
 
 body {
@@ -57,7 +58,7 @@ div#header h4{
     font-variant: small-caps;
 }
 .event-group {
-    background-color: white;
+    background-color: #ffe0ff;
     padding: 0.5rem;
     margin-bottom: 5%;
     border: 2px solid var(--mami);
@@ -218,7 +219,7 @@ h1.c-header{
     display: flex;
 }
 .line.header {
-    background-color: #7fbdff;
+    background-color: var(--sayaka);
     font-weight: bold;
     color: white;
 }
@@ -244,10 +245,10 @@ h1.c-header{
 /* Top bar color according to types */
 /* Events */
 .top-event .line {
-    background-color: #D2DAF7;
+    background-color: #c3b7e7;
 }
 .top-event .line.header {
-    background-color: #385EE8;
+    background-color: var(--akuma);
 }
 .top-event .thumb .type {
     background-color: rgba(56, 94, 232, 0.5);
@@ -258,7 +259,7 @@ h1.c-header{
     background-color: rgba(255, 182, 193, 0.5);
 }
 .top-gacha .line.header {
-    background-color: #ff7998;
+    background-color: var(--kami);
 }
 .top-gacha .thumb .type {
     background-color: rgba(46, 126, 49, 0.75);
@@ -314,7 +315,7 @@ h1.c-header{
     background-color: #ffece5;
     border: 1px solid #c2c2c2;
     padding: 0.25rem 0.5rem 0.5rem;
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
 }
 .timer.fullwidth {
     width: 100%;
