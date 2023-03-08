@@ -339,7 +339,7 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance",
+            "Maintenance - Mandatory App Update (ver 3.0.0)",
 			"维护"
         ],
 		"image": [
@@ -645,7 +645,7 @@ var timerData = [
 		{
         "type": "Gacha",
         "title": [
-			"Limited-time Ebony Pickup Gacha",
+			"Limited-time Ebony Pickup and STEP-UP Gachas",
             "『有償限定 ステップアップガチャ エボニー編』"
         ],
         "image": [
