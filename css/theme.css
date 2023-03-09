@@ -9,7 +9,7 @@
   }
 
   .theme-dark body {
-	background: url(../imgs/bg-anthony.png) no-repeat bottom center, url(../imgs/homura-gem.png) no-repeat bottom right;
+	background: url(../imgs/bg/bg_screen.png), url(../imgs/bg-anthony.png) no-repeat bottom center, url(../imgs/homura-gem.png) no-repeat bottom right;
 }
 
 #theme-switcher {
@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 580px) {
 	.theme-dark body {
-        background: url(../imgs/bg-anthony.png) no-repeat bottom left, url(../imgs/homura-gem.png) no-repeat bottom right;
+        background: url(../imgs/bg/bg_screen.png), url(../imgs/bg-anthony.png) no-repeat bottom left, url(../imgs/homura-gem.png) no-repeat bottom right;
     }
 
 	#theme-switcher {
