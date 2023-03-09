@@ -442,11 +442,11 @@ h1.c-header{
 }
 
 .badge-success {
-    background-color: #ff7979 !important; 
+    background-color: #48b1ac !important; 
 }
 
 .badge-secondary {
-    background-color: #7c597c;
+    background-color: #ff7979;
 }
 /* BANNER */
 
@@ -650,7 +650,7 @@ button.close {
 }
 
 h5#exampleModalLabel.modal-title {
-	color:#ff80f7;
+	color:var(--madoka);
     margin-left: auto;
     margin-top: auto;
     font-family: 'Righteous', cursive;
