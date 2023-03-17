@@ -82,38 +82,38 @@ var timerData = [
         "timers": [
 			{
 				name: "Preliminaries - Day 1",
-				start: "Nov 7 2022, 17:00",
-				end: "Nov 8 2022, 15:59"
+				start: "Mar 20 2023, 17:00",
+				end: "Mar 21 2023, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 2",
-				start: "Nov 8 2022, 16:00",
-				end: "Nov 9 2022, 15:59"
+				start: "Mar 21 2023, 16:00",
+				end: "Mar 22 2023, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 3",
-				start: "Nov 9 2022, 16:00",
-				end: "Nov 10 2022, 15:59"
+				start: "Mar 22 2023, 16:00",
+				end: "Mar 23 2023, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 4",
-				start: "Nov 10 2022, 16:00",
-				end: "Nov 11 2022, 15:59"
+				start: "Mar 23 2023, 16:00",
+				end: "Mar 24 2023, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 5",
-				start: "Nov 11 2022, 16:00",
-				end: "Nov 12 2022, 15:59"
+				start: "Mar 24 2023, 16:00",
+				end: "Mar 25 2023, 15:59"
 			},
 			{
 				name: "Finals",
-				start: "Nov 12 2022, 17:00",
-				end: "Nov 13 2022, 20:59"
+				start: "Mar 25 2023, 17:00",
+				end: "Mar 26 2023, 20:59"
 			},
             {
                 "name": "Main Event",
-                "start": "Nov 7 2022, 17:00",
-                "end": "Nov 13 2022, 20:59",
+                "start": "Mar 26 2023, 17:00",
+                "end": "Mar 27 2023, 20:59",
                 "extraPriority": 1000,
 				"type": "normal",
 				markers: 
@@ -256,16 +256,6 @@ var timerData = [
 				end: "Feb 27 2023, 14:59"
 			},
 			{
-				name: "Adjuster Coin Shop: Peach - Flame Attribute Gacha",
-				start: "Feb 20 2023, 17:00",
-				end: "Mar 6 2023, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Navy Blue & Kuroe Special Ticket Exchange",
-				start: "Feb 27 2023, 16:00",
-				end: "Mar 17 2023, 14:59"
-			},
-			{
 				name: "Little Bird's Star - Event Shop & Missions",
 				start: "Feb 27 2023, 16:00",
 				end: "Mar 17 2023, 14:59"
@@ -274,6 +264,11 @@ var timerData = [
 				name: "Adjuster Coin Shop: Ebony Gacha",
 				start: "mar 10 2023, 18:00",
 				end: "mar 27 2023, 14:59"
+			},
+			{
+				name: "Ranking Mirrors Related Packs",
+				start: "Mar 20 2023, 16:00",
+				end: "Mar 27 2023, 14:59"
 			}
         ]
     },
@@ -341,7 +336,7 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance - Mandatory App Update (ver 3.0.0)",
+            "Maintenance",
 			"维护"
         ],
 		"image": [
@@ -352,8 +347,8 @@ var timerData = [
         timers: [
             {
                 name: "",
-                start: "mar 10 2023, 16:00",
-                end: "mar 10 2023, 18:00",
+                start: "mar 20 2023, 16:00",
+                end: "mar 20 2023, 18:00",
 				extraPriority: 1000
             }
         ]
@@ -381,19 +376,19 @@ var timerData = [
 			{
         "type": "Gacha",
         "title": [
-			"Limited-time Fire Attribute Pickup Gacha",
-            "火属性魔法少女ピックアップガチャ"
+			"Choose Your 4★  Memoria Selection Gacha ",
+            "『選べる★4メモリアセレクションガチャ』"
         ],
         "image": [
-            "imgs/2002/gachabanner_1337_m.png"
+            "imgs/gatcha/choose-memo.png"
         ],
         "column": 1,
         "priority": 4,
         "timers": [
             {
                 name: "",
-                start: "Feb 20 2023, 17:00",
-				end: "Feb 27 2023, 14:59",
+                start: "Mar 20 2023, 17:00",
+				end: "Mar 27 2023, 14:59",
                 extraPriority: 100
             }
         ]
