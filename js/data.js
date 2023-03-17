@@ -348,7 +348,7 @@ var timerData = [
             {
                 name: "",
                 start: "mar 20 2023, 16:00",
-                end: "mar 20 2023, 18:00",
+                end: "mar 27 2023, 18:00",
 				extraPriority: 1000
             }
         ]
