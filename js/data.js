@@ -59,7 +59,7 @@ var timerData = [
 			},
             {
                 "name": "Main Event",
-                "start": "Feb 20 2023, 17:00",
+                "start": "April 20 2023, 17:00",
                 "end": "Feb 25 2023, 15:59",
                 "extraPriority": 1000,
 				"type": "normal",
@@ -236,22 +236,22 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Adjuster Coin Shop: Water - Past Valentines Units Gachas",
-				start: "Feb 10 2023, 16:00",
-				end: "Feb 27 2023, 14:59"
+				name: "Adjuster Coin Shop: Ebony Gacha",
+				start: "mar 10 2023, 18:00",
+				end: "mar 27 2023, 14:59"
 			},
 			{
-				name: "Valentines Special Ticket Shop - Past Valentines Step-up Gacha",
-				start: "Feb 10 2023, 16:00",
-				end: "Feb 27 2023, 14:59"
+				name: "Adjuster Coin Shop: Brown (Memoria Selection)",
+				start: "Mar 20 2023, 16:00",
+				end: "Mar 27 2023, 14:59"
+			},
+			{
+				name: "Ranking Mirrors Related Packs",
+				start: "Mar 20 2022, 16:00",
+				end: "Mar 27 2022, 14:59"
 			},
 			{
 				name: "Valentines Day Message - Event Shops & Missions",
-				start: "Feb 10 2023, 16:00",
-				end: "Feb 27 2023, 14:59"
-			},
-			{
-				name: "2000 Days Since Release - Special Missions & Shop",
 				start: "Feb 10 2023, 16:00",
 				end: "Feb 27 2023, 14:59"
 			},
@@ -262,13 +262,13 @@ var timerData = [
 			},
 			{
 				name: "Adjuster Coin Shop: Ebony Gacha",
-				start: "mar 10 2023, 18:00",
-				end: "mar 27 2023, 14:59"
+				start: "mar 10 2022, 18:00",
+				end: "mar 27 2022, 14:59"
 			},
 			{
 				name: "Ranking Mirrors Related Packs",
-				start: "Mar 20 2023, 16:00",
-				end: "Mar 27 2023, 14:59"
+				start: "Mar 20 2022, 16:00",
+				end: "Mar 27 2022, 14:59"
 			}
         ]
     },
@@ -276,19 +276,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"Flame Attribute Strengthening Pack",
-		"火属性魔法少女育成パック"
+		"Ranking Mirrors Related Packs",
+		"【ミラーズランキング開催記念】"
 		],
 		image: [
-            "imgs/2002/banner_0566_m.png"
+            "imgs/shops/mirrors-pack.png"
         ],
 		column: 2,
 		priority: 5,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Feb 20 2023, 17:00",
-			end: "Feb 27 2023, 14:59",
+			start: "Mar 20 2023, 17:00",
+			end: "Mar 27 2023, 14:59",
 			extraPriority: 100
 		}
 		]
