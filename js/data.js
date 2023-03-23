@@ -18,7 +18,7 @@ var timerData = [
             "saturday": { elements: ["Earth", "Warrior", "Knight"], short:"Sat" }
         }
     },
-    
+
   */
 	{
         "type": "WeekendBoss",
@@ -63,7 +63,7 @@ var timerData = [
                 "end": "Feb 25 2023, 15:59",
                 "extraPriority": 1000,
 				"type": "normal",
-				markers: 
+				markers:
 				[{time: "Feb 22 2023, 17:00", title: "Part 2 - Groups", type: "battle"}]
 			}
 			]
@@ -116,7 +116,7 @@ var timerData = [
                 "end": "Mar 27 2023, 20:59",
                 "extraPriority": 1000,
 				"type": "normal",
-				markers: 
+				markers:
 				[{time: "Nov 12 2022, 17:00", title: "Finals", type: "battle"}]
 			}
 			]
@@ -149,12 +149,11 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Puella・Historia Strategy Campaign",
+            "TV Anime 1st Anniversary Campaign ",
 			"『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
         "image": [
-            "imgs/2602/banner_0661_m.png",
-			"imgs/2602/banner_0662_m.png"
+            "imgs/events/tv01.png"
         ],
         "column": 0,
         "priority": 1,
@@ -173,8 +172,8 @@ var timerData = [
 			},
 			{
 				name: "Limited-time Daily Missions",
-				start: "mar 10 2023, 18:00",
-				end: "mar 20 2023, 14:59"
+				start: "mar 23 2023, 18:00",
+				end: "mar 31 2023, 14:59"
 			}
         ]
     },
@@ -195,7 +194,7 @@ var timerData = [
 				start: "feb 27 2023, 16:00",
 				end: "mar 10 2023, 14:59",
 				extraPriority: 100,
-				markers: 
+				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 3 2023, 16:00", type: "battle"}]
 			}
         ]
@@ -217,7 +216,7 @@ var timerData = [
 				start: "mar 10 2023, 18:00",
 				end: "mar 20 2023, 14:59",
 				extraPriority: 100,
-				markers: 
+				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 14 2023, 16:00", type: "battle"}]
 			}
         ]
@@ -284,7 +283,7 @@ var timerData = [
         ],
 		column: 2,
 		priority: 5,
-		timers: [ 
+		timers: [
 		{
 			name: "Sales period",
 			start: "Mar 20 2023, 17:00",
@@ -296,19 +295,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"Tart☆Magica Collaboration Commemorative Training Support Pack",
+		"TV Anime 1st Anniversary Support Packs",
 		"魔法少女たると☆マギカコラボ記念 育成応援パックの販売"
 		],
 		image: [
-            "imgs/0901/banner_0647_m.png"
+            "imgs/shops/shop00.png"
         ],
 		column: 2,
 		priority: 6,
-		timers: [ 
+		timers: [
 		{
 			name: "Sales period",
-			start: "Jan 10 2023, 16:00",
-			end: "Jan 20 2023, 14:59",
+			start: "Mar 23 2023, 16:00",
+			end: "Mar 31 2023, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -324,7 +323,7 @@ var timerData = [
         ],
 		column: 2,
 		priority: 5,
-		timers: [ 
+		timers: [
 		{
 			name: "",
 			start: "Feb 10 2023, 16:00",
@@ -396,19 +395,19 @@ var timerData = [
 		{
         "type": "Gacha",
         "title": [
-			"Limited-time Ebony Pickup Gacha",
-            "有償限定 火属性★4魔法少女確定ガチャ"
+			"Anime ver. Magical Girl Pickup Gacha",
+            "『有償限定 ステップアップガチャ アニメver.魔法少女編』"
         ],
         "image": [
-            "imgs/2002/gachabanner_1338_m.png"
+            "imgs/gatcha/gatcha01.png"
         ],
         "column": 1,
         "priority": 4,
         "timers": [
             {
                 name: "",
-                start: "Feb 20 2023, 17:00",
-				end: "Feb 27 2023, 14:59",
+                start: "Mar 23 2023, 17:00",
+				end: "Mar 31s 2023, 14:59",
                 extraPriority: 100
             }
         ]
@@ -416,60 +415,60 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Daily Free 10 pull Rare Gacha",
-            "10連レアガチャ毎日1回無料"
+			"Daily Free 10 pull Magical Girls from the Anime",
+            "『TVアニメ放送1周年記念キャンペーン』"
         ],
         "image": [
-            "imgs/1912/banner_0641_m.png"
+            "imgs/gatcha/gatcha02.png"
         ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
                 name: "",
-                start: "Dec 21 2022, 00:00",
-				end: "Jan 10 2023, 23:59",
+                start: "Mar 24 2023, 00:00",
+				end: "Mar 31 2023, 23:59",
                 extraPriority: 100,
 				markers:
 				[
 				{
 					title: "Free pull 1",
-					time: "Dec 21 2022, 00:00",
+					time: "Mar 24 2023, 00:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 2",
-					time: "Dec 22 2022, 0:00",
+					time: "Mar 25 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 3",
-					time: "Dec 23 2022, 0:00",
+					time: "Mar 26 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 4",
-					time: "Dec 24 2022, 0:00",
+					time: "Mar 27 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 5",
-					time: "Dec 25 2022, 0:00",
+					time: "Mar 28 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 6",
-					time: "Dec 26 2022, 0:00",
+					time: "Mar 29 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 7",
-					time: "Dec 27 2022, 0:00",
+					time: "Mar 30 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 8",
-					time: "Dec 28 2022, 0:00",
+					time: "Mar 31 2023, 0:00",
 					type: "star"
 				},
 				{
@@ -479,7 +478,7 @@ var timerData = [
 				},
 				{
 					title: "Free pull 10",
-					time: "Dec 30 2022, 0:00",
+					time: "Mar 30 2023, 0:00",
 					type: "star"
 				},
 				{
@@ -648,7 +647,7 @@ var timerData = [
         "image": [
             "imgs/2602/gachabanner_1349_m.png",
 			"imgs/2602/gachabanner_1350_m.png"
-			
+
 
         ],
         "column": 1,
