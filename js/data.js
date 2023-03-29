@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Mar 24 2023, 18:00";
+var possibleNextAnnouncementDate = "April 3 2023, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -124,23 +124,23 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Extermination Battle: Witches Paradox",
+            "【Event Rerun】Kamihama Beach Spa Adventure: The Demon's Grudge Whirlpooling at the Beach",
 			"『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
         "image": [
-            "imgs/2001/banner_0494_m.png"
+            "imgs/events/event00.png"
         ],
         "column": 0,
         "priority": 5,
         "timers": [
 			{
 				name: "",
-				start: "Jan 20 2023, 17:00",
-				end: "Jan 27 2023, 14:59",
+				start: "Mar 27 2023, 17:00",
+				end: "April 5 2023, 14:59",
 				markers:
 				[
-				{time: "Jan 23 2023, 16:00", title: "Challenge Stages", type: "battle"},
-				{time: "Jan 25 2023, 16:00", title: "EX Challenge Stages", type: "battle"}
+				{time: "Mar 27 2023, 16:00", title: "Challenge Stages", type: "battle"},
+				{time: "Mar 31 2023, 16:00", title: "EX Challenge Stages", type: "battle"}
 				],
 				extraPriority: 100
 			}
@@ -150,7 +150,7 @@ var timerData = [
         "type": "Event",
         "title": [
             "TV Anime 1st Anniversary Campaign ",
-			"『ピュエラ・ヒストリア攻略キャンペーン』"
+			"『神浜スパアドベンチャー ビーチに渦巻く悪魔の怨嗟』"
         ],
         "image": [
             "imgs/events/tv01.png"
@@ -235,9 +235,9 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Adjuster Coin Shop: Ebony Gacha",
-				start: "mar 10 2023, 18:00",
-				end: "mar 27 2023, 14:59"
+				name: "Adjuster Coin Shop: Purple (Magia Report 2019-2021)",
+				start: "mar 27 2023, 18:00",
+				end: "april 12 2023, 14:59"
 			},
 			{
 				name: "Adjuster Coin Shop: Brown (Memoria Selection)",
@@ -375,19 +375,59 @@ var timerData = [
 			{
         "type": "Gacha",
         "title": [
-			"Choose Your 4★  Memoria Selection Gacha ",
-            "『選べる★4メモリアセレクションガチャ』"
+			"【Gacha Rerun】Limited-time Akuma Homura-chan pick-up gacha",
+            "『期間限定 悪魔ほむらちゃん ピックアップガチャ』"
         ],
         "image": [
-            "imgs/gatcha/choose-memo.png"
+            "imgs/gatcha/gacha05.png"
         ],
         "column": 1,
         "priority": 4,
         "timers": [
             {
                 name: "",
-                start: "Mar 20 2023, 17:00",
-				end: "Mar 27 2023, 14:59",
+                start: "Mar 27 2023, 17:00",
+				end: "April 5 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【New Gacha】 Paid Only Magia Report Step-UP Gacha",
+            "『有償限定 ステップアップガチャ マギア☆レポート編』"
+        ],
+        "image": [
+            "imgs/gatcha/gacha04.png"
+        ],
+        "column": 1,
+        "priority": 4,
+        "timers": [
+            {
+                name: "",
+                start: "Mar 27 2023, 17:00",
+				end: "April 5 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【【New Gacha】 Magia Report 2019-2021 Magical Girl Pickup Gacha",
+            "『期間限定 マギア☆レポート2019-2021 ピックアップガチャ』"
+        ],
+        "image": [
+            "imgs/gatcha/gacha03.png"
+        ],
+        "column": 1,
+        "priority": 4,
+        "timers": [
+            {
+                name: "",
+                start: "Mar 27 2023, 17:00",
+				end: "April 5 2023, 14:59",
                 extraPriority: 100
             }
         ]
@@ -399,7 +439,7 @@ var timerData = [
             "『有償限定 ステップアップガチャ アニメver.魔法少女編』"
         ],
         "image": [
-            "imgs/gatcha/gatcha01.png"
+            "imgs/gatcha/gatcha01.png",
         ],
         "column": 1,
         "priority": 4,
@@ -407,7 +447,7 @@ var timerData = [
             {
                 name: "",
                 start: "Mar 23 2023, 17:00",
-				end: "Mar 31s 2023, 14:59",
+				end: "Mar 31 2023, 14:59",
                 extraPriority: 100
             }
         ]
@@ -415,11 +455,12 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Daily Free 10 pull Magical Girls from the Anime",
+			"Daily Free 10 Pull Magical Girls from the Anime",
             "『TVアニメ放送1周年記念キャンペーン』"
         ],
         "image": [
-            "imgs/gatcha/gatcha02.png"
+            "imgs/gatcha/gatcha02.png",
+			"imgs/gatcha/gatcha00.png"
         ],
         "column": 1,
         "priority": 21,
@@ -543,7 +584,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"5th Anniversary Choose your 4★ Memoria Selection Gacha ",
+			"【New Gacha】 Paid Only Magia Report Step-UP Gacha",
             "5周年記念 選べる★4メモリアセレクションガチャ"
         ],
         "image": [
