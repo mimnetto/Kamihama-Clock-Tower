@@ -124,6 +124,37 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+            "TV Anime 1st Anniversary Campaign ",
+			"『神浜スパアドベンチャー ビーチに渦巻く悪魔の怨嗟』"
+        ],
+        "image": [
+            "imgs/events/tv01.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				name: "Login Bonus",
+				start: "mar 23 2023, 16:00",
+				end: "mar 31 2023, 23:59",
+				extraPriority: 100
+			},
+			{
+				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
+				start: "mar 10 2023, 18:00",
+				end: "mar 20 2023, 14:59",
+				extraPriority: 100
+			},
+			{
+				name: "Limited-time Daily Missions",
+				start: "mar 23 2023, 18:00",
+				end: "mar 31 2023, 14:59"
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
             "【Event Rerun】Kamihama Beach Spa Adventure: The Demon's Grudge Whirlpooling at the Beach",
 			"『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
@@ -143,37 +174,6 @@ var timerData = [
 				{time: "Mar 31 2023, 16:00", title: "EX Challenge Stages", type: "battle"}
 				],
 				extraPriority: 100
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-            "TV Anime 1st Anniversary Campaign ",
-			"『神浜スパアドベンチャー ビーチに渦巻く悪魔の怨嗟』"
-        ],
-        "image": [
-            "imgs/events/tv01.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			/*{
-				name: "Login Bonus",
-				start: "feb 10 2023, 16:00",
-				end: "feb 20 2023, 23:59",
-				extraPriority: 100
-			},*/
-			{
-				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
-				start: "mar 10 2023, 18:00",
-				end: "mar 20 2023, 14:59",
-				extraPriority: 100
-			},
-			{
-				name: "Limited-time Daily Missions",
-				start: "mar 23 2023, 18:00",
-				end: "mar 31 2023, 14:59"
 			}
         ]
     },
@@ -372,6 +372,26 @@ var timerData = [
             }
         ]
     },
+	{
+        "type": "Gacha",
+        "title": [
+			"Anime ver. Magical Girl Pickup Gacha",
+            "『有償限定 ステップアップガチャ アニメver.魔法少女編』"
+        ],
+        "image": [
+            "imgs/gatcha/gatcha01.png",
+        ],
+        "column": 1,
+        "priority": 4,
+        "timers": [
+            {
+                name: "",
+                start: "Mar 23 2023, 17:00",
+				end: "Mar 31 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
 			{
         "type": "Gacha",
         "title": [
@@ -428,26 +448,6 @@ var timerData = [
                 name: "",
                 start: "Mar 27 2023, 17:00",
 				end: "April 5 2023, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
-        "type": "Gacha",
-        "title": [
-			"Anime ver. Magical Girl Pickup Gacha",
-            "『有償限定 ステップアップガチャ アニメver.魔法少女編』"
-        ],
-        "image": [
-            "imgs/gatcha/gatcha01.png",
-        ],
-        "column": 1,
-        "priority": 4,
-        "timers": [
-            {
-                name: "",
-                start: "Mar 23 2023, 17:00",
-				end: "Mar 31 2023, 14:59",
                 extraPriority: 100
             }
         ]
