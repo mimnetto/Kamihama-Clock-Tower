@@ -176,12 +176,31 @@ var timerData = [
 				extraPriority: 100
 			}
         ]
+    },	{
+        "type": "Event",
+        "title": [
+            "Magical Paper Sumo: Deluxe Edition",
+			"「マジカルカルタ」"
+        ],
+        "image": [
+            "imgs/events/papa00.png"
+        ],
+        "column": 0,
+        "priority": 5,
+        "timers": [
+			{
+				name: "",
+				start: "Mar 31 2023, 17:00",
+				end: "April 17 2023, 14:59",
+				extraPriority: 100
+			}
+        ]
     },
 		{
         "type": "Event",
         "title": [
-            "Little Bird's Star",
-			"Little Bird's Star"
+            "Magical Paper Sumo: Deluxe Edition",
+			"「マジカルカルタ」"
         ],
         "image": [
             "imgs/2602/banner_0655_m.png"
@@ -191,8 +210,8 @@ var timerData = [
         "timers": [
 			{
 				name: "",
-				start: "feb 27 2023, 16:00",
-				end: "mar 10 2023, 14:59",
+				start: "mar 31 2022, 16:00",
+				end: "april 17 2022, 14:59",
 				extraPriority: 100,
 				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 3 2023, 16:00", type: "battle"}]
