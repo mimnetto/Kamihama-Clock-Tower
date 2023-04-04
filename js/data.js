@@ -176,14 +176,16 @@ var timerData = [
 				extraPriority: 100
 			}
         ]
-    },	{
+    },	
+		{
         "type": "Event",
         "title": [
             "Magical Paper Sumo: Deluxe Edition",
 			"「マジカルカルタ」"
         ],
         "image": [
-            "imgs/events/papa00.png"
+            "imgs/events/papa00.png",
+			"imgs/events/papa02.png"
         ],
         "column": 0,
         "priority": 5,
@@ -221,22 +223,22 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Puella・Historia: Mirage of Alexandria Arc",
-			"『ピュエラ・ヒストリア アレクサンドリアの蜃気楼編』"
+            "【New Event】Kamihama MVD Tamaki Iroha's Detective Files",
+			"『神浜MVD 環いろはの事件簿』"
         ],
         "image": [
-            "imgs/2602/banner_0657_m.png"
+            "imgs/events/event01.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
 				name: "",
-				start: "mar 10 2023, 18:00",
-				end: "mar 20 2023, 14:59",
+				start: "april 5 2023, 16:00",
+				end: "april 17 2023, 15:59",
 				extraPriority: 100,
 				markers:
-				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 14 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 13-24 & 100Evils I~III", time: "april 11 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -259,14 +261,14 @@ var timerData = [
 				end: "april 12 2023, 14:59"
 			},
 			{
-				name: "Adjuster Coin Shop: Brown (Memoria Selection)",
-				start: "Mar 20 2023, 16:00",
-				end: "Mar 27 2023, 14:59"
+				name: "Adjuster Coin Shop: Yellow (Infinity Iroha-chan)",
+				start: "april 5 2023, 16:00",
+				end: "april 24 2023, 14:59"
 			},
 			{
-				name: "Ranking Mirrors Related Packs",
-				start: "Mar 20 2022, 16:00",
-				end: "Mar 27 2022, 14:59"
+				name: "Choose your 4☆ Memoria Trade-in Ticket Yellow",
+				start: "april 5 2023, 16:00",
+				end: "april 24 2023, 14:59"
 			},
 			{
 				name: "Valentines Day Message - Event Shops & Missions",
@@ -294,19 +296,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"Ranking Mirrors Related Packs",
+		"Choose your 4☆ Memoria Trade-in Ticket Yellow",
 		"【ミラーズランキング開催記念】"
 		],
 		image: [
-            "imgs/shops/mirrors-pack.png"
+            ""
         ],
 		column: 2,
 		priority: 5,
 		timers: [
 		{
 			name: "Sales period",
-			start: "Mar 20 2023, 17:00",
-			end: "Mar 27 2023, 14:59",
+			start: "april 5 2022, 16:00",
+			end: "april 24 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -314,7 +316,7 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"TV Anime 1st Anniversary Support Packs",
+		"Magical Paper Sumo: Deluxe Edition",
 		"魔法少女たると☆マギカコラボ記念 育成応援パックの販売"
 		],
 		image: [
@@ -364,9 +366,9 @@ var timerData = [
         priority: 4,
         timers: [
             {
-                name: "",
-                start: "mar 20 2023, 16:00",
-                end: "mar 20 2023, 18:00",
+                name: "Scheduled Time",
+                start: "april 5 2023, 15:00",
+                end: "april 5 2023, 16:00",
 				extraPriority: 1000
             }
         ]
@@ -454,7 +456,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【【New Gacha】 Magia Report 2019-2021 Magical Girl Pickup Gacha",
+			"【New Gacha】 Magia Report 2019-2021 Magical Girl Pickup Gacha",
             "『期間限定 マギア☆レポート2019-2021 ピックアップガチャ』"
         ],
         "image": [
@@ -701,12 +703,12 @@ var timerData = [
 		{
         "type": "Gacha",
         "title": [
-			"Limited-time Ebony Pickup and STEP-UP Gachas",
-            "『有償限定 ステップアップガチャ エボニー編』"
+			"【New Gacha】Limited-time Infinity Iroha-chan Pickup & Step-UP Gacha",
+            "『期間限定 無限大いろはちゃん ピックアップガチャ』"
         ],
         "image": [
-            "imgs/2602/gachabanner_1349_m.png",
-			"imgs/2602/gachabanner_1350_m.png"
+            "imgs/gatcha/gacha06.png",
+			"imgs/gatcha/gacha0602.png"
 
 
         ],
@@ -715,8 +717,8 @@ var timerData = [
         "timers": [
             {
                 name: "",
-                start: "mar 10 2023, 18:00",
-				end: "mar 20 2023, 14:59",
+                start: "April 5 2023, 16:00",
+				end: "April 17 2023, 15:59",
                 extraPriority: 100
             }
         ]
