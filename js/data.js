@@ -256,7 +256,7 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Adjuster Coin Shop: Purple (Magia Report 2019-2021)",
+				name: "Adjuster Coin Shop: Purple (Magia Report '19-'21)",
 				start: "mar 27 2023, 18:00",
 				end: "april 12 2023, 14:59"
 			},
@@ -357,7 +357,7 @@ var timerData = [
         type: "Maintenance",
         title: [
             "Maintenance",
-			"维护"
+			"【メンテナンス】"
         ],
 		"image": [
 			"imgs/maintenance.png"
