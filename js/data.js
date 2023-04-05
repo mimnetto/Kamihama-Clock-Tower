@@ -188,7 +188,7 @@ var timerData = [
 			"imgs/events/papa02.png"
         ],
         "column": 0,
-        "priority": 5,
+        "priority": 2,
         "timers": [
 			{
 				name: "",
@@ -230,7 +230,7 @@ var timerData = [
             "imgs/events/event01.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 5,
         "timers": [
 			{
 				name: "",
