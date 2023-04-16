@@ -23,29 +23,29 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Moving Aquamarine Heels Kimochi Battle",
-            "キモチ戦振動するアクアマリンの踵"
+			"Docile Ruby Navel",
+            "『キモチ戦 従順なルビーのへそ』"
         ],
         "image": [
-            "imgs/2002/banner_0351_m.png"
+            "imgs/events/kimochi00.png"
         ],
         "column": 0,
         "priority": 500,
         "timers": [
 			{
-				name: "Part 1 - Day 1",
-				start: "Feb 20 2023, 17:00",
-				end: "Feb 21 2023, 15:59"
+				name: "Part One",
+				start: "April 17 2023, 18:00",
+				end: "April 19 2023, 15:59"
 			},
 			{
-				name: "Part 1 - Day 2",
-				start: "Feb 21 2023, 16:00",
+				name: "Part Two",
+				start: "April 19 2023, 17:00",
 				end: "Feb 22 2023, 15:59"
 			},
-			{
+			/*{
 				name: "Part 2 - Day 1",
-				start: "Feb 22 2023, 17:00",
-				end: "Feb 23 2023, 15:59"
+				start: "April 22 2023, 17:00",
+				end: "April 23 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
@@ -56,11 +56,11 @@ var timerData = [
 				name: "Part 2 - Day 3",
 				start: "Feb 24 2023, 16:00",
 				end: "Feb 25 2023, 15:59"
-			},
+			}, */
             {
-                "name": "Main Event",
-                "start": "April 20 2023, 17:00",
-                "end": "Feb 25 2023, 15:59",
+                "name": "Counting Period",
+                "start": "April 22 2023, 17:00",
+                "end": "April 22 2023, 16:00",
                 "extraPriority": 1000,
 				"type": "normal",
 				markers:
@@ -176,7 +176,7 @@ var timerData = [
 				extraPriority: 100
 			}
         ]
-    },	
+    },
 		{
         "type": "Event",
         "title": [
@@ -297,7 +297,7 @@ var timerData = [
 		type: "Other",
 		title: [
 		"Choose your 4☆ Memoria Trade-in Ticket Yellow",
-		"【ミラーズランキング開催記念】"
+		"「水属性魔法少女育成パック」"
 		],
 		image: [
             ""
@@ -336,19 +336,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"2000 Days Since Release Packs",
-		"2000日記念パック"
+		"Aqua Attribute Strengthening Pack",
+		"「水属性魔法少女育成パック」"
 		],
 		image: [
-            "imgs/1002/banner_0653_m.png"
+            "imgs/shops/shop02.png"
         ],
 		column: 2,
 		priority: 5,
 		timers: [
 		{
 			name: "",
-			start: "Feb 10 2023, 16:00",
-			end: "Feb 20 2023, 14:59",
+			start: "April 17 2023, 17:00",
+			end: "April 24 2023, 15:59",
 			extraPriority: 100
 		}
 		]
@@ -396,19 +396,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Anime ver. Magical Girl Pickup Gacha",
-            "『有償限定 ステップアップガチャ アニメver.魔法少女編』"
+			"【Paid Gacha】Limited-time Paid 4★ Aqua Attribute Magical Girl Guaranteed Gacha",
+            "【水属性★4確定ガチャ予告】"
         ],
         "image": [
-            "imgs/gatcha/gatcha01.png",
+            "imgs/gatcha/blue00.png",
         ],
         "column": 1,
         "priority": 4,
         "timers": [
             {
                 name: "",
-                start: "Mar 23 2023, 17:00",
-				end: "Mar 31 2023, 14:59",
+                start: "April 17 2023, 18:00",
+				end: "April 24 2023, 15:59",
                 extraPriority: 100
             }
         ]

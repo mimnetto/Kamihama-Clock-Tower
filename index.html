@@ -97,12 +97,12 @@
 								<li> <a target="_blank" href="https://magireco-friends.com/lang/en">Magireco-friends</a> </li>
 							</ul>
 							<h4 class="link-type">Wikis and Tools</h4>
-							<ul>						
+							<ul>
 								<li> <a target="_blank" href="https://magireco.fandom.com/wiki/Magia_Record_English_Wiki">Fandom wiki</a> </li>
 								<li> <a target="_blank" href="https://magireco.moe/wiki/%E9%A6%96%E9%A1%B5">MagiReco Chinese Wiki (中文)  </a> </li>
 								<li> <a target="_blank" href="https://wikiwiki.jp/magireco/">2ch wiki (日本語)  </a> </li>
 								<li> <a target="_blank" href="https://drops.rumor.moe/#/">Dropsheet Lookup Tool</a> </li>
-								<li> <a target="_blank" href="https://magireco-mes.netlify.app/">MagiReco-MES SE Lookup Tool (日本語)</a> </li>		
+								<li> <a target="_blank" href="https://magireco-mes.netlify.app/">MagiReco-MES SE Lookup Tool (日本語)</a> </li>
 							</ul>
 							<h4 class="link-type">Story and Puella Magi (EN)</h4>
 							<ul>
@@ -134,15 +134,20 @@
 				 </select>
 				<div class='alert-container' :class='{ alertsshow: alerts.length > 0 }'>
 					<div v-for='(item, index) in alerts' class="alert" :class="'alert-'+alertTypes[0]" role="alert" v-html="item"></div>
-				</div>	
+				</div>
 				<div class="info-buttons">
 								<!--info button-->
 					<span class='contact-button bg-warning text-dark' data-toggle="modal" data-target="#modalInfo">Info</span>
 					<span class='link-button bg-warning text-dark' data-toggle="modal" data-target="#modalLinks">Links</span>
 				</div>
+				<div>
+					<h6>※ Hi hi! I am currently on vacation so this update was done very quickly and is less than perfect. Please do not hesitate to let me know if you find errors.</br>
+						I will check my work and fix everything when I get home on Tuesday. Thanks for the support!
+					  </h6>
+				</div>
 			</div>
 
-			
+
 			<div v-if="new Date().getTimezoneOffset() !== -540" class="btn-group btn-group-toggle time-buttons fixed">
 				<label class="btn btn-primary btn-sm" :class="{active: currentZone == 'japan' }" id="japan-time">
 					<input type="radio" name="options" value="japan" v-model="currentZone" @change="changeTimezone" > <h5>Use Server Time</h5>
@@ -153,7 +158,7 @@
 					<h5>Use Local Time</h5>
 					<span v-text="localTime"></span>
 				</label>
-			</div> 
+			</div>
 
 			<div class="row" id="columns-holder">
 				<div v-for="col in timersData" class="col-md-6 col-xl">
@@ -170,7 +175,7 @@
 			document.getElementsByClassName("c-header")[0].innerHTML='<img src="imgs/pocketwatch-sm.png"/> Events'
 			document.getElementsByClassName("c-header")[1].innerHTML='<img src="imgs/global_gacha.png"/> Gacha'
 			document.getElementsByClassName("c-header")[2].innerHTML='<img src="imgs/global_shop.png"/> Shops'
-			
+
 			//document.getElementById("days");
 		</script>
 	</body>
