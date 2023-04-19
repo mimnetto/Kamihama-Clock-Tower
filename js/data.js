@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "April 3 2023, 18:00";
+var possibleNextAnnouncementDate = "April 21 2023, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -33,38 +33,38 @@ var timerData = [
         "priority": 500,
         "timers": [
 			{
-				name: "Part One",
+				name: "Part 1 - Day 1",
 				start: "April 17 2023, 18:00",
+				end: "April 18 2023, 15:59"
+			},
+			{
+				name: "Part 1 - Day 2",
+				start: "April 18 2023, 16:00",
 				end: "April 19 2023, 15:59"
 			},
 			{
-				name: "Part Two",
-				start: "April 19 2023, 17:00",
-				end: "Feb 22 2023, 15:59"
-			},
-			/*{
 				name: "Part 2 - Day 1",
-				start: "April 22 2023, 17:00",
-				end: "April 23 2023, 15:59"
+				start: "April 19 2023, 16:00",
+				end: "April 20 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "Feb 23 2023, 16:00",
-				end: "Feb 24 2023, 15:59"
+				start: "April 20 2023, 16:00",
+				end: "April 21 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "Feb 24 2023, 16:00",
-				end: "Feb 25 2023, 15:59"
-			}, */
+				start: "April 21 2023, 16:00",
+				end: "April 22 2023, 15:59"
+			}, 
             {
-                "name": "Counting Period",
-                "start": "April 22 2023, 17:00",
+                "name": "Main Event",
+                "start": "April 17 2023, 18:00",
                 "end": "April 22 2023, 16:00",
                 "extraPriority": 1000,
 				"type": "normal",
 				markers:
-				[{time: "Feb 22 2023, 17:00", title: "Part 2 - Groups", type: "battle"}]
+				[{time: "April 19 2023, 16:00", title: "Part 2 - Groups", type: "battle"}]
 			}
 			]
     },
@@ -256,6 +256,11 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
+				name: "Adjuster Coin Shop: Water",
+				start: "april 17 2023, 18:00",
+				end: "may 01 2023, 14:59"
+			},
+			{
 				name: "Adjuster Coin Shop: Purple (Magia Report '19-'21)",
 				start: "mar 27 2023, 18:00",
 				end: "april 12 2023, 14:59"
@@ -271,7 +276,7 @@ var timerData = [
 				end: "april 24 2023, 14:59"
 			},
 			{
-				name: "Valentines Day Message - Event Shops & Missions",
+				name: "Kamihama M",
 				start: "Feb 10 2023, 16:00",
 				end: "Feb 27 2023, 14:59"
 			},
@@ -279,11 +284,6 @@ var timerData = [
 				name: "Little Bird's Star - Event Shop & Missions",
 				start: "Feb 27 2023, 16:00",
 				end: "Mar 17 2023, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Ebony Gacha",
-				start: "mar 10 2022, 18:00",
-				end: "mar 27 2022, 14:59"
 			},
 			{
 				name: "Ranking Mirrors Related Packs",
@@ -347,10 +347,36 @@ var timerData = [
 		timers: [
 		{
 			name: "",
-			start: "April 17 2023, 17:00",
-			end: "April 24 2023, 15:59",
-			extraPriority: 100
+			start: "April 17 2023, 18:00",
+			end: "April 24 2023, 14:59",
+			extraPriority: 1000
 		}
+		]
+	},
+	{
+		type: "Other",
+		title: [
+		"Event Quests Currency Shops",
+		"「イベントクエスト 通貨ショップ」"
+		],
+		image: [
+            "imgs/quest-shop.png"
+        ],
+		column: 2,
+		priority: 6,
+		timers: [
+		{
+			name: "Kamihama MVD - Exchangeable Boomerang",
+			start: "April 5 2023, 16:00",
+			end: "April 24 2023, 14:59",
+			extraPriority: 100
+		},
+		{
+			name: "Kimochi Medal - Ruby Navel",
+			start: "April 17 2023, 18:00",
+			end: "May 05 2023, 14:59",
+			extraPriority: 100
+		},
 		]
 	},
 	{
@@ -400,7 +426,7 @@ var timerData = [
             "【水属性★4確定ガチャ予告】"
         ],
         "image": [
-            "imgs/gatcha/blue00.png",
+            "imgs/gatcha/blue02.png",
         ],
         "column": 1,
         "priority": 4,
@@ -408,7 +434,7 @@ var timerData = [
             {
                 name: "",
                 start: "April 17 2023, 18:00",
-				end: "April 24 2023, 15:59",
+				end: "April 24 2023, 14:59",
                 extraPriority: 100
             }
         ]
@@ -416,19 +442,19 @@ var timerData = [
 			{
         "type": "Gacha",
         "title": [
-			"【Gacha Rerun】Limited-time Akuma Homura-chan pick-up gacha",
-            "『期間限定 悪魔ほむらちゃん ピックアップガチャ』"
+			"【New Gacha】Aqua Attribute Pickup Gacha",
+            "『水属性魔法少女 ピックアップガチャ』"
         ],
         "image": [
-            "imgs/gatcha/gacha05.png"
+            "imgs/gatcha/blue00.png"
         ],
         "column": 1,
         "priority": 4,
         "timers": [
             {
                 name: "",
-                start: "Mar 27 2023, 17:00",
-				end: "April 5 2023, 14:59",
+                start: "April 17 2023, 18:00",
+				end: "April 24 2023, 14:59",
                 extraPriority: 100
             }
         ]

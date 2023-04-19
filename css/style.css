@@ -6,7 +6,8 @@
     --sayaka: #385EE8;
     --akuma: #5f00b5;
     --kami: #bb0e79;
-    --sana: #029f32;
+    --sana: #1aa143;
+    --alina: #defbae;
   }
 
 body {
@@ -211,7 +212,7 @@ h1.c-header{
 .line {
     flex-grow: 1;
     text-align: center;
-    background-color: rgb(0 123 255 / 25%);
+    background-color: var(--alina);
     border: 1px solid #BDBDBD;
     border-right: 0;
     border-left: 0;
@@ -219,7 +220,7 @@ h1.c-header{
     display: flex;
 }
 .line.header {
-    background-color: var(--sayaka);
+    background-color: var(--sana);
     font-weight: bold;
     color: white;
 }

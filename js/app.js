@@ -9,7 +9,7 @@ var thumbnailMap = {
     "kanna": "imgs/kanna.png",
     "clea": "imgs/clea.png",
     "leine": "imgs/leine.png",
-    "cork": "imgs/cork.png",
+    "cork": "imgs/quest-shop.png",
     "polka": "imgs/polka.png"
 };
 var elementsMap = {
