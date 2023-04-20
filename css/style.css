@@ -58,6 +58,9 @@ div#header h1{
 div#header h4{
     font-variant: small-caps;
 }
+div#header h6{
+    font-variant: small-caps;
+}
 .event-group {
     background-color: #ffe0ff;
     padding: 0.5rem;
