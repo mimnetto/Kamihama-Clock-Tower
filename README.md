@@ -3,5 +3,4 @@ A modded version of RiceKirby's project https://github.com/IceKirby/kirafan-time
 
 View it at https://mimnetto.github.io/Kamihama-Clock-Tower/
 
-#
-Edited by Darruko and Cori and maintained by Mimi Hamburger.
+# Created by Darruko and Edited for MagiaReci by Cori and maintained by Mimi Hamburger.
