@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "April 21 2023, 18:00";
+var possibleNextAnnouncementDate = "May 5 2023, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -124,49 +124,51 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "TV Anime 1st Anniversary Campaign ",
-			"『神浜スパアドベンチャー ビーチに渦巻く悪魔の怨嗟』"
+            "Puella・Historia Strategy Campaign  ",
+			"『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
         "image": [
-            "imgs/events/tv01.png"
+            "imgs/quest/quest00.png",
+			"imgs/events/historia001.png"
+
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "Login Bonus",
-				start: "mar 23 2023, 16:00",
-				end: "mar 31 2023, 23:59",
+				name: "Limited-time missions",
+				start: "april 24 2023, 16:00",
+				end: "may 8 2023, 23:59",
 				extraPriority: 100
 			},
 			{
 				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
-				start: "mar 10 2023, 18:00",
-				end: "mar 20 2023, 14:59",
+				start: "april 24 2023, 16:00",
+				end: "may 8 2023, 23:59",
 				extraPriority: 100
 			},
 			{
 				name: "Limited-time Daily Missions",
-				start: "mar 23 2023, 18:00",
-				end: "mar 31 2023, 14:59"
+				start: "april 24 2023, 16:00",
+				end: "may 8 2023, 23:59",
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-            "【Event Rerun】Kamihama Beach Spa Adventure: The Demon's Grudge Whirlpooling at the Beach",
-			"『ピュエラ・ヒストリア攻略キャンペーン』"
+            "【New Event】Puella · Historia: Valkyrie of Vik",
+			"『ピュエラ・ヒストリア ヴィークのワルキューレ編』』"
         ],
         "image": [
-            "imgs/events/event00.png"
+            "imgs/events/historia002.png"
         ],
         "column": 0,
         "priority": 5,
         "timers": [
 			{
 				name: "",
-				start: "Mar 27 2023, 17:00",
+				start: "April 24 2023, 16:00",
 				end: "April 5 2023, 14:59",
 				markers:
 				[
@@ -223,22 +225,22 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【New Event】Kamihama MVD Tamaki Iroha's Detective Files",
-			"『神浜MVD 環いろはの事件簿』"
+            "【New Event】Puella · Historia: Valkyrie of Vik",
+			"『ピュエラ・ヒストリア ヴィークのワルキューレ編』』"
         ],
         "image": [
-            "imgs/events/event01.png"
+            "imgs/events/historia002.png"
         ],
         "column": 0,
         "priority": 5,
         "timers": [
 			{
 				name: "",
-				start: "april 5 2023, 16:00",
-				end: "april 17 2023, 15:59",
+				start: "april 24 2023, 16:00",
+				end: "may 8 2023, 15:59",
 				extraPriority: 100,
 				markers:
-				[{title: "Story Quests 13-24 & 100Evils I~III", time: "april 11 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 21-40 & 100Evils I~III", time: "May 1 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -502,19 +504,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Daily Free 10 Pull Magical Girls from the Anime",
-            "『TVアニメ放送1周年記念キャンペーン』"
+			"【New Gacha】Limited-time Gunhild Pickup & Paid Gacha",
+            "『有償限定 ステップアップガチャ オルガ編』"
         ],
         "image": [
-            "imgs/gatcha/gatcha02.png",
-			"imgs/gatcha/gatcha00.png"
+            "imgs/gatcha/gatcha002.png",
+			"imgs/gatcha/gatcha00201.png"
         ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
                 name: "",
-                start: "Mar 24 2023, 00:00",
+                start: "April 24 2023, 00:00",
 				end: "Mar 31 2023, 23:59",
                 extraPriority: 100,
 				markers:
@@ -752,21 +754,42 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Kuroe Pickup and STEP-UP Gachas",
-            "期間限定 黒江 ピックアップ&ステップアップガチャ"
+			"【New Gacha】Limited-time Olga Pickup & Paid Gacha",
+            "『有償限定 ステップアップガチャ オルガ編』"
         ],
         "image": [
-            "imgs/2602/gachabanner_1341_m.png",
-			"imgs/2602/gachabanner_1342_m.png"
+            "imgs/gatcha/gatcha002.png",
+			"imgs/gatcha/gatcha00201.png"
         ],
         "column": 1,
         "priority": 16,
         "timers": [
             {
                 name: "",
-                start: "Feb 27 2023, 16:00",
-				end: "Mar 10 2023, 14:59",
-                extraPriority: 100
+                start: "April 24 2023, 16:00",
+				end: "May 8 2023, 14:59",
+                extraPriority: 1000
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【New Gacha】Limited-time Gunhild Pickup & Paid Gacha",
+            "『有償限定 ステップアップガチャ オルガ編』"
+        ],
+        "image": [
+            "imgs/gatcha/gatcha001.png",
+			"imgs/gatcha/gatcha00203.png"
+        ],
+        "column": 1,
+        "priority": 16,
+        "timers": [
+            {
+                name: "",
+                start: "April 24 2023, 16:00",
+				end: "May 8 2023, 14:59",
+                extraPriority: 1000
             }
         ]
     },
