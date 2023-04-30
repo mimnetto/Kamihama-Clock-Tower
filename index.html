@@ -52,10 +52,16 @@
 							</button>
 						</div>
 						<div class="modal-body">
-							<p class="center"><a target="_blank" href="https://github.com/mimnetto/Kamihama-Clock-Tower">
+							<p class="center">
+							<a target="_blank" href="https://github.com/mimnetto/Kamihama-Clock-Tower">
 								<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
 									<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
 								</svg>
+							</a>
+							<a target="_blank" href="https://twitter.com/Kamihami_Clock">
+							<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+								<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+							  </svg>
 							</a>
 							</p>
 							<p>
@@ -67,6 +73,7 @@
 							<ul>
 								<li> Discord: Mimi Hamburger#0707 </li>
 								<li> GitHub: <a target="_blank" href='https://github.com/mimnetto'> miminetto</a></li>
+								<li>Twitter: <a target="_blank" href='https://twitter.com/Kamihami_Clock'>Kamihami_Clock</a></li>
 							</ul>
 							<p><b>Special thanks to:</b></p>
 							<ul>
@@ -97,12 +104,12 @@
 								<li> <a target="_blank" href="https://magireco-friends.com/lang/en">Magireco-friends</a> </li>
 							</ul>
 							<h4 class="link-type">Wikis and Tools</h4>
-							<ul>
+							<ul>						
 								<li> <a target="_blank" href="https://magireco.fandom.com/wiki/Magia_Record_English_Wiki">Fandom wiki</a> </li>
 								<li> <a target="_blank" href="https://magireco.moe/wiki/%E9%A6%96%E9%A1%B5">MagiReco Chinese Wiki (中文)  </a> </li>
 								<li> <a target="_blank" href="https://wikiwiki.jp/magireco/">2ch wiki (日本語)  </a> </li>
 								<li> <a target="_blank" href="https://drops.rumor.moe/#/">Dropsheet Lookup Tool</a> </li>
-								<li> <a target="_blank" href="https://magireco-mes.netlify.app/">MagiReco-MES SE Lookup Tool (日本語)</a> </li>
+								<li> <a target="_blank" href="https://magireco-mes.netlify.app/">MagiReco-MES SE Lookup Tool (日本語)</a> </li>		
 							</ul>
 							<h4 class="link-type">Story and Puella Magi (EN)</h4>
 							<ul>
@@ -127,6 +134,11 @@
 			<div id="header" v-show="showHeader">
 				<h1 class="heading">Kamihama Clock Tower: MagiReco Event Timers</h1>
 				<text-timer v-bind:d_since_release='d_since_release' v-bind:t_to_next_ann='t_to_next_ann' v-bind:t_to_next_anniv='t_to_anniv'></text-timer>
+				<div>
+					<h6 id="header">※ Hi everyone! I have made a twitter account for updates and delays on the clock tower. Please follow <a href="https://twitter.com/Kamihami_Clock" target="_blank">@Kamihami_Clock</a> for info on updates.
+						<br>&nbsp&nbsp&nbsp Thanks again for your support!
+					  </h6>
+			</div>
 				<select id="theme-switcher">
 					<option value="default" selected>MadoMode</option>
 					<option value="dark">HomuMode</option>
@@ -134,19 +146,15 @@
 				 </select>
 				<div class='alert-container' :class='{ alertsshow: alerts.length > 0 }'>
 					<div v-for='(item, index) in alerts' class="alert" :class="'alert-'+alertTypes[0]" role="alert" v-html="item"></div>
-				</div>
+				</div>	
 				<div class="info-buttons">
 								<!--info button-->
 					<span class='contact-button bg-warning text-dark' data-toggle="modal" data-target="#modalInfo">Info</span>
 					<span class='link-button bg-warning text-dark' data-toggle="modal" data-target="#modalLinks">Links</span>
-					<div>
-						<h6 id="header">※ Hi everyone! I have made a twitter account for updates and delays on the clock tower. Please follow <a href="https://twitter.com/Kamihami_Clock" target="_blank">@Kamihami_Clock</a> for info on updates.
-							<br> Thanks again for your support!
-						  </h6>
 				</div>
 			</div>
 
-
+			
 			<div v-if="new Date().getTimezoneOffset() !== -540" class="btn-group btn-group-toggle time-buttons fixed">
 				<label class="btn btn-primary btn-sm" :class="{active: currentZone == 'japan' }" id="japan-time">
 					<input type="radio" name="options" value="japan" v-model="currentZone" @change="changeTimezone" > <h5>Use Server Time</h5>
@@ -157,7 +165,7 @@
 					<h5>Use Local Time</h5>
 					<span v-text="localTime"></span>
 				</label>
-			</div>
+			</div> 
 
 			<div class="row" id="columns-holder">
 				<div v-for="col in timersData" class="col-md-6 col-xl">
@@ -174,7 +182,7 @@
 			document.getElementsByClassName("c-header")[0].innerHTML='<img src="imgs/pocketwatch-sm.png"/> Events'
 			document.getElementsByClassName("c-header")[1].innerHTML='<img src="imgs/global_gacha.png"/> Gacha'
 			document.getElementsByClassName("c-header")[2].innerHTML='<img src="imgs/global_shop.png"/> Shops'
-
+			
 			//document.getElementById("days");
 		</script>
 	</body>
