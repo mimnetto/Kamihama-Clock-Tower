@@ -239,7 +239,7 @@ var timerData = [
 				end: "may 8 2023, 14:59",
 				extraPriority: 100,
 				markers:
-				[{title: "Story Quests 21-40 & 100Evils I~III", time: "May 1 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 21-40 & 100Evils I~III", time: "May 1 2023, 15:00", type: "battle"}]
 			}
         ]
     },
