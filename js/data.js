@@ -367,9 +367,9 @@ var timerData = [
 		priority: 1,
 		timers: [
 		{
-			name: "Kamihama MVD - Exchangeable Boomerang",
-			start: "April 5 2023, 16:00",
-			end: "April 24 2023, 14:59",
+			name: "Puella Historia Valkyrie of Vik -  ᚺ - Hail Rune",
+			start: "April 14 2023, 16:00",
+			end: "May 15 2023, 14:59",
 			extraPriority: 100
 		},
 		{
