@@ -632,12 +632,12 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			" 4★Selectable Pickup Single Free Pull",
+			"4★Selectable Pickup & Single Free Pull",
             "『選べる期間限定★4魔法少女 ピックアップガチャ』"
         ],
         "image": [
             "imgs/events/event03.png",
-			"imgs/gacha_sp00.png"
+			"imgs/gatcha/gacha_sp00.png"
         ],
         "column": 1,
         "priority": 6,
