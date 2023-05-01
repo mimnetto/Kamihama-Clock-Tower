@@ -163,19 +163,19 @@ var timerData = [
 			{
 				name: "Limited-time missions",
 				start: "april 24 2023, 16:00",
-				end: "may 8 2023, 15:59",
+				end: "may 8 2023, 14:59",
 				extraPriority: 10
 			},
 			{
 				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
 				start: "april 24 2023, 16:00",
-				end: "may 8 2023, 15:59",
+				end: "may 8 2023, 14:59",
 				extraPriority: 10
 			},
 			{
 				name: "Limited-time Daily Missions",
 				start: "april 24 2023, 16:00",
-				end: "may 8 2023, 15:59",
+				end: "may 8 2023, 14:59",
 			}
         ]
     },
@@ -236,7 +236,7 @@ var timerData = [
 			{
 				name: "",
 				start: "april 24 2023, 16:00",
-				end: "may 8 2023, 15:59",
+				end: "may 8 2023, 14:59",
 				extraPriority: 100,
 				markers:
 				[{title: "Story Quests 21-40 & 100Evils I~III", time: "May 1 2023, 16:00", type: "battle"}]
@@ -434,8 +434,8 @@ var timerData = [
         "timers": [
             {
                 name: "",
-                start: "May 2 2023, 00:00",
-				end: "May 19 2023, 23:59",
+                start: "May 2 2022, 00:00",
+				end: "May 19 2022, 23:59",
                 extraPriority: 100
             }
         ]
@@ -637,6 +637,7 @@ var timerData = [
         ],
         "image": [
             "imgs/events/event03.png",
+			"imgs/gacha_sp00.png"
         ],
         "column": 1,
         "priority": 6,
@@ -814,7 +815,8 @@ var timerData = [
             "5周年記念 選べる期間限定★4魔法少女ピックアップガチャ"
         ],
         "image": [
-            "imgs/anniv/gachabanner_1107_m.png"
+            "imgs/anniv/gachabanner_1107_m.png",
+			"imgs/gatcha/gacha_sp00.png"
         ],
         "column": 1,
         "priority": 15,
