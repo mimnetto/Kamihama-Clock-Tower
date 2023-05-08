@@ -202,19 +202,19 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "Magical Paper Sumo: Deluxe Edition",
-			"「マジカルカルタ」"
+            "Battle Museum",
+			"【バトルミュージアム予告】"
         ],
         "image": [
-            "imgs/2602/banner_0655_m.png"
+            "imgs/events/banner_0530.png"
         ],
         "column": 0,
         "priority": 3,
         "timers": [
 			{
 				name: "",
-				start: "mar 31 2022, 16:00",
-				end: "april 17 2022, 14:59",
+				start: "May 8 2023, 16:00",
+				end: "May 19 2023, 14:59",
 				extraPriority: 100,
 				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 3 2023, 16:00", type: "battle"}]
@@ -267,7 +267,7 @@ var timerData = [
 				end: "May 15 2023, 14:59",
 			},
 			{
-				name: "Adjuster Coin Shop: Yellow (Infinity Iroha-chan)",
+				name: " Livia's Special Offer",
 				start: "april 5 2023, 16:00",
 				end: "april 24 2023, 14:59"
 			},
@@ -317,19 +317,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"Magical Paper Sumo: Deluxe Edition",
-		"魔法少女たると☆マギカコラボ記念 育成応援パックの販売"
+		" Livia's Special Offer",
+		"『リヴィアのスペシャルオファー』"
 		],
 		image: [
-            "imgs/shops/shop00.png"
+            "imgs/shops/livia00.png"
         ],
 		column: 2,
 		priority: 6,
 		timers: [
 		{
 			name: "Sales period",
-			start: "Mar 23 2023, 16:00",
-			end: "Mar 31 2023, 14:59",
+			start: "May 8 2023, 16:00",
+			end: "May 19 2023, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -337,20 +337,20 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"Aqua Attribute Strengthening Pack",
-		"「水属性魔法少女育成パック」"
+		"Mitama's Special Offer",
+		"『みたまのスペシャルオファー』"
 		],
 		image: [
-            "imgs/shops/shop02.png"
+            "imgs/shops/mitama00.png"
         ],
 		column: 2,
 		priority: 5,
 		timers: [
 		{
 			name: "",
-			start: "April 17 2023, 18:00",
-			end: "April 24 2023, 14:59",
-			extraPriority: 1000
+			start: "May 8 2023, 16:00",
+			end: "May 19 2023, 14:59",
+			extraPriority: 100
 		}
 		]
 	},
@@ -394,8 +394,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "april 17 2023, 15:00",
-                end: "april 17 2023, 16:00",
+                start: "May 8 2023, 15:00",
+                end: "May 8 2023, 16:00",
 				extraPriority: 1000
             }
         ]
@@ -790,20 +790,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Limited-time Gunhild Pickup & Paid Gacha",
-            "『有償限定 ステップアップガチャ オルガ編』"
+			"Ren Paid Step Up Gacha",
+            "『有償限定 ステップアップガチャ』"
         ],
         "image": [
-            "imgs/gatcha/gatcha001.png",
-			"imgs/gatcha/gatcha00203.png"
+            "imgs/gatcha/gatcha-ren.png"
         ],
         "column": 1,
         "priority": 16,
         "timers": [
             {
                 name: "",
-                start: "April 24 2023, 16:00",
-				end: "May 8 2023, 14:59",
+                start: "May 8 2023, 16:00",
+				end: "May 19 2023, 14:59",
                 extraPriority: 1000
             }
         ]
@@ -811,7 +810,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"5th Anniversary Choose your 4★ Limited Magical Girl Pickup Gacha ",
+			"Battle Museum, Special Offers and Ren Step Up Gacha",
             "5周年記念 選べる期間限定★4魔法少女ピックアップガチャ"
         ],
         "image": [
