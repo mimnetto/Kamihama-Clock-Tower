@@ -124,19 +124,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【New Event】Puella · Historia: Valkyrie of Vik",
-			"『ピュエラ・ヒストリア ヴィークのワルキューレ編』』"
+            "Puella Historia Strategy Campaign",
+			"『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
         "image": [
-            "imgs/events/historia002.png"
+            "imgs/camp/camp00.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
 				name: "",
-				start: "April 24 2023, 16:00",
-				end: "April 5 2023, 14:59",
+				start: "may 19 2023, 16:00",
+				end: "may 29 2023, 14:59",
 				markers:
 				[
 				{time: "Mar 27 2023, 16:00", title: "Challenge Stages", type: "battle"},
@@ -149,11 +149,12 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Puella Historia Strategy Campaign",
+            "Puella・Historia Strategy Campaign  ",
 			"『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
         "image": [
-            "imgs/camp/camp00.png"
+            "imgs/quest/quest00.png",
+			"imgs/events/historia001.png"
 
         ],
         "column": 0,
@@ -161,8 +162,8 @@ var timerData = [
         "timers": [
 			{
 				name: "Limited-time missions",
-				start: "may 19 2023, 16:00",
-				end: "may 29 2023, 14:59",
+				start: "april 24 2023, 16:00",
+				end: "may 8 2023, 14:59",
 				extraPriority: 10
 			},
 			{
@@ -223,19 +224,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【New Event】Puella · Historia: Valkyrie of Vik",
-			"『ピュエラ・ヒストリア ヴィークのワルキューレ編』』"
+            "【Double Tower Event】Puella Historia ・ The Rakshasi of Tibet",
+			"『ピュエラ・ヒストリア チベットのラクシャーシー編』"
         ],
         "image": [
-            "imgs/events/historia002.png"
+            "imgs/gatcha/gatcha03.png"
         ],
         "column": 0,
         "priority": 5,
         "timers": [
 			{
 				name: "",
-				start: "april 24 2023, 16:00",
-				end: "may 8 2023, 14:59",
+				start: "may 19 2023, 16:00",
+				end: "may 29 2023, 14:59",
 				extraPriority: 100,
 				markers:
 				[{title: "Story Quests 21-40 & 100Evils I~III", time: "May 1 2023, 16:00", type: "battle"}]
@@ -502,21 +503,21 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Limited-time Heruka Pickup Gacha",
-            "『ピュエラ・ヒストリア チベットのラクシャーシー編』"
+			"【New Gacha】Limited-time Gunhild Pickup & Paid Gacha",
+            "『有償限定 ステップアップガチャ オルガ編』"
         ],
         "image": [
-            "imgs/gatcha/gatcha03.png",
-			"imgs/gatcha/gatcha0302.png"
+            "imgs/gatcha/gatcha002.png",
+			"imgs/gatcha/gatcha00201.png"
         ],
         "column": 1,
         "priority": 5,
         "timers": [
             {
                 name: "",
-                start: "May 19 2023, 00:00",
-				end: "May 29 2023, 23:59",
-                extraPriority: 1000,
+                start: "April 24 2023, 00:00",
+				end: "Mar 31 2023, 23:59",
+                extraPriority: 0,
 				markers:
 				[
 				{
@@ -645,7 +646,7 @@ var timerData = [
                 name: "",
                 start: "May 2 2023, 00:00",
 				end: "May 19 2023, 23:59",
-                extraPriority: 1000,
+                extraPriority: 0,
 				markers:
 				[
 				{
@@ -768,20 +769,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Limited-time Olga Pickup & Paid Gacha",
-            "『有償限定 ステップアップガチャ オルガ編』"
+			"【New Gacha】Limited-time Heruka Pickup & Paid Step-UP Gacha",
+            "『ピュエラ・ヒストリア チベットのラクシャーシー編』"
         ],
         "image": [
-            "imgs/gatcha/gatcha002.png",
-			"imgs/gatcha/gatcha00201.png"
+            "imgs/gatcha/gatcha0302.png",
+			"imgs/gatcha/gatcha0303.png"
         ],
         "column": 1,
         "priority": 16,
         "timers": [
             {
                 name: "",
-                start: "April 24 2023, 16:00",
-				end: "May 8 2023, 14:59",
+                start: "May 19 2023, 16:00",
+				end: "May 29 2023, 14:59",
                 extraPriority: 1000
             }
         ]
