@@ -232,7 +232,7 @@ Vue.component("bar-progress", {
 
 Vue.component("bar-mark", {
     props: ["mark"],
-    template: `<img :src='markImg' class='bar-mark' data-toggle='tooltip' v-tooltip:top='mark.tip' v-bind:style='{ left: mark.position }'>`,
+    template: `<img :src='markImg' class='bar-mark' data-toggle='tooltip' v-tooltip:top='mark.tip' @change="changeTimezone" v-bind:style='{ left: mark.position }'>`,
     computed: {
         markImg: function() {
             let color = this.mark.started ? "green" : "red";
