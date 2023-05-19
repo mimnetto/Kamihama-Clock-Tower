@@ -124,6 +124,28 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+            "【Double Tower Event】Puella Historia ・ The Rakshasi of Tibet",
+			"『ピュエラ・ヒストリア チベットのラクシャーシー編』"
+        ],
+        "image": [
+            "imgs/gatcha/gatcha03.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				name: "",
+				start: "may 19 2023, 16:00",
+				end: "may 29 2023, 14:59",
+				extraPriority: 1000,
+				markers:
+				[{title: "Story Quests 21-40 & 100Evils I~III", time: "May 24 2023, 16:00", type: "battle"}]
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
             "Puella Historia Strategy Campaign",
 			"『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
@@ -131,7 +153,7 @@ var timerData = [
             "imgs/camp/camp00.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 5,
         "timers": [
 			{
 				name: "",
@@ -142,7 +164,7 @@ var timerData = [
 				{time: "Mar 27 2023, 16:00", title: "Challenge Stages", type: "battle"},
 				{time: "Mar 31 2023, 16:00", title: "EX Challenge Stages", type: "battle"}
 				],
-				extraPriority: 1000
+				extraPriority: 100
 			}
         ]
     },
@@ -222,29 +244,6 @@ var timerData = [
         ]
     },
 	{
-        "type": "Event",
-        "title": [
-            "【Double Tower Event】Puella Historia ・ The Rakshasi of Tibet",
-			"『ピュエラ・ヒストリア チベットのラクシャーシー編』"
-        ],
-        "image": [
-            "imgs/gatcha/gatcha03.png"
-        ],
-        "column": 0,
-        "priority": 5,
-        "timers": [
-			{
-				name: "",
-				start: "may 19 2023, 16:00",
-				end: "may 29 2023, 14:59",
-				extraPriority: 100,
-				markers:
-				[{title: "Story Quests 21-40 & 100Evils I~III", time: "May 1 2023, 16:00", type: "battle"}]
-			}
-        ]
-    },
-
-	{
         "type": "Shop",
         "title": [
             "Shops and Limited-time Missions",
@@ -257,24 +256,9 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Adjuster Coin Shop: Water",
-				start: "april 17 2023, 18:00",
-				end: "may 01 2023, 14:59"
-			},
-			{
-				name: "Olga and Gunhild Adjuster's Coins",
-				start: "April 24 2023, 16:00",
-				end: "May 15 2023, 14:59",
-			},
-			{
-				name: " Livia's Special Offer",
-				start: "april 5 2023, 16:00",
-				end: "april 24 2023, 14:59"
-			},
-			{
-				name: "Choose your 4☆ Memoria Trade-in Ticket Yellow",
-				start: "april 5 2023, 16:00",
-				end: "april 24 2023, 14:59"
+				name: "Choose your 4☆ Memoria Trade-in Ticket Red",
+				start: "april 24 2023, 16:00",
+				end: "may 26 2023, 14:59"
 			},
 			{
 				name: "Kamihama M",
@@ -293,7 +277,58 @@ var timerData = [
 			}
         ]
     },
-
+	{
+		type: "Other",
+		title: [
+		"Event Quests Currency Shops",
+		"「イベントクエスト 通貨ショップ」"
+		],
+		image: [
+            "imgs/quest-shop.png"
+        ],
+		column: 2,
+		priority: 1,
+		timers: [
+		{
+			name: "The Rakshasi of Tibet -  Butter Tea",
+			start: "May 19 2023, 16:00",
+			end: "June 6 2023, 14:59",
+			extraPriority: 1000
+		},
+		{
+			name: "Kimochi Medal - Ruby Navel",
+			start: "April 17 2023, 18:00",
+			end: "May 05 2023, 14:59",
+			extraPriority: 1000
+		},
+		]
+	},
+	{
+		type: "Other",
+		title: [
+		"Adjuster's Coin Limited-time Shops",
+		"「調整屋コインの期間限定ショップ」"
+		],
+		image: [
+            "imgs/coin-shop.png"
+        ],
+		column: 2,
+		priority: 3,
+		timers: [
+			{
+				name: "4☆ Selectable Pickup Adjuster's Coins - Pink",
+				start: "may 1 2023, 16:00",
+				end: "may 26 2023, 14:59",
+				extraPriority: 100
+			},
+			{
+				name: "Heruka Adjuster Coin Shop and Memo Ticket - Green",
+				start: "april 17 2023, 18:00",
+				end: "june 6 2023, 14:59",
+				extraPriority: 100
+			},
+		]
+	},
 {
 		type: "Other",
 		title: [
@@ -352,32 +387,6 @@ var timerData = [
 			end: "May 19 2023, 14:59",
 			extraPriority: 100
 		}
-		]
-	},
-	{
-		type: "Other",
-		title: [
-		"Event Quests Currency Shops",
-		"「イベントクエスト 通貨ショップ」"
-		],
-		image: [
-            "imgs/quest-shop.png"
-        ],
-		column: 2,
-		priority: 1,
-		timers: [
-		{
-			name: "Puella Historia Valkyrie of Vik -  ᚺ - Hail Rune",
-			start: "April 14 2023, 16:00",
-			end: "May 15 2023, 14:59",
-			extraPriority: 100
-		},
-		{
-			name: "Kimochi Medal - Ruby Navel",
-			start: "April 17 2023, 18:00",
-			end: "May 05 2023, 14:59",
-			extraPriority: 100
-		},
 		]
 	},
 	{
