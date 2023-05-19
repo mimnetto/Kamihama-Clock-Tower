@@ -306,7 +306,7 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Adjuster's Coin Limited-time Shops",
+		"Adjuster Coin Limited-time Shops",
 		"「調整屋コインの期間限定ショップ」"
 		],
 		image: [
