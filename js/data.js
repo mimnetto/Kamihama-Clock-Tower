@@ -323,7 +323,7 @@ var timerData = [
 			},
 			{
 				name: "Heruka Adjuster Coin Shop and Memo Ticket - Green",
-				start: "april 17 2023, 18:00",
+				start: "april 17 2023, 16:00",
 				end: "june 6 2023, 14:59",
 				extraPriority: 100
 			},
