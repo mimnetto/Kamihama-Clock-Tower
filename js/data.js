@@ -256,8 +256,8 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Choose your 4☆ Memoria Trade-in Ticket Red",
-				start: "april 24 2023, 16:00",
+				name: "Choose your 4☆ Memoria Trade-in Ticket - Red",
+				start: "may 8 2023, 16:00",
 				end: "may 26 2023, 14:59"
 			},
 			{
@@ -323,8 +323,8 @@ var timerData = [
 			},
 			{
 				name: "Heruka Adjuster Coin Shop and Memo Ticket - Green",
-				start: "april 17 2023, 16:00",
-				end: "june 6 2023, 14:59",
+				start: "may 19 2023, 16:00",
+				end: "june 5 2023, 14:59",
 				extraPriority: 100
 			},
 		]
