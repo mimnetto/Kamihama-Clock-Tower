@@ -292,7 +292,7 @@ var timerData = [
 		{
 			name: "The Rakshasi of Tibet -  Butter Tea",
 			start: "May 19 2023, 16:00",
-			end: "June 6 2023, 14:59",
+			end: "June 5 2023, 14:59",
 			extraPriority: 1000
 		},
 		{
