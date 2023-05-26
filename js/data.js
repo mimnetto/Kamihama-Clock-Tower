@@ -171,7 +171,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "2100th Anniversary Campaign",
+            "2100 Days Since Release Campaign",
 			"『リリース2100日記念キャンペーン』"
         ],
         "image": [
