@@ -403,7 +403,7 @@ var timerData = [
         priority: 4,
         timers: [
             {
-                name: "Rika Finally Gets 5★",
+                name: "Rika Finally Awakens",
                 start: "may 29 2023, 16:00",
                 end: "may 29 2023, 16:00",
 				extraPriority: 1000
