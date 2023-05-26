@@ -171,27 +171,27 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Puella・Historia Strategy Campaign  ",
-			"『ピュエラ・ヒストリア攻略キャンペーン』"
+            "2100th Anniversary Campaign",
+			"『リリース2100日記念キャンペーン』"
         ],
         "image": [
-            "imgs/quest/quest00.png",
-			"imgs/events/historia001.png"
+            "imgs/gatcha/free002100.png",
+			"imgs/gatcha/quest2100.png"
 
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
-				name: "Limited-time missions",
-				start: "april 24 2023, 16:00",
-				end: "may 8 2023, 14:59",
+				name: "Limited-Time Daily Missions and Login Bonus",
+				start: "may 29 2023, 16:00",
+				end: "june 9 2023, 23:59",
 				extraPriority: 10
 			},
 			{
 				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
-				start: "april 24 2023, 16:00",
-				end: "may 8 2023, 14:59",
+				start: "may 29 2023, 16:00",
+				end: "june 9 2023, 23:59",
 				extraPriority: 10
 			},
 			{
@@ -204,20 +204,20 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "Early Summer Campaign",
-			"『アーリーサマーキャンペーン』"
+            "【Event Rerun】Rainbow Colored Summer ~Everyday Life Recorded in a Notebook~",
+			"『七色夏模様 ～ノートに記された日常～』"
         ],
         "image": [
-			"imgs/events/event02.png"
+			"imgs/events/rerun00.png"
         ],
         "column": 0,
         "priority": 3,
         "timers": [
 			{
 				name: "Limited-time Daily Missions",
-				start: "May 2 2023, 00:00",
-				end: "May 19 2023, 23:59",
-				extraPriority: 100
+				start: "May 29 2023, 16:00",
+				end: "june 9 2023, 14:59",
+				extraPriority: 1000
 			}
         ]
     },
@@ -246,8 +246,8 @@ var timerData = [
 	{
         "type": "Shop",
         "title": [
-            "Shops and Limited-time Missions",
-			"ショップと期間限定ミッション"
+            "Monthly Magia Stones Shops",
+			"毎月マギアストーンショップ"
         ],
         "image": [
             "shop"
@@ -287,13 +287,13 @@ var timerData = [
             "imgs/quest-shop.png"
         ],
 		column: 2,
-		priority: 1,
+		priority: 2,
 		timers: [
 		{
 			name: "The Rakshasi of Tibet -  Butter Tea",
 			start: "May 19 2023, 16:00",
 			end: "June 5 2023, 14:59",
-			extraPriority: 1000
+			extraPriority: 100
 		},
 		{
 			name: "Kimochi Medal - Ruby Navel",
@@ -352,20 +352,20 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		" Livia's Special Offer",
-		"『リヴィアのスペシャルオファー』"
+		"Limited Time Magia Stone Packs",
+		"『マギアストーン限定ショップ』"
 		],
 		image: [
-            "imgs/shops/livia00.png"
+            "imgs/shops/shop2100.png"
         ],
 		column: 2,
-		priority: 6,
+		priority: 1,
 		timers: [
 		{
 			name: "Sales period",
-			start: "May 8 2023, 16:00",
-			end: "May 19 2023, 14:59",
-			extraPriority: 100
+			start: "May 29 2023, 16:00",
+			end: "june 9 2023, 14:59",
+			extraPriority: 1000
 		}
 		]
 	},
@@ -392,6 +392,27 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
+            "Rika & Ayaka ★ 5 Awakening and Doppel Release Countdown",
+			"【★5覚醒およびドッペル解放予告】"
+        ],
+		"image": [
+			"imgs/events/doppel00.png",
+			"imgs/events/doppel01.png"
+		],
+        column: 0,
+        priority: 4,
+        timers: [
+            {
+                name: "Rika Finally Gets 5★",
+                start: "may 29 2023, 16:00",
+                end: "may 29 2023, 16:00",
+				extraPriority: 1000
+            }
+        ]
+    },
+	{
+        type: "Maintenance",
+        title: [
             "Maintenance",
 			"【メンテナンス】"
         ],
@@ -403,48 +424,30 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "May 8 2023, 15:00",
-                end: "May 8 2023, 16:00",
-				extraPriority: 1000
-            }
-        ]
-    },
-	{
-        type: "Maintenance",
-        title: [
-            "Maintenance & App version 2.6.3 Update",
-			"维护&アプリバージョン2.6.3強制アップデート"
-        ],
-		"image": [
-			"imgs/maintenance.png"
-		],
-        column: 0,
-        priority: 7,
-        timers: [
-            {
-                name: "Scheduled Time",
-                start: "Dec 20 2022, 15:00",
-                end: "Dec 20 2022, 16:00",
-				extraPriority: 1000
+                start: "May 29 2023, 15:00",
+                end: "May 29 2023, 16:00",
+				extraPriority: 100
             }
         ]
     },
 	{
         "type": "Gacha",
         "title": [
-			" 4★Selectable Pickup Gacha",
-            "【水属性★4確定ガチャ予告】"
+			"【Gacha Rurun】Paid Limited Step-up Swimsuit Gacha",
+            "【有償限定 ステップアップガチャ 水着魔法少女】"
         ],
         "image": [
-            "imgs/gatcha/gacha_sp00.png",
+            "imgs/gatcha/rerun06.png",
+			"imgs/gatcha/rerun05.png",
+			"imgs/gatcha/rerun04.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                name: "",
-                start: "May 2 2022, 00:00",
-				end: "May 19 2022, 23:59",
+                name: "2019-2022 Editions",
+                start: "May 29 2023, 16:00",
+				end: "june 9 2023, 14:59",
                 extraPriority: 100
             }
         ]
@@ -452,19 +455,22 @@ var timerData = [
 			{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Aqua Attribute Pickup Gacha",
-            "『水属性魔法少女 ピックアップガチャ』"
+			"【Gacha Rurun】Limited Pick-Up Swimsuit Gacha",
+            "【有償限定 ピックアップガチャ 水着魔法少女】"
         ],
         "image": [
-            "imgs/gatcha/blue00.png"
+            "imgs/gatcha/rerun03.png",
+			"imgs/gatcha/rerun02.png",
+			"imgs/gatcha/rerun01.png",
+			"imgs/gatcha/rerun01.png"
         ],
         "column": 1,
-        "priority": 2,
+        "priority": 1,
         "timers": [
             {
-                name: "",
-                start: "April 17 2023, 18:00",
-				end: "April 24 2023, 14:59",
+                name: "2019-2022 Editions",
+                start: "May 29 2023, 16:00",
+				end: "june 9 2023, 14:59",
                 extraPriority: 100
             }
         ]
@@ -512,81 +518,80 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Limited-time Gunhild Pickup & Paid Gacha",
-            "『有償限定 ステップアップガチャ オルガ編』"
+			"Free Daily Rare Gacha 10 Pull",
+            "『10連レアガチャ』"
         ],
         "image": [
-            "imgs/gatcha/gatcha002.png",
-			"imgs/gatcha/gatcha00201.png"
+            "imgs/gatcha/free00.png"
         ],
         "column": 1,
         "priority": 5,
         "timers": [
             {
-                name: "",
-                start: "April 24 2023, 00:00",
-				end: "Mar 31 2023, 23:59",
+                name: "Daily Pulls",
+                start: "May 29 2023, 16:00",
+				end: "June 9 2023, 23:59",
                 extraPriority: 0,
 				markers:
 				[
 				{
 					title: "Free pull 1",
-					time: "Mar 24 2023, 00:00",
+					time: "May 29 2023, 16:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 2",
-					time: "Mar 25 2023, 0:00",
+					time: "May 30 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 3",
-					time: "Mar 26 2023, 0:00",
+					time: "May 31 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 4",
-					time: "Mar 27 2023, 0:00",
+					time: "June 1 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 5",
-					time: "Mar 28 2023, 0:00",
+					time: "June 2 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 6",
-					time: "Mar 29 2023, 0:00",
+					time: "June 3 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 7",
-					time: "Mar 30 2023, 0:00",
+					time: "June 4 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 8",
-					time: "Mar 31 2023, 0:00",
+					time: "June 5 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 9",
-					time: "Dec 29 2022, 0:00",
+					time: "June 6 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 10",
-					time: "Mar 30 2023, 0:00",
+					time: "June 7 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 11",
-					time: "Dec 31 2022, 0:00",
+					time: "June 8 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 12",
-					time: "Jan 1 2023, 0:00",
+					time: "June 9 2023, 0:00",
 					type: "star"
 				},
 				{
