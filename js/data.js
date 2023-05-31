@@ -224,8 +224,8 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "Mirrors Rank Match",
-			"【【ミラーズランクマッチ】"
+            "【New Mirrors Event】Mirrors Rank Match",
+			"【ミラーズランクマッチ】"
         ],
         "image": [
             "imgs/events/mirrors00.png"
@@ -234,7 +234,7 @@ var timerData = [
         "priority": 3,
         "timers": [
 			{
-				name: "",
+				name: "Tentative Schedule",
 				start: "June 19 2023, 00:00",
 				end: "July 3 2023, 23:59",
 				extraPriority: 50,
