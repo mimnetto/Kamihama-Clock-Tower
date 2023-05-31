@@ -349,7 +349,7 @@ var timerData = [
 		type: "Other",
 		title: [
 		"Paid Step-Up Selection Tickets",
-		"『みたまのスペシャルオファー』"
+		"『交換チケット』"
 		],
 		image: [
             "imgs/selction-tix.png"
