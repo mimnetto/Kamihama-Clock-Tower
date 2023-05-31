@@ -314,14 +314,14 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-				name: "4☆ Selectable Pickup Adjuster's Coins - Pink",
-				start: "may 1 2023, 16:00",
-				end: "may 26 2023, 14:59"
-			},
-			{
-				name: "Heruka Adjuster Coin Shop - Green",
+				name: "Heruka Adjuster Coin - Green",
 				start: "may 19 2023, 16:00",
 				end: "june 5 2023, 14:59"
+			},
+			{
+				name: "Swimsuit Magical Girl Adjuster's Coins - Orange",
+				start: "may 29 2023, 16:00",
+				end: "june 26 2023, 14:59"
 			},
 		]
 	},
