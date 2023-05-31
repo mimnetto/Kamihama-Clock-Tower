@@ -71,11 +71,11 @@ var timerData = [
 		{
         "type": "WeekendBoss",
         "title": [
-			"Ranked Mirrors",
-			"ミラーズランキング"
+			"[Mirrors rank match ",
+			"【ミラーズランクマッチ】"
         ],
         "image": [
-            "imgs/mirroran.png"
+            "imgs/events/mirrors00.png"
         ],
         "column": 0,
         "priority": 8,
@@ -224,20 +224,20 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "Battle Museum",
-			"【バトルミュージアム予告】"
+            "Mirrors Rank Match",
+			"【【ミラーズランクマッチ】"
         ],
         "image": [
-            "imgs/events/banner_0530.png"
+            "imgs/events/mirrors00.png"
         ],
         "column": 0,
         "priority": 3,
         "timers": [
 			{
 				name: "",
-				start: "May 8 2023, 16:00",
-				end: "May 19 2023, 14:59",
-				extraPriority: 100,
+				start: "June 19 2023, 00:00",
+				end: "July 3 2023, 23:59",
+				extraPriority: 50,
 				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 3 2023, 16:00", type: "battle"}]
 			}
@@ -287,19 +287,17 @@ var timerData = [
             "imgs/quest-shop.png"
         ],
 		column: 2,
-		priority: 2,
+		priority: 5,
 		timers: [
 		{
 			name: "The Rakshasi of Tibet -  Butter Tea",
 			start: "May 19 2023, 16:00",
-			end: "June 5 2023, 14:59",
-			extraPriority: 100
+			end: "June 5 2023, 14:59"
 		},
 		{
-			name: "Kimochi Medal - Ruby Navel",
-			start: "April 17 2023, 18:00",
-			end: "May 05 2023, 14:59",
-			extraPriority: 1000
+			name: "SUP Paddle Board",
+			start: "May 29 2023, 18:00",
+			end: "June 16 2023, 14:59"
 		},
 		]
 	},
@@ -318,35 +316,13 @@ var timerData = [
 			{
 				name: "4☆ Selectable Pickup Adjuster's Coins - Pink",
 				start: "may 1 2023, 16:00",
-				end: "may 26 2023, 14:59",
-				extraPriority: 100
+				end: "may 26 2023, 14:59"
 			},
 			{
-				name: "Heruka Adjuster Coin Shop and Memo Ticket - Green",
+				name: "Heruka Adjuster Coin Shop - Green",
 				start: "may 19 2023, 16:00",
-				end: "june 5 2023, 14:59",
-				extraPriority: 100
+				end: "june 5 2023, 14:59"
 			},
-		]
-	},
-{
-		type: "Other",
-		title: [
-		"Choose your 4☆ Memoria Trade-in Ticket Yellow",
-		"「水属性魔法少女育成パック」"
-		],
-		image: [
-            ""
-        ],
-		column: 2,
-		priority: 5,
-		timers: [
-		{
-			name: "Sales period",
-			start: "april 5 2022, 16:00",
-			end: "april 24 2022, 14:59",
-			extraPriority: 100
-		}
 		]
 	},
 {
@@ -372,23 +348,28 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"Mitama's Special Offer",
+		"Paid Step-Up Selection Tickets",
 		"『みたまのスペシャルオファー』"
 		],
 		image: [
-            "imgs/shops/mitama00.png"
+            "imgs/selction-tix.png"
         ],
 		column: 2,
-		priority: 5,
+		priority: 2,
 		timers: [
 		{
-			name: "",
-			start: "May 8 2023, 16:00",
-			end: "May 19 2023, 14:59",
-			extraPriority: 100
-		}
+			name: "Heruka Memo Selecion Ticket",
+			start: "May 19 2023, 16:00",
+			end: "June 5 2023, 14:59"
+		},
+		{
+			name: "Swimsuit Magical Girl 2018-2022 Selection Tickets ",
+			start: "May 29 2023, 16:00",
+			end: "June 16 2023, 14:59"
+		},
 		]
 	},
+	
 	{
         type: "Maintenance",
         title: [
