@@ -217,7 +217,9 @@ var timerData = [
 				name: "Limited-time Daily Missions",
 				start: "May 29 2023, 16:00",
 				end: "june 9 2023, 14:59",
-				extraPriority: 1000
+				extraPriority: 1000,
+				markers:
+				[{title: "Story Quests Part 2", time: "june 2 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -295,7 +297,7 @@ var timerData = [
 			end: "June 5 2023, 14:59"
 		},
 		{
-			name: "SUP Paddle Board",
+			name: "SUP Paddle Board & Water Gun",
 			start: "May 29 2023, 18:00",
 			end: "June 16 2023, 14:59"
 		},
