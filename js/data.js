@@ -30,7 +30,7 @@ var timerData = [
             "imgs/events/kimochi/kimochi00.png"
         ],
         "column": 0,
-        "priority": 500,
+        "priority": 0,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
@@ -61,7 +61,7 @@ var timerData = [
                 "name": "Main Event",
                 "start": "April 17 2023, 18:00",
                 "end": "April 22 2023, 16:00",
-                "extraPriority": 1000,
+                "extraPriority": 1,
 				"type": "normal",
 				markers:
 				[{time: "April 19 2023, 16:00", title: "Part 2 - Groups", type: "battle"}]
@@ -220,6 +220,28 @@ var timerData = [
 				extraPriority: 1000,
 				markers:
 				[{title: "Story Quests Part 2", time: "june 2 2023, 16:00", type: "battle"}]
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+            "【New Event】A bouquet for tomorrow's happiness",
+			"『あしたの幸せに花束を』"
+        ],
+        "image": [
+			"imgs/events/masakoko.png"
+        ],
+        "column": 0,
+        "priority": 3,
+        "timers": [
+			{
+				name: "Limited-time Daily Missions",
+				start: "june 9 2023, 16:00",
+				end: "june 19 2023, 14:59",
+				extraPriority: 1000,
+				markers:
+				[{title: "BATTLE 11~20", time: "june 14 2023, 16:00", type: "battle"}]
 			}
         ]
     },
