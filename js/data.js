@@ -23,11 +23,11 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Docile Ruby Navel",
-            "『キモチ戦 従順なルビーのへそ』"
+			"Komochi Drifting Diamond Hair",
+            "『キモチ戦 漂うダイヤモンドの髪』"
         ],
         "image": [
-            "imgs/events/kimochi00.png"
+            "imgs/events/kimochi/kimochi00.png"
         ],
         "column": 0,
         "priority": 500,
@@ -78,7 +78,7 @@ var timerData = [
             "imgs/events/mirrors00.png"
         ],
         "column": 0,
-        "priority": 8,
+        "priority": 100,
         "timers": [
 			{
 				name: "Preliminaries - Day 1",
@@ -233,7 +233,7 @@ var timerData = [
             "imgs/events/mirrors00.png"
         ],
         "column": 0,
-        "priority": 3,
+        "priority": 6,
         "timers": [
 			{
 				name: "Tentative Schedule",
@@ -375,21 +375,20 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Rika & Ayaka ★ 5 Awakening and Doppel Release Countdown",
-			"【★5覚醒およびドッペル解放予告】"
+			"Komochi Drifting Diamond Hair  - Dark Type",
+            "『キモチ戦 漂うダイヤモンドの髪』"
         ],
-		"image": [
-			"imgs/events/doppel00.png",
-			"imgs/events/doppel01.png"
+        "image": [
+            "imgs/kimochi/kimochi00.png"
 		],
         column: 0,
         priority: 4,
         timers: [
             {
-                name: "Rika Finally Awakens",
-                start: "may 29 2023, 16:00",
-                end: "may 29 2023, 16:00",
-				extraPriority: 1000
+                name: "Set for Early July! No official scheduale yet",
+                start: "July 01 2023, 16:00",
+                end: "july 01 2023, 16:00",
+				extraPriority: 50
             }
         ]
     },
@@ -461,20 +460,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】 Paid Only Magia Report Step-UP Gacha",
-            "『有償限定 ステップアップガチャ マギア☆レポート編』"
+			"【New Gacha】 Masara x Kokoro Bride ver.",
+            "『有償限定 ステップアップガチャ まさら・こころ 花嫁ver.編』"
         ],
         "image": [
-            "imgs/gatcha/gacha04.png"
+            "imgs/gatcha/kokomasa-00.png",
+			"imgs/gatcha/kokomasa-01.png"
         ],
         "column": 1,
         "priority": 5,
         "timers": [
             {
                 name: "",
-                start: "Mar 27 2023, 17:00",
-				end: "April 5 2023, 14:59",
-                extraPriority: 100
+                start: "june 9 2023, 17:00",
+				end: "june 19 2023, 14:59",
             }
         ]
     },
@@ -508,7 +507,7 @@ var timerData = [
             "imgs/gatcha/free00.png"
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 100,
         "timers": [
             {
                 name: "Daily Pulls",
