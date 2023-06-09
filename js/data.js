@@ -226,7 +226,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【New Event】A bouquet for tomorrow's happiness",
+            "【New Event】A Bouquet for Tomorrow's Happiness",
 			"『あしたの幸せに花束を』"
         ],
         "image": [
