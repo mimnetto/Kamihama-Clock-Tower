@@ -313,9 +313,9 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "The Rakshasi of Tibet -  Butter Tea",
-			start: "May 19 2023, 16:00",
-			end: "June 5 2023, 14:59"
+			name: "Happiness Bouquet",
+			start: "June 9 2023, 16:00",
+			end: "June 26 2023, 14:59"
 		},
 		{
 			name: "SUP Paddle Board & Water Gun",
@@ -337,9 +337,9 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-				name: "Heruka Adjuster Coin - Green",
-				start: "may 19 2023, 16:00",
-				end: "june 5 2023, 14:59"
+				name: " Masara x Kokoro Bride ver. - Yellow",
+				start: "june 9 2023, 16:00",
+				end: "June 26 2023, 14:59"
 			},
 			{
 				name: "Swimsuit Magical Girl Adjuster's Coins - Orange",
@@ -381,9 +381,9 @@ var timerData = [
 		priority: 2,
 		timers: [
 		{
-			name: "Heruka Memo Selecion Ticket",
-			start: "May 19 2023, 16:00",
-			end: "June 5 2023, 14:59"
+			name: " Masara x Kokoro Bride ver. Selecion Ticket",
+			start: "June 9 2023, 16:00",
+			end: "June 26 2023, 14:59"
 		},
 		{
 			name: "Swimsuit Magical Girl 2018-2022 Selection Tickets ",
