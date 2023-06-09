@@ -23,7 +23,7 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Komochi Drifting Diamond Hair",
+			"Kimochi Drifting Diamond Hair",
             "『キモチ戦 漂うダイヤモンドの髪』"
         ],
         "image": [
@@ -185,13 +185,13 @@ var timerData = [
 			{
 				name: "Limited-Time Daily Missions and Login Bonus",
 				start: "may 29 2023, 16:00",
-				end: "june 9 2023, 23:59",
+				end: "june 9 2023, 14:59",
 				extraPriority: 10
 			},
 			{
 				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
 				start: "may 29 2023, 16:00",
-				end: "june 9 2023, 23:59",
+				end: "june 9 2023, 14:59",
 				extraPriority: 10
 			},
 			{
@@ -236,12 +236,12 @@ var timerData = [
         "priority": 3,
         "timers": [
 			{
-				name: "Limited-time Daily Missions",
+				name: "Single Tower",
 				start: "june 9 2023, 16:00",
 				end: "june 19 2023, 14:59",
 				extraPriority: 1000,
 				markers:
-				[{title: "BATTLE 11~20", time: "june 14 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 11-20 & 100Evils I~III", time: "june 14 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -345,7 +345,7 @@ var timerData = [
 			{
 				name: "Swimsuit Magical Girl Adjuster's Coins - Orange",
 				start: "may 29 2023, 16:00",
-				end: "june 26 2023, 14:59"
+				end: "june 16 2023, 14:59"
 			},
 		]
 	},
@@ -428,8 +428,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "May 29 2023, 15:00",
-                end: "May 29 2023, 16:00",
+                start: "June 9 2023, 15:00",
+                end: "June 9 2023, 16:00",
 				extraPriority: 100
             }
         ]
@@ -494,7 +494,7 @@ var timerData = [
         "timers": [
             {
                 name: "",
-                start: "june 9 2023, 17:00",
+                start: "june 9 2023, 16:00",
 				end: "june 19 2023, 14:59",
             }
         ]
