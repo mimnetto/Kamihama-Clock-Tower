@@ -78,7 +78,7 @@ var timerData = [
             "imgs/events/mirrors00.png"
         ],
         "column": 0,
-        "priority": 100,
+        "priority": 11,
         "timers": [
 			{
 				name: "Preliminaries - Day 1",
@@ -114,7 +114,7 @@ var timerData = [
                 "name": "Main Event",
                 "start": "Mar 26 2023, 17:00",
                 "end": "Mar 27 2023, 20:59",
-                "extraPriority": 1000,
+                "extraPriority": 1,
 				"type": "normal",
 				markers:
 				[{time: "Nov 12 2022, 17:00", title: "Finals", type: "battle"}]
@@ -255,13 +255,12 @@ var timerData = [
             "imgs/events/mirrors00.png"
         ],
         "column": 0,
-        "priority": 6,
+        "priority": 1,
         "timers": [
 			{
 				name: "Tentative Schedule",
 				start: "June 19 2023, 00:00",
 				end: "July 3 2023, 23:59",
-				extraPriority: 50,
 				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 3 2023, 16:00", type: "battle"}]
 			}
@@ -404,13 +403,12 @@ var timerData = [
             "imgs/kimochi/kimochi00.png"
 		],
         column: 0,
-        priority: 4,
+        priority: 1,
         timers: [
             {
                 name: "Set for Early July! No official scheduale yet",
                 start: "July 01 2023, 16:00",
-                end: "july 01 2023, 16:00",
-				extraPriority: 50
+                end: "july 01 2023, 16:00"
             }
         ]
     },
