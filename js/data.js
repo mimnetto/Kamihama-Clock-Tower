@@ -532,7 +532,7 @@ var timerData = [
             {
                 name: "Daily Pulls",
                 start: "May 29 2023, 16:00",
-				end: "June 9 2023, 23:59",
+				end: "June 9 2023, 16:59",
                 extraPriority: 0,
 				markers:
 				[
