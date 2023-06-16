@@ -59,12 +59,12 @@ var timerData = [
 			}, 
             {
                 "name": "Main Event",
-                "start": "April 17 2023, 18:00",
+                "start": "April 19 2023, 18:00",
                 "end": "April 22 2023, 16:00",
                 "extraPriority": 1,
 				"type": "normal",
 				markers:
-				[{time: "April 19 2023, 16:00", title: "Part 2 - Groups", type: "battle"}]
+				[{time: "April 19 2023, 17:00", title: "Part 2 - Groups", type: "battle"}]
 			}
 			]
     },
@@ -255,15 +255,56 @@ var timerData = [
             "imgs/events/mirrors00.png"
         ],
         "column": 0,
+        "priority": 3,
+        "timers": [
+			{
+				name: "Auto Battle",
+				start: "June 19 2023, 00:00",
+				end: "July 7 2023, 23:59",
+				extraPriority: 100,
+				markers:
+				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 3 2023, 16:00", type: "battle"}]
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+            "【Announcement】Puella Historia Yamataikoku's Heir",
+			"『ピュエラ・ヒストリア 邪馬台国の跡目編』"
+        ],
+        "image": [
+			"imgs/gatcha/hisitoria00.png"
+        ],
+        "column": 0,
         "priority": 1,
         "timers": [
 			{
 				name: "Tentative Schedule",
-				start: "June 19 2023, 00:00",
-				end: "July 3 2023, 23:59",
+				start: "june 26 2023, 17:00",
+				end: "July 7 2023, 14:59",
 				markers:
-				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 3 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 11-20 & 100Evils I~III", time: "june 14 2023, 16:00", type: "battle"}]
 			}
+        ]
+    },
+	{
+        "type": "Event",
+        title: [
+			"【Announcement】Komochi Drifting Diamond Hair  - Dark Type",
+            "『キモチ戦 漂うダイヤモンドの髪』"
+        ],
+        "image": [
+            "imgs/kimochi/kimochi00.png"
+		],
+        column: 0,
+        priority: 1,
+        timers: [
+            {
+                name: "Set for Early July! No official scheduale yet",
+                start: "July 7 2023, 16:00",
+                end: "july 7 2023, 16:00"
+            }
         ]
     },
 	{
@@ -351,19 +392,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"Limited Time Magia Stone Packs",
-		"『マギアストーン限定ショップ』"
+		"【Limited】Mirrors Memoria Enhancement Support Pack",
+		"『ミラーズランクマッチメモリア強化応援パック』"
 		],
 		image: [
-            "imgs/shops/shop2100.png"
+            "imgs/shops/mirrors-pack00.png"
         ],
 		column: 2,
 		priority: 1,
 		timers: [
 		{
 			name: "Sales period",
-			start: "May 29 2023, 16:00",
-			end: "june 9 2023, 14:59",
+			start: "June 19 2023, 17:00",
+			end: "jul 3 2023, 14:59",
 			extraPriority: 1000
 		}
 		]
@@ -392,26 +433,6 @@ var timerData = [
 		},
 		]
 	},
-	
-	{
-        type: "Maintenance",
-        title: [
-			"Komochi Drifting Diamond Hair  - Dark Type",
-            "『キモチ戦 漂うダイヤモンドの髪』"
-        ],
-        "image": [
-            "imgs/kimochi/kimochi00.png"
-		],
-        column: 0,
-        priority: 1,
-        timers: [
-            {
-                name: "Set for Early July! No official scheduale yet",
-                start: "July 01 2023, 16:00",
-                end: "july 01 2023, 16:00"
-            }
-        ]
-    },
 	{
         type: "Maintenance",
         title: [
@@ -426,8 +447,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "June 9 2023, 15:00",
-                end: "June 9 2023, 16:00",
+                start: "June 19 2023, 15:00",
+                end: "June 19 2023, 17:00",
 				extraPriority: 100
             }
         ]
@@ -500,19 +521,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			" 4★Selectable Pickup Gacha",
-            "【水属性★4確定ガチャ予告】"
+			" 4★ Selectable Memoria Gacha",
+            "【選べる★4メモリアセレクションガチャ】"
         ],
         "image": [
-            "imgs/gatcha/gacha_sp00.png"
+            "imgs/gatcha/choose-memo.png"
         ],
         "column": 1,
         "priority": 3,
         "timers": [
             {
                 name: "",
-                start: "May 2 2022, 00:00",
-				end: "May 19 2022, 23:59",
+                start: "june 19 2023, 17:00",
+				end: "jul 7 2023, 14:59",
                 extraPriority: 100
             }
         ]
