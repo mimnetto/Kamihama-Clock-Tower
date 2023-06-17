@@ -260,7 +260,7 @@ var timerData = [
 			{
 				name: "Auto Battle",
 				start: "June 19 2023, 17:00",
-				end: "July 7 2023, 20:59",
+				end: "July 2 2023, 20:59",
 				extraPriority: 100,
 				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 3 2023, 16:00", type: "battle"}]
