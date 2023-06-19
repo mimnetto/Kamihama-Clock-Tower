@@ -263,7 +263,78 @@ var timerData = [
 				end: "July 2 2023, 20:59",
 				extraPriority: 100,
 				markers:
-				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 3 2023, 16:00", type: "battle"}]
+				[
+					{
+						title: "Day 1", 
+						time: "june 19 2023, 17:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 2", 
+						time: "June 20 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 3", 
+						time: "June 21 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 4", 
+						time: "June 22 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 5", 
+						time: "June 23 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 6", 
+						time: "June 24 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 7", 
+						time: "June 25 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 8", 
+						time: "June 26 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 9", 
+						time: "June 27 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 10", 
+						time: "June 28 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 11", 
+						time: "June 29 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 12", 
+						time: "June 30 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 13", 
+						time: "July 1 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 14", 
+						time: "July 2 2023, 16:00", 
+						type: "battle"
+					},
+				]
 			}
         ]
     },
