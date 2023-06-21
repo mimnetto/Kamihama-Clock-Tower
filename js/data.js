@@ -351,7 +351,7 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "",
+				name: "Tentative Schedule",
 				start: "june 26 2023, 17:00",
 				end: "July 7 2023, 14:59",
 				markers:
