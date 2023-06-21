@@ -341,7 +341,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Announcement】Puella Historia Yamataikoku's Heir",
+            "【Announcement】Puella Historia ・ The Family Heir of Yamataikoku",
 			"『ピュエラ・ヒストリア 邪馬台国の跡目編』"
         ],
         "image": [
@@ -351,7 +351,7 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "Tentative Schedule",
+				name: "",
 				start: "june 26 2023, 17:00",
 				end: "July 7 2023, 14:59",
 				markers:
@@ -430,9 +430,9 @@ var timerData = [
 			end: "June 26 2023, 14:59"
 		},
 		{
-			name: "SUP Paddle Board & Water Gun",
-			start: "May 29 2023, 18:00",
-			end: "June 16 2023, 14:59"
+			name: "Ranking Mirror Match Coins",
+			start: "June 19 2023, 17:00",
+			end: "July 10 2023, 14:59"
 		},
 		]
 	},
@@ -454,9 +454,9 @@ var timerData = [
 				end: "June 26 2023, 14:59"
 			},
 			{
-				name: "Swimsuit Magical Girl Adjuster's Coins - Orange",
-				start: "may 29 2023, 16:00",
-				end: "june 16 2023, 14:59"
+				name: "4★ Selectable Memoria Gacha Coins - Brown",
+				start: "June 19 2023, 17:00",
+				end: "July 10 2023, 14:59"
 			},
 		]
 	},
