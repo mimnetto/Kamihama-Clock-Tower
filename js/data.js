@@ -150,21 +150,22 @@ var timerData = [
 			"『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
         "image": [
-            "imgs/camp/camp00.png"
+            "imgs/camp/camp00.png",
+			"imgs/events/historia001.png"
         ],
         "column": 0,
-        "priority": 5,
+        "priority": 1,
         "timers": [
 			{
 				name: "",
-				start: "may 19 2023, 16:00",
-				end: "may 29 2023, 14:59",
+				start: "june 26 2023, 16:00",
+				end: "july 10 2023, 14:59",
 				markers:
 				[
 				{time: "Mar 27 2023, 16:00", title: "Challenge Stages", type: "battle"},
 				{time: "Mar 31 2023, 16:00", title: "EX Challenge Stages", type: "battle"}
 				],
-				extraPriority: 100
+				extraPriority: 10
 			}
         ]
     },
@@ -341,19 +342,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Announcement】Puella Historia ・ The Family Heir of Yamataikoku",
+            "【New Event】 Puella Historia ・ The Family Heir of Yamataikoku",
 			"『ピュエラ・ヒストリア 邪馬台国の跡目編』"
         ],
         "image": [
 			"imgs/gatcha/hisitoria00.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 3,
         "timers": [
 			{
-				name: "Tentative Schedule",
-				start: "june 26 2023, 17:00",
-				end: "July 7 2023, 14:59",
+				name: "",
+				start: "june 26 2023, 16:00",
+				end: "July 10 2023, 14:59",
 				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "june 14 2023, 16:00", type: "battle"}]
 			}
@@ -369,12 +370,12 @@ var timerData = [
             "imgs/kimochi/kimochi00.png"
 		],
         column: 0,
-        priority: 1,
+        priority: 0,
         timers: [
             {
                 name: "Set for Early July! No official scheduale yet",
-                start: "July 7 2023, 16:00",
-                end: "july 7 2023, 16:00"
+                start: "July 10 2023, 16:00",
+                end: "july 15 2023, 16:00"
             }
         ]
     },
@@ -855,7 +856,7 @@ var timerData = [
         "type": "Gacha",
         "title": [
 			"【New Gacha】Limited-time Infinity Iroha-chan Pickup & Step-UP Gacha",
-            "『期間限定 無限大いろはちゃん ピックアップガチャ』"
+            "『ピュエラ・ヒストリア 邪馬台国の跡目編』"
         ],
         "image": [
             "imgs/gatcha/gacha06.png",
@@ -877,20 +878,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Limited-time Heruka Pickup & Paid Step-UP Gacha",
-            "『ピュエラ・ヒストリア チベットのラクシャーシー編』"
+			"【New Gacha】Limited-time Toyo Pickup & Paid Step-UP Gacha",
+            "『期間限定 トヨ ピックアップ & ステップアップガチャ』"
         ],
         "image": [
-            "imgs/gatcha/gatcha0302.png",
-			"imgs/gatcha/gatcha0303.png"
+            "imgs/gatcha/toyo00.png",
+			"imgs/gatcha/toyo01.png"
         ],
         "column": 1,
         "priority": 16,
         "timers": [
             {
                 name: "",
-                start: "May 19 2023, 16:00",
-				end: "May 29 2023, 14:59",
+                start: "June 26 2023, 16:00",
+				end: "july 10 2023, 14:59",
                 extraPriority: 1000
             }
         ]
