@@ -495,9 +495,9 @@ var timerData = [
 		priority: 2,
 		timers: [
 		{
-			name: " Masara x Kokoro Bride ver. Selecion Ticket",
-			start: "June 9 2023, 16:00",
-			end: "June 26 2023, 14:59"
+			name: "Toyo Selecion Ticket",
+			start: "June 26 2023, 16:00",
+			end: "July 17 2023, 14:59"
 		},
 		{
 			name: "Swimsuit Magical Girl 2018-2022 Selection Tickets ",
