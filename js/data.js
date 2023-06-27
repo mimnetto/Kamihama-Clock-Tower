@@ -154,7 +154,7 @@ var timerData = [
 			"imgs/events/historia001.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
 			{
 				name: "",
@@ -242,7 +242,7 @@ var timerData = [
 				end: "june 19 2023, 14:59",
 				extraPriority: 1000,
 				markers:
-				[{title: "Story Quests 11-20 & 100Evils I~III", time: "june 14 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 16-30 & 100Evils I~III", time: "july 3 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -349,14 +349,15 @@ var timerData = [
 			"imgs/gatcha/hisitoria00.png"
         ],
         "column": 0,
-        "priority": 3,
+        "priority": 1,
         "timers": [
 			{
 				name: "",
 				start: "june 26 2023, 16:00",
 				end: "July 10 2023, 14:59",
+				extraPriority: 100,
 				markers:
-				[{title: "Story Quests 11-20 & 100Evils I~III", time: "june 14 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 16-30 & 100Evils I~III", time: "july 3 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -426,14 +427,14 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Happiness Bouquet",
-			start: "June 9 2023, 16:00",
-			end: "June 26 2023, 14:59"
-		},
-		{
 			name: "Ranking Mirror Match Coins",
 			start: "June 19 2023, 17:00",
 			end: "July 10 2023, 14:59"
+		},
+		{
+			name: "Delicious Bamboo Shoots",
+			start: "June 26 2023, 16:00",
+			end: "July 17 2023, 14:59"
 		},
 		]
 	},
@@ -450,14 +451,14 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-				name: " Masara x Kokoro Bride ver. - Yellow",
-				start: "june 9 2023, 16:00",
-				end: "June 26 2023, 14:59"
-			},
-			{
 				name: "4★ Selectable Memoria Gacha Coins - Brown",
 				start: "June 19 2023, 17:00",
 				end: "July 10 2023, 14:59"
+			},
+			{
+				name: "Toyo. - Pink",
+				start: "june 26 2023, 16:00",
+				end: "July 17 2023, 14:59"
 			},
 		]
 	},
