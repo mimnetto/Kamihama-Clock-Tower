@@ -27,40 +27,40 @@ var timerData = [
             "『キモチ戦 漂うダイヤモンドの髪』"
         ],
         "image": [
-            "imgs/events/kimochi/kimochi00.png"
+            "imgs/kimochi/kimochi00.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-				start: "April 17 2023, 18:00",
-				end: "April 18 2023, 15:59"
+                start: "July 10 2023, 17:00",
+                end: "july 11 2023, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "April 18 2023, 16:00",
-				end: "April 19 2023, 15:59"
+				start: "july 11 2023, 16:00",
+				end: "july 12 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "April 19 2023, 16:00",
-				end: "April 20 2023, 15:59"
+				start: "july 12 2023, 16:00",
+				end: "july 13 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "April 20 2023, 16:00",
-				end: "April 21 2023, 15:59"
+				start: "july 13 2023, 16:00",
+				end: "july 14 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "April 21 2023, 16:00",
-				end: "April 22 2023, 15:59"
+				start: "july 14 2023, 16:00",
+				end: "july 15 2023, 15:59"
 			}, 
             {
                 "name": "Main Event",
-                "start": "April 19 2023, 18:00",
-                "end": "April 22 2023, 16:00",
+                "start": "july 12 2023, 16:00",
+                "end": "july 15 2023, 17:00",
                 "extraPriority": 1,
 				"type": "normal",
 				markers:
@@ -364,7 +364,7 @@ var timerData = [
 	{
         "type": "Event",
         title: [
-			"【Announcement】Komochi Drifting Diamond Hair  - Dark Type",
+			"Komochi Drifting Diamond Hair ",
             "『キモチ戦 漂うダイヤモンドの髪』"
         ],
         "image": [
@@ -374,9 +374,9 @@ var timerData = [
         priority: 0,
         timers: [
             {
-                name: "Set for Early July! No official scheduale yet",
-                start: "July 10 2023, 16:00",
-                end: "july 15 2023, 16:00"
+                name: "Dark Type",
+                start: "July 10 2022, 17:00",
+                end: "july 15 2022, 15:59"
             }
         ]
     },
@@ -456,7 +456,7 @@ var timerData = [
 				end: "July 10 2023, 14:59"
 			},
 			{
-				name: "Toyo. - Pink",
+				name: "Toyo - Pink",
 				start: "june 26 2023, 16:00",
 				end: "July 17 2023, 14:59"
 			},
@@ -465,19 +465,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"【Limited】Mirrors Memoria Enhancement Support Pack",
-		"『ミラーズランクマッチメモリア強化応援パック』"
+		"【Limited】Light Attribute Magical Girl Training Pack",
+		"『光属性魔法少女育成パック』"
 		],
 		image: [
-            "imgs/shops/mirrors-pack00.png"
+            "imgs/shops/hikaru.png"
         ],
 		column: 2,
 		priority: 1,
 		timers: [
 		{
 			name: "Sales period",
-			start: "June 19 2023, 17:00",
-			end: "jul 3 2023, 14:59",
+			start: "July 10 2023, 17:00",
+			end: "jul 17 2023, 14:59",
 			extraPriority: 1000
 		}
 		]
@@ -548,26 +548,23 @@ var timerData = [
             }
         ]
     },
-			{
+	{
         "type": "Gacha",
         "title": [
-			"【Gacha Rurun】Limited Pick-Up Swimsuit Gacha",
-            "【有償限定 ピックアップガチャ 水着魔法少女】"
+			"Light Attribute Pick Up Gacha",
+            "『光属性魔法少女 ピックアップガチャ』"
         ],
         "image": [
-            "imgs/gatcha/rerun03.png",
-			"imgs/gatcha/rerun02.png",
-			"imgs/gatcha/rerun01.png",
-			"imgs/gatcha/rerun01.png"
+			"imgs/gatcha/kimoga00.png"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 15,
         "timers": [
             {
-                name: "2019-2022 Editions",
-                start: "May 29 2023, 16:00",
-				end: "june 9 2023, 14:59",
-                extraPriority: 100
+                name: "",
+                start: "July 10 2023, 17:00",
+				end: "July 17 2023, 14:59",
+                extraPriority: 100,
             }
         ]
     },
@@ -853,26 +850,23 @@ var timerData = [
             }
         ]
     },
-		{
+	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Limited-time Infinity Iroha-chan Pickup & Step-UP Gacha",
-            "『ピュエラ・ヒストリア 邪馬台国の跡目編』"
+			"One Time Guareteed ★ 4 Light Attribute Paid Gacha",
+            "『光属性★4確定ガチャ予告』"
         ],
         "image": [
-            "imgs/gatcha/gacha06.png",
-			"imgs/gatcha/gacha0602.png"
-
-
+			"imgs/gatcha/kimoga01.png"
         ],
         "column": 1,
-        "priority": 17,
+        "priority": 15,
         "timers": [
             {
                 name: "",
-                start: "April 5 2023, 16:00",
-				end: "April 17 2023, 15:59",
-                extraPriority: 100
+                start: "July 10 2023, 17:00",
+				end: "July 17 2023, 14:59",
+                extraPriority: 100,
             }
         ]
     },
@@ -920,20 +914,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Battle Museum, Special Offers and Ren Step Up Gacha",
-            "5周年記念 選べる期間限定★4魔法少女ピックアップガチャ"
+			"One Time Guareteed ★ 4 Light Attribute Paid Gacha",
+            "『光属性★4確定ガチャ予告』"
         ],
         "image": [
-            "imgs/anniv/gachabanner_1107_m.png",
-			"imgs/gatcha/gacha_sp00.png"
+			"imgs/gatcha/kimoga01.png"
         ],
         "column": 1,
         "priority": 15,
         "timers": [
             {
                 name: "",
-                start: "Sep 5 2022, 16:00",
-				end: "Sep 20 2022, 23:59",
+                start: "July 10 2022, 17:00",
+				end: "July 17 2022, 14:59",
                 extraPriority: 100,
 				markers:
 				[
