@@ -58,9 +58,9 @@ var timerData = [
 				end: "july 15 2023, 15:59"
 			}, 
             {
-                "name": "Main Event",
-                "start": "july 12 2023, 16:00",
-                "end": "july 15 2023, 17:00",
+                "name": "Event Duration",
+                "start": "july 10 2023, 17:00",
+                "end": "july 15 2023, 15:59",
                 "extraPriority": 1,
 				"type": "normal",
 				markers:
@@ -519,9 +519,9 @@ var timerData = [
         priority: 4,
         timers: [
             {
-                name: "Scheduled Time",
-                start: "June 19 2023, 15:00",
-                end: "June 19 2023, 17:00",
+                name: "Estimated Time",
+                start: "July 10 2023, 15:00",
+                end: "July 10 2023, 16:59",
 				extraPriority: 100
             }
         ]
