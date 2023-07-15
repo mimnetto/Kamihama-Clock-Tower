@@ -146,11 +146,10 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Puella Historia Strategy Campaign",
-			"『ピュエラ・ヒストリア攻略キャンペーン』"
+            "【Summer Event】 Summer Pop Festival! ～Nagisa's HOT Summer Break～",
+			"『ステップアップガチャ予告』"
         ],
         "image": [
-            "imgs/camp/camp00.png",
 			"imgs/events/historia001.png"
         ],
         "column": 0,
@@ -227,22 +226,21 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【New Event】A Bouquet for Tomorrow's Happiness",
-			"『あしたの幸せに花束を』"
+            "【Summer Event】 Summer Pop Festival! ～Nagisa's HOT Summer Break～",
+			"『サマーポップフェスティバル！～なぎさのアツい夏休み～』"
         ],
         "image": [
-			"imgs/events/masakoko.png"
+			"imgs/events/summer00.png"
         ],
         "column": 0,
-        "priority": 3,
+        "priority": 2,
         "timers": [
 			{
-				name: "Single Tower",
-				start: "june 9 2023, 16:00",
-				end: "june 19 2023, 14:59",
-				extraPriority: 1000,
+				name: "",
+				start: "july 14 2023, 16:00",
+				end: "july 24 2023, 14:59",
 				markers:
-				[{title: "Story Quests 16-30 & 100Evils I~III", time: "july 3 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 10-20 & 100Evils I~III", time: "july 19 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -427,14 +425,14 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Ranking Mirror Match Coins",
-			start: "June 19 2023, 17:00",
-			end: "July 10 2023, 14:59"
+			name: "Kimochi Medals",
+			start: "June 10 2023, 17:00",
+			end: "July 24 2023, 14:59"
 		},
 		{
-			name: "Delicious Bamboo Shoots",
-			start: "June 26 2023, 16:00",
-			end: "July 17 2023, 14:59"
+			name: "Magical Trip Cheese",
+			start: "July 14 2023, 16:00",
+			end: "July 31 2023, 14:59"
 		},
 		]
 	},
@@ -451,15 +449,20 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-				name: "4★ Selectable Memoria Gacha Coins - Brown",
-				start: "June 19 2023, 17:00",
-				end: "July 10 2023, 14:59"
-			},
-			{
 				name: "Toyo - Pink",
 				start: "june 26 2023, 16:00",
 				end: "July 17 2023, 14:59"
 			},
+			{
+				name: "Light Attribute Gacha Coins - Yellow",
+				start: "June 10 2023, 16:00",
+				end: "July 24 2023, 14:59"
+			},
+			{
+				name: "Momoe Nagisa(Swimsuit ver.) Gacha - Black",
+				start: "July 14 2023, 16:00",
+				end: "July 31 2023, 14:59"
+			}
 		]
 	},
 {
@@ -495,14 +498,14 @@ var timerData = [
 		priority: 2,
 		timers: [
 		{
-			name: "Toyo Selecion Ticket",
+			name: "Toyo Selecion Ticket - Pink",
 			start: "June 26 2023, 16:00",
 			end: "July 17 2023, 14:59"
 		},
 		{
-			name: "Swimsuit Magical Girl 2018-2022 Selection Tickets ",
-			start: "May 29 2023, 16:00",
-			end: "June 16 2023, 14:59"
+			name: "Momoe Nagisa(Swimsuit ver.) Gacha Selection Ticket - Black",
+			start: "July 14 2023, 16:00",
+			end: "July 31 2023, 14:59"
 		},
 		]
 	},
@@ -529,21 +532,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Gacha Rurun】Paid Limited Step-up Swimsuit Gacha",
-            "【有償限定 ステップアップガチャ 水着魔法少女】"
+			"【New Gacha】Momoe Nagisa(Swimsuit ver.) Gacha",
+            "【有償限定 ステップアップガチャ 百江なぎさ 水着ver.編】"
         ],
         "image": [
-            "imgs/gatcha/rerun06.png",
-			"imgs/gatcha/rerun05.png",
-			"imgs/gatcha/rerun04.png"
+            "imgs/gatcha/summer00.png",
+			"imgs/gatcha/summer01.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                name: "2019-2022 Editions",
-                start: "May 29 2023, 16:00",
-				end: "june 9 2023, 14:59",
+                name: "Pick Up & Paid Step Up",
+                start: "july 14 2023, 16:00",
+				end: "july 24 2023, 14:59",
                 extraPriority: 100
             }
         ]
