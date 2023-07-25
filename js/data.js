@@ -226,21 +226,21 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Summer Event】 Summer Pop Festival! ～Nagisa's HOT Summer Break～",
-			"『サマーポップフェスティバル！～なぎさのアツい夏休み～』"
+            "【New Double Tower Event】 Puella Historia ・ Pax Romana’s Sweetheart",
+			"『ピュエラ・ヒストリア パクス・ロマーナの恋人編』"
         ],
         "image": [
-			"imgs/events/summer00.png"
+			"imgs/events/historia003.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
 				name: "",
-				start: "july 14 2023, 16:00",
-				end: "july 24 2023, 14:59",
+				start: "july 24 2023, 16:00",
+				end: "aug 4 2023, 14:59",
 				markers:
-				[{title: "Story Quests 10-20 & 100Evils I~III", time: "july 19 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 21-30 & 100Evils I~III", time: "july 28 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -340,7 +340,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【New Event】 Puella Historia ・ The Family Heir of Yamataikoku",
+            "【New Gatcha】 Puella Historia ・ Amaryllis Pickup Gacha",
 			"『ピュエラ・ヒストリア 邪馬台国の跡目編』"
         ],
         "image": [
@@ -362,19 +362,19 @@ var timerData = [
 	{
         "type": "Event",
         title: [
-			"Komochi Drifting Diamond Hair ",
-            "『キモチ戦 漂うダイヤモンドの髪』"
+			"Puella Historia Strategy Campaign",
+            "『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
         "image": [
-            "imgs/kimochi/kimochi00.png"
+            "imgs/camp/camp00.png"
 		],
         column: 0,
         priority: 0,
         timers: [
             {
-                name: "Dark Type",
-                start: "July 10 2022, 17:00",
-                end: "july 15 2022, 15:59"
+                name: "",
+                start: "July 24 2023, 16:00",
+                end: "Aug 4 2023, 14:59"
             }
         ]
     },
@@ -425,14 +425,14 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Kimochi Medals",
-			start: "June 10 2023, 17:00",
-			end: "July 24 2023, 14:59"
-		},
-		{
 			name: "Magical Trip Cheese",
 			start: "July 14 2023, 16:00",
 			end: "July 31 2023, 14:59"
+		},
+		{
+			name: "Pax Romana",
+			start: "July 24 2023, 16:00",
+			end: "Aug 11 2023, 14:59"
 		},
 		]
 	},
@@ -449,19 +449,19 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-				name: "Toyo - Pink",
-				start: "june 26 2023, 16:00",
-				end: "July 17 2023, 14:59"
+				name: "Momoe Nagisa(Swimsuit ver.) - Black",
+				start: "July 14 2023, 16:00",
+				end: "July 31 2023, 14:59"
 			},
 			{
-				name: "Light Attribute Gacha Coins - Yellow",
-				start: "June 10 2023, 16:00",
-				end: "July 24 2023, 14:59"
+				name: "Amaryllis Coins - Brown",
+				start: "July 24 2023, 16:00",
+				end: "aug 11 2023, 14:59"
 			},
 			{
 				name: "Momoe Nagisa(Swimsuit ver.) Gacha - Black",
-				start: "July 14 2023, 16:00",
-				end: "July 31 2023, 14:59"
+				start: "July 14 2022, 16:00",
+				end: "July 31 2022, 14:59"
 			}
 		]
 	},
@@ -497,16 +497,16 @@ var timerData = [
 		column: 2,
 		priority: 2,
 		timers: [
+			{
+				name: "Momoe Nagisa(Swimsuit ver.) Selection Ticket - Black",
+				start: "July 14 2023, 16:00",
+				end: "July 31 2023, 14:59"
+			},
 		{
-			name: "Toyo Selecion Ticket - Pink",
-			start: "June 26 2023, 16:00",
-			end: "July 17 2023, 14:59"
-		},
-		{
-			name: "Momoe Nagisa(Swimsuit ver.) Gacha Selection Ticket - Black",
-			start: "July 14 2023, 16:00",
-			end: "July 31 2023, 14:59"
-		},
+			name: "Amaryllis Coins Selection Ticket - Brown",
+			start: "July 24 2023, 16:00",
+			end: "aug 11 2023, 14:59"
+		}
 		]
 	},
 	{
@@ -916,19 +916,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"One Time Guareteed ★ 4 Light Attribute Paid Gacha",
-            "『光属性★4確定ガチャ予告』"
+			"【New Gatcha】Amaryllis Pickup and Step-up Gacha",
+            "『有償限定 ステップアップ & ピックアップ ガチャ アマリュリス編』"
         ],
         "image": [
-			"imgs/gatcha/kimoga01.png"
+			"imgs/gatcha/ama00.png",
+			"imgs/gatcha/ama01.png"
         ],
         "column": 1,
         "priority": 15,
         "timers": [
             {
                 name: "",
-                start: "July 10 2022, 17:00",
-				end: "July 17 2022, 14:59",
+                start: "July 24 2023, 16:00",
+				end: "aug 4 2023, 14:59",
                 extraPriority: 100,
 				markers:
 				[
