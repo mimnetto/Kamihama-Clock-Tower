@@ -503,7 +503,7 @@ var timerData = [
 				end: "July 31 2023, 14:59"
 			},
 		{
-			name: "Amaryllis Coins Selection Ticket - Brown",
+			name: "Amaryllis Selection Ticket - Brown",
 			start: "July 24 2023, 16:00",
 			end: "aug 11 2023, 14:59"
 		}
