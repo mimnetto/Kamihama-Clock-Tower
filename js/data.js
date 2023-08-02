@@ -387,7 +387,8 @@ var timerData = [
             "『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
         "image": [
-            "imgs/camp/camp00.png"
+            "imgs/camp/camp00.png",
+			"imgs/events/historia001.png"
 		],
         column: 0,
         priority: 1,
