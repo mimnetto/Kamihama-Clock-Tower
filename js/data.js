@@ -204,22 +204,43 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【Event Rerun】Rainbow Colored Summer ~Everyday Life Recorded in a Notebook~",
-			"『七色夏模様 ～ノートに記された日常～』"
+            "【New Event】blank",
+			"『かごめの百怪波瀾～炎夏の宴～』"
         ],
         "image": [
-			"imgs/events/rerun00.png"
+			"imgs/events/event04.png"
         ],
         "column": 0,
-        "priority": 3,
+        "priority": 0,
         "timers": [
 			{
 				name: "Limited-time Daily Missions",
 				start: "May 29 2023, 16:00",
 				end: "june 9 2023, 14:59",
-				extraPriority: 1000,
+				extraPriority: 0,
 				markers:
 				[{title: "Story Quests Part 2", time: "june 2 2023, 16:00", type: "battle"}]
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+            "【New Event】Kagome's 100 Demons ~Midsummer Sabbath~",
+			"『かごめの百怪波瀾～炎夏の宴～』"
+        ],
+        "image": [
+			"imgs/events/event04.png"
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				name: "",
+				start: "aug 4 2023, 16:00",
+				end: "aug 17 2023, 14:59",
+				markers:
+				[{title: "Story Quests 11-20 & 100Evils I~III", time: "aug 10 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -233,7 +254,7 @@ var timerData = [
 			"imgs/events/historia003.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 1,
         "timers": [
 			{
 				name: "",
@@ -369,7 +390,7 @@ var timerData = [
             "imgs/camp/camp00.png"
 		],
         column: 0,
-        priority: 0,
+        priority: 1,
         timers: [
             {
                 name: "",
@@ -532,20 +553,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Momoe Nagisa(Swimsuit ver.) Gacha",
-            "【有償限定 ステップアップガチャ 百江なぎさ 水着ver.編】"
+			"【New Limited Gacha】Gacha Kagome Satori Hyakki Yako ver. Pickup and Step-up Gacha",
+            "【有償限定 ステップアップ & ピックアップ ガチャ 佐鳥かごめ 百鬼夜行ver.編】"
         ],
         "image": [
-            "imgs/gatcha/summer00.png",
-			"imgs/gatcha/summer01.png"
+            "imgs/gatcha/gatcha04.png",
+			"imgs/gatcha/gatcha0400.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 name: "Pick Up & Paid Step Up",
-                start: "july 14 2023, 16:00",
-				end: "july 24 2023, 14:59",
+                start: "Aug 4 2023, 16:00",
+				end: "aug 17 2023, 14:59",
                 extraPriority: 100
             }
         ]
