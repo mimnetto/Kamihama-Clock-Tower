@@ -554,7 +554,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Limited Gacha】Gacha Kagome Satori Hyakki Yako ver. Pickup and Step-up Gacha",
+			"【New Limited Gacha】Kagome Satori Hyakki Yako ver. Pickup and Step-up Gacha",
             "【有償限定 ステップアップ & ピックアップ ガチャ 佐鳥かごめ 百鬼夜行ver.編】"
         ],
         "image": [
