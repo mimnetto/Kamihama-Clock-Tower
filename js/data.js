@@ -541,13 +541,13 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 4,
+        priority: 1,
         timers: [
             {
                 name: "Estimated Time",
-                start: "July 10 2023, 15:00",
-                end: "July 10 2023, 16:59",
-				extraPriority: 100
+                start: "aug 4 2023, 15:00",
+                end: "aug 4 2023, 15:59",
+				// extraPriority: 100
             }
         ]
     },
