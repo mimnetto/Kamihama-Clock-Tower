@@ -124,22 +124,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Double Tower Event】Puella Historia ・ The Rakshasi of Tibet",
-			"『ピュエラ・ヒストリア チベットのラクシャーシー編』"
+            "【New Event Type】Puella Historia ・ Pillar of Tomorrow",
+			"『ピュエラ・ヒストリア Pillar of Tomorrow』"
         ],
         "image": [
-            "imgs/gatcha/gatcha03.png"
+            "imgs/events/pot00.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 0,
         "timers": [
 			{
-				name: "",
-				start: "may 19 2023, 16:00",
-				end: "may 29 2023, 14:59",
-				extraPriority: 1000,
-				markers:
-				[{title: "Story Quests 21-40 & 100Evils I~III", time: "May 24 2023, 16:00", type: "battle"}]
+				name: "Tentative Schedule",
+				start: "aug 17 2023, 16:00",
+				end: "aug 29 2023, 14:59",
 			}
         ]
     },
@@ -217,7 +214,7 @@ var timerData = [
 				name: "Limited-time Daily Missions",
 				start: "May 29 2023, 16:00",
 				end: "june 9 2023, 14:59",
-				extraPriority: 0,
+				extraPriority: 1000,
 				markers:
 				[{title: "Story Quests Part 2", time: "june 2 2023, 16:00", type: "battle"}]
 			}
@@ -226,7 +223,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【New Event】Kagome's 100 Demons ~Midsummer Sabbath~",
+            "【New Event】Kagome's 100 Monsters ~Midsummer Sabbath~",
 			"『かごめの百怪波瀾～炎夏の宴～』"
         ],
         "image": [
@@ -239,6 +236,7 @@ var timerData = [
 				name: "",
 				start: "aug 4 2023, 16:00",
 				end: "aug 17 2023, 14:59",
+				extraPriority: 1000,
 				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "aug 10 2023, 16:00", type: "battle"}]
 			}
@@ -447,14 +445,14 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Magical Trip Cheese",
-			start: "July 14 2023, 16:00",
-			end: "July 31 2023, 14:59"
-		},
-		{
-			name: "Pax Romana",
+			name: "Pax Romana - Longed-for Game Board",
 			start: "July 24 2023, 16:00",
 			end: "Aug 11 2023, 14:59"
+		},
+		{
+			name: "Kagome's 100 Monsters - Ancient Wish",
+			start: "aug 4 2023, 16:00",
+			end: "aug 24 2023, 14:59"
 		},
 		]
 	},
@@ -481,9 +479,9 @@ var timerData = [
 				end: "aug 11 2023, 14:59"
 			},
 			{
-				name: "Momoe Nagisa(Swimsuit ver.) Gacha - Black",
-				start: "July 14 2022, 16:00",
-				end: "July 31 2022, 14:59"
+				name: "Kagome Satori Hyakki Yako ver. - Green",
+				start: "aug 4 2023, 16:00",
+				end: "aug 24 2023, 14:59"
 			}
 		]
 	},
@@ -519,16 +517,16 @@ var timerData = [
 		column: 2,
 		priority: 2,
 		timers: [
-			{
-				name: "Momoe Nagisa(Swimsuit ver.) Selection Ticket - Black",
-				start: "July 14 2023, 16:00",
-				end: "July 31 2023, 14:59"
-			},
 		{
 			name: "Amaryllis Selection Ticket - Brown",
 			start: "July 24 2023, 16:00",
 			end: "aug 11 2023, 14:59"
-		}
+		},
+		{
+			name: "Kagome Satori Hyakki Yako ver. Selection Ticket - Green",
+			start: "aug 4 2023, 16:00",
+			end: "aug 24 2023, 14:59"
+		},
 		]
 	},
 	{
