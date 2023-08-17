@@ -540,7 +540,7 @@ var timerData = [
 		},
 		{
 			name: "Historia Magical Girls - Blue",
-			start: "aug 17 24 2023, 16:00",
+			start: "aug 17 2023, 16:00",
 			end: "sept 11 2023, 14:59"
 		},
 		]
