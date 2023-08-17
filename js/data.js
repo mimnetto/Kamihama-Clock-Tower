@@ -131,31 +131,31 @@ var timerData = [
             "imgs/events/pot00.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 2,
         "timers": [
 			{
 				name: "Tentative Schedule",
 				start: "aug 17 2023, 16:00",
-				end: "aug 29 2023, 14:59",
+				end: "aug 22 2023, 14:59",
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-            "【Summer Event】 Summer Pop Festival! ～Nagisa's HOT Summer Break～",
-			"『ステップアップガチャ予告』"
+            "【YouTube Live】 Magia Day 2023",
+			"『Magia Day 2023』"
         ],
         "image": [
-			"imgs/events/historia001.png"
+			"imgs/events/magiaday23.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 0,
         "timers": [
 			{
-				name: "",
-				start: "june 26 2023, 16:00",
-				end: "july 10 2023, 14:59",
+				name: "Confirmed Scene0 Annoucement",
+				start: "Sept 24 2023, 18:00",
+				end: "Sept 24 2023, 20:00",
 				markers:
 				[
 				{time: "Mar 27 2023, 16:00", title: "Challenge Stages", type: "battle"},
@@ -165,6 +165,27 @@ var timerData = [
 			}
         ]
     },
+	{
+        "type": "Event",
+        "title": [
+            "6th Anniversary Countdown Campaign",
+			"『6周年カウントダウンキャンペーン』"
+        ],
+        "image": [
+            "imgs/events/anni06.png"
+
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				name: "Limited-Time Daily Missions and Login Bonus",
+				start: "aug 17 2023, 17:00",
+				end: "sep 4 2023, 14:59",
+				extraPriority: 10
+			},
+		]
+	},
 	{
         "type": "Event",
         "title": [
@@ -393,8 +414,8 @@ var timerData = [
         timers: [
             {
                 name: "",
-                start: "July 24 2023, 16:00",
-                end: "Aug 4 2023, 14:59"
+                start: "Aug 17 2023, 16:00",
+                end: "Aug 22 2023, 14:59"
             }
         ]
     },
@@ -469,20 +490,15 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-				name: "Momoe Nagisa(Swimsuit ver.) - Black",
-				start: "July 14 2023, 16:00",
-				end: "July 31 2023, 14:59"
-			},
-			{
-				name: "Amaryllis Coins - Brown",
-				start: "July 24 2023, 16:00",
-				end: "aug 11 2023, 14:59"
-			},
-			{
 				name: "Kagome Satori Hyakki Yako ver. - Green",
 				start: "aug 4 2023, 16:00",
 				end: "aug 24 2023, 14:59"
-			}
+			},
+			{
+				name: "Historia Magical Girls - Blue",
+				start: "aug 17 2023, 16:00",
+				end: "sept 11 2023, 14:59"
+			},
 		]
 	},
 {
@@ -518,14 +534,14 @@ var timerData = [
 		priority: 2,
 		timers: [
 		{
-			name: "Amaryllis Selection Ticket - Brown",
-			start: "July 24 2023, 16:00",
-			end: "aug 11 2023, 14:59"
-		},
-		{
 			name: "Kagome Satori Hyakki Yako ver. Selection Ticket - Green",
 			start: "aug 4 2023, 16:00",
 			end: "aug 24 2023, 14:59"
+		},
+		{
+			name: "Historia Magical Girls - Blue",
+			start: "aug 17 24 2023, 16:00",
+			end: "sept 11 2023, 14:59"
 		},
 		]
 	},
@@ -552,20 +568,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Limited Gacha】Kagome Satori Hyakki Yako ver. Pickup and Step-up Gacha",
-            "【有償限定 ステップアップ & ピックアップ ガチャ 佐鳥かごめ 百鬼夜行ver.編】"
+			"【New Limited Gacha】Nanami Yachiyo Historia ver. Pickup and Step-up Gacha",
+            "【有償限定 ステップアップ & ピックアップ ガチャ 期間限定 七海やちよ ヒストリアver. 】"
         ],
         "image": [
-            "imgs/gatcha/gatcha04.png",
-			"imgs/gatcha/gatcha0400.png"
+            "imgs/gatcha/yachan00.png",
+			"imgs/gatcha/yachan01.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 name: "Pick Up & Paid Step Up",
-                start: "Aug 4 2023, 16:00",
-				end: "aug 17 2023, 14:59",
+                start: "Aug 17 2023, 16:00",
+				end: "sep 4 2023, 14:59",
                 extraPriority: 100
             }
         ]
