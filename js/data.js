@@ -23,48 +23,48 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Kimochi Drifting Diamond Hair",
-            "『キモチ戦 漂うダイヤモンドの髪』"
+			"【Special Kimochi】 ～ Witch of the Nutcracker ～ ",
+            "『キモチ戦特別編 くるみ割りの魔女』"
         ],
         "image": [
-            "imgs/kimochi/kimochi00.png"
+            "imgs/anni/kimochi00.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-                start: "July 10 2023, 17:00",
-                end: "july 11 2023, 15:59"
+                start: "sep 4 2023, 17:00",
+                end: "sep 5 2023, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "july 11 2023, 16:00",
-				end: "july 12 2023, 15:59"
+				start: "sep 5 2023, 16:00",
+				end: "sep 6 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "july 12 2023, 16:00",
-				end: "july 13 2023, 15:59"
+				start: "sep 6 2023, 16:00",
+				end: "sep 7 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "july 13 2023, 16:00",
-				end: "july 14 2023, 15:59"
+				start: "sep 7 2023, 16:00",
+				end: "sep 8 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "july 14 2023, 16:00",
-				end: "july 15 2023, 15:59"
+				start: "sep 8 2023, 16:00",
+				end: "sep 9 2023, 15:59"
 			}, 
             {
-                "name": "Event Duration",
-                "start": "july 10 2023, 17:00",
-                "end": "july 15 2023, 15:59",
+                "name": "Void Attribute",
+                "start": "sep 4 2023, 17:00",
+                "end": "sep 9 2023, 15:59",
                 "extraPriority": 1,
 				"type": "normal",
 				markers:
-				[{time: "April 19 2023, 17:00", title: "Part 2 - Groups", type: "battle"}]
+				[{time: "sep 7 2023, 17:00", title: "Part 2 - Groups", type: "battle"}]
 			}
 			]
     },
@@ -165,79 +165,76 @@ var timerData = [
 			}
         ]
     },
+	
 	{
         "type": "Event",
         "title": [
-            "6th Anniversary Countdown Campaign",
-			"『6周年カウントダウンキャンペーン』"
+            "Iroha Tamaki's Birthay limited-time mission Celebration",
+			"「環いろは」のお誕生日"
         ],
         "image": [
-            "imgs/events/anni06.png"
+            "imgs/anni/birth.png"
 
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
-				name: "Limited-Time Daily Missions and Login Bonus",
-				start: "aug 17 2023, 17:00",
+				name: "Limited-Time Missions",
+				start: "aug 22 2023, 16:00",
 				end: "sep 4 2023, 14:59",
-				extraPriority: 10
 			},
 		]
 	},
 	{
         "type": "Event",
         "title": [
-            "2100 Days Since Release Campaign",
-			"『リリース2100日記念キャンペーン』"
+            "6th Anniversary Campaign",
+			"【6周年記念キャンペーン】"
         ],
         "image": [
-            "imgs/gatcha/free002100.png",
-			"imgs/gatcha/quest2100.png"
+            "imgs/anni/camp00.png",
+			"imgs/events/anni06.png"
 
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 10,
         "timers": [
 			{
-				name: "Limited-Time Daily Missions and Login Bonus",
-				start: "may 29 2023, 16:00",
-				end: "june 9 2023, 14:59",
-				extraPriority: 10
+				name: "Login Bonus & Story",
+				start: "aug 22 2023, 16:00",
+				end: "sep 4 2023, 14:59",
 			},
 			{
 				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
-				start: "may 29 2023, 16:00",
-				end: "june 9 2023, 14:59",
-				extraPriority: 10
+				start: "aug 22 2023, 16:00",
+				end: "sep 4 2023, 14:59",
 			},
 			{
-				name: "Limited-time Daily Missions",
-				start: "april 24 2023, 16:00",
-				end: "may 8 2023, 14:59",
+				name: "Mirror Coin Rewards Doubled",
+				start: "aug 22 2023, 16:00",
+				end: "sep 4 2023, 14:59",
 			}
         ]
     },
 		{
         "type": "Event",
         "title": [
-            "【New Event】blank",
+            "【New Event】 Paradise Shift ～The Story of Returning～",
 			"『かごめの百怪波瀾～炎夏の宴～』"
         ],
         "image": [
-			"imgs/events/event04.png"
+			"imgs/anni/event00.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 9,
         "timers": [
 			{
-				name: "Limited-time Daily Missions",
-				start: "May 29 2023, 16:00",
-				end: "june 9 2023, 14:59",
-				extraPriority: 1000,
+				name: "",
+				start: "aug 22 2023, 16:00",
+				end: "sept 4 2023, 14:59",
 				markers:
-				[{title: "Story Quests Part 2", time: "june 2 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests Part 2, 100 Evils Challenge Quests Ⅰ～Ⅲ", time: "aug 28 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -499,24 +496,36 @@ var timerData = [
 				start: "aug 17 2023, 16:00",
 				end: "sept 11 2023, 14:59"
 			},
+			{
+				name: "Devil Homura - Purple",
+				start: "aug 22 2023, 16:00",
+				end: "sept 18 2023, 14:59"
+			},
 		]
 	},
 {
 		type: "Other",
 		title: [
-		"【Limited】Light Attribute Magical Girl Training Pack",
-		"『光属性魔法少女育成パック』"
+		"【Limited】6th anniversary DX lucky bag",
+		"『6周年DX福袋』"
 		],
 		image: [
-            "imgs/shops/hikaru.png"
+            "imgs/anni/shops00.png",
+			"imgs/anni/shops01.png"
         ],
 		column: 2,
 		priority: 1,
 		timers: [
 		{
 			name: "Sales period",
-			start: "July 10 2023, 17:00",
-			end: "jul 17 2023, 14:59",
+			start: "aug 22 2023, 16:00",
+			end: "sep 4 2023, 14:59",
+			extraPriority: 1000
+		},
+		{
+			name: "DX Ticket Limited and Unlimited Gachas",
+			start: "aug 22 2023, 16:00",
+			end: "sep 11 2023, 14:59",
 			extraPriority: 1000
 		}
 		]
@@ -542,6 +551,11 @@ var timerData = [
 			name: "Historia Magical Girls - Blue",
 			start: "aug 17 2023, 16:00",
 			end: "sept 11 2023, 14:59"
+		},
+		{
+			name: "Devil Homura - Purple",
+			start: "aug 22 2023, 16:00",
+			end: "sept 18 2023, 14:59"
 		},
 		]
 	},
@@ -649,248 +663,6 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Free Daily Rare Gacha 10 Pull",
-            "『10連レアガチャ』"
-        ],
-        "image": [
-            "imgs/gatcha/free00.png"
-        ],
-        "column": 1,
-        "priority": 100,
-        "timers": [
-            {
-                name: "Daily Pulls",
-                start: "May 29 2023, 16:00",
-				end: "June 9 2023, 16:59",
-                extraPriority: 0,
-				markers:
-				[
-				{
-					title: "Free pull 1",
-					time: "May 29 2023, 16:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 2",
-					time: "May 30 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 3",
-					time: "May 31 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 4",
-					time: "June 1 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 5",
-					time: "June 2 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 6",
-					time: "June 3 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 7",
-					time: "June 4 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 8",
-					time: "June 5 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 9",
-					time: "June 6 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 10",
-					time: "June 7 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 11",
-					time: "June 8 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 12",
-					time: "June 9 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 13",
-					time: "Jan 2 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 14",
-					time: "Jan 3 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 15",
-					time: "Jan 4 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 16",
-					time: "Jan 5 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 17",
-					time: "Jan 6 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 18",
-					time: "Jan 7 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 19",
-					time: "Jan 8 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 20",
-					time: "Jan 9 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 21",
-					time: "Jan 10 2023, 0:00",
-					type: "star"
-				}
-				]
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"4★Selectable Pickup & Single Free Pull",
-            "『選べる期間限定★4魔法少女 ピックアップガチャ』"
-        ],
-        "image": [
-            "imgs/events/event03.png",
-			"imgs/gatcha/gacha_sp00.png"
-        ],
-        "column": 1,
-        "priority": 17,
-        "timers": [
-            {
-                name: "",
-                start: "May 2 2023, 00:00",
-				end: "May 19 2023, 23:59",
-                extraPriority: 0,
-				markers:
-				[
-				{
-					title: "Free pull 1",
-					time: "May 2 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 2",
-					time: "May 3 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 3",
-					time: "May 4 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 4",
-					time: "May 5 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 5",
-					time: "May 6 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 6",
-					time: "May 7 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 7",
-					time: "May 8 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 8",
-					time: "May 9 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 9",
-					time: "May 10 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 10",
-					time: "May 11 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 11",
-					time: "May 12 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 12",
-					time: "May 13 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 13",
-					time: "May 14 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 14",
-					time: "May 15 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 15",
-					time: "May 16 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 16",
-					time: "May 17 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 17",
-					time: "May 18 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 18",
-					time: "May 19 2023, 00:00",
-					type: "star"
-				}
-				]
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
 			"One Time Guareteed ★ 4 Light Attribute Paid Gacha",
             "『光属性★4確定ガチャ予告』"
         ],
@@ -911,20 +683,63 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Limited-time Toyo Pickup & Paid Step-UP Gacha",
-            "『期間限定 トヨ ピックアップ & ステップアップガチャ』"
+			"Paid Limited Step-up Gacha Anniversary Edition",
+            "『有償限定 ステップアップガチャ アニバーサリー編』"
         ],
         "image": [
-            "imgs/gatcha/toyo00.png",
-			"imgs/gatcha/toyo01.png"
+            "imgs/anni/step00.png"
         ],
         "column": 1,
         "priority": 16,
         "timers": [
             {
                 name: "",
-                start: "June 26 2023, 16:00",
-				end: "july 10 2023, 14:59",
+                start: "aug 22 2023, 16:00",
+				end: "sep 4 2023, 14:59",
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited Pickup Gacha Anniversary Edition Gachas",
+            "『有償限定 ピックアップ ガチャ アニバーサリー編』"
+        ],
+        "image": [
+            "imgs/anni/pick00.png",
+			"imgs/anni/pick01.png",
+			"imgs/anni/pick02.png",
+			"imgs/anni/pick03.png",
+			"imgs/anni/pick04.png",
+        ],
+        "column": 1,
+        "priority": 16,
+        "timers": [
+            {
+                name: "",
+                start: "aug 22 2023, 16:00",
+				end: "sep 4 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Anniversary Gacha】Devil Homura Gacha",
+            "『有償限定 ステップアップ & ピックアップガチャ 悪魔ほむら編』"
+        ],
+        "image": [
+            "imgs/anni/homu00.png",
+			"imgs/anni/homu01.png"
+        ],
+        "column": 1,
+        "priority": 16,
+        "timers": [
+            {
+                name: "",
+                start: "aug 22 2023, 16:00",
+				end: "sep 11 2023, 14:59",
                 extraPriority: 1000
             }
         ]
@@ -932,111 +747,90 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Ren Paid Step Up Gacha",
-            "『有償限定 ステップアップガチャ』"
+			"6th Anniversary Choose your 4★ Limited Magical Girl Selection Gacha ",
+            "『6周年記念 選べる★4魔法少女ピックアップガチャ』"
         ],
         "image": [
-            "imgs/gatcha/gatcha-ren.png"
+            "imgs/anni/pick05.png"
         ],
         "column": 1,
-        "priority": 16,
+        "priority": 14,
         "timers": [
             {
-                name: "",
-                start: "May 8 2023, 16:00",
-				end: "May 19 2023, 14:59",
-                extraPriority: 1000
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【New Gatcha】Amaryllis Pickup and Step-up Gacha",
-            "『有償限定 ステップアップ & ピックアップ ガチャ アマリュリス編』"
-        ],
-        "image": [
-			"imgs/gatcha/ama00.png",
-			"imgs/gatcha/ama01.png"
-        ],
-        "column": 1,
-        "priority": 15,
-        "timers": [
-            {
-                name: "",
-                start: "July 24 2023, 16:00",
-				end: "aug 4 2023, 14:59",
+                name: "4★ Magical Girl Pull Rate Doubled!",
+                start: "aug 22 2023, 16:00",
+				end: "sep 4 2023, 23:59",
                 extraPriority: 100,
 				markers:
 				[
 				{
 					title: "Free pull 1",
-					time: "Sep 5 2022, 16:00",
+					time: "aug 22 2023, 16:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 2",
-					time: "Sep 6 2022, 0:00",
+					time: "aug 23 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 3",
-					time: "Sep 7 2022, 0:00",
+					time: "aug 24 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 4",
-					time: "Sep 8 2022, 0:00",
+					time: "aug 25 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 5",
-					time: "Sep 9 2022, 0:00",
+					time: "aug 26 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 6",
-					time: "Sep 10 2022, 0:00",
+					time: "aug 27 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 7",
-					time: "Sep 11 2022, 0:00",
+					time: "aug 28 2023 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 8",
-					time: "Sep 12 2022, 0:00",
+					time: "aug 29 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 9",
-					time: "Sep 13 2022, 0:00",
+					time: "aug 30 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 10",
-					time: "Sep 14 2022, 0:00",
+					time: "aug 31 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 11",
-					time: "Sep 15 2022, 0:00",
+					time: "sep 1 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 12",
-					time: "Sep 16 2022, 0:00",
+					time: "Sep 2 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 13",
-					time: "Sep 17 2022, 0:00",
+					time: "Sep 3 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 14",
-					time: "Sep 18 2022, 0:00",
+					time: "Sep 4 2023, 00:00",
 					type: "star"
 				},
 				{
@@ -1056,90 +850,90 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"5th Anniversary Choose your 4★ Limited Memoria Selection Gacha ",
-            "5周年記念 選べる期間限定★4メモリアセレクションガチャ"
+			"6th Anniversary Choose your 4★ Limited Memoria Selection Gacha ",
+            "『6周年記念 選べる★4メモリアセレクションガチャ』"
         ],
         "image": [
-            "imgs/anniv/gachabanner_1108_m.png"
+            "imgs/anni/pick06.png"
         ],
         "column": 1,
         "priority": 14,
         "timers": [
             {
-                name: "",
-                start: "Sep 5 2022, 16:00",
-				end: "Sep 20 2022, 23:59",
+                name: "4★ Magical Girl Pull Rate Doubled!",
+                start: "aug 22 2023, 16:00",
+				end: "sep 4 2023, 23:59",
                 extraPriority: 100,
 				markers:
 				[
 				{
 					title: "Free pull 1",
-					time: "Sep 5 2022, 16:00",
+					time: "aug 22 2023, 16:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 2",
-					time: "Sep 6 2022, 0:00",
+					time: "aug 23 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 3",
-					time: "Sep 7 2022, 0:00",
+					time: "aug 24 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 4",
-					time: "Sep 8 2022, 0:00",
+					time: "aug 25 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 5",
-					time: "Sep 9 2022, 0:00",
+					time: "aug 26 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 6",
-					time: "Sep 10 2022, 0:00",
+					time: "aug 27 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 7",
-					time: "Sep 11 2022, 0:00",
+					time: "aug 28 2023 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 8",
-					time: "Sep 12 2022, 0:00",
+					time: "aug 29 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 9",
-					time: "Sep 13 2022, 0:00",
+					time: "aug 30 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 10",
-					time: "Sep 14 2022, 0:00",
+					time: "aug 31 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 11",
-					time: "Sep 15 2022, 0:00",
+					time: "sep 1 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 12",
-					time: "Sep 16 2022, 0:00",
+					time: "Sep 2 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 13",
-					time: "Sep 17 2022, 0:00",
+					time: "Sep 3 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 14",
-					time: "Sep 18 2022, 0:00",
+					time: "Sep 4 2023, 00:00",
 					type: "star"
 				},
 				{
