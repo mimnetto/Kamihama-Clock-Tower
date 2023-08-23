@@ -1,29 +1,13 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "May 5 2023, 18:00";
-var nextAnniversary = "August 22 2023, 0:00";
+var possibleNextAnnouncementDate = "Sep 7 2022, 18:00";
+var nextAnniversary = "August 22 2024, 0:00";
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
-    /*{
-        type: "DailyQuest",
-        title: "Daily Quests",
-        priority: 50,
-        days: {
-            "sunday": { elements: ["Sun", "Priest", "Mage", "Alchemist"], short:"Sun" },
-            "monday": { elements: ["Moon", "Gold", "Warrior"], short:"Mon" },
-            "tuesday": { elements: ["Fire", "Knight", "Priest"], short:"Tue" },
-            "wednesday": { elements: ["Water", "Gold", "Mage"], short:"Wed" },
-            "thursday": { elements: ["Wind", "Warrior", "Alchemist"], short:"Thu" },
-            "friday": { elements: ["Gold", "Priest", "Mage"], short:"Fri" },
-            "saturday": { elements: ["Earth", "Warrior", "Knight"], short:"Sat" }
-        }
-    },
-
-  */
 	{
         "type": "WeekendBoss",
         "title": [
-			"【Special Kimochi】 ～ Witch of the Nutcracker ～ ",
+			"【Special Edition Kimochi】 Nutcracker Witch",
             "『キモチ戦特別編 くるみ割りの魔女』"
         ],
         "image": [
@@ -189,22 +173,36 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+            "6th Anniversary Countdown Campaign",
+			"『6周年カウントダウンキャンペーン』"
+        ],
+        "image": [
+			"imgs/events/anni06.png"
+
+        ],
+        "column": 0,
+        "priority": 5,
+        "timers": [
+			{
+				name: "First 5 event logins only, 20 Gems Daily (100 Total)",
+				start: "aug 17 2023, 17:00",
+				end: "sep 4 2023, 14:59",
+			},
+		]
+	},
+	{
+        "type": "Event",
+        "title": [
             "6th Anniversary Campaign",
-			"【6周年記念キャンペーン】"
+			"【『6周年カウントダウンキャンペーン』】"
         ],
         "image": [
             "imgs/anni/camp00.png",
-			"imgs/events/anni06.png"
 
         ],
         "column": 0,
         "priority": 10,
         "timers": [
-			{
-				name: "Login Bonus & Story",
-				start: "aug 22 2023, 16:00",
-				end: "sep 4 2023, 14:59",
-			},
 			{
 				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
 				start: "aug 22 2023, 16:00",
@@ -212,6 +210,11 @@ var timerData = [
 			},
 			{
 				name: "Mirror Coin Rewards Doubled",
+				start: "aug 22 2023, 16:00",
+				end: "sep 4 2023, 14:59",
+			},
+			{
+				name: "Daily Single Pull in Premium Gacha",
 				start: "aug 22 2023, 16:00",
 				end: "sep 4 2023, 14:59",
 			}
@@ -234,7 +237,7 @@ var timerData = [
 				start: "aug 22 2023, 16:00",
 				end: "sept 4 2023, 14:59",
 				markers:
-				[{title: "Story Quests Part 2, 100 Evils Challenge Quests Ⅰ～Ⅲ", time: "aug 28 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "aug 28 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -463,14 +466,19 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Pax Romana - Longed-for Game Board",
-			start: "July 24 2023, 16:00",
-			end: "Aug 11 2023, 14:59"
-		},
-		{
 			name: "Kagome's 100 Monsters - Ancient Wish",
 			start: "aug 4 2023, 16:00",
 			end: "aug 24 2023, 14:59"
+		},
+		{
+			name: "Paradise Shift - Welcoming Feeling",
+			start: "aug 22 2023, 16:00",
+			end: "sep 11 2023, 14:59"
+		},
+		{
+			name: "6th Anniversary Home Screen Outfit Exchange Ticket",
+			start: "aug 22 2023, 16:00",
+			end: "sep 11 2023, 14:59"
 		},
 		]
 	},
