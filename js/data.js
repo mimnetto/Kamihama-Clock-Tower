@@ -14,7 +14,7 @@ var timerData = [
             "imgs/anni/kimochi00.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 3,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
@@ -27,8 +27,13 @@ var timerData = [
 				end: "sep 6 2023, 15:59"
 			},
 			{
-				name: "Part 2 - Day 1",
+				name: "Maintenance",
 				start: "sep 6 2023, 16:00",
+				end: "sep 6 2023, 16:59"
+			},
+			{
+				name: "Part 2 - Day 1",
+				start: "sep 6 2023, 17:00",
 				end: "sep 7 2023, 15:59"
 			},
 			{
@@ -48,7 +53,7 @@ var timerData = [
                 "extraPriority": 1,
 				"type": "normal",
 				markers:
-				[{time: "sep 7 2023, 17:00", title: "Part 2 - Groups", type: "battle"}]
+				[{time: "sep 6 2023, 17:00", title: "Part 2 - Groups", type: "battle"}]
 			}
 			]
     },
@@ -140,16 +145,30 @@ var timerData = [
 				name: "Confirmed Scene0 Annoucement",
 				start: "Sept 24 2023, 18:00",
 				end: "Sept 24 2023, 20:00",
-				markers:
-				[
-				{time: "Mar 27 2023, 16:00", title: "Challenge Stages", type: "battle"},
-				{time: "Mar 31 2023, 16:00", title: "EX Challenge Stages", type: "battle"}
-				],
-				extraPriority: 10
 			}
         ]
     },
-	
+	{
+        "type": "Event",
+        "title": [
+            "【YouTube Live】 Aniplex Online Fest 2023",
+			"youtube.com/watch?v=g7ytgD5_LA4"
+        ],
+        "image": [
+			"imgs/events/aniplex.png"
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				name: "Walpurgisnacht Rising Annoucement",
+				start: "Sept 10 2023, 12:00",
+				end: "Sept 10 2023, 18:00",
+				markers:
+				[{title: "Madoka Time Slot", time: "sep 10 2023, 16:00", type: "star"}]
+			}
+        ]
+    },
 	{
         "type": "Event",
         "title": [
@@ -161,7 +180,7 @@ var timerData = [
 
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 4,
         "timers": [
 			{
 				name: "Limited-Time Missions",
@@ -415,7 +434,8 @@ var timerData = [
             {
                 name: "",
                 start: "Aug 17 2023, 16:00",
-                end: "Aug 22 2023, 14:59"
+                end: "Aug 22 2023, 14:59",
+				extraPriority: 1000
             }
         ]
     },
@@ -435,21 +455,6 @@ var timerData = [
 				name: "Choose your 4☆ Memoria Trade-in Ticket - Red",
 				start: "may 8 2023, 16:00",
 				end: "may 26 2023, 14:59"
-			},
-			{
-				name: "Kamihama M",
-				start: "Feb 10 2023, 16:00",
-				end: "Feb 27 2023, 14:59"
-			},
-			{
-				name: "Little Bird's Star - Event Shop & Missions",
-				start: "Feb 27 2023, 16:00",
-				end: "Mar 17 2023, 14:59"
-			},
-			{
-				name: "Ranking Mirrors Related Packs",
-				start: "Mar 20 2022, 16:00",
-				end: "Mar 27 2022, 14:59"
 			}
         ]
     },
@@ -495,11 +500,6 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-				name: "Kagome Satori Hyakki Yako ver. - Green",
-				start: "aug 4 2023, 16:00",
-				end: "aug 24 2023, 14:59"
-			},
-			{
 				name: "Historia Magical Girls - Blue",
 				start: "aug 17 2023, 16:00",
 				end: "sept 11 2023, 14:59"
@@ -508,6 +508,16 @@ var timerData = [
 				name: "Devil Homura - Purple",
 				start: "aug 22 2023, 16:00",
 				end: "sept 18 2023, 14:59"
+			},
+			{
+				name: "Choose your 4★ Memoria - Mint",
+				start: "aug 22 2023, 16:00",
+				end: "sept 11 2023, 14:59"
+			},
+			{
+				name: "Choose your 4★ Magical Girl - Green",
+				start: "aug 22 2023, 16:00",
+				end: "sept 11 2023, 14:59"
 			},
 		]
 	},
@@ -522,19 +532,17 @@ var timerData = [
 			"imgs/anni/shops01.png"
         ],
 		column: 2,
-		priority: 1,
+		priority: 10,
 		timers: [
 		{
 			name: "Sales period",
 			start: "aug 22 2023, 16:00",
 			end: "sep 4 2023, 14:59",
-			extraPriority: 1000
 		},
 		{
 			name: "DX Ticket Limited and Unlimited Gachas",
 			start: "aug 22 2023, 16:00",
 			end: "sep 11 2023, 14:59",
-			extraPriority: 1000
 		}
 		]
 	},
@@ -577,12 +585,12 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 1,
+        priority: 2,
         timers: [
             {
-                name: "Estimated Time",
-                start: "aug 4 2023, 15:00",
-                end: "aug 4 2023, 15:59",
+                name: "Kimochi Tallying Estimated Time",
+				start: "sep 6 2023, 16:00",
+				end: "sep 6 2023, 16:59"
 				// extraPriority: 100
             }
         ]
@@ -858,6 +866,124 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
+			"6th Anniversary Choose your 4★ Limited Memoria Selection Gacha",
+            "『6周年記念 選べる★4メモリアセレクションガチャ』"
+        ],
+        "image": [
+            "imgs/anni/pick06.png"
+        ],
+        "column": 1,
+        "priority": 14,
+        "timers": [
+            {
+                name: "Wave 2 - 4★ Magical Girl Pull Rate Doubled!",
+                start: "sep 4 2023, 17:00",
+				end: "sep 22 2023, 23:59",
+                extraPriority: 100,
+				markers:
+				[
+				{
+					title: "Free pull 1",
+					time: "sep 4 2023, 17:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 2",
+					time: "sep 5 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 3",
+					time: "sep 6 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 4",
+					time: "sep 7 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 5",
+					time: "sep 8 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 6",
+					time: "sep 9 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 7",
+					time: "sep 10 2023 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 8",
+					time: "sep 11 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 9",
+					time: "sep 12 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 10",
+					time: "sep 13 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 11",
+					time: "sep 14 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 12",
+					time: "Sep 15 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 13",
+					time: "Sep 16 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 14",
+					time: "Sep 17 2023, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 15",
+					time: "Sep 18 2023, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 16",
+					time: "Sep 19 2023, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 17",
+					time: "Sep 20 2023, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 18",
+					time: "Sep 21 2023, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 19",
+					time: "Sep 22 2023, 00:00",
+					type: "star"
+				},
+				]
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
 			"6th Anniversary Choose your 4★ Limited Memoria Selection Gacha ",
             "『6周年記念 選べる★4メモリアセレクションガチャ』"
         ],
@@ -942,16 +1068,6 @@ var timerData = [
 				{
 					title: "Free pull 14",
 					time: "Sep 4 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 15",
-					time: "Sep 19 2022, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 16",
-					time: "Sep 20 2022, 0:00",
 					type: "star"
 				}
 				]
