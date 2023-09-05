@@ -500,6 +500,21 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
+				name: "Choose your 4★ Limited Memoria - Brown",
+				start: "sep 4 2023, 17:00",
+				end: "sept 29 2023, 14:59"
+			},
+			{
+				name: "Choose your 4★ Limited Magical Girl - Orange",
+				start: "sep 4 2023, 17:00",
+				end: "sept 29 2023, 14:59"
+			},
+			{
+				name: "Kimochi - Purple",
+				start: "sep 4 2023, 17:00",
+				end: "sept 18 2023, 14:59"
+			},
+			{
 				name: "Historia Magical Girls - Blue",
 				start: "aug 17 2023, 16:00",
 				end: "sept 11 2023, 14:59"
