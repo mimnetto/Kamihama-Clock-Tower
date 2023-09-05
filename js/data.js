@@ -742,7 +742,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Anniversary Gacha】Devil Homura Gacha",
+			"【Anniversary Gacha】Devil Homura Pickup and Step-up Gacha",
             "『有償限定 ステップアップ & ピックアップガチャ 悪魔ほむら編』"
         ],
         "image": [
@@ -984,92 +984,118 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"6th Anniversary Choose your 4★ Limited Memoria Selection Gacha ",
-            "『6周年記念 選べる★4メモリアセレクションガチャ』"
+			"6th Anniversary Choose your 4★ Limited Magical Girl Selection Gacha",
+            "『6周年記念 選べる期間限定★4魔法少女ピックアップガチャ』"
         ],
         "image": [
-            "imgs/anni/pick06.png"
+            "imgs/anni/pick08.png",
+			"imgs/anni/pick07.png"
         ],
         "column": 1,
-        "priority": 14,
+        "priority": 15,
         "timers": [
             {
-                name: "4★ Magical Girl Pull Rate Doubled!",
-                start: "aug 22 2023, 16:00",
-				end: "sep 4 2023, 23:59",
+                name: "Wave 2 - 4★ Magical Girl Pull Rate Doubled!",
+                start: "sep 4 2023, 17:00",
+				end: "sep 22 2023, 23:59",
                 extraPriority: 100,
 				markers:
 				[
 				{
 					title: "Free pull 1",
-					time: "aug 22 2023, 16:00",
+					time: "sep 4 2023, 17:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 2",
-					time: "aug 23 2023, 0:00",
+					time: "sep 5 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 3",
-					time: "aug 24 2023, 0:00",
+					time: "sep 6 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 4",
-					time: "aug 25 2023, 0:00",
+					time: "sep 7 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 5",
-					time: "aug 26 2023, 0:00",
+					time: "sep 8 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 6",
-					time: "aug 27 2023, 0:00",
+					time: "sep 9 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 7",
-					time: "aug 28 2023 0:00",
+					time: "sep 10 2023 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 8",
-					time: "aug 29 2023, 0:00",
+					time: "sep 11 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 9",
-					time: "aug 30 2023, 0:00",
+					time: "sep 12 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 10",
-					time: "aug 31 2023, 0:00",
+					time: "sep 13 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 11",
-					time: "sep 1 2023, 0:00",
+					time: "sep 14 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 12",
-					time: "Sep 2 2023, 0:00",
+					time: "Sep 15 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 13",
-					time: "Sep 3 2023, 0:00",
+					time: "Sep 16 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 14",
-					time: "Sep 4 2023, 00:00",
+					time: "Sep 17 2023, 00:00",
 					type: "star"
-				}
+				},
+				{
+					title: "Free pull 15",
+					time: "Sep 18 2023, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 16",
+					time: "Sep 19 2023, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 17",
+					time: "Sep 20 2023, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 18",
+					time: "Sep 21 2023, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 19",
+					time: "Sep 22 2023, 00:00",
+					type: "star"
+				},
 				]
             }
         ]
