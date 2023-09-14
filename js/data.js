@@ -71,61 +71,63 @@ var timerData = [
         "timers": [
 			{
 				name: "Preliminaries - Day 1",
-				start: "Mar 20 2023, 17:00",
-				end: "Mar 21 2023, 15:59"
+				start: "sep 11 2023, 17:00",
+				end: "sep 12 2023, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 2",
-				start: "Mar 21 2023, 16:00",
-				end: "Mar 22 2023, 15:59"
+				start: "sep 12 2023, 16:00",
+				end: "sep 13 2023, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 3",
-				start: "Mar 22 2023, 16:00",
-				end: "Mar 23 2023, 15:59"
+				start: "sep 13 2023, 16:00",
+				end: "sep 14 2023, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 4",
-				start: "Mar 23 2023, 16:00",
-				end: "Mar 24 2023, 15:59"
+				start: "sep 14 2023, 16:00",
+				end: "sep 15 2023, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 5",
-				start: "Mar 24 2023, 16:00",
-				end: "Mar 25 2023, 15:59"
+				start: "sep 15 2023, 16:00",
+				end: "sep 16 2023, 15:59"
 			},
 			{
 				name: "Finals",
-				start: "Mar 25 2023, 17:00",
-				end: "Mar 26 2023, 20:59"
+				start: "sep 16 2023, 17:00",
+				end: "sep 17 2023, 20:59"
 			},
             {
                 "name": "Main Event",
-                "start": "Mar 26 2023, 17:00",
-                "end": "Mar 27 2023, 20:59",
+                "start": "sep 11 2023, 17:00",
+                "end": "Sep 17 2023, 20:59",
                 "extraPriority": 1,
 				"type": "normal",
 				markers:
-				[{time: "Nov 12 2022, 17:00", title: "Finals", type: "battle"}]
+				[{time: "sep 17 2023, 17:00", title: "Finals", type: "battle"}]
 			}
 			]
     },
 	{
         "type": "Event",
         "title": [
-            "【New Event Type】Puella Historia ・ Pillar of Tomorrow",
-			"『ピュエラ・ヒストリア Pillar of Tomorrow』"
+            "【Event】Mitsuru Inami Wants to Be 'Normal'",
+			"『「普通」でありたい伊並満』"
         ],
         "image": [
-            "imgs/events/pot00.png"
+            "imgs/events/event05.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
-				name: "Tentative Schedule",
-				start: "aug 17 2023, 16:00",
-				end: "aug 22 2023, 14:59",
+				name: "",
+				start: "sep 11 2023, 17:00",
+				end: "sep 22 2023, 14:59",
+				markers:
+				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "sep 15 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -471,14 +473,14 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Kagome's 100 Monsters - Ancient Wish",
-			start: "aug 4 2023, 16:00",
-			end: "aug 24 2023, 14:59"
+			name: "Mitsuru Inami Wants to Be 'Normal' - Shopping Receipt",
+			start: "sep 11 2023, 17:00",
+			end: "sep 29 2023, 14:59"
 		},
 		{
-			name: "Paradise Shift - Welcoming Feeling",
-			start: "aug 22 2023, 16:00",
-			end: "sep 11 2023, 14:59"
+			name: "SP Shop Special Memoria Released - Mami Tomoe's Everyday Life",
+			start: "sep 11 2023, 17:00",
+			end: "sep 21 2023, 14:59",
 		},
 		{
 			name: "6th Anniversary Home Screen Outfit Exchange Ticket",
@@ -530,34 +532,28 @@ var timerData = [
 				end: "sept 11 2023, 14:59"
 			},
 			{
-				name: "Choose your 4★ Magical Girl - Green",
-				start: "aug 22 2023, 16:00",
-				end: "sept 11 2023, 14:59"
+				name: "Mitsuru Inami - Red",
+				start: "sep 11 2023, 17:00",
+				end: "sep 29 2023, 14:59"
 			},
 		]
 	},
 {
 		type: "Other",
 		title: [
-		"【Limited】6th anniversary DX lucky bag",
-		"『6周年DX福袋』"
+		"Ranking Mirrors Related Packs",
+		"『ミラーズランキング開催記念予告』"
 		],
 		image: [
-            "imgs/anni/shops00.png",
-			"imgs/anni/shops01.png"
+            "imgs/shops/mirrors-pack00.png",
         ],
 		column: 2,
 		priority: 10,
 		timers: [
 		{
 			name: "Sales period",
-			start: "aug 22 2023, 16:00",
-			end: "sep 4 2023, 14:59",
-		},
-		{
-			name: "DX Ticket Limited and Unlimited Gachas",
-			start: "aug 22 2023, 16:00",
-			end: "sep 11 2023, 14:59",
+			start: "sep 11 2023, 17:00",
+			end: "sep 18 2023, 14:59",
 		}
 		]
 	},
@@ -574,11 +570,6 @@ var timerData = [
 		priority: 2,
 		timers: [
 		{
-			name: "Kagome Satori Hyakki Yako ver. Selection Ticket - Green",
-			start: "aug 4 2023, 16:00",
-			end: "aug 24 2023, 14:59"
-		},
-		{
 			name: "Historia Magical Girls - Blue",
 			start: "aug 17 2023, 16:00",
 			end: "sept 11 2023, 14:59"
@@ -587,6 +578,11 @@ var timerData = [
 			name: "Devil Homura - Purple",
 			start: "aug 22 2023, 16:00",
 			end: "sept 18 2023, 14:59"
+		},
+		{
+			name: "Mitsuru Inami - Red",
+			start: "sep 11 2023, 17:00",
+			end: "sep 29 2023, 14:59"
 		},
 		]
 	},
@@ -613,21 +609,21 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Limited Gacha】Nanami Yachiyo Historia ver. Pickup and Step-up Gacha",
-            "【有償限定 ステップアップ & ピックアップ ガチャ 期間限定 七海やちよ ヒストリアver. 】"
+			"【New Gacha】Mitsuru Inami Pickup Gacha Pickup and Step-up Gacha",
+            "【有償限定 ステップアップ & ピックアップガチャ 伊並満編】"
         ],
         "image": [
-            "imgs/gatcha/yachan00.png",
-			"imgs/gatcha/yachan01.png"
+            "imgs/gatcha/gacha07.png",
+			"imgs/gatcha/gacha0701.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 name: "Pick Up & Paid Step Up",
-                start: "Aug 17 2023, 16:00",
-				end: "sep 4 2023, 14:59",
-                extraPriority: 100
+                start: "Sep 11 2023, 16:00",
+				end: "Sep 29 2023, 14:59",
+                extraPriority: 1000
             }
         ]
     },
