@@ -7,11 +7,11 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"【Special Edition Kimochi】 Nutcracker Witch",
-            "『キモチ戦特別編 くるみ割りの魔女』"
+			"Kimochi Battle Beautiful Pearl Eyes",
+            "『キモチ戦 麗しい真珠の眼』"
         ],
         "image": [
-            "imgs/anni/kimochi00.png"
+            "imgs/battle/kimochi00.png"
         ],
         "column": 0,
         "priority": 3,
@@ -153,19 +153,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【YouTube Live】 Aniplex Online Fest 2023",
-			"youtube.com/watch?v=g7ytgD5_LA4"
+            "【Annoucement】Kimochi Battle Beautiful Pearl Eyes",
+			"『キモチ戦 麗しい真珠の眼』"
         ],
         "image": [
-			"imgs/events/aniplex.png"
+			"imgs/battle/kimochi00.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
-				name: "Walpurgisnacht Rising Annoucement",
-				start: "Sept 10 2023, 12:00",
-				end: "Sept 10 2023, 18:00",
+				name: "Tentative Schedule",
+				start: "oct 16 2023, 12:00",
+				end: "oct 26 2023, 18:00",
 				markers:
 				[{title: "Madoka Time Slot", time: "sep 10 2023, 16:00", type: "star"}]
 			}
@@ -244,41 +244,40 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【New Event】 Paradise Shift ～The Story of Returning～",
-			"『かごめの百怪波瀾～炎夏の宴～』"
+            "【Limited Event】Agent Magica ~Magia Record x Licorice Recoil~",
+			"『Agent Magica～マギアレコード×リコリス・リコイル～』"
         ],
         "image": [
-			"imgs/anni/event00.png"
+			"imgs/eventsp/sp00.png"
         ],
         "column": 0,
-        "priority": 9,
+        "priority": 1,
         "timers": [
 			{
 				name: "",
-				start: "aug 22 2023, 16:00",
-				end: "sept 4 2023, 14:59",
+				start: "sep 22 2023, 16:00",
+				end: "oct 6 2023, 14:59",
 				markers:
-				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "aug 28 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "sep 29 2023, 16:00", type: "battle"}]
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-            "【New Event】Kagome's 100 Monsters ~Midsummer Sabbath~",
-			"『かごめの百怪波瀾～炎夏の宴～』"
+            "【Login Bonus】Chisato Nishikigi's Birthday Login Bonus",
+			"【告知】錦木千束 誕生日記念ログインボーナス 開催"
         ],
         "image": [
-			"imgs/events/event04.png"
+			"imgs/eventsp/birth.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
-				name: "",
-				start: "aug 4 2023, 16:00",
-				end: "aug 17 2023, 14:59",
-				extraPriority: 1000,
+				name: "10 Gacha Tickets & Licorice Recoil Memo",
+				start: "sep 23 2023, 00:00",
+				end: "sep 24 2023, 23:59",
 				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "aug 10 2023, 16:00", type: "battle"}]
 			}
@@ -609,7 +608,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Mitsuru Inami Pickup Gacha Pickup and Step-up Gacha",
+			"【New Gacha】Mitsuru Inami Pickup and Step-up Gacha",
             "【有償限定 ステップアップ & ピックアップガチャ 伊並満編】"
         ],
         "image": [
@@ -650,20 +649,40 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】 Masara x Kokoro Bride ver.",
-            "『有償限定 ステップアップガチャ まさら・こころ 花嫁ver.編』"
+			"【Limited Gacha】Chisato Nishikigi Pickup and Step-up Gacha",
+            "『有償限定 ステップアップ & ピックアップガチャ 錦木千束編』"
         ],
         "image": [
-            "imgs/gatcha/kokomasa-00.png",
-			"imgs/gatcha/kokomasa-01.png"
+            "imgs/eventsp/gacha00.png",
+			"imgs/eventsp/gacha0002.png"
         ],
         "column": 1,
         "priority": 5,
         "timers": [
             {
-                name: "",
-                start: "june 9 2023, 16:00",
-				end: "june 19 2023, 14:59",
+                name: "Licorice Recoil Collab",
+                start: "sep 22 2023, 16:00",
+				end: "oct 6 2023, 14:59",
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Limited Gacha】Takina Inoue Pickup and Step-up Gacha",
+            "『期間限定 井ノ上たきな ステップアップ & ピックアップガチャ』"
+        ],
+        "image": [
+            "imgs/eventsp/gacha01.png",
+			"imgs/eventsp/gacha0102.png"
+        ],
+        "column": 1,
+        "priority": 5,
+        "timers": [
+            {
+                name: "Licorice Recoil Collab",
+                start: "sep 22 2023, 16:00",
+				end: "oct 6 2023, 14:59",
             }
         ]
     },
