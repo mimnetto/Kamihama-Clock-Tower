@@ -153,7 +153,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Annoucement】Kimochi Battle Beautiful Pearl Eyes",
+            "【Annoucement】Light Attribute Kimochi Battle Beautiful Pearl Eyes",
 			"『キモチ戦 麗しい真珠の眼』"
         ],
         "image": [
