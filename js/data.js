@@ -621,7 +621,7 @@ var timerData = [
             {
                 name: "Pick Up & Paid Step Up",
                 start: "Sep 11 2023, 16:00",
-				end: "Sep 29 2023, 14:59",
+				end: "Sep 22 2023, 14:59",
                 extraPriority: 1000
             }
         ]
