@@ -182,7 +182,7 @@ var timerData = [
 
         ],
         "column": 0,
-        "priority": 4,
+        "priority": 0,
         "timers": [
 			{
 				name: "Limited-Time Missions",
@@ -194,20 +194,20 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "6th Anniversary Countdown Campaign",
-			"『6周年カウントダウンキャンペーン』"
+            "Scene0 Countdown",
+			"『scene0カウントダウン』"
         ],
         "image": [
-			"imgs/events/anni06.png"
+			"imgs/scene-zero/scene00.png"
 
         ],
         "column": 0,
-        "priority": 5,
+        "priority": 1,
         "timers": [
 			{
-				name: "First 5 event logins only, 20 Gems Daily (100 Total)",
-				start: "aug 17 2023, 17:00",
-				end: "sep 4 2023, 14:59",
+				name: "666 Magia Stones Distributed @ 17:00",
+				start: "Oct 3 2023, 00:00",
+				end: "Oct 3 2023, 17:00",
 			},
 		]
 	},
@@ -251,7 +251,7 @@ var timerData = [
 			"imgs/eventsp/sp00.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
 			{
 				name: "",
@@ -453,9 +453,9 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Choose your 4☆ Memoria Trade-in Ticket - Red",
-				start: "may 8 2023, 16:00",
-				end: "may 26 2023, 14:59"
+				name: "Paid Support Pack",
+				start: "Sep 1 2023, 00:00",
+				end: "Sep 30 2023, 23:59"
 			}
         ]
     },
@@ -477,14 +477,14 @@ var timerData = [
 			end: "sep 29 2023, 14:59"
 		},
 		{
-			name: "SP Shop Special Memoria Released - Mami Tomoe's Everyday Life",
+			name: "AgentMagica - Coupon for Café LycoReco",
 			start: "sep 11 2023, 17:00",
-			end: "sep 21 2023, 14:59",
+			end: "oct 13 2023, 14:59",
 		},
 		{
 			name: "6th Anniversary Home Screen Outfit Exchange Ticket",
 			start: "aug 22 2023, 16:00",
-			end: "sep 11 2023, 14:59"
+			end: "oct 13 2022, 14:59"
 		},
 		]
 	},
@@ -511,19 +511,9 @@ var timerData = [
 				end: "sept 29 2023, 14:59"
 			},
 			{
-				name: "Kimochi - Purple",
-				start: "sep 4 2023, 17:00",
-				end: "sept 18 2023, 14:59"
-			},
-			{
 				name: "Historia Magical Girls - Blue",
 				start: "aug 17 2023, 16:00",
 				end: "sept 11 2023, 14:59"
-			},
-			{
-				name: "Devil Homura - Purple",
-				start: "aug 22 2023, 16:00",
-				end: "sept 18 2023, 14:59"
 			},
 			{
 				name: "Choose your 4★ Memoria - Mint",
@@ -535,24 +525,34 @@ var timerData = [
 				start: "sep 11 2023, 17:00",
 				end: "sep 29 2023, 14:59"
 			},
+			{
+				name: "Chisato Nishikigi - Yellow",
+				start: "sept 11 2023, 16:00",
+				end: "oct 15 2023, 14:59"
+			},
+			{
+				name: "Takina Inoue - Black",
+				start: "sept 11 2023, 16:00",
+				end: "oct 15 2023, 14:59"
+			},
 		]
 	},
 {
 		type: "Other",
 		title: [
-		"Ranking Mirrors Related Packs",
-		"『ミラーズランキング開催記念予告』"
+		" Lycoris Recoil Collab Commemoration Magical Girl Support Pack",
+		"『リコリス・リコイル開催記念』"
 		],
 		image: [
-            "imgs/shops/mirrors-pack00.png",
+            "imgs/shops/agent.png",
         ],
 		column: 2,
 		priority: 10,
 		timers: [
 		{
 			name: "Sales period",
-			start: "sep 11 2023, 17:00",
-			end: "sep 18 2023, 14:59",
+			start: "sep 22 2023, 16:00",
+			end: "oct 6 2023, 14:59",
 		}
 		]
 	},
@@ -569,19 +569,19 @@ var timerData = [
 		priority: 2,
 		timers: [
 		{
-			name: "Historia Magical Girls - Blue",
-			start: "aug 17 2023, 16:00",
-			end: "sept 11 2023, 14:59"
-		},
-		{
-			name: "Devil Homura - Purple",
-			start: "aug 22 2023, 16:00",
-			end: "sept 18 2023, 14:59"
-		},
-		{
 			name: "Mitsuru Inami - Red",
 			start: "sep 11 2023, 17:00",
 			end: "sep 29 2023, 14:59"
+		},
+		{
+			name: "Chisato Nishikigi - Yellow",
+			start: "sept 11 2023, 16:00",
+			end: "oct 15 2023, 14:59"
+		},
+		{
+			name: "Takina Inoue - Black",
+			start: "sept 11 2023, 16:00",
+			end: "oct 15 2023, 14:59"
 		},
 		]
 	},
