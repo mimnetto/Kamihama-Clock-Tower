@@ -134,19 +134,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【YouTube Live】 Magia Day 2023",
-			"『Magia Day 2023』"
+            "【Campaign】 Madoka's Birthday!",
+			"『鹿目まどか誕生日』"
         ],
         "image": [
-			"imgs/events/magiaday23.png"
+			"imgs/scene-zero/madoka-birth.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
-				name: "Confirmed Scene0 Annoucement",
-				start: "Sept 24 2023, 18:00",
-				end: "Sept 24 2023, 20:00",
+				name: "Limited Memoria in Shop",
+				start: "oct 3 2023, 00:00",
+				end: "oct 134 2023, 14:59",
 			}
         ]
     },
@@ -195,7 +195,7 @@ var timerData = [
         "type": "Event",
         "title": [
             "Scene0 Countdown",
-			"『scene0カウントダウン』"
+			"『Scene0カウントダウン』"
         ],
         "image": [
 			"imgs/scene-zero/scene00.png"
@@ -205,8 +205,8 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "666 Magia Stones Distributed @ 17:00",
-				start: "Oct 3 2023, 00:00",
+				name: "666 Magia Stones Distributed",
+				start: "Oct 3 2023, 17:00",
 				end: "Oct 3 2023, 17:00",
 			},
 		]
@@ -598,9 +598,9 @@ var timerData = [
         priority: 2,
         timers: [
             {
-                name: "Kimochi Tallying Estimated Time",
-				start: "sep 6 2023, 16:00",
-				end: "sep 6 2023, 16:59"
+                name: "",
+				start: "oct 3 2023, 15:00",
+				end: "oct 3 2023, 16:59"
 				// extraPriority: 100
             }
         ]
@@ -772,21 +772,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Anniversary Gacha】Devil Homura Pickup and Step-up Gacha",
-            "『有償限定 ステップアップ & ピックアップガチャ 悪魔ほむら編』"
+			"【New Gacha】Madoka Kaname scene0 ver. Pickup and Step-up Gacha",
+            "『有償限定 ステップアップ & ピックアップガチャ 鹿目まどか scene0 ver.編』"
         ],
         "image": [
-            "imgs/anni/homu00.png",
-			"imgs/anni/homu01.png"
+            "imgs/scene-zero/gacha00.png",
+			"imgs/scene-zero/gacha01.png"
         ],
         "column": 1,
-        "priority": 16,
+        "priority": 1,
         "timers": [
             {
                 name: "",
-                start: "aug 22 2023, 16:00",
-				end: "sep 11 2023, 14:59",
-                extraPriority: 1000
+                start: "oct 3 2023, 17:00",
+				end: "oct 16 2023, 14:59",
             }
         ]
     },
