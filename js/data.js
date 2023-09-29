@@ -777,7 +777,7 @@ var timerData = [
         ],
         "image": [
             "imgs/scene-zero/gacha00.png",
-			"imgs/scene-zero/gacha01.png"
+			"imgs/scene-zero/gacha02.png"
         ],
         "column": 1,
         "priority": 1,
