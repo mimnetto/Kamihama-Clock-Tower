@@ -141,7 +141,7 @@ var timerData = [
 			"imgs/scene-zero/madoka-birth.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 3,
         "timers": [
 			{
 				name: "Limited Memoria in Shop",
@@ -194,20 +194,20 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Scene0 Countdown",
-			"『Scene0カウントダウン』"
+            "Scene0 Release",
+			"『Scene0リリース』"
         ],
         "image": [
 			"imgs/scene-zero/scene00.png"
 
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
 			{
-				name: "666 Magia Stones Distributed",
+				name: "Limited-Time Missions - 666 tones Distributed",
 				start: "Oct 3 2023, 17:00",
-				end: "Oct 3 2023, 17:00",
+				end: "Oct 16 2023, 23:59",
 			},
 		]
 	},
@@ -251,7 +251,7 @@ var timerData = [
 			"imgs/eventsp/sp00.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 4,
         "timers": [
 			{
 				name: "",
@@ -595,7 +595,7 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 2,
+        priority: 3,
         timers: [
             {
                 name: "",
