@@ -205,7 +205,7 @@ var timerData = [
         "priority": 2,
         "timers": [
 			{
-				name: "Limited-Time Missions - 666 tones Distributed",
+				name: "Limited-Time Missions - Login Bonuses",
 				start: "Oct 3 2023, 17:00",
 				end: "Oct 16 2023, 23:59",
 			},
