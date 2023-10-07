@@ -501,31 +501,6 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-				name: "Choose your 4★ Limited Memoria - Brown",
-				start: "sep 4 2023, 17:00",
-				end: "sept 29 2023, 14:59"
-			},
-			{
-				name: "Choose your 4★ Limited Magical Girl - Orange",
-				start: "sep 4 2023, 17:00",
-				end: "sept 29 2023, 14:59"
-			},
-			{
-				name: "Historia Magical Girls - Blue",
-				start: "aug 17 2023, 16:00",
-				end: "sept 11 2023, 14:59"
-			},
-			{
-				name: "Choose your 4★ Memoria - Mint",
-				start: "aug 22 2023, 16:00",
-				end: "sept 11 2023, 14:59"
-			},
-			{
-				name: "Mitsuru Inami - Red",
-				start: "sep 11 2023, 17:00",
-				end: "sep 29 2023, 14:59"
-			},
-			{
 				name: "Chisato Nishikigi - Yellow",
 				start: "sept 11 2023, 16:00",
 				end: "oct 15 2023, 14:59"
@@ -534,6 +509,11 @@ var timerData = [
 				name: "Takina Inoue - Black",
 				start: "sept 11 2023, 16:00",
 				end: "oct 15 2023, 14:59"
+			},
+			{
+				name: "Madoka Kaname scene0 ver. - Pink",
+				start: "oct 3 2023, 17:00",
+				end: "oct 23 2023, 14:59"
 			},
 		]
 	},
@@ -569,11 +549,6 @@ var timerData = [
 		priority: 2,
 		timers: [
 		{
-			name: "Mitsuru Inami - Red",
-			start: "sep 11 2023, 17:00",
-			end: "sep 29 2023, 14:59"
-		},
-		{
 			name: "Chisato Nishikigi - Yellow",
 			start: "sept 11 2023, 16:00",
 			end: "oct 15 2023, 14:59"
@@ -583,6 +558,11 @@ var timerData = [
 			start: "sept 11 2023, 16:00",
 			end: "oct 15 2023, 14:59"
 		},
+		{
+			name: "Madoka Kaname scene0 ver. - Pink",
+			start: "oct 3 2023, 17:00",
+			end: "oct 23 2023, 14:59"
+		}
 		]
 	},
 	{
