@@ -552,7 +552,7 @@ var timerData = [
 		{
 			name: "Sales period",
 			start: "sep 22 2023, 16:00",
-			end: "oct 6 2023, 14:59",
+			end: "oct 6 2023, 23:59",
 		}
 		]
 	},
@@ -662,7 +662,7 @@ var timerData = [
             {
                 name: "Licorice Recoil Collab",
                 start: "sep 22 2023, 16:00",
-				end: "oct 6 2023, 14:59",
+				end: "oct 8 2023, 23:59",
             }
         ]
     },
@@ -682,7 +682,7 @@ var timerData = [
             {
                 name: "Licorice Recoil Collab",
                 start: "sep 22 2023, 16:00",
-				end: "oct 6 2023, 14:59",
+				end: "oct 8 2023, 23:59",
             }
         ]
     },
@@ -780,7 +780,7 @@ var timerData = [
 			"imgs/scene-zero/gacha02.png"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 6,
         "timers": [
             {
                 name: "",
