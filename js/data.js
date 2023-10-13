@@ -14,46 +14,46 @@ var timerData = [
             "imgs/battle/kimochi00.png"
         ],
         "column": 0,
-        "priority": 3,
+        "priority": 1,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-                start: "sep 4 2023, 17:00",
-                end: "sep 5 2023, 15:59"
+                start: "oct 16 2023, 17:00",
+                end: "oct 17 2023, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "sep 5 2023, 16:00",
-				end: "sep 6 2023, 15:59"
+				start: "oct 17 2023, 16:00",
+				end: "oct 18 2023, 15:59"
 			},
 			{
 				name: "Maintenance",
-				start: "sep 6 2023, 16:00",
-				end: "sep 6 2023, 16:59"
+				start: "oct 18 2023, 16:00",
+				end: "oct 18 2023, 16:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "sep 6 2023, 17:00",
-				end: "sep 7 2023, 15:59"
+				start: "oct 18 2023, 17:00",
+				end: "oct 19 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "sep 7 2023, 16:00",
-				end: "sep 8 2023, 15:59"
+				start: "oct 19 2023, 16:00",
+				end: "oct 20 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "sep 8 2023, 16:00",
-				end: "sep 9 2023, 15:59"
+				start: "oct 20 2023, 16:00",
+				end: "oct 21 2023, 15:59"
 			}, 
             {
-                "name": "Void Attribute",
-                "start": "sep 4 2023, 17:00",
-                "end": "sep 9 2023, 15:59",
+                "name": "Light Attribute",
+                "start": "oct 16 2023, 17:00",
+                "end": "oct 21 2023, 15:59",
                 "extraPriority": 1,
 				"type": "normal",
 				markers:
-				[{time: "sep 6 2023, 17:00", title: "Part 2 - Groups", type: "battle"}]
+				[{time: "sep 18 2023, 17:00", title: "Part 2 - Groups", type: "battle"}]
 			}
 			]
     },
@@ -164,8 +164,8 @@ var timerData = [
         "timers": [
 			{
 				name: "Tentative Schedule",
-				start: "oct 16 2023, 12:00",
-				end: "oct 26 2023, 18:00",
+				start: "oct 16 2022, 12:00",
+				end: "oct 26 2022, 18:00",
 				markers:
 				[{title: "Madoka Time Slot", time: "sep 10 2023, 16:00", type: "star"}]
 			}
@@ -520,19 +520,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		" Lycoris Recoil Collab Commemoration Magical Girl Support Pack",
-		"『リコリス・リコイル開催記念』"
+		" Dark Attribute Magical Girl Training Pack",
+		"『育成パック販売予告』"
 		],
 		image: [
-            "imgs/shops/agent.png",
+            "imgs/kimochi/pack00.png",
         ],
 		column: 2,
 		priority: 10,
 		timers: [
 		{
 			name: "Sales period",
-			start: "sep 22 2023, 16:00",
-			end: "oct 6 2023, 23:59",
+			start: "oct 16 2023, 17:00",
+			end: "oct 23 2023, 14:59",
 		}
 		]
 	},
@@ -575,12 +575,12 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 3,
+        priority: 0,
         timers: [
             {
-                name: "",
-				start: "oct 3 2023, 15:00",
-				end: "oct 3 2023, 16:59"
+                name: "Kimochi Score Tally",
+				start: "oct 18 2023, 16:00",
+				end: "oct 18 2023, 16:59"
 				// extraPriority: 100
             }
         ]
