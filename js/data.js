@@ -588,21 +588,21 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Mitsuru Inami Pickup and Step-up Gacha",
-            "【有償限定 ステップアップ & ピックアップガチャ 伊並満編】"
+			"Dark Attribute Magical Girl Pickup Gacha Pickup and Step-up Gacha",
+            "【闇属性魔法少女 ステップアップ & ピックアップガチャ】"
         ],
         "image": [
-            "imgs/gatcha/gacha07.png",
-			"imgs/gatcha/gacha0701.png"
+            "imgs/kimochi/gacha00.png",
+			"imgs/kimochi/gacha0001.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 name: "Pick Up & Paid Step Up",
-                start: "Sep 11 2023, 16:00",
-				end: "Sep 22 2023, 14:59",
-                extraPriority: 1000
+                start: "oct 16 2023, 16:00",
+				end: "oct 23 2023, 14:59",
+               // extraPriority: 1000
             }
         ]
     },
