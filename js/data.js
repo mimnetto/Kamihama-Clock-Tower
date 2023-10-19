@@ -7,7 +7,7 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Kimochi Battle Beautiful Pearl Eyes",
+			"Kimochi Battle ～Beatueous Pearl Eye～",
             "『キモチ戦 麗しい真珠の眼』"
         ],
         "image": [
@@ -472,9 +472,9 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Mitsuru Inami Wants to Be 'Normal' - Shopping Receipt",
-			start: "sep 11 2023, 17:00",
-			end: "sep 29 2023, 14:59"
+			name: "Kimochi Battle ～Beatueous Pearl Eye～ Coins",
+			start: "oct 16 2023, 16:00",
+			end: "oct 23 2023, 14:59"
 		},
 		{
 			name: "AgentMagica - Coupon for Café LycoReco",
@@ -588,18 +588,17 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Dark Attribute Magical Girl Pickup Gacha Pickup and Step-up Gacha",
-            "【闇属性魔法少女 ステップアップ & ピックアップガチャ】"
+			"Dark Attribute Magical Girl Pickup Gacha",
+            "【闇属性魔法少女 ピックアップガチャ】"
         ],
         "image": [
             "imgs/kimochi/gacha00.png",
-			"imgs/kimochi/gacha0001.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                name: "Pick Up & Paid Step Up",
+                name: "Pick Up",
                 start: "oct 16 2023, 16:00",
 				end: "oct 23 2023, 14:59",
                // extraPriority: 1000
@@ -689,19 +688,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"One Time Guareteed ★ 4 Light Attribute Paid Gacha",
+			"One Time Guareteed ★ 4 Dark Attribute Paid Gacha",
             "『光属性★4確定ガチャ予告』"
         ],
         "image": [
-			"imgs/gatcha/kimoga01.png"
+			"imgs/kimochi/gacha0001.png"
         ],
         "column": 1,
-        "priority": 15,
+        "priority": 0,
         "timers": [
             {
                 name: "",
-                start: "July 10 2023, 17:00",
-				end: "July 17 2023, 14:59",
+                start: "oct 16 2023, 16:00",
+				end: "oct 23 2023, 14:59",
                 extraPriority: 100,
             }
         ]
