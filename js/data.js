@@ -472,7 +472,7 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Kimochi Battle ～Beatueous Pearl Eye～ Coins",
+			name: "Kimochi Battle ～Beatueous Pearl Eye～ Medals",
 			start: "oct 16 2023, 16:00",
 			end: "oct 23 2023, 14:59"
 		},
