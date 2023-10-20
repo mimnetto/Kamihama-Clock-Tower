@@ -57,75 +57,75 @@ var timerData = [
 			}
 			]
     },
-		{
-        "type": "WeekendBoss",
+	// 	{
+    //     "type": "WeekendBoss",
+    //     "title": [
+	// 		"[Mirrors rank match ",
+	// 		"【ミラーズランクマッチ】"
+    //     ],
+    //     "image": [
+    //         "imgs/events/mirrors00.png"
+    //     ],
+    //     "column": 0,
+    //     "priority": 0,
+    //     "timers": [
+	// 		{
+	// 			name: "Preliminaries - Day 1",
+	// 			start: "oct 23 2023, 17:00",
+	// 			end: "oct 24 2023, 15:59"
+	// 		},
+	// 		{
+	// 			name: "Preliminaries - Day 2",
+	// 			start: "oct 24 2023, 16:00",
+	// 			end: "oct 25 2023, 15:59"
+	// 		},
+	// 		{
+	// 			name: "Preliminaries - Day 3",
+	// 			start: "oct 25 2023, 16:00",
+	// 			end: "oct 26 2023, 15:59"
+	// 		},
+	// 		{
+	// 			name: "Preliminaries - Day 4",
+	// 			start: "oct 26 2023, 16:00",
+	// 			end: "oct 27 2023, 15:59"
+	// 		},
+	// 		{
+	// 			name: "Preliminaries - Day 5",
+	// 			start: "oct 27 2023, 16:00",
+	// 			end: "oct 28 2023, 15:59"
+	// 		},
+	// 		{
+	// 			name: "Finals",
+	// 			start: "sep 16 2023, 17:00",
+	// 			end: "sep 17 2023, 20:59"
+	// 		},
+    //         {
+    //             "name": "Main Event",
+    //             "start": "oct 23 2023, 17:00",
+    //             "end": "nov 5 2023, 20:59",
+    //             //"extraPriority": 1,
+	// 			"type": "normal",
+	// 			markers:
+	// 			[{time: "sep 17 2023, 17:00", title: "Finals", type: "battle"}]
+	// 		}
+	// 		]
+    // },
+	{
+        "type": "Event",
         "title": [
-			"[Mirrors rank match ",
+			"Mirrors rank match ",
 			"【ミラーズランクマッチ】"
         ],
         "image": [
             "imgs/events/mirrors00.png"
         ],
         "column": 0,
-        "priority": 11,
+        "priority": 0,
         "timers": [
 			{
-				name: "Preliminaries - Day 1",
-				start: "sep 11 2023, 17:00",
-				end: "sep 12 2023, 15:59"
-			},
-			{
-				name: "Preliminaries - Day 2",
-				start: "sep 12 2023, 16:00",
-				end: "sep 13 2023, 15:59"
-			},
-			{
-				name: "Preliminaries - Day 3",
-				start: "sep 13 2023, 16:00",
-				end: "sep 14 2023, 15:59"
-			},
-			{
-				name: "Preliminaries - Day 4",
-				start: "sep 14 2023, 16:00",
-				end: "sep 15 2023, 15:59"
-			},
-			{
-				name: "Preliminaries - Day 5",
-				start: "sep 15 2023, 16:00",
-				end: "sep 16 2023, 15:59"
-			},
-			{
-				name: "Finals",
-				start: "sep 16 2023, 17:00",
-				end: "sep 17 2023, 20:59"
-			},
-            {
-                "name": "Main Event",
-                "start": "sep 11 2023, 17:00",
-                "end": "Sep 17 2023, 20:59",
-                "extraPriority": 1,
-				"type": "normal",
-				markers:
-				[{time: "sep 17 2023, 17:00", title: "Finals", type: "battle"}]
-			}
-			]
-    },
-	{
-        "type": "Event",
-        "title": [
-            "【Event】Mitsuru Inami Wants to Be 'Normal'",
-			"『「普通」でありたい伊並満』"
-        ],
-        "image": [
-            "imgs/events/event05.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-			{
-				name: "",
-				start: "sep 11 2023, 17:00",
-				end: "sep 22 2023, 14:59",
+				"name": "More info coming soon",
+                "start": "oct 23 2023, 17:00",
+                "end": "nov 5 2023, 20:59",
 				markers:
 				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "sep 15 2023, 16:00", type: "battle"}]
 			}
@@ -244,19 +244,19 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【Limited Event】Agent Magica ~Magia Record x Licorice Recoil~",
-			"『Agent Magica～マギアレコード×リコリス・リコイル～』"
+            "【Limited Event】Halloween Rivived Us",
+			"『ハロウィンによみがえる同胞たち』"
         ],
         "image": [
-			"imgs/eventsp/sp00.png"
+			"imgs/ween/event00.png"
         ],
         "column": 0,
-        "priority": 4,
+        "priority": 1,
         "timers": [
 			{
 				name: "",
-				start: "sep 22 2023, 16:00",
-				end: "oct 6 2023, 14:59",
+				start: "oct 23 2023, 17:00",
+				end: "nov 11 2023, 14:59",
 				markers:
 				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "sep 29 2023, 16:00", type: "battle"}]
 			}
@@ -536,6 +536,25 @@ var timerData = [
 		}
 		]
 	},
+	{
+		type: "Other",
+		title: [
+		"Mirrors Ranking Memo Support Pack",
+		"『ミラーズランクマッチメモリア強化応援パック』"
+		],
+		image: [
+            "imgs/ween/shop.png",
+        ],
+		column: 2,
+		priority: 6,
+		timers: [
+		{
+			name: "Sales period",
+			start: "oct 23 2023, 17:00",
+			end: "nov 13 2023, 14:59"
+		}
+		]
+	},
 {
 		type: "Other",
 		title: [
@@ -578,9 +597,9 @@ var timerData = [
         priority: 0,
         timers: [
             {
-                name: "Kimochi Score Tally",
-				start: "oct 18 2023, 16:00",
-				end: "oct 18 2023, 16:59"
+                name: "",
+				start: "oct 23 2023, 15:00",
+				end: "oct 23 2023, 16:59"
 				// extraPriority: 100
             }
         ]
@@ -595,7 +614,7 @@ var timerData = [
             "imgs/kimochi/gacha00.png",
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 3,
         "timers": [
             {
                 name: "Pick Up",
@@ -648,20 +667,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited Gacha】Takina Inoue Pickup and Step-up Gacha",
-            "『期間限定 井ノ上たきな ステップアップ & ピックアップガチャ』"
+			"【Limited Rerun】Halloween 2020-2021 Pickup and Step-up Gacha",
+            "『ハロウィン魔法少女2020-2021 ステップアップ & ピックアップガチャ』"
         ],
         "image": [
-            "imgs/eventsp/gacha01.png",
-			"imgs/eventsp/gacha0102.png"
+            "imgs/ween/regacha01.png",
+			"imgs/ween/regacha01.png"
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 0,
         "timers": [
             {
-                name: "Licorice Recoil Collab",
-                start: "sep 22 2023, 16:00",
-				end: "oct 8 2023, 23:59",
+                name: "",
+                start: "oct 23 2023, 17:00",
+				end: "nov 11 2023, 14:59",
             }
         ]
     },
@@ -675,13 +694,13 @@ var timerData = [
             "imgs/gatcha/choose-memo.png"
         ],
         "column": 1,
-        "priority": 3,
+        "priority": 0,
         "timers": [
             {
                 name: "",
-                start: "june 19 2023, 17:00",
-				end: "jul 3 2023, 14:59",
-                extraPriority: 100
+				start: "oct 23 2023, 17:00",
+				end: "nov 6 2023, 14:59",
+               // extraPriority: 100
             }
         ]
     },
@@ -689,7 +708,7 @@ var timerData = [
         "type": "Gacha",
         "title": [
 			"One Time Guareteed ★ 4 Dark Attribute Paid Gacha",
-            "『光属性★4確定ガチャ予告』"
+            "『闇属性魔法少女★4確定ガチャ予告』"
         ],
         "image": [
 			"imgs/kimochi/gacha0001.png"
@@ -708,19 +727,21 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Paid Limited Step-up Gacha Anniversary Edition",
-            "『有償限定 ステップアップガチャ アニバーサリー編』"
+			"【Limited Rerun】Halloween 2022 Pickup and Step-up Gacha",
+            "『ステップアップガチャ ハロウィン魔法少女2022編』"
         ],
         "image": [
-            "imgs/anni/step00.png"
+            "imgs/ween/gacha22.png",
+			"imgs/ween/gacha2201.png",
+			"imgs/ween/gacha2202.png"
         ],
         "column": 1,
-        "priority": 16,
+        "priority": 1,
         "timers": [
             {
                 name: "",
-                start: "aug 22 2023, 16:00",
-				end: "sep 4 2023, 14:59",
+				start: "oct 23 2023, 17:00",
+				end: "nov 13 2023, 14:59"
             }
         ]
     },
@@ -751,20 +772,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Gacha】Madoka Kaname scene0 ver. Pickup and Step-up Gacha",
-            "『有償限定 ステップアップ & ピックアップガチャ 鹿目まどか scene0 ver.編』"
+			"【New Limited】 Yuina ♡ Juri Vampire Ver. Pickup and Step-up Gacha",
+            "『結菜・樹里 ヴァンパイアver. ステップアップ ピックアップガチャ』"
         ],
         "image": [
-            "imgs/scene-zero/gacha00.png",
-			"imgs/scene-zero/gacha02.png"
+            "imgs/ween/gacha00.png",
+			"imgs/ween/gacha01.png"
         ],
         "column": 1,
-        "priority": 6,
+        "priority": 2,
         "timers": [
             {
                 name: "",
-                start: "oct 3 2023, 17:00",
-				end: "oct 16 2023, 14:59",
+                start: "oct 23 2023, 17:00",
+				end: "nov 11 2023, 14:59",
             }
         ]
     },
