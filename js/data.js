@@ -124,8 +124,8 @@ var timerData = [
         "timers": [
 			{
 				"name": "More info coming soon",
-                "start": "oct 23 2023, 17:00",
-                "end": "nov 5 2023, 20:59",
+                "start": "oct 23 2022, 17:00",
+                "end": "nov 5 2022, 20:59",
 				markers:
 				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "sep 15 2023, 16:00", type: "battle"}]
 			}
@@ -153,19 +153,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Annoucement】Light Attribute Kimochi Battle Beautiful Pearl Eyes",
+            "【Annoucement】Forest Attribute Kimochi ～Unmoving Garnet Pinky～  ",
 			"『キモチ戦 麗しい真珠の眼』"
         ],
         "image": [
-			"imgs/battle/kimochi00.png"
+			"imgs/kimochi/kimochi00.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
 				name: "Tentative Schedule",
-				start: "oct 16 2022, 12:00",
-				end: "oct 26 2022, 18:00",
+				start: "nov 20 2023, 12:00",
+				end: "nov 25 2023, 18:00",
 				markers:
 				[{title: "Madoka Time Slot", time: "sep 10 2023, 16:00", type: "star"}]
 			}
@@ -314,87 +314,93 @@ var timerData = [
             "imgs/events/mirrors00.png"
         ],
         "column": 0,
-        "priority": 3,
+        "priority": 1,
         "timers": [
 			{
 				name: "Auto Battle",
-				start: "June 19 2023, 17:00",
-				end: "July 2 2023, 20:59",
-				extraPriority: 100,
+                 "start": "oct 23 2023, 17:00",
+                 "end": "nov 5 2023, 20:59",
+			//	extraPriority: 100,
 				markers:
 				[
 					{
 						title: "Day 1", 
-						time: "june 19 2023, 17:00", 
+						time: "oct 23 2023, 17:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 2", 
-						time: "June 20 2023, 16:00", 
+						time: "oct 24 2023, 16:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 3", 
-						time: "June 21 2023, 16:00", 
+						time: "oct 25 2023, 16:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 4", 
-						time: "June 22 2023, 16:00", 
+						time: "oct 26 2023, 16:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 5", 
-						time: "June 23 2023, 16:00", 
+						time: "oct 27 2023, 16:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 6", 
-						time: "June 24 2023, 16:00", 
+						time: "oct 28 2023, 16:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 7", 
-						time: "June 25 2023, 16:00", 
+						time: "oct 29 2023, 16:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 8", 
-						time: "June 26 2023, 16:00", 
+						time: "oct 30 2023, 16:00", 
 						type: "battle"
 					},
 					{
-						title: "Day 9", 
-						time: "June 27 2023, 16:00", 
+						title: "Day 9 - Happy Halloween! 🎃 ", 
+						time: "oct 31 2023, 16:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 10", 
-						time: "June 28 2023, 16:00", 
+						time: "nov 1 2023, 16:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 11", 
-						time: "June 29 2023, 16:00", 
+						time: "nov 2 2023, 16:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 12", 
-						time: "June 30 2023, 16:00", 
+						time: "nov 3 2023, 16:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 13", 
-						time: "July 1 2023, 16:00", 
+						time: "nov 4 2023, 16:00", 
 						type: "battle"
 					},
 					{
 						title: "Day 14", 
-						time: "July 2 2023, 16:00", 
+						time: "nov 5 2023, 20:59", 
 						type: "battle"
-					},
+					}
+					
 				]
-			}
+			},
+			{
+				name: "Time to collect ranking rewards",
+				start: "oct 24 2023, 16:00",
+				end: "nov 5 2023, 21:00"
+			},
         ]
     },
 	{
@@ -594,7 +600,7 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 0,
+        priority: 2,
         timers: [
             {
                 name: "",
@@ -672,7 +678,7 @@ var timerData = [
         ],
         "image": [
             "imgs/ween/regacha01.png",
-			"imgs/ween/regacha01.png"
+			"imgs/ween/regacha00.png"
         ],
         "column": 1,
         "priority": 0,
