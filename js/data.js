@@ -244,7 +244,7 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【Limited Event】Halloween Rivived Us",
+            "【Limited Event】Brethren Revived On Halloween ",
 			"『ハロウィンによみがえる同胞たち』"
         ],
         "image": [
@@ -258,7 +258,7 @@ var timerData = [
 				start: "oct 23 2023, 17:00",
 				end: "nov 11 2023, 14:59",
 				markers:
-				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "sep 29 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "oct 30 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -772,7 +772,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Limited】 Yuina ♡ Juri Vampire Ver. Pickup and Step-up Gacha",
+			"【New Limited】 Yuna ♡ Juri Vampire Ver. Pickup and Step-up Gacha",
             "『結菜・樹里 ヴァンパイアver. ステップアップ ピックアップガチャ』"
         ],
         "image": [
