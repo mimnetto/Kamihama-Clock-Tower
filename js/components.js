@@ -3,7 +3,7 @@ Vue.component("text-timer", {
     template: 
     `<h4>
         <span class="timer-number">{{ d_since_release }}</span> days since <span >Magia Record</span> released<span v-if="nextAnnVisible()">; <span v-html="tNext(t_to_next_anniv)"></span> until 7th anniversary.</span></br>
-        <span v-if="nextEvVisible()">We expect new announcements in <span v-html="tNext(t_to_next_ann)"></span>.</span></br>
+        <span v-if="nextEvVisible()">We expect new MagiRepo Papa Comic in <span v-html="tNext(t_to_next_ann)"></span>.</span></br>
     </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
  
     methods: {
