@@ -123,9 +123,9 @@ var timerData = [
         "priority": 0,
         "timers": [
 			{
-				"name": "More info coming soon",
-                "start": "oct 23 2022, 17:00",
-                "end": "nov 5 2022, 20:59",
+				"name": "Postponed!!! No new date annouced yet",
+                "start": "nov 5 2023, 17:00",
+                "end": "nov 5 2023, 20:59",
 				markers:
 				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "sep 15 2023, 16:00", type: "battle"}]
 			}
@@ -304,105 +304,105 @@ var timerData = [
 			}
         ]
     },
-		{
-        "type": "Event",
-        "title": [
-            "【New Mirrors Event】Mirrors Rank Match",
-			"【ミラーズランクマッチ】"
-        ],
-        "image": [
-            "imgs/events/mirrors00.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			{
-				name: "Auto Battle",
-                 "start": "oct 23 2023, 17:00",
-                 "end": "nov 5 2023, 20:59",
-			//	extraPriority: 100,
-				markers:
-				[
-					{
-						title: "Day 1", 
-						time: "oct 23 2023, 17:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 2", 
-						time: "oct 24 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 3", 
-						time: "oct 25 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 4", 
-						time: "oct 26 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 5", 
-						time: "oct 27 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 6", 
-						time: "oct 28 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 7", 
-						time: "oct 29 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 8", 
-						time: "oct 30 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 9 - Happy Halloween! 🎃 ", 
-						time: "oct 31 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 10", 
-						time: "nov 1 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 11", 
-						time: "nov 2 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 12", 
-						time: "nov 3 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 13", 
-						time: "nov 4 2023, 16:00", 
-						type: "battle"
-					},
-					{
-						title: "Day 14", 
-						time: "nov 5 2023, 20:59", 
-						type: "battle"
-					}
+		// {
+        // "type": "Event",
+        // "title": [
+        //     "【New Mirrors Event】Mirrors Rank Match",
+		// 	"【ミラーズランクマッチ】"
+        // ],
+        // "image": [
+        //     "imgs/events/mirrors00.png"
+        // ],
+        // "column": 0,
+        // "priority": 1,
+        // "timers": [
+		// 	{
+		// 		name: "Auto Battle",
+        //          "start": "oct 23 2023, 17:00",
+        //          "end": "nov 5 2023, 20:59",
+		// 	//	extraPriority: 100,
+		// 		markers:
+		// 		[
+		// 			{
+		// 				title: "Day 1", 
+		// 				time: "oct 23 2023, 17:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 2", 
+		// 				time: "oct 24 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 3", 
+		// 				time: "oct 25 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 4", 
+		// 				time: "oct 26 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 5", 
+		// 				time: "oct 27 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 6", 
+		// 				time: "oct 28 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 7", 
+		// 				time: "oct 29 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 8", 
+		// 				time: "oct 30 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 9 - Happy Halloween! 🎃 ", 
+		// 				time: "oct 31 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 10", 
+		// 				time: "nov 1 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 11", 
+		// 				time: "nov 2 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 12", 
+		// 				time: "nov 3 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 13", 
+		// 				time: "nov 4 2023, 16:00", 
+		// 				type: "battle"
+		// 			},
+		// 			{
+		// 				title: "Day 14", 
+		// 				time: "nov 5 2023, 20:59", 
+		// 				type: "battle"
+		// 			}
 					
-				]
-			},
-			{
-				name: "Time to collect ranking rewards",
-				start: "oct 24 2023, 16:00",
-				end: "nov 5 2023, 21:00"
-			},
-        ]
-    },
+		// 		]
+		// 	},
+	// 		{
+	// 			name: "Time to collect ranking rewards",
+	// 			start: "oct 24 2023, 16:00",
+	// 			end: "nov 5 2023, 21:00"
+	// 		},
+    //     ]
+    // },
 	{
         "type": "Event",
         "title": [
@@ -480,24 +480,24 @@ var timerData = [
 		{
 			name: "Kimochi Battle ～Beatueous Pearl Eye～ Medals",
 			start: "oct 16 2023, 16:00",
-			end: "oct 23 2023, 14:59"
+			end: "oct 30 2023, 14:59"
 		},
 		{
-			name: "AgentMagica - Coupon for Café LycoReco",
-			start: "sep 11 2023, 17:00",
-			end: "oct 13 2023, 14:59",
+			name: "Brethren Revived On Halloween - Lantern Coin 🎃",
+			start: "oct 23 2023, 17:00",
+			end: "nov 13 2023, 14:59",
 		},
 		{
-			name: "6th Anniversary Home Screen Outfit Exchange Ticket",
-			start: "aug 22 2023, 16:00",
-			end: "oct 13 2022, 14:59"
+			name: "Halloween Tickets",
+			start: "oct 23 2023, 17:00",
+			end: "nov 13 2023, 14:59",
 		},
 		]
 	},
 	{
 		type: "Other",
 		title: [
-		"Adjuster Coin Limited-time Shops",
+		"Adjuster Coins",
 		"「調整屋コインの期間限定ショップ」"
 		],
 		image: [
@@ -507,19 +507,24 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-				name: "Chisato Nishikigi - Yellow",
-				start: "sept 11 2023, 16:00",
-				end: "oct 15 2023, 14:59"
+				name: "Dark Attribute Magical Girls - Purple",
+				start: "oct 16 2023, 16:00",
+				end: "oct 30 2023, 14:59"
 			},
 			{
-				name: "Takina Inoue - Black",
-				start: "sept 11 2023, 16:00",
-				end: "oct 15 2023, 14:59"
+				name: "Yuna & Juri (Vampire ver.) - Orange",
+				start: "oct 23 2023, 17:00",
+				end: "nov 13 2023, 14:59",
 			},
 			{
-				name: "Madoka Kaname scene0 ver. - Pink",
-				start: "oct 3 2023, 17:00",
-				end: "oct 23 2023, 14:59"
+				name: "Halloween Rerun Units - Navy Blue",
+				start: "oct 23 2023, 17:00",
+				end: "nov 13 2023, 14:59",
+			},
+			{
+				name: "Choose your own Memo - Tea",
+				start: "oct 23 2023, 17:00",
+				end: "nov 13 2023, 14:59",
 			},
 		]
 	},
@@ -573,21 +578,21 @@ var timerData = [
 		column: 2,
 		priority: 2,
 		timers: [
-		{
-			name: "Chisato Nishikigi - Yellow",
-			start: "sept 11 2023, 16:00",
-			end: "oct 15 2023, 14:59"
-		},
-		{
-			name: "Takina Inoue - Black",
-			start: "sept 11 2023, 16:00",
-			end: "oct 15 2023, 14:59"
-		},
-		{
-			name: "Madoka Kaname scene0 ver. - Pink",
-			start: "oct 3 2023, 17:00",
-			end: "oct 23 2023, 14:59"
-		}
+			{
+				name: "Yuna & Juri (Vampire ver.) - Orange",
+				start: "oct 23 2023, 17:00",
+				end: "nov 13 2023, 14:59",
+			},
+			{
+				name: "Rerun Halloween Units 2020-2021SP",
+				start: "oct 23 2023, 17:00",
+				end: "nov 13 2023, 14:59",
+			},
+			{
+				name: "Rerun Halloween Units 2022SP",
+				start: "oct 23 2023, 17:00",
+				end: "nov 13 2023, 14:59",
+			},
 		]
 	},
 	{
