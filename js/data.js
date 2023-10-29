@@ -124,8 +124,8 @@ var timerData = [
         "timers": [
 			{
 				"name": "Postponed!!! No new date annouced yet",
-                "start": "nov 5 2023, 17:00",
-                "end": "nov 5 2023, 20:59",
+                "start": "nov 5 2022, 17:00",
+                "end": "nov 5 2022, 20:59",
 				markers:
 				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "sep 15 2023, 16:00", type: "battle"}]
 			}
@@ -304,105 +304,105 @@ var timerData = [
 			}
         ]
     },
-		// {
-        // "type": "Event",
-        // "title": [
-        //     "【New Mirrors Event】Mirrors Rank Match",
-		// 	"【ミラーズランクマッチ】"
-        // ],
-        // "image": [
-        //     "imgs/events/mirrors00.png"
-        // ],
-        // "column": 0,
-        // "priority": 1,
-        // "timers": [
-		// 	{
-		// 		name: "Auto Battle",
-        //          "start": "oct 23 2023, 17:00",
-        //          "end": "nov 5 2023, 20:59",
-		// 	//	extraPriority: 100,
-		// 		markers:
-		// 		[
-		// 			{
-		// 				title: "Day 1", 
-		// 				time: "oct 23 2023, 17:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 2", 
-		// 				time: "oct 24 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 3", 
-		// 				time: "oct 25 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 4", 
-		// 				time: "oct 26 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 5", 
-		// 				time: "oct 27 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 6", 
-		// 				time: "oct 28 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 7", 
-		// 				time: "oct 29 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 8", 
-		// 				time: "oct 30 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 9 - Happy Halloween! 🎃 ", 
-		// 				time: "oct 31 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 10", 
-		// 				time: "nov 1 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 11", 
-		// 				time: "nov 2 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 12", 
-		// 				time: "nov 3 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 13", 
-		// 				time: "nov 4 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 14", 
-		// 				time: "nov 5 2023, 20:59", 
-		// 				type: "battle"
-		// 			}
+		{
+        "type": "Event",
+        "title": [
+            "【New Mirrors Event】Mirrors Rank Match",
+			"【ミラーズランクマッチ】"
+        ],
+        "image": [
+            "imgs/events/mirrors00.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				name: "Auto Battle",
+                 "start": "oct 30 2023, 17:00",
+                 "end": "nov 12 2023, 20:59",
+			//	extraPriority: 100,
+				markers:
+				[
+					{
+						title: "Day 1", 
+						time: "oct 30 2023, 17:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 2  - Happy Halloween! 🎃", 
+						time: "oct 31 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 3", 
+						time: "nov 1 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 4", 
+						time: "nov 2 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 5", 
+						time: "nov 3 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 6", 
+						time: "nov 4 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 7", 
+						time: "nov 5 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 8", 
+						time: "nov 6 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 9 ", 
+						time: "nov 7 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 10", 
+						time: "nov 8 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 11", 
+						time: "nov 9 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 12", 
+						time: "nov 10 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 13", 
+						time: "nov 11 2023, 16:00", 
+						type: "battle"
+					},
+					{
+						title: "Day 14", 
+						time: "nov 12 2023, 20:59", 
+						type: "battle"
+					}
 					
-		// 		]
-		// 	},
-	// 		{
-	// 			name: "Time to collect ranking rewards",
-	// 			start: "oct 24 2023, 16:00",
-	// 			end: "nov 5 2023, 21:00"
-	// 		},
-    //     ]
-    // },
+				]
+			},
+			// {
+			// 	name: "Time to collect ranking rewards",
+			// 	start: "oct 24 2023, 16:00",
+			// 	end: "nov 5 2023, 21:00"
+			// },
+        ]
+    },
 	{
         "type": "Event",
         "title": [
