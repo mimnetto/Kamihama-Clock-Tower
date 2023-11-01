@@ -57,6 +57,7 @@
 .theme-dark .event-group {
 	background-color: #33043e;
 	border: 1px solid #3d3d3d;
+	border-radius: 12px;
 }
 .theme-dark .timer-number {
     color:var(--homura);
