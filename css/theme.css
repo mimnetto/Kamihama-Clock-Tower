@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 580px) {
 	.theme-dark body {
-        background: url(../imgs/bg-anthony.png) no-repeat bottom center 2%, url(../imgs/homura-gem.png) no-repeat bottom right, url(../imgs/bg/bg_screen.png);
+		background: url(../imgs/bg/bg_screen.png) transparent, url(../imgs/bg-anthony.png) no-repeat bottom left 2%, url(../imgs/madoka-gem.png) no-repeat bottom right;
     }
 
 	#theme-switcher {
