@@ -202,12 +202,12 @@ var timerData = [
 
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
-				name: "Estimated release date",
-				start: "nov 21 2023, 17:00",
-				end: "nov 28 2023, 23:59",
+				name: "",
+				start: "nov 6 2023, 17:00",
+				end: "nov 24 2023, 23:59",
 			},
 		]
 	},
@@ -251,7 +251,7 @@ var timerData = [
 			"imgs/ween/event00.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
 			{
 				name: "",
@@ -718,19 +718,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"One Time Guareteed ★ 4 Dark Attribute Paid Gacha",
-            "『闇属性魔法少女★4確定ガチャ予告』"
+            "【New Limited Gatcha】Homura Akemi scene0 ver. Pickup & Step-up Gacha",
+			"『期間限定 暁美ほむら scene0 ver. ステップアップ&ピックアップガチャ』"
         ],
         "image": [
-			"imgs/kimochi/gacha0001.png"
+			"imgs/scene-zero/gacha00.png",
+			"imgs/scene-zero/gacha01.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "",
-                start: "oct 16 2023, 16:00",
-				end: "oct 23 2023, 14:59",
+				start: "nov 6 2023, 16:00",
+				end: "nov 15 2023, 14:59",
                 extraPriority: 100,
             }
         ]
