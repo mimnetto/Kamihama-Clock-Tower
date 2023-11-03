@@ -205,9 +205,9 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "",
+				name: "Story Update",
 				start: "nov 6 2023, 17:00",
-				end: "nov 24 2023, 23:59",
+				end: "nov 6 2023, 23:59",
 			},
 		]
 	},
@@ -609,8 +609,8 @@ var timerData = [
         timers: [
             {
                 name: "",
-				start: "oct 23 2023, 15:00",
-				end: "oct 23 2023, 16:59"
+				start: "nov 6 2023, 15:00",
+				end: "nov 6 2023, 15:59"
 				// extraPriority: 100
             }
         ]
