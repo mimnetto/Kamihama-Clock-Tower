@@ -691,7 +691,7 @@ var timerData = [
             {
                 name: "",
                 start: "oct 23 2023, 17:00",
-				end: "nov 11 2023, 14:59",
+				end: "nov 6 2023, 14:59",
             }
         ]
     },
@@ -710,7 +710,7 @@ var timerData = [
             {
                 name: "",
 				start: "oct 23 2023, 17:00",
-				end: "nov 6 2023, 14:59",
+				end: "nov 13 2023, 14:59",
                // extraPriority: 100
             }
         ]
@@ -753,7 +753,7 @@ var timerData = [
             {
                 name: "",
 				start: "oct 23 2023, 17:00",
-				end: "nov 13 2023, 14:59"
+				end: "nov 6 2023, 14:59"
             }
         ]
     },
@@ -797,7 +797,7 @@ var timerData = [
             {
                 name: "",
                 start: "oct 23 2023, 17:00",
-				end: "nov 11 2023, 14:59",
+				end: "nov 6 2023, 14:59",
             }
         ]
     },
