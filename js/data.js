@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "nov 7 2023, 17:00";
+var possibleNextAnnouncementDate = "nov 14 2023, 17:00";
 var nextAnniversary = "August 22 2024, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -492,6 +492,11 @@ var timerData = [
 			start: "oct 23 2023, 17:00",
 			end: "nov 13 2023, 14:59",
 		},
+				{
+			name: "Homura Akemi scene0 ver. - Black",
+			start: "nov 6 2023, 16:00",
+			end: "nov 22 2023, 14:59",
+		},		
 		]
 	},
 	{
@@ -526,6 +531,17 @@ var timerData = [
 				start: "oct 23 2023, 17:00",
 				end: "nov 13 2023, 14:59",
 			},
+			{
+				name: "Mirrors Ranking Match Coins",
+				start: "oct 23 2023, 17:00",
+				end: "nov 30 2023, 14:59",
+			},
+			{
+				name: "Homura Akemi scene0 ver. - Black",
+				start: "nov 6 2023, 16:00",
+				end: "nov 22 2023, 14:59",
+			},		
+
 		]
 	},
 {
@@ -593,6 +609,11 @@ var timerData = [
 				start: "oct 23 2023, 17:00",
 				end: "nov 13 2023, 14:59",
 			},
+			{
+				name: "Homura Akemi scene0 ver. - Black",
+				start: "nov 6 2023, 16:00",
+				end: "nov 22 2023, 14:59",
+			},	
 		]
 	},
 	{
