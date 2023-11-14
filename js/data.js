@@ -7,49 +7,49 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Kimochi Battle ～Beatueous Pearl Eye～",
-            "『キモチ戦 麗しい真珠の眼』"
+			"Kimochi Battle ～Unmoving Garnet Pinky～",
+            "『キモチ戦 止まるガーネットの小指』"
         ],
         "image": [
-            "imgs/battle/kimochi00.png"
+            "imgs/kimochi/kimochi00.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 0,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-                start: "oct 16 2023, 17:00",
-                end: "oct 17 2023, 15:59"
+                start: "nov 15 2023, 17:00",
+                end: "nov 16 2023, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "oct 17 2023, 16:00",
-				end: "oct 18 2023, 15:59"
+				start: "nov 16 2023, 16:00",
+				end: "nov 17 2023, 15:59"
 			},
 			{
 				name: "Maintenance",
-				start: "oct 18 2023, 16:00",
-				end: "oct 18 2023, 16:59"
+				start: "nov 17 2023, 16:00",
+				end: "nov 17 2023, 16:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "oct 18 2023, 17:00",
-				end: "oct 19 2023, 15:59"
+				start: "nov 17 2023, 17:00",
+				end: "nov 18 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "oct 19 2023, 16:00",
-				end: "oct 20 2023, 15:59"
+				start: "nov 18 2023, 16:00",
+				end: "nov 19 2023, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "oct 20 2023, 16:00",
-				end: "oct 21 2023, 15:59"
+				start: "nov 19 2023, 16:00",
+				end: "nov 20 2023, 15:59"
 			}, 
             {
-                "name": "Light Attribute",
-                "start": "oct 16 2023, 17:00",
-                "end": "oct 21 2023, 15:59",
+                "name": "Forest Attribute",
+                "start": "nov 15 2023, 17:00",
+                "end": "nov 20 2023, 15:59",
                 "extraPriority": 1,
 				"type": "normal",
 				markers:
@@ -164,8 +164,8 @@ var timerData = [
         "timers": [
 			{
 				name: "Tentative Schedule",
-				start: "nov 20 2023, 12:00",
-				end: "nov 25 2023, 18:00",
+				start: "nov 20 2022, 12:00",
+				end: "nov 25 2022, 18:00",
 				markers:
 				[{title: "Madoka Time Slot", time: "sep 10 2023, 16:00", type: "star"}]
 			}
@@ -194,7 +194,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Scene0 Release Film.3 & Film.4",
+            "Scene0 Film.3 & Film.4 Releases",
 			"『魔法少女まどか☆マギカ scene0』Film.3およびFilm.4"
         ],
         "image": [
@@ -205,9 +205,11 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "Story Update",
+				name: "Limited Dailies",
 				start: "nov 6 2023, 17:00",
-				end: "nov 6 2023, 23:59",
+				end: "nov 24 2023, 23:59",
+				markers:
+				[{title: "Film.4 DAY.15~32 Battle 4", time: "nov 15 2023, 17:00", type: "star"}]
 			},
 		]
 	},
@@ -547,19 +549,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		" Dark Attribute Magical Girl Training Pack",
-		"『育成パック販売予告』"
+		" Fire Attribute Magical Girl Training Pack",
+		"『火属性魔法少女育成パック』"
 		],
 		image: [
-            "imgs/kimochi/pack00.png",
+            "imgs/shops/fire00.png",
         ],
 		column: 2,
 		priority: 10,
 		timers: [
 		{
 			name: "Sales period",
-			start: "oct 16 2023, 17:00",
-			end: "oct 23 2023, 14:59",
+			start: "nov 15 2023, 17:00",
+			end: "nov 22 2023, 14:59",
 		}
 		]
 	},
@@ -626,12 +628,12 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 2,
+        priority: 1,
         timers: [
             {
-                name: "",
-				start: "nov 6 2023, 15:00",
-				end: "nov 6 2023, 15:59"
+                name: "App Version 3.1.1 Mandatory Update",
+				start: "nov 15 2023, 15:00",
+				end: "nov 15 2023, 16:59"
 				// extraPriority: 100
             }
         ]
@@ -639,8 +641,8 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Dark Attribute Magical Girl Pickup Gacha",
-            "【闇属性魔法少女 ピックアップガチャ】"
+			"Fire Attribute Magical Girl Pickup Gacha",
+            "【火属性魔法少女 ピックアップガチャ】"
         ],
         "image": [
             "imgs/kimochi/gacha00.png",
@@ -650,8 +652,8 @@ var timerData = [
         "timers": [
             {
                 name: "Pick Up",
-                start: "oct 16 2023, 16:00",
-				end: "oct 23 2023, 14:59",
+                start: "nov 15 2023, 17:00",
+				end: "nov 20 2023, 14:59",
                // extraPriority: 1000
             }
         ]
@@ -659,40 +661,40 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Light Attribute Pick Up Gacha",
-            "『光属性魔法少女 ピックアップガチャ』"
+			"Fire Attribute Paid Guaranteed 4★ Gacha",
+            "『有償限定 火属性★4魔法少女確定ガチャ』"
         ],
         "image": [
-			"imgs/gatcha/kimoga00.png"
+			"imgs/kimochi/fire00.png"
         ],
         "column": 1,
-        "priority": 15,
+        "priority": 3,
         "timers": [
             {
                 name: "",
-                start: "July 10 2023, 17:00",
-				end: "July 17 2023, 14:59",
-                extraPriority: 100,
+                start: "nov 15 2023, 17:00",
+				end: "nov 20 2023, 14:59",
+                // extraPriority: 100,
             }
         ]
     },
 	{
         "type": "Gacha",
         "title": [
-			"【Limited Gacha】Chisato Nishikigi Pickup and Step-up Gacha",
-            "『有償限定 ステップアップ & ピックアップガチャ 錦木千束編』"
+			"【New Limited Gatcha】Kyoko Sakura scene0 ver. Pickup & Step-up Gacha",
+            "『期間限定 佐倉杏子scene0 ver. ステップアップ&ピックアップガチャ』"
         ],
         "image": [
-            "imgs/eventsp/gacha00.png",
-			"imgs/eventsp/gacha0002.png"
+			"imgs/scene-zero/kyoko00.png",
+			"imgs/scene-zero/kyoko01.png"
         ],
         "column": 1,
         "priority": 5,
         "timers": [
             {
-                name: "Licorice Recoil Collab",
-                start: "sep 22 2023, 16:00",
-				end: "oct 8 2023, 23:59",
+                name: "",
+                start: "nov 15 2023, 17:00",
+				end: "nov 20 2023, 14:59",
             }
         ]
     },
