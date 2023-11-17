@@ -529,11 +529,6 @@ var timerData = [
 				end: "nov 13 2023, 14:59",
 			},
 			{
-				name: "Mirrors Ranking Match Coins",
-				start: "oct 23 2023, 17:00",
-				end: "nov 30 2023, 14:59",
-			},
-			{
 				name: "Homura Akemi scene0 ver. - Black",
 				start: "nov 6 2023, 16:00",
 				end: "nov 22 2023, 14:59",
@@ -543,6 +538,11 @@ var timerData = [
 				start: "nov 15 2023, 16:00",
 				end: "nov 27 2023, 14:59",
 			},		
+			{
+				name: "Fire Attribute Magical Girls - Peach",
+				start: "nov 15 2023, 16:00",
+				end: "nov 27 2023, 14:59",
+			},	
 
 		]
 	},
@@ -618,11 +618,6 @@ var timerData = [
 			},	
 			{
 				name: "Kyoko Sakura scene0 ver. - Red",
-				start: "nov 15 2023, 16:00",
-				end: "nov 27 2023, 14:59",
-			},	
-			{
-				name: "Fire Attribute Magical Girls - Peach",
 				start: "nov 15 2023, 16:00",
 				end: "nov 27 2023, 14:59",
 			},	
