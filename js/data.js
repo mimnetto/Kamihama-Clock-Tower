@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "nov 14 2023, 17:00";
+var possibleNextAnnouncementDate = "nov 21 2023, 17:00";
 var nextAnniversary = "August 22 2024, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -480,25 +480,20 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Kimochi Battle ～Beatueous Pearl Eye～ Medals",
-			start: "oct 16 2023, 16:00",
-			end: "oct 30 2023, 14:59"
+			name: "Mirror Ranking Coins",
+			start: "oct 23 2023, 17:00",
+			end: "nov 30 2023, 14:59",
+		},
+		{
+			name: "Kimochi Battle Coins",
+			start: "nov 15 2023, 17:00",
+			end: "nov 27 2023, 14:59"
 		},
 		{
 			name: "Brethren Revived On Halloween - Lantern Coin 🎃",
 			start: "oct 23 2023, 17:00",
 			end: "nov 13 2023, 14:59",
-		},
-		{
-			name: "Halloween Tickets",
-			start: "oct 23 2023, 17:00",
-			end: "nov 13 2023, 14:59",
-		},
-				{
-			name: "Homura Akemi scene0 ver. - Black",
-			start: "nov 6 2023, 16:00",
-			end: "nov 22 2023, 14:59",
-		},		
+		},	
 		]
 	},
 	{
@@ -542,6 +537,11 @@ var timerData = [
 				name: "Homura Akemi scene0 ver. - Black",
 				start: "nov 6 2023, 16:00",
 				end: "nov 22 2023, 14:59",
+			},	
+			{
+				name: "Kyoko Sakura scene0 ver. - Red",
+				start: "nov 15 2023, 16:00",
+				end: "nov 27 2023, 14:59",
 			},		
 
 		]
@@ -580,7 +580,7 @@ var timerData = [
 		{
 			name: "Sales period",
 			start: "oct 23 2023, 17:00",
-			end: "nov 13 2023, 14:59"
+			end: "nov 20 2023, 14:59"
 		}
 		]
 	},
@@ -615,6 +615,16 @@ var timerData = [
 				name: "Homura Akemi scene0 ver. - Black",
 				start: "nov 6 2023, 16:00",
 				end: "nov 22 2023, 14:59",
+			},	
+			{
+				name: "Kyoko Sakura scene0 ver. - Red",
+				start: "nov 15 2023, 16:00",
+				end: "nov 27 2023, 14:59",
+			},	
+			{
+				name: "Fire Attribute Magical Girls - Peach",
+				start: "nov 15 2023, 16:00",
+				end: "nov 27 2023, 14:59",
 			},	
 		]
 	},
@@ -694,7 +704,7 @@ var timerData = [
             {
                 name: "",
                 start: "nov 15 2023, 17:00",
-				end: "nov 20 2023, 14:59",
+				end: "nov 24 2023, 14:59",
             }
         ]
     },
