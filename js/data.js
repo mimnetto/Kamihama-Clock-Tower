@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "nov 21 2023, 17:00";
+var possibleNextAnnouncementDate = "nov 28 2023, 17:00";
 var nextAnniversary = "August 22 2024, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -246,21 +246,21 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【Limited Event】Brethren Revived On Halloween ",
-			"『ハロウィンによみがえる同胞たち』"
+            "【Rerun Event】Sayonara ・ Storage",
+			"『サヨナラ・ストレージ』"
         ],
         "image": [
-			"imgs/ween/event00.png"
+			"imgs/events/rerun00.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 0,
         "timers": [
 			{
 				name: "",
-				start: "oct 23 2023, 17:00",
-				end: "nov 11 2023, 14:59",
+				start: "nov 24 2023, 16:00",
+				end: "dec 12 2023, 14:59",
 				markers:
-				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "oct 30 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "nov 29s 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -636,9 +636,9 @@ var timerData = [
         priority: 1,
         timers: [
             {
-                name: "App Version 3.1.1 Mandatory Update",
-				start: "nov 15 2023, 15:00",
-				end: "nov 15 2023, 16:59"
+                name: "",
+				start: "nov 24 2023, 15:00",
+				end: "nov 24 2023, 16:59"
 				// extraPriority: 100
             }
         ]
@@ -706,20 +706,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited Rerun】Halloween 2020-2021 Pickup and Step-up Gacha",
-            "『ハロウィン魔法少女2020-2021 ステップアップ & ピックアップガチャ』"
+			"【Limited Rerun】Limited-time Mikoto Sena Pick Up & Step-UP Gacha",
+            "『瀬奈みこと編 ステップアップ & ピックアップガチャ』"
         ],
         "image": [
-            "imgs/ween/regacha01.png",
-			"imgs/ween/regacha00.png"
+            "imgs/gatcha/rerun01.png",
+			"imgs/gatcha/rerun00.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "",
-                start: "oct 23 2023, 17:00",
-				end: "nov 6 2023, 14:59",
+                start: "nov 24 2023, 16:00",
+				end: "dec 4 2023, 14:59",
             }
         ]
     },
