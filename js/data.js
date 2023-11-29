@@ -485,12 +485,12 @@ var timerData = [
 			end: "nov 30 2023, 14:59",
 		},
 		{
-			name: "Kimochi Battle Coins",
-			start: "nov 15 2023, 17:00",
-			end: "nov 27 2023, 14:59"
+			name: "Sayonara ・ Storage - Storage",
+			start: "nov 24 2023, 17:00",
+			end: "dec 11 2023, 14:59"
 		},
 		{
-			name: "Brethren Revived On Halloween - Lantern Coin 🎃",
+			name: "S",
 			start: "oct 23 2023, 17:00",
 			end: "nov 13 2023, 14:59",
 		},	
@@ -536,12 +536,12 @@ var timerData = [
 			{
 				name: "Kyoko Sakura scene0 ver. - Red",
 				start: "nov 15 2023, 16:00",
-				end: "nov 27 2023, 14:59",
+				end: "dec 01 2023, 14:59",
 			},		
 			{
-				name: "Fire Attribute Magical Girls - Peach",
-				start: "nov 15 2023, 16:00",
-				end: "nov 27 2023, 14:59",
+				name: "Mikoto Sena - Lime",
+				start: "nov 24 2023, 16:00",
+				end: "dec 11 2023, 14:59",
 			},	
 
 		]
@@ -612,14 +612,14 @@ var timerData = [
 				end: "nov 13 2023, 14:59",
 			},
 			{
-				name: "Homura Akemi scene0 ver. - Black",
-				start: "nov 6 2023, 16:00",
-				end: "nov 22 2023, 14:59",
-			},	
-			{
 				name: "Kyoko Sakura scene0 ver. - Red",
 				start: "nov 15 2023, 16:00",
-				end: "nov 27 2023, 14:59",
+				end: "dec 01 2023, 14:59",
+			},	
+			{
+				name: "Mikoto Sena SP",
+				start: "nov 24 2023, 16:00",
+				end: "dec 11 2023, 14:59",
 			},	
 		]
 	},
@@ -706,7 +706,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited Rerun】Limited-time Mikoto Sena Pick Up & Step-UP Gacha",
+			"【Limited Rerun】Mikoto Sena Pick Up & Step-UP Gacha",
             "『瀬奈みこと編 ステップアップ & ピックアップガチャ』"
         ],
         "image": [
