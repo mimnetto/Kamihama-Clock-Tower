@@ -134,19 +134,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Campaign】 Madoka's Birthday!",
-			"『鹿目まどか誕生日』"
+            "【YouTube】 Magia Record TV Kamihama Special Channel 2023 in f4 Fan Festival",
+			"『マギアレコード TV神浜スペシャルチャンネル 2023 in f4ファンフェスティバル』"
         ],
         "image": [
-			"imgs/scene-zero/madoka-birth.png"
+			"imgs/events/tv02.png"
         ],
         "column": 0,
-        "priority": 3,
+        "priority": 0,
         "timers": [
 			{
-				name: "Limited Memoria in Shop",
-				start: "oct 3 2023, 00:00",
-				end: "oct 134 2023, 14:59",
+				name: "https://www.youtube.com/watch?v=nnyQoAZZTAQ",
+				start: "dec 15 2023, 18:30",
+				end: "dec 15 2023, 19:59",
 			}
         ]
     },
@@ -194,8 +194,8 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Scene0 Film.3 & Film.4 Releases",
-			"『魔法少女まどか☆マギカ scene0』Film.3およびFilm.4"
+            "Scene0 Film.5 DAY.1 ～ Film.7 DAY.32",
+			"『魔法少女まどか☆マギカ scene0』Film.5 DAY.1 ～ Film.7 DAY.32"
         ],
         "image": [
 			"imgs/scene-zero/scene00.png"
@@ -205,9 +205,9 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "Limited Dailies",
-				start: "nov 6 2023, 17:00",
-				end: "nov 24 2023, 23:59",
+				name: "BATTLE 5 The Sweets Witch",
+				start: "dec 4 2023, 16:00",
+				end: "dec 31 2023, 23:59",
 				markers:
 				[{title: "Film.4 DAY.15~32 Battle 4", time: "nov 15 2023, 17:00", type: "star"}]
 			},
@@ -253,7 +253,7 @@ var timerData = [
 			"imgs/events/rerun00.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 5,
         "timers": [
 			{
 				name: "",
@@ -686,20 +686,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Limited Gatcha】Kyoko Sakura scene0 ver. Pickup & Step-up Gacha",
-            "『期間限定 佐倉杏子scene0 ver. ステップアップ&ピックアップガチャ』"
+			"【New Limited Gatcha】Sayaka Miki scene0 ver. Pickup & Step-up Gacha",
+            "『期間限定  美樹さやか scene0 ver.scene0 ver. ステップアップ&ピックアップガチャ』"
         ],
         "image": [
-			"imgs/scene-zero/kyoko00.png",
-			"imgs/scene-zero/kyoko01.png"
+			"imgs/scene-zero/sayaka00.png",
+			"imgs/scene-zero/sayaka01.png"
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 0,
         "timers": [
             {
                 name: "",
-                start: "nov 15 2023, 17:00",
-				end: "nov 24 2023, 14:59",
+                start: "dec 4 2023, 16:00",
+				end: "dec 18 2023, 14:59",
             }
         ]
     },
@@ -714,7 +714,7 @@ var timerData = [
 			"imgs/gatcha/rerun00.png"
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 1,
         "timers": [
             {
                 name: "",
