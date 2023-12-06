@@ -257,8 +257,8 @@ var timerData = [
         "timers": [
 			{
 				name: "",
-				start: "nov 24 2023, 16:00",
-				end: "dec 12 2023, 14:59",
+				start: "nov 24 2022, 16:00",
+				end: "dec 12 2022, 14:59",
 				markers:
 				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "nov 29s 2023, 16:00", type: "battle"}]
 			}
@@ -534,14 +534,14 @@ var timerData = [
 				end: "nov 22 2023, 14:59",
 			},	
 			{
-				name: "Kyoko Sakura scene0 ver. - Red",
-				start: "nov 15 2023, 16:00",
-				end: "dec 01 2023, 14:59",
-			},		
-			{
 				name: "Mikoto Sena - Lime",
 				start: "nov 24 2023, 16:00",
 				end: "dec 11 2023, 14:59",
+			},	
+			{
+				name: "Sayaka Miki scene0 ver. - Blue",
+				start: "dec 4 2023, 16:00",
+				end: "dec 25 2023, 14:59",
 			},	
 
 		]
@@ -620,6 +620,11 @@ var timerData = [
 				name: "Mikoto Sena SP",
 				start: "nov 24 2023, 16:00",
 				end: "dec 11 2023, 14:59",
+			},	
+			{
+				name: "Sayaka Miki scene0 ver. - Blue",
+				start: "dec 4 2023, 16:00",
+				end: "dec 25 2023, 14:59",
 			},	
 		]
 	},
