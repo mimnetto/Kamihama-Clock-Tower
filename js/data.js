@@ -216,11 +216,12 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "6th Anniversary Campaign",
-			"【『6周年カウントダウンキャンペーン』】"
+            "2300th Day Since Release Campaign",
+			"『リリース2300日記念キャンペーン』"
         ],
         "image": [
-            "imgs/anni/camp00.png",
+            "imgs/camp/riri2300.png",
+			"imgs/camp/quest23.png"
 
         ],
         "column": 0,
@@ -228,13 +229,13 @@ var timerData = [
         "timers": [
 			{
 				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
-				start: "aug 22 2023, 16:00",
-				end: "sep 4 2023, 14:59",
+				start: "dec 11 2023, 16:00",
+				end: "dec 18 2023, 14:59",
 			},
 			{
-				name: "Mirror Coin Rewards Doubled",
-				start: "aug 22 2023, 16:00",
-				end: "sep 4 2023, 14:59",
+				name: "Login Bonuses",
+				start: "dec 11 2023, 16:00",
+				end: "dec 18 2023, 14:59",
 			},
 			{
 				name: "Daily Single Pull in Premium Gacha",
@@ -549,19 +550,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		" Fire Attribute Magical Girl Training Pack",
-		"『火属性魔法少女育成パック』"
+		"2300 Days Commemoration Training Support Pack",
+		"『2300日記念 育成応援パック』"
 		],
 		image: [
-            "imgs/shops/fire00.png",
+            "imgs/shops/shop2300.png",
         ],
 		column: 2,
 		priority: 10,
 		timers: [
 		{
 			name: "Sales period",
-			start: "nov 15 2023, 17:00",
-			end: "nov 22 2023, 14:59",
+			start: "dec 11 2023, 16:00",
+			end: "dec 18 2023, 14:59",
 		}
 		]
 	},
