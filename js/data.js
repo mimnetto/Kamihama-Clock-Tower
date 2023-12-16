@@ -207,7 +207,7 @@ var timerData = [
 			{
 				name: "BATTLE 5 The Sweets Witch",
 				start: "dec 4 2023, 16:00",
-				end: "dec 31 2023, 23:59",
+				end: "dec 15 2023, 23:59",
 				markers:
 				[{title: "Film.4 DAY.15~32 Battle 4", time: "nov 15 2023, 17:00", type: "star"}]
 			},
@@ -244,24 +244,55 @@ var timerData = [
 			}
         ]
     },
+	{
+        "type": "Event",
+        "title": [
+            "【Campaign】Winter Campaign ",
+			"『ウィンターキャンペーン』"
+        ],
+        "image": [
+            "imgs/events/winter00.png",
+			"imgs/events/winter01.png",
+
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				name: "½ AP Quests, 2x SP, 2x Player EXP,  Double Chance Enhancement ",
+				start: "dec 18 2023, 16:00",
+				end: "jan 12 2024, 14:59",
+			},
+			{
+				name: "Limited Time Daily Missions",
+				start: "dec 18 2023, 16:00",
+				end: "jan 12 2024, 14:59",
+			},
+			{
+				name: "Daily 10-Pull from a Choose 4★ Unlimited Magical Girl ",
+				start: "dec 18 2023, 16:00",
+				end: "jan 12 2024, 14:59",
+			}
+        ]
+    },
 		{
         "type": "Event",
         "title": [
-            "【Rerun Event】Sayonara ・ Storage",
-			"『サヨナラ・ストレージ』"
+            "【Christmas Event】Memory Drops",
+			"『オモイデ・ドロップス』"
         ],
         "image": [
-			"imgs/events/rerun00.png"
+			"imgs/events/winter02.png"
         ],
         "column": 0,
-        "priority": 5,
+        "priority": 0,
         "timers": [
 			{
 				name: "",
-				start: "nov 24 2022, 16:00",
-				end: "dec 12 2022, 14:59",
+				start: "dec 18 2023, 16:00",
+				end: "dec 31 2023, 14:59",
 				markers:
-				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "nov 29s 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "dec 25 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -555,6 +586,7 @@ var timerData = [
 		],
 		image: [
             "imgs/shops/shop2300.png",
+			"imgs/events/tv02.png"
         ],
 		column: 2,
 		priority: 10,
@@ -563,6 +595,11 @@ var timerData = [
 			name: "Sales period",
 			start: "dec 11 2023, 16:00",
 			end: "dec 18 2023, 14:59",
+		},
+		{
+			name: "Support Shop Commemorative Memoria",
+			start: "dec 11 2023, 16:00",
+			end: "jan 31 2024, 14:59",
 		}
 		]
 	},
@@ -652,19 +689,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Fire Attribute Magical Girl Pickup Gacha",
-            "【火属性魔法少女 ピックアップガチャ】"
+			"Choose ★ 4 Magical Girl Pickup Gacha",
+            "【選べる★4魔法少女ピックアップガチャ】"
         ],
         "image": [
-            "imgs/kimochi/gacha00.png",
+            "imgs/gacha/gacha00.png",
         ],
         "column": 1,
-        "priority": 3,
+        "priority": 0,
         "timers": [
             {
                 name: "Pick Up",
-                start: "nov 15 2023, 17:00",
-				end: "nov 20 2023, 14:59",
+                start: "dec 19 2023, 00:00",
+				end: "jan 12 2024, 23:59",
                // extraPriority: 1000
             }
         ]
@@ -700,7 +737,7 @@ var timerData = [
 			"imgs/scene-zero/sayaka01.png"
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 1,
         "timers": [
             {
                 name: "",
@@ -712,20 +749,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited Rerun】Mikoto Sena Pick Up & Step-UP Gacha",
-            "『瀬奈みこと編 ステップアップ & ピックアップガチャ』"
+			"【New Limited】Uwasa Mikoto Sena Pick Up & Step-UP Gacha",
+            "『ステップアップ & ピックアップガチャ ウワサのみこと編』"
         ],
         "image": [
-            "imgs/gatcha/rerun01.png",
-			"imgs/gatcha/rerun00.png"
+            "imgs/gacha/winter00.png",
+            "imgs/gacha/winter01.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 name: "",
-                start: "nov 24 2023, 16:00",
-				end: "dec 4 2023, 14:59",
+				start: "dec 18 2023, 16:00",
+				end: "dec 31 2023, 14:59",
             }
         ]
     },
@@ -773,21 +810,45 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited Rerun】Halloween 2022 Pickup and Step-up Gacha",
-            "『ステップアップガチャ ハロウィン魔法少女2022編』"
+			"【Limited Rerun】Christmas Magical Girl 2017-2022 Paid Step-up Gachas",
+            "『ステップアップガチャ クリスマス魔法少女2017-2022編』"
         ],
         "image": [
-            "imgs/ween/gacha22.png",
-			"imgs/ween/gacha2201.png",
-			"imgs/ween/gacha2202.png"
+            "imgs/gacha/winter00sp.png",
+			"imgs/gacha/winter01sp.png",
+			"imgs/gacha/winter02sp.png",
+			"imgs/gacha/winter03sp.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 name: "",
-				start: "oct 23 2023, 17:00",
-				end: "nov 6 2023, 14:59"
+				start: "dec 18 2023, 16:00",
+				end: "dec 31 2023, 14:59",
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Limited Rerun】Christmas Magical Girl 2017-2022 Pickup Gachas",
+            "『ピックアップガチャ クリスマス魔法少女2017-2022編』"
+        ],
+        "image": [
+            "imgs/gacha/winter00pk.png",
+			"imgs/gacha/winter01pk.png",
+			"imgs/gacha/winter02pk.png",
+			"imgs/gacha/winter03pk.png",
+			"imgs/gacha/winter04pk.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "",
+				start: "dec 18 2023, 16:00",
+				end: "dec 31 2023, 14:59",
             }
         ]
     },
