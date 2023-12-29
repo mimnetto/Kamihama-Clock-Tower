@@ -1096,7 +1096,7 @@ var timerData = [
 					type: "star"
 				},
 				{
-					title: "Free pull 12",
+					title: "Free pull 26",
 					time: "jan 12 2024, 0:00",
 					type: "star"
 				},
