@@ -600,7 +600,7 @@ var timerData = [
 			"imgs/events/tv02.png"
         ],
 		column: 2,
-		priority: 10,
+		priority: 0,
 		timers: [
 		{
 			name: "Sales period",
