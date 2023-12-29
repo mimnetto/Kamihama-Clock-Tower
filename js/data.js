@@ -270,8 +270,8 @@ var timerData = [
 			},
 			{
 				name: "Daily 10-Pull from a Choose 4★ Unlimited Magical Girl ",
-				start: "dec 18 2023, 16:00",
-				end: "jan 12 2024, 14:59",
+				start: "dec 18 2023, 00:00",
+				end: "jan 12 2024, 23:59",
 			}
         ]
     },
@@ -512,14 +512,14 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Mirror Ranking Coins",
-			start: "oct 23 2023, 17:00",
-			end: "nov 30 2023, 14:59",
+			name: "Memory Drops - Snowmen ⛄",
+			start: "dec 18 2023, 16:00",
+			end: "Jan 7 2024, 14:59",
 		},
 		{
-			name: "Sayonara ・ Storage - Storage",
-			start: "nov 24 2023, 17:00",
-			end: "dec 11 2023, 14:59"
+			name: "Christmas Tickets",
+			start: "dec 18 2023, 16:00",
+			end: "Jan 7 2024, 14:59",
 		},
 		{
 			name: "S",
@@ -541,24 +541,19 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-				name: "Dark Attribute Magical Girls - Purple",
-				start: "oct 16 2023, 16:00",
-				end: "oct 30 2023, 14:59"
+				name: "Uwasa Mikoto Sena - Navy Blue",
+				start: "dec 18 2023, 16:00",
+				end: "Jan 7 2024, 14:59",
 			},
 			{
-				name: "Yuna & Juri (Vampire ver.) - Orange",
-				start: "oct 23 2023, 17:00",
-				end: "nov 13 2023, 14:59",
+				name: "Christmas Rerun Units - Green",
+				start: "dec 18 2023, 16:00",
+				end: "Jan 7 2024, 14:59",
 			},
 			{
-				name: "Halloween Rerun Units - Navy Blue",
-				start: "oct 23 2023, 17:00",
-				end: "nov 13 2023, 14:59",
-			},
-			{
-				name: "Choose your own Memo - Tea",
-				start: "oct 23 2023, 17:00",
-				end: "nov 13 2023, 14:59",
+				name: "Choose ★ 4 Magical Girl - Light Green",
+				start: "dec 18 2023, 16:00",
+				end: "Jan 19 2024, 14:59",
 			},
 			{
 				name: "Homura Akemi scene0 ver. - Black",
@@ -581,11 +576,10 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"2300 Days Commemoration Training Support Pack",
-		"『2300日記念 育成応援パック』"
+		"Support Shop Commemorative Memoria",
+		""
 		],
 		image: [
-            "imgs/shops/shop2300.png",
 			"imgs/events/tv02.png"
         ],
 		column: 2,
@@ -635,30 +629,30 @@ var timerData = [
 		priority: 2,
 		timers: [
 			{
-				name: "Yuna & Juri (Vampire ver.) - Orange",
-				start: "oct 23 2023, 17:00",
-				end: "nov 13 2023, 14:59",
+				name: "Uwasa Mikoto Sena - Navy Blue",
+				start: "dec 18 2023, 16:00",
+				end: "Jan 7 2024, 14:59",
 			},
 			{
-				name: "Rerun Halloween Units 2020-2021SP",
-				start: "oct 23 2023, 17:00",
-				end: "nov 13 2023, 14:59",
+				name: "Rerun Chrismas Units 2022SP",
+				start: "dec 18 2023, 16:00",
+				end: "Jan 7 2024, 14:59",
 			},
 			{
-				name: "Rerun Halloween Units 2022SP",
-				start: "oct 23 2023, 17:00",
-				end: "nov 13 2023, 14:59",
+				name: "Rerun Chrismas Units 2021SP",
+				start: "dec 18 2023, 16:00",
+				end: "Jan 7 2024, 14:59",
 			},
 			{
-				name: "Kyoko Sakura scene0 ver. - Red",
-				start: "nov 15 2023, 16:00",
-				end: "dec 01 2023, 14:59",
+				name: "Rerun Chrismas Units 2019-2020SP",
+				start: "dec 18 2023, 16:00",
+				end: "Jan 7 2024, 14:59",
 			},	
 			{
-				name: "Mikoto Sena SP",
-				start: "nov 24 2023, 16:00",
-				end: "dec 11 2023, 14:59",
-			},	
+				name: "Rerun Chrismas Units 2017-2018SP",
+				start: "dec 18 2023, 16:00",
+				end: "Jan 7 2024, 14:59",
+			},
 			{
 				name: "Sayaka Miki scene0 ver. - Blue",
 				start: "dec 4 2023, 16:00",
@@ -899,102 +893,152 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"6th Anniversary Choose your 4★ Limited Magical Girl Selection Gacha ",
-            "『6周年記念 選べる★4魔法少女ピックアップガチャ』"
+			"Daily 10-Pull from a Choose 4★ Unlimited Magical Girl",
+            "『毎日1回10連ガチャ無料』"
         ],
         "image": [
-            "imgs/anni/pick05.png"
+            "imgs/events/winter01.png",
         ],
         "column": 1,
         "priority": 14,
         "timers": [
             {
                 name: "4★ Magical Girl Pull Rate Doubled!",
-                start: "aug 22 2023, 16:00",
-				end: "sep 4 2023, 23:59",
+				start: "dec 18 2023, 16:00",
+				end: "jan 12 2024, 23:59",
                 extraPriority: 100,
 				markers:
 				[
 				{
 					title: "Free pull 1",
-					time: "aug 22 2023, 16:00",
+					time: "dec 18 2023, 00:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 2",
-					time: "aug 23 2023, 0:00",
+					time: "dec 19 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 3",
-					time: "aug 24 2023, 0:00",
+					time: "dec 20 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 4",
-					time: "aug 25 2023, 0:00",
+					time: "dec 21 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 5",
-					time: "aug 26 2023, 0:00",
+					time: "dec 22 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 6",
-					time: "aug 27 2023, 0:00",
+					time: "dec 23 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 7",
-					time: "aug 28 2023 0:00",
+					time: "dec 24 2023 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 8",
-					time: "aug 29 2023, 0:00",
+					time: "dec 25 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 9",
-					time: "aug 30 2023, 0:00",
+					time: "dec 26 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 10",
-					time: "aug 31 2023, 0:00",
+					time: "dec 27 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 11",
-					time: "sep 1 2023, 0:00",
+					time: "dec 28 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 12",
-					time: "Sep 2 2023, 0:00",
+					time: "dec 29 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 13",
-					time: "Sep 3 2023, 0:00",
+					time: "dec 30 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 14",
-					time: "Sep 4 2023, 00:00",
+					time: "dec 31 2023, 00:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 15",
-					time: "Sep 19 2022, 0:00",
+					time: "jan 1 2024, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 16",
-					time: "Sep 20 2022, 0:00",
+					time: "jan 2 2024, 0:00",
 					type: "star"
-				}
+				},
+				{
+					title: "Free pull 17",
+					time: "jan 3 2024, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 18",
+					time: "jan 4 2024, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 19",
+					time: "jan 5 2024, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 20",
+					time: "jan 6 2024, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 21",
+					time: "jan 7 2024, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 22",
+					time: "jan 8 2024, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 23",
+					time: "jan 9 2024, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 24",
+					time: "jan 10 2024, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 25",
+					time: "jan 11 2024, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 12",
+					time: "jan 12 2024, 0:00",
+					type: "star"
+				},
 				]
             }
         ]
