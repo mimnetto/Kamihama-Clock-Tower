@@ -768,7 +768,7 @@ var timerData = [
             "imgs/gacha/winter01.png"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 5,
         "timers": [
             {
                 name: "",
@@ -814,7 +814,7 @@ var timerData = [
                 name: "",
 				start: "nov 6 2023, 16:00",
 				end: "nov 15 2023, 14:59",
-                extraPriority: 100,
+                // extraPriority: 100,
             }
         ]
     },
@@ -854,7 +854,7 @@ var timerData = [
 			"imgs/gacha/winter04pk.png"
         ],
         "column": 1,
-        "priority": 15,
+        "priority": 1,
         "timers": [
             {
                 name: "",
