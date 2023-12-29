@@ -217,7 +217,7 @@ var timerData = [
         "type": "Event",
         "title": [
             "New Years Campaign",
-			"『リリース2300日記念キャンペーン』"
+			"『お正月キャンペーン』"
         ],
         "image": [
             "imgs/nyear/camp.png",
