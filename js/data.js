@@ -216,32 +216,49 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "2300th Day Since Release Campaign",
+            "New Years Campaign",
 			"『リリース2300日記念キャンペーン』"
         ],
         "image": [
-            "imgs/camp/riri2300.png",
-			"imgs/camp/quest23.png"
+            "imgs/nyear/camp.png",
+			"imgs/nyear/stones.png",
+			"imgs/nyear/lucky.png",
+			"imgs/nyear/mirror.png",
 
         ],
         "column": 0,
-        "priority": 10,
+        "priority": 0,
         "timers": [
 			{
-				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
-				start: "dec 11 2023, 16:00",
-				end: "dec 18 2023, 14:59",
+				name: "Countdown to New Years Login Bonuses",
+				start: "dec 29 2023, 00:00",
+				end: "jan 1 2024, 23:59",
 			},
 			{
-				name: "Login Bonuses",
-				start: "dec 11 2023, 16:00",
-				end: "dec 18 2023, 14:59",
+				name: "New Years Login Bonuses",
+				start: "jan 1 29 2023, 00:00",
+				end: "jan 12 2024, 23:59",
 			},
 			{
-				name: "Daily Single Pull in Premium Gacha",
-				start: "aug 22 2023, 16:00",
-				end: "sep 4 2023, 14:59",
-			}
+				name: "Limited Time Daily Missions",
+				start: "jan 1 29 2023, 00:00",
+				end: "jan 12 2024, 23:59",
+			},
+			{
+				name: "Good Luck Fortunes at Mizuna Shrine",
+				start: "Jan 1 2024, 00:00",
+				end: "jan 12 2024, 23:59",
+			},
+			{
+				name: "Double Mirrors Coin Rewarded",
+				start: "Jan 1 2024, 00:00",
+				end: "jan 12 2024, 23:59",
+			},
+			{
+				name: "Magia Stone Bonus Purchase",
+				start: "dec 31 2023, 16:00",
+				end: "jan 12 2024, 14:59",
+			},
         ]
     },
 	{
@@ -256,7 +273,7 @@ var timerData = [
 
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
 				name: "½ AP Quests, 2x SP, 2x Player EXP,  Double Chance Enhancement ",
@@ -285,7 +302,7 @@ var timerData = [
 			"imgs/events/winter02.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
 				name: "",
@@ -600,19 +617,19 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Mirrors Ranking Memo Support Pack",
-		"『ミラーズランクマッチメモリア強化応援パック』"
+		"Mitama’s New Year DX Lucky Bag",
+		"『みたまのお正月DX福袋』"
 		],
 		image: [
-            "imgs/ween/shop.png",
+            "imgs/nyear/shop.png",
         ],
 		column: 2,
 		priority: 6,
 		timers: [
 		{
 			name: "Sales period",
-			start: "oct 23 2023, 17:00",
-			end: "nov 20 2023, 14:59"
+			start: "Jan 1 2024, 00:00",
+			end: "jan 12 2024, 23:59",
 		}
 		]
 	},
@@ -837,7 +854,7 @@ var timerData = [
 			"imgs/gacha/winter04pk.png"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 15,
         "timers": [
             {
                 name: "",
@@ -846,6 +863,50 @@ var timerData = [
             }
         ]
     },
+	{
+	"type": "Gacha",
+	"title": [
+		"【Limited Rerun】New Years Magical Girl 2018-2023 Paid Step-up Gachas",
+		"『ステップアップガチャ お正月魔法少女2018-2023編』"
+	],
+	"image": [
+		"imgs/nyear/stepup00.png",
+		"imgs/nyear/stepup01.png",
+		"imgs/nyear/stepup02.png",
+
+	],
+	"column": 1,
+	"priority": 0,
+	"timers": [
+		{
+			name: "",
+			start: "jan 1 29 2023, 00:00",
+			end: "jan 12 2024, 14:59",
+		}
+	]
+},
+{
+	"type": "Gacha",
+	"title": [
+		"【Limited Rerun】Christmas Magical Girl 2017-2022 Pickup Gachas",
+		"『ピックアップガチャ お正月魔法少女2018-2023編』"
+	],
+	"image": [
+		"imgs/nyear/pickup00.png",
+		"imgs/nyear/pickup01.png",
+		"imgs/nyear/pickup02.png",
+		"imgs/nyear/pickup03.png",
+	],
+	"column": 1,
+	"priority": 0,
+	"timers": [
+		{
+			name: "",
+			start: "jan 1 29 2023, 00:00",
+			end: "jan 12 2024, 14:59",
+		}
+	]
+},
 	{
         "type": "Gacha",
         "title": [
