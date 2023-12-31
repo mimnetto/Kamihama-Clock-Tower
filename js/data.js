@@ -216,11 +216,12 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "New Years Campaign",
-			"『お正月キャンペーン』"
+            "2024 New Years Campaign",
+			"『2024年 お正月キャンペーン』"
         ],
         "image": [
-            "imgs/nyear/camp.png",
+            "imgs/nyear/camp00.png",
+			"imgs/nyear/camp.png",
 			"imgs/nyear/stones.png",
 			"imgs/nyear/lucky.png",
 			"imgs/nyear/mirror.png",
@@ -252,12 +253,12 @@ var timerData = [
 			{
 				name: "Double Mirrors Coin Rewarded",
 				start: "Jan 1 2024, 00:00",
-				end: "jan 12 2024, 23:59",
+				end: "jan 12 2024, 14:59",
 			},
 			{
 				name: "Magia Stone Bonus Purchase",
 				start: "dec 31 2023, 16:00",
-				end: "jan 12 2024, 14:59",
+				end: "jan 12 2024, 23:59",
 			},
         ]
     },
@@ -269,11 +270,11 @@ var timerData = [
         ],
         "image": [
             "imgs/events/winter00.png",
-			"imgs/events/winter01.png",
+
 
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 0,
         "timers": [
 			{
 				name: "½ AP Quests, 2x SP, 2x Player EXP,  Double Chance Enhancement ",
@@ -295,21 +296,21 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【Christmas Event】Memory Drops",
-			"『オモイデ・ドロップス』"
+            "【New Years Event】Happy New Year! Dragon Rush! ",
+			"『『明けまして竜突猛進』"
         ],
         "image": [
-			"imgs/events/winter02.png"
+			"imgs/nyear/event.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
 				name: "",
-				start: "dec 18 2023, 16:00",
-				end: "dec 31 2023, 14:59",
+				start: "jan 1 2024, 00:00",
+				end: "jan 12 2024, 14:59",
 				markers:
-				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "dec 25 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "jan 5 2024, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -350,6 +351,7 @@ var timerData = [
 				name: "",
 				start: "july 24 2023, 16:00",
 				end: "aug 4 2023, 14:59",
+				extraPriority: 100,
 				markers:
 				[{title: "Story Quests 21-30 & 100Evils I~III", time: "july 28 2023, 16:00", type: "battle"}]
 			}
@@ -534,14 +536,19 @@ var timerData = [
 			end: "Jan 7 2024, 14:59",
 		},
 		{
+			name: "New Years Event Gacha",
+			start: "jan 1 2024, 00:00",
+			end: "Jan 19 2024, 14:59",
+		},	
+		{
 			name: "Christmas Tickets",
 			start: "dec 18 2023, 16:00",
 			end: "Jan 7 2024, 14:59",
 		},
 		{
-			name: "S",
-			start: "oct 23 2023, 17:00",
-			end: "nov 13 2023, 14:59",
+			name: "New Years Tickets",
+			start: "jan 1 2024, 00:00",
+			end: "Jan 19 2024, 14:59",
 		},	
 		]
 	},
@@ -573,9 +580,9 @@ var timerData = [
 				end: "Jan 19 2024, 14:59",
 			},
 			{
-				name: "Homura Akemi scene0 ver. - Black",
-				start: "nov 6 2023, 16:00",
-				end: "nov 22 2023, 14:59",
+				name: "New Years Rerun Units - Orange",
+				start: "an 1 2024, 00:00",
+				end: "jan 19 2024, 14:59",
 			},	
 			{
 				name: "Mikoto Sena - Lime",
@@ -671,10 +678,20 @@ var timerData = [
 				end: "Jan 7 2024, 14:59",
 			},
 			{
-				name: "Sayaka Miki scene0 ver. - Blue",
-				start: "dec 4 2023, 16:00",
-				end: "dec 25 2023, 14:59",
-			},	
+				name: "New Years Rerun Units 2022-2023SP",
+				start: "Jan 1 2024, 00:00",
+				end: "jan 19 2024, 14:59",
+			},
+			{
+				name: "New Years Rerun Units 2020-2021SP",
+				start: "Jan 1 2024, 00:00",
+				end: "jan 19 2024, 14:59",
+			},
+			{
+				name: "New Years Rerun Units 2018-2019SP",
+				start: "Jan 1 2024, 00:00",
+				end: "jan 19 2024, 14:59",
+			},
 		]
 	},
 	{
@@ -760,20 +777,21 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Limited】Uwasa Mikoto Sena Pick Up & Step-UP Gacha",
-            "『ステップアップ & ピックアップガチャ ウワサのみこと編』"
+			"【New Limited】 Tatsuki Asuka New Year Dragon God ver. Pick Up & Step-UP Gacha",
+            "『ステップアップ & ピックアップガチャ 竜城明日香 新春龍神ver』"
         ],
         "image": [
-            "imgs/gacha/winter00.png",
-            "imgs/gacha/winter01.png"
+            "imgs/nyear/asuka.png",
+            "imgs/nyear/asuka00.png"
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 0,
         "timers": [
             {
                 name: "",
-				start: "dec 18 2023, 16:00",
-				end: "dec 31 2023, 14:59",
+				start: "jan 1 2024, 00:00",
+				end: "jan 12 2024, 14:59",
+				extraPriority: 100,
             }
         ]
     },
@@ -876,7 +894,7 @@ var timerData = [
 
 	],
 	"column": 1,
-	"priority": 0,
+	"priority": 1,
 	"timers": [
 		{
 			name: "",
@@ -888,7 +906,7 @@ var timerData = [
 {
 	"type": "Gacha",
 	"title": [
-		"【Limited Rerun】Christmas Magical Girl 2017-2022 Pickup Gachas",
+		"【Limited Rerun】Christmas Magical Girl 2017-2023 Pickup Gachas",
 		"『ピックアップガチャ お正月魔法少女2018-2023編』"
 	],
 	"image": [
@@ -898,7 +916,7 @@ var timerData = [
 		"imgs/nyear/pickup03.png",
 	],
 	"column": 1,
-	"priority": 0,
+	"priority": 1,
 	"timers": [
 		{
 			name: "",
@@ -967,7 +985,7 @@ var timerData = [
                 name: "4★ Magical Girl Pull Rate Doubled!",
 				start: "dec 18 2023, 16:00",
 				end: "jan 12 2024, 23:59",
-                extraPriority: 100,
+/*                 extraPriority: 100, */
 				markers:
 				[
 				{
@@ -1114,7 +1132,7 @@ var timerData = [
             "imgs/anni/pick06.png"
         ],
         "column": 1,
-        "priority": 14,
+        "priority": 0,
         "timers": [
             {
                 name: "Wave 2 - 4★ Magical Girl Pull Rate Doubled!",
