@@ -236,12 +236,12 @@ var timerData = [
 			},
 			{
 				name: "New Years Login Bonuses",
-				start: "jan 1 29 2023, 00:00",
+				start: "jan 1 2024, 00:00",
 				end: "jan 12 2024, 23:59",
 			},
 			{
 				name: "Limited Time Daily Missions",
-				start: "jan 1 29 2023, 00:00",
+				start: "jan 1 2024, 00:00",
 				end: "jan 12 2024, 23:59",
 			},
 			{
@@ -880,7 +880,7 @@ var timerData = [
 	"timers": [
 		{
 			name: "",
-			start: "jan 1 29 2023, 00:00",
+			start: "jan 1 2024, 00:00",
 			end: "jan 12 2024, 14:59",
 		}
 	]
@@ -902,7 +902,7 @@ var timerData = [
 	"timers": [
 		{
 			name: "",
-			start: "jan 1 29 2023, 00:00",
+			start: "jan 1 2024, 00:00",
 			end: "jan 12 2024, 14:59",
 		}
 	]
