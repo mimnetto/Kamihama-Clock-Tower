@@ -580,8 +580,13 @@ var timerData = [
 				end: "Jan 19 2024, 14:59",
 			},
 			{
+				name: "Tatsuki Asuka New Year Dragon God ver. - Water",
+				start: "Jan 1 2024, 00:00",
+				end: "jan 19 2024, 14:59",
+			},	
+			{
 				name: "New Years Rerun Units - Orange",
-				start: "an 1 2024, 00:00",
+				start: "Jan 1 2024, 00:00",
 				end: "jan 19 2024, 14:59",
 			},	
 			{
@@ -677,6 +682,11 @@ var timerData = [
 				start: "dec 18 2023, 16:00",
 				end: "Jan 7 2024, 14:59",
 			},
+			{
+				name: "Tatsuki Asuka New Year Dragon God ver. - Water",
+				start: "Jan 1 2024, 00:00",
+				end: "jan 19 2024, 14:59",
+			},	
 			{
 				name: "New Years Rerun Units 2022-2023SP",
 				start: "Jan 1 2024, 00:00",
