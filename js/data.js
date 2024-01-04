@@ -609,10 +609,11 @@ var timerData = [
 		""
 		],
 		image: [
-			"imgs/events/tv02.png"
+			"imgs/events/tv02.png",
+			"imgs/nyear/memo.png"
         ],
 		column: 2,
-		priority: 0,
+		priority: 1,
 		timers: [
 		{
 			name: "Sales period",
@@ -916,7 +917,7 @@ var timerData = [
 {
 	"type": "Gacha",
 	"title": [
-		"【Limited Rerun】Christmas Magical Girl 2017-2023 Pickup Gachas",
+		"【Limited Rerun】New Years Magical Girl 2018-2023 Pickup Gachas",
 		"『ピックアップガチャ お正月魔法少女2018-2023編』"
 	],
 	"image": [
