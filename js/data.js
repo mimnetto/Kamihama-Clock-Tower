@@ -236,11 +236,6 @@ var timerData = [
 				end: "jan 1 2024, 23:59",
 			},
 			{
-				name: "New Years Login Bonuses",
-				start: "jan 1 2024, 00:00",
-				end: "jan 12 2024, 23:59",
-			},
-			{
 				name: "Limited Time Daily Missions",
 				start: "jan 1 2024, 00:00",
 				end: "jan 12 2024, 23:59",
