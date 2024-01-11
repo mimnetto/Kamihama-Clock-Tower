@@ -194,20 +194,20 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Scene0 Film.5 DAY.1 ～ Film.7 DAY.32",
-			"『魔法少女まどか☆マギカ scene0』Film.5 DAY.1 ～ Film.7 DAY.32"
+            "Scene0 Film.8 DAY.1 ～ Film.12 MT DAY.17",
+			"『魔法少女まどか☆マギカ scene0』Film.8 DAY.1 ～ Film.12 MT DAY.17"
         ],
         "image": [
 			"imgs/scene-zero/scene00.png"
 
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 0,
         "timers": [
 			{
-				name: "BATTLE 5 The Sweets Witch",
-				start: "dec 4 2023, 16:00",
-				end: "dec 15 2023, 23:59",
+				name: "Limited story and challenge quests",
+				start: "jan 12 2024, 16:00",
+				end: "jan 26 2024, 23:59",
 				markers:
 				[{title: "Film.4 DAY.15~32 Battle 4", time: "nov 15 2023, 17:00", type: "star"}]
 			},
@@ -228,7 +228,7 @@ var timerData = [
 
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
 				name: "Countdown to New Years Login Bonuses",
@@ -269,7 +269,7 @@ var timerData = [
 
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
 				name: "½ AP Quests, 2x SP, 2x Player EXP,  Double Chance Enhancement ",
@@ -763,20 +763,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Limited Gatcha】Sayaka Miki scene0 ver. Pickup & Step-up Gacha",
-            "『期間限定  美樹さやか scene0 ver.scene0 ver. ステップアップ&ピックアップガチャ』"
+			"【New Limited Gatcha】Mami Tomoe scene0 ver. Pickup & Step-up Gacha",
+            "『期間限定   巴マミ scene0 ver.scene0 ver. ステップアップ&ピックアップガチャ』"
         ],
         "image": [
-			"imgs/scene-zero/sayaka00.png",
-			"imgs/scene-zero/sayaka01.png"
+			"imgs/scene-zero/mami00.png",
+			"imgs/scene-zero/mami01.png"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 0,
         "timers": [
             {
                 name: "",
-                start: "dec 4 2023, 16:00",
-				end: "dec 18 2023, 14:59",
+                start: "jan 12 2024, 16:00",
+				end: "jan 29 2024, 14:59",
             }
         ]
     },
