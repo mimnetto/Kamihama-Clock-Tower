@@ -7,8 +7,8 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Kimochi Battle ～Unmoving Garnet Pinky～",
-            "『キモチ戦 止まるガーネットの小指』"
+			"Kimochi Battle ～Pleased Sapphire Lips～",
+            "『キモチ戦 悦ぶサファイアの唇』"
         ],
         "image": [
             "imgs/kimochi/kimochi00.png"
@@ -153,8 +153,8 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Annoucement】Forest Attribute Kimochi ～Unmoving Garnet Pinky～  ",
-			"『キモチ戦 麗しい真珠の眼』"
+            "【Annoucement】Aqua Attribute Kimochi ～Pleased Sapphire Lipsy～  ",
+			"『キモチ戦 悦ぶサファイアの唇』"
         ],
         "image": [
 			"imgs/kimochi/kimochi00.png"
