@@ -18,7 +18,7 @@ var timerData = [
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-                start: "nov 15 2023, 17:00",
+                start: "feb 15 2023, 17:00",
                 end: "nov 16 2023, 15:59"
 			},
 			{
@@ -164,8 +164,8 @@ var timerData = [
         "timers": [
 			{
 				name: "Tentative Schedule",
-				start: "nov 20 2022, 12:00",
-				end: "nov 25 2022, 18:00",
+				start: "feb 15 2024, 12:00",
+				end: "feb 20 2024, 18:00",
 				markers:
 				[{title: "Madoka Time Slot", time: "sep 10 2023, 16:00", type: "star"}]
 			}
@@ -202,7 +202,7 @@ var timerData = [
 
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
 				name: "Limited story and challenge quests",
@@ -260,26 +260,26 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Campaign】Winter Campaign ",
-			"『ウィンターキャンペーン』"
+            "【Campaign】Early Spring Campaign ",
+			"『アーリースプリングキャンペーン』"
         ],
         "image": [
-            "imgs/events/winter00.png",
+            "imgs/camp/spring.png",
 
 
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 5,
         "timers": [
 			{
 				name: "½ AP Quests, 2x SP, 2x Player EXP,  Double Chance Enhancement ",
-				start: "dec 18 2023, 16:00",
-				end: "jan 12 2024, 14:59",
+				start: "jan 22 2024, 16:00",
+				end: "feb 19 2024, 14:59",
 			},
 			{
 				name: "Limited Time Daily Missions",
-				start: "dec 18 2023, 16:00",
-				end: "jan 12 2024, 14:59",
+				start: "jan 22 2024, 16:00",
+				end: "feb 19 2024, 14:59",
 			},
 			{
 				name: "Daily 10-Pull from a Choose 4★ Unlimited Magical Girl ",
@@ -934,23 +934,21 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited Pickup Gacha Anniversary Edition Gachas",
-            "『有償限定 ピックアップ ガチャ アニバーサリー編』"
+			"Limited Paid Step Up Historia Gachas",
+            "『有償限定 ステップアップガチャ ピュエラ・ヒストリア編』"
         ],
         "image": [
-            "imgs/anni/pick00.png",
-			"imgs/anni/pick01.png",
-			"imgs/anni/pick02.png",
-			"imgs/anni/pick03.png",
-			"imgs/anni/pick04.png",
+            "imgs/hist/gacha00.png",
+			"imgs/hist/gacha01.png",
+			"imgs/hist/gacha02.png",
         ],
         "column": 1,
         "priority": 16,
         "timers": [
             {
                 name: "",
-                start: "aug 22 2023, 16:00",
-				end: "sep 4 2023, 14:59",
+				start: "jan 22 2024, 16:00",
+				end: "feb 19 2024, 14:59",
                 extraPriority: 100
             }
         ]
@@ -958,20 +956,38 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Limited】 Yuna ♡ Juri Vampire Ver. Pickup and Step-up Gacha",
-            "『結菜・樹里 ヴァンパイアver. ステップアップ ピックアップガチャ』"
+			"Choose Your 4★ Memoria Gacha",
+            "『選べる★4メモリアセレクションガチャ』"
         ],
         "image": [
-            "imgs/ween/gacha00.png",
-			"imgs/ween/gacha01.png"
+            "imgs/hist/memo00.png",
         ],
         "column": 1,
         "priority": 2,
         "timers": [
             {
                 name: "",
-                start: "oct 23 2023, 17:00",
-				end: "nov 6 2023, 14:59",
+				start: "jan 22 2024, 16:00",
+				end: "feb 19 2024, 14:59",
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Choose Your 4★ Historia Bae Pickup Gacha",
+            "『ピュエラ・ヒストリア 選べる★4魔法少女ピックアップガチャ』"
+        ],
+        "image": [
+            "imgs/hist/choose00.png",
+        ],
+        "column": 1,
+        "priority": 2,
+        "timers": [
+            {
+                name: "",
+				start: "jan 22 2024, 16:00",
+				end: "feb 19 2024, 14:59",
             }
         ]
     },
@@ -1249,12 +1265,11 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"6th Anniversary Choose your 4★ Limited Magical Girl Selection Gacha",
-            "『6周年記念 選べる期間限定★4魔法少女ピックアップガチャ』"
+			"Choose Your 4★ Memoria Gacha",
+            "『選べる★4メモリアセレクションガチャ』"
         ],
         "image": [
-            "imgs/anni/pick08.png",
-			"imgs/anni/pick07.png"
+            "imgs/hist/memo00.png",
         ],
         "column": 1,
         "priority": 15,
