@@ -60,7 +60,7 @@ var timerData = [
 		{
         "type": "WeekendBoss",
         "title": [
-			"[Mirrors Ranking ",
+			"【Mirrors Ranking】",
 			"【ミラーズランクマッチ】"
         ],
         "image": [
