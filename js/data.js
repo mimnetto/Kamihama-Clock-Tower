@@ -57,59 +57,59 @@ var timerData = [
 			}
 			]
     },
-	// 	{
-    //     "type": "WeekendBoss",
-    //     "title": [
-	// 		"[Mirrors rank match ",
-	// 		"【ミラーズランクマッチ】"
-    //     ],
-    //     "image": [
-    //         "imgs/events/mirrors00.png"
-    //     ],
-    //     "column": 0,
-    //     "priority": 0,
-    //     "timers": [
-	// 		{
-	// 			name: "Preliminaries - Day 1",
-	// 			start: "oct 23 2023, 17:00",
-	// 			end: "oct 24 2023, 15:59"
-	// 		},
-	// 		{
-	// 			name: "Preliminaries - Day 2",
-	// 			start: "oct 24 2023, 16:00",
-	// 			end: "oct 25 2023, 15:59"
-	// 		},
-	// 		{
-	// 			name: "Preliminaries - Day 3",
-	// 			start: "oct 25 2023, 16:00",
-	// 			end: "oct 26 2023, 15:59"
-	// 		},
-	// 		{
-	// 			name: "Preliminaries - Day 4",
-	// 			start: "oct 26 2023, 16:00",
-	// 			end: "oct 27 2023, 15:59"
-	// 		},
-	// 		{
-	// 			name: "Preliminaries - Day 5",
-	// 			start: "oct 27 2023, 16:00",
-	// 			end: "oct 28 2023, 15:59"
-	// 		},
-	// 		{
-	// 			name: "Finals",
-	// 			start: "sep 16 2023, 17:00",
-	// 			end: "sep 17 2023, 20:59"
-	// 		},
-    //         {
-    //             "name": "Main Event",
-    //             "start": "oct 23 2023, 17:00",
-    //             "end": "nov 5 2023, 20:59",
-    //             //"extraPriority": 1,
-	// 			"type": "normal",
-	// 			markers:
-	// 			[{time: "sep 17 2023, 17:00", title: "Finals", type: "battle"}]
-	// 		}
-	// 		]
-    // },
+		{
+        "type": "WeekendBoss",
+        "title": [
+			"[Mirrors Ranking ",
+			"【ミラーズランクマッチ】"
+        ],
+        "image": [
+            "imgs/events/mirrors00.png"
+        ],
+        "column": 0,
+        "priority": 10,
+        "timers": [
+			{
+				name: "Preliminaries - Day 1",
+				start: "jan 29 2024, 17:00",
+				end: "jan 29 2024, 15:59"
+			},
+			{
+				name: "Preliminaries - Day 2",
+				start: "jan 30 2024, 16:00",
+				end: "jan 31 2024, 15:59"
+			},
+			{
+				name: "Preliminaries - Day 3",
+				start: "jan 31 2024, 16:00",
+				end: "feb 1 2024, 15:59"
+			},
+			{
+				name: "Preliminaries - Day 4",
+				start: "feb 1 2024, 16:00",
+				end: "feb 2 2024, 15:59"
+			},
+			{
+				name: "Preliminaries - Day 5",
+				start: "feb 2 2024, 16:00",
+				end: "feb 3 2024, 15:59"
+			},
+			{
+				name: "Finals",
+				start: "feb 3 2024, 17:00",
+				end: "feb 4 2024, 20:59"
+			},
+            {
+                "name": "Main Event",
+                "start": "jan 29 2024, 17:00",
+                "end": "feb 4 2024, 20:59",
+                //"extraPriority": 1,
+				"type": "normal",
+				markers:
+				[{time: "sep 17 2023, 17:00", title: "Finals", type: "battle"}]
+			}
+			]
+    },
 	{
         "type": "Event",
         "title": [
@@ -123,7 +123,7 @@ var timerData = [
         "priority": 0,
         "timers": [
 			{
-				"name": "Postponed!!! No new date annouced yet",
+				"name": "P",
                 "start": "nov 5 2022, 17:00",
                 "end": "nov 5 2022, 20:59",
 				markers:
@@ -164,8 +164,9 @@ var timerData = [
         "timers": [
 			{
 				name: "Tentative Schedule",
-				start: "feb 15 2024, 12:00",
-				end: "feb 20 2024, 18:00",
+				start: "feb 14 2024, 12:00",
+				end: "feb 19 2024, 18:00",
+				extraPriority: 100,
 				markers:
 				[{title: "Madoka Time Slot", time: "sep 10 2023, 16:00", type: "star"}]
 			}
@@ -526,9 +527,9 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Memory Drops - Snowmen ⛄",
-			start: "dec 18 2023, 16:00",
-			end: "Jan 7 2024, 14:59",
+			name: "Mirror Coins",
+			start: "jan 29 2024, 17:00",
+			end: "feb 12 2024, 14:59",
 		},
 		{
 			name: "New Years Event Gacha",
@@ -585,16 +586,15 @@ var timerData = [
 				end: "jan 19 2024, 14:59",
 			},	
 			{
-				name: "Mikoto Sena - Lime",
-				start: "nov 24 2023, 16:00",
-				end: "dec 11 2023, 14:59",
+				name: "Mami Tomoe scene0 ver. - Yellow",
+				start: "jan 12 2024, 16:00",
+				end: "feb 5 2024, 14:59",
 			},	
 			{
-				name: "Sayaka Miki scene0 ver. - Blue",
-				start: "dec 4 2023, 16:00",
-				end: "dec 25 2023, 14:59",
+				name: "Historia Magical Girls - Water",
+				start: "jan 12 2024, 16:00",
+				end: "feb 26 2024, 14:59",
 			},	
-
 		]
 	},
 {
@@ -625,19 +625,19 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Mitama’s New Year DX Lucky Bag",
-		"『みたまのお正月DX福袋』"
+		"Ranking Mirrors Selection Packs",
+		"『ミラーズセレクションパック』"
 		],
 		image: [
-            "imgs/nyear/shop.png",
+            "imgs/shops/mirrors-pack00.png",
         ],
 		column: 2,
 		priority: 6,
 		timers: [
 		{
 			name: "Sales period",
-			start: "Jan 1 2024, 00:00",
-			end: "jan 12 2024, 23:59",
+			start: "Jan 29 2024, 17:00",
+			end: "feb 05 2024, 14:59",
 		}
 		]
 	},
@@ -654,20 +654,20 @@ var timerData = [
 		priority: 2,
 		timers: [
 			{
-				name: "Uwasa Mikoto Sena - Navy Blue",
-				start: "dec 18 2023, 16:00",
-				end: "Jan 7 2024, 14:59",
+				name: "Mami Tomoe scene0 ver. - Yellow",
+				start: "jan 12 2024, 16:00",
+				end: "feb 5 2024, 14:59",
 			},
 			{
-				name: "Rerun Chrismas Units 2022SP",
-				start: "dec 18 2023, 16:00",
-				end: "Jan 7 2024, 14:59",
-			},
+			name: "Historia Magical Girls SP Vol 1-3",
+			start: "jan 12 2024, 16:00",
+			end: "feb 29 2024, 14:59",
+			},	
 			{
-				name: "Rerun Chrismas Units 2021SP",
-				start: "dec 18 2023, 16:00",
-				end: "Jan 7 2024, 14:59",
-			},
+				name: "Limited Magical Girl Mirrors Pack Tickets",
+				start: "jan 29 2024, 17:00",
+				end: "feb 12 2024, 14:59",
+				},
 			{
 				name: "Rerun Chrismas Units 2019-2020SP",
 				start: "dec 18 2023, 16:00",
@@ -690,11 +690,6 @@ var timerData = [
 			},
 			{
 				name: "New Years Rerun Units 2020-2021SP",
-				start: "Jan 1 2024, 00:00",
-				end: "jan 19 2024, 14:59",
-			},
-			{
-				name: "New Years Rerun Units 2018-2019SP",
 				start: "Jan 1 2024, 00:00",
 				end: "jan 19 2024, 14:59",
 			},
@@ -1007,7 +1002,6 @@ var timerData = [
                 name: "4★ Magical Girl Pull Rate Doubled!",
 				start: "dec 18 2023, 16:00",
 				end: "jan 12 2024, 23:59",
-/*                 extraPriority: 100, */
 				markers:
 				[
 				{
