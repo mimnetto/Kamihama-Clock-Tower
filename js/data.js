@@ -659,15 +659,15 @@ var timerData = [
 				end: "feb 5 2024, 14:59",
 			},
 			{
-			name: "Historia Magical Girls SP Vol 1-3",
-			start: "jan 12 2024, 16:00",
-			end: "feb 29 2024, 14:59",
-			},	
-			{
 				name: "Unlimited 4★ Magical Girl Mirrors Pack Tickets",
 				start: "jan 29 2024, 17:00",
 				end: "feb 12 2024, 14:59",
 				},
+				{
+					name: "Historia Magical Girls SP Vol 1-3",
+					start: "jan 12 2024, 16:00",
+					end: "feb 29 2024, 14:59",
+					},	
 			{
 				name: "Rerun Chrismas Units 2019-2020SP",
 				start: "dec 18 2023, 16:00",
