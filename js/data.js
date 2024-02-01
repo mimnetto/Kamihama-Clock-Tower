@@ -186,7 +186,7 @@ var timerData = [
         "priority": 0,
         "timers": [
 			{
-				name: "Limited-Time Missions",
+				name: "Unlimited-Time Missions",
 				start: "aug 22 2023, 16:00",
 				end: "sep 4 2023, 14:59",
 			},
