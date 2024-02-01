@@ -561,35 +561,15 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-				name: "Uwasa Mikoto Sena - Navy Blue",
-				start: "dec 18 2023, 16:00",
-				end: "Jan 7 2024, 14:59",
-			},
-			{
-				name: "Christmas Rerun Units - Green",
-				start: "dec 18 2023, 16:00",
-				end: "Jan 7 2024, 14:59",
-			},
-			{
-				name: "Choose ★ 4 Magical Girl - Light Green",
-				start: "dec 18 2023, 16:00",
-				end: "Jan 19 2024, 14:59",
-			},
-			{
-				name: "Tatsuki Asuka New Year Dragon God ver. - Water",
-				start: "Jan 1 2024, 00:00",
-				end: "jan 19 2024, 14:59",
-			},	
-			{
-				name: "New Years Rerun Units - Orange",
-				start: "Jan 1 2024, 00:00",
-				end: "jan 19 2024, 14:59",
-			},	
-			{
 				name: "Mami Tomoe scene0 ver. - Yellow",
 				start: "jan 12 2024, 16:00",
 				end: "feb 5 2024, 14:59",
 			},	
+			{
+				name: "4★ Selectable Memoria - Brown ",
+				start: "jan 22 2024, 16:00",
+				end: "feb 12 2024, 14:59",
+			},
 			{
 				name: "Historia Magical Girls - Water",
 				start: "jan 12 2024, 16:00",
