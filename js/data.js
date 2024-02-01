@@ -664,7 +664,7 @@ var timerData = [
 			end: "feb 29 2024, 14:59",
 			},	
 			{
-				name: "Limited Magical Girl Mirrors Pack Tickets",
+				name: "Unlimited 4★ Magical Girl Mirrors Pack Tickets",
 				start: "jan 29 2024, 17:00",
 				end: "feb 12 2024, 14:59",
 				},
