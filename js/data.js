@@ -275,12 +275,12 @@ var timerData = [
 			{
 				name: "½ AP Quests, 2x SP, 2x Player EXP,  Double Chance Enhancement ",
 				start: "jan 22 2024, 16:00",
-				end: "feb 19 2024, 14:59",
+				end: "feb 19 2024, 23:59",
 			},
 			{
 				name: "Limited Time Daily Missions",
 				start: "jan 22 2024, 16:00",
-				end: "feb 19 2024, 14:59",
+				end: "feb 19 2024, 23:59",
 			},
 			{
 				name: "Daily 10-Pull from a Choose 4★ Unlimited Magical Girl ",
