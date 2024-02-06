@@ -292,21 +292,21 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【New Years Event】Happy New Year! Dragon Rush! ",
-			"『『明けまして竜突猛進』"
+            "【New Event】From There To You ~ Twilight of Kamihama Daito Apartment ~  ",
+			"『彼方より、あなたへ〜神浜大東団地の黄昏〜』"
         ],
         "image": [
-			"imgs/nyear/event.png"
+			"imgs/events/event00.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 6,
         "timers": [
 			{
 				name: "",
-				start: "jan 1 2024, 00:00",
-				end: "jan 12 2024, 14:59",
+				start: "feb 5 2024, 16:00",
+				end: "feb 19 2024, 14:59",
 				markers:
-				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "jan 5 2024, 16:00", type: "battle"}]
+				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "feb 13 2024, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -334,20 +334,21 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【New Double Tower Event】 Puella Historia ・ Pax Romana’s Sweetheart",
-			"『ピュエラ・ヒストリア パクス・ロマーナの恋人編』"
+            "【Uncap】Ibuki Reira and Kumi Seika",
+			"『★5覚醒およびドッペル解放予告』"
         ],
         "image": [
-			"imgs/events/historia003.png"
+			"imgs/events/uncap00.png",
+			"imgs/events/uncap01.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "",
-				start: "july 24 2023, 16:00",
-				end: "aug 4 2023, 14:59",
-				extraPriority: 100,
+				name: "No end date",
+				start: "feb 5 2024, 16:00",
+				end: "feb 19 2024, 14:59",
+				// extraPriority: 100,
 				markers:
 				[{title: "Story Quests 21-30 & 100Evils I~III", time: "july 28 2023, 16:00", type: "battle"}]
 			}
@@ -459,7 +460,7 @@ var timerData = [
 			"『ピュエラ・ヒストリア 邪馬台国の跡目編』"
         ],
         "image": [
-			"imgs/gatcha/hisitoria00.png"
+			"imgs/gacha/gacha001.png"
         ],
         "column": 0,
         "priority": 1,
@@ -532,20 +533,15 @@ var timerData = [
 			end: "feb 12 2024, 14:59",
 		},
 		{
-			name: "New Years Event Gacha",
-			start: "jan 1 2024, 00:00",
-			end: "Jan 19 2024, 14:59",
+			name: "From There To You - Ohajiki Stones",
+			start: "feb 5 2024, 16:00",
+			end: "feb 26 2024, 14:59",
 		},	
 		{
-			name: "Christmas Tickets",
-			start: "dec 18 2023, 16:00",
-			end: "Jan 7 2024, 14:59",
-		},
-		{
-			name: "New Years Tickets",
-			start: "jan 1 2024, 00:00",
-			end: "Jan 19 2024, 14:59",
-		},	
+			name: "2024 Valentine Tickes",
+			start: "feb 5 2024, 16:00",
+			end: "feb 26 2024, 14:59",
+		},		
 		]
 	},
 	{
@@ -573,6 +569,16 @@ var timerData = [
 			{
 				name: "Historia Magical Girls - Water",
 				start: "jan 12 2024, 16:00",
+				end: "feb 26 2024, 14:59",
+			},	
+			{
+				name: "Reira・Seika - Red",
+				start: "feb 5 2024, 16:00",
+				end: "feb 26 2024, 14:59",
+			},
+			{
+				name: "Valentine Rerun Units - Purple",
+				start: "feb 5 2024, 16:00",
 				end: "feb 26 2024, 14:59",
 			},	
 		]
@@ -642,26 +648,26 @@ var timerData = [
 				name: "Unlimited 4★ Magical Girl Mirrors Pack Tickets",
 				start: "jan 29 2024, 17:00",
 				end: "feb 12 2024, 14:59",
-				},
-				{
-					name: "Historia Magical Girls SP Vol 1-3",
-					start: "jan 12 2024, 16:00",
-					end: "feb 29 2024, 14:59",
-					},	
-			{
-				name: "Rerun Chrismas Units 2019-2020SP",
-				start: "dec 18 2023, 16:00",
-				end: "Jan 7 2024, 14:59",
-			},	
-			{
-				name: "Rerun Chrismas Units 2017-2018SP",
-				start: "dec 18 2023, 16:00",
-				end: "Jan 7 2024, 14:59",
 			},
 			{
-				name: "Tatsuki Asuka New Year Dragon God ver. - Water",
-				start: "Jan 1 2024, 00:00",
-				end: "jan 19 2024, 14:59",
+				name: "Historia Magical Girls SP Vol 1-3",
+				start: "jan 12 2024, 16:00",
+				end: "feb 29 2024, 14:59",
+			},	
+			{
+				name: "Reira・Seika - Red",
+				start: "feb 5 2024, 16:00",
+				end: "feb 26 2024, 14:59",
+			},
+			{
+				name: "Valentine Rerun Units 2022-2023SP",
+				start: "feb 5 2024, 16:00",
+				end: "feb 26 2024, 14:59",
+			},
+			{
+				name: "Valentine Rerun Units 20220-2021SP",
+				start: "feb 5 2024, 16:00",
+				end: "feb 26 2024, 14:59",
 			},	
 			{
 				name: "New Years Rerun Units 2022-2023SP",
@@ -842,67 +848,63 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited Rerun】Christmas Magical Girl 2017-2022 Pickup Gachas",
-            "『ピックアップガチャ クリスマス魔法少女2017-2022編』"
+			"【New Limited】Reira・Seika Pickup and Stepup Gachas",
+            "『ピックアップ&ステップアップガチャ れいら・せいか編』"
         ],
         "image": [
-            "imgs/gacha/winter00pk.png",
-			"imgs/gacha/winter01pk.png",
-			"imgs/gacha/winter02pk.png",
-			"imgs/gacha/winter03pk.png",
-			"imgs/gacha/winter04pk.png"
+            "imgs/gacha/gacha001.png",
+			"imgs/gacha/gacha002.png"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 10,
         "timers": [
             {
                 name: "",
-				start: "dec 18 2023, 16:00",
-				end: "dec 31 2023, 14:59",
+				start: "feb 5 2024, 16:00",
+				end: "feb 19 2024, 14:59",
             }
         ]
     },
 	{
 	"type": "Gacha",
 	"title": [
-		"【Limited Rerun】New Years Magical Girl 2018-2023 Paid Step-up Gachas",
-		"『ステップアップガチャ お正月魔法少女2018-2023編』"
+		"【Limited Rerun】Valentine Magical Girl 2020-2023 Paid Stepup Gachas",
+		"『ステップアップガチャ バレンタイン魔法少女2020-2023編』"
 	],
 	"image": [
-		"imgs/nyear/stepup00.png",
-		"imgs/nyear/stepup01.png",
-		"imgs/nyear/stepup02.png",
+		"imgs/gacha/vday00sp.png",
+		"imgs/gacha/vday02sp.png",
 
 	],
 	"column": 1,
-	"priority": 1,
+	"priority": 5,
 	"timers": [
 		{
 			name: "",
-			start: "jan 1 2024, 00:00",
-			end: "jan 12 2024, 14:59",
+			start: "feb 5 2024, 16:00",
+			end: "feb 19 2024, 14:59",
 		}
 	]
 },
 {
 	"type": "Gacha",
 	"title": [
-		"【Limited Rerun】New Years Magical Girl 2018-2023 Pickup Gachas",
-		"『ピックアップガチャ お正月魔法少女2018-2023編』"
+		"【Limited Rerun】Valentine Magical Girl 2020-2023 Pickup Gachas",
+		"『ピックアップガチャ バレンタイン魔法少女2020-2023編』"
 	],
 	"image": [
-		"imgs/nyear/pickup00.png",
-		"imgs/nyear/pickup01.png",
-		"imgs/nyear/pickup02.png",
-		"imgs/nyear/pickup03.png",
+		"imgs/gacha/vday01.png",
+		"imgs/gacha/vday02.png",
+		"imgs/gacha/vday00.png",
+
 	],
 	"column": 1,
-	"priority": 1,
+	"priority": 5,
 	"timers": [
 		{
 			name: "",
-			start: "jan 1 2024, 00:00",
-			end: "jan 12 2024, 14:59",
+			start: "feb 5 2024, 16:00",
+			end: "feb 19 2024, 14:59",
 		}
 	]
 },
@@ -918,13 +920,12 @@ var timerData = [
 			"imgs/hist/gacha02.png",
         ],
         "column": 1,
-        "priority": 16,
+        "priority": 1,
         "timers": [
             {
                 name: "",
 				start: "jan 22 2024, 16:00",
 				end: "feb 19 2024, 14:59",
-                extraPriority: 100
             }
         ]
     },
@@ -1243,7 +1244,7 @@ var timerData = [
             "『選べる★4メモリアセレクションガチャ』"
         ],
         "image": [
-            "imgs/hist/memo00.png",
+			"imgs/gacha/gacha001.png",
         ],
         "column": 1,
         "priority": 15,
