@@ -7,7 +7,7 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Kimochi Battle ～Pleased Sapphire Lips～",
+			"Aqua Attribute Kimochi ～Pleased Sapphire Lipsy～",
             "『キモチ戦 悦ぶサファイアの唇』"
         ],
         "image": [
@@ -18,42 +18,42 @@ var timerData = [
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-                start: "feb 15 2023, 17:00",
-                end: "nov 16 2023, 15:59"
+                start: "feb 19 2024, 17:00",
+                end: "feb 20 2024, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "nov 16 2023, 16:00",
-				end: "nov 17 2023, 15:59"
+				start: "feb 20 2024, 16:00",
+				end: "feb 21 2024, 15:59"
 			},
 			{
 				name: "Maintenance",
-				start: "nov 17 2023, 16:00",
-				end: "nov 17 2023, 16:59"
+				start: "feb 21 2024, 16:00",
+				end: "feb 21 2024, 16:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "nov 17 2023, 17:00",
-				end: "nov 18 2023, 15:59"
+				start: "feb 21 2024, 17:00",
+				end: "feb 22 2024, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "nov 18 2023, 16:00",
-				end: "nov 19 2023, 15:59"
+				start: "feb 22 2024, 16:00",
+				end: "feb 23 2024, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "nov 19 2023, 16:00",
-				end: "nov 20 2023, 15:59"
+				start: "feb 23 2024, 16:00",
+				end: "feb 24 2024, 15:59"
 			}, 
             {
-                "name": "Forest Attribute",
-                "start": "nov 15 2023, 17:00",
-                "end": "nov 20 2023, 15:59",
+                "name": "Water Attribute",
+                "start": "feb 19 2024, 16:00",
+                "end": "feb 24 2024, 15:59",
                 "extraPriority": 1,
 				"type": "normal",
 				markers:
-				[{time: "sep 18 2023, 17:00", title: "Part 2 - Groups", type: "battle"}]
+				[{time: "feb 21 2024, 17:00", title: "Part 2 - Groups", type: "battle"}]
 			}
 			]
     },
@@ -538,9 +538,14 @@ var timerData = [
 			end: "feb 26 2024, 14:59",
 		},	
 		{
-			name: "2024 Valentine Tickes",
+			name: "2024 Valentine Tickets",
 			start: "feb 5 2024, 16:00",
 			end: "feb 26 2024, 14:59",
+		},	
+		{
+			name: "Kimochi Coins",
+			start: "feb 19 2024, 16:00",
+			end: "march 04 2024, 14:59",
 		},		
 		]
 	},
@@ -555,12 +560,7 @@ var timerData = [
         ],
 		column: 2,
 		priority: 3,
-		timers: [
-			{
-				name: "Mami Tomoe scene0 ver. - Yellow",
-				start: "jan 12 2024, 16:00",
-				end: "feb 5 2024, 14:59",
-			},	
+		timers: [	
 			{
 				name: "4★ Selectable Memoria - Brown ",
 				start: "jan 22 2024, 16:00",
@@ -581,6 +581,11 @@ var timerData = [
 				start: "feb 5 2024, 16:00",
 				end: "feb 26 2024, 14:59",
 			},	
+			{
+				name: "Forest 4★ Magical Girl - Green",
+				start: "feb 19 2024, 16:00",
+				end: "march 04 2024, 14:59",
+			},
 		]
 	},
 {
@@ -611,19 +616,19 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Ranking Mirrors Selection Packs",
-		"『ミラーズセレクションパック』"
+		"Forest Attribute Magical Girl Training Pack",
+		"『木属性魔法少女育成パック』"
 		],
 		image: [
-            "imgs/shops/mirrors-pack00.png",
+            "imgs/kimochi/pack00.png",
         ],
 		column: 2,
 		priority: 6,
 		timers: [
 		{
 			name: "Sales period",
-			start: "Jan 29 2024, 17:00",
-			end: "feb 05 2024, 14:59",
+			start: "feb 19 2024, 17:00",
+			end: "feb 26 2024, 14:59",
 		}
 		]
 	},
@@ -693,10 +698,16 @@ var timerData = [
         column: 0,
         priority: 1,
         timers: [
+			{
+                name: "",
+				start: "feb 21 2024, 16:00",
+				end: "feb 24 2024, 16:59"
+				// extraPriority: 100
+            },
             {
                 name: "",
-				start: "nov 24 2023, 15:00",
-				end: "nov 24 2023, 16:59"
+				start: "feb 24 2024, 16:00",
+				end: "feb 24 2024, 16:59"
 				// extraPriority: 100
             }
         ]
@@ -724,19 +735,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Fire Attribute Paid Guaranteed 4★ Gacha",
-            "『有償限定 火属性★4魔法少女確定ガチャ』"
+			"Forest Attribute Paid Guaranteed 4★ Gacha",
+            "『有償限定 木属性★4確定ガチャ』"
         ],
         "image": [
-			"imgs/kimochi/fire00.png"
+			"imgs/kimochi/forest00.png"
         ],
         "column": 1,
         "priority": 3,
         "timers": [
             {
                 name: "",
-                start: "nov 15 2023, 17:00",
-				end: "nov 20 2023, 14:59",
+                start: "feb 19 2024, 17:00",
+				end: "feb 26 2024, 14:59",
                 // extraPriority: 100,
             }
         ]
@@ -744,20 +755,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Limited Gatcha】Mami Tomoe scene0 ver. Pickup & Step-up Gacha",
-            "『期間限定   巴マミ scene0 ver.scene0 ver. ステップアップ&ピックアップガチャ』"
+			"Forest Attribute Magical Girl Pickup Gacha",
+            "『木属性魔法少女 ピックアップガチャ』"
         ],
         "image": [
-			"imgs/scene-zero/mami00.png",
-			"imgs/scene-zero/mami01.png"
+			"imgs/kimochi/forest00pk.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "",
-                start: "jan 12 2024, 16:00",
-				end: "jan 29 2024, 14:59",
+                start: "feb 19 2024, 17:00",
+				end: "feb 26 2024, 14:59",
             }
         ]
     },
