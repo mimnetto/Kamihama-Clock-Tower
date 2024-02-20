@@ -7,7 +7,7 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Aqua Attribute Kimochi ～Pleased Sapphire Lipsy～",
+			"Water Attribute Kimochi ～Pleased Sapphire Lipsy～",
             "『キモチ戦 悦ぶサファイアの唇』"
         ],
         "image": [
@@ -27,7 +27,7 @@ var timerData = [
 				end: "feb 21 2024, 15:59"
 			},
 			{
-				name: "Maintenance",
+				name: "Score Tally & Group Placements",
 				start: "feb 21 2024, 16:00",
 				end: "feb 21 2024, 16:59"
 			},
@@ -657,7 +657,7 @@ var timerData = [
 			{
 				name: "Historia Magical Girls SP Vol 1-3",
 				start: "jan 12 2024, 16:00",
-				end: "feb 29 2024, 14:59",
+				end: "feb 26 2024, 14:59",
 			},	
 			{
 				name: "Reira・Seika - Red",
@@ -689,7 +689,7 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance",
+            "Kimochi Tabulation Periods",
 			"【メンテナンス】"
         ],
 		"image": [
@@ -699,13 +699,13 @@ var timerData = [
         priority: 1,
         timers: [
 			{
-                name: "",
+                name: "Kimochi Score Tally & Group Placements Period",
 				start: "feb 21 2024, 16:00",
 				end: "feb 24 2024, 16:59"
 				// extraPriority: 100
             },
             {
-                name: "",
+                name: "Kimochi Final Score Tally Period",
 				start: "feb 24 2024, 16:00",
 				end: "feb 24 2024, 16:59"
 				// extraPriority: 100
