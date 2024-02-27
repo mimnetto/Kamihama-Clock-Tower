@@ -195,22 +195,24 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Scene0 Film.8 DAY.1 ～ Film.12 MT DAY.17",
-			"『魔法少女まどか☆マギカ scene0』Film.8 DAY.1 ～ Film.12 MT DAY.17"
+            "Scene0 Film.12 Second Half ~ 13",
+			"『魔法少女まどか☆マギカ scene0』Film.12後半~13 配信開始"
         ],
         "image": [
-			"imgs/scene-zero/scene00.png"
+			"imgs/scene-zero/scene00.png",
+			"imgs/scene-zero/mabayu-uncap.png"
+			
 
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "Limited story and challenge quests",
-				start: "jan 12 2024, 16:00",
-				end: "jan 26 2024, 23:59",
+				name: "Limited Quests and Mabayu Uncap",
+				start: "feb 26 2024, 16:00",
+				end: "march 8 2024, 14:59",
 				markers:
-				[{title: "Film.4 DAY.15~32 Battle 4", time: "nov 15 2023, 17:00", type: "star"}]
+				[{title: "Battle 4", time: "nov 15 2023, 17:00", type: "star"}]
 			},
 		]
 	},
@@ -562,11 +564,6 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "4★ Selectable Memoria - Brown ",
-				start: "jan 22 2024, 16:00",
-				end: "feb 12 2024, 14:59",
-			},
-			{
 				name: "Historia Magical Girls - Water",
 				start: "jan 12 2024, 16:00",
 				end: "feb 26 2024, 14:59",
@@ -585,6 +582,11 @@ var timerData = [
 				name: "Forest 4★ Magical Girl - Green",
 				start: "feb 19 2024, 16:00",
 				end: "march 04 2024, 14:59",
+			},
+			{
+				name: "Scene0 ver. Magical Girls - Peach",
+				start: "feb 26 2024, 16:00",
+				end: "march 15 2024, 14:59",
 			},
 		]
 	},
@@ -645,44 +647,14 @@ var timerData = [
 		priority: 2,
 		timers: [
 			{
-				name: "Mami Tomoe scene0 ver. - Yellow",
-				start: "jan 12 2024, 16:00",
-				end: "feb 5 2024, 14:59",
-			},
-			{
-				name: "Unlimited 4★ Magical Girl Mirrors Pack Tickets",
-				start: "jan 29 2024, 17:00",
-				end: "feb 12 2024, 14:59",
-			},
-			{
-				name: "Historia Magical Girls SP Vol 1-3",
-				start: "jan 12 2024, 16:00",
-				end: "feb 26 2024, 14:59",
-			},	
-			{
-				name: "Reira・Seika - Red",
-				start: "feb 5 2024, 16:00",
-				end: "feb 26 2024, 14:59",
-			},
-			{
-				name: "Valentine Rerun Units 2022-2023SP",
-				start: "feb 5 2024, 16:00",
-				end: "feb 26 2024, 14:59",
-			},
-			{
 				name: "Valentine Rerun Units 20220-2021SP",
 				start: "feb 5 2024, 16:00",
 				end: "feb 26 2024, 14:59",
 			},	
 			{
-				name: "New Years Rerun Units 2022-2023SP",
-				start: "Jan 1 2024, 00:00",
-				end: "jan 19 2024, 14:59",
-			},
-			{
-				name: "New Years Rerun Units 2020-2021SP",
-				start: "Jan 1 2024, 00:00",
-				end: "jan 19 2024, 14:59",
+				name: "Scene0 ver. Magical Girls SP",
+				start: "feb 26 2024, 16:00",
+				end: "march 15 2024, 14:59",
 			},
 		]
 	},
@@ -701,7 +673,7 @@ var timerData = [
 			{
                 name: "Temporary maintenance",
 				start: "feb 28 2024, 03:00",
-				end: "feb 28 2024, 04:59"
+				end: "feb 28 2024, 04:30"
 				// extraPriority: 100
             },
             {
@@ -815,20 +787,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-            "【New Limited Gatcha】Homura Akemi scene0 ver. Pickup & Step-up Gacha",
-			"『期間限定 暁美ほむら scene0 ver. ステップアップ&ピックアップガチャ』"
+            "【Limited Rerun】Scene0 ver. Magical Girls Paid Step-up Gacha",
+			"『有償限定 ステップアップガチャ scene0 ver.魔法少女編』"
         ],
         "image": [
-			"imgs/scene-zero/gacha00.png",
-			"imgs/scene-zero/gacha01.png"
+			"imgs/scene-zero/holy-gacha.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "",
-				start: "nov 6 2023, 16:00",
-				end: "nov 15 2023, 14:59",
+				start: "feb 26 2024, 16:00",
+				end: "march 8 2024, 14:59",
                 // extraPriority: 100,
             }
         ]
@@ -836,22 +807,23 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited Rerun】Christmas Magical Girl 2017-2022 Paid Step-up Gachas",
-            "『ステップアップガチャ クリスマス魔法少女2017-2022編』"
+			"【Limited Rerun】Scene0 ver. Magical Girls Pickup Gachas",
+            "『期間限定 scene0 ver.魔法少女編 ピックアップガチャ』"
         ],
         "image": [
-            "imgs/gacha/winter00sp.png",
-			"imgs/gacha/winter01sp.png",
-			"imgs/gacha/winter02sp.png",
-			"imgs/gacha/winter03sp.png"
+			"imgs/scene-zero/mami00.png",
+			"imgs/scene-zero/kyoko00.png",
+			"imgs/scene-zero/sayaka00.png",
+			"imgs/scene-zero/homu00.png",
+			"imgs/scene-zero/mado00.png",
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 name: "",
-				start: "dec 18 2023, 16:00",
-				end: "dec 31 2023, 14:59",
+				start: "feb 26 2024, 16:00",
+				end: "march 8 2024, 14:59"
             }
         ]
     },
