@@ -689,7 +689,7 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Kimochi Tabulation Periods",
+            "Maintenance",
 			"【メンテナンス】"
         ],
 		"image": [
@@ -699,9 +699,9 @@ var timerData = [
         priority: 1,
         timers: [
 			{
-                name: "Kimochi Score Tally & Group Placements Period",
-				start: "feb 21 2024, 16:00",
-				end: "feb 24 2024, 16:59"
+                name: "Temporary maintenance",
+				start: "feb 28 2024, 03:00",
+				end: "feb 28 2024, 04:59"
 				// extraPriority: 100
             },
             {
