@@ -166,7 +166,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Repeat】A Bouquet of Flowers for Tomorrow’s Happiness ",
+			"【Rerun】A Bouquet of Flowers for Tomorrow’s Happiness ",
 			"【『あしたの幸せに花束を』"
         ],
         "image": [
@@ -799,7 +799,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Repeat Limited】 Anime ver. Magical Girl Edition",
+			"【Rerun Limited】 Anime ver. Magical Girl Edition",
             "『ステップアップ & ピックアップガチャ アニメver.魔法少女編』"
         ],
         "image": [
@@ -820,7 +820,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Repeat Limited】Masara・Kokoro Bride ver.",
+			"【Rerun Limited】Masara・Kokoro Bride ver.",
             "『ステップアップ & ピックアップガチャ まさら・こころ 花嫁ver.編』"
         ],
         "image": [
