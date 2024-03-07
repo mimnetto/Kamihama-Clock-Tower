@@ -828,7 +828,7 @@ var timerData = [
 			"imgs/gacha/wed01.png"
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 1,
         "timers": [
             {
                 name: "",
@@ -848,7 +848,7 @@ var timerData = [
 			"imgs/scene-zero/holy-gacha.png"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 2,
         "timers": [
             {
                 name: "",
@@ -872,7 +872,7 @@ var timerData = [
 			"imgs/scene-zero/mado00.png",
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 2,
         "timers": [
             {
                 name: "",
