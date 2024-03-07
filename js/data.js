@@ -7,8 +7,8 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Water Attribute Kimochi ～Pleased Sapphire Lipsy～",
-            "『キモチ戦 悦ぶサファイアの唇』"
+			"Battle Special Edition Alina・Eve ",
+            "『キモチ戦特別編 アリナ・イブ』"
         ],
         "image": [
             "imgs/kimochi/kimochi00.png"
@@ -18,42 +18,95 @@ var timerData = [
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-                start: "feb 19 2024, 17:00",
-                end: "feb 20 2024, 15:59"
+                start: "march 11 2024, 17:00",
+                end: "mrach 12 2024, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "feb 20 2024, 16:00",
-				end: "feb 21 2024, 15:59"
+				start: "march 12 2024, 16:00",
+				end: "march 13 2024, 15:59"
 			},
 			{
-				name: "Score Tally & Group Placements",
-				start: "feb 21 2024, 16:00",
-				end: "feb 21 2024, 16:59"
+				name: "Tally & Group Placements",
+				start: "march 13 2024, 16:00",
+				end: "march 13 2024, 16:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "feb 21 2024, 17:00",
-				end: "feb 22 2024, 15:59"
+				start: "march 13 2024, 17:00",
+				end: "march 14 2024, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "feb 22 2024, 16:00",
-				end: "feb 23 2024, 15:59"
+				start: "march 14 2024, 16:00",
+				end: "march 15 2024, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "feb 23 2024, 16:00",
-				end: "feb 24 2024, 15:59"
+				start: "march 15 2024, 16:00",
+				end: "march 16 2024, 15:59"
 			}, 
             {
-                "name": "Water Attribute",
-                "start": "feb 19 2024, 16:00",
-                "end": "feb 24 2024, 15:59",
+                "name": "Void Attribute",
+                "start": "march 11 2024, 16:00",
+                "end": "march 16 2024, 15:59",
                 "extraPriority": 1,
 				"type": "normal",
 				markers:
-				[{time: "feb 21 2024, 17:00", title: "Part 2 - Groups", type: "battle"}]
+				[{time: "march 13 2024, 17:00", title: "Part 2 - Groups", type: "battle"}]
+			}
+			]
+    },
+	{
+        "type": "WeekendBoss",
+        "title": [
+			"Battle Special Edition Nutcracker Witch ",
+            "『キモチ戦特別編 くるみ割りの魔女』"
+        ],
+        "image": [
+            "imgs/kimochi/kimochi01.png"
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				name: "Part 1 - Day 1",
+                start: "march 25 2024, 17:00",
+                end: "mrach 26 2024, 15:59"
+			},
+			{
+				name: "Part 1 - Day 2",
+				start: "march 26 2024, 16:00",
+				end: "march 27 2024, 15:59"
+			},
+			{
+				name: "Tally & Group Placements",
+				start: "march 27 2024, 16:00",
+				end: "march 27 2024, 16:59"
+			},
+			{
+				name: "Part 2 - Day 1",
+				start: "march 27 2024, 17:00",
+				end: "march 28 2024, 15:59"
+			},
+			{
+				name: "Part 2 - Day 2",
+				start: "march 28 2024, 16:00",
+				end: "march 29 2024, 15:59"
+			},
+			{
+				name: "Part 2 - Day 3",
+				start: "march 29 2024, 16:00",
+				end: "march 30 2024, 15:59"
+			}, 
+            {
+                "name": "Darkness Attribute",
+                "start": "march 25 2024, 16:00",
+                "end": "march 30 2024, 15:59",
+                "extraPriority": 1,
+				"type": "normal",
+				markers:
+				[{time: "march 27 2024, 17:00", title: "Part 2 - Groups", type: "battle"}]
 			}
 			]
     },
@@ -113,21 +166,21 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"Mirrors rank match ",
-			"【ミラーズランクマッチ】"
+			"【Repeat】A Bouquet of Flowers for Tomorrow’s Happiness ",
+			"【『あしたの幸せに花束を』"
         ],
         "image": [
-            "imgs/events/mirrors00.png"
+            "imgs/events/masakoko.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
-				"name": "P",
-                "start": "nov 5 2022, 17:00",
-                "end": "nov 5 2022, 20:59",
+				"name": "",
+                "start": "march 8 2024, 16:00",
+                "end": "march 18 2024, 14:59",
 				markers:
-				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "sep 15 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "march 13 2024, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -205,7 +258,7 @@ var timerData = [
 
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
 			{
 				name: "Limited Quests and Mabayu Uncap",
@@ -668,18 +721,18 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 1,
+        priority: 0,
         timers: [
 			{
-                name: "Temporary maintenance",
-				start: "feb 28 2024, 03:00",
-				end: "feb 28 2024, 04:30"
+                name: "Maintenance",
+				start: "march 8 2024, 15:00",
+				end: "march 8 2024, 16:00"
 				// extraPriority: 100
             },
             {
-                name: "Kimochi Final Score Tally Period",
-				start: "feb 24 2024, 16:00",
-				end: "feb 24 2024, 16:59"
+                name: "Maintenance",
+				start: "march 11 2024, 15:00",
+				end: "march 11 2024, 16:00"
 				// extraPriority: 100
             }
         ]
@@ -746,20 +799,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Limited】 Tatsuki Asuka New Year Dragon God ver. Pick Up & Step-UP Gacha",
-            "『ステップアップ & ピックアップガチャ 竜城明日香 新春龍神ver』"
+			"【Repeat Limited】 Anime ver. Magical Girl Edition",
+            "『ステップアップ & ピックアップガチャ アニメver.魔法少女編』"
         ],
         "image": [
-            "imgs/nyear/asuka.png",
-            "imgs/nyear/asuka00.png"
+            "imgs/gacha/anime.png",
+			"imgs/gacha/anime00.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "",
-				start: "jan 1 2024, 00:00",
-				end: "jan 12 2024, 14:59",
+				start: "march 11 2024, 17:00",
+				end: "march 25 2024, 14:59",
 				extraPriority: 100,
             }
         ]
@@ -767,19 +820,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			" 4★ Selectable Memoria Gacha",
-            "【選べる★4メモリアセレクションガチャ】"
+			"【Repeat Limited】Masara・Kokoro Bride ver.",
+            "『ステップアップ & ピックアップガチャ まさら・こころ 花嫁ver.編』"
         ],
         "image": [
-            "imgs/gatcha/choose-memo.png"
+            "imgs/gacha/wed00.png",
+			"imgs/gacha/wed01.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "",
-				start: "oct 23 2023, 17:00",
-				end: "nov 13 2023, 14:59",
+				start: "march 8 2024, 17:00",
+				end: "march 25 2024, 14:59",
                // extraPriority: 100
             }
         ]
@@ -794,7 +848,7 @@ var timerData = [
 			"imgs/scene-zero/holy-gacha.png"
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 1,
         "timers": [
             {
                 name: "",
