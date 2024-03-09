@@ -784,7 +784,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Rerun Limited】 Anime ver. Magical Girl Edition",
+			"【Rerun Limited】 Anime ver. Magical Girl Edition Pickup and Stepup Gachas",
             "『ステップアップ & ピックアップガチャ アニメver.魔法少女編』"
         ],
         "image": [
@@ -805,7 +805,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Rerun Limited】Masara・Kokoro Bride ver.",
+			"【Rerun Limited】Masara・Kokoro Bride ver. Pickup and Stepup Gachas",
             "『ステップアップ & ピックアップガチャ まさら・こころ 花嫁ver.編』"
         ],
         "image": [
