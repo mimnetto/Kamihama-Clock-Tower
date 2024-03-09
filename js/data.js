@@ -583,9 +583,9 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "Mirror Coins",
-			start: "jan 29 2024, 17:00",
-			end: "feb 12 2024, 14:59",
+			name: "A Bouquet of Flowers for Tomorrow’s Happiness",
+			start: "march 8 2024, 17:00",
+			end: "march 25 2024, 14:59",
 		},
 		{
 			name: "From There To You - Ohajiki Stones",
@@ -617,29 +617,14 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Historia Magical Girls - Water",
-				start: "jan 12 2024, 16:00",
-				end: "feb 26 2024, 14:59",
-			},	
-			{
-				name: "Reira・Seika - Red",
-				start: "feb 5 2024, 16:00",
-				end: "feb 26 2024, 14:59",
-			},
-			{
-				name: "Valentine Rerun Units - Purple",
-				start: "feb 5 2024, 16:00",
-				end: "feb 26 2024, 14:59",
-			},	
-			{
-				name: "Forest 4★ Magical Girl - Green",
-				start: "feb 19 2024, 16:00",
-				end: "march 04 2024, 14:59",
-			},
-			{
 				name: "Scene0 ver. Magical Girls - Peach",
 				start: "feb 26 2024, 16:00",
 				end: "march 15 2024, 14:59",
+			},
+			{
+				name: "Masara・Kokoro Bride ver. - Yellow",
+				start: "march 8 2024, 17:00",
+				end: "march 25 2024, 14:59",
 			},
 		]
 	},
@@ -700,14 +685,14 @@ var timerData = [
 		priority: 2,
 		timers: [
 			{
-				name: "Valentine Rerun Units 20220-2021SP",
-				start: "feb 5 2024, 16:00",
-				end: "feb 26 2024, 14:59",
-			},	
-			{
 				name: "Scene0 ver. Magical Girls SP",
 				start: "feb 26 2024, 16:00",
 				end: "march 15 2024, 14:59",
+			},
+			{
+				name: "Masara・Kokoro Bride ver.SP",
+				start: "march 8 2024, 16:00",
+				end: "march 25 2024, 14:59",
 			},
 		]
 	},
@@ -812,7 +797,7 @@ var timerData = [
             {
                 name: "",
 				start: "march 11 2024, 17:00",
-				end: "march 25 2024, 14:59",
+				end: "march 18 2024, 14:59",
 				extraPriority: 100,
             }
         ]
@@ -833,7 +818,7 @@ var timerData = [
             {
                 name: "",
 				start: "march 8 2024, 17:00",
-				end: "march 25 2024, 14:59",
+				end: "march 18 2024, 14:59",
                // extraPriority: 100
             }
         ]
