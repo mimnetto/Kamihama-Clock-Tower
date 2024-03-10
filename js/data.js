@@ -19,7 +19,7 @@ var timerData = [
 			{
 				name: "Part 1 - Day 1",
                 start: "march 11 2024, 17:00",
-                end: "mrach 12 2024, 15:59"
+                end: "march 12 2024, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
@@ -72,7 +72,7 @@ var timerData = [
 			{
 				name: "Part 1 - Day 1",
                 start: "march 25 2024, 17:00",
-                end: "mrach 26 2024, 15:59"
+                end: "march 26 2024, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
