@@ -188,7 +188,7 @@ var timerData = [
         "type": "Event",
         "title": [
             "【YouTube】 Magia Record TV Kamihama Special Channel 2023 in f4 Fan Festival",
-			"『マギアレコード TV神浜スペシャルチャンネル 2023 in f4ファンフェスティバル』"
+			"『アリナのアトリエ～Factor of Despair～』"
         ],
         "image": [
 			"imgs/events/tv02.png"
@@ -197,7 +197,7 @@ var timerData = [
         "priority": 0,
         "timers": [
 			{
-				name: "https://www.youtube.com/watch?v=nnyQoAZZTAQ",
+				name: "",
 				start: "dec 15 2023, 18:30",
 				end: "dec 15 2023, 19:59",
 			}
@@ -248,12 +248,11 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Scene0 Film.12 Second Half ~ 13",
-			"『魔法少女まどか☆マギカ scene0』Film.12後半~13 配信開始"
+            "Alina's Atelier ~ Factor of Despair ~",
+			"『アリナのアトリエ～Factor of Despair～』"
         ],
         "image": [
-			"imgs/scene-zero/scene00.png",
-			"imgs/scene-zero/mabayu-uncap.png"
+			"imgs/events/despair.png",
 			
 
         ],
@@ -262,39 +261,37 @@ var timerData = [
         "timers": [
 			{
 				name: "Limited Quests and Mabayu Uncap",
-				start: "feb 26 2024, 16:00",
-				end: "march 8 2024, 14:59",
+				start: "march 18 2024, 16:00",
+				end: "april 4 2024, 14:59",
 				markers:
-				[{title: "Battle 4", time: "nov 15 2023, 17:00", type: "star"}]
+				[{title: "Challenge", time: "march 22 2023, 16:00", type: "star"}]
 			},
 		]
 	},
 	{
         "type": "Event",
         "title": [
-            "2024 New Years Campaign",
-			"『2024年 お正月キャンペーン』"
+            "Campaign】2400 Day Release Campaign",
+			"『リリース2400日記念キャンペーン』"
         ],
         "image": [
-            "imgs/nyear/camp00.png",
-			"imgs/nyear/camp.png",
-			"imgs/nyear/stones.png",
-			"imgs/nyear/lucky.png",
-			"imgs/nyear/mirror.png",
+			"imgs/camp/anni2400.png",
+            "imgs/events/camp24.png",
+
 
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "Countdown to New Years Login Bonuses",
-				start: "dec 29 2023, 00:00",
-				end: "jan 1 2024, 23:59",
+				name: "Daily Loging Bonus",
+				start: "march 18 2023, 16:00",
+				end: "april 1 2024, 23:59",
 			},
 			{
 				name: "Limited Time Daily Missions",
-				start: "jan 1 2024, 00:00",
-				end: "jan 12 2024, 23:59",
+				start: "march 19 2023, 00:00",
+				end: "april 1 2024, 23:59",
 			},
 			{
 				name: "Good Luck Fortunes at Mizuna Shrine",
@@ -631,20 +628,18 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"Support Shop Commemorative Memoria",
+		"2400 days since release commemorative pack sale",
 		""
 		],
 		image: [
-			"imgs/events/tv02.png",
-			"imgs/nyear/memo.png"
+			"imgs/shops/anni00.png",
         ],
 		column: 2,
-		priority: 1,
+		priority: 7,
 		timers: [
 		{
-			name: "Sales period",
-			start: "dec 11 2023, 16:00",
-			end: "dec 18 2023, 14:59",
+			start: "march 18 2023, 16:00",
+			end: "april 1 2024, 14:59",
 		},
 		{
 			name: "Support Shop Commemorative Memoria",
@@ -805,7 +800,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Rerun Limited】Masara・Kokoro Bride ver. Pickup and Stepup Gachas",
+			"【NEW】Masara・Kokoro Bride ver. Pickup and Stepup Gachas",
             "『ステップアップ & ピックアップガチャ まさら・こころ 花嫁ver.編』"
         ],
         "image": [
