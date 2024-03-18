@@ -285,12 +285,12 @@ var timerData = [
         "timers": [
 			{
 				name: "Daily Loging Bonus",
-				start: "march 18 2023, 16:00",
+				start: "march 18 2024, 16:00",
 				end: "april 1 2024, 23:59",
 			},
 			{
 				name: "Limited Time Daily Missions",
-				start: "march 19 2023, 00:00",
+				start: "march 19 2024, 00:00",
 				end: "april 1 2024, 23:59",
 			},
 			{
@@ -638,7 +638,7 @@ var timerData = [
 		priority: 7,
 		timers: [
 		{
-			start: "march 18 2023, 16:00",
+			start: "march 18 2024, 16:00",
 			end: "april 1 2024, 14:59",
 		},
 		{
