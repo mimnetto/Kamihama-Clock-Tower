@@ -248,7 +248,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Alina's Atelier ~ Factor of Despair ~",
+            "【New Event】Alina's Atelier ~ Factor of Despair ~",
 			"『アリナのアトリエ～Factor of Despair～』"
         ],
         "image": [
@@ -271,7 +271,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Campaign】2400 Day Release Campaign",
+            "【Campaign】2400 Day Release Campaign",
 			"『リリース2400日記念キャンペーン』"
         ],
         "image": [
