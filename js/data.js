@@ -264,7 +264,7 @@ var timerData = [
 				start: "march 18 2024, 16:00",
 				end: "april 4 2024, 14:59",
 				markers:
-				[{title: "Challenge", time: "march 22 2023, 16:00", type: "star"}]
+				[{title: "Challenge", time: "march 22 2024, 16:00", type: "star"}]
 			},
 		]
 	},
