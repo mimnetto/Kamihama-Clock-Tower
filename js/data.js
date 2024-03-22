@@ -260,7 +260,7 @@ var timerData = [
         "priority": 2,
         "timers": [
 			{
-				name: "Limited Quests and Mabayu Uncap",
+				name: "New Event Type",
 				start: "march 18 2024, 16:00",
 				end: "april 4 2024, 14:59",
 				markers:
