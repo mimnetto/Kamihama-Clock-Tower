@@ -512,14 +512,14 @@ var timerData = [
 			"『ピュエラ・ヒストリア 邪馬台国の跡目編』"
         ],
         "image": [
-			"imgs/gacha/gacha001.png"
+			"imgs/gatcha/akuma01.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
 				name: "",
-				start: "june 26 2023, 16:00",
+				start: "june 26 2024, 16:00",
 				end: "July 10 2023, 14:59",
 				extraPriority: 100,
 				markers:
@@ -779,20 +779,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Rerun Limited】 Anime ver. Magical Girl Edition Pickup and Stepup Gachas",
-            "『ステップアップ & ピックアップガチャ アニメver.魔法少女編』"
+			"【Rerun】Devil Homura Pickup & Stepup Gachas",
+            "『ピックアップ&ステップアップガチャ 悪魔ほむら編』"
         ],
         "image": [
-            "imgs/gacha/anime.png",
-			"imgs/gacha/anime00.png"
+            "imgs/gatcha/akuma01.png",
+			"imgs/gatcha/akuma00.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "",
-				start: "march 11 2024, 17:00",
-				end: "march 18 2024, 14:59",
+				start: "march 25 2024, 17:00",
+				end: "april 1 2024, 14:59",
 				extraPriority: 100,
             }
         ]
@@ -800,21 +800,21 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【NEW】Masara・Kokoro Bride ver. Pickup and Stepup Gachas",
-            "『ステップアップ & ピックアップガチャ まさら・こころ 花嫁ver.編』"
+			"【Rerun】Ultimate Madoka Pickup & Stepup Gachas",
+            "『ピックアップ&ステップアップガチャ アルティメットまどか』"
         ],
         "image": [
-            "imgs/gacha/wed00.png",
-			"imgs/gacha/wed01.png"
+            "imgs/gatcha/kami01.png",
+			"imgs/gatcha/kami00.png"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 0,
         "timers": [
             {
                 name: "",
-				start: "march 8 2024, 17:00",
-				end: "march 18 2024, 14:59",
-               // extraPriority: 100
+				start: "march 25 2024, 17:00",
+				end: "april 1 2024, 14:59",
+				extraPriority: 100,
             }
         ]
     },
