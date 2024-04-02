@@ -228,43 +228,41 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Iroha Tamaki's Birthay limited-time mission Celebration",
-			"「環いろは」のお誕生日"
+            "Magical Paper Sumo Deluxe Edition",
+			"「マジカル紙相撲 豪華版 極」"
         ],
         "image": [
-            "imgs/anni/birth.png"
+            "imgs/events/papa02.png"
 
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
-				name: "Unlimited-Time Missions",
-				start: "aug 22 2023, 16:00",
-				end: "sep 4 2023, 14:59",
+				name: "Mini Game",
+				start: "april 1 2024, 16:00",
+				end: "april 22 2024, 14:59",
 			},
 		]
 	},
 	{
         "type": "Event",
         "title": [
-            "【New Event】Alina's Atelier ~ Factor of Despair ~",
-			"『アリナのアトリエ～Factor of Despair～』"
+            "【Rerun】Kamihama MVD Tamaki Iroha's Detective Files",
+			"『神浜MVD 環いろはの事件簿』"
         ],
         "image": [
-			"imgs/events/despair.png",
-			
-
+			"imgs/events/papa00.png",
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
-				name: "New Event Type",
-				start: "march 18 2024, 16:00",
-				end: "april 4 2024, 14:59",
+				name: "Rerun",
+				start: "april 1 2024, 16:00",
+				end: "april 8 2024, 14:59",
 				markers:
-				[{title: "Challenge", time: "march 22 2024, 16:00", type: "star"}]
+				[{title: "Challenge", time: "april 4 2024, 16:00", type: "star"}]
 			},
 		]
 	},
@@ -580,14 +578,14 @@ var timerData = [
 		priority: 5,
 		timers: [
 		{
-			name: "A Bouquet of Flowers for Tomorrow’s Happiness",
-			start: "march 8 2024, 17:00",
-			end: "march 25 2024, 14:59",
+			name: "Kimochi Coins",
+			start: "march 25 2024, 17:00",
+			end: "april 8 2024, 14:59",
 		},
 		{
-			name: "From There To You - Ohajiki Stones",
-			start: "feb 5 2024, 16:00",
-			end: "feb 26 2024, 14:59",
+			name: "Kamihama MVD",
+			start: "april 1 2024, 16:00",
+			end: "april 15 2024, 14:59",
 		},	
 		{
 			name: "2024 Valentine Tickets",
@@ -614,14 +612,14 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Scene0 ver. Magical Girls - Peach",
-				start: "feb 26 2024, 16:00",
-				end: "march 15 2024, 14:59",
+				name: "Akuma Homura & Ult Madoka - Purple",
+				start: "march 25 2024, 17:00",
+				end: "april 8 2024, 14:59",
 			},
 			{
-				name: "Masara・Kokoro Bride ver. - Yellow",
-				start: "march 8 2024, 17:00",
-				end: "march 25 2024, 14:59",
+				name: "Magia ☆ Report Units - Lime-Green",
+				start: "april 1 2024, 16:00",
+				end: "april 15 2024, 14:59",
 			},
 		]
 	},
@@ -680,9 +678,19 @@ var timerData = [
 		priority: 2,
 		timers: [
 			{
-				name: "Scene0 ver. Magical Girls SP",
-				start: "feb 26 2024, 16:00",
-				end: "march 15 2024, 14:59",
+				name: "Akuma Homura SP Tickets",
+				start: "march 25 2024, 17:00",
+				end: "april 8 2024, 14:59",
+			},
+			{
+				name: "Ultimate Madoka SP Tickets",
+				start: "march 25 2024, 17:00",
+				end: "april 8 2024, 14:59",
+			},
+			{
+				name: "Magia ☆ Report SP Tickets",
+				start: "april 1 2024, 16:00",
+				end: "april 15 2024, 14:59",
 			},
 			{
 				name: "Masara・Kokoro Bride ver.SP",
@@ -720,19 +728,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Choose ★ 4 Magical Girl Pickup Gacha",
-            "【選べる★4魔法少女ピックアップガチャ】"
+			"【Limited】Magia ☆ Report 2019-2020 Pickup Gacha",
+            "『期間限定 マギア☆レポート2019-2020 ピックアップガチャ』"
         ],
         "image": [
-            "imgs/gacha/gacha00.png",
+            "imgs/gacha/papa00.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Pick Up",
-                start: "dec 19 2023, 00:00",
-				end: "jan 12 2024, 23:59",
+                name: "Rerun",
+				start: "april 1 2024, 16:00",
+				end: "april 8 2024, 14:59",
                // extraPriority: 1000
             }
         ]
@@ -740,60 +748,60 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Forest Attribute Paid Guaranteed 4★ Gacha",
-            "『有償限定 木属性★4確定ガチャ』"
+			"【Limited】Magia ☆ Report 2021-2022 Pickup Gacha",
+            "『期間限定 マギア☆レポート2021-2022 ピックアップガチャ』"
         ],
         "image": [
-			"imgs/kimochi/forest00.png"
+            "imgs/gacha/papa01.png",
         ],
         "column": 1,
-        "priority": 3,
+        "priority": 0,
         "timers": [
             {
-                name: "",
-                start: "feb 19 2024, 17:00",
-				end: "feb 26 2024, 14:59",
-                // extraPriority: 100,
+                name: "Rerun",
+				start: "april 1 2024, 16:00",
+				end: "april 8 2024, 14:59",
+               // extraPriority: 1000
             }
         ]
     },
 	{
         "type": "Gacha",
         "title": [
-			"Forest Attribute Magical Girl Pickup Gacha",
-            "『木属性魔法少女 ピックアップガチャ』"
+			"【Limited】Paid-only Step Up Gacha Magia ☆ Report Edition",
+            "『有償限定 ステップアップガチャ マギア☆レポート編』"
         ],
         "image": [
-			"imgs/kimochi/forest00pk.png",
+            "imgs/gacha/papa02.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 1,
         "timers": [
             {
-                name: "",
-                start: "feb 19 2024, 17:00",
-				end: "feb 26 2024, 14:59",
+                name: "Rerun",
+				start: "april 1 2024, 16:00",
+				end: "april 8 2024, 14:59",
+               // extraPriority: 1000
             }
         ]
     },
 	{
         "type": "Gacha",
         "title": [
-			"【Rerun】Devil Homura Pickup & Stepup Gachas",
-            "『ピックアップ&ステップアップガチャ 悪魔ほむら編』"
+			"【Limited】Infinite Iroha-chan Pickup Gacha",
+            "『期間限定 無限大いろはちゃん ピックアップガチャ』"
         ],
         "image": [
-            "imgs/gatcha/akuma01.png",
-			"imgs/gatcha/akuma00.png"
+            "imgs/gacha/papa03.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "",
-				start: "march 25 2024, 17:00",
-				end: "april 1 2024, 14:59",
-				extraPriority: 100,
+                name: "Rerun",
+				start: "april 1 2024, 16:00",
+				end: "april 8 2024, 14:59",
+               // extraPriority: 1000
             }
         ]
     },
