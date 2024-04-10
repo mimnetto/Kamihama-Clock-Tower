@@ -248,19 +248,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Rerun】Kamihama MVD Tamaki Iroha's Detective Files",
-			"『神浜MVD 環いろはの事件簿』"
+            "【NEW】Kamihama Big Sports Day",
+			"『神浜大運動会』"
         ],
         "image": [
-			"imgs/events/papa00.png",
+			"imgs/events/papa03.png",
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
-				name: "Rerun",
-				start: "april 1 2024, 16:00",
-				end: "april 8 2024, 14:59",
+				name: "New Event",
+				start: "april 8 2024, 16:00",
+				end: "april 22 2024, 14:59",
 				markers:
 				[{title: "Challenge", time: "april 4 2024, 16:00", type: "star"}]
 			},
@@ -588,9 +588,9 @@ var timerData = [
 			end: "april 15 2024, 14:59",
 		},	
 		{
-			name: "2024 Valentine Tickets",
-			start: "feb 5 2024, 16:00",
-			end: "feb 26 2024, 14:59",
+			name: "Kamihama Big Sports Day",
+			start: "april 8 2024, 16:00",
+			end: "april 29 2024, 14:59",
 		},	
 		{
 			name: "Kimochi Coins",
@@ -620,6 +620,11 @@ var timerData = [
 				name: "Magia ☆ Report Units - Lime-Green",
 				start: "april 1 2024, 16:00",
 				end: "april 15 2024, 14:59",
+			},
+			{
+				name: "Madoka-Senpai・Iroha-chan - Pink",
+				start: "april 7 2024, 16:00",
+				end: "april 29 2024, 14:59",
 			},
 		]
 	},
@@ -693,9 +698,9 @@ var timerData = [
 				end: "april 15 2024, 14:59",
 			},
 			{
-				name: "Masara・Kokoro Bride ver.SP",
-				start: "march 8 2024, 16:00",
-				end: "march 25 2024, 14:59",
+				name: "Madoka-Senpai・Iroha-chan - Pink",
+				start: "april 7 2024, 16:00",
+				end: "april 29 2024, 14:59",
 			},
 		]
 	},
@@ -728,19 +733,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited】Magia ☆ Report 2019-2020 Pickup Gacha",
-            "『期間限定 マギア☆レポート2019-2020 ピックアップガチャ』"
+			"【Limited】Madoka-Senpai・Iroha-chan",
+            "『まどか先輩・いろはちゃん ピックアップガチャ&ステップアップガチャ』"
         ],
         "image": [
-            "imgs/gacha/papa00.png",
+            "imgs/gacha/papa04.png",
+			"imgs/gacha/papa05.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Rerun",
-				start: "april 1 2024, 16:00",
-				end: "april 8 2024, 14:59",
+                name: "NEW",
+				start: "april 8 2024, 16:00",
+				end: "april 22 2024, 14:59",
                // extraPriority: 1000
             }
         ]
