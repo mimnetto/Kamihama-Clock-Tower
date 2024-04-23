@@ -753,7 +753,6 @@ var timerData = [
                 name: "Limited Rerun",
 				start: "april 22 2024, 16:00",
 				end: "april 30 2024, 14:59",
-               // extraPriority: 1000
             }
         ]
     },
