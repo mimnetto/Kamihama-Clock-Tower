@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "dec 5 2023, 17:00";
+var possibleNextAnnouncementDate = "april 30 2024, 17:00";
 var nextAnniversary = "August 22 2024, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -248,21 +248,21 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【NEW】Kamihama Big Sports Day",
-			"『神浜大運動会』"
+            "【Rerun】Nagisa Momoe's Wish Granted",
+			"『百江なぎさは願いを叶えた』"
         ],
         "image": [
-			"imgs/events/papa03.png",
+			"imgs/events/cheese00.png",
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
-				name: "New Event",
-				start: "april 8 2024, 16:00",
-				end: "april 22 2024, 14:59",
+				name: "Rerun with New Yu Live 2D",
+				start: "april 22 2024, 16:00",
+				end: "april 30 2024, 14:59",
 				markers:
-				[{title: "Challenge", time: "april 12 2024, 16:00", type: "star"}]
+				[{title: "Challenge", time: "april 25 2024, 16:00", type: "star"}]
 			},
 		]
 	},
@@ -576,26 +576,16 @@ var timerData = [
         ],
 		column: 2,
 		priority: 5,
-		timers: [
+		timers: [	
 		{
-			name: "Kimochi Coins",
-			start: "march 25 2024, 17:00",
-			end: "april 8 2024, 14:59",
-		},
-		{
-			name: "Kamihama MVD",
-			start: "april 1 2024, 16:00",
-			end: "april 15 2024, 14:59",
-		},	
-		{
-			name: "Kamihama Big Sports Day",
+			name: "Kamihama Big Sports Day - Medal",
 			start: "april 8 2024, 16:00",
 			end: "april 29 2024, 14:59",
 		},	
 		{
-			name: "Kimochi Coins",
-			start: "feb 19 2024, 16:00",
-			end: "march 04 2024, 14:59",
+			name: "Nagisa's Wish - Cheese",
+			start: "april 22 2024, 16:00",
+			end: "may 5 2024, 14:59",
 		},		
 		]
 	},
@@ -612,19 +602,19 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Akuma Homura & Ult Madoka - Purple",
-				start: "march 25 2024, 17:00",
-				end: "april 8 2024, 14:59",
-			},
-			{
-				name: "Magia ☆ Report Units - Lime-Green",
-				start: "april 1 2024, 16:00",
-				end: "april 15 2024, 14:59",
-			},
-			{
 				name: "Madoka-Senpai・Iroha-chan - Pink",
 				start: "april 7 2024, 16:00",
 				end: "april 29 2024, 14:59",
+			},
+			{
+				name: "Nagisa - Purple",
+				start: "april 22 2024, 16:00",
+				end: "may 7 2024, 14:59",
+			},
+			{
+				name: "Yu - Black",
+				start: "april 22 2024, 16:00",
+				end: "may 17 2024, 14:59",
 			},
 		]
 	},
@@ -683,24 +673,19 @@ var timerData = [
 		priority: 2,
 		timers: [
 			{
-				name: "Akuma Homura SP Tickets",
-				start: "march 25 2024, 17:00",
-				end: "april 8 2024, 14:59",
-			},
-			{
-				name: "Ultimate Madoka SP Tickets",
-				start: "march 25 2024, 17:00",
-				end: "april 8 2024, 14:59",
-			},
-			{
-				name: "Magia ☆ Report SP Tickets",
-				start: "april 1 2024, 16:00",
-				end: "april 15 2024, 14:59",
-			},
-			{
 				name: "Madoka-Senpai・Iroha-chan - Pink",
 				start: "april 7 2024, 16:00",
 				end: "april 29 2024, 14:59",
+			},
+			{
+				name: "Nagisa SP & Swim SP",
+				start: "april 22 2024, 16:00",
+				end: "may 7 2024, 14:59",
+			},
+			{
+				name: "Yu - Black",
+				start: "april 22 2024, 16:00",
+				end: "may 17 2024, 14:59",
 			},
 		]
 	},
@@ -733,20 +718,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited】Madoka-Senpai・Iroha-chan",
-            "『まどか先輩・いろはちゃん ピックアップガチャ&ステップアップガチャ』"
+			"【Limited】Yu Pick Up & Step-UP",
+            "『期間限定 ユゥ ピックアップガチャ&ステップアップガチャ』"
         ],
         "image": [
-            "imgs/gacha/papa04.png",
-			"imgs/gacha/papa05.png"
+            "imgs/gacha/yu00.png",
+			"imgs/gacha/yu01.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "NEW",
-				start: "april 8 2024, 16:00",
-				end: "april 22 2024, 14:59",
+                name: "NEW Limited",
+				start: "april 22 2024, 16:00",
+				end: "may 10 2024, 14:59",
                // extraPriority: 1000
             }
         ]
@@ -754,19 +739,41 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited】Magia ☆ Report 2021-2022 Pickup Gacha",
-            "『期間限定 マギア☆レポート2021-2022 ピックアップガチャ』"
+			"【Limited】Momoe Nagisa (Mizugi ver.) Pick Up & Step-UP",
+            "『期間限定 百江なぎさ 水着ver. ピックアップガチャ&ステップアップガチャ』"
         ],
         "image": [
-            "imgs/gacha/papa01.png",
+            "imgs/gacha/nagiswim00.png",
+			"imgs/gacha/nagiswim.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Rerun",
-				start: "april 1 2024, 16:00",
-				end: "april 8 2024, 14:59",
+                name: "Limited Rerun",
+				start: "april 22 2024, 16:00",
+				end: "april 30 2024, 14:59",
+               // extraPriority: 1000
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Limited】Momoe Nagisa Pick Up & Step-UP",
+            "『期間限定 百江なぎさ ピックアップガチャ&ステップアップガチャ』"
+        ],
+        "image": [
+            "imgs/gacha/nagisa01.png",
+			"imgs/gacha/nagisa00.png"
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Limited Rerun",
+				start: "april 22 2024, 16:00",
+				end: "april 30 2024, 14:59",
                // extraPriority: 1000
             }
         ]
