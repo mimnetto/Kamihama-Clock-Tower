@@ -187,39 +187,40 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【YouTube】 Magia Record TV Kamihama Special Channel 2023 in f4 Fan Festival",
+            "Alina's Atelier ～Factor of Despair～",
 			"『アリナのアトリエ～Factor of Despair～』"
         ],
         "image": [
-			"imgs/events/tv02.png"
+			"imgs/events/despair.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
 				name: "",
-				start: "dec 15 2023, 18:30",
-				end: "dec 15 2023, 19:59",
+				start: "april 30 2024, 16:00",
+				end: "may 10 2024, 14:59",
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-            "【Annoucement】Aqua Attribute Kimochi ～Pleased Sapphire Lipsy～  ",
-			"『キモチ戦 悦ぶサファイアの唇』"
+            "【Campaign】Golden Week ",
+			"『ゴールデンウィークキャンペーン』"
         ],
         "image": [
-			"imgs/kimochi/kimochi00.png"
+			"imgs/camp/gold.png",
+			"imgs/camp/gold00.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
-				name: "Tentative Schedule",
-				start: "feb 14 2024, 12:00",
-				end: "feb 19 2024, 18:00",
-				extraPriority: 100,
+				name: "",
+				start: "april 30 2021, 12:00",
+				end: "may 10 2021, 23:59",
+				//extraPriority: 100,
 				markers:
 				[{title: "Madoka Time Slot", time: "sep 10 2023, 16:00", type: "star"}]
 			}
@@ -269,12 +270,12 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Campaign】2400 Day Release Campaign",
-			"『リリース2400日記念キャンペーン』"
+            "【Campaign】Golden Week ",
+			"『ゴールデンウィークキャンペーン』"
         ],
         "image": [
-			"imgs/camp/anni2400.png",
-            "imgs/events/camp24.png",
+			"imgs/camp/gold.png",
+			"imgs/camp/gold00.png"
 
 
         ],
@@ -288,13 +289,13 @@ var timerData = [
 			},
 			{
 				name: "Limited Time Daily Missions",
-				start: "march 19 2024, 00:00",
-				end: "april 1 2024, 23:59",
+				start: "april 30 2024, 12:00",
+				end: "may 10 2024, 23:59",
 			},
 			{
-				name: "Good Luck Fortunes at Mizuna Shrine",
-				start: "Jan 1 2024, 00:00",
-				end: "jan 12 2024, 23:59",
+				name: "½ AP Quests, 2x SP, 2x Player EXP, Double Chance Enhancement ",
+				start: "april 30 2024, 12:00",
+				end: "may 10 2024, 23:59",
 			},
 			{
 				name: "Double Mirrors Coin Rewarded",
@@ -302,9 +303,9 @@ var timerData = [
 				end: "jan 12 2024, 14:59",
 			},
 			{
-				name: "Magia Stone Bonus Purchase",
-				start: "dec 31 2023, 16:00",
-				end: "jan 12 2024, 23:59",
+				name: "300 Paid Gems Bag",
+				start: "april 30 2024, 12:00",
+				end: "may 10 2024, 23:59",
 			},
         ]
     },
@@ -699,12 +700,12 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 0,
+        priority: 2,
         timers: [
 			{
                 name: "Maintenance",
-				start: "march 8 2024, 15:00",
-				end: "march 8 2024, 16:00"
+				start: "april 30 2024, 15:00",
+				end: "april 30 2024, 16:00"
 				// extraPriority: 100
             },
             {
