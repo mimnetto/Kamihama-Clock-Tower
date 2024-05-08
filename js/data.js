@@ -163,6 +163,26 @@ var timerData = [
 			}
 			]
     },
+	// Alina's Atelier
+	{
+        "type": "Event",
+        "title": [
+            "Alina's Atelier ～Factor of Despair～",
+			"『アリナのアトリエ～Factor of Despair～』"
+        ],
+        "image": [
+			"imgs/events/despair.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				name: "",
+				start: "april 30 2024, 16:00",
+				end: "may 10 2024, 14:59",
+			}
+        ]
+    },
 	{
         "type": "Event",
         "title": [
@@ -187,25 +207,6 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Alina's Atelier ～Factor of Despair～",
-			"『アリナのアトリエ～Factor of Despair～』"
-        ],
-        "image": [
-			"imgs/events/despair.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			{
-				name: "",
-				start: "april 30 2024, 16:00",
-				end: "may 10 2024, 14:59",
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
             "【Campaign】Golden Week ",
 			"『ゴールデンウィークキャンペーン』"
         ],
@@ -222,30 +223,10 @@ var timerData = [
 				end: "may 10 2021, 23:59",
 				//extraPriority: 100,
 				markers:
-				[{title: "Madoka Time Slot", time: "sep 10 2023, 16:00", type: "star"}]
+				[{title: "", time: "sep 10 2023, 16:00", type: "star"}]
 			}
         ]
     },
-	{
-        "type": "Event",
-        "title": [
-            "Magical Paper Sumo Deluxe Edition",
-			"「マジカル紙相撲 豪華版 極」"
-        ],
-        "image": [
-            "imgs/events/papa02.png"
-
-        ],
-        "column": 0,
-        "priority": 0,
-        "timers": [
-			{
-				name: "Mini Game",
-				start: "april 1 2024, 16:00",
-				end: "april 22 2024, 14:59",
-			},
-		]
-	},
 	{
         "type": "Event",
         "title": [
