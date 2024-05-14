@@ -186,21 +186,21 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Rerun】A Bouquet of Flowers for Tomorrow’s Happiness ",
-			"【『あしたの幸せに花束を』"
+			"【NEW】Last Bird's Hope",
+			"『Last Bird's Hope』"
         ],
         "image": [
-            "imgs/events/masakoko.png"
+            "imgs/events/event06.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
 				"name": "",
-                "start": "march 8 2024, 16:00",
-                "end": "march 18 2024, 14:59",
+                "start": "may 10 2024, 16:00",
+                "end": "may 22 2024, 14:59",
 				markers:
-				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "march 13 2024, 16:00", type: "battle"}]
+				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "may 15 2024, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -560,9 +560,9 @@ var timerData = [
 		priority: 5,
 		timers: [	
 		{
-			name: "Kamihama Big Sports Day - Medal",
-			start: "april 8 2024, 16:00",
-			end: "april 29 2024, 14:59",
+			name: "Last Bird's Hope - Feather",
+			start: "may 10 2024, 16:00",
+			end: "may 29 2024, 14:59",
 		},	
 		{
 			name: "Nagisa's Wish - Cheese",
@@ -584,19 +584,19 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Madoka-Senpai・Iroha-chan - Pink",
-				start: "april 7 2024, 16:00",
-				end: "april 29 2024, 14:59",
-			},
-			{
-				name: "Nagisa - Purple",
-				start: "april 22 2024, 16:00",
-				end: "may 7 2024, 14:59",
-			},
-			{
 				name: "Yu - Black",
 				start: "april 22 2024, 16:00",
 				end: "may 17 2024, 14:59",
+			},
+			{
+				name: "Iroha・Kuroe - Peach",
+				start: "may 10 2024, 16:00",
+				end: "may 27 2024, 14:59",
+			},
+			{
+				name: "Shi - Navy Blue",
+				start: "may 10 2024, 16:00",
+				end: "may 27 2024, 14:59",
 			},
 		]
 	},
@@ -655,19 +655,19 @@ var timerData = [
 		priority: 2,
 		timers: [
 			{
-				name: "Madoka-Senpai・Iroha-chan - Pink",
-				start: "april 7 2024, 16:00",
-				end: "april 29 2024, 14:59",
-			},
-			{
-				name: "Nagisa SP & Swim SP",
-				start: "april 22 2024, 16:00",
-				end: "may 7 2024, 14:59",
-			},
-			{
 				name: "Yu - Black",
 				start: "april 22 2024, 16:00",
 				end: "may 17 2024, 14:59",
+			},
+			{
+				name: "Iroha・Kuroe - Peach",
+				start: "may 10 2024, 16:00",
+				end: "may 27 2024, 14:59",
+			},
+			{
+				name: "Shi - Navy Blue",
+				start: "may 10 2024, 16:00",
+				end: "may 27 2024, 14:59",
 			},
 		]
 	},
@@ -700,20 +700,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited】Yu Pick Up & Step-UP",
-            "『期間限定 ユゥ ピックアップガチャ&ステップアップガチャ』"
+			"【Limited】Shi Pick Up & Step-UP",
+            "『シィ編 ピックアップガチャ&ステップアップガチャ』"
         ],
         "image": [
-            "imgs/gacha/yu00.png",
-			"imgs/gacha/yu01.png"
+            "imgs/gacha/shi00.png",
+			"imgs/gacha/shi01.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "NEW Limited",
-				start: "april 22 2024, 16:00",
-				end: "may 10 2024, 14:59",
+                "start": "may 10 2024, 16:00",
+                "end": "may 22 2024, 14:59",
                // extraPriority: 1000
             }
         ]
@@ -721,20 +721,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited】Momoe Nagisa (Mizugi ver.) Pick Up & Step-UP",
-            "『期間限定 百江なぎさ 水着ver. ピックアップガチャ&ステップアップガチャ』"
+			"【Limited】Iroha・Kuroe Pick Up & Step-UP",
+            "『 いろは・黒江編 ピックアップガチャ&ステップアップガチャ』"
         ],
         "image": [
-            "imgs/gacha/nagiswim00.png",
-			"imgs/gacha/nagiswim.png"
+            "imgs/gacha/irokuro00.png",
+			"imgs/gacha/irokuro01.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Limited Rerun",
-				start: "april 22 2024, 16:00",
-				end: "april 30 2024, 14:59",
+                name: "New Limited",
+                "start": "may 10 2024, 16:00",
+                "end": "may 22 2024, 14:59",
             }
         ]
     },
