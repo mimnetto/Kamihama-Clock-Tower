@@ -725,8 +725,8 @@ var timerData = [
             "『 いろは・黒江編 ピックアップガチャ&ステップアップガチャ』"
         ],
         "image": [
-            "imgs/gacha/irokuro00.png",
-			"imgs/gacha/irokuro01.png"
+            "imgs/gacha/irokuro01.png",
+			"imgs/gacha/irokuro00.png"
         ],
         "column": 1,
         "priority": 0,
