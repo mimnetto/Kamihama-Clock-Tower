@@ -186,21 +186,21 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【NEW】Last Bird's Hope",
-			"『Last Bird's Hope』"
+			"【Rerun Event】The Ribbon at the Beach",
+			"『波打ち際のリボン』"
         ],
         "image": [
-            "imgs/events/event06.png"
+            "imgs/summer/event00.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
 				"name": "",
-                "start": "may 10 2024, 16:00",
-                "end": "may 22 2024, 14:59",
+                "start": "may 22 2024, 16:00",
+                "end": "may 31 2024, 14:59",
 				markers:
-				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "may 15 2024, 16:00", type: "battle"}]
+				[{title: "Story Quests 13～26 & Special Challenge Quests Ⅰ～Ⅲ", time: "may 27 2024, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -565,9 +565,9 @@ var timerData = [
 			end: "may 29 2024, 14:59",
 		},	
 		{
-			name: "Nagisa's Wish - Cheese",
-			start: "april 22 2024, 16:00",
-			end: "may 5 2024, 14:59",
+			name: "The Ribbon at the Beach - Page of Memory",
+			start: "may 22 2024, 16:00",
+			end: "jun 7 2024, 14:59",
 		},		
 		]
 	},
@@ -584,11 +584,6 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Yu - Black",
-				start: "april 22 2024, 16:00",
-				end: "may 17 2024, 14:59",
-			},
-			{
 				name: "Iroha・Kuroe - Peach",
 				start: "may 10 2024, 16:00",
 				end: "may 27 2024, 14:59",
@@ -597,6 +592,11 @@ var timerData = [
 				name: "Shi - Navy Blue",
 				start: "may 10 2024, 16:00",
 				end: "may 27 2024, 14:59",
+			},
+			{
+				name: "Rerun Mizugi Magical Girls - Yellow",
+				start: "may 22 2024, 16:00",
+				end: "jun 7 2024, 14:59",
 			},
 		]
 	},
@@ -668,6 +668,11 @@ var timerData = [
 				name: "Shi - Navy Blue",
 				start: "may 10 2024, 16:00",
 				end: "may 27 2024, 14:59",
+			},
+			{
+				name: "Rerun Mizugi Magical Girls - 2018-2022",
+				start: "may 22 2024, 16:00",
+				end: "jun 7 2024, 14:59",
 			},
 		]
 	},
@@ -802,20 +807,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Rerun】Ultimate Madoka Pickup & Stepup Gachas",
-            "『ピックアップ&ステップアップガチャ アルティメットまどか』"
+			"【Rerun】Mizugi Magical Girls 2022 Edition Pickup & Stepup Gachas",
+            "『有償限定 ステップアップガチャ 水着魔法少女2022編』"
         ],
         "image": [
-            "imgs/gatcha/kami01.png",
-			"imgs/gatcha/kami00.png"
+            "imgs/summer/sp2200.png",
+			"imgs/summer/sp2201.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "",
-				start: "march 25 2024, 17:00",
-				end: "april 1 2024, 14:59",
+                name: "Limited",
+				start: "may 22 2024, 16:00",
+				end: "may 31 2024, 14:59",
 				extraPriority: 100,
             }
         ]
@@ -823,20 +828,42 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-            "【Limited Rerun】Scene0 ver. Magical Girls Paid Step-up Gacha",
-			"『有償限定 ステップアップガチャ scene0 ver.魔法少女編』"
+			"【Rerun】Mizugi Magical Girls 2020-2021 Edition Pickup & Stepup Gachas",
+            "『ピックアップ&ステップアップガチャ 水着魔法少女2020-2021編』"
         ],
         "image": [
-			"imgs/scene-zero/holy-gacha.png"
+            "imgs/summer/sp202100.png",
+			"imgs/summer/sp202101.png"
         ],
         "column": 1,
-        "priority": 2,
+        "priority": 0,
         "timers": [
             {
-                name: "",
-				start: "feb 26 2024, 16:00",
-				end: "march 8 2024, 14:59",
-                // extraPriority: 100,
+                name: "Limited",
+				start: "may 22 2024, 16:00",
+				end: "may 31 2024, 14:59",
+
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Rerun】Mizugi Magical Girls 2020-2021 Edition Pickup & Stepup Gachas",
+            "『ピックアップ&ステップアップガチャ 水着魔法少女2020-2021編』"
+        ],
+        "image": [
+            "imgs/summer/sp181900.png",
+			"imgs/summer/sp181901.png"
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Limited",
+				start: "may 22 2024, 16:00",
+				end: "may 31 2024, 14:59",
+
             }
         ]
     },
