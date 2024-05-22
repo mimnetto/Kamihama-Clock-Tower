@@ -849,8 +849,8 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Rerun】Mizugi Magical Girls 2020-2021 Edition Pickup & Stepup Gachas",
-            "『ピックアップ&ステップアップガチャ 水着魔法少女2020-2021編』"
+			"【Rerun】Mizugi Magical Girls 2018-2019 Edition Pickup & Stepup Gachas",
+            "『ピックアップ&ステップアップガチャ 水着魔法少女2018-2019編』"
         ],
         "image": [
             "imgs/summer/sp181900.png",
