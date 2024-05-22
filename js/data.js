@@ -565,7 +565,7 @@ var timerData = [
 			end: "may 29 2024, 14:59",
 		},	
 		{
-			name: "The Ribbon at the Beach - Page of Memory",
+			name: "The Ribbon at the Beach - Summer Memory",
 			start: "may 22 2024, 16:00",
 			end: "jun 7 2024, 14:59",
 		},		
