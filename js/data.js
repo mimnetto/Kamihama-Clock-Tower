@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "april 30 2024, 17:00";
+var possibleNextAnnouncementDate = "july 31 2024, 15:00";
 var nextAnniversary = "August 22 2024, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -324,19 +324,19 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【New Event】From There To You ~ Twilight of Kamihama Daito Apartment ~  ",
-			"『彼方より、あなたへ〜神浜大東団地の黄昏〜』"
+            "【Login Story】Future Relationships ~Current Status with our Sister~",
+			"『未来への装関関係 ～お姉さまとの現在地～』"
         ],
         "image": [
-			"imgs/events/event00.png"
+			"imgs/camp/story.png"
         ],
         "column": 0,
         "priority": 6,
         "timers": [
 			{
 				name: "",
-				start: "feb 5 2024, 16:00",
-				end: "feb 19 2024, 14:59",
+				start: "June 1 2024, 00:00",
+				end: "July 16 2024, 14:59",
 				markers:
 				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "feb 13 2024, 16:00", type: "battle"}]
 			}
@@ -345,19 +345,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Login Bonus】Chisato Nishikigi's Birthday Login Bonus",
-			"【告知】錦木千束 誕生日記念ログインボーナス 開催"
+            "【Special】BEYOND MAGIA",
+			"『BEYOND MAGIA』"
         ],
         "image": [
-			"imgs/eventsp/birth.png"
+			"imgs/camp/magia.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "10 Gacha Tickets & Licorice Recoil Memo",
-				start: "sep 23 2023, 00:00",
-				end: "sep 24 2023, 23:59",
+				name: "Raid Event - No end date annouced",
+				start: "June 7 2024, 00:00",
+				end: "July 31 2024, 15:00",
 				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "aug 10 2023, 16:00", type: "battle"}]
 			}
@@ -366,21 +366,20 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Uncap】Ibuki Reira and Kumi Seika",
-			"『★5覚醒およびドッペル解放予告』"
+            "Battle Museum",
+			"『バトルミュージアム』"
         ],
         "image": [
-			"imgs/events/uncap00.png",
-			"imgs/events/uncap01.png"
+			"imgs/events/battle.png",
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "No end date",
-				start: "feb 5 2024, 16:00",
-				end: "feb 19 2024, 14:59",
-				// extraPriority: 100,
+				name: "Rerun with new stages",
+				start: "may 31 2024, 17:00",
+				end: "june 7 2024, 14:59",
+				extraPriority: 100,
 				markers:
 				[{title: "Story Quests 21-30 & 100Evils I~III", time: "july 28 2023, 16:00", type: "battle"}]
 			}
@@ -705,21 +704,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited】Shi Pick Up & Step-UP",
-            "『シィ編 ピックアップガチャ&ステップアップガチャ』"
+			"【Special Gacha】Choose Your Limited 4★ Magical Girl Gacha",
+            "『選べる期間限定★4魔法少女ピックアップガチャ』"
         ],
         "image": [
-            "imgs/gacha/shi00.png",
-			"imgs/gacha/shi01.png"
+            "imgs/gacha/owari.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "NEW Limited",
-                "start": "may 10 2024, 16:00",
-                "end": "may 22 2024, 14:59",
-               // extraPriority: 1000
+                name: "Free Daily 10x Pulls",
+                start: "june 1 2024, 00:00",
+                end: "july 31 2024, 14:59",
+               extraPriority: 1000
             }
         ]
     },
@@ -758,8 +756,8 @@ var timerData = [
         "timers": [
             {
                 name: "Limited Rerun",
-				start: "april 22 2024, 16:00",
-				end: "april 30 2024, 14:59",
+				start: "june 22 2023, 16:00",
+				end: "july 30 2023, 14:59",
                // extraPriority: 1000
             }
         ]
