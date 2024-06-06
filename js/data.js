@@ -356,8 +356,8 @@ var timerData = [
         "timers": [
 			{
 				name: "Raid Event - No end date annouced",
-				start: "June 7 2024, 00:00",
-				end: "July 31 2024, 15:00",
+				start: "June 7 2024, 17:00",
+				end: "June 12 2024, 14:59",
 				markers:
 				[{title: "Story Quests 11-20 & 100Evils I~III", time: "aug 10 2023, 16:00", type: "battle"}]
 			}
@@ -689,8 +689,8 @@ var timerData = [
         timers: [
 			{
                 name: "Maintenance",
-				start: "april 30 2024, 15:00",
-				end: "april 30 2024, 16:00"
+				start: "June 7 2024, 15:00",
+				end: "june 7 2024, 17:00"
 				// extraPriority: 100
             },
             {
