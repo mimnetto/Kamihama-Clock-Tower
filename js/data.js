@@ -355,7 +355,7 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "Raid Event - No end date annouced",
+				name: "Raid Event",
 				start: "June 7 2024, 17:00",
 				end: "June 12 2024, 14:59",
 				markers:
