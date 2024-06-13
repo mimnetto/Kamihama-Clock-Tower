@@ -487,7 +487,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【New Gatcha】 Kagome's Hundred Monsters ~Burning Summer Banquet~",
+            "【Rerun】 Kagome's Hundred Monsters ~Burning Summer Banquet~",
 			"『かごめの百怪波瀾～炎夏の宴～』"
         ],
         "image": [
