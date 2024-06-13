@@ -324,8 +324,8 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【Login Story】Future Relationships ~Current Status with our Sister~",
-			"『未来への装関関係 ～お姉さまとの現在地～』"
+            "【Login Story】Future Relationships ~A Fun Evening~",
+			"『未来への装関関係 ～楽しい夕べに～』"
         ],
         "image": [
 			"imgs/camp/story.png"
@@ -335,7 +335,7 @@ var timerData = [
         "timers": [
 			{
 				name: "",
-				start: "June 1 2024, 00:00",
+				start: "June 13 2024, 00:00",
 				end: "July 16 2024, 14:59",
 				markers:
 				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "feb 13 2024, 16:00", type: "battle"}]
@@ -487,22 +487,22 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【New Gatcha】 Puella Historia ・ Amaryllis Pickup Gacha",
-			"『ピュエラ・ヒストリア 邪馬台国の跡目編』"
+            "【New Gatcha】 Kagome's Hundred Monsters ~Burning Summer Banquet~",
+			"『かごめの百怪波瀾～炎夏の宴～』"
         ],
         "image": [
-			"imgs/gatcha/akuma01.png"
+			"imgs/events/event04.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "",
-				start: "june 26 2024, 16:00",
-				end: "July 10 2023, 14:59",
-				extraPriority: 100,
+				name: "Repeat- Kagome Hyakki Yagyou ver. obtained in Choose 4★ Gacha",
+				start: "june 12 2024, 16:00",
+				end: "june 24 2024, 14:59",
+				//extraPriority: 100,
 				markers:
-				[{title: "Story Quests 16-30 & 100Evils I~III", time: "july 3 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 11-20 & 100Evils I~III", time: "june 17 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -583,9 +583,9 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Iroha・Kuroe - Peach",
-				start: "may 10 2024, 16:00",
-				end: "may 27 2024, 14:59",
+				name: "Choose Your Limited 4★ Magical Girl - Lime Green",
+				start: "jun 1 2024, 00:00",
+				end: "july 31 2024, 14:59",
 			},
 			{
 				name: "Shi - Navy Blue",
