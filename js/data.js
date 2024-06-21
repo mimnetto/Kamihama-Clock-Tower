@@ -509,7 +509,7 @@ var timerData = [
 	{
         "type": "Event",
         title: [
-			"Puella Historia Strategy Campaign",
+			"Puella test Strategy Campaign",
             "『ピュエラ・ヒストリア攻略キャンペーン』"
         ],
         "image": [
