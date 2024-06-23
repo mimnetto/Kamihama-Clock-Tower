@@ -186,21 +186,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Rerun Event】The Ribbon at the Beach",
-			"『波打ち際のリボン』"
+			"【Event】Annihilation Battle: Witches' Paradox",
+			"『殲滅戦～魔女たちのパラドクス～』"
         ],
         "image": [
-            "imgs/summer/event00.png"
+            "imgs/events/witchpara.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 0,
         "timers": [
 			{
 				"name": "",
-                "start": "may 22 2024, 16:00",
-                "end": "may 31 2024, 14:59",
-				markers:
-				[{title: "Story Quests 13～26 & Special Challenge Quests Ⅰ～Ⅲ", time: "may 27 2024, 16:00", type: "battle"}]
+                "start": "june 24 2024, 17:00",
+                "end": "july 1 2024, 14:59",
 			}
         ]
     },
@@ -509,21 +507,20 @@ var timerData = [
 	{
         "type": "Event",
         title: [
-			"Puella test Strategy Campaign",
-            "『ピュエラ・ヒストリア攻略キャンペーン』"
+			"Mahou Shojo Madoka☆Magica Magia Exedra News #1",
+            "『魔法少女まどか☆マギカ Magia Exedra』エクセドラ通信 #1"
         ],
         "image": [
-            "imgs/camp/camp00.png",
-			"imgs/events/historia001.png"
+            "imgs/events/exedra.png",
 		],
         column: 0,
-        priority: 1,
+        priority: 0,
         timers: [
             {
-                name: "",
-                start: "Aug 17 2023, 16:00",
-                end: "Aug 22 2023, 14:59",
-				extraPriority: 1000
+                name: "YouTube Live Stream http://www.youtube.com/@madoka_exedra",
+                start: "July 2 2024, 20:00",
+                end: "July 2 2024, 22:00",
+				//extraPriority: 1000
             }
         ]
     },
@@ -559,9 +556,9 @@ var timerData = [
 		priority: 5,
 		timers: [	
 		{
-			name: "Last Bird's Hope - Feather",
-			start: "may 10 2024, 16:00",
-			end: "may 29 2024, 14:59",
+			name: "Kagome's Hundred Monsters - Ancient Wish",
+			start: "june 12 2024, 16:00",
+			end: "july 7 2024, 14:59",
 		},	
 		{
 			name: "The Ribbon at the Beach - Summer Memory",
@@ -685,12 +682,12 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 2,
+        priority: 1,
         timers: [
 			{
                 name: "Maintenance",
-				start: "June 7 2024, 15:00",
-				end: "june 7 2024, 17:00"
+				start: "June 24 2024, 15:00",
+				end: "june 24 2024, 17:00"
 				// extraPriority: 100
             },
             {
