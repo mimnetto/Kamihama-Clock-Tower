@@ -7,11 +7,11 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Battle Special Edition Alina・Eve ",
-            "『キモチ戦特別編 アリナ・イブ』"
+			"Battle Special The Happy Wich",
+            "『キモチ戦特別編 幸福な魔女』"
         ],
         "image": [
-            "imgs/kimochi/kimochi00.png"
+            "imgs/kimochi/final00.png"
         ],
         "column": 0,
         "priority": 0,
@@ -67,7 +67,7 @@ var timerData = [
             "imgs/kimochi/kimochi01.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 3,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
@@ -120,42 +120,42 @@ var timerData = [
             "imgs/events/mirrors00.png"
         ],
         "column": 0,
-        "priority": 10,
+        "priority": 0,
         "timers": [
 			{
 				name: "Preliminaries - Day 1",
-				start: "jan 29 2024, 17:00",
-				end: "jan 29 2024, 15:59"
+				start: "july 8 2024, 17:00",
+				end: "july 9 2024, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 2",
-				start: "jan 30 2024, 16:00",
-				end: "jan 31 2024, 15:59"
+				start: "july 9 2024, 16:00",
+				end: "july 10 2024, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 3",
-				start: "jan 31 2024, 16:00",
-				end: "feb 1 2024, 15:59"
+				start: "july 10 2024, 16:00",
+				end: "july 11 2024, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 4",
-				start: "feb 1 2024, 16:00",
-				end: "feb 2 2024, 15:59"
+				start: "july 11 2024, 16:00",
+				end: "july 12 2024, 15:59"
 			},
 			{
 				name: "Preliminaries - Day 5",
-				start: "feb 2 2024, 16:00",
-				end: "feb 3 2024, 15:59"
+				start: "july 12 2024, 16:00",
+				end: "july 13 2024, 15:59"
 			},
 			{
 				name: "Finals",
-				start: "feb 3 2024, 17:00",
-				end: "feb 4 2024, 20:59"
+				start: "july 13 2024, 17:00",
+				end: "july 14 2024, 20:59"
 			},
             {
                 "name": "Main Event",
-                "start": "jan 29 2024, 17:00",
-                "end": "feb 4 2024, 20:59",
+                "start": "july 8 2024, 17:00",
+                "end": "july 14 2024, 20:59",
                 //"extraPriority": 1,
 				"type": "normal",
 				markers:
@@ -178,8 +178,8 @@ var timerData = [
         "timers": [
 			{
 				name: "",
-				start: "april 30 2024, 16:00",
-				end: "may 10 2024, 14:59",
+				start: "July 1 2024, 17:00",
+				end: "july 12 2024, 14:59",
 			}
         ]
     },
@@ -322,18 +322,19 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【Login Story】Future Relationships ~A Fun Evening~",
-			"『未来への装関関係 ～楽しい夕べに～』"
+            "【Login Story】Future Relationships ~Telling Stories Thru Art~",
+			"『未来への装関関係 ～絵から物語る～』"
         ],
         "image": [
 			"imgs/camp/story.png"
         ],
         "column": 0,
-        "priority": 6,
+        "priority": 5,
+		"extraPriority": 1000,
         "timers": [
 			{
 				name: "",
-				start: "June 13 2024, 00:00",
+				start: "July 2 2024, 00:00",
 				end: "July 16 2024, 14:59",
 				markers:
 				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "feb 13 2024, 16:00", type: "battle"}]
@@ -364,20 +365,20 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Battle Museum",
-			"『バトルミュージアム』"
+			"Battle Special The Happy Wich",
+            "『キモチ戦特別編 幸福な魔女』"
         ],
         "image": [
-			"imgs/events/battle.png",
+            "imgs/kimochi/final00.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 0,
         "timers": [
 			{
-				name: "Rerun with new stages",
-				start: "may 31 2024, 17:00",
-				end: "june 7 2024, 14:59",
-				extraPriority: 100,
+				name: "Announced for Mid-July | Tenitive Schedule",
+				start: "july 15 2024, 17:00",
+				end: "july 21 2024, 14:59",
+				//extraPriority: 100,
 				markers:
 				[{title: "Story Quests 21-30 & 100Evils I~III", time: "july 28 2023, 16:00", type: "battle"}]
 			}
