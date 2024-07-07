@@ -562,9 +562,9 @@ var timerData = [
 			end: "july 7 2024, 14:59",
 		},	
 		{
-			name: "The Ribbon at the Beach - Summer Memory",
-			start: "may 22 2024, 16:00",
-			end: "jun 7 2024, 14:59",
+			name: "Alina's Atelier Gacha",
+			start: "july 1 2024, 16:00",
+			end: "july 19 2024, 14:59",
 		},		
 		]
 	},
