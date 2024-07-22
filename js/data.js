@@ -322,8 +322,8 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【Login Story】Future Relationships ~Telling Stories Thru Art~",
-			"『未来への装関関係 ～絵から物語る～』"
+            "【Final Login Story】『The Heart is One and Ten Thousand Years』",
+			"【ログインストーリー】『心は一年一万年』"
         ],
         "image": [
 			"imgs/camp/story.png"
@@ -334,8 +334,8 @@ var timerData = [
         "timers": [
 			{
 				name: "",
-				start: "July 2 2024, 00:00",
-				end: "July 16 2024, 14:59",
+				start: "July 23 2024, 00:00",
+				end: "july 31 2024, 14:59",
 				markers:
 				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "feb 13 2024, 16:00", type: "battle"}]
 			}
@@ -508,19 +508,19 @@ var timerData = [
 	{
         "type": "Event",
         title: [
-			"Mahou Shojo Madoka☆Magica Magia Exedra News #1",
-            "『魔法少女まどか☆マギカ Magia Exedra』エクセドラ通信 #1"
+			"Kamihama Clocktower Presents: Sayonara Magia Record!",
+            "Unofficial Live Stream http://www.twitch.tv/candyokashi"
         ],
         "image": [
-            "imgs/events/exedra.png",
+            "imgs/events/candy-stream.png",
 		],
         column: 0,
         priority: 0,
         timers: [
             {
-                name: "YouTube Live Stream http://www.youtube.com/@madoka_exedra",
-                start: "July 2 2024, 20:00",
-                end: "July 2 2024, 22:00",
+                name: "Cry with me when servers shutdown! twitch.tv/candyokashi",
+                start: "July 31 2024, 12:00",
+                end: "July 31 2024, 15:30",
 				//extraPriority: 1000
             }
         ]
@@ -557,9 +557,9 @@ var timerData = [
 		priority: 5,
 		timers: [	
 		{
-			name: "Kagome's Hundred Monsters - Ancient Wish",
-			start: "june 12 2024, 16:00",
-			end: "july 7 2024, 14:59",
+			name: "Kimochi Coins",
+			start: "june 16 2024, 17:00",
+			end: "july 29 2024, 14:59",
 		},	
 		{
 			name: "Alina's Atelier Gacha",
