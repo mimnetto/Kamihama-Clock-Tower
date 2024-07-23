@@ -322,8 +322,8 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "【Final Login Story】『The Heart is One and Ten Thousand Years』",
-			"【ログインストーリー】『心は一年一万年』"
+            "【Last Story】『The Heart is One and Ten Thousand Years』",
+			"【ラストストーリー追加】『心は一年一万年』"
         ],
         "image": [
 			"imgs/camp/story.png"
