@@ -3,7 +3,7 @@ Vue.component("text-timer", {
     template: 
     `<h4>
         <span class="timer-number">{{ d_since_release }}</span> days since <span >Magia Record</span> released<span v-if="nextAnnVisible()">; <span v-html="tNext(t_to_next_anniv)"></span> until what would have been the 7th anniversary.</span></br>
-        <span v-if="nextEvVisible()">End of Service in <span v-html="tNext(t_to_next_ann)"></span> on July 31 at 15:00 (JPN).</span></br>
+        <span v-if="nextEvVisible()">Next confirmed Magia Exedra news in <span v-html="tNext(t_to_next_ann)"></span>.</span></br>
     </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
  
     methods: {
