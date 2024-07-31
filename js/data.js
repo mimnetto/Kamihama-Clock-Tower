@@ -508,19 +508,19 @@ var timerData = [
 	{
         "type": "Event",
         title: [
-			"Kamihama Clocktower Presents: Sayonara Magia Record!",
-            "Unofficial Live Stream http://www.twitch.tv/candyokashi"
+			"Magia Day 2024 Official Livestream!",
+            "「Magia Day 2024」"
         ],
         "image": [
-            "imgs/events/candy-stream.png",
+            "imgs/events/exedra.png",
 		],
         column: 0,
         priority: 0,
         timers: [
             {
-                name: "Cry with me when servers shutdown! twitch.tv/candyokashi",
-                start: "July 31 2024, 12:00",
-                end: "July 31 2024, 15:30",
+                name: "https://www.youtube.com/@madoka_exedra",
+                start: "Aug 25 2024, 17:30",
+                end: "Aug 25 2024, 20:30",
 				//extraPriority: 1000
             }
         ]
