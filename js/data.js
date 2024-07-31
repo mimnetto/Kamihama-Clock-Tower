@@ -526,24 +526,44 @@ var timerData = [
         ]
     },
 	{
-        "type": "Shop",
-        "title": [
-            "Monthly Magia Stones Shops",
-			"毎月マギアストーンショップ"
+        "type": "Event",
+        title: [
+			"Time to Transfer Your Data to the Archive App",
+            "【ストーリーアーカイブ】"
         ],
         "image": [
-            "shop"
-        ],
-        "column": 2,
-        "priority": 100,
-        "timers": [
-			{
-				name: "Paid Support Pack",
-				start: "Sep 1 2023, 00:00",
-				end: "Sep 30 2023, 23:59"
-			}
+            "imgs/events/trans00.png",
+		],
+        column: 0,
+        priority: 1,
+        timers: [
+            {
+                name: "",
+                start: "July 30 2024, 17:00",
+                end: "Oct 14 2024, 15:00",
+				//extraPriority: 1000
+            }
         ]
     },
+	// {
+    //     "type": "Shop",
+    //     "title": [
+    //         "Monthly Magia Stones Shops",
+	// 		"毎月マギアストーンショップ"
+    //     ],
+    //     "image": [
+    //         "shop"
+    //     ],
+    //     "column": 2,
+    //     "priority": 100,
+    //     "timers": [
+	// 		{
+	// 			name: "Paid Support Pack",
+	// 			start: "Sep 1 2023, 00:00",
+	// 			end: "Sep 30 2023, 23:59"
+	// 		}
+    //     ]
+    // },
 	{
 		type: "Other",
 		title: [
