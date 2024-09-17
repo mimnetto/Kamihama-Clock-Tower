@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Aug 25 2024, 17:30";
+var possibleNextAnnouncementDate = "sept 27 2024, 18:00";
 var nextAnniversary = "August 22 2024, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -528,6 +528,26 @@ var timerData = [
 	{
         "type": "Event",
         title: [
+			"Aniplex Tokyo Game Show Live Stream",
+            "https://tgs.nikkeibp.co.jp/tgs/2024/en/"
+        ],
+        "image": [
+            "imgs/ex/tgs00.png",
+		],
+        column: 0,
+        priority: 1,
+        timers: [
+            {
+                name: "",
+                start: "sept 27 2024, 18:00",
+                end: "sept 27 2024, 19:00",
+				extraPriority: 1000
+            }
+        ]
+    },
+	{
+        "type": "Event",
+        title: [
 			"Time to Transfer Your Data to the Archive App",
             "【ストーリーアーカイブ】"
         ],
@@ -545,6 +565,7 @@ var timerData = [
             }
         ]
     },
+
 	// {
     //     "type": "Shop",
     //     "title": [
