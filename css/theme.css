@@ -1,11 +1,13 @@
 :root {
     --homura: #a993ed;
-    --madoka: #ee82ee;
+    --madoka: #f13af1;
     --kyoko: #dc3545;
     --mami: #ffd24d;
     --sayaka: #385EE8;
-    --akuma: #a993ed;
+    --akuma: #7a30c0;
     --kami: #bb0e79;
+    --sana: #1aa143;
+    --alina: #defbae;
   }
 
   .theme-dark body {

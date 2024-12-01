@@ -1,6 +1,6 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "sept 27 2024, 18:00";
-var nextAnniversary = "August 22 2024, 0:00";
+var possibleNextAnnouncementDate = "may 25 2025, 00:00";
+var nextAnniversary = "may 27 2024, 00:00";
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
@@ -60,53 +60,48 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Battle Special Edition Nutcracker Witch ",
-            "『キモチ戦特別編 くるみ割りの魔女』"
+			"Pre-Registration Campaign Goals and Rewards",
+            "『事前登録キャンペーン』"
         ],
         "image": [
-            "imgs/kimochi/kimochi01.png"
+            "imgs/exban/prer.png"
         ],
-        "column": 0,
+        "column": 1,
         "priority": 3,
         "timers": [
 			{
-				name: "Part 1 - Day 1",
-                start: "march 25 2024, 17:00",
-                end: "march 26 2024, 15:59"
+				name: "100k Magica Stone x1000",
+                start: "july 2 2024, 00:00",
+                end: "nov 27 2024, 00:00"
 			},
 			{
-				name: "Part 1 - Day 2",
-				start: "march 26 2024, 16:00",
-				end: "march 27 2024, 15:59"
+				name: "200k 'Door to New Kioku' Portrait",
+                start: "july 2 2024, 00:00",
+                end: "nov 27 2024, 00:00"
 			},
 			{
-				name: "Tally & Group Placements",
-				start: "march 27 2024, 16:00",
-				end: "march 27 2024, 16:59"
+				name: "300k Magica Stone x1000",
+                start: "july 2 2024, 00:00",
+                end: "may 25 2025, 00:00"
 			},
 			{
-				name: "Part 2 - Day 1",
-				start: "march 27 2024, 17:00",
-				end: "march 28 2024, 15:59"
+				name: "400k Magica Stone x1000",
+                start: "july 2 2024, 00:00",
+                end: "may 25 2025, 00:00"
 			},
 			{
-				name: "Part 2 - Day 2",
-				start: "march 28 2024, 16:00",
-				end: "march 29 2024, 15:59"
+				name: "500k 5☆ Kioku [Lux Magica] Madoka Kaname",
+                start: "july 2 2024, 00:00",
+                end: "may 25 2025, 00:00"
 			},
-			{
-				name: "Part 2 - Day 3",
-				start: "march 29 2024, 16:00",
-				end: "march 30 2024, 15:59"
-			}, 
             {
-                "name": "Darkness Attribute",
-                "start": "march 25 2024, 16:00",
-                "end": "march 30 2024, 15:59",
+                "name": "5☆ Madoka Kaname",
+                "start": "july 2 2024, 00:00",
+                "end": "may 25 2025, 00:00",
                 "extraPriority": 1,
 				"type": "normal",
-				markers:
-				[{time: "march 27 2024, 17:00", title: "Part 2 - Groups", type: "battle"}]
+				// markers:
+				// [{time: "march 27 2024, 17:00", title: "Part 2 - Groups", type: "battle"}]
 			}
 			]
     },
@@ -167,19 +162,26 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Alina's Atelier ～Factor of Despair～",
-			"『アリナのアトリエ～Factor of Despair～』"
+            "Magia Exedra Expected Release Day",
+			"『マギアエクセドラリリース』"
         ],
         "image": [
-			"imgs/events/despair.png"
+			"imgs/exban/exr07.png",
+			"imgs/exban/exr02.png",
+			"imgs/exban/exr05.png",
+			"imgs/exban/exr06.png",
+			"imgs/exban/exr04.png",
+			"imgs/exban/exr03.png",
+			"imgs/exban/exr00.png",
+			"imgs/exban/exr01.png",
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "",
-				start: "July 1 2024, 17:00",
-				end: "july 12 2024, 14:59",
+				name: "According to iOS store",
+				start: "Nov 30 2024, 00:00",
+				end: "may 25 2025, 00:00",
 			}
         ]
     },

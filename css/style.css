@@ -1,10 +1,10 @@
 :root {
     --homura: #a993ed;
-    --madoka: #ee82ee;
+    --madoka: #f13af1;
     --kyoko: #dc3545;
     --mami: #ffd24d;
     --sayaka: #385EE8;
-    --akuma: #5f00b5;
+    --akuma: #6c1fb4;
     --kami: #bb0e79;
     --sana: #1aa143;
     --alina: #defbae;
@@ -28,7 +28,7 @@ p.center{
 }
 
 a{
-    color: #ff5bb6;
+    color: var(--kami);
     text-decoration: none;
     font-weight: 500;
 }
@@ -45,12 +45,12 @@ div#header{
 }
 
 div#header h1{
-    color:var(--kami);
+    color:var(--madoka);
     font-family: 'Righteous', cursive;
 }
 
 .timer-number {
-    color:var(--madoka);
+    color:var(--akuma);
     font-size: 24pt;
     font-weight: 800;
     font-family: 'Kaushan Script', cursive;
@@ -98,7 +98,7 @@ h1.c-header{
     text-align: center;
     font-family: 'Righteous', cursive;
     margin-bottom: 3%;
-    color:var(--kami);
+    color:var(--madoka);
 
 }
 
@@ -347,7 +347,7 @@ h1.c-header{
 }
 .weekend .date-timer {
     flex-basis: calc(50% - 0.2rem);
-    min-width: 200px;
+    min-width: 400px;
     line-height: 1.2rem;
 }
 .date-timer.empty {
@@ -760,4 +760,7 @@ img.lcarousel.current {
     z-index: 20;
     left: 0;
     opacity: 1;
+}
+img.pre {
+    max-width: 150px;
 }
