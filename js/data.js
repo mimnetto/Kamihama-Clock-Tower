@@ -82,12 +82,12 @@ var timerData = [
 			{
 				name: "300k Magica Stone x1000",
                 start: "july 2 2024, 00:00",
-                end: "may 25 2025, 00:00"
+                end: "dec 12 2024, 00:00"
 			},
 			{
 				name: "400k Magica Stone x1000",
                 start: "july 2 2024, 00:00",
-                end: "may 25 2025, 00:00"
+                end: "jan 2 2025, 00:00"
 			},
 			{
 				name: "500k 5☆ Kioku [Lux Magica] Madoka Kaname",
