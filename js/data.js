@@ -1,6 +1,6 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "may 25 2025, 00:00";
-var nextAnniversary = "may 27 2024, 00:00";
+var possibleNextAnnouncementDate = "march 27 2025, 00:00";
+var nextAnniversary = "march 27 2024, 00:00";
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
@@ -92,12 +92,37 @@ var timerData = [
 			{
 				name: "500k 5☆ Kioku [Lux Magica] Madoka Kaname",
                 start: "july 2 2024, 00:00",
-                end: "may 25 2025, 00:00"
+                end: "Jan 27 2025, 00:00"
+			},
+			{
+				name: "600k Magia Key x2 + Fan Kit",
+                start: "july 2 2024, 00:00",
+                end: "mar 8 2025, 00:00"
+			},
+			{
+				name: "700k Magia Key x3 + Fan Kit",
+                start: "july 2 2024, 00:00",
+                end: "mar 8 2025, 00:00"
+			},
+			{
+				name: "800k Magia Key x5 + Fan Kit",
+                start: "july 2 2024, 00:00",
+                end: "mar 8 2025, 00:00"
+			},
+			{
+				name: "900k Celebration Starter Pack + Fan Kit",
+                start: "july 2 2024, 00:00",
+                end: "mar 27 2025, 00:00"
+			},
+			{
+				name: "1 Million 5★ Portrait + Fan Kit",
+                start: "july 2 2024, 00:00",
+                end: "mar 27 2025, 00:00"
 			},
             {
-                "name": "5☆ Madoka Kaname",
+                "name": "",
                 "start": "july 2 2024, 00:00",
-                "end": "may 25 2025, 00:00",
+                "end": "march 27 2025, 00:00",
                 "extraPriority": 1,
 				"type": "normal",
 				// markers:
@@ -162,7 +187,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Magia Exedra Expected Release Day",
+            "Magia Exedra Global Launch Day",
 			"『マギアエクセドラリリース』"
         ],
         "image": [
@@ -179,9 +204,9 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "According to iOS store",
+				name: "Confirmed Release Date!",
 				start: "Nov 30 2024, 00:00",
-				end: "may 25 2025, 00:00",
+				end: "march 27 2025, 00:00",
 			}
         ]
     },
