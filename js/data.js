@@ -112,7 +112,7 @@ var timerData = [
 			{
 				name: "900k Celebration Starter Pack + Fan Kit",
                 start: "july 2 2024, 00:00",
-                end: "mar 27 2025, 00:00"
+                end: "mar 13 2025, 00:00"
 			},
 			{
 				name: "1 Million 5★ Portrait + Fan Kit",
