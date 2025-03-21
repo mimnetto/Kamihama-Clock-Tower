@@ -204,8 +204,8 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "Confirmed Release Date!",
-				start: "Nov 30 2024, 00:00",
+				name: " iOS & Android Confirmed Release Date!",
+				start: "July 2 2024, 00:00",
 				end: "march 27 2025, 00:00",
 			}
         ]
