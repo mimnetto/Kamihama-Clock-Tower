@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "march 27 2025, 00:00";
+var possibleNextAnnouncementDate = "march 27 2025, 06:00";
 var nextAnniversary = "march 27 2024, 00:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -117,12 +117,12 @@ var timerData = [
 			{
 				name: "1 Million 5★ Portrait + Fan Kit",
                 start: "july 2 2024, 00:00",
-                end: "mar 27 2025, 00:00"
+                end: "mar 25 2025, 00:00"
 			},
             {
-                "name": "",
+                "name": "ALL GOALS REACHED!",
                 "start": "july 2 2024, 00:00",
-                "end": "march 27 2025, 00:00",
+                "end": "march 27 2025, 06:00",
                 "extraPriority": 1,
 				"type": "normal",
 				// markers:
@@ -204,10 +204,20 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: " iOS & Android Confirmed Release Date!",
+				name: " iOS & Android Confirmed Release!",
 				start: "July 2 2024, 00:00",
-				end: "march 27 2025, 00:00",
-			}
+				end: "march 27 2025, 06:00",
+			},
+			{
+				name: "Pre-download",
+				start: "March 25 2025, 12:00",
+				end: "march 26 2025, 17:00",
+			},
+			{
+				name: "Early Access",
+				start: "march 26 2025, 17:00",
+				end: "march 27 2025, 06:00",
+			},
         ]
     },
 	{
