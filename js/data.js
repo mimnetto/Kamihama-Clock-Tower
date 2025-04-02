@@ -392,13 +392,13 @@ var timerData = [
         "timers": [
 			{
 				name: "Login Campaign",
-                "start": "march 26 2025, 04:00",
-                "end": "april 09 2025, 22:59",
+                "start": "march 26 2025, 18:00",
+                "end": "april 09 2025, 11:59",
 			},
 			{
 				name: "Training Spree Missions",
-                "start": "march 26 2025, 23:00",
-                "end": "april 03 2025, 22:59",
+                "start": "march 26 2025, 18:00",
+                "end": "april 04 2025, 11:59",
 			}
         ]
     },
@@ -417,7 +417,7 @@ var timerData = [
 			{
 				name: "April Fools Bit",
                 "start": "march 31 2025, 11:00",
-                "end": "april 07 2025, 22:59",
+                "end": "april 08 2025, 11:59",
 			}
         ]
     },
@@ -436,7 +436,7 @@ var timerData = [
 			{
 				name: "Limited Story",
                 "start": "march 29 2025, 23:00",
-                "end": "april 13 2025, 22:59",
+                "end": "april 14 2025, 11:59",
 			}
         ]
     },
@@ -636,13 +636,13 @@ var timerData = [
         "timers": [
 			{
 				name: "Paid Celebration Packs",
-				start: "march 26 2025, 17:00",
-				end: "april 29 2025, 22:59"
+				start: "march 26 2025, 18:00",
+				end: "april 30 2025, 11:59"
 			},
 			{
 				name: "Web Shop Exclusives",
-				start: "march 26 2025, 04:00",
-				end: "april 29 2025, 22:59"
+				start: "march 26 2025, 18:00",
+				end: "april 30 2025, 11:59"
 			}
         ]
     },
@@ -661,12 +661,12 @@ var timerData = [
 			{
 				name: "Dance☆Magica",
 				"start": "march 31 2025, 11:00",
-				"end": "april 08 2025, 22:59",
+				"end": "april 09 2025, 11:59",
 			},	
 		{
 			name: "Farewell Story",
 			"start": "march 29 2025, 23:00",
-			"end": "april 14 2025, 22:59",
+			"end": "april 15 2025, 11:59",
 		}	
 		]
 	},
@@ -685,17 +685,17 @@ var timerData = [
 			{
 				name: "Mami Tomoe",
 				start: "march 29 2025, 23:00",
-				end: "April 13 2025, 22:59",
+				end: "april 10 2025, 11:59",
 			},
 			{
 				name: "Madoka Kaname & Homura Akemi",
 				start: "march 26 2025, 04:00",
-				end: "april 09 2025, 22:59",
+				end: "april 10 2025, 11:59",
 			},
 			{
 				name: "Iroha Tamaki & Yachiyo Nanami & Tsuruno Yui",
 				start: "march 26 2025, 04:00",
-				end: "april 09 2025, 22:59",
+				end: "april 10 2025, 11:59",
 			},
 		]
 	},
@@ -835,8 +835,8 @@ var timerData = [
         "timers": [
             {
                 name: "Buffer",
-                "start": "march 29 2025, 23:00",
-                "end": "april 13 2025, 22:59",
+                "start": "march 29 2025, 12:00",
+                "end": "april 14 2025, 11:59",
             }
         ]
     },
@@ -854,8 +854,8 @@ var timerData = [
         "timers": [
             {
                 name: "",
-                "start": "march 26 2025, 04:00",
-                "end": "april 09 2025, 22:59",
+                "start": "march 26 2025, 18:00",
+                "end": "april 10 2025, 11:59",
                // extraPriority: 1000
             }
         ]
@@ -874,8 +874,8 @@ var timerData = [
         "timers": [
             {
                 name: "",
-                "start": "march 26 2025, 04:00",
-                "end": "april 09 2025, 22:59",
+                "start": "march 26 2025, 18:00",
+                "end": "april 10 2025, 11:59",
                // extraPriority: 1000
             }
         ]
@@ -914,14 +914,14 @@ var timerData = [
         "timers": [
             {
                 name: "One Per Day Free Fate Weave!",
-				start: "march 26 2025, 17:00",
-				end: "april 9 2025, 22:59",
+				start: "march 26 2025, 18:00",
+				end: "april 9 2025, 11:59",
                extraPriority: 1000
             },
 			{
                 name: "Paid One ★5 Guaranteed",
-				start: "march 26 2025, 04:00",
-				end: "april 9 2025, 22:59",
+				start: "march 26 2025, 18:00",
+				end: "april 9 2025, 11:59",
                extraPriority: 1000
             }
         ]
