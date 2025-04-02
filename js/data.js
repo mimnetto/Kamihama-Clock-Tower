@@ -1,6 +1,6 @@
-var releaseDate = "August 22 2017, 0:00";
+var releaseDate = "march 26 2025, 04:00";
 var possibleNextAnnouncementDate = "march 27 2025, 06:00";
-var nextAnniversary = "march 27 2024, 00:00";
+var nextAnniversary = "march 27 2026, 04:00";
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
@@ -381,43 +381,62 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Special】BEYOND MAGIA",
-			"『BEYOND MAGIA』"
+            "【Login Bonus】Release Celebration: Five Major Campaigns",
+			"『リリース記念5大キャンペーン』"
         ],
         "image": [
-			"imgs/camp/magia.png"
+			"imgs/exedra/events00/re-login.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "Raid Event",
-				start: "June 7 2024, 17:00",
-				end: "June 12 2024, 14:59",
-				markers:
-				[{title: "Story Quests 11-20 & 100Evils I~III", time: "aug 10 2023, 16:00", type: "battle"}]
+				name: "Login Campaign",
+                "start": "march 26 2025, 04:00",
+                "end": "april 09 2025, 22:59",
+			},
+			{
+				name: "Training Spree Missions",
+                "start": "march 26 2025, 23:00",
+                "end": "april 03 2025, 22:59",
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-			"Battle Special The Happy Wich",
-            "『キモチ戦特別編 幸福な魔女』"
+            "【Limited-Time】Dance☆Magica",
+			"『Dance☆Magica』"
         ],
         "image": [
-            "imgs/kimochi/final00.png"
+			"imgs/exedra/events00/dance.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
-				name: "Announced for Mid-July | Tenitive Schedule",
-				start: "july 15 2024, 17:00",
-				end: "july 21 2024, 14:59",
-				//extraPriority: 100,
-				markers:
-				[{title: "Story Quests 21-30 & 100Evils I~III", time: "july 28 2023, 16:00", type: "battle"}]
+				name: "April Fools Bit",
+                "start": "march 31 2025, 11:00",
+                "end": "april 07 2025, 22:59",
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+            "【Limited-Time】Farewell Story",
+			"『フェアウェル・ストーリー』"
+        ],
+        "image": [
+			"imgs/exedra/events00/seeya.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				name: "Limited Story",
+                "start": "march 29 2025, 23:00",
+                "end": "april 13 2025, 22:59",
 			}
         ]
     },
@@ -603,29 +622,29 @@ var timerData = [
         ]
     },
 
-	// {
-    //     "type": "Shop",
-    //     "title": [
-    //         "Monthly Magia Stones Shops",
-	// 		"毎月マギアストーンショップ"
-    //     ],
-    //     "image": [
-    //         "shop"
-    //     ],
-    //     "column": 2,
-    //     "priority": 100,
-    //     "timers": [
-	// 		{
-	// 			name: "Paid Support Pack",
-	// 			start: "Sep 1 2023, 00:00",
-	// 			end: "Sep 30 2023, 23:59"
-	// 		}
-    //     ]
-    // },
+	{
+        "type": "Shop",
+        "title": [
+            "Monthly Shops",
+			"毎月ショップ"
+        ],
+        "image": [
+            "shop"
+        ],
+        "column": 2,
+        "priority": 100,
+        "timers": [
+			{
+				name: "Paid Celebration Packs",
+				start: "march 26 2025, 17:00",
+				end: "april 29 2025, 22:59"
+			}
+        ]
+    },
 	{
 		type: "Other",
 		title: [
-		"Event Quests Currency Shops",
+		"Event Quests Trader Shops",
 		"「イベントクエスト 通貨ショップ」"
 		],
 		image: [
@@ -634,23 +653,23 @@ var timerData = [
 		column: 2,
 		priority: 5,
 		timers: [	
+			{
+				name: "Dance☆Magica",
+				"start": "march 31 2025, 11:00",
+				"end": "april 08 2025, 22:59",
+			},	
 		{
-			name: "Kimochi Coins",
-			start: "june 16 2024, 17:00",
-			end: "july 29 2024, 14:59",
-		},	
-		{
-			name: "Alina's Atelier Gacha",
-			start: "july 1 2024, 16:00",
-			end: "july 19 2024, 14:59",
-		},		
+			name: "Farewell Story",
+			"start": "march 29 2025, 23:00",
+			"end": "april 14 2025, 22:59",
+		}	
 		]
 	},
 	{
 		type: "Other",
 		title: [
-		"Adjuster Coins",
-		"「調整屋コインの期間限定ショップ」"
+		"Fate Weave Trader Coins",
+		"「ガチャコインのショップ」"
 		],
 		image: [
             "imgs/coin-shop.png"
@@ -659,19 +678,19 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Choose Your Limited 4★ Magical Girl - Lime Green",
-				start: "jun 1 2024, 00:00",
-				end: "july 31 2024, 14:59",
+				name: "Mami Tomoe",
+				start: "march 29 2025, 23:00",
+				end: "April 13 2025, 22:59",
 			},
 			{
-				name: "Shi - Navy Blue",
-				start: "may 10 2024, 16:00",
-				end: "may 27 2024, 14:59",
+				name: "Madoka Kaname & Homura Akemi",
+				start: "march 26 2025, 04:00",
+				end: "april 09 2025, 22:59",
 			},
 			{
-				name: "Rerun Mizugi Magical Girls - Yellow",
-				start: "may 22 2024, 16:00",
-				end: "jun 7 2024, 14:59",
+				name: "Iroha Tamaki & Yachiyo Nanami & Tsuruno Yui",
+				start: "march 26 2025, 04:00",
+				end: "april 09 2025, 22:59",
 			},
 		]
 	},
@@ -784,7 +803,7 @@ var timerData = [
             "『選べる期間限定★4魔法少女ピックアップガチャ』"
         ],
         "image": [
-            "imgs/gacha/owari.png",
+            "imgs/exedra/gacha00/mami-banner.png",
         ],
         "column": 1,
         "priority": 0,
@@ -800,40 +819,58 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited】Iroha・Kuroe Pick Up & Step-UP",
-            "『 いろは・黒江編 ピックアップガチャ&ステップアップガチャ』"
+			"【Pickup Fate Weave】★5 Mami Tomoe Trio Finale ",
+            "『 ★5 [ティロ・フィナーレ] 巴マミ』"
         ],
         "image": [
-            "imgs/gacha/irokuro01.png",
-			"imgs/gacha/irokuro00.png"
+            "imgs/exedra/gacha00/mami-banner.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "New Limited",
-                "start": "may 10 2024, 16:00",
-                "end": "may 22 2024, 14:59",
+                name: "Buffer",
+                "start": "march 29 2025, 23:00",
+                "end": "april 13 2025, 22:59",
             }
         ]
     },
 	{
         "type": "Gacha",
         "title": [
-			"【Limited】Momoe Nagisa Pick Up & Step-UP",
-            "『期間限定 百江なぎさ ピックアップガチャ&ステップアップガチャ』"
+			"【Pickup Fate Weave】Iroha Tamaki & Yachiyo Nanami & Tsuruno Yui",
+            "『環いろは＆七海やちよ＆由比鶴乃 ピックアップガチャ開催中』"
         ],
         "image": [
-            "imgs/gacha/nagisa01.png",
-			"imgs/gacha/nagisa00.png"
+			"imgs/exedra/gacha00/villa-banner.png"
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Limited Rerun",
-				start: "june 22 2023, 16:00",
-				end: "july 30 2023, 14:59",
+                name: "",
+                "start": "march 26 2025, 04:00",
+                "end": "april 09 2025, 22:59",
+               // extraPriority: 1000
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Pickup Fate Weave】Madoka Kaname & Homura Akemi",
+            "『鹿目まどか＆暁美ほむらピックアップガチャ』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/homu-mado.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "",
+                "start": "march 26 2025, 04:00",
+                "end": "april 09 2025, 22:59",
                // extraPriority: 1000
             }
         ]
@@ -861,23 +898,30 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited】Infinite Iroha-chan Pickup Gacha",
-            "『期間限定 無限大いろはちゃん ピックアップガチャ』"
+			"【Limited Time】Release Celebration Gachas",
+            "『リリース記念5大キャンペーン』"
         ],
         "image": [
-            "imgs/gacha/papa03.png",
+            "imgs/exedra/gacha00/free-re.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Rerun",
-				start: "april 1 2024, 16:00",
-				end: "april 8 2024, 14:59",
-               // extraPriority: 1000
+                name: "One Per Day Free Fate Weave!",
+				start: "march 26 2025, 17:00",
+				end: "april 9 2025, 22:59",
+               extraPriority: 1000
+            },
+			{
+                name: "Paid One ★5 Guaranteed",
+				start: "march 26 2025, 04:00",
+				end: "april 9 2025, 22:59",
+               extraPriority: 1000
             }
         ]
     },
+
 	{
         "type": "Gacha",
         "title": [

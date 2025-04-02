@@ -132,7 +132,7 @@ var vm = new Vue({
             let momentTz = moment().tz("Asia/Tokyo");
 
             let n = {
-                name: "Monthly Magia Stones Shops - "+month,
+                name: "Monthly Shops - "+month,
                 start: momentTz.startOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo"),
                 end: momentTz.endOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo")
             };
