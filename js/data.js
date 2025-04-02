@@ -638,6 +638,11 @@ var timerData = [
 				name: "Paid Celebration Packs",
 				start: "march 26 2025, 17:00",
 				end: "april 29 2025, 22:59"
+			},
+			{
+				name: "Web Shop Exclusives",
+				start: "march 26 2025, 04:00",
+				end: "april 29 2025, 22:59"
 			}
         ]
     },
