@@ -698,7 +698,7 @@ var timerData = [
 				end: "april 14 2025, 11:59",
 			},
 			{
-				name: "Madoka Kaname & Homura Akemi",
+				name: "Madoka Kaname  & Homura Akemi",
 				start: "march 26 2025, 04:00",
 				end: "april 10 2025, 11:59",
 			},
@@ -883,7 +883,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "",
+                name: "Pluvia☆Magica & Missile Fire",
                 "start": "march 26 2025, 18:00",
                 "end": "april 10 2025, 11:59",
                // extraPriority: 1000
