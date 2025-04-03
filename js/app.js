@@ -58,7 +58,7 @@ var nextAnniv = moment.tz(nextAnniversary, "MMM D YYYY, H:mm", "Asia/Tokyo");
 var vm = new Vue({
     el: '#app',
     data: {
-        currentZone: "japan",
+        currentZone: "local",
         japanTime: null,
         localTime: null,
         timersData: null,

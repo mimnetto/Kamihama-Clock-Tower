@@ -399,6 +399,11 @@ var timerData = [
 				name: "Training Spree Missions",
                 "start": "march 26 2025, 18:00",
                 "end": "april 04 2025, 11:59",
+			},
+			{
+				name: "1 Million Downloads Celebration Main Quest Clear",
+                "start": "march 30 2025, 12:00",
+                "end": "april 14 2025, 11:59",
 			}
         ]
     },
