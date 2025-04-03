@@ -829,7 +829,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Pickup Fate Weave】★5 Mami Tomoe Trio Finale ",
+			"【Pickup Fate Weave】★5 Mami Tomoe Tiro Finale ",
             "『 ★5 [ティロ・フィナーレ] 巴マミ』"
         ],
         "image": [
