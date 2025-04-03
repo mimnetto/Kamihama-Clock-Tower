@@ -888,20 +888,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited】Paid-only Step Up Gacha Magia ☆ Report Edition",
-            "『有償限定 ステップアップガチャ マギア☆レポート編』"
+			"【Pickup Fate Weave】5★ Kyoko Sakura - Kugatachi ",
+            "『 ★5 佐倉杏子』"
         ],
         "image": [
-            "imgs/gacha/papa02.png",
+            "imgs/exedra/gacha00/kyoko.png",
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 0,
         "timers": [
             {
-                name: "Rerun",
-				start: "april 1 2024, 16:00",
-				end: "april 8 2024, 14:59",
-               // extraPriority: 1000
+                name: "",
+                "start": "april 4 2025, 12:00",
+                "end": "april 14 2025, 11:59",
             }
         ]
     },
