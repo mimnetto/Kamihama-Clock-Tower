@@ -690,7 +690,7 @@ var timerData = [
 			{
 				name: "Mami Tomoe",
 				start: "march 29 2025, 23:00",
-				end: "april 10 2025, 11:59",
+				end: "april 14 2025, 11:59",
 			},
 			{
 				name: "Madoka Kaname & Homura Akemi",
