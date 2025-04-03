@@ -403,7 +403,7 @@ var timerData = [
 			{
 				name: "1 Million Downloads Celebration Main Quest Clear",
                 "start": "march 30 2025, 12:00",
-                "end": "april 14 2025, 11:59",
+                "end": "april 25 2025, 11:59",
 			}
         ]
     },
@@ -920,13 +920,13 @@ var timerData = [
             {
                 name: "One Per Day Free Fate Weave!",
 				start: "march 26 2025, 18:00",
-				end: "april 9 2025, 11:59",
+				end: "april 10 2025, 11:59",
                extraPriority: 1000
             },
 			{
                 name: "Paid One ★5 Guaranteed",
 				start: "march 26 2025, 18:00",
-				end: "april 9 2025, 11:59",
+				end: "april 10 2025, 11:59",
                extraPriority: 1000
             }
         ]
