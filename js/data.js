@@ -433,14 +433,19 @@ var timerData = [
 			"『フェアウェル・ストーリー』"
         ],
         "image": [
-			"imgs/exedra/events00/seeya.png"
+			"imgs/exedra/events00/seeya.png",
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "Limited Story",
+				name: "Part 1",
                 "start": "march 29 2025, 23:00",
+                "end": "april 14 2025, 11:59",
+			},
+			{
+				name: "Part 2",
+                "start": "April 4 2025, 12:00",
                 "end": "april 14 2025, 11:59",
 			}
         ]
