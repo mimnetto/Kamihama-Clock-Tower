@@ -399,9 +399,23 @@ var timerData = [
 				name: "Training Spree Missions",
                 "start": "march 26 2025, 18:00",
                 "end": "april 04 2025, 11:59",
-			},
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+            "1 Million Downloads Celebration Main Quest Clears",
+			"『100万ダウンロード記念』"
+        ],
+        "image": [
+			"imgs/exedra/events00/mil.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
 			{
-				name: "1 Million Downloads Celebration Main Quest Clear",
+				name: "Clear Mermaid Witch (Standard)",
                 "start": "march 30 2025, 12:00",
                 "end": "april 25 2025, 11:59",
 			}
@@ -439,12 +453,12 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "Part 1",
+				name: "Part I",
                 "start": "march 29 2025, 23:00",
                 "end": "april 14 2025, 11:59",
 			},
 			{
-				name: "Part 2",
+				name: "Part II",
                 "start": "April 4 2025, 12:00",
                 "end": "april 14 2025, 11:59",
 			}
@@ -674,7 +688,7 @@ var timerData = [
 				"end": "april 09 2025, 11:59",
 			},	
 		{
-			name: "Farewell Story",
+			name: "Farewell Story I & II",
 			"start": "march 29 2025, 23:00",
 			"end": "april 15 2025, 11:59",
 		}	
