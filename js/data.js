@@ -761,6 +761,30 @@ var timerData = [
 		}
 		]
 	},
+	{
+		type: "Other",
+		title: [
+		"Player Match",
+		"『プレイヤーマッチ』"
+		],
+		image: [
+            "imgs/exedra/other/player-match.png"
+        ],
+		column: 2,
+		priority: 0,
+		timers: [
+			{
+				name: "Season 01",
+				start: "march 27 2025, 5:00",
+				end: "april 14 2025, 4:59",
+			},
+			{
+				name: "Match Medal Shop Reset",
+				start: "march 27 2025, 5:00",
+				end: "may 1 2025, 4:59",
+			},
+		]
+	},
 {
 		type: "Other",
 		title: [
@@ -771,7 +795,7 @@ var timerData = [
             "imgs/exedra/other/fate-pool.png"
         ],
 		column: 2,
-		priority: 2,
+		priority: 0,
 		timers: [
 			{
 				name: "★5 Mami Tomoe | Tiro Finale - Buffer",
@@ -782,16 +806,6 @@ var timerData = [
 				name: "★5 Kyoko Sakura | Kugatachi - Attacker",
 				start: "april 10 2025, 16:00",
 				end: "may 31 2025, 12:00",
-			},
-			{
-				name: "Shi - Navy Blue",
-				start: "may 10 2024, 16:00",
-				end: "may 27 2024, 14:59",
-			},
-			{
-				name: "Rerun Mizugi Magical Girls - 2018-2022",
-				start: "may 22 2024, 16:00",
-				end: "jun 7 2024, 14:59",
 			},
 		]
 	},
