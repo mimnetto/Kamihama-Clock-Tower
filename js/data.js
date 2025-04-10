@@ -223,42 +223,38 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Event】Annihilation Battle: Witches' Paradox",
-			"『殲滅戦～魔女たちのパラドクス～』"
+			"【Event】Limited-Time Score Attack Support Missions ",
+			"『スコアアタック攻略応援ミッション』"
         ],
         "image": [
-            "imgs/events/witchpara.png"
+            "imgs/exedra/events00/score-attack.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
 				"name": "",
-                "start": "june 24 2024, 17:00",
-                "end": "july 1 2024, 14:59",
+                "start": "April 7 2025, 12:00",
+                "end": "april 15 2025, 11:59",
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-            "【Campaign】Golden Week ",
-			"『ゴールデンウィークキャンペーン』"
+			"【Event】The Case Files of the Coordinator 1: The Many-Worlds Interpretation Poesy",
+			"『調整屋さんの事件簿１ 多世界解釈のポエジー』"
         ],
         "image": [
-			"imgs/camp/gold.png",
-			"imgs/camp/gold00.png"
+            "imgs/exedra/events00/case-files.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
-				name: "",
-				start: "april 30 2021, 12:00",
-				end: "may 10 2021, 23:59",
-				//extraPriority: 100,
-				markers:
-				[{title: "", time: "sep 10 2023, 16:00", type: "star"}]
+				"name": "",
+                "start": "April 11 2025, 12:00",
+                "end": "april 25 2025, 11:59",
 			}
         ]
     },
@@ -412,7 +408,7 @@ var timerData = [
 			"imgs/exedra/events00/mil.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
 			{
 				name: "Clear Mermaid Witch (Standard)",
@@ -647,7 +643,7 @@ var timerData = [
     },
 
 	{
-        "type": "Shop",
+        "type": "Shops",
         "title": [
             "Monthly Shops",
 			"毎月ショップ"
@@ -707,19 +703,19 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Mami Tomoe",
+				name: "Mami Tomoe - Tiro Finale",
 				start: "march 29 2025, 23:00",
 				end: "april 14 2025, 11:59",
 			},
 			{
-				name: "Madoka Kaname  & Homura Akemi",
-				start: "march 26 2025, 04:00",
-				end: "april 10 2025, 11:59",
+				name: "Kyoko Sakura - Kugatachi",
+                "start": "april 4 2025, 12:00",
+                "end": "april 14 2025, 11:59",
 			},
 			{
-				name: "Iroha Tamaki & Yachiyo Nanami & Tsuruno Yui",
-				start: "march 26 2025, 04:00",
-				end: "april 10 2025, 11:59",
+				name: "Team Momoko",
+                "start": "april 11 2025, 12:00",
+                "end": "april 25 2025, 11:59",
 			},
 		]
 	},
@@ -768,24 +764,24 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"Paid Step-Up Selection Tickets",
-		"『交換チケット』"
+		"Unlimited Fate Weave Pool Additions",
+		"Countdown"
 		],
 		image: [
-            "imgs/selction-tix.png"
+            "imgs/exedra/other/fate-pool.png"
         ],
 		column: 2,
 		priority: 2,
 		timers: [
 			{
-				name: "Yu - Black",
-				start: "april 22 2024, 16:00",
-				end: "may 17 2024, 14:59",
+				name: "★5 Mami Tomoe | Tiro Finale - Buffer",
+				start: "april 10 2025, 16:00",
+				end: "may 31 2025, 12:00",
 			},
 			{
-				name: "Iroha・Kuroe - Peach",
-				start: "may 10 2024, 16:00",
-				end: "may 27 2024, 14:59",
+				name: "★5 Kyoko Sakura | Kugatachi - Attacker",
+				start: "april 10 2025, 16:00",
+				end: "may 31 2025, 12:00",
 			},
 			{
 				name: "Shi - Navy Blue",
@@ -848,7 +844,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Pickup Fate Weave】★5 Mami Tomoe Tiro Finale ",
+			"【Pickup Fate Weave】★5 Mami Tomoe ",
             "『 ★5 [ティロ・フィナーレ] 巴マミ』"
         ],
         "image": [
@@ -858,7 +854,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "Buffer",
+                name: " Tiro Finale - Buffer",
                 "start": "march 29 2025, 12:00",
                 "end": "april 14 2025, 11:59",
             }
@@ -867,20 +863,38 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Pickup Fate Weave】Iroha Tamaki & Yachiyo Nanami & Tsuruno Yui",
-            "『環いろは＆七海やちよ＆由比鶴乃 ピックアップガチャ開催中』"
+			"【Pickup Fate Weave】5★ Kyoko Sakura",
+            "『 ★5 佐倉杏子』"
         ],
         "image": [
-			"imgs/exedra/gacha00/villa-banner.png"
+            "imgs/exedra/gacha00/kyoko.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "",
-                "start": "march 26 2025, 18:00",
-                "end": "april 10 2025, 11:59",
-               // extraPriority: 1000
+                name: "Kugatachi - Attacker",
+                "start": "april 4 2025, 12:00",
+                "end": "april 14 2025, 11:59",
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Pickup Fate Weave】★5 Team Momoko",
+            "『 ★5 チームモモコ 』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/banner-momoko.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Edge of the Universe ★5 Momoko | Infinite Poseidon ★5 Rena | Judgement Earth ★5 Kaede ",
+                "start": "april 11 2025, 12:00",
+                "end": "april 25 2025, 11:59",
             }
         ]
     },
@@ -901,25 +915,6 @@ var timerData = [
                 "start": "march 26 2025, 18:00",
                 "end": "april 10 2025, 11:59",
                // extraPriority: 1000
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Pickup Fate Weave】5★ Kyoko Sakura - Kugatachi ",
-            "『 ★5 佐倉杏子』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/kyoko.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "",
-                "start": "april 4 2025, 12:00",
-                "end": "april 14 2025, 11:59",
             }
         ]
     },
