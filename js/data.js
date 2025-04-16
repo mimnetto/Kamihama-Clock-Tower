@@ -915,7 +915,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Pickup Fate Weave】★5 Team Momoko",
+			"【Featured Fate Weave】★5 Team Momoko ",
             "『 ★5 チームモモコ 』"
         ],
         "image": [
@@ -925,7 +925,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "Edge of the Universe ★5 Momoko | Infinite Poseidon ★5 Rena | Judgement Earth ★5 Kaede ",
+                name: "[Edge of the Universe] Momoko | [Infinite Poseidon] Rena | [Judgement Earth] Kaede ",
                 "start": "april 11 2025, 12:00",
                 "end": "april 25 2025, 11:59",
             }
@@ -934,17 +934,17 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Featured】[Strada Futuro] Iroha Tamaki & [Pluvia☆Magica] Madoka Kaname",
+			"【Featured Fate Weave】Powerful 5★ Breakers",
             "『強力な★5ブレイカー』"
         ],
         "image": [
-            "imgs/exedra/gacha00/homu-mado.png",
+            "imgs/exedra/gacha00/breaker.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "5★ Breakers",
+                name: "[Strada Futuro] Iroha | [Pluvia☆Magica] Madoka",
                 "start": "april 14 2025, 12:00",
                 "end": "april 21 2025, 11:59",
                // extraPriority: 1000
