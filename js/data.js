@@ -935,7 +935,7 @@ var timerData = [
         "type": "Gacha",
         "title": [
 			"【Featured】[Strada Futuro] Iroha Tamaki & [Pluvia☆Magica] Madoka Kaname",
-            "『鹿目まどか＆暁美ほむらピックアップガチャ』"
+            "『強力な★5ブレイカー』"
         ],
         "image": [
             "imgs/exedra/gacha00/homu-mado.png",
