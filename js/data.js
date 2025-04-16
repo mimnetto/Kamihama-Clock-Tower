@@ -242,6 +242,25 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+			"【Event】Training Spree Missions Part 3",
+			"『育成応援ミッション第3弾』"
+        ],
+        "image": [
+            "imgs/exedra/events00/training03.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				"name": "",
+                "start": "April 11 2025, 12:00",
+                "end": "april 17 2025, 11:59",
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
 			"【Event】The Case Files of the Coordinator 1: The Many-Worlds Interpretation Poesy",
 			"『調整屋さんの事件簿１ 多世界解釈のポエジー』"
         ],
@@ -774,9 +793,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 01",
-				start: "march 27 2025, 5:00",
-				end: "april 14 2025, 4:59",
+				name: "Season 02",
+				start: "april 14 2025, 12:00",
+				end: "april 28 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop Reset",
@@ -799,13 +818,13 @@ var timerData = [
 		timers: [
 			{
 				name: "★5 Mami Tomoe | Tiro Finale - Buffer",
-				start: "april 10 2025, 16:00",
-				end: "may 31 2025, 12:00",
+				start: "april 10 2024, 16:00",
+				end: "may 31 2024, 12:00",
 			},
 			{
 				name: "★5 Kyoko Sakura | Kugatachi - Attacker",
-				start: "april 10 2025, 16:00",
-				end: "may 31 2025, 12:00",
+				start: "april 10 2024, 16:00",
+				end: "may 31 2024, 12:00",
 			},
 		]
 	},
@@ -915,7 +934,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Pickup Fate Weave】Madoka Kaname & Homura Akemi",
+			"【Featured】[Strada Futuro] Iroha Tamaki & [Pluvia☆Magica] Madoka Kaname",
             "『鹿目まどか＆暁美ほむらピックアップガチャ』"
         ],
         "image": [
@@ -925,9 +944,9 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "Pluvia☆Magica & Missile Fire",
-                "start": "march 26 2025, 18:00",
-                "end": "april 10 2025, 11:59",
+                name: "5★ Breakers",
+                "start": "april 14 2025, 12:00",
+                "end": "april 21 2025, 11:59",
                // extraPriority: 1000
             }
         ]
