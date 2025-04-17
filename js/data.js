@@ -280,24 +280,22 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Rerun】Nagisa Momoe's Wish Granted",
-			"『百江なぎさは願いを叶えた』"
+			"【Event】Sunny Day Life Part I",
+			"『サニーデイライフ 前編』"
         ],
         "image": [
-			"imgs/events/cheese00.png",
+            "imgs/exedra/events00/sunny.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 0,
         "timers": [
 			{
-				name: "Rerun with New Yu Live 2D",
-				start: "april 22 2024, 16:00",
-				end: "april 30 2024, 14:59",
-				markers:
-				[{title: "Challenge", time: "april 25 2024, 16:00", type: "star"}]
-			},
-		]
-	},
+				"name": "",
+                "start": "april 18 2025, 12:00",
+                "end": "may 9 2025, 11:59",
+			}
+        ]
+    },
 	{
         "type": "Event",
         "title": [
@@ -698,9 +696,9 @@ var timerData = [
 		priority: 5,
 		timers: [	
 			{
-				name: "Dance☆Magica",
-				"start": "march 31 2025, 11:00",
-				"end": "april 09 2025, 11:59",
+				name: "The Case Files of the Coordinator 1",
+				"start": "April 11 2025, 12:00",
+				"end": "april 26 2025, 11:59",
 			},	
 		{
 			name: "Farewell Story I & II",
@@ -896,25 +894,6 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Pickup Fate Weave】5★ Kyoko Sakura",
-            "『 ★5 佐倉杏子』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/kyoko.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "Kugatachi - Attacker",
-                "start": "april 4 2025, 12:00",
-                "end": "april 14 2025, 11:59",
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
 			"【Featured Fate Weave】★5 Team Momoko ",
             "『 ★5 チームモモコ 』"
         ],
@@ -948,6 +927,25 @@ var timerData = [
                 "start": "april 14 2025, 12:00",
                 "end": "april 21 2025, 11:59",
                // extraPriority: 1000
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Featured Fate Weave】 5★ [Baldamente Fortissimo] Sayaka Miki",
+            "『★5 美樹さやか』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/sayaka.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Defender",
+                "start": "april 18 2025, 12:00",
+                "end": "may 9 2025, 11:59",
             }
         ]
     },
