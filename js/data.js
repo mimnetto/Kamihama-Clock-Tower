@@ -261,25 +261,6 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Event】The Case Files of the Coordinator 1: The Many-Worlds Interpretation Poesy",
-			"『調整屋さんの事件簿１ 多世界解釈のポエジー』"
-        ],
-        "image": [
-            "imgs/exedra/events00/case-files.png"
-        ],
-        "column": 0,
-        "priority": 0,
-        "timers": [
-			{
-				"name": "",
-                "start": "April 11 2025, 12:00",
-                "end": "april 25 2025, 11:59",
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
 			"【Event】Sunny Day Life Part I",
 			"『サニーデイライフ 前編』"
         ],
@@ -293,6 +274,25 @@ var timerData = [
 				"name": "",
                 "start": "april 18 2025, 12:00",
                 "end": "may 9 2025, 11:59",
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+			"【Event】The Case Files of the Coordinator 1: The Many-Worlds Interpretation Poesy",
+			"『調整屋さんの事件簿１ 多世界解釈のポエジー』"
+        ],
+        "image": [
+            "imgs/exedra/events00/case-files.png"
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				"name": "",
+                "start": "April 11 2025, 12:00",
+                "end": "april 25 2025, 11:59",
 			}
         ]
     },
@@ -422,7 +422,7 @@ var timerData = [
 			"『100万ダウンロード記念』"
         ],
         "image": [
-			"imgs/exedra/events00/mil.png"
+			"imgs/exedra/events00/mil.png",
         ],
         "column": 0,
         "priority": 2,
@@ -437,19 +437,38 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Limited-Time】Dance☆Magica",
-			"『Dance☆Magica』"
+            "Tower Opening Celebration Login Bonus",
+			"『タワーリリース記念ログインボーナス』"
         ],
         "image": [
-			"imgs/exedra/events00/dance.png"
+			"imgs/exedra/login/tower00.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
 			{
-				name: "April Fools Bit",
-                "start": "march 31 2025, 11:00",
-                "end": "april 08 2025, 11:59",
+				name: "1,000 Magica Stones",
+                "start": "april 18 2025, 12:00",
+                "end": "may 2 2025, 11:59",
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+            "Training Spree Missions Part 4",
+			"『育成応援ミッション第4弾』"
+        ],
+        "image": [
+			"imgs/exedra/events00/training04.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+			{
+				name: "",
+                "start": "april 18 2025, 12:00",
+                "end": "april 25 2025, 11:59",
 			}
         ]
     },
@@ -700,11 +719,11 @@ var timerData = [
 				"start": "April 11 2025, 12:00",
 				"end": "april 26 2025, 11:59",
 			},	
-		{
-			name: "Farewell Story I & II",
-			"start": "march 29 2025, 23:00",
-			"end": "april 15 2025, 11:59",
-		}	
+			{
+				name: "Sunny Day Life Part I",
+				"start": "april 18 2025, 12:00",
+				"end": "may 10 2025, 11:59",
+			}	
 		]
 	},
 	{
@@ -720,6 +739,11 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
+				name: "Team Momoko",
+                "start": "april 11 2024, 12:00",
+                "end": "april 25 2024, 11:59",
+			},
+			{
 				name: "Mami Tomoe - Tiro Finale",
 				start: "march 29 2025, 23:00",
 				end: "april 14 2025, 11:59",
@@ -728,11 +752,6 @@ var timerData = [
 				name: "Kyoko Sakura - Kugatachi",
                 "start": "april 4 2025, 12:00",
                 "end": "april 14 2025, 11:59",
-			},
-			{
-				name: "Team Momoko",
-                "start": "april 11 2025, 12:00",
-                "end": "april 25 2025, 11:59",
 			},
 		]
 	},
@@ -875,19 +894,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Pickup Fate Weave】★5 Mami Tomoe ",
-            "『 ★5 [ティロ・フィナーレ] 巴マミ』"
+			"【Featured Fate Weave】 5★ [Baldamente Fortissimo] Sayaka Miki",
+            "『★5 美樹さやか』"
         ],
         "image": [
-            "imgs/exedra/gacha00/mami-banner.png",
+            "imgs/exedra/gacha00/sayaka.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: " Tiro Finale - Buffer",
-                "start": "march 29 2025, 12:00",
-                "end": "april 14 2025, 11:59",
+                name: "Defender",
+                "start": "april 18 2025, 12:00",
+                "end": "may 9 2025, 11:59",
             }
         ]
     },
@@ -933,46 +952,21 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Featured Fate Weave】 5★ [Baldamente Fortissimo] Sayaka Miki",
-            "『★5 美樹さやか』"
+			"【Featured Fate Weave 】5★ Attacker",
+            "『★5アタッカーピックアップ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/sayaka.png",
+            "imgs/exedra/gacha00/attacker00.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Defender",
-                "start": "april 18 2025, 12:00",
-                "end": "may 9 2025, 11:59",
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Limited Time】Release Celebration Gachas",
-            "『リリース記念5大キャンペーン』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/free-re.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "One Per Day Free Fate Weave!",
-				start: "march 26 2025, 18:00",
-				end: "april 10 2025, 11:59",
+                name: "[Concentrated Missile Fire] Homura | [Absolute Rain] Yachiyo |  [Oracle Ray] Oriko ",
+				start: "april 21 2025, 12:00",
+				end: "april 28 2025, 11:59",
                extraPriority: 1000
             },
-			{
-                name: "Paid One ★5 Guaranteed",
-				start: "march 26 2025, 18:00",
-				end: "april 10 2025, 11:59",
-               extraPriority: 1000
-            }
         ]
     },
 
