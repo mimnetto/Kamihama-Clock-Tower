@@ -447,7 +447,7 @@ var timerData = [
         "priority": 2,
         "timers": [
 			{
-				name: "1,000 Magica Stones",
+				name: "Login 10 days for 1,000 Magica Stones",
                 "start": "april 18 2025, 12:00",
                 "end": "may 2 2025, 11:59",
 			}
@@ -962,7 +962,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "[Concentrated Missile Fire] Homura | [Absolute Rain] Yachiyo |  [Oracle Ray] Oriko ",
+                name: "[Concentrated Missile Fire] Homura | [Absolute Rain] Yachiyo | [Oracle Ray] Oriko",
 				start: "april 21 2025, 12:00",
 				end: "april 28 2025, 11:59",
                extraPriority: 1000
