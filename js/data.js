@@ -223,6 +223,25 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+			"【Campaign】Golden Week Missions and Login Bonus",
+			"『GWキャンペーンミッション開催』"
+        ],
+        "image": [
+            "imgs/exedra/camp/golden-login.png",
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				"name": "End date tentative",
+                "start": "april 25 2025, 12:00",
+                "end": "may 2 2025, 11:59",
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
 			"【Event】Limited-Time Score Attack Support Missions ",
 			"『スコアアタック攻略応援ミッション』"
         ],
@@ -233,35 +252,16 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "",
-                "start": "April 7 2025, 12:00",
-                "end": "april 15 2025, 11:59",
+				"name": "End date tentative",
+                "start": "april 25 2025, 12:00",
+                "end": "may 9 2025, 11:59",
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-			"【Event】Training Spree Missions Part 3",
-			"『育成応援ミッション第3弾』"
-        ],
-        "image": [
-            "imgs/exedra/events00/training03.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			{
-				"name": "",
-                "start": "April 11 2025, 12:00",
-                "end": "april 17 2025, 11:59",
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"【Event】Sunny Day Life Part I",
+			"【Story Event】Sunny Day Life",
 			"『サニーデイライフ 前編』"
         ],
         "image": [
@@ -271,8 +271,13 @@ var timerData = [
         "priority": 0,
         "timers": [
 			{
-				"name": "",
+				"name": "Part I",
                 "start": "april 18 2025, 12:00",
+                "end": "may 9 2025, 11:59",
+			},
+			{
+				"name": "Part II",
+                "start": "april 25 2025, 12:00",
                 "end": "may 9 2025, 11:59",
 			}
         ]
@@ -431,6 +436,25 @@ var timerData = [
 				name: "Clear Mermaid Witch (Standard)",
                 "start": "march 30 2025, 12:00",
                 "end": "april 25 2025, 11:59",
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+            "Golden Week Campaign",
+			"『タワーリリース記念ログインボーナス』"
+        ],
+        "image": [
+			"imgs/exedra/login/tower00.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+			{
+				name: "Login 10 days for 1,000 Magica Stones",
+                "start": "april 18 2025, 12:00",
+                "end": "may 2 2025, 11:59",
 			}
         ]
     },
@@ -874,20 +898,40 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Special Gacha】Choose Your Limited 4★ Magical Girl Gacha",
-            "『選べる期間限定★4魔法少女ピックアップガチャ』"
+			"【Golden Week Celebration】One Per Day Free Fate Weave",
+            "『GW記念！1日1回無料ガチャ開催』"
         ],
         "image": [
-            "imgs/exedra/gacha00/mami-banner.png",
+            "imgs/exedra/gacha00/free.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Free Daily 10x Pulls",
-                start: "june 1 2024, 00:00",
-                end: "july 31 2024, 14:59",
-               extraPriority: 1000
+                name: "",
+                "start": "april 25 2025, 12:00",
+                "end": "may 2 2025, 11:59",
+               // extraPriority: 1000
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Featured Fate Weave】5★ [Time Stop Strike] Homura Akemi",
+            "『★5 暁美ほむら(眼鏡)』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/moemura.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Buffer - Void",
+                "start": "april 25 2025, 12:00",
+                "end": "may 9 2025, 11:59",
+            //    extraPriority: 1000
             }
         ]
     },
@@ -913,6 +957,26 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
+			"【Featured Fate Weave 】5★ Attacker",
+            "『★5アタッカーピックアップ』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/attacker00.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "[Concentrated Missile Fire] Homura | [Absolute Rain] Yachiyo | [Oracle Ray] Oriko",
+				start: "april 21 2025, 12:00",
+				end: "april 28 2025, 11:59",
+            //    extraPriority: 1000
+            },
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
 			"【Featured Fate Weave】★5 Team Momoko ",
             "『 ★5 チームモモコ 』"
         ],
@@ -929,47 +993,6 @@ var timerData = [
             }
         ]
     },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Featured Fate Weave】Powerful 5★ Breakers",
-            "『強力な★5ブレイカー』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/breaker.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "[Strada Futuro] Iroha | [Pluvia☆Magica] Madoka",
-                "start": "april 14 2025, 12:00",
-                "end": "april 21 2025, 11:59",
-               // extraPriority: 1000
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Featured Fate Weave 】5★ Attacker",
-            "『★5アタッカーピックアップ』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/attacker00.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "[Concentrated Missile Fire] Homura | [Absolute Rain] Yachiyo | [Oracle Ray] Oriko",
-				start: "april 21 2025, 12:00",
-				end: "april 28 2025, 11:59",
-               extraPriority: 1000
-            },
-        ]
-    },
-
 	{
         "type": "Gacha",
         "title": [
