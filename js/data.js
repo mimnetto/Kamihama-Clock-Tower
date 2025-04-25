@@ -233,7 +233,7 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "End date tentative",
+				"name": "Delayed! - End date tentative",
                 "start": "april 25 2025, 12:00",
                 "end": "may 2 2025, 11:59",
 			}
@@ -252,7 +252,7 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "End date tentative",
+				"name": "Delayed! - End date tentative",
                 "start": "april 25 2025, 12:00",
                 "end": "may 9 2025, 11:59",
 			}
@@ -276,7 +276,7 @@ var timerData = [
                 "end": "may 9 2025, 11:59",
 			},
 			{
-				"name": "Part II",
+				"name": "Delayed! Part II",
                 "start": "april 25 2025, 12:00",
                 "end": "may 9 2025, 11:59",
 			}
@@ -442,7 +442,7 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Golden Week Campaign",
+            "Tower Opening Campaign",
 			"『タワーリリース記念ログインボーナス』"
         ],
         "image": [
@@ -908,7 +908,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "",
+                name: "Delayed! Release time not yet determined. ",
                 "start": "april 25 2025, 12:00",
                 "end": "may 2 2025, 11:59",
                // extraPriority: 1000
@@ -928,7 +928,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "Buffer - Void",
+                name: "Delayed! Buffer - Void",
                 "start": "april 25 2025, 12:00",
                 "end": "may 9 2025, 11:59",
             //    extraPriority: 1000
