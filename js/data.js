@@ -233,9 +233,9 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "Delayed! - End date tentative",
+				"name": "",
                 "start": "april 25 2025, 12:00",
-                "end": "may 2 2025, 11:59",
+                "end": "may 12 2025, 4:59",
 			}
         ]
     },
@@ -252,7 +252,7 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "Delayed! - End date tentative",
+				"name": "",
                 "start": "april 25 2025, 12:00",
                 "end": "may 9 2025, 11:59",
 			}
@@ -276,7 +276,7 @@ var timerData = [
                 "end": "may 9 2025, 11:59",
 			},
 			{
-				"name": "Delayed! Part II",
+				"name": "Part II",
                 "start": "april 25 2025, 12:00",
                 "end": "may 9 2025, 11:59",
 			}
@@ -908,9 +908,9 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "Delayed! Release time not yet determined. ",
+                name: "",
                 "start": "april 25 2025, 12:00",
-                "end": "may 2 2025, 11:59",
+                "end": "may 12 2025, 11:59",
                // extraPriority: 1000
             }
         ]
@@ -928,7 +928,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "Delayed! Buffer - Void",
+                name: "Buffer - Void",
                 "start": "april 25 2025, 12:00",
                 "end": "may 9 2025, 11:59",
             //    extraPriority: 1000
