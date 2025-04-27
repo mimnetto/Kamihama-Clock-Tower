@@ -744,7 +744,7 @@ var timerData = [
 				"end": "april 26 2025, 11:59",
 			},	
 			{
-				name: "Sunny Day Life Part I",
+				name: "Sunny Day Life Part I & II",
 				"start": "april 18 2025, 12:00",
 				"end": "may 10 2025, 11:59",
 			}	
@@ -996,22 +996,21 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Rerun】Mizugi Magical Girls 2022 Edition Pickup & Stepup Gachas",
-            "『有償限定 ステップアップガチャ 水着魔法少女2022編』"
+			"【Featured Fate Weave 】5★ Defender",
+            "『★5ディフェンダーピックアップガチャが』"
         ],
         "image": [
-            "imgs/summer/sp2200.png",
-			"imgs/summer/sp2201.png"
+            "imgs/exedra/gacha00/defend.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Limited",
-				start: "may 22 2024, 16:00",
-				end: "may 31 2024, 14:59",
-				extraPriority: 100,
-            }
+                name: "[Folter Gefängnis] Sana | [Vampire Fang] Kirika",
+				start: "april 28 2025, 12:00",
+				end: "may 5 2025, 11:59",
+            //    extraPriority: 1000
+            },
         ]
     },
 	{
