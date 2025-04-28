@@ -834,9 +834,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 02",
-				start: "april 14 2025, 12:00",
-				end: "april 28 2025, 4:59",
+				name: "Season 03",
+				start: "april 28 2025, 12:00",
+				end: "may 12 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop Reset",
