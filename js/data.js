@@ -183,47 +183,44 @@ var timerData = [
 			}
 			]
     },
-	// Alina's Atelier
 	{
         "type": "Event",
         "title": [
-            "Magia Exedra Global Launch Day",
-			"『マギアエクセドラリリース』"
+            "Login Bonus",
+			"『グインボーナス』"
         ],
         "image": [
-			"imgs/exban/exr07.png",
-			"imgs/exban/exr02.png",
-			"imgs/exban/exr05.png",
-			"imgs/exban/exr06.png",
-			"imgs/exban/exr04.png",
-			"imgs/exban/exr03.png",
-			"imgs/exban/exr00.png",
-			"imgs/exban/exr01.png",
+			"imgs/exedra/login/login.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
 			{
-				name: " iOS & Android Confirmed Release!",
-				start: "July 2 2024, 00:00",
-				end: "march 27 2025, 06:00",
+				name: "Tower Opening Campaign - Login any 10 Days",
+                "start": "april 18 2025, 12:00",
+                "end": "may 2 2025, 11:59",
 			},
 			{
-				name: "Pre-download",
-				start: "March 25 2025, 12:00",
-				end: "march 26 2025, 17:00",
+				name: "Golden Week",
+                "start": "april 25 2025, 12:00",
+                "end": "may 12 2025, 4:59",
 			},
 			{
-				name: "Early Access",
-				start: "march 26 2025, 17:00",
-				end: "march 27 2025, 06:00",
+				name: "Ultimate Madoka Release Celebration Countdown",
+                "start": "april 30 2025, 12:00",
+                "end": "may 3 2025, 4:59",
+			},
+			{
+				name: "Ultimate Madoka Release Celebration",
+                "start": "May 2 2025, 12:00",
+                "end": "may 19 2025, 4:59",
 			},
         ]
     },
 	{
         "type": "Event",
         "title": [
-			"【Campaign】Golden Week Missions and Login Bonus",
+			"【Campaign】Golden Week Missions",
 			"『GWキャンペーンミッション開催』"
         ],
         "image": [
@@ -235,7 +232,7 @@ var timerData = [
 			{
 				"name": "",
                 "start": "april 25 2025, 12:00",
-                "end": "may 12 2025, 4:59",
+                "end": "may 12 2025, 9:59",
 			}
         ]
     },
@@ -285,19 +282,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Event】The Case Files of the Coordinator 1: The Many-Worlds Interpretation Poesy",
-			"『調整屋さんの事件簿１ 多世界解釈のポエジー』"
+			"【Event】Memories of you",
+			"『Memories of you 前編』"
         ],
         "image": [
-            "imgs/exedra/events00/case-files.png"
+            "imgs/exedra/events00/memo-you.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
-				"name": "",
-                "start": "April 11 2025, 12:00",
-                "end": "april 25 2025, 11:59",
+				"name": "End date Tentative",
+                "start": "may 2 2025, 12:00",
+                "end": "may 16 2025, 11:59",
 			}
         ]
     },
@@ -436,44 +433,6 @@ var timerData = [
 				name: "Clear Mermaid Witch (Standard)",
                 "start": "march 30 2025, 12:00",
                 "end": "april 25 2025, 11:59",
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-            "Tower Opening Campaign",
-			"『タワーリリース記念ログインボーナス』"
-        ],
-        "image": [
-			"imgs/exedra/login/tower00.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-			{
-				name: "Login 10 days for 1,000 Magica Stones",
-                "start": "april 18 2025, 12:00",
-                "end": "may 2 2025, 11:59",
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-            "Tower Opening Celebration Login Bonus",
-			"『タワーリリース記念ログインボーナス』"
-        ],
-        "image": [
-			"imgs/exedra/login/tower00.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-			{
-				name: "Login 10 days for 1,000 Magica Stones",
-                "start": "april 18 2025, 12:00",
-                "end": "may 2 2025, 11:59",
 			}
         ]
     },
@@ -715,15 +674,15 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Paid Celebration Packs",
-				start: "march 26 2025, 18:00",
-				end: "april 30 2025, 11:59"
+				name: "Golden Week Celebration Packs",
+				start: "april 30 2025, 10:00",
+				end: "may 31 2025, 9:59"
 			},
 			{
-				name: "Web Shop Exclusives",
-				start: "march 26 2025, 18:00",
-				end: "april 30 2025, 11:59"
-			}
+				name: "Premium Bonus Sales",
+				start: "april 30 2025, 10:00",
+				end: "may 31 2025, 9:59"
+			},
         ]
     },
 	{
@@ -739,15 +698,15 @@ var timerData = [
 		priority: 5,
 		timers: [	
 			{
-				name: "The Case Files of the Coordinator 1",
-				"start": "April 11 2025, 12:00",
-				"end": "april 26 2025, 11:59",
-			},	
-			{
 				name: "Sunny Day Life Part I & II",
 				"start": "april 18 2025, 12:00",
 				"end": "may 10 2025, 11:59",
-			}	
+			},
+			{
+				name: "Archive Medal Reset",
+				start: "may 01 2025, 5:00",
+				end: "june 1 2025, 4:59",
+			},	
 		]
 	},
 	{
@@ -840,8 +799,8 @@ var timerData = [
 			},
 			{
 				name: "Match Medal Shop Reset",
-				start: "march 27 2025, 5:00",
-				end: "may 1 2025, 4:59",
+				start: "may 01 2025, 5:00",
+				end: "june 1 2025, 4:59",
 			},
 		]
 	},
@@ -910,8 +869,48 @@ var timerData = [
             {
                 name: "",
                 "start": "april 25 2025, 12:00",
-                "end": "may 12 2025, 11:59",
+                "end": "may 2 2025, 9:59",
                // extraPriority: 1000
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Free】Ultimate Madoka: One Per Day Fate Weave",
+            "『アルティメットまどか1日1回無料ガチャ』"
+        ],
+        "image": [
+			"imgs/exedra/gacha00/free-ult.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "",
+                "start": "may 2 2025, 12:00",
+                "end": "may 19 2025, 11:59",
+               // extraPriority: 1000
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Exclusive】5★ [Nothing to Despair, Eve] Ultimate Madoka ",
+            "『★5 暁美ほむら(眼鏡)』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/ult-madoka.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Exclusive Attacker",
+                "start": "may 2 2025, 12:00",
+                "end": "may 19 2025, 11:59",
+            //    extraPriority: 1000
             }
         ]
     },
