@@ -799,7 +799,7 @@ animation: blinker 3s linear infinite;
 /* ******************* */
 
 .update {
-    background-color: hsla(258, 45%, 22%, 0.288);
+    background-color: hsla(313, 83%, 81%, 0.288);
     border-radius: 20px;
     border-style: solid;
     border-width: 3px;
