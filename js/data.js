@@ -897,8 +897,8 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Exclusive】5★ [Nothing to Despair, Eve] Ultimate Madoka ",
-            "『★5 暁美ほむら(眼鏡)』"
+			"【Exclusive】5★ [Nothing to Despair, Ever] Ultimate Madoka ",
+            "『新限定★5[もう絶望する必要なんてない！]アルティメットまどか』"
         ],
         "image": [
             "imgs/exedra/gacha00/ult-madoka.png",
