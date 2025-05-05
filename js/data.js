@@ -1030,7 +1030,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "[Folter Gefängnis] Sana | [Vampire Fang] Kirika",
+                name: "[Flame Waltz] Tsuruno | [Soul Salvation] Ren | [Ultra Great Big Hammer] Felicia ",
 				start: "may 5 2025, 12:00",
 				end: "may 12 2025, 11:59",
             //    extraPriority: 1000
