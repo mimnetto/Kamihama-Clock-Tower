@@ -232,7 +232,7 @@ var timerData = [
 			{
 				"name": "Special Edition - Walpurgisnacht Descends",
                 "start": "may 2 2025, 12:00",
-                "end": "may 16 2025, 11:59",
+                "end": "may 19 2025, 11:59",
 			},
 			{
 				"name": "Score Attack VS Mermaid Witch",
@@ -273,9 +273,9 @@ var timerData = [
         "priority": 0,
         "timers": [
 			{
-				"name": "End date Tentative",
+				"name": "",
                 "start": "may 2 2025, 12:00",
-                "end": "may 16 2025, 11:59",
+                "end": "may 19 2025, 11:59",
 			}
         ]
     },
