@@ -220,6 +220,30 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+			"【Event】Score Attack Missions",
+			"『スコアアタック攻略応援ミッション』"
+        ],
+        "image": [
+            "imgs/exedra/other/score-attack.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				"name": "Special Edition - Walpurgisnacht Descends",
+                "start": "may 2 2025, 12:00",
+                "end": "may 16 2025, 11:59",
+			},
+			{
+				"name": "Score Attack VS Mermaid Witch",
+                "start": "april 25 2025, 12:00",
+                "end": "may 9 2025, 11:59",
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
 			"【Campaign】Golden Week Missions",
 			"『GWキャンペーンミッション開催』"
         ],
@@ -239,19 +263,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Event】Limited-Time Score Attack Support Missions ",
-			"『スコアアタック攻略応援ミッション』"
+			"【Event】Memories of you",
+			"『Memories of you 前編』"
         ],
         "image": [
-            "imgs/exedra/events00/score-attack.png"
+            "imgs/exedra/events00/memo-you.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 0,
         "timers": [
 			{
-				"name": "",
-                "start": "april 25 2025, 12:00",
-                "end": "may 9 2025, 11:59",
+				"name": "End date Tentative",
+                "start": "may 2 2025, 12:00",
+                "end": "may 16 2025, 11:59",
 			}
         ]
     },
@@ -276,25 +300,6 @@ var timerData = [
 				"name": "Part II",
                 "start": "april 25 2025, 12:00",
                 "end": "may 9 2025, 11:59",
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"【Event】Memories of you",
-			"『Memories of you 前編』"
-        ],
-        "image": [
-            "imgs/exedra/events00/memo-you.png"
-        ],
-        "column": 0,
-        "priority": 0,
-        "timers": [
-			{
-				"name": "End date Tentative",
-                "start": "may 2 2025, 12:00",
-                "end": "may 16 2025, 11:59",
 			}
         ]
     },
@@ -1015,188 +1020,21 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Rerun】Mizugi Magical Girls 2020-2021 Edition Pickup & Stepup Gachas",
-            "『ピックアップ&ステップアップガチャ 水着魔法少女2020-2021編』"
+			"【Featured Fate Weave 】5★ Buffer",
+            "『5バッファー＆デバッファーピックアップガチャが』"
         ],
         "image": [
-            "imgs/summer/sp202100.png",
-			"imgs/summer/sp202101.png"
+            "imgs/exedra/gacha00/buffer.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Limited",
-				start: "may 22 2024, 16:00",
-				end: "may 31 2024, 14:59",
-
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Rerun】Mizugi Magical Girls 2018-2019 Edition Pickup & Stepup Gachas",
-            "『ピックアップ&ステップアップガチャ 水着魔法少女2018-2019編』"
-        ],
-        "image": [
-            "imgs/summer/sp181900.png",
-			"imgs/summer/sp181901.png"
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "Limited",
-				start: "may 22 2024, 16:00",
-				end: "may 31 2024, 14:59",
-
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Limited Rerun】Scene0 ver. Magical Girls Pickup Gachas",
-            "『期間限定 scene0 ver.魔法少女編 ピックアップガチャ』"
-        ],
-        "image": [
-			"imgs/scene-zero/mami00.png",
-			"imgs/scene-zero/kyoko00.png",
-			"imgs/scene-zero/sayaka00.png",
-			"imgs/scene-zero/homu00.png",
-			"imgs/scene-zero/mado00.png",
-        ],
-        "column": 1,
-        "priority": 2,
-        "timers": [
-            {
-                name: "",
-				start: "feb 26 2024, 16:00",
-				end: "march 8 2024, 14:59"
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【New Limited】Reira・Seika Pickup and Stepup Gachas",
-            "『ピックアップ&ステップアップガチャ れいら・せいか編』"
-        ],
-        "image": [
-            "imgs/gacha/gacha001.png",
-			"imgs/gacha/gacha002.png"
-        ],
-        "column": 1,
-        "priority": 10,
-        "timers": [
-            {
-                name: "",
-				start: "feb 5 2024, 16:00",
-				end: "feb 19 2024, 14:59",
-            }
-        ]
-    },
-	{
-	"type": "Gacha",
-	"title": [
-		"【Limited Rerun】Valentine Magical Girl 2020-2023 Paid Stepup Gachas",
-		"『ステップアップガチャ バレンタイン魔法少女2020-2023編』"
-	],
-	"image": [
-		"imgs/gacha/vday00sp.png",
-		"imgs/gacha/vday02sp.png",
-
-	],
-	"column": 1,
-	"priority": 5,
-	"timers": [
-		{
-			name: "",
-			start: "feb 5 2024, 16:00",
-			end: "feb 19 2024, 14:59",
-		}
-	]
-},
-{
-	"type": "Gacha",
-	"title": [
-		"【Limited Rerun】Valentine Magical Girl 2020-2023 Pickup Gachas",
-		"『ピックアップガチャ バレンタイン魔法少女2020-2023編』"
-	],
-	"image": [
-		"imgs/gacha/vday01.png",
-		"imgs/gacha/vday02.png",
-		"imgs/gacha/vday00.png",
-
-	],
-	"column": 1,
-	"priority": 5,
-	"timers": [
-		{
-			name: "",
-			start: "feb 5 2024, 16:00",
-			end: "feb 19 2024, 14:59",
-		}
-	]
-},
-	{
-        "type": "Gacha",
-        "title": [
-			"Limited Paid Step Up Historia Gachas",
-            "『有償限定 ステップアップガチャ ピュエラ・ヒストリア編』"
-        ],
-        "image": [
-            "imgs/hist/gacha00.png",
-			"imgs/hist/gacha01.png",
-			"imgs/hist/gacha02.png",
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "",
-				start: "jan 22 2024, 16:00",
-				end: "feb 19 2024, 14:59",
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Choose Your 4★ Memoria Gacha",
-            "『選べる★4メモリアセレクションガチャ』"
-        ],
-        "image": [
-            "imgs/hist/memo00.png",
-        ],
-        "column": 1,
-        "priority": 2,
-        "timers": [
-            {
-                name: "",
-				start: "jan 22 2024, 16:00",
-				end: "feb 19 2024, 14:59",
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Choose Your 4★ Historia Bae Pickup Gacha",
-            "『ピュエラ・ヒストリア 選べる★4魔法少女ピックアップガチャ』"
-        ],
-        "image": [
-            "imgs/hist/choose00.png",
-        ],
-        "column": 1,
-        "priority": 2,
-        "timers": [
-            {
-                name: "",
-				start: "jan 22 2024, 16:00",
-				end: "feb 19 2024, 14:59",
-            }
+                name: "[Folter Gefängnis] Sana | [Vampire Fang] Kirika",
+				start: "may 5 2025, 12:00",
+				end: "may 12 2025, 11:59",
+            //    extraPriority: 1000
+            },
         ]
     },
 	{
