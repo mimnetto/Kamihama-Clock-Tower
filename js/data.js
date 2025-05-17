@@ -206,9 +206,9 @@ var timerData = [
                 "end": "may 12 2025, 4:59",
 			},
 			{
-				name: "Ultimate Madoka Release Celebration Countdown",
-                "start": "april 30 2025, 12:00",
-                "end": "may 3 2025, 4:59",
+				name: "Main Quest Addition Login Bonus",
+                "start": "may 17 2025, 5:00",
+                "end": "may 31 2025, 4:59",
 			},
 			{
 				name: "Ultimate Madoka Release Celebration",
@@ -220,8 +220,8 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Event】Score Attack Missions",
-			"『スコアアタック攻略応援ミッション』"
+			"【Event】Score Attack and Tower Events",
+			"『スコアアタック&タワーミッション』"
         ],
         "image": [
             "imgs/exedra/other/score-attack.png"
@@ -235,35 +235,35 @@ var timerData = [
                 "end": "may 19 2025, 11:59",
 			},
 			{
-				"name": "Score Attack VS Mermaid Witch",
-                "start": "april 25 2025, 12:00",
-                "end": "may 9 2025, 11:59",
+				"name": "Current Tower",
+                "start": "may 9 2025, 12:00",
+                "end": "may 23 2025, 11:59",
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-			"【Campaign】Golden Week Missions",
-			"『GWキャンペーンミッション開催』"
+			"【Story Event】The Case Files of the Coordinator 2: A Drifting Narrative",
+			"『調整屋さんの事件簿２ 漂泊するナラティヴ』"
         ],
         "image": [
-            "imgs/exedra/camp/golden-login.png",
+            "imgs/exedra/events00/case-files02.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 0,
         "timers": [
 			{
 				"name": "",
-                "start": "april 25 2025, 12:00",
-                "end": "may 12 2025, 9:59",
+                "start": "may 16 2025, 15:00",
+                "end": "may 30 2025, 11:59",
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-			"【Event】Memories of you",
+			"【Story Event】Memories of you",
 			"『Memories of you 前編』"
         ],
         "image": [
@@ -276,30 +276,6 @@ var timerData = [
 				"name": "",
                 "start": "may 2 2025, 12:00",
                 "end": "may 19 2025, 11:59",
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"【Story Event】Sunny Day Life",
-			"『サニーデイライフ 前編』"
-        ],
-        "image": [
-            "imgs/exedra/events00/sunny.png"
-        ],
-        "column": 0,
-        "priority": 0,
-        "timers": [
-			{
-				"name": "Part I",
-                "start": "april 18 2025, 12:00",
-                "end": "may 9 2025, 11:59",
-			},
-			{
-				"name": "Part II",
-                "start": "april 25 2025, 12:00",
-                "end": "may 9 2025, 11:59",
 			}
         ]
     },
@@ -703,9 +679,14 @@ var timerData = [
 		priority: 5,
 		timers: [	
 			{
-				name: "Sunny Day Life Part I & II",
-				"start": "april 18 2025, 12:00",
-				"end": "may 10 2025, 11:59",
+				name: "The Case Files of the Coordinator 2: A Drifting Narrative",
+                "start": "may 16 2025, 15:00",
+                "end": "may 31 2025, 11:59",
+			},
+			{
+				name: "Memories of you",
+                "start": "may 2 2025, 12:00",
+                "end": "may 21 2025, 11:59",
 			},
 			{
 				name: "Archive Medal Reset",
@@ -798,9 +779,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 03",
-				start: "april 28 2025, 12:00",
-				end: "may 12 2025, 4:59",
+				name: "Season 04",
+				start: "may 12 2025, 12:00",
+				end: "may 26 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop Reset",
@@ -895,7 +876,27 @@ var timerData = [
                 name: "",
                 "start": "may 2 2025, 12:00",
                 "end": "may 19 2025, 11:59",
-               // extraPriority: 1000
+               extraPriority: 1000
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Featured Fate Weave】5★ [Doppel of Silence] Iroha Tamaki",
+            "『★5 暁美ほむら(眼鏡)』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/iroha-do.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Healer - Dark",
+                "start": "may 16 2025, 15:00",
+                "end": "may 30 2025, 11:59",
+            //    extraPriority: 1000
             }
         ]
     },
@@ -915,26 +916,6 @@ var timerData = [
                 name: "Exclusive Attacker",
                 "start": "may 2 2025, 12:00",
                 "end": "may 19 2025, 11:59",
-            //    extraPriority: 1000
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Featured Fate Weave】5★ [Time Stop Strike] Homura Akemi",
-            "『★5 暁美ほむら(眼鏡)』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/moemura.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "Buffer - Void",
-                "start": "april 25 2025, 12:00",
-                "end": "may 9 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
