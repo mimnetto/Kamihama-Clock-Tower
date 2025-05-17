@@ -884,7 +884,7 @@ var timerData = [
         "type": "Gacha",
         "title": [
 			"【Featured Fate Weave】5★ [Doppel of Silence] Iroha Tamaki",
-            "『★5 暁美ほむら(眼鏡)』"
+            "『★5 [沈黙のドッペル] 環いろは』"
         ],
         "image": [
             "imgs/exedra/gacha00/iroha-do.png",
