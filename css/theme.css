@@ -21,6 +21,11 @@
 	text-align: center;
 }
 
+.theme-dark a {
+    color: #d7c1f3;
+    text-decoration: none;
+    font-weight: 500;
+}
 
 @media screen and (min-width: 580px) {
 	.theme-dark body {
