@@ -55,13 +55,14 @@ div#header h1{
     font-weight: 800;
     font-family: 'Kaushan Script', cursive;
 }
-div#header h4{
+div#header h5{
     font-variant: small-caps;
 }
 div#header h6{
     font-variant: small-caps;
     line-height: 1.4;
 }
+
 .event-group {
     background-color: #ffe0ff;
     padding: 0.5rem;
