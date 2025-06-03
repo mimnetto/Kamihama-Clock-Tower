@@ -196,9 +196,9 @@ var timerData = [
         "priority": 2,
         "timers": [
 			{
-				name: "Tower Opening Campaign - Login any 10 Days",
-                "start": "april 18 2025, 12:00",
-                "end": "may 2 2025, 11:59",
+				name: "Scene 0 Celebration",
+                "start": "may 30 2025, 12:00",
+                "end": "june 30 2025, 4:59",
 			},
 			{
 				name: "Golden Week",
@@ -244,38 +244,38 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Story Event】The Case Files of the Coordinator 2: A Drifting Narrative",
-			"『調整屋さんの事件簿２ 漂泊するナラティヴ』"
+			"【Story Event】Puella Magi Madoka Magica Scene 0 Part I",
+			"『魔法少女まどか☆マギカ scene0 前編』"
         ],
         "image": [
-            "imgs/exedra/events00/case-files02.png"
+            "imgs/exedra/events00/scene0.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
 				"name": "",
-                "start": "may 16 2025, 15:00",
-                "end": "may 30 2025, 11:59",
+                "start": "may 30 2025, 12:00",
+                "end": "july 1 2025, 11:59",
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-			"【Story Event】Memories of you",
-			"『Memories of you 前編』"
+			"【Limited】Chaos Mode Release Celebration Missions",
+			"『Chaosモード追加記念ミッション』"
         ],
         "image": [
-            "imgs/exedra/events00/memo-you.png"
+            "imgs/exedra/events00/chaos.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
 				"name": "",
-                "start": "may 2 2025, 12:00",
-                "end": "may 19 2025, 11:59",
+                "start": "may 30 2025, 12:00",
+                "end": "june 16 2025, 11:59",
 			}
         ]
     },
@@ -645,8 +645,8 @@ var timerData = [
 	{
         "type": "Shops",
         "title": [
-            "Monthly Shops",
-			"毎月ショップ"
+            "Celebration & Bonus Packs",
+			"開幕記念パック"
         ],
         "image": [
             "shop"
@@ -655,9 +655,9 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Golden Week Celebration Packs",
-				start: "april 30 2025, 10:00",
-				end: "may 31 2025, 9:59"
+				name: "Scene 0 Celebration Packs",
+				start: "may 31 2025, 12:00",
+				end: "june 30 2025, 11:59"
 			},
 			{
 				name: "Premium Bonus Sales",
@@ -679,9 +679,9 @@ var timerData = [
 		priority: 5,
 		timers: [	
 			{
-				name: "The Case Files of the Coordinator 2: A Drifting Narrative",
-                "start": "may 16 2025, 15:00",
-                "end": "may 31 2025, 11:59",
+				name: "Scene 0 Part I",
+                "start": "may 30 2025, 12:00",
+                "end": "june 30 2025, 11:59",
 			},
 			{
 				name: "Memories of you",
@@ -779,14 +779,14 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 04",
-				start: "may 12 2025, 12:00",
-				end: "may 26 2025, 4:59",
+				name: "Season 05",
+				start: "may 26 2025, 12:00",
+				end: "june 9 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop Reset",
-				start: "may 01 2025, 5:00",
-				end: "june 1 2025, 4:59",
+				start: "june 01 2025, 5:00",
+				end: "july 1 2025, 4:59",
 			},
 		]
 	},
@@ -843,8 +843,8 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Golden Week Celebration】One Per Day Free Fate Weave",
-            "『GW記念！1日1回無料ガチャ開催』"
+			"【Scene 0 Celebration】One Per Day Free Fate Weave ",
+            "『scene0開幕記念 1日1回無料ガチャ開催』"
         ],
         "image": [
             "imgs/exedra/gacha00/free.png",
@@ -854,8 +854,8 @@ var timerData = [
         "timers": [
             {
                 name: "",
-                "start": "april 25 2025, 12:00",
-                "end": "may 2 2025, 9:59",
+                "start": "may 30 2025, 12:00",
+                "end": "june 30 2025, 11:59",
                // extraPriority: 1000
             }
         ]
@@ -863,20 +863,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Free】Ultimate Madoka: One Per Day Fate Weave",
-            "『アルティメットまどか1日1回無料ガチャ』"
+			"【Featured】5★ [Hallow Woman] Mabayu Aki",
+            "『★5愛生まばゆ ホロウ・ウーマン』"
         ],
         "image": [
-			"imgs/exedra/gacha00/free-ult.png",
+			"imgs/exedra/gacha00/mabayu.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "",
-                "start": "may 2 2025, 12:00",
-                "end": "may 19 2025, 11:59",
-               extraPriority: 1000
+                name: "Light - Buffer",
+                "start": "may 30 2025, 12:00",
+                "end": "june 30 2025, 11:59",
+            //    extraPriority: 1000
             }
         ]
     },
