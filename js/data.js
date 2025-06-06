@@ -230,9 +230,9 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "Special Edition - Walpurgisnacht Descends",
-                "start": "may 2 2025, 12:00",
-                "end": "may 19 2025, 11:59",
+				"name": "Battle Feature Tower Event",
+                "start": "june 6 2025, 12:00",
+                "end": "june 20 2025, 11:59",
 			},
 			{
 				"name": "Current Tower",
@@ -257,6 +257,25 @@ var timerData = [
 				"name": "",
                 "start": "may 30 2025, 12:00",
                 "end": "july 1 2025, 11:59",
+			}
+        ]
+    },
+		{
+        "type": "Event",
+        "title": [
+			"【Story Event】Memories of you Part II",
+			"『Memories of you 後編』"
+        ],
+        "image": [
+            "imgs/exedra/events00/memo01.png"
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				"name": "",
+                "start": "june 6 2025, 12:00",
+                "end": "june 20 2025, 11:59",
 			}
         ]
     },
@@ -684,9 +703,9 @@ var timerData = [
                 "end": "june 30 2025, 11:59",
 			},
 			{
-				name: "Memories of you",
-                "start": "may 2 2025, 12:00",
-                "end": "may 21 2025, 11:59",
+				name: "Memories of you Part II",
+                "start": "june 6 2025, 12:00",
+                "end": "june 21 2025, 11:59",
 			},
 			{
 				name: "Archive Medal Reset",
@@ -883,19 +902,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Featured Fate Weave】5★ [Doppel of Silence] Iroha Tamaki",
-            "『★5 [沈黙のドッペル] 環いろは』"
+			"【Featured Fate Weave】5★ Madoka Kaname & Homura Akemi",
+            "『★5 鹿目まどか & 暁美ほむら』"
         ],
         "image": [
-            "imgs/exedra/gacha00/iroha-do.png",
+            "imgs/exedra/gacha00/madomura.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Healer - Dark",
-                "start": "may 16 2025, 15:00",
-                "end": "may 30 2025, 11:59",
+                name: "[Pluvia☆Magica] & [Concentrated Missile Fire]",
+                "start": "june 6 2025, 12:00",
+                "end": "June 20 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
