@@ -205,16 +205,6 @@ var timerData = [
                 "start": "april 25 2025, 12:00",
                 "end": "may 12 2025, 4:59",
 			},
-			{
-				name: "Main Quest Addition Login Bonus",
-                "start": "may 17 2025, 5:00",
-                "end": "may 31 2025, 4:59",
-			},
-			{
-				name: "Ultimate Madoka Release Celebration",
-                "start": "May 2 2025, 12:00",
-                "end": "may 19 2025, 4:59",
-			},
         ]
     },
 	{
@@ -235,9 +225,9 @@ var timerData = [
                 "end": "june 20 2025, 11:59",
 			},
 			{
-				"name": "Current Tower",
-                "start": "may 9 2025, 12:00",
-                "end": "may 23 2025, 11:59",
+				"name": "Score Attack VS Uwasa of the Commoner's Horse",
+                "start": "june 12 2025, 12:00",
+                "end": "june 26 2025, 11:59",
 			}
         ]
     },
@@ -276,6 +266,25 @@ var timerData = [
 				"name": "",
                 "start": "june 6 2025, 12:00",
                 "end": "june 20 2025, 11:59",
+			}
+        ]
+    },
+			{
+        "type": "Event",
+        "title": [
+			"【Story Event】Two Hands in Harmony",
+			"『重なる音、キミと繋ぐ手』"
+        ],
+        "image": [
+            "imgs/exedra/events00/neete.png"
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				"name": "",
+                "start": "june 12 2025, 12:00",
+                "end": "june 26 2025, 11:59",
 			}
         ]
     },
@@ -798,9 +807,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 05",
-				start: "may 26 2025, 12:00",
-				end: "june 9 2025, 4:59",
+				name: "Season 06",
+				start: "june 7 2025, 12:00",
+				end: "june 23 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop Reset",
@@ -902,7 +911,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Featured Fate Weave】5★ Madoka Kaname & Homura Akemi",
+			"【Featurede】5★ Madoka Kaname & Homura Akemi",
             "『★5 鹿目まどか & 暁美ほむら』"
         ],
         "image": [
@@ -942,19 +951,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Featured Fate Weave】 5★ [Baldamente Fortissimo] Sayaka Miki",
-            "『★5 美樹さやか』"
+			"【Featured】 5★ Tsukuyo & Tsukasa Amane",
+            "『★5 天音月咲 & 天音月夜』"
         ],
         "image": [
-            "imgs/exedra/gacha00/sayaka.png",
+            "imgs/exedra/gacha00/nee.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Defender",
-                "start": "april 18 2025, 12:00",
-                "end": "may 9 2025, 11:59",
+                name: "[Cherry Blizzard] Breaker [Cherry Ballad] Debuffer",
+                "start": "june 12 2025, 12:00",
+                "end": "june 26 2025, 11:59",
             }
         ]
     },
