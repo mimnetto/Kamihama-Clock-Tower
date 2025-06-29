@@ -57,79 +57,6 @@ var timerData = [
 			}
 			]
     },
-	{
-        "type": "WeekendBoss",
-        "title": [
-			"Pre-Registration Campaign Goals and Rewards",
-            "『事前登録キャンペーン』"
-        ],
-        "image": [
-            "imgs/exban/prer.png"
-        ],
-        "column": 1,
-        "priority": 3,
-        "timers": [
-			{
-				name: "100k Magica Stone x1000",
-                start: "july 2 2024, 00:00",
-                end: "nov 27 2024, 00:00"
-			},
-			{
-				name: "200k 'Door to New Kioku' Portrait",
-                start: "july 2 2024, 00:00",
-                end: "nov 27 2024, 00:00"
-			},
-			{
-				name: "300k Magica Stone x1000",
-                start: "july 2 2024, 00:00",
-                end: "dec 12 2024, 00:00"
-			},
-			{
-				name: "400k Magica Stone x1000",
-                start: "july 2 2024, 00:00",
-                end: "jan 2 2025, 00:00"
-			},
-			{
-				name: "500k 5☆ Kioku [Lux Magica] Madoka Kaname",
-                start: "july 2 2024, 00:00",
-                end: "Jan 27 2025, 00:00"
-			},
-			{
-				name: "600k Magia Key x2 + Fan Kit",
-                start: "july 2 2024, 00:00",
-                end: "mar 8 2025, 00:00"
-			},
-			{
-				name: "700k Magia Key x3 + Fan Kit",
-                start: "july 2 2024, 00:00",
-                end: "mar 8 2025, 00:00"
-			},
-			{
-				name: "800k Magia Key x5 + Fan Kit",
-                start: "july 2 2024, 00:00",
-                end: "mar 8 2025, 00:00"
-			},
-			{
-				name: "900k Celebration Starter Pack + Fan Kit",
-                start: "july 2 2024, 00:00",
-                end: "mar 13 2025, 00:00"
-			},
-			{
-				name: "1 Million 5★ Portrait + Fan Kit",
-                start: "july 2 2024, 00:00",
-                end: "mar 25 2025, 00:00"
-			},
-            {
-                "name": "ALL GOALS REACHED!",
-                "start": "july 2 2024, 00:00",
-                "end": "march 27 2025, 06:00",
-                "extraPriority": 1,
-				"type": "normal",
-				// markers:
-				// [{time: "march 27 2024, 17:00", title: "Part 2 - Groups", type: "battle"}]
-			}
-			]
-    },
 		{
         "type": "WeekendBoss",
         "title": [
@@ -201,10 +128,10 @@ var timerData = [
                 "end": "june 30 2025, 4:59",
 			},
 			{
-				name: "Golden Week",
-                "start": "april 25 2025, 12:00",
-                "end": "may 12 2025, 4:59",
-			},
+				name: "Magia Exedra 100 Day Fest",
+                "start": "june 26 2025, 12:00",
+                "end": "july 16 2025, 11:59",
+			}
         ]
     },
 	{
@@ -246,45 +173,26 @@ var timerData = [
 			{
 				"name": "",
                 "start": "may 30 2025, 12:00",
-                "end": "july 1 2025, 11:59",
+                "end": "june 30 2025, 11:59",
 			}
         ]
     },
 		{
         "type": "Event",
         "title": [
-			"【Story Event】Memories of you Part II",
-			"『Memories of you 後編』"
+			"【Story Event】The Case Files of the Coordinator 3: Cozy Cosmology",
+			"『調整屋さんの事件簿３ 箱庭のコスモロジー』"
         ],
         "image": [
-            "imgs/exedra/events00/memo01.png"
+            "imgs/exedra/events00/case-files03.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
 				"name": "",
-                "start": "june 6 2025, 12:00",
-                "end": "june 20 2025, 11:59",
-			}
-        ]
-    },
-			{
-        "type": "Event",
-        "title": [
-			"【Story Event】Two Hands in Harmony",
-			"『重なる音、キミと繋ぐ手』"
-        ],
-        "image": [
-            "imgs/exedra/events00/neete.png"
-        ],
-        "column": 0,
-        "priority": 0,
-        "timers": [
-			{
-				"name": "",
-                "start": "june 12 2025, 12:00",
-                "end": "june 26 2025, 11:59",
+                "start": "june 26 2025, 12:00",
+                "end": "july 16 2025, 11:59",
 			}
         ]
     },
@@ -310,141 +218,68 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Campaign】Golden Week ",
-			"『ゴールデンウィークキャンペーン』"
+            "【Campaign】100-Day Fest: 10 Major Campaigns!",
+			"『まどドラ100日感謝祭 10大キャンペーン』"
         ],
         "image": [
-			"imgs/camp/gold.png",
-			"imgs/camp/gold00.png"
-
-
+			"imgs/exedra/events00/hundo.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "Daily Loging Bonus",
-				start: "march 18 2024, 16:00",
-				end: "april 1 2024, 23:59",
+				name: "Login Bonus",
+                "start": "june 26 2025, 12:00",
+                "end": "july 16 2025, 11:59",
 			},
 			{
-				name: "Limited Time Daily Missions",
-				start: "april 30 2024, 12:00",
-				end: "may 10 2024, 23:59",
+				name: "Free 10-Draw Fate Weave - Nemu & Touka",
+                "start": "june 26 2025, 12:00",
+                "end": "july 16 2025, 11:59"
 			},
 			{
-				name: "½ AP Quests, 2x SP, 2x Player EXP, Double Chance Enhancement ",
-				start: "april 30 2024, 12:00",
-				end: "may 10 2024, 23:59",
+				name: "Free 10-Draw Fate Weave - Magia 24hr ONLY",
+                "start": "june 30 2025, 12:00",
+                "end": "july 1 2025, 11:59",
 			},
 			{
-				name: "Double Mirrors Coin Rewarded",
-				start: "Jan 1 2024, 00:00",
-				end: "jan 12 2024, 14:59",
+				name: "Free 10-Draw Fate Weave - Alina",
+                "start": "july 4 2025, 12:00",
+                "end": "july 23 2025, 11:59",
 			},
 			{
-				name: "300 Paid Gems Bag",
-				start: "april 30 2024, 12:00",
-				end: "may 10 2024, 23:59",
+				name: "Orb Collection and Selectable 5★ Event",
+                "start": "june 26 2025, 12:00",
+                "end": "july 31 2025, 11:59"
+			},
+			{
+				name: "100-Day Fest Missions Part 1",
+                "start": "june 26 2025, 12:00",
+                "end": "july 4 2025, 11:59"
+			},
+			{
+				name: "100-Day Fest Missions Part 2",
+                "start": "july 4 2025, 12:00",
+                "end": "july 16 2025, 11:59"
+			},
+			{
+				name: "100-Day Fest Event Reward Increase",
+                "start": "june 26 2025, 12:00",
+                "end": "july 16 2025, 11:59"
+			},
+			{
+				name: "Player EXP Collection Event",
+                "start": "june 26 2025, 12:00",
+                "end": "july 16 2025, 11:59"
+			},
+			{
+				name: "Tower Reward Increase",
+                "start": "july 4 2025, 12:00",
+                "end": "july 18 2025, 11:59"
 			},
         ]
     },
-	{
-        "type": "Event",
-        "title": [
-            "【Campaign】Early Spring Campaign ",
-			"『アーリースプリングキャンペーン』"
-        ],
-        "image": [
-            "imgs/camp/spring.png",
 
-
-        ],
-        "column": 0,
-        "priority": 5,
-        "timers": [
-			{
-				name: "½ AP Quests, 2x SP, 2x Player EXP,  Double Chance Enhancement ",
-				start: "jan 22 2024, 16:00",
-				end: "feb 19 2024, 23:59",
-			},
-			{
-				name: "Limited Time Daily Missions",
-				start: "jan 22 2024, 16:00",
-				end: "feb 19 2024, 23:59",
-			},
-			{
-				name: "Daily 10-Pull from a Choose 4★ Unlimited Magical Girl ",
-				start: "dec 18 2023, 00:00",
-				end: "jan 12 2024, 23:59",
-			}
-        ]
-    },
-		{
-        "type": "Event",
-        "title": [
-            "【Last Story】『The Heart is One and Ten Thousand Years』",
-			"【ラストストーリー追加】『心は一年一万年』"
-        ],
-        "image": [
-			"imgs/camp/story.png"
-        ],
-        "column": 0,
-        "priority": 5,
-		"extraPriority": 1000,
-        "timers": [
-			{
-				name: "",
-				start: "July 23 2024, 00:00",
-				end: "july 31 2024, 14:59",
-				markers:
-				[{title: "Story Quests 11～20 & 100 Evils Special Challenge Quests Ⅰ～Ⅲ", time: "feb 13 2024, 16:00", type: "battle"}]
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-            "【Login Bonus】Release Celebration: Five Major Campaigns",
-			"『リリース記念5大キャンペーン』"
-        ],
-        "image": [
-			"imgs/exedra/events00/re-login.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			{
-				name: "Login Campaign",
-                "start": "march 26 2025, 18:00",
-                "end": "april 09 2025, 11:59",
-			},
-			{
-				name: "Training Spree Missions",
-                "start": "march 26 2025, 18:00",
-                "end": "april 04 2025, 11:59",
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-            "1 Million Downloads Celebration Main Quest Clears",
-			"『100万ダウンロード記念』"
-        ],
-        "image": [
-			"imgs/exedra/events00/mil.png",
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-			{
-				name: "Clear Mermaid Witch (Standard)",
-                "start": "march 30 2025, 12:00",
-                "end": "april 25 2025, 11:59",
-			}
-        ]
-    },
 	{
         "type": "Event",
         "title": [
@@ -461,30 +296,6 @@ var timerData = [
 				name: "",
                 "start": "april 18 2025, 12:00",
                 "end": "april 25 2025, 11:59",
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-            "【Limited-Time】Farewell Story",
-			"『フェアウェル・ストーリー』"
-        ],
-        "image": [
-			"imgs/exedra/events00/seeya.png",
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			{
-				name: "Part I",
-                "start": "march 29 2025, 23:00",
-                "end": "april 14 2025, 11:59",
-			},
-			{
-				name: "Part II",
-                "start": "April 4 2025, 12:00",
-                "end": "april 14 2025, 11:59",
 			}
         ]
     },
@@ -522,62 +333,6 @@ var timerData = [
 		// 				time: "nov 1 2023, 16:00", 
 		// 				type: "battle"
 		// 			},
-		// 			{
-		// 				title: "Day 4", 
-		// 				time: "nov 2 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 5", 
-		// 				time: "nov 3 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 6", 
-		// 				time: "nov 4 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 7", 
-		// 				time: "nov 5 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 8", 
-		// 				time: "nov 6 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 9 ", 
-		// 				time: "nov 7 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 10", 
-		// 				time: "nov 8 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 11", 
-		// 				time: "nov 9 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 12", 
-		// 				time: "nov 10 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 13", 
-		// 				time: "nov 11 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 14", 
-		// 				time: "nov 12 2023, 20:59", 
-		// 				type: "battle"
-		// 			}
-					
 		// 		]
 		// 	},
 			// {
@@ -587,89 +342,6 @@ var timerData = [
 			// },
     //     ]
     // },
-	{
-        "type": "Event",
-        "title": [
-            "【Rerun】 Kagome's Hundred Monsters ~Burning Summer Banquet~",
-			"『かごめの百怪波瀾～炎夏の宴～』"
-        ],
-        "image": [
-			"imgs/events/event04.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			{
-				name: "Repeat- Kagome Hyakki Yagyou ver. obtained in Choose 4★ Gacha",
-				start: "june 12 2024, 16:00",
-				end: "june 24 2024, 14:59",
-				//extraPriority: 100,
-				markers:
-				[{title: "Story Quests 11-20 & 100Evils I~III", time: "june 17 2023, 16:00", type: "battle"}]
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        title: [
-			"Magia Day 2024 Official Livestream!",
-            "「Magia Day 2024」"
-        ],
-        "image": [
-            "imgs/events/exedra.png",
-		],
-        column: 0,
-        priority: 0,
-        timers: [
-            {
-                name: "https://www.youtube.com/@madoka_exedra",
-                start: "Aug 25 2024, 17:30",
-                end: "Aug 25 2024, 20:30",
-				//extraPriority: 1000
-            }
-        ]
-    },
-	{
-        "type": "Event",
-        title: [
-			"Aniplex Tokyo Game Show Live Stream",
-            "https://tgs.nikkeibp.co.jp/tgs/2024/en/"
-        ],
-        "image": [
-            "imgs/ex/tgs00.png",
-		],
-        column: 0,
-        priority: 1,
-        timers: [
-            {
-                name: "",
-                start: "sept 27 2024, 18:00",
-                end: "sept 27 2024, 19:00",
-				extraPriority: 1000
-            }
-        ]
-    },
-	{
-        "type": "Event",
-        title: [
-			"Time to Transfer Your Data to the Archive App",
-            "【ストーリーアーカイブ】"
-        ],
-        "image": [
-            "imgs/events/trans00.png",
-		],
-        column: 0,
-        priority: 1,
-        timers: [
-            {
-                name: "",
-                start: "July 30 2024, 17:00",
-                end: "Oct 14 2024, 15:00",
-				//extraPriority: 1000
-            }
-        ]
-    },
-
 	{
         "type": "Shops",
         "title": [
@@ -688,9 +360,9 @@ var timerData = [
 				end: "june 30 2025, 11:59"
 			},
 			{
-				name: "Premium Bonus Sales",
-				start: "april 30 2025, 10:00",
-				end: "may 31 2025, 9:59"
+				name: "Training Spree Packs",
+				start: "June 26 2025, 12:00",
+				end: "july 31 2025, 119:59"
 			},
         ]
     },
@@ -712,14 +384,19 @@ var timerData = [
                 "end": "june 30 2025, 11:59",
 			},
 			{
-				name: "Memories of you Part II",
-                "start": "june 6 2025, 12:00",
-                "end": "june 21 2025, 11:59",
+				name: "Cozy Cosmology",
+                "start": "june 26 2025, 12:00",
+                "end": "july 17 2025, 11:59",
 			},
 			{
-				name: "Archive Medal Reset",
-				start: "may 01 2025, 5:00",
-				end: "june 1 2025, 4:59",
+				name: "5★ Mikazuki Villa Trading Medals",
+                "start": "june 26 2025, 12:00",
+                "end": "aug 01 2025, 11:59",
+			},	
+			{
+				name: "Orb Collection and Selectable 5★",
+                "start": "june 26 2025, 12:00",
+                "end": "aug 01 2025, 11:59",
 			},	
 		]
 	},
@@ -740,58 +417,6 @@ var timerData = [
                 "start": "april 11 2024, 12:00",
                 "end": "april 25 2024, 11:59",
 			},
-			{
-				name: "Mami Tomoe - Tiro Finale",
-				start: "march 29 2025, 23:00",
-				end: "april 14 2025, 11:59",
-			},
-			{
-				name: "Kyoko Sakura - Kugatachi",
-                "start": "april 4 2025, 12:00",
-                "end": "april 14 2025, 11:59",
-			},
-		]
-	},
-{
-		type: "Other",
-		title: [
-		"2400 days since release commemorative pack sale",
-		""
-		],
-		image: [
-			"imgs/shops/anni00.png",
-        ],
-		column: 2,
-		priority: 7,
-		timers: [
-		{
-			start: "march 18 2024, 16:00",
-			end: "april 1 2024, 14:59",
-		},
-		{
-			name: "Support Shop Commemorative Memoria",
-			start: "dec 11 2023, 16:00",
-			end: "jan 31 2024, 14:59",
-		}
-		]
-	},
-	{
-		type: "Other",
-		title: [
-		"Forest Attribute Magical Girl Training Pack",
-		"『木属性魔法少女育成パック』"
-		],
-		image: [
-            "imgs/kimochi/pack00.png",
-        ],
-		column: 2,
-		priority: 6,
-		timers: [
-		{
-			name: "Sales period",
-			start: "feb 19 2024, 17:00",
-			end: "feb 26 2024, 14:59",
-		}
 		]
 	},
 	{
@@ -807,41 +432,46 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 06",
-				start: "june 7 2025, 12:00",
-				end: "june 23 2025, 4:59",
+				name: "Season 07",
+				start: "june 23 2025, 12:00",
+				end: "july 7 2025, 4:59",
 			},
 			{
-				name: "Match Medal Shop Reset",
+				name: "Match Medal Shop - June",
 				start: "june 01 2025, 5:00",
 				end: "july 1 2025, 4:59",
 			},
-		]
-	},
-{
-		type: "Other",
-		title: [
-		"Unlimited Fate Weave Pool Additions",
-		"Countdown"
-		],
-		image: [
-            "imgs/exedra/other/fate-pool.png"
-        ],
-		column: 2,
-		priority: 0,
-		timers: [
-			{
-				name: "★5 Mami Tomoe | Tiro Finale - Buffer",
-				start: "april 10 2024, 16:00",
-				end: "may 31 2024, 12:00",
-			},
-			{
-				name: "★5 Kyoko Sakura | Kugatachi - Attacker",
-				start: "april 10 2024, 16:00",
-				end: "may 31 2024, 12:00",
+						{
+				name: "Match Medal Shop - July",
+				start: "july 01 2025, 5:00",
+				end: "aug 1 2025, 4:59",
 			},
 		]
 	},
+// {
+// 		type: "Other",
+// 		title: [
+// 		"Unlimited Fate Weave Pool Additions",
+// 		"Countdown"
+// 		],
+// 		image: [
+//             "imgs/exedra/other/fate-pool.png"
+//         ],
+// 		column: 2,
+// 		priority: 0,
+// 		timers: [
+// 			{
+// 				name: "★5 Mami Tomoe | Tiro Finale - Buffer",
+// 				start: "april 10 2024, 16:00",
+// 				end: "may 31 2024, 12:00",
+// 			},
+// 			{
+// 				name: "★5 Kyoko Sakura | Kugatachi - Attacker",
+// 				start: "april 10 2024, 16:00",
+// 				end: "may 31 2024, 12:00",
+// 			},
+// 		]
+// 	},
 	{
         type: "Maintenance",
         title: [
@@ -866,6 +496,26 @@ var timerData = [
 				end: "march 11 2024, 16:00"
 				// extraPriority: 100
             }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"【FREE】Free 10-Draw Fate Weave - Magia Fateweave",
+            "『24時間限定マギアガチャ10連1回無料』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/free-24.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "24 Hours Only!!!",
+                "start": "june 30 2025, 12:00",
+                "end": "july 1 2025, 11:59",
+                extraPriority: 100
+            },
         ]
     },
 	{
@@ -911,19 +561,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Featurede】5★ Madoka Kaname & Homura Akemi",
-            "『★5 鹿目まどか & 暁美ほむら』"
+			"【New Featured】5★ [My Creations] Nemu | [Neo Genesis] Touka",
+            "『新★5キオク柊ねむ & 里見灯花』"
         ],
         "image": [
-            "imgs/exedra/gacha00/madomura.png",
+            "imgs/exedra/gacha00/nemutou.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "[Pluvia☆Magica] & [Concentrated Missile Fire]",
-                "start": "june 6 2025, 12:00",
-                "end": "June 20 2025, 11:59",
+                name: "5★ Rate Increased to 5%!",
+                "start": "june 26 2025, 12:00",
+                "end": "july 16 2025, 11:59"
             //    extraPriority: 1000
             }
         ]
@@ -931,507 +581,59 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Exclusive】5★ [Nothing to Despair, Ever] Ultimate Madoka ",
-            "『新限定★5[もう絶望する必要なんてない！]アルティメットまどか』"
+			"【New Featured】5★ [Nine Phases] Alina Gray",
+            "『新★5キオク[Nine Phases]アリナ・グレイ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/ult-madoka.png",
+            "imgs/exedra/gacha00/alina.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Exclusive Attacker",
-                "start": "may 2 2025, 12:00",
-                "end": "may 19 2025, 11:59",
+                name: "5★ Rate Increased to 5%!",
+                "start": "july 4 2025, 12:00",
+                "end": "july 23 2025, 11:59"
             //    extraPriority: 1000
             }
         ]
     },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Featured】 5★ Tsukuyo & Tsukasa Amane",
-            "『★5 天音月咲 & 天音月夜』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/nee.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "[Cherry Blizzard] Breaker [Cherry Ballad] Debuffer",
-                "start": "june 12 2025, 12:00",
-                "end": "june 26 2025, 11:59",
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Featured Fate Weave 】5★ Attacker",
-            "『★5アタッカーピックアップ』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/attacker00.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "[Concentrated Missile Fire] Homura | [Absolute Rain] Yachiyo | [Oracle Ray] Oriko",
-				start: "april 21 2025, 12:00",
-				end: "april 28 2025, 11:59",
-            //    extraPriority: 1000
-            },
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Featured Fate Weave】★5 Team Momoko ",
-            "『 ★5 チームモモコ 』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/banner-momoko.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "[Edge of the Universe] Momoko | [Infinite Poseidon] Rena | [Judgement Earth] Kaede ",
-                "start": "april 11 2025, 12:00",
-                "end": "april 25 2025, 11:59",
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Featured Fate Weave 】5★ Defender",
-            "『★5ディフェンダーピックアップガチャが』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/defend.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "[Folter Gefängnis] Sana | [Vampire Fang] Kirika",
-				start: "april 28 2025, 12:00",
-				end: "may 5 2025, 11:59",
-            //    extraPriority: 1000
-            },
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Featured Fate Weave 】5★ Buffer",
-            "『5バッファー＆デバッファーピックアップガチャが』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/buffer.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "[Flame Waltz] Tsuruno | [Soul Salvation] Ren | [Ultra Great Big Hammer] Felicia ",
-				start: "may 5 2025, 12:00",
-				end: "may 12 2025, 11:59",
-            //    extraPriority: 1000
-            },
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Daily 10-Pull from a Choose 4★ Unlimited Magical Girl",
-            "『毎日1回10連ガチャ無料』"
-        ],
-        "image": [
-            "imgs/events/winter01.png",
-        ],
-        "column": 1,
-        "priority": 14,
-        "timers": [
-            {
-                name: "4★ Magical Girl Pull Rate Doubled!",
-				start: "dec 18 2023, 16:00",
-				end: "jan 12 2024, 23:59",
-				markers:
-				[
-				{
-					title: "Free pull 1",
-					time: "dec 18 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 2",
-					time: "dec 19 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 3",
-					time: "dec 20 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 4",
-					time: "dec 21 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 5",
-					time: "dec 22 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 6",
-					time: "dec 23 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 7",
-					time: "dec 24 2023 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 8",
-					time: "dec 25 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 9",
-					time: "dec 26 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 10",
-					time: "dec 27 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 11",
-					time: "dec 28 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 12",
-					time: "dec 29 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 13",
-					time: "dec 30 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 14",
-					time: "dec 31 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 15",
-					time: "jan 1 2024, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 16",
-					time: "jan 2 2024, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 17",
-					time: "jan 3 2024, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 18",
-					time: "jan 4 2024, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 19",
-					time: "jan 5 2024, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 20",
-					time: "jan 6 2024, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 21",
-					time: "jan 7 2024, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 22",
-					time: "jan 8 2024, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 23",
-					time: "jan 9 2024, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 24",
-					time: "jan 10 2024, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 25",
-					time: "jan 11 2024, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 26",
-					time: "jan 12 2024, 0:00",
-					type: "star"
-				},
-				]
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"6th Anniversary Choose your 4★ Limited Memoria Selection Gacha",
-            "『6周年記念 選べる★4メモリアセレクションガチャ』"
-        ],
-        "image": [
-            "imgs/anni/pick06.png"
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "Wave 2 - 4★ Magical Girl Pull Rate Doubled!",
-                start: "sep 4 2023, 17:00",
-				end: "sep 22 2023, 23:59",
-                extraPriority: 100,
-				markers:
-				[
-				{
-					title: "Free pull 1",
-					time: "sep 4 2023, 17:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 2",
-					time: "sep 5 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 3",
-					time: "sep 6 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 4",
-					time: "sep 7 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 5",
-					time: "sep 8 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 6",
-					time: "sep 9 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 7",
-					time: "sep 10 2023 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 8",
-					time: "sep 11 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 9",
-					time: "sep 12 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 10",
-					time: "sep 13 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 11",
-					time: "sep 14 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 12",
-					time: "Sep 15 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 13",
-					time: "Sep 16 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 14",
-					time: "Sep 17 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 15",
-					time: "Sep 18 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 16",
-					time: "Sep 19 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 17",
-					time: "Sep 20 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 18",
-					time: "Sep 21 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 19",
-					time: "Sep 22 2023, 00:00",
-					type: "star"
-				},
-				]
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Choose Your 4★ Memoria Gacha",
-            "『選べる★4メモリアセレクションガチャ』"
-        ],
-        "image": [
-			"imgs/gacha/gacha001.png",
-        ],
-        "column": 1,
-        "priority": 15,
-        "timers": [
-            {
-                name: "Wave 2 - 4★ Magical Girl Pull Rate Doubled!",
-                start: "sep 4 2023, 17:00",
-				end: "sep 22 2023, 23:59",
-                extraPriority: 100,
-				markers:
-				[
-				{
-					title: "Free pull 1",
-					time: "sep 4 2023, 17:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 2",
-					time: "sep 5 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 3",
-					time: "sep 6 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 4",
-					time: "sep 7 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 5",
-					time: "sep 8 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 6",
-					time: "sep 9 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 7",
-					time: "sep 10 2023 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 8",
-					time: "sep 11 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 9",
-					time: "sep 12 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 10",
-					time: "sep 13 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 11",
-					time: "sep 14 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 12",
-					time: "Sep 15 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 13",
-					time: "Sep 16 2023, 0:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 14",
-					time: "Sep 17 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 15",
-					time: "Sep 18 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 16",
-					time: "Sep 19 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 17",
-					time: "Sep 20 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 18",
-					time: "Sep 21 2023, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free pull 19",
-					time: "Sep 22 2023, 00:00",
-					type: "star"
-				},
-				]
-            }
-        ]
-    }
+	// {
+    //     "type": "Gacha",
+    //     "title": [
+	// 		"Daily 10-Pull from a Choose 4★ Unlimited Magical Girl",
+    //         "『毎日1回10連ガチャ無料』"
+    //     ],
+    //     "image": [
+    //         "imgs/events/winter01.png",
+    //     ],
+    //     "column": 1,
+    //     "priority": 14,
+    //     "timers": [
+    //         {
+    //             name: "4★ Magical Girl Pull Rate Doubled!",
+	// 			start: "dec 18 2023, 16:00",
+	// 			end: "jan 12 2024, 23:59",
+	// 			markers:
+	// 			[
+	// 			{
+	// 				title: "Free pull 1",
+	// 				time: "dec 18 2023, 00:00",
+	// 				type: "star"
+	// 			},
+	// 			{
+	// 				title: "Free pull 2",
+	// 				time: "dec 19 2023, 0:00",
+	// 				type: "star"
+	// 			},
+	// 			{
+	// 				title: "Free pull 3",
+	// 				time: "dec 20 2023, 0:00",
+	// 				type: "star"
+	// 			},
+	// 			]
+    //         }
+    //     ]
+    // },
+	
 ];
