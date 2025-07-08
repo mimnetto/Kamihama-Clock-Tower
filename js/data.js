@@ -147,9 +147,9 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "Battle Feature Tower Event",
-                "start": "june 6 2025, 12:00",
-                "end": "june 20 2025, 11:59",
+				"name": "100-Day Fest Tower Event",
+                "start": "july 4 2025, 12:00",
+                "end": "july 22 2025, 11:59",
 			},
 			{
 				"name": "Score Attack VS Uwasa of the Commoner's Horse",
@@ -432,9 +432,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 07",
-				start: "june 23 2025, 12:00",
-				end: "july 7 2025, 4:59",
+				name: "Season 08",
+				start: "july 7 2025, 12:00",
+				end: "july 21 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop - June",
