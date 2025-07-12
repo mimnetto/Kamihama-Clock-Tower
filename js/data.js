@@ -1,5 +1,5 @@
 var releaseDate = "march 26 2025, 04:00";
-var possibleNextAnnouncementDate = "march 27 2025, 06:00";
+var possibleNextAnnouncementDate = "July 15 2025, 20:00";
 var nextAnniversary = "march 27 2026, 04:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -110,6 +110,25 @@ var timerData = [
 			}
 			]
     },
+    	{
+        "type": "Event",
+        "title": [
+			"Magia Exedra Steam Release",
+			"『まどドラ Steam版』"
+        ],
+        "image": [
+            "imgs/ex/re-steam.png"
+        ],
+        "column": 0,
+        "priority": 9,
+        "timers": [
+			{
+				"name": "Exact Time of Release Unknown",
+                "start": "July 17 2025, 00:00",
+                "end": "julu 18 2025, 00:00",
+			}
+        ]
+    },
 	{
         "type": "Event",
         "title": [
@@ -193,25 +212,6 @@ var timerData = [
 				"name": "",
                 "start": "june 26 2025, 12:00",
                 "end": "july 16 2025, 11:59",
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"【Limited】Chaos Mode Release Celebration Missions",
-			"『Chaosモード追加記念ミッション』"
-        ],
-        "image": [
-            "imgs/exedra/events00/chaos.png"
-        ],
-        "column": 0,
-        "priority": 0,
-        "timers": [
-			{
-				"name": "",
-                "start": "may 30 2025, 12:00",
-                "end": "june 16 2025, 11:59",
 			}
         ]
     },

@@ -3,7 +3,7 @@ Vue.component("text-timer", {
     template: 
     `<h4>
         <span class="timer-number">{{ d_since_release }}</span> days since <span >Magia Exedra</span> released<span v-if="nextAnnVisible()"></br><br> <span v-html="tNext(t_to_next_anniv)"></span> until the first anniversary.</span></br>
-        <span v-if="nextEvVisible()">Magia Exedra release for the iOS & Android <span v-html="tNext(t_to_next_ann)"></span>.</span></br>
+        <span v-if="nextEvVisible()">Next Magia Exedra <a href="https://www.youtube.com/live/NRY5WmLvmDE" target="_blank">Live Stream</a> with Walpurgisnacht Rising News in <span v-html="tNext(t_to_next_ann)"></span>.</span></br>
     </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
  
     methods: {
