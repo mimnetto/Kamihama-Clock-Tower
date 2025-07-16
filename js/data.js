@@ -180,19 +180,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Story Event】Puella Magi Madoka Magica Scene 0 Part I",
-			"『魔法少女まどか☆マギカ scene0 前編』"
+			"【Story Event】Eternal Summer Days Part I",
+			"『エターナルサマーデイズ 前編』"
         ],
         "image": [
-            "imgs/exedra/events00/scene0.png"
+            "imgs/exedra/events00/summer01.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
 				"name": "",
-                "start": "may 30 2025, 12:00",
-                "end": "june 30 2025, 11:59",
+                "start": "july 16 2025, 12:00",
+                "end": "aug 19 2025, 11:59",
 			}
         ]
     },
@@ -561,7 +561,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Featured】5★ [My Creations] Nemu | [Neo Genesis] Touka",
+			"【New Limited】5★ [My Creations] Nemu | [Neo Genesis] Touka",
             "『新★5キオク柊ねむ & 里見灯花』"
         ],
         "image": [
@@ -574,6 +574,26 @@ var timerData = [
                 name: "5★ Rate Increased to 5%!",
                 "start": "june 26 2025, 12:00",
                 "end": "july 16 2025, 11:59"
+            //    extraPriority: 1000
+            }
+        ]
+    },
+    	{
+        "type": "Gacha",
+        "title": [
+			"【Limited】5★ [Fiore Finale] Mami Toomoe Swimsuit",
+            "『新★5巴マミ(水着)』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/mami-swim.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "5★ Rate Increased to 5%!",
+                "start": "july 16 2025, 12:00",
+                "end": "aug 19 2025, 11:59"
             //    extraPriority: 1000
             }
         ]
