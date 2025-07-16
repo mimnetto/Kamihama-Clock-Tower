@@ -124,7 +124,7 @@ var timerData = [
         "timers": [
 			{
 				"name": "Exact Time of Release Unknown",
-                "start": "July 17 2025, 00:00",
+                "start": "July 17 2025, 02:00",
                 "end": "julu 18 2025, 00:00",
 			}
         ]
@@ -142,15 +142,15 @@ var timerData = [
         "priority": 2,
         "timers": [
 			{
-				name: "Scene 0 Celebration",
-                "start": "may 30 2025, 12:00",
-                "end": "june 30 2025, 4:59",
+				name: "Magia Exedra 100 Day Fest Part 2",
+                "start": "july 16 2025, 12:00",
+                "end": "july 31 2025, 11:59",
 			},
-			{
-				name: "Magia Exedra 100 Day Fest",
-                "start": "june 26 2025, 12:00",
-                "end": "july 16 2025, 11:59",
-			}
+             {
+				name: "Main Quest Addition Login Bonus (Scene 0)",
+                "start": "july 23 2025, 12:00",
+                "end": "aug 06 2025, 11:59"
+			},
         ]
     },
 	{
@@ -171,9 +171,9 @@ var timerData = [
                 "end": "july 22 2025, 11:59",
 			},
 			{
-				"name": "Score Attack VS Uwasa of the Commoner's Horse",
-                "start": "june 12 2025, 12:00",
-                "end": "june 26 2025, 11:59",
+				"name": "100-Day Fest Score Attack",
+                "start": "july 16 2025, 12:00",
+                "end": "aug 19 2025, 11:59",
 			}
         ]
     },
@@ -213,6 +213,65 @@ var timerData = [
                 "start": "june 26 2025, 12:00",
                 "end": "july 16 2025, 11:59",
 			}
+        ]
+    },
+    	{
+        "type": "Event",
+        "title": [
+            "【Campaign】100-Day Fest Part 2: 10 Major Campaigns!",
+			"『まどドラ100日感謝祭 10大キャンペーン』"
+        ],
+        "image": [
+			"imgs/exedra/events00/hundo02.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				name: "Login Bonus",
+                "start": "july 16 2025, 12:00",
+                "end": "july 31 2025, 11:59",
+			},
+			{
+				name: "One Per Day Free 10-Draw Fate Weave",
+                "start": "july 16 2025, 12:00",
+                "end": "aug 19 2025, 11:59"
+			},
+			{
+				name: "100-Day Fest Pt. 2 Main Quest Support Missions",
+                "start": "july 16 2025, 12:00",
+                "end": "aug 19 2025, 11:59"
+			},
+			{
+				name: "Core & Orb Login Bonus",
+                "start": "july 16 2025, 12:00",
+                "end": "aug 19 2025, 11:59"
+			},
+			{
+				name: "100-Day Fest Reward Increase",
+                "start": "july 16 2025, 12:00",
+                "end": "aug 19 2025, 11:59"
+			},
+			{
+				name: "100-Day Fest Half QP",
+                "start": "july 16 2025, 12:00",
+                "end": "july 31 2025, 11:59"
+			},
+			{
+				name: "100-Day Fest Missions Part 1",
+                "start": "july 16 2025, 12:00",
+                "end": "july 23 2025, 11:59"
+			},
+			{
+				name: "100-Day Fest Missions Part 2",
+                "start": "july 23 2025, 12:00",
+                "end": "july 31 2025, 11:59"
+			},
+            {
+				name: "Main Quest Addition Login Bonus (Scene 0)",
+                "start": "july 23 2025, 12:00",
+                "end": "aug 06 2025, 11:59"
+			},
         ]
     },
 	{
@@ -279,7 +338,6 @@ var timerData = [
 			},
         ]
     },
-
 	{
         "type": "Event",
         "title": [
@@ -355,9 +413,9 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Scene 0 Celebration Packs",
-				start: "may 31 2025, 12:00",
-				end: "june 30 2025, 11:59"
+				name: "100-Day Fest Premium Bonus Sale",
+                "start": "july 16 2025, 12:00",
+                "end": "july 31 2025, 11:59",
 			},
 			{
 				name: "Training Spree Packs",
@@ -379,11 +437,6 @@ var timerData = [
 		priority: 5,
 		timers: [	
 			{
-				name: "Scene 0 Part I",
-                "start": "may 30 2025, 12:00",
-                "end": "june 30 2025, 11:59",
-			},
-			{
 				name: "Cozy Cosmology",
                 "start": "june 26 2025, 12:00",
                 "end": "july 17 2025, 11:59",
@@ -398,6 +451,11 @@ var timerData = [
                 "start": "june 26 2025, 12:00",
                 "end": "aug 01 2025, 11:59",
 			},	
+            {
+				name: "Eternal Summer Days Part I",
+                "start": "july 16 2025, 12:00",
+                "end": "aug 20 2025, 11:59",
+			},
 		]
 	},
 	{
@@ -501,19 +559,19 @@ var timerData = [
 		{
         "type": "Gacha",
         "title": [
-			"【FREE】Free 10-Draw Fate Weave - Magia Fateweave",
-            "『24時間限定マギアガチャ10連1回無料』"
+			"【FREE】One Per Day Free 10-Draw Fate Weave",
+            "『最大100連！1日1回無料10連ガチャ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/free-24.png",
+            "imgs/exedra/gacha00/free-10.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "24 Hours Only!!!",
-                "start": "june 30 2025, 12:00",
-                "end": "july 1 2025, 11:59",
+                name: "",
+                "start": "july 16 2025, 12:00",
+                "end": "aug 19 2025, 11:59",
                 extraPriority: 100
             },
         ]
@@ -558,26 +616,6 @@ var timerData = [
             }
         ]
     },
-	{
-        "type": "Gacha",
-        "title": [
-			"【New Limited】5★ [My Creations] Nemu | [Neo Genesis] Touka",
-            "『新★5キオク柊ねむ & 里見灯花』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/nemutou.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "5★ Rate Increased to 5%!",
-                "start": "june 26 2025, 12:00",
-                "end": "july 16 2025, 11:59"
-            //    extraPriority: 1000
-            }
-        ]
-    },
     	{
         "type": "Gacha",
         "title": [
@@ -614,6 +652,26 @@ var timerData = [
                 name: "5★ Rate Increased to 5%!",
                 "start": "july 4 2025, 12:00",
                 "end": "july 23 2025, 11:59"
+            //    extraPriority: 1000
+            }
+        ]
+    },
+    	{
+        "type": "Gacha",
+        "title": [
+			"【Paid】One 5★ Kioku Guaranteed Fate Weave",
+            "『有償限定★5キオク1体確定ガチャ』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/paid00.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Paid Only",
+                "start": "july 16 2025, 12:00",
+                "end": "july 31 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
