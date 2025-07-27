@@ -490,9 +490,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 08",
-				start: "july 7 2025, 12:00",
-				end: "july 21 2025, 4:59",
+				name: "Season 09",
+				start: "july 21 2025, 12:00",
+				end: "aug 04 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop - June",
@@ -569,7 +569,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "",
+                name: "100 Pulls Total",
                 "start": "july 16 2025, 12:00",
                 "end": "aug 19 2025, 11:59",
                 extraPriority: 100
