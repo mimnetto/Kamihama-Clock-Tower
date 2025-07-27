@@ -569,7 +569,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "100 Pulls Total",
+                name: "100 Pulls Total Between The Dates",
                 "start": "july 16 2025, 12:00",
                 "end": "aug 19 2025, 11:59",
                 extraPriority: 100
