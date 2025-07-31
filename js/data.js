@@ -556,6 +556,26 @@ var timerData = [
             }
         ]
     },
+    		{
+        "type": "Gacha",
+        "title": [
+			"【FREE】One Free Magia Fate Weave 10-Draw",
+            "『最大100連！1日1回無料10連ガチャ』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/free-24.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "24 Hours Only!🪄",
+                "start": "july 31 2025, 12:00",
+                "end": "aug 1 2025, 11:59",
+                extraPriority: 1000
+            },
+        ]
+    },
 		{
         "type": "Gacha",
         "title": [
@@ -572,7 +592,7 @@ var timerData = [
                 name: "100 Pulls Total Between The Dates",
                 "start": "july 16 2025, 12:00",
                 "end": "aug 19 2025, 11:59",
-                extraPriority: 100
+                // extraPriority: 100
             },
         ]
     },
