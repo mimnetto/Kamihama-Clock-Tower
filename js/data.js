@@ -495,9 +495,9 @@ var timerData = [
 				end: "aug 04 2025, 4:59",
 			},
 			{
-				name: "Match Medal Shop - June",
-				start: "june 01 2025, 5:00",
-				end: "july 1 2025, 4:59",
+				name: "Match Medal Shop - August",
+				start: "Aug 01 2025, 5:00",
+				end: "Sept 1 2025, 4:59",
 			},
 						{
 				name: "Match Medal Shop - July",
