@@ -133,7 +133,7 @@ var timerData = [
         "type": "Event",
         "title": [
             "Login Bonus",
-			"『グインボーナス』"
+			"『ログインボーナス』"
         ],
         "image": [
 			"imgs/exedra/login/login.png"
@@ -150,6 +150,11 @@ var timerData = [
 				name: "Main Quest Addition Login Bonus (Scene 0)",
                 "start": "july 23 2025, 12:00",
                 "end": "aug 06 2025, 11:59"
+			},
+            			{
+				name: "Core & Orb Login Bonus",
+                "start": "july 16 2025, 12:00",
+                "end": "aug 19 2025, 11:59"
 			},
         ]
     },
