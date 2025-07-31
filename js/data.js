@@ -560,7 +560,7 @@ var timerData = [
         "type": "Gacha",
         "title": [
 			"【FREE】One Free Magia Fate Weave 10-Draw",
-            "『最大100連！1日1回無料10連ガチャ』"
+            "『マギアガチャ10連1回無料』"
         ],
         "image": [
             "imgs/exedra/gacha00/free-24.png",
