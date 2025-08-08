@@ -141,20 +141,15 @@ var timerData = [
         "column": 0,
         "priority": 2,
         "timers": [
-			{
-				name: "Magia Exedra 100 Day Fest Part 2",
-                "start": "july 16 2025, 12:00",
-                "end": "july 31 2025, 11:59",
-			},
-             {
-				name: "Main Quest Addition Login Bonus (Scene 0)",
-                "start": "july 23 2025, 12:00",
-                "end": "aug 06 2025, 11:59"
-			},
-            			{
+            {
 				name: "Core & Orb Login Bonus",
                 "start": "july 16 2025, 12:00",
                 "end": "aug 19 2025, 11:59"
+			},
+            {
+				name: "Summer Campaign",
+                "start": "aug 1 2025, 12:00",
+                "end": "aug 19 2025, 11:59",
 			},
         ]
     },
@@ -171,21 +166,21 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "100-Day Fest Tower Event",
-                "start": "july 4 2025, 12:00",
-                "end": "july 22 2025, 11:59",
+				"name": "Score Attack VS Box Witch",
+                "start": "aug 1 2025, 12:00",
+                "end": "aug 19 2025, 11:59",
 			},
 			{
-				"name": "100-Day Fest Score Attack",
-                "start": "july 16 2025, 12:00",
-                "end": "aug 19 2025, 11:59",
+				"name": "Battle Content Tower Event",
+                "start": "aug 7 2025, 12:00",
+                "end": "aug 21 2025, 11:59",
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-			"【Story Event】Eternal Summer Days Part I",
+			"【Story Event】Eternal Summer Days",
 			"『エターナルサマーデイズ 前編』"
         ],
         "image": [
@@ -195,8 +190,13 @@ var timerData = [
         "priority": 0,
         "timers": [
 			{
-				"name": "",
+				"name": "Part 1",
                 "start": "july 16 2025, 12:00",
+                "end": "aug 19 2025, 11:59",
+			},
+            {
+				"name": "Part 2",
+                "start": "aug 1 2025, 12:00",
                 "end": "aug 19 2025, 11:59",
 			}
         ]
@@ -424,8 +424,8 @@ var timerData = [
 			},
 			{
 				name: "Training Spree Packs",
-				start: "June 26 2025, 12:00",
-				end: "july 31 2025, 119:59"
+				start: "july 31 2025, 12:00",
+				end: "aug 31 2025, 11:59"
 			},
         ]
     },
@@ -441,24 +441,14 @@ var timerData = [
 		column: 2,
 		priority: 5,
 		timers: [	
-			{
-				name: "Cozy Cosmology",
-                "start": "june 26 2025, 12:00",
-                "end": "july 17 2025, 11:59",
-			},
-			{
-				name: "5★ Mikazuki Villa Trading Medals",
-                "start": "june 26 2025, 12:00",
-                "end": "aug 01 2025, 11:59",
-			},	
-			{
-				name: "Orb Collection and Selectable 5★",
-                "start": "june 26 2025, 12:00",
-                "end": "aug 01 2025, 11:59",
-			},	
             {
 				name: "Eternal Summer Days Part I",
                 "start": "july 16 2025, 12:00",
+                "end": "aug 20 2025, 11:59",
+			},
+                        {
+				name: "Eternal Summer Days Part II",
+                "start": "aug 1 2025, 12:00",
                 "end": "aug 20 2025, 11:59",
 			},
 		]
@@ -495,9 +485,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 09",
-				start: "july 21 2025, 12:00",
-				end: "aug 04 2025, 4:59",
+				name: "Season 10",
+				start: "aug 4 2025, 12:00",
+				end: "aug 18 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop - August",
@@ -664,19 +654,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【New Featured】5★ [Nine Phases] Alina Gray",
-            "『新★5キオク[Nine Phases]アリナ・グレイ』"
+			"【Limited】5★ [Melodia Appassionata] Sayaka | [Pluvia☆Clara] Madoka",
+            "『新★5キオク[メロディア・アパッショナータ] & [プルウィア☆クララ]』"
         ],
         "image": [
-            "imgs/exedra/gacha00/alina.png",
+            "imgs/exedra/gacha00/swim-madosaya.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "5★ Rate Increased to 5%!",
-                "start": "july 4 2025, 12:00",
-                "end": "july 23 2025, 11:59"
+                name: "",
+                "start": "aug 1 2025, 12:00",
+                "end": "aug 19 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
