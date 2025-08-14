@@ -215,8 +215,8 @@ var timerData = [
         "timers": [
 			{
 				"name": "In Game Story - No official dates given",
-                "start": "aug 21 2025, 20:00",
-                "end": "sep 1 2025, 21:00",
+                "start": "aug 22 2025, 00:00",
+                "end": "sep 1 2025, 00:00",
 			}
         ]
     },
