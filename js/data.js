@@ -204,19 +204,19 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-			"【Story Event】The Case Files of the Coordinator 3: Cozy Cosmology",
-			"『調整屋さんの事件簿３ 箱庭のコスモロジー』"
+			"Magia Exedra Exedra News #10",
+			"『Magia Exedra エクセドラ通信 #10』"
         ],
         "image": [
-            "imgs/exedra/events00/case-files03.png"
+            "imgs/exedra/other/live.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 9,
         "timers": [
 			{
-				"name": "",
-                "start": "june 26 2025, 12:00",
-                "end": "july 16 2025, 11:59",
+				"name": "https://www.youtube.com/live/CbLE9vMi-2I",
+                "start": "aug 14 2025, 20:00",
+                "end": "aug 14 2025, 21:00",
 			}
         ]
     },
@@ -446,7 +446,7 @@ var timerData = [
                 "start": "july 16 2025, 12:00",
                 "end": "aug 20 2025, 11:59",
 			},
-                        {
+            {
 				name: "Eternal Summer Days Part II",
                 "start": "aug 1 2025, 12:00",
                 "end": "aug 20 2025, 11:59",
