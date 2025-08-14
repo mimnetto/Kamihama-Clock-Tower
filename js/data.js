@@ -201,6 +201,25 @@ var timerData = [
 			}
         ]
     },
+    	{
+        "type": "Event",
+        "title": [
+			"【Story Event】The case files of the Coordinator 4",
+			"『調整屋さんの事件簿4 誤配のモラトリアム』"
+        ],
+        "image": [
+            "imgs/exedra/events00/case-alina.png"
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				"name": "Part 1",
+                "start": "aug 15 2025, 12:00",
+                "end": "aug 28 2025, 11:59",
+			},
+        ]
+    },
 		{
         "type": "Event",
         "title": [
