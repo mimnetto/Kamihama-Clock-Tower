@@ -204,19 +204,19 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-			"Magia Exedra Exedra News #10",
-			"『Magia Exedra エクセドラ通信 #10』"
+			"Happy Birthday Iroha!",
+			"『いろはの誕生日おめでとう』"
         ],
         "image": [
-            "imgs/exedra/other/live.png"
+            "imgs/exedra/other/iroha-birth.png"
         ],
         "column": 0,
         "priority": 9,
         "timers": [
 			{
-				"name": "https://www.youtube.com/live/CbLE9vMi-2I",
-                "start": "aug 14 2025, 20:00",
-                "end": "aug 14 2025, 21:00",
+				"name": "In Game Story - No official dates given",
+                "start": "aug 21 2025, 20:00",
+                "end": "sep 1 2025, 21:00",
 			}
         ]
     },
@@ -674,19 +674,19 @@ var timerData = [
     	{
         "type": "Gacha",
         "title": [
-			"【Paid】One 5★ Kioku Guaranteed Fate Weave",
-            "『有償限定★5キオク1体確定ガチャ』"
+			"【New Kioku】Holy Mami",
+            "『有償限定★5キオクホーリーマミガチャ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/paid00.png",
+            "imgs/exedra/gacha00/holy-mami.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Paid Only",
-                "start": "july 16 2025, 12:00",
-                "end": "july 31 2025, 11:59",
+                name: "End date might change",
+                "start": "aug 15 2025, 12:00",
+                "end": "aug 28 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
