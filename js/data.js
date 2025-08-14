@@ -674,7 +674,7 @@ var timerData = [
     	{
         "type": "Gacha",
         "title": [
-			"【New Kioku】Holy Mami",
+			"【Unlimted New】Holy Mami",
             "『有償限定★5キオクホーリーマミガチャ』"
         ],
         "image": [
