@@ -151,6 +151,11 @@ var timerData = [
                 "start": "aug 1 2025, 12:00",
                 "end": "aug 19 2025, 11:59",
 			},
+                        {
+				name: "MagiReco Final Release Celebration",
+                "start": "aug 15 2025, 12:00",
+                "end": "aug 28 2025, 11:59",
+			},
         ]
     },
 	{
@@ -174,7 +179,12 @@ var timerData = [
 				"name": "Battle Content Tower Event",
                 "start": "aug 7 2025, 12:00",
                 "end": "aug 21 2025, 11:59",
-			}
+			},
+            			{
+				"name": "Score Attack VS AI Chan",
+                "start": "aug 15 2025, 12:00",
+                "end": "aug 29 2025, 11:59",
+			},
         ]
     },
 	{
@@ -216,7 +226,7 @@ var timerData = [
 			{
 				"name": "Part 1",
                 "start": "aug 15 2025, 12:00",
-                "end": "aug 28 2025, 11:59",
+                "end": "aug 29 2025, 11:59",
 			},
         ]
     },
@@ -365,19 +375,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Training Spree Missions Part 4",
-			"『育成応援ミッション第4弾』"
+            "Release Celebration Missions",
+			"『開幕記念ミッション』"
         ],
         "image": [
-			"imgs/exedra/events00/training04.png"
+			"imgs/exedra/camp/mifuyu.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 1,
         "timers": [
 			{
-				name: "",
-                "start": "april 18 2025, 12:00",
-                "end": "april 25 2025, 11:59",
+				name: "Magia Record Part 1 Final Chapter",
+                "start": "aug 15 2025, 12:00",
+                "end": "aug 28 2025, 11:59",
 			}
         ]
     },
@@ -470,6 +480,11 @@ var timerData = [
                 "start": "aug 1 2025, 12:00",
                 "end": "aug 20 2025, 11:59",
 			},
+                        {
+				name: "The case files of the Coordinator 4",
+                "start": "aug 15 2025, 12:00",
+                "end": "aug 30 2025, 11:59",
+			},
 		]
 	},
 	{
@@ -504,9 +519,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 10",
-				start: "aug 4 2025, 12:00",
-				end: "aug 18 2025, 4:59",
+				name: "Season 11",
+				start: "aug 18 2025, 12:00",
+				end: "sep 1 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop - August",
@@ -703,9 +718,9 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "End date might change",
+                name: "[Tiro Finale Liberation] Dark Attacker",
                 "start": "aug 15 2025, 12:00",
-                "end": "aug 28 2025, 11:59",
+                "end": "aug 29 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
