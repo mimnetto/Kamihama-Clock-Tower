@@ -147,9 +147,9 @@ var timerData = [
                 "end": "aug 19 2025, 11:59"
 			},
             {
-				name: "Summer Campaign",
-                "start": "aug 1 2025, 12:00",
-                "end": "aug 19 2025, 11:59",
+				name: "Iroha Birthday Portrait",
+                "start": "aug 22 2025, 00:00",
+                "end": "aug 28 2025, 23:59",
 			},
                         {
 				name: "MagiReco Final Release Celebration",
@@ -243,9 +243,9 @@ var timerData = [
         "priority": 9,
         "timers": [
 			{
-				"name": "In Game Story - No official dates given",
+				"name": "In Game Story & Login Bonus",
                 "start": "aug 22 2025, 00:00",
-                "end": "sep 1 2025, 00:00",
+                "end": "aug 28 2025, 23:59",
 			}
         ]
     },
