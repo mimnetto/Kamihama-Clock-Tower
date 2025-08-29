@@ -142,9 +142,9 @@ var timerData = [
         "priority": 2,
         "timers": [
             {
-				name: "Core & Orb Login Bonus",
-                "start": "july 16 2025, 12:00",
-                "end": "aug 19 2025, 11:59"
+				name: "Magia Record Part 1 Complete Celebration",
+                "start": "aug 28 2025, 12:00",
+                "end": "sept 18 2025, 11:59"
 			},
             {
 				name: "Iroha Birthday Portrait",
@@ -171,9 +171,9 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "Score Attack VS Box Witch",
-                "start": "aug 1 2025, 12:00",
-                "end": "aug 19 2025, 11:59",
+				"name": "Score Attack VS Uwasa of the Chelation Land Ferris Wheel",
+                "start": "aug 28 2025, 12:00",
+                "end": "sept 11 2025, 11:59",
 			},
 			{
 				"name": "Battle Content Tower Event",
@@ -214,19 +214,19 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Story Event】The case files of the Coordinator 4",
-			"『調整屋さんの事件簿4 誤配のモラトリアム』"
+			"【Story Event】The case files of the Coordinator 5",
+			"『調整屋さんの事件簿５ 不可視のエピファニー』"
         ],
         "image": [
-            "imgs/exedra/events00/case-alina.png"
+            "imgs/exedra/events00/case05.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
-				"name": "Part 1",
-                "start": "aug 15 2025, 12:00",
-                "end": "aug 29 2025, 11:59",
+				"name": "",
+                "start": "aug 28 2025, 12:00",
+                "end": "sept 11 2025, 11:59",
 			},
         ]
     },
@@ -375,19 +375,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Release Celebration Missions",
-			"『開幕記念ミッション』"
+            "Magia Record Part 1 Complete Celebration Missions",
+			"『「マギアレコード編 第1部 完結記念ミッション』"
         ],
         "image": [
-			"imgs/exedra/camp/mifuyu.png"
+			"imgs/exedra/camp/magireco01.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "Magia Record Part 1 Final Chapter",
-                "start": "aug 15 2025, 12:00",
-                "end": "aug 28 2025, 11:59",
+				name: "",
+                "start": "aug 28 2025, 12:00",
+                "end": "sept 18 2025, 11:59",
 			}
         ]
     },
@@ -434,75 +434,27 @@ var timerData = [
 			// },
     //     ]
     // },
-	{
-        "type": "Shops",
-        "title": [
-            "Celebration & Bonus Packs",
-			"開幕記念パック"
-        ],
-        "image": [
-            "shop"
-        ],
-        "column": 2,
-        "priority": 100,
-        "timers": [
-			{
-				name: "100-Day Fest Premium Bonus Sale",
-                "start": "july 16 2025, 12:00",
-                "end": "july 31 2025, 11:59",
-			},
-			{
-				name: "Training Spree Packs",
-				start: "july 31 2025, 12:00",
-				end: "aug 31 2025, 11:59"
-			},
-        ]
-    },
-	{
+            	{
 		type: "Other",
 		title: [
-		"Event Quests Trader Shops",
-		"「イベントクエスト 通貨ショップ」"
+		"Link Raid",
+		"『リンクレイド』"
 		],
 		image: [
-            "imgs/quest-shop.png"
+            "imgs/exedra/other/link-raid.png"
         ],
 		column: 2,
-		priority: 5,
-		timers: [	
-            {
-				name: "Eternal Summer Days Part I",
-                "start": "july 16 2025, 12:00",
-                "end": "aug 20 2025, 11:59",
-			},
-            {
-				name: "Eternal Summer Days Part II",
-                "start": "aug 1 2025, 12:00",
-                "end": "aug 20 2025, 11:59",
-			},
-                        {
-				name: "The case files of the Coordinator 4",
-                "start": "aug 15 2025, 12:00",
-                "end": "aug 30 2025, 11:59",
-			},
-		]
-	},
-	{
-		type: "Other",
-		title: [
-		"Fate Weave Trader Coins",
-		"「ガチャコインのショップ」"
-		],
-		image: [
-            "imgs/coin-shop.png"
-        ],
-		column: 2,
-		priority: 3,
-		timers: [	
+		priority: 0,
+		timers: [
 			{
-				name: "Team Momoko",
-                "start": "april 11 2024, 12:00",
-                "end": "april 25 2024, 11:59",
+				name: "Season 1",
+				start: "aug 28 2025, 12:00",
+				end: "sep 11 2025, 11:59",
+			},
+			{
+				name: "Gold & Silver Medal Shop",
+				start: "aug 28 2025, 12:00",
+				end: "Sept 15 2025, 11:59",
 			},
 		]
 	},
@@ -535,6 +487,84 @@ var timerData = [
 			},
 		]
 	},
+	{
+        "type": "Shops",
+        "title": [
+            "Celebration & Bonus Packs",
+			"開幕記念パック"
+        ],
+        "image": [
+            "shop"
+        ],
+        "column": 2,
+        "priority": 100,
+        "timers": [
+			{
+				name: "Training Spree Packs",
+				start: "july 31 2025, 12:00",
+				end: "aug 31 2025, 11:59"
+			},
+            			{
+				name: "Aqua/Dark/Void Materials Packs ",
+                "start": "aug 28 2025, 12:00",
+                "end": "sept 9 2025, 11:59",
+			},
+        ]
+    },
+	{
+		type: "Other",
+		title: [
+		"Event Quests Trader Shops",
+		"「イベントクエスト 通貨ショップ」"
+		],
+		image: [
+            "imgs/quest-shop.png"
+        ],
+		column: 2,
+		priority: 5,
+		timers: [	
+            {
+				name: "Eternal Summer Days Part I",
+                "start": "july 16 2025, 12:00",
+                "end": "aug 20 2025, 11:59",
+			},
+            {
+				name: "Eternal Summer Days Part II",
+                "start": "aug 1 2025, 12:00",
+                "end": "aug 20 2025, 11:59",
+			},
+                        {
+				name: "The case files of the Coordinator 4",
+                "start": "aug 15 2025, 12:00",
+                "end": "aug 30 2025, 11:59",
+			},
+                                    {
+				name: "The case files of the Coordinator 5",
+                "start": "aug 28 2025, 12:00",
+                "end": "sept 12 2025, 11:59",
+			},
+		]
+	},
+	{
+		type: "Other",
+		title: [
+		"Fate Weave Trader Coins",
+		"「ガチャコインのショップ」"
+		],
+		image: [
+            "imgs/coin-shop.png"
+        ],
+		column: 2,
+		priority: 3,
+		timers: [	
+			{
+				name: "Team Momoko",
+                "start": "april 11 2024, 12:00",
+                "end": "april 25 2024, 11:59",
+			},
+		]
+	},
+
 // {
 // 		type: "Other",
 // 		title: [
@@ -599,8 +629,8 @@ var timerData = [
         "timers": [
             {
                 name: "24 Hours Only!🪄",
-                "start": "july 31 2025, 12:00",
-                "end": "aug 1 2025, 11:59",
+                "start": "aug 31 2025, 12:00",
+                "end": "sept 1 2025, 11:59",
                 extraPriority: 1000
             },
         ]
@@ -628,8 +658,8 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Scene 0 Celebration】One Per Day Free Fate Weave ",
-            "『scene0開幕記念 1日1回無料ガチャ開催』"
+			"【MagiReco Celebration】1 Per Day Free Fate Weave",
+            "『「マギアレコード編  第1部」完結記念 1日1回無料ガチャ』"
         ],
         "image": [
             "imgs/exedra/gacha00/free.png",
@@ -639,28 +669,48 @@ var timerData = [
         "timers": [
             {
                 name: "",
-                "start": "may 30 2025, 12:00",
-                "end": "june 30 2025, 11:59",
+                "start": "aug 28 2025, 12:00",
+                "end": "sept 28 2025, 11:59",
                // extraPriority: 1000
+            }
+        ]
+    },
+   	{
+        "type": "Gacha",
+        "title": [
+			"【Unlimted New】Ui Tamaki",
+            "『[ルーチェ・スペランツァー] 環うい』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/ui.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "[Luce della Speranza]  Dark Buffer",
+                "start": "aug 28 2025, 12:00",
+                "end": "sept 11 2025, 11:59",
+            //    extraPriority: 1000
             }
         ]
     },
 	{
         "type": "Gacha",
         "title": [
-			"【Featured】5★ [Hallow Woman] Mabayu Aki",
-            "『★5愛生まばゆ ホロウ・ウーマン』"
+		    "【Link Raid Celebration】Aqua Showcase ",
+            "『リンクレイド実装記念 水属性フィーチャーガチャ開催』"
         ],
         "image": [
-			"imgs/exedra/gacha00/mabayu.png",
+			"imgs/exedra/gacha00/aqua.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Light - Buffer",
-                "start": "may 30 2025, 12:00",
-                "end": "june 30 2025, 11:59",
+                name: "",
+                "start": "aug 28 2025, 12:00",
+                "end": "sept 1 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
@@ -668,19 +718,19 @@ var timerData = [
     	{
         "type": "Gacha",
         "title": [
-			"【Limited】5★ [Fiore Finale] Mami Toomoe Swimsuit",
-            "『新★5巴マミ(水着)』"
+			"【Featured】Magius Fate Weave",
+            "『マギウスピックアップガチャ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/mami-swim.png",
+            "imgs/exedra/gacha00/magius.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "5★ Rate Increased to 5%!",
-                "start": "july 16 2025, 12:00",
-                "end": "aug 19 2025, 11:59"
+                name: "Nemu, Touka, and Alina",
+                "start": "aug 28 2025, 12:00",
+                "end": "sept 18 2025, 11:59"
             //    extraPriority: 1000
             }
         ]
@@ -701,26 +751,6 @@ var timerData = [
                 name: "",
                 "start": "aug 1 2025, 12:00",
                 "end": "aug 19 2025, 11:59",
-            //    extraPriority: 1000
-            }
-        ]
-    },
-    	{
-        "type": "Gacha",
-        "title": [
-			"【Unlimted New】Holy Mami",
-            "『有償限定★5キオクホーリーマミガチャ』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/holy-mami.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "[Tiro Finale Liberation] Dark Attacker",
-                "start": "aug 15 2025, 12:00",
-                "end": "aug 29 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
