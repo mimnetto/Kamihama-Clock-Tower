@@ -1,5 +1,5 @@
 var releaseDate = "march 26 2025, 04:00";
-var possibleNextAnnouncementDate = "July 15 2025, 20:00";
+var possibleNextAnnouncementDate = "sept 28 2025, 16:00";
 var nextAnniversary = "march 27 2026, 04:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -382,12 +382,31 @@ var timerData = [
 			"imgs/exedra/camp/magireco01.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 0,
         "timers": [
 			{
 				name: "",
                 "start": "aug 28 2025, 12:00",
                 "end": "sept 18 2025, 11:59",
+			}
+        ]
+    },
+    	{
+        "type": "Event",
+        "title": [
+            "Magia Day 2025 -Half Anniversary-",
+			"『「Magia Day 2025 -Half Anniversary-』"
+        ],
+        "image": [
+			"imgs/exedra/other/magia-day.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				name: "madoka-exedra.com/magiaday2025",
+                "start": "sept 28 2025, 16:00",
+                "end": "sept 28 2025, 17:59",
 			}
         ]
     },
