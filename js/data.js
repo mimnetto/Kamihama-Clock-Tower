@@ -176,9 +176,9 @@ var timerData = [
                 "end": "sept 11 2025, 11:59",
 			},
 			{
-				"name": "Battle Content Tower Event",
-                "start": "aug 7 2025, 12:00",
-                "end": "aug 21 2025, 11:59",
+				"name": "Up to a total of 60 floors! idk they didnt give it name",
+                "start": "sept 4 2025, 12:00",
+                "end": "sept 18 2025, 11:59",
 			},
             			{
 				"name": "Score Attack VS AI Chan",
@@ -490,14 +490,14 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 11",
-				start: "aug 18 2025, 12:00",
-				end: "sep 1 2025, 4:59",
+				name: "Season 12",
+				start: "sept 1 2025, 12:00",
+				end: "sep 15 2025, 4:59",
 			},
 			{
-				name: "Match Medal Shop - August",
-				start: "Aug 01 2025, 5:00",
-				end: "Sept 1 2025, 4:59",
+				name: "Match Medal Shop - September",
+				start: "Sept 01 2025, 5:00",
+				end: "Oct 1 2025, 4:59",
 			},
 						{
 				name: "Match Medal Shop - July",
@@ -717,19 +717,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-		    "【Link Raid Celebration】Aqua Showcase ",
-            "『リンクレイド実装記念 水属性フィーチャーガチャ開催』"
+		    "【Link Raid Celebration】Void Showcase ",
+            "『リンクレイド実装記念 無属性フィーチャーガチャ開催』"
         ],
         "image": [
-			"imgs/exedra/gacha00/aqua.png",
+			"imgs/exedra/gacha00/feat.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "",
-                "start": "aug 28 2025, 12:00",
-                "end": "sept 1 2025, 11:59",
+                "start": "sept 1 2025, 12:00",
+                "end": "sept 5 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
