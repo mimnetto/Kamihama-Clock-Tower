@@ -139,7 +139,7 @@ var timerData = [
 			"imgs/exedra/login/login.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 5,
         "timers": [
             {
 				name: "Magia Record Part 1 Complete Celebration",
@@ -176,7 +176,7 @@ var timerData = [
                 "end": "sept 11 2025, 11:59",
 			},
 			{
-				"name": "Up to a total of 60 floors! idk they didnt give it name",
+				"name": "Up to a total of 60 floors!",
                 "start": "sept 4 2025, 12:00",
                 "end": "sept 18 2025, 11:59",
 			},
@@ -187,28 +187,23 @@ var timerData = [
 			},
         ]
     },
-	{
+    	{
         "type": "Event",
         "title": [
-			"【Story Event】Eternal Summer Days",
-			"『エターナルサマーデイズ 前編』"
+			"【Live Stream】Eternal Sakura Introduction",
+			"『新★5キオク万年桜のウワサ 性能紹介』"
         ],
         "image": [
-            "imgs/exedra/events00/summer01.png"
+            "imgs/exedra/events00/live-stream.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 4,
         "timers": [
 			{
-				"name": "Part 1",
-                "start": "july 16 2025, 12:00",
-                "end": "aug 19 2025, 11:59",
+				"name": "youtube.com/watch?v=3O7fnwWsGyQ",
+                "start": "Sept 7 2025, 20:00",
+                "end": "sept 7 2025, 21:59",
 			},
-            {
-				"name": "Part 2",
-                "start": "aug 1 2025, 12:00",
-                "end": "aug 19 2025, 11:59",
-			}
         ]
     },
     	{
@@ -714,22 +709,22 @@ var timerData = [
             }
         ]
     },
-	{
+       	{
         "type": "Gacha",
         "title": [
-		    "【Link Raid Celebration】Void Showcase ",
-            "『リンクレイド実装記念 無属性フィーチャーガチャ開催』"
+			"【Unlimted New】Eternal Sakura",
+            "『[刻み込む桜の物語] 万年桜のウワサ』"
         ],
         "image": [
-			"imgs/exedra/gacha00/feat.png",
+            "imgs/exedra/gacha00/sakurako.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "",
-                "start": "sept 1 2025, 12:00",
-                "end": "sept 5 2025, 11:59",
+                name: "[A Tale of Cherry Blossoms] No official end date yet",
+                "start": "sept 9 2025, 12:00",
+                "end": "sept 23 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
@@ -757,21 +752,35 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited】5★ [Melodia Appassionata] Sayaka | [Pluvia☆Clara] Madoka",
-            "『新★5キオク[メロディア・アパッショナータ] & [プルウィア☆クララ]』"
+		    "【Link Raid Celebration】Showcase Fate Weave",
+            "『リンクレイド実装記念 無属性フィーチャーガチャ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/swim-madosaya.png",
+			"imgs/exedra/gacha00/feat-link.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "",
-                "start": "aug 1 2025, 12:00",
-                "end": "aug 19 2025, 11:59",
-            //    extraPriority: 1000
-            }
+                name: "Dark - [Vampire Fang] [Cherry Blizzard] [Doppel of Silence]",
+                "start": "sept 5 2025, 12:00",
+                "end": "sept 9 2025, 11:59",
+            },
+            {
+                name: "Flame -[Flame Waltz] [Kugatachi] [Universe's Edge]",
+                "start": "sept 9 2025, 12:00",
+                "end": "sept 13 2025, 11:59",
+            },
+            {
+                name: "Forest - [Tiro Finale] [Folter Gefängnis] [Judgement Earth]",
+                "start": "sept 13 2025, 12:00",
+                "end": "sept 17 2025, 11:59",
+            },
+            {
+                name: "Light - [Hollow Woman] [Cherry Ballad] [Oracle Ray]",
+                "start": "sept 17 2025, 12:00",
+                "end": "sept 21 2025, 11:59",
+            },
         ]
     },
 	// {
