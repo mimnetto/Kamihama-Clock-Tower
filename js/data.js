@@ -176,14 +176,14 @@ var timerData = [
                 "end": "sept 11 2025, 11:59",
 			},
 			{
-				"name": "Up to a total of 60 floors!",
+				"name": "Tower Event - Up to a total of 60 floors!",
                 "start": "sept 4 2025, 12:00",
                 "end": "sept 18 2025, 11:59",
 			},
             			{
-				"name": "Score Attack VS AI Chan",
-                "start": "aug 15 2025, 12:00",
-                "end": "aug 29 2025, 11:59",
+				"name": "Score Attack VS Sandbox Witch!",
+                "start": "sept 8 2025, 12:00",
+                "end": "sept 22 2025, 11:59",
 			},
         ]
     },
@@ -202,14 +202,33 @@ var timerData = [
 			{
 				"name": "youtube.com/watch?v=3O7fnwWsGyQ",
                 "start": "Sept 7 2025, 20:00",
-                "end": "sept 7 2025, 21:59",
+                "end": "sept 7 2025, 20:30",
 			},
         ]
     },
     	{
         "type": "Event",
         "title": [
-			"【Story Event】The case files of the Coordinator 5",
+            "Magia Record Part 1 Complete Celebration Missions",
+			"『「マギアレコード編 第1部 完結記念ミッション』"
+        ],
+        "image": [
+			"imgs/exedra/camp/magireco01.png"
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				name: "",
+                "start": "aug 28 2025, 12:00",
+                "end": "sept 18 2025, 11:59",
+			}
+        ]
+    },
+       	{
+        "type": "Event",
+        "title": [
+			"【Story Event】TThe case files of the Coordinator 5",
 			"『調整屋さんの事件簿５ 不可視のエピファニー』"
         ],
         "image": [
@@ -222,6 +241,25 @@ var timerData = [
 				"name": "",
                 "start": "aug 28 2025, 12:00",
                 "end": "sept 11 2025, 11:59",
+			},
+        ]
+    },
+    	{
+        "type": "Event",
+        "title": [
+			"【Story Event】The Rumored Temp Counselor",
+			"『ウワサのあの子は臨時相談員!?』"
+        ],
+        "image": [
+            "imgs/exedra/events00/temp.png"
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				"name": "",
+                "start": "sept 8 2025, 12:00",
+                "end": "sept 22 2025, 11:59",
 			},
         ]
     },
@@ -367,25 +405,6 @@ var timerData = [
 			},
         ]
     },
-	{
-        "type": "Event",
-        "title": [
-            "Magia Record Part 1 Complete Celebration Missions",
-			"『「マギアレコード編 第1部 完結記念ミッション』"
-        ],
-        "image": [
-			"imgs/exedra/camp/magireco01.png"
-        ],
-        "column": 0,
-        "priority": 0,
-        "timers": [
-			{
-				name: "",
-                "start": "aug 28 2025, 12:00",
-                "end": "sept 18 2025, 11:59",
-			}
-        ]
-    },
     	{
         "type": "Event",
         "title": [
@@ -469,6 +488,11 @@ var timerData = [
 				name: "Gold & Silver Medal Shop",
 				start: "aug 28 2025, 12:00",
 				end: "Sept 15 2025, 11:59",
+			},
+            			{
+				name: "Season 2 - Commoner's Horse",
+				start: "sept 11 2025, 12:00",
+				end: "sept 25 2025, 11:59",
 			},
 		]
 	},
@@ -722,9 +746,9 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "[A Tale of Cherry Blossoms] No official end date yet",
+                name: "[A Tale of Cherry Blossoms] Aqua Attacker",
                 "start": "sept 9 2025, 12:00",
-                "end": "sept 23 2025, 11:59",
+                "end": "sept 22 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
