@@ -747,7 +747,7 @@ var timerData = [
         "timers": [
             {
                 name: "[A Tale of Cherry Blossoms] Aqua Attacker",
-                "start": "sept 9 2025, 12:00",
+                "start": "sept 8 2025, 12:00",
                 "end": "sept 22 2025, 11:59",
             //    extraPriority: 1000
             }
