@@ -190,8 +190,8 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Eternal Sakura Introduction",
-			"『新★5キオク万年桜のウワサ 性能紹介』"
+			"【Live Stream】Half Anniversary Coming Soon! Latest Information SP",
+			"【もうすぐHalf Anniversary！最新情報SP】"
         ],
         "image": [
             "imgs/exedra/events00/live-stream.png"
@@ -200,9 +200,9 @@ var timerData = [
         "priority": 4,
         "timers": [
 			{
-				"name": "youtube.com/watch?v=3O7fnwWsGyQ",
-                "start": "Sept 7 2025, 20:00",
-                "end": "sept 7 2025, 20:30",
+				"name": "youtube.com/watch?v=w6BVLx-Nu6U",
+                "start": "Sept 16 2025, 20:00",
+                "end": "sept 16 2025, 21:00",
 			},
         ]
     },
@@ -509,9 +509,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 12",
-				start: "sept 1 2025, 12:00",
-				end: "sep 15 2025, 4:59",
+				name: "Season 13",
+				start: "sept 15 2025, 12:00",
+				end: "sep 29 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop - September",
@@ -538,14 +538,14 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Training Spree Packs",
-				start: "july 31 2025, 12:00",
-				end: "aug 31 2025, 11:59"
+				name: "Link Raid Packs",
+				start: "sept 9 2025, 12:00",
+				end: "sept 21 2025, 11:59"
 			},
             			{
-				name: "Aqua/Dark/Void Materials Packs ",
-                "start": "aug 28 2025, 12:00",
-                "end": "sept 9 2025, 11:59",
+				name: "Training Spree Packs ",
+                "start": "sept 9 2025, 12:00",
+                "end": "sept 30 2025, 11:59",
 			},
         ]
     },
@@ -562,19 +562,19 @@ var timerData = [
 		priority: 5,
 		timers: [	
             {
-				name: "Eternal Summer Days Part I",
-                "start": "july 16 2025, 12:00",
-                "end": "aug 20 2025, 11:59",
+				name: "The Rumored Temp Counselor",
+                "start": "sept 8 2025, 12:00",
+                "end": "sept 23 2025, 11:59",
 			},
             {
-				name: "Eternal Summer Days Part II",
-                "start": "aug 1 2025, 12:00",
-                "end": "aug 20 2025, 11:59",
+				name: "Archive Medals Reset",
+                "start": "sept 1 2025, 12:00",
+                "end": "Oct 1 2025, 4:59",
 			},
                         {
-				name: "The case files of the Coordinator 4",
-                "start": "aug 15 2025, 12:00",
-                "end": "aug 30 2025, 11:59",
+				name: "Steady Steps Reset",
+                "start": "sept 1 2025, 12:00",
+                "end": "Oct 1 2025, 4:59",
 			},
                                     {
 				name: "The case files of the Coordinator 5",
