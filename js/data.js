@@ -756,7 +756,7 @@ var timerData = [
     	{
         "type": "Gacha",
         "title": [
-			"【Featured】Mel Anna",
+			"【Unlimted New】】Mel Anna",
             "『[漆黒のアルカナ] 安名メル』"
         ],
         "image": [
