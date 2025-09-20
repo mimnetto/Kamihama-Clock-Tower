@@ -142,7 +142,7 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Half Anniversary",
+				name: "Half Anniversary Countdown",
                 "start": "sept 18 2025, 12:00",
                 "end": "sept 28 2025, 11:59"
 			},
