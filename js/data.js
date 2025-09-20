@@ -228,19 +228,19 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】TThe case files of the Coordinator 5",
+			"【Story Event】Defying Destiny: Forbidden Cards Call",
 			"『調整屋さんの事件簿５ 不可視のエピファニー』"
         ],
         "image": [
-            "imgs/exedra/events00/case05.png"
+            "imgs/exedra/events00/mel.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
 				"name": "",
-                "start": "aug 28 2025, 12:00",
-                "end": "sept 11 2025, 11:59",
+                "start": "sept 18 2025, 12:00",
+                "end": "oct 2 2025, 11:59",
 			},
         ]
     },
@@ -756,19 +756,19 @@ var timerData = [
     	{
         "type": "Gacha",
         "title": [
-			"【Featured】Magius Fate Weave",
-            "『マギウスピックアップガチャ』"
+			"【Featured】Mel Anna",
+            "『[漆黒のアルカナ] 安名メル』"
         ],
         "image": [
-            "imgs/exedra/gacha00/magius.png",
+            "imgs/exedra/gacha00/mel.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Nemu, Touka, and Alina",
-                "start": "aug 28 2025, 12:00",
-                "end": "sept 18 2025, 11:59"
+                name: "Tenebrous Arcana",
+                "start": "sept 18 2025, 12:00",
+                "end": "oct 02 2025, 11:59"
             //    extraPriority: 1000
             }
         ]
