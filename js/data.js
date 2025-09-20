@@ -142,14 +142,14 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Magia Record Part 1 Complete Celebration",
-                "start": "aug 28 2025, 12:00",
-                "end": "sept 18 2025, 11:59"
+				name: "Half Anniversary",
+                "start": "sept 18 2025, 12:00",
+                "end": "sept 28 2025, 11:59"
 			},
             {
-				name: "Iroha Birthday Portrait",
-                "start": "aug 22 2025, 00:00",
-                "end": "aug 28 2025, 23:59",
+				name: "Scene 0 Part II",
+                "start": "sept 18 2025, 00:00",
+                "end": "oct 02 2025, 23:59",
 			},
                         {
 				name: "MagiReco Final Release Celebration",
@@ -209,19 +209,19 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-            "Magia Record Part 1 Complete Celebration Missions",
-			"『「マギアレコード編 第1部 完結記念ミッション』"
+            "【Story Event】Scene 0 Part II ",
+			"『scene0 中編 開幕』"
         ],
         "image": [
-			"imgs/exedra/camp/magireco01.png"
+			"imgs/exedra/events00/scene02.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
-				name: "",
-                "start": "aug 28 2025, 12:00",
-                "end": "sept 18 2025, 11:59",
+				name: "Also Permanent Added to the Windows",
+                "start": "sept 18 2025, 12:00",
+                "end": "oct 03 2025, 11:59",
 			}
         ]
     },
