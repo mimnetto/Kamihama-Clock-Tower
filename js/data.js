@@ -219,9 +219,14 @@ var timerData = [
         "priority": 0,
         "timers": [
 			{
-				name: "Also Permanent Added to the Windows",
+				name: "Story Event",
                 "start": "sept 18 2025, 12:00",
-                "end": "oct 03 2025, 11:59",
+                "end": "oct 02 2025, 11:59",
+			},
+            			{
+				name: "Release Celebration Missions",
+                "start": "sept 18 2025, 12:00",
+                "end": "oct 02 2025, 11:59",
 			}
         ]
     },
@@ -562,9 +567,9 @@ var timerData = [
 		priority: 5,
 		timers: [	
             {
-				name: "The Rumored Temp Counselor",
-                "start": "sept 8 2025, 12:00",
-                "end": "sept 23 2025, 11:59",
+				name: "Scene 0 Part II",
+                "start": "sept 18 2025, 12:00",
+                "end": "oct 03 2025, 11:59",
 			},
             {
 				name: "Archive Medals Reset",
@@ -756,7 +761,7 @@ var timerData = [
     	{
         "type": "Gacha",
         "title": [
-			"【Unlimted New】】Mel Anna",
+			"【Unlimted New】Mel Anna",
             "『[漆黒のアルカナ] 安名メル』"
         ],
         "image": [
@@ -776,19 +781,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-		    "【Link Raid Celebration】Showcase Fate Weave",
+		    "【Featuted】Showcase Fate Weave",
             "『リンクレイド実装記念 無属性フィーチャーガチャ』"
         ],
         "image": [
-			"imgs/exedra/gacha00/feat-link.png",
+			"imgs/exedra/feat/feat00.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Dark - [Vampire Fang] [Cherry Blizzard] [Doppel of Silence]",
-                "start": "sept 5 2025, 12:00",
-                "end": "sept 9 2025, 11:59",
+                name: " [Hollow Woman] Mabayu Aki [Baldamente Fortissimo] Sayaka Miki",
+                "start": "sept 18 2025, 12:00",
+                "end": "oct 02 2025, 11:59",
             },
             {
                 name: "Flame -[Flame Waltz] [Kugatachi] [Universe's Edge]",
