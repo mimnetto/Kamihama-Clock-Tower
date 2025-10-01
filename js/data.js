@@ -142,9 +142,24 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Half Anniversary Countdown",
-                "start": "sept 18 2025, 12:00",
-                "end": "sept 28 2025, 11:59"
+				name: "Half Anniversary",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 30 2025, 11:59",
+			},
+            {
+				name: "Tons-of-Training Part 1",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 09 2025, 11:59",
+			},
+            {
+				name: "Tons-of-Training Part 2",
+                "start": "oct 09 2025, 12:00",
+                "end": "oct 20 2025, 11:59",
+			},
+            {
+				name: "Tons-of-Training Part 3",
+                "start": "oct 20 2025, 12:00",
+                "end": "oct 31 2025, 11:59",
 			},
             {
 				name: "Scene 0 Part II",
@@ -171,16 +186,16 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "Score Attack VS Uwasa of the Chelation Land Ferris Wheel",
-                "start": "aug 28 2025, 12:00",
-                "end": "sept 11 2025, 11:59",
+				"name": "Wraith Arc",
+                "start": "sept 29 2025, 17:00",
+                "end": "oct 14 2025, 11:59",
 			},
-			{
-				"name": "Tower Event - Up to a total of 60 floors!",
-                "start": "sept 4 2025, 12:00",
-                "end": "sept 18 2025, 11:59",
+            {
+				name: "AI-Chan Tower Missions & Reward Increase",
+                "start": "oct 03 2025, 12:00",
+                "end": "oct 17 2025, 11:59",
 			},
-            			{
+            {
 				"name": "Score Attack VS Sandbox Witch!",
                 "start": "sept 8 2025, 12:00",
                 "end": "sept 22 2025, 11:59",
@@ -203,6 +218,25 @@ var timerData = [
 				"name": "youtube.com/watch?v=w6BVLx-Nu6U",
                 "start": "Sept 16 2025, 20:00",
                 "end": "sept 16 2025, 21:00",
+			},
+        ]
+    },
+        	{
+        "type": "Event",
+        "title": [
+			"【Story Event】PMMM: Wraith Arc begins",
+			"『魔法少女まどか☆マギカ [ 魔獣編 ]』"
+        ],
+        "image": [
+            "imgs/exedra/anni/story-wr.png"
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				"name": "",
+                "start": "sept 29 2025, 17:00",
+                "end": "oct 14 2025, 11:59",
 			},
         ]
     },
@@ -249,25 +283,6 @@ var timerData = [
 			},
         ]
     },
-    	{
-        "type": "Event",
-        "title": [
-			"【Story Event】The Rumored Temp Counselor",
-			"『ウワサのあの子は臨時相談員!?』"
-        ],
-        "image": [
-            "imgs/exedra/events00/temp.png"
-        ],
-        "column": 0,
-        "priority": 0,
-        "timers": [
-			{
-				"name": "",
-                "start": "sept 8 2025, 12:00",
-                "end": "sept 22 2025, 11:59",
-			},
-        ]
-    },
 		{
         "type": "Event",
         "title": [
@@ -290,59 +305,109 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-            "【Campaign】100-Day Fest Part 2: 10 Major Campaigns!",
-			"『まどドラ100日感謝祭 10大キャンペーン』"
+            "【Campaign】Half Anniversary Missions Fifty Major Campaigns!",
+			"『ハーフアニバーサリー記念 50大キャンペーン』"
         ],
         "image": [
-			"imgs/exedra/events00/hundo02.png"
+			"imgs/exedra/anni/anni-fifty.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "Login Bonus",
-                "start": "july 16 2025, 12:00",
-                "end": "july 31 2025, 11:59",
+				name: "Login Bonus - 3,000 Gems",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 09 2025, 11:59",
+			},
+            {
+				name: "Login Bonus - Tons-of-Training Part 1",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 09 2025, 11:59",
+			},
+            {
+				name: "Login Bonus - Tons-of-Training Part 2",
+                "start": "oct 09 2025, 12:00",
+                "end": "oct 20 2025, 11:59",
+			},
+            {
+				name: "Login Bonus - Tons-of-Training Part 3",
+                "start": "oct 20 2025, 12:00",
+                "end": "oct 31 2025, 11:59",
+			},
+            {
+				name: "Madoka's Birthday Event",
+                "start": "oct 03 2025, 12:00",
+                "end": "oct 11 2025, 11:59",
 			},
 			{
 				name: "One Per Day Free 10-Draw Fate Weave",
-                "start": "july 16 2025, 12:00",
-                "end": "aug 19 2025, 11:59"
-			},
-			{
-				name: "100-Day Fest Pt. 2 Main Quest Support Missions",
-                "start": "july 16 2025, 12:00",
-                "end": "aug 19 2025, 11:59"
-			},
-			{
-				name: "Core & Orb Login Bonus",
-                "start": "july 16 2025, 12:00",
-                "end": "aug 19 2025, 11:59"
-			},
-			{
-				name: "100-Day Fest Reward Increase",
-                "start": "july 16 2025, 12:00",
-                "end": "aug 19 2025, 11:59"
-			},
-			{
-				name: "100-Day Fest Half QP",
-                "start": "july 16 2025, 12:00",
-                "end": "july 31 2025, 11:59"
-			},
-			{
-				name: "100-Day Fest Missions Part 1",
-                "start": "july 16 2025, 12:00",
-                "end": "july 23 2025, 11:59"
-			},
-			{
-				name: "100-Day Fest Missions Part 2",
-                "start": "july 23 2025, 12:00",
-                "end": "july 31 2025, 11:59"
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 31 2025, 11:59",
 			},
             {
-				name: "Main Quest Addition Login Bonus (Scene 0)",
-                "start": "july 23 2025, 12:00",
-                "end": "aug 06 2025, 11:59"
+				name: "PMMM Beginnings / Eternal Celebration",
+                "start": "oct 13 2025, 5:30",
+                "end": "oct 15 2025, 11:59",
+			},
+			{
+				name: "Magia Day Half Anniversary Celebration Gift",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 31 2025, 11:59",
+			},
+        	{
+				name: "Gallery Update Heartsand Gift ",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 31 2025, 11:59",
+			},
+			{
+				name: "Upgrade Quest Fest Half QP",
+                "start": "sept 29 2025, 17:00",
+                "end": "oct 14 2025, 11:59",
+			},
+            {
+				name: "Wraith Arc Score Attach Missions",
+                "start": "sept 29 2025, 17:00",
+                "end": "oct 14 2025, 11:59",
+			},
+            {
+				name: "Tower Missions & Reward Increase",
+                "start": "oct 03 2025, 12:00",
+                "end": "oct 17 2025, 11:59",
+			},
+            {
+				name: "Wraith Arc Boss Coming & Raid Reward Increase",
+                "start": "oct 11 2025, 12:00",
+                "end": "oct 23 2025, 11:59",
+			},
+            {
+				name: "Invite-a-Friend",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 31 2025, 11:59",
+			},
+            {
+				name: "Welcome Back Campaign",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 31 2025, 11:59",
+			},
+            {
+				name: "Magia Day 2025 Announcement Campaign Goal",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 31 2025, 11:59",
+			},
+        	{
+				name: "Half Anniversary Missions Part 1",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 09 2025, 11:59",
+			},
+			{
+				name: "Half Anniversary Missions Part 2",
+                "start": "oct 09 2025, 12:00",
+                "end": "oct 20 2025, 11:59",
+			},
+            {
+				name: "Half Anniversary Missions Part 3",
+                "start": "oct 20 2025, 12:00",
+                "end": "oct 31 2025, 11:59",
 			},
         ]
     },
@@ -543,9 +608,9 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Link Raid Packs",
-				start: "sept 9 2025, 12:00",
-				end: "sept 21 2025, 11:59"
+				name: "5★ Kioku Selection Packs",
+                "start": "sept 29 2025, 8:00",
+                "end": "nov 12 2025, 11:59",
 			},
             			{
 				name: "Training Spree Packs ",
@@ -568,6 +633,11 @@ var timerData = [
 		timers: [	
             {
 				name: "Scene 0 Part II",
+                "start": "sept 18 2025, 12:00",
+                "end": "oct 03 2025, 11:59",
+			},
+                        {
+				name: "Defying Destiny",
                 "start": "sept 18 2025, 12:00",
                 "end": "oct 03 2025, 11:59",
 			},
