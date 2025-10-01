@@ -186,7 +186,7 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "Wraith Arc",
+				"name": "Wraith Arc Score Attack & Missions",
                 "start": "sept 29 2025, 17:00",
                 "end": "oct 14 2025, 11:59",
 			},
