@@ -224,7 +224,7 @@ var timerData = [
         	{
         "type": "Event",
         "title": [
-			"【Story Event】PMMM: Wraith Arc begins",
+			"【Story Event】PMMM: Wraith Arc Begins",
 			"『魔法少女まどか☆マギカ [ 魔獣編 ]』"
         ],
         "image": [
@@ -550,14 +550,14 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 1",
-				start: "aug 28 2025, 12:00",
-				end: "sep 11 2025, 11:59",
+				name: "Season 3 - Sandbox Witch",
+				start: "sept 10 2025, 12:00",
+				end: "oct 09 2025, 11:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop",
-				start: "aug 28 2025, 12:00",
-				end: "Sept 15 2025, 11:59",
+				start: "Oct 01 2025, 5:00",
+				end: "Nov 1 2025, 4:59",
 			},
             			{
 				name: "Season 2 - Commoner's Horse",
@@ -579,14 +579,14 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 13",
-				start: "sept 15 2025, 12:00",
-				end: "sep 29 2025, 4:59",
+				name: "Season 14",
+				start: "sept 29 2025, 12:00",
+				end: "oct 11 2025, 4:59",
 			},
 			{
-				name: "Match Medal Shop - September",
-				start: "Sept 01 2025, 5:00",
-				end: "Oct 1 2025, 4:59",
+				name: "Match Medal Shop - October",
+				start: "Oct 01 2025, 5:00",
+				end: "Nov 1 2025, 4:59",
 			},
 						{
 				name: "Match Medal Shop - July",
@@ -612,10 +612,10 @@ var timerData = [
                 "start": "sept 29 2025, 8:00",
                 "end": "nov 12 2025, 11:59",
 			},
-            			{
-				name: "Training Spree Packs ",
-                "start": "sept 9 2025, 12:00",
-                "end": "sept 30 2025, 11:59",
+			{
+				name: "5★ Kioku Trading Medel Trader",
+                "start": "sept 29 2025, 8:00",
+                "end": "nov 12 2025, 11:59",
 			},
         ]
     },
@@ -632,6 +632,16 @@ var timerData = [
 		priority: 5,
 		timers: [	
             {
+				name: "PMMM: Wraith Arc Event",
+                "start": "sept 29 2025, 17:00",
+                "end": "oct 15 2025, 11:59",
+			},
+            {
+				name: "Half Anniversary Medals Trader",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 31 2025, 11:59",
+			},
+            {
 				name: "Scene 0 Part II",
                 "start": "sept 18 2025, 12:00",
                 "end": "oct 03 2025, 11:59",
@@ -643,19 +653,15 @@ var timerData = [
 			},
             {
 				name: "Archive Medals Reset",
-                "start": "sept 1 2025, 12:00",
-                "end": "Oct 1 2025, 4:59",
+                "start": "sept 29 2025, 8:00",
+                "end": "nov 1 2025, 4:59",
 			},
                         {
 				name: "Steady Steps Reset",
-                "start": "sept 1 2025, 12:00",
-                "end": "Oct 1 2025, 4:59",
+                "start": "sept 29 2025, 8:00",
+                "end": "nov 1 2025, 4:59",
 			},
-                                    {
-				name: "The case files of the Coordinator 5",
-                "start": "aug 28 2025, 12:00",
-                "end": "sept 12 2025, 11:59",
-			},
+
 		]
 	},
 	{
@@ -755,15 +761,15 @@ var timerData = [
             "『最大100連！1日1回無料10連ガチャ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/free-10.png",
+            "imgs/exedra/anni/100.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "100 Pulls Total Between The Dates",
-                "start": "july 16 2025, 12:00",
-                "end": "aug 19 2025, 11:59",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 31 2025, 11:59",
                 // extraPriority: 100
             },
         ]
@@ -788,42 +794,22 @@ var timerData = [
             }
         ]
     },
-   	{
-        "type": "Gacha",
-        "title": [
-			"【Unlimted New】Ui Tamaki",
-            "『[ルーチェ・スペランツァー] 環うい』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/ui.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "[Luce della Speranza]  Dark Buffer",
-                "start": "aug 28 2025, 12:00",
-                "end": "sept 11 2025, 11:59",
-            //    extraPriority: 1000
-            }
-        ]
-    },
        	{
         "type": "Gacha",
         "title": [
-			"【Unlimted New】Eternal Sakura",
-            "『[刻み込む桜の物語] 万年桜のウワサ』"
+			"【Exclusive】Homura Akemi (Ribbon) Paid and Free",
+            "『暁美ほむら（リボン）ガチャ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/sakurako.png",
+            "imgs/exedra/anni/homu.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "[A Tale of Cherry Blossoms] Aqua Attacker",
-                "start": "sept 8 2025, 12:00",
-                "end": "sept 22 2025, 11:59",
+                name: "Dark Art Dominion (Void Attacker)",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 31 2025, 11:59",
             //    extraPriority: 1000
             }
         ]
@@ -880,6 +866,26 @@ var timerData = [
                 "start": "sept 17 2025, 12:00",
                 "end": "sept 21 2025, 11:59",
             },
+        ]
+    },
+       	{
+        "type": "Gacha",
+        "title": [
+			"【Free】PMMM Beginnings / Eternal Celebration",
+            "『 魔法少女まどか☆マギカTV Edition 放送記念』"
+        ],
+        "image": [
+            "imgs/exedra/anni/tv.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Week 1",
+                "start": "oct 13 2025, 5:30",
+                "end": "oct 15 2025, 11:59",
+            //    extraPriority: 1000
+            }
         ]
     },
 	// {
