@@ -143,7 +143,7 @@ var timerData = [
         "timers": [
         	{
 				name: "First Login During Event Period - 3,000 Gems",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
 			},
             {
@@ -153,7 +153,7 @@ var timerData = [
 			},
             {
 				name: "Tons-of-Training Part 1",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 09 2025, 11:59",
 			},
             {
@@ -326,7 +326,7 @@ var timerData = [
         "timers": [
 			{
 				name: "One Per Day Free 10-Draw Fate Weave",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
 			},
             {
@@ -336,12 +336,12 @@ var timerData = [
 			},
 			{
 				name: "Magia Day Half Anniversary Celebration Gift Distribution",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
 			},
         	{
 				name: "Gallery Update Heartsand Gift Distribution",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
 			},
 			{
@@ -351,22 +351,22 @@ var timerData = [
 			},
             {
 				name: "Invite-a-Friend",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
 			},
             {
 				name: "Welcome Back Campaign",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
 			},
             {
 				name: "Magia Day 2025 Announcement Campaign Goal",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
 			},
         	{
 				name: "Half Anniversary Missions Part 1",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 09 2025, 11:59",
 			},
 			{
@@ -589,13 +589,18 @@ var timerData = [
         "timers": [
 			{
 				name: "5★ Kioku Selection Packs",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "nov 12 2025, 11:59",
 			},
 			{
 				name: "5★ Kioku Trading Medel Trader",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "nov 12 2025, 11:59",
+			},
+            			{
+				name: "Premium Bonus Sale",
+                "start": "sept 29 2025, 20:00",
+                "end": "oct 31 2025, 11:59",
 			},
         ]
     },
@@ -618,7 +623,7 @@ var timerData = [
 			},
             {
 				name: "Half Anniversary Medals Trader",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
 			},
             {
@@ -633,12 +638,12 @@ var timerData = [
 			},
             {
 				name: "Archive Medals Reset",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "nov 1 2025, 4:59",
 			},
                         {
 				name: "Steady Steps Reset",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "nov 1 2025, 4:59",
 			},
 
@@ -748,7 +753,7 @@ var timerData = [
         "timers": [
             {
                 name: "100 Pulls Total Between The Dates",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
                 // extraPriority: 100
             },
@@ -788,7 +793,7 @@ var timerData = [
         "timers": [
             {
                 name: "Dark Art Dominion (Void Attacker)",
-                "start": "sept 29 2025, 8:00",
+                "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
             //    extraPriority: 1000
             }
