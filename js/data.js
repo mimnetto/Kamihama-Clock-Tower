@@ -231,7 +231,7 @@ var timerData = [
             "imgs/exedra/anni/story-wr.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
 				"name": "",
