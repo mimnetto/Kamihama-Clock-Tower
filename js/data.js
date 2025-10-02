@@ -141,13 +141,18 @@ var timerData = [
         "column": 0,
         "priority": 5,
         "timers": [
-                        {
+        	{
+				name: "First Login During Event Period - 3,000 Gems",
+                "start": "sept 29 2025, 8:00",
+                "end": "oct 31 2025, 11:59",
+			},
+            {
 				name: "Madoka's Birthday Portrait",
                 "start": "oct 03 2025, 00:00",
-                "end": "oct 11 2025, 11:59",
+                "end": "oct 10 2025, 23:59",
 			},
-			{
-				name: "First Login During Event Period - 3,000 Gems",
+            {
+				name: "Tons-of-Training Part 1",
                 "start": "sept 29 2025, 8:00",
                 "end": "oct 09 2025, 11:59",
 			},
@@ -155,11 +160,6 @@ var timerData = [
 				name: "Half Anniversary - 300 Gems Daily",
                 "start": "oct 09 2025, 5:00",
                 "end": "oct 31 2025, 11:59",
-			},
-            {
-				name: "Tons-of-Training Part 1",
-                "start": "sept 29 2025, 8:00",
-                "end": "oct 09 2025, 11:59",
 			},
             {
 				name: "Tons-of-Training Part 2",
@@ -315,7 +315,7 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-            "【Campaign】Half Anniversary Campaign!",
+            "【Campaign】Half Anniversary Campaign & Missions!",
 			"『ハーフアニバーサリー記念 50大キャンペーン』"
         ],
         "image": [
@@ -330,14 +330,9 @@ var timerData = [
                 "end": "oct 31 2025, 11:59",
 			},
             {
-				name: "PMMM Beginnings / Eternal TV Celebration",
-                "start": "oct 13 2025, 5:30",
-                "end": "oct 15 2025, 11:59",
-			},
-            {
 				name: "Madoka's Birthday Story Event",
                 "start": "oct 03 2025, 00:00",
-                "end": "oct 11 2025, 11:59",
+                "end": "oct 10 2025, 23:59",
 			},
 			{
 				name: "Magia Day Half Anniversary Celebration Gift Distribution",
@@ -345,7 +340,7 @@ var timerData = [
                 "end": "oct 31 2025, 11:59",
 			},
         	{
-				name: "Gallery Update Heartsand Gift ",
+				name: "Gallery Update Heartsand Gift Distribution",
                 "start": "sept 29 2025, 8:00",
                 "end": "oct 31 2025, 11:59",
 			},
@@ -353,21 +348,6 @@ var timerData = [
 				name: "Upgrade Quest Fest Half QP",
                 "start": "sept 29 2025, 17:00",
                 "end": "oct 14 2025, 11:59",
-			},
-            {
-				name: "Wraith Arc Score Attach Missions",
-                "start": "sept 29 2025, 17:00",
-                "end": "oct 14 2025, 11:59",
-			},
-            {
-				name: "Tower Missions & Reward Increase",
-                "start": "oct 03 2025, 12:00",
-                "end": "oct 17 2025, 11:59",
-			},
-            {
-				name: "Wraith Arc Boss Coming & Raid Reward Increase",
-                "start": "oct 11 2025, 12:00",
-                "end": "oct 23 2025, 11:59",
 			},
             {
 				name: "Invite-a-Friend",
@@ -544,6 +524,11 @@ var timerData = [
 				start: "sept 10 2025, 12:00",
 				end: "oct 09 2025, 11:59",
 			},
+            {
+				name: "Wraith Arc Boss & Raid Reward Increase",
+                "start": "oct 11 2025, 12:00",
+                "end": "oct 23 2025, 11:59",
+			},
 			{
 				name: "Gold & Silver Medal Shop",
 				start: "Oct 01 2025, 5:00",
@@ -572,6 +557,11 @@ var timerData = [
 				name: "Season 14",
 				start: "sept 29 2025, 12:00",
 				end: "oct 11 2025, 4:59",
+			},
+			{
+				name: "Daily Free 500 Medal Claim",
+				start: "Oct 01 2025, 5:00",
+				end: "Nov 1 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop - October",
