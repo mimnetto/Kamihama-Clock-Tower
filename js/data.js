@@ -335,7 +335,7 @@ var timerData = [
                 "end": "oct 15 2025, 11:59",
 			},
             {
-				name: "Madoka's Birthday Event",
+				name: "Madoka's Birthday Story Event",
                 "start": "oct 03 2025, 00:00",
                 "end": "oct 11 2025, 11:59",
 			},
