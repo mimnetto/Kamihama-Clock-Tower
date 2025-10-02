@@ -862,8 +862,8 @@ var timerData = [
         "timers": [
             {
                 name: "Week 1",
-                "start": "oct 13 2025, 5:30",
-                "end": "oct 15 2025, 11:59",
+                "start": "oct 12 2025, 17:30",
+                "end": "oct 14 2025, 23:59",
             //    extraPriority: 1000
             }
         ]
