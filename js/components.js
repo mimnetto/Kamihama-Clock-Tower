@@ -2,8 +2,8 @@ Vue.component("text-timer", {
     props: ["d_since_release", "t_to_next_ann", "t_to_next_anniv", "t_to_mandatory"],
     template: 
     `<h4>
-        <span class="timer-number">{{ d_since_release }}</span> days since <span >Magia Exedra</span> released<span v-if="nextAnnVisible()"></br><br> <span v-html="tNext(t_to_next_anniv)"></span> until the first anniversary.</span></br>
-        <span v-if="nextEvVisible()">Magia Day 2025 -Half Anniversary- in <span v-html="tNext(t_to_next_ann)"></span>.</span></br>
+        <span class="timer-number">{{ d_since_release }}</span> Days since <span >Magia Exedra</span> released <span v-if="nextAnnVisible()"></br> <span v-html="tNext(t_to_next_anniv)"></span> until the first anniversary.</span>
+        <span v-if="nextEvVisible()">Magia Day 2025 -Half Anniversary- in <span v-html="tNext(t_to_next_ann)"></span>.</span></span></br></br><img src="imgs/exedra/other/mifuyu.png"><span class="timer-number">{{ d_since_release }}</span> Days With No Mifuyu
     </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
  
     methods: {
