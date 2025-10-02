@@ -526,7 +526,7 @@ var timerData = [
 			},
             {
 				name: "Wraith Arc Boss & Raid Reward Increase",
-                "start": "oct 11 2025, 12:00",
+                "start": "oct 09 2025, 12:00",
                 "end": "oct 23 2025, 11:59",
 			},
 			{
