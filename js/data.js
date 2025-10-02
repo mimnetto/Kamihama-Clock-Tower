@@ -141,6 +141,11 @@ var timerData = [
         "column": 0,
         "priority": 5,
         "timers": [
+                        {
+				name: "Madoka's Birthday Portrait",
+                "start": "oct 03 2025, 00:00",
+                "end": "oct 11 2025, 11:59",
+			},
 			{
 				name: "First Login During Event Period - 3,000 Gems",
                 "start": "sept 29 2025, 8:00",
@@ -331,7 +336,7 @@ var timerData = [
 			},
             {
 				name: "Madoka's Birthday Event",
-                "start": "oct 03 2025, 12:00",
+                "start": "oct 03 2025, 00:00",
                 "end": "oct 11 2025, 11:59",
 			},
 			{
