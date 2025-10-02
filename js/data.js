@@ -141,10 +141,15 @@ var timerData = [
         "column": 0,
         "priority": 5,
         "timers": [
-            {
-				name: "Half Anniversary",
+			{
+				name: "First Login During Event Period - 3,000 Gems",
                 "start": "sept 29 2025, 8:00",
-                "end": "oct 30 2025, 11:59",
+                "end": "oct 09 2025, 11:59",
+			},
+            {
+				name: "Half Anniversary - 300 Gems Daily",
+                "start": "oct 09 2025, 5:00",
+                "end": "oct 31 2025, 11:59",
 			},
             {
 				name: "Tons-of-Training Part 1",
@@ -305,7 +310,7 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-            "【Campaign】Half Anniversary Missions Fifty Major Campaigns!",
+            "【Campaign】Half Anniversary Campaign!",
 			"『ハーフアニバーサリー記念 50大キャンペーン』"
         ],
         "image": [
@@ -315,24 +320,14 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "Login Bonus - 3,000 Gems",
+				name: "One Per Day Free 10-Draw Fate Weave",
                 "start": "sept 29 2025, 8:00",
-                "end": "oct 09 2025, 11:59",
-			},
-            {
-				name: "Login Bonus - Tons-of-Training Part 1",
-                "start": "sept 29 2025, 8:00",
-                "end": "oct 09 2025, 11:59",
-			},
-            {
-				name: "Login Bonus - Tons-of-Training Part 2",
-                "start": "oct 09 2025, 12:00",
-                "end": "oct 20 2025, 11:59",
-			},
-            {
-				name: "Login Bonus - Tons-of-Training Part 3",
-                "start": "oct 20 2025, 12:00",
                 "end": "oct 31 2025, 11:59",
+			},
+            {
+				name: "PMMM Beginnings / Eternal TV Celebration",
+                "start": "oct 13 2025, 5:30",
+                "end": "oct 15 2025, 11:59",
 			},
             {
 				name: "Madoka's Birthday Event",
@@ -340,17 +335,7 @@ var timerData = [
                 "end": "oct 11 2025, 11:59",
 			},
 			{
-				name: "One Per Day Free 10-Draw Fate Weave",
-                "start": "sept 29 2025, 8:00",
-                "end": "oct 31 2025, 11:59",
-			},
-            {
-				name: "PMMM Beginnings / Eternal Celebration",
-                "start": "oct 13 2025, 5:30",
-                "end": "oct 15 2025, 11:59",
-			},
-			{
-				name: "Magia Day Half Anniversary Celebration Gift",
+				name: "Magia Day Half Anniversary Celebration Gift Distribution",
                 "start": "sept 29 2025, 8:00",
                 "end": "oct 31 2025, 11:59",
 			},
