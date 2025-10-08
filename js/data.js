@@ -277,19 +277,19 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】Defying Destiny: Forbidden Cards Call",
-			"『調整屋さんの事件簿５ 不可視のエピファニー』"
+			"【Story Event】A Taste of Hospitality",
+			"『手料理でおもてなしパーティー』"
         ],
         "image": [
-            "imgs/exedra/events00/mel.png"
+            "imgs/exedra/anni/party.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
 			{
 				"name": "",
-                "start": "sept 18 2025, 12:00",
-                "end": "oct 2 2025, 11:59",
+                "start": "oct 9 2025, 12:00",
+                "end": "oct 23 2025, 11:59"
 			},
         ]
     },
@@ -703,12 +703,12 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 1,
+        priority: 0,
         timers: [
 			{
                 name: "Maintenance",
-				start: "June 24 2024, 15:00",
-				end: "june 24 2024, 17:00"
+				start: "oct 15 2025, 14:00",
+				end: "oct 15 2025, 14:59"
 				// extraPriority: 100
             },
             {
@@ -802,19 +802,19 @@ var timerData = [
     	{
         "type": "Gacha",
         "title": [
-			"【Unlimted New】Mel Anna",
-            "『[漆黒のアルカナ] 安名メル』"
+			"【Unlimted New】Mitama Yakumo",
+            "『[絶対自壊演舞] 八雲みたま』"
         ],
         "image": [
-            "imgs/exedra/gacha00/mel.png",
+            "imgs/exedra/anni/mitama.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Tenebrous Arcana",
-                "start": "sept 18 2025, 12:00",
-                "end": "oct 02 2025, 11:59"
+                name: "Void Healer",
+                "start": "oct 9 2025, 12:00",
+                "end": "oct 23 2025, 11:59"
             //    extraPriority: 1000
             }
         ]
