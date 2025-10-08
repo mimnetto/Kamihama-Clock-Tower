@@ -284,7 +284,7 @@ var timerData = [
             "imgs/exedra/anni/party.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
 				"name": "",
@@ -700,7 +700,7 @@ var timerData = [
 			"【メンテナンス】"
         ],
 		"image": [
-			"imgs/maintenance.png"
+			"imgs/exedra/other/maintenance.png"
 		],
         column: 0,
         priority: 0,
