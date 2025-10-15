@@ -554,9 +554,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 14",
-				start: "sept 29 2025, 12:00",
-				end: "oct 11 2025, 4:59",
+				name: "Season 15",
+				start: "oct 11 2025, 12:00",
+				end: "oct 27 2025, 4:59",
 			},
 			{
 				name: "Daily Free 500 Medal Claim",
