@@ -823,10 +823,10 @@ var timerData = [
         "type": "Gacha",
         "title": [
 		    "【Featuted】Showcase Fate Weave",
-            "『リンクレイド実装記念 無属性フィーチャーガチャ』"
+            "『放送記念 フィーチャーガチャ 』"
         ],
         "image": [
-			"imgs/exedra/feat/feat00.png",
+			"imgs/exedra/gacha00/showcase.png",
         ],
         "column": 1,
         "priority": 0,
