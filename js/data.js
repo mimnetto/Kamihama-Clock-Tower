@@ -215,8 +215,8 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Half Anniversary Coming Soon! Latest Information SP",
-			"【もうすぐHalf Anniversary！最新情報SP】"
+			"【Live Stream】Crescent Memoria🌙 Opening Special!",
+			"【長編新オリジナルストーリー Crescent Memoria 開幕SP】"
         ],
         "image": [
             "imgs/exedra/events00/live-stream.png"
@@ -225,9 +225,9 @@ var timerData = [
         "priority": 4,
         "timers": [
 			{
-				"name": "youtube.com/watch?v=w6BVLx-Nu6U",
-                "start": "Sept 16 2025, 20:00",
-                "end": "sept 16 2025, 21:00",
+				"name": "https://www.youtube.com/live/yAXeXq8rE9g",
+                "start": "Oct 18 2025, 20:00",
+                "end": "Oct 18 2025, 21:00",
 			},
         ]
     },
