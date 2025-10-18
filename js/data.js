@@ -819,6 +819,26 @@ var timerData = [
             }
         ]
     },
+        	{
+        "type": "Gacha",
+        "title": [
+			"【Unlimted New】[Assault Paranoia] Mifuyu Azusa",
+            "『[アサルトパラノイア]梓みふゆ』"
+        ],
+        "image": [
+            "imgs/exedra/anni/mifuyu.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Dark Breaker",
+                "start": "oct 20 2025, 12:00",
+                "end": "nov 3 2025, 11:59"
+            //    extraPriority: 1000
+            }
+        ]
+    },
 	{
         "type": "Gacha",
         "title": [
@@ -866,9 +886,9 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "Week 1",
-                "start": "oct 12 2025, 17:30",
-                "end": "oct 14 2025, 23:59",
+                name: "Week 2 Free Pull & Showcase",
+                "start": "oct 20 2025, 17:30",
+                "end": "oct 21 2025, 23:59",
             //    extraPriority: 1000
             }
         ]
