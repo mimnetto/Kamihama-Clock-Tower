@@ -172,14 +172,14 @@ var timerData = [
                 "end": "oct 31 2025, 11:59",
 			},
             {
-				name: "Scene 0 Part II",
-                "start": "sept 18 2025, 00:00",
-                "end": "oct 02 2025, 23:59",
+				name: "Crescent Memoria Portrait x6",
+                "start": "oct 20 2025, 12:00",
+                "end": "nov 3 2025, 11:59"
 			},
                         {
-				name: "MagiReco Final Release Celebration",
-                "start": "aug 15 2025, 12:00",
-                "end": "aug 28 2025, 11:59",
+				name: "Crescent Memoria 3,000 Magica Stones gift",
+                "start": "oct 20 2025, 12:00",
+                "end": "nov 3 2025, 11:59"
 			},
         ]
     },
@@ -448,19 +448,19 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-            "Magia Day 2025 -Half Anniversary-",
-			"『「Magia Day 2025 -Half Anniversary-』"
+            "Crescent Memoria Part 1 Release Celebration Campaign",
+			"『Crescent Memoria』第1弾 開幕記念キャンペーン"
         ],
         "image": [
-			"imgs/exedra/other/magia-day.png"
+			"imgs/exedra/camp/cmoon.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "madoka-exedra.com/magiaday2025",
-                "start": "sept 28 2025, 16:00",
-                "end": "sept 28 2025, 17:59",
+				name: "No official end date announced",
+                "start": "oct 20 2025, 12:00",
+                "end": "nov 3 2025, 11:59"
 			}
         ]
     },
