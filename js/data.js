@@ -234,19 +234,19 @@ var timerData = [
         	{
         "type": "Event",
         "title": [
-			"【Story Event】PMMM: Wraith Arc Begins",
-			"『魔法少女まどか☆マギカ [ 魔獣編 ]』"
+			"【Story Event】Crescent Memoria Part 1",
+			"『Crescent Memoria』第1弾"
         ],
         "image": [
-            "imgs/exedra/anni/story-wr.png"
+            "imgs/exedra/anni/cresmoon.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
 				"name": "",
-                "start": "sept 29 2025, 17:00",
-                "end": "oct 14 2025, 11:59",
+                "start": "oct 20 2025, 12:00",
+                "end": "nov 03 2025, 11:59",
 			},
         ]
     },
@@ -617,24 +617,19 @@ var timerData = [
 		priority: 5,
 		timers: [	
             {
-				name: "PMMM: Wraith Arc Event",
-                "start": "sept 29 2025, 17:00",
-                "end": "oct 15 2025, 11:59",
+				name: "Crescent Memoria Part 1",
+                "start": "oct 20 2025, 12:00",
+                "end": "nov 04 2025, 11:59",
+			},
+            {
+				name: "A Taste of Hospitality",
+                "start": "oct 9 2025, 12:00",
+                "end": "oct 24 2025, 11:59"
 			},
             {
 				name: "Half Anniversary Medals Trader",
                 "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
-			},
-            {
-				name: "Scene 0 Part II",
-                "start": "sept 18 2025, 12:00",
-                "end": "oct 03 2025, 11:59",
-			},
-                        {
-				name: "Defying Destiny",
-                "start": "sept 18 2025, 12:00",
-                "end": "oct 03 2025, 11:59",
 			},
             {
 				name: "Archive Medals Reset",
