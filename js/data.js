@@ -215,8 +215,8 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Crescent Memoria🌙 Opening Special!",
-			"【長編新オリジナルストーリー Crescent Memoria 開幕SP】"
+			"【Live Stream】Halloween Campaign Latest Information SP",
+			"【ハロウィンキャンペーン最新情報SP】"
         ],
         "image": [
             "imgs/exedra/events00/live-stream.png"
@@ -225,9 +225,9 @@ var timerData = [
         "priority": 4,
         "timers": [
 			{
-				"name": "https://www.youtube.com/live/yAXeXq8rE9g",
-                "start": "Oct 18 2025, 20:00",
-                "end": "Oct 18 2025, 21:00",
+				"name": "youtube.com/live/SsAbvpZgyko?feature=share",
+                "start": "Oct 28 2025, 20:00",
+                "end": "Oct 28 2025, 21:00",
 			},
         ]
     },
@@ -881,11 +881,50 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "Week 2 Free Pull & Showcase",
-                "start": "oct 20 2025, 17:30",
-                "end": "oct 21 2025, 23:59",
-            //    extraPriority: 1000
-            }
+                name: "Week 3 Free Pull & Showcase",
+                "start": "oct 26 2025, 17:30",
+                "end": "oct 28 2025, 23:59",
+            },
+            {
+                name: "Week 4 Free Pull & Showcase",
+                "start": "nov 2 2025, 17:30",
+                "end": "nov 4 2025, 23:59",
+            },
+            {
+                name: "Week 5 Free Pull & Showcase",
+                "start": "nov 9 2025, 17:30",
+                "end": "nov 11 2025, 23:59",
+            },
+            {
+                name: "Week 6 Free Pull & Showcase",
+                "start": "nov 16 2025, 17:30",
+                "end": "nov 18 2025, 23:59",
+            },
+            {
+                name: "Week 7 Free Pull & Showcase",
+                "start": "nov 23 2025, 17:30",
+                "end": "nov 25 2025, 23:59",
+            },
+            {
+                name: "Week 8 Free Pull & Showcase",
+                "start": "nov 30 2025, 17:30",
+                "end": "dec 2 2025, 23:59",
+            },
+            {
+                name: "Week 9 Free Pull & Showcase",
+                "start": "dec 7 2025, 17:30",
+                "end": "dec 9 2025, 23:59",
+            },
+            {
+                name: "Week 10 Free Pull & Showcase",
+                "start": "dec 14 2025, 17:30",
+                "end": "dec 16 2025, 23:59",
+            },
+            {
+                name: "Week 11 Free Pull & Showcase",
+                "start": "dec 21 2025, 17:30",
+                "end": "dec 23 2025, 23:59",
+            },
         ]
     },
 	// {
