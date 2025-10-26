@@ -225,7 +225,7 @@ var timerData = [
         "priority": 4,
         "timers": [
 			{
-				"name": "youtube.com/live/SsAbvpZgyko?feature=share",
+				"name": "youtube.com/live/SsAbvpZgyko",
                 "start": "Oct 28 2025, 20:00",
                 "end": "Oct 28 2025, 21:00",
 			},
@@ -520,7 +520,7 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 5 - Commoner's Horse",
+				name: "Uwasa of the Commoner's Horse",
 				start: "oct 23 2025, 12:00",
 				end: "nov 6 2025, 11:59",
 			},
