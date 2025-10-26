@@ -520,9 +520,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 3 - Sandbox Witch",
-				start: "sept 10 2025, 12:00",
-				end: "oct 09 2025, 11:59",
+				name: "Season 5 - Commoner's Horse",
+				start: "oct 23 2025, 12:00",
+				end: "nov 6 2025, 11:59",
 			},
             {
 				name: "Wraith Arc Boss & Raid Reward Increase",
