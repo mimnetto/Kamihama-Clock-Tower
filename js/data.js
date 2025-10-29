@@ -147,16 +147,6 @@ var timerData = [
                 "end": "oct 31 2025, 11:59",
 			},
             {
-				name: "Madoka's Birthday Portrait",
-                "start": "oct 03 2025, 00:00",
-                "end": "oct 10 2025, 23:59",
-			},
-            {
-				name: "Tons-of-Training Part 1",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 09 2025, 11:59",
-			},
-            {
 				name: "Half Anniversary - 300 Gems Daily",
                 "start": "oct 09 2025, 5:00",
                 "end": "oct 31 2025, 11:59",
@@ -179,7 +169,41 @@ var timerData = [
             {
 				name: "Halloween - 100 Stones a day for 10 days",
                 "start": "oct 30 2025, 12:00",
-                "end": "nov 9 2025, 11:59",
+                "end": "nov 25 2025, 11:59",
+			},
+        ]
+    },
+    	{
+        "type": "Event",
+        "title": [
+            "Limited Time Missions",
+			"『限定ミッション』"
+        ],
+        "image": [
+			"imgs/exedra/other/missions.png"
+        ],
+        "column": 0,
+        "priority": 5,
+        "timers": [
+            {
+				name: "Half Anniversary Missions Part 3",
+                "start": "oct 20 2025, 12:00",
+                "end": "oct 31 2025, 11:59",
+			},
+            {
+				name: "Crescent Memoria Release Missions",
+                "start": "oct 20 2025, 12:00",
+                "end": "nov 3 2025, 11:59"
+			},
+        	{
+				name: "Halloween Missions Part 1",
+                "start": "oct 30 2025, 12:00",
+                "end": "nov 12 2025, 11:59",
+			},
+            {
+				name: "Halloween Missions Part 2",
+                "start": "nov 12 2025, 12:00",
+                "end": "nov 25 2025, 11:59",
 			},
         ]
     },
@@ -458,7 +482,7 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				name: "No official end date announced",
+				name: "",
                 "start": "oct 20 2025, 12:00",
                 "end": "nov 3 2025, 11:59"
 			}
@@ -524,20 +548,15 @@ var timerData = [
 				start: "oct 23 2025, 12:00",
 				end: "nov 6 2025, 11:59",
 			},
-            {
-				name: "Wraith Arc Boss & Raid Reward Increase",
-                "start": "oct 09 2025, 12:00",
-                "end": "oct 23 2025, 11:59",
-			},
 			{
-				name: "Gold & Silver Medal Shop",
+				name: "Gold & Silver Medal Shop - Oct",
 				start: "Oct 01 2025, 5:00",
 				end: "Nov 1 2025, 4:59",
 			},
-            			{
-				name: "Season 2 - Commoner's Horse",
-				start: "sept 11 2025, 12:00",
-				end: "sept 25 2025, 11:59",
+			{
+				name: "Gold & Silver Medal Shop - Nov",
+				start: "Nov 01 2025, 5:00",
+				end: "Dec 1 2025, 4:59",
 			},
 		]
 	},
