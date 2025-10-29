@@ -162,11 +162,6 @@ var timerData = [
                 "end": "oct 31 2025, 11:59",
 			},
             {
-				name: "Tons-of-Training Part 2",
-                "start": "oct 09 2025, 12:00",
-                "end": "oct 20 2025, 11:59",
-			},
-            {
 				name: "Tons-of-Training Part 3",
                 "start": "oct 20 2025, 12:00",
                 "end": "oct 31 2025, 11:59",
@@ -180,6 +175,11 @@ var timerData = [
 				name: "Crescent Memoria 3,000 Magica Stones gift",
                 "start": "oct 20 2025, 12:00",
                 "end": "nov 3 2025, 11:59"
+			},
+            {
+				name: "Halloween - 100 Stones a day for 10 days",
+                "start": "oct 30 2025, 12:00",
+                "end": "nov 9 2025, 11:59",
 			},
         ]
     },
@@ -196,9 +196,9 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "Wraith Arc Score Attack & Missions",
-                "start": "sept 29 2025, 17:00",
-                "end": "oct 14 2025, 11:59",
+				"name": "Score Attack【VS Candy Witch】",
+                "start": "oct 30 2025, 12:00",
+                "end": "nov 25 2025, 11:59"
 			},
             {
 				name: "AI-Chan Tower Missions & Reward Increase",
@@ -277,19 +277,19 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】A Taste of Hospitality",
-			"『手料理でおもてなしパーティー』"
+			"【Story Event】Forever Halloween Night Part I",
+			"『ハロウィンナイトは永遠に  前編』"
         ],
         "image": [
-            "imgs/exedra/anni/party.png"
+            "imgs/exedra/events00/halloween00.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
 				"name": "",
-                "start": "oct 9 2025, 12:00",
-                "end": "oct 23 2025, 11:59"
+                "start": "oct 30 2025, 12:00",
+                "end": "nov 25 2025, 11:59"
 			},
         ]
     },
@@ -554,9 +554,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 15",
-				start: "oct 11 2025, 12:00",
-				end: "oct 27 2025, 4:59",
+				name: "Season 16",
+				start: "oct 27 2025, 12:00",
+				end: "nov 10 2025, 4:59",
 			},
 			{
 				name: "Daily Free 500 Medal Claim",
@@ -568,10 +568,10 @@ var timerData = [
 				start: "Oct 01 2025, 5:00",
 				end: "Nov 1 2025, 4:59",
 			},
-						{
-				name: "Match Medal Shop - July",
-				start: "july 01 2025, 5:00",
-				end: "aug 1 2025, 4:59",
+			{
+				name: "Match Medal Shop - November",
+				start: "Nov 01 2025, 5:00",
+				end: "Dec 1 2025, 4:59",
 			},
 		]
 	},
@@ -597,10 +597,15 @@ var timerData = [
                 "start": "sept 29 2025, 20:00",
                 "end": "nov 12 2025, 11:59",
 			},
-            			{
+            {
 				name: "Premium Bonus Sale",
                 "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
+			},
+			{
+				name: "Halloween Celebration Packs",
+                "start": "oct 30 2025, 12:00",
+                "end": "nov 25 2025, 23:59",
 			},
         ]
     },
@@ -702,8 +707,8 @@ var timerData = [
         timers: [
 			{
                 name: "Maintenance",
-				start: "oct 15 2025, 14:00",
-				end: "oct 15 2025, 14:59"
+				start: "nov 4 2025, 14:00",
+				end: "nov 4 2025, 14:59"
 				// extraPriority: 100
             },
             {
@@ -728,8 +733,8 @@ var timerData = [
         "timers": [
             {
                 name: "24 Hours Only!🪄",
-                "start": "aug 31 2025, 12:00",
-                "end": "sept 1 2025, 11:59",
+                "start": "oct 31 2025, 12:00",
+                "end": "nov 1 2025, 11:59",
                 extraPriority: 1000
             },
         ]
@@ -794,26 +799,6 @@ var timerData = [
             }
         ]
     },
-    	{
-        "type": "Gacha",
-        "title": [
-			"【Unlimted New】Mitama Yakumo",
-            "『[絶対自壊演舞] 八雲みたま』"
-        ],
-        "image": [
-            "imgs/exedra/anni/mitama.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "Void Healer",
-                "start": "oct 9 2025, 12:00",
-                "end": "oct 23 2025, 11:59"
-            //    extraPriority: 1000
-            }
-        ]
-    },
         	{
         "type": "Gacha",
         "title": [
@@ -830,6 +815,26 @@ var timerData = [
                 name: "Dark Breaker",
                 "start": "oct 20 2025, 12:00",
                 "end": "nov 3 2025, 11:59"
+            //    extraPriority: 1000
+            }
+        ]
+    },
+        	{
+        "type": "Gacha",
+        "title": [
+			"【Exclusive New】Mami Tomoe (Halloween)",
+            "『【新限定】 巴マミ(ハロウィン)』"
+        ],
+        "image": [
+            "imgs/exedra/exc/mami_halloween.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Babe-O'-Lantern | Dark Debuffer",
+                "start": "oct 30 2025, 12:00",
+                "end": "nov 25 2025, 11:59"
             //    extraPriority: 1000
             }
         ]
