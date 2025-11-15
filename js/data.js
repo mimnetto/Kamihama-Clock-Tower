@@ -722,7 +722,7 @@ var timerData = [
         	{
         "type": "Gacha",
         "title": [
-			"【Exclusive New】 Alina Gray Arrives!",
+			"【Exclusive New】 Alina (Halloween)",
             "『【新限定】 [Marigold Dadaism] アリナ・グレイ』"
         ],
         "image": [
