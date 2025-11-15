@@ -404,49 +404,6 @@ var timerData = [
 			}
         ]
     },
-		// {
-        // "type": "Event",
-        // "title": [
-        //     "【New Mirrors Event】Mirrors Rank Match",
-		// 	"【ミラーズランクマッチ】"
-        // ],
-        // "image": [
-        //     "imgs/events/mirrors00.png"
-        // ],
-        // "column": 0,
-        // "priority": 1,
-        // "timers": [
-		// 	{
-		// 		name: "Auto Battle",
-        //          "start": "oct 30 2023, 17:00",
-        //          "end": "nov 12 2023, 20:59",
-		// 	//	extraPriority: 100,
-		// 		markers:
-		// 		[
-		// 			{
-		// 				title: "Day 1", 
-		// 				time: "oct 30 2023, 17:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 2  - Happy Halloween! 🎃", 
-		// 				time: "oct 31 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 			{
-		// 				title: "Day 3", 
-		// 				time: "nov 1 2023, 16:00", 
-		// 				type: "battle"
-		// 			},
-		// 		]
-		// 	},
-			// {
-			// 	name: "Time to collect ranking rewards",
-			// 	start: "oct 24 2023, 16:00",
-			// 	end: "nov 5 2023, 21:00"
-			// },
-    //     ]
-    // },
             	{
 		type: "Other",
 		title: [
@@ -576,15 +533,20 @@ var timerData = [
 		"「ガチャコインのショップ」"
 		],
 		image: [
-            "imgs/coin-shop.png"
+            "imgs/exedra/other/coin-shop.png"
         ],
 		column: 2,
 		priority: 3,
 		timers: [	
 			{
-				name: "Team Momoko",
-                "start": "april 11 2024, 12:00",
-                "end": "april 25 2024, 11:59",
+				name: "Halloween Featured Fate Weave",
+                "start": "oct 30 2025, 12:00",
+                "end": "nov 26 2025, 11:59"
+			},
+            {
+				name: "PMMM Beginnings / Eternal Showcase",
+                "start": "oct 10 2025, 12:00",
+                "end": "dec 24 2025, 23:59"
 			},
 		]
 	},
