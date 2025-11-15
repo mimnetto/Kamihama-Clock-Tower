@@ -141,35 +141,15 @@ var timerData = [
         "column": 0,
         "priority": 5,
         "timers": [
-        	{
-				name: "First Login During Event Period - 3,000 Gems",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 31 2025, 11:59",
-			},
-            {
-				name: "Half Anniversary - 300 Gems Daily",
-                "start": "oct 09 2025, 5:00",
-                "end": "oct 31 2025, 11:59",
-			},
-            {
-				name: "Tons-of-Training Part 3",
-                "start": "oct 20 2025, 12:00",
-                "end": "oct 31 2025, 11:59",
-			},
-            {
-				name: "Crescent Memoria Portrait x6",
-                "start": "oct 20 2025, 12:00",
-                "end": "nov 3 2025, 11:59"
-			},
-                        {
-				name: "Crescent Memoria 3,000 Magica Stones gift",
-                "start": "oct 20 2025, 12:00",
-                "end": "nov 3 2025, 11:59"
-			},
             {
 				name: "Halloween - 100 Stones a day for 10 days",
                 "start": "oct 30 2025, 12:00",
                 "end": "nov 25 2025, 11:59",
+			},
+            {
+				name: "Scene 0 Finale Countdown",
+                "start": "nov 8 2025, 12:00",
+                "end": "nov 18 2025, 11:59",
 			},
         ]
     },
@@ -185,16 +165,6 @@ var timerData = [
         "column": 0,
         "priority": 5,
         "timers": [
-            {
-				name: "Half Anniversary Missions Part 3",
-                "start": "oct 20 2025, 12:00",
-                "end": "oct 31 2025, 11:59",
-			},
-            {
-				name: "Crescent Memoria Release Missions",
-                "start": "oct 20 2025, 12:00",
-                "end": "nov 3 2025, 11:59"
-			},
         	{
 				name: "Halloween Missions Part 1",
                 "start": "oct 30 2025, 12:00",
@@ -204,6 +174,11 @@ var timerData = [
 				name: "Halloween Missions Part 2",
                 "start": "nov 12 2025, 12:00",
                 "end": "nov 25 2025, 11:59",
+			},
+            {
+				name: "Main Quest Support Missions",
+                "start": "nov 18 2025, 12:00",
+                "end": "dec 3 2025, 11:59",
 			},
         ]
     },
@@ -225,14 +200,14 @@ var timerData = [
                 "end": "nov 25 2025, 11:59"
 			},
             {
-				name: "AI-Chan Tower Missions & Reward Increase",
-                "start": "oct 03 2025, 12:00",
-                "end": "oct 17 2025, 11:59",
+				name: "Tower | Mirror Layers 66-70",
+                "start": "nov 6 2025, 12:00",
+                "end": "nov 20 2025, 11:59",
 			},
             {
-				"name": "Score Attack VS Sandbox Witch!",
-                "start": "sept 8 2025, 12:00",
-                "end": "sept 22 2025, 11:59",
+				"name": "Score Attack【VS Artist Witch】",
+                "start": "nov 18 2025, 12:00",
+                "end": "dec 3 2025, 11:59",
 			},
         ]
     },
@@ -301,7 +276,7 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】Forever Halloween Night Part I",
+			"【Story Event】Forever Halloween Night",
 			"『ハロウィンナイトは永遠に  前編』"
         ],
         "image": [
@@ -311,8 +286,13 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "",
+				"name": "Part 1",
                 "start": "oct 30 2025, 12:00",
+                "end": "nov 25 2025, 11:59"
+			},
+            			{
+				"name": "Part 2",
+                "start": "nov 6 2025, 12:00",
                 "end": "nov 25 2025, 11:59"
 			},
         ]
@@ -408,83 +388,19 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "【Campaign】100-Day Fest: 10 Major Campaigns!",
-			"『まどドラ100日感謝祭 10大キャンペーン』"
+            "Puella Magi Madoka Magica: Scene 0 Finale",
+			"『魔法少女まどか☆マギカ scene0 完結編』"
         ],
         "image": [
-			"imgs/exedra/events00/hundo.png"
+			"imgs/exedra/events00/scene-finale.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "Login Bonus",
-                "start": "june 26 2025, 12:00",
-                "end": "july 16 2025, 11:59",
-			},
-			{
-				name: "Free 10-Draw Fate Weave - Nemu & Touka",
-                "start": "june 26 2025, 12:00",
-                "end": "july 16 2025, 11:59"
-			},
-			{
-				name: "Free 10-Draw Fate Weave - Magia 24hr ONLY",
-                "start": "june 30 2025, 12:00",
-                "end": "july 1 2025, 11:59",
-			},
-			{
-				name: "Free 10-Draw Fate Weave - Alina",
-                "start": "july 4 2025, 12:00",
-                "end": "july 23 2025, 11:59",
-			},
-			{
-				name: "Orb Collection and Selectable 5★ Event",
-                "start": "june 26 2025, 12:00",
-                "end": "july 31 2025, 11:59"
-			},
-			{
-				name: "100-Day Fest Missions Part 1",
-                "start": "june 26 2025, 12:00",
-                "end": "july 4 2025, 11:59"
-			},
-			{
-				name: "100-Day Fest Missions Part 2",
-                "start": "july 4 2025, 12:00",
-                "end": "july 16 2025, 11:59"
-			},
-			{
-				name: "100-Day Fest Event Reward Increase",
-                "start": "june 26 2025, 12:00",
-                "end": "july 16 2025, 11:59"
-			},
-			{
-				name: "Player EXP Collection Event",
-                "start": "june 26 2025, 12:00",
-                "end": "july 16 2025, 11:59"
-			},
-			{
-				name: "Tower Reward Increase",
-                "start": "july 4 2025, 12:00",
-                "end": "july 18 2025, 11:59"
-			},
-        ]
-    },
-    	{
-        "type": "Event",
-        "title": [
-            "Crescent Memoria Part 1 Release Celebration Campaign",
-			"『Crescent Memoria』第1弾 開幕記念キャンペーン"
-        ],
-        "image": [
-			"imgs/exedra/camp/cmoon.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			{
-				name: "",
-                "start": "oct 20 2025, 12:00",
-                "end": "nov 3 2025, 11:59"
+				name: "Main Quest Addition & Event",
+                "start": "nov 18 2025, 12:00",
+                "end": "dec 3 2025, 11:59",
 			}
         ]
     },
@@ -544,9 +460,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Uwasa of the Commoner's Horse",
-				start: "oct 23 2025, 12:00",
-				end: "nov 6 2025, 11:59",
+				name: "Uwasa of the Chelation Land Ferris Wheel",
+				start: "nov 6 2025, 12:00",
+				end: "nov 20 2025, 11:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Oct",
@@ -573,19 +489,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 16",
-				start: "oct 27 2025, 12:00",
-				end: "nov 10 2025, 4:59",
-			},
-			{
-				name: "Daily Free 500 Medal Claim",
-				start: "Oct 01 2025, 5:00",
-				end: "Nov 1 2025, 4:59",
-			},
-			{
-				name: "Match Medal Shop - October",
-				start: "Oct 01 2025, 5:00",
-				end: "Nov 1 2025, 4:59",
+				name: "Season 17",
+				start: "nov 10 2025, 12:00",
+				end: "nov 24 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop - November",
@@ -607,24 +513,19 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "5★ Kioku Selection Packs",
-                "start": "sept 29 2025, 20:00",
-                "end": "nov 12 2025, 11:59",
+				name: "Halloween Celebration Packs",
+                "start": "oct 30 2025, 12:00",
+                "end": "nov 25 2025, 23:59",
 			},
 			{
-				name: "5★ Kioku Trading Medel Trader",
-                "start": "sept 29 2025, 20:00",
-                "end": "nov 12 2025, 11:59",
+				name: "Training Spree Packs",
+                "start": "oct 31 2025, 12:00",
+                "end": "nov 30 2025, 11:59",
 			},
             {
 				name: "Premium Bonus Sale",
                 "start": "sept 29 2025, 20:00",
                 "end": "oct 31 2025, 11:59",
-			},
-			{
-				name: "Halloween Celebration Packs",
-                "start": "oct 30 2025, 12:00",
-                "end": "nov 25 2025, 23:59",
 			},
         ]
     },
@@ -641,14 +542,14 @@ var timerData = [
 		priority: 5,
 		timers: [	
             {
-				name: "Crescent Memoria Part 1",
-                "start": "oct 20 2025, 12:00",
-                "end": "nov 04 2025, 11:59",
+				name: "Forever Halloween Part 1",
+                "start": "oct 30 2025, 12:00",
+                "end": "nov 26 2025, 11:59",
 			},
             {
-				name: "A Taste of Hospitality",
-                "start": "oct 9 2025, 12:00",
-                "end": "oct 24 2025, 11:59"
+				name: "Forever Halloween Part 2",
+                "start": "nov 6 2025, 12:00",
+                "end": "nov 26 2025, 11:59",
 			},
             {
 				name: "Half Anniversary Medals Trader",
@@ -821,24 +722,24 @@ var timerData = [
         	{
         "type": "Gacha",
         "title": [
-			"【Unlimted New】[Assault Paranoia] Mifuyu Azusa",
-            "『[アサルトパラノイア]梓みふゆ』"
+			"【Exclusive New】 Alina Gray Arrives!",
+            "『【新限定】 [Marigold Dadaism] アリナ・グレイ』"
         ],
         "image": [
-            "imgs/exedra/anni/mifuyu.png",
+            "imgs/exedra/exc/alina_halloween.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Dark Breaker",
-                "start": "oct 20 2025, 12:00",
-                "end": "nov 3 2025, 11:59"
+                name: "Marigold Dadaism | Flame Attacker",
+                "start": "nov 6 2025, 12:00",
+                "end": "nov 25 2025, 11:59"
             //    extraPriority: 1000
             }
         ]
     },
-        	{
+    {
         "type": "Gacha",
         "title": [
 			"【Exclusive New】Mami Tomoe (Halloween)",
@@ -854,6 +755,26 @@ var timerData = [
                 name: "Babe-O'-Lantern | Dark Debuffer",
                 "start": "oct 30 2025, 12:00",
                 "end": "nov 25 2025, 11:59"
+            //    extraPriority: 1000
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+			"【Unlimited New】[Groundhog Daze] Mabayu Aki",
+            "『  [解はデジャ・ブ]愛生まばゆ』"
+        ],
+        "image": [
+            "imgs/exedra/exc/mabayu02.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Void Breaker",
+                "start": "nov 18 2025, 12:00",
+                "end": "dec 3 2025, 11:59"
             //    extraPriority: 1000
             }
         ]
