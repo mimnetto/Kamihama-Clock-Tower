@@ -499,9 +499,9 @@ var timerData = [
 		priority: 5,
 		timers: [	
             {
-				name: "Forever Halloween Part 1",
-                "start": "oct 30 2025, 12:00",
-                "end": "nov 26 2025, 11:59",
+				name: "A St. Magica Academy Christmas: Part Nice",
+                "start": "nov 29 2025, 12:00",
+                "end": "jan 1 2026, 11:59",
 			},
             {
 				name: "Forever Halloween Part 2",
@@ -515,13 +515,13 @@ var timerData = [
 			},
             {
 				name: "Archive Medals Reset",
-                "start": "sept 29 2025, 20:00",
-                "end": "nov 1 2025, 4:59",
+                "start": "nov 30 2025, 20:00",
+                "end": "jan 1 2026, 4:59",
 			},
                         {
 				name: "Steady Steps Reset",
-                "start": "sept 29 2025, 20:00",
-                "end": "nov 1 2025, 4:59",
+                "start": "nov 30 2025, 20:00",
+                "end": "jan 1 2026, 4:59",
 			},
 
 		]
