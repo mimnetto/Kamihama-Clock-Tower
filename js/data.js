@@ -684,7 +684,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】 [Buon Natale Grazioso] Sayaka Miki",
+			"【Exclusive New】🎄[Buon Natale Grazioso] Sayaka Miki",
             "『【新限定】美樹さやか & 佐倉杏子(クリスマス)』"
         ],
         "image": [
@@ -703,7 +703,7 @@ var timerData = [
             	{
         "type": "Gacha",
         "title": [
-			"【Exclusive New】 [Buon Natale Grazioso] Sayaka Miki",
+			"【Exclusive New】🎄[Yuletide Gift] Kyoko Sakura",
             "『【新限定】佐倉杏子(クリスマス)』"
         ],
         "image": [
