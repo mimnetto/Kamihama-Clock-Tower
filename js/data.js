@@ -276,7 +276,7 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】A St. Magica Academy Christmas: Part Nice",
+			"【Story Event】A St. Magica Academy Christmas",
 			"『聖マギカ学園のクリスマス』"
         ],
         "image": [
@@ -286,14 +286,14 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "",
+				"name": "Part Nice",
                 "start": "nov 29 2025, 12:00",
                 "end": "dec 31 2025, 11:59"
 			},
             {
-				"name": "Part 2",
-                "start": "nov 6 2025, 12:00",
-                "end": "nov 25 2025, 11:59"
+				"name": "Part Naughty",
+                "start": "dec 11 2025, 12:00",
+                "end": "dec 31 2025, 11:59"
 			},
         ]
     },
@@ -475,9 +475,9 @@ var timerData = [
                 "end": "dec 31 2025, 11:59"
 			},
 			{
-				name: "Training Spree Packs",
-                "start": "oct 31 2025, 12:00",
-                "end": "nov 30 2025, 11:59",
+				name: "Web shop exclusive Ultra Training Special Pack",
+                "start": "nov 29 2025, 12:00",
+                "end": "dec 31 2025, 11:59"
 			},
             {
 				name: "Premium Bonus Sale",
@@ -694,7 +694,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "First Pull Free!",
+                name: "First 10 Pull Free!",
                 "start": "nov 29 2025, 12:00",
                 "end": "dec 31 2025, 11:59"
             },
@@ -713,7 +713,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "[Yuletide Gift] Kyoko Sakura",
+                name: "First 10 Pull Free!",
                 "start": "dec 11 2025, 12:00",
                 "end": "dec 31 2025, 11:59"
             },
