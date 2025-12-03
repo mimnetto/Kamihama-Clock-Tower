@@ -142,9 +142,9 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Halloween - 100 Stones a day for 10 days",
-                "start": "oct 30 2025, 12:00",
-                "end": "nov 25 2025, 11:59",
+				name: "Christmas - Log in Period ",
+                "start": "nov 29 2025, 12:00",
+                "end": "dec 26 2025, 11:59"
 			},
             {
 				name: "Scene 0 Finale Countdown",
@@ -166,9 +166,9 @@ var timerData = [
         "priority": 5,
         "timers": [
         	{
-				name: "Halloween Missions Part 1",
-                "start": "oct 30 2025, 12:00",
-                "end": "nov 12 2025, 11:59",
+				name: "Christmas Missions",
+                "start": "nov 29 2025, 12:00",
+                "end": "dec 31 2025, 11:59"
 			},
             {
 				name: "Halloween Missions Part 2",
@@ -195,9 +195,9 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "Score Attack【VS Candy Witch】",
-                "start": "oct 30 2025, 12:00",
-                "end": "nov 25 2025, 11:59"
+				"name": "Score Attack【VS Rose Garden Witch (Christmas)】",
+                "start": "nov 29 2025, 12:00",
+                "end": "dec 31 2025, 11:59"
 			},
             {
 				name: "Tower | Mirror Layers 66-70",
@@ -276,21 +276,21 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】Forever Halloween Night",
-			"『ハロウィンナイトは永遠に  前編』"
+			"【Story Event】A St. Magica Academy Christmas: Part Nice",
+			"『聖マギカ学園のクリスマス』"
         ],
         "image": [
-            "imgs/exedra/events00/halloween00.png"
+            "imgs/exedra/story/xmass-story.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				"name": "Part 1",
-                "start": "oct 30 2025, 12:00",
-                "end": "nov 25 2025, 11:59"
+				"name": "",
+                "start": "nov 29 2025, 12:00",
+                "end": "dec 31 2025, 11:59"
 			},
-            			{
+            {
 				"name": "Part 2",
                 "start": "nov 6 2025, 12:00",
                 "end": "nov 25 2025, 11:59"
@@ -417,14 +417,14 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Uwasa of the Chelation Land Ferris Wheel",
-				start: "nov 6 2025, 12:00",
-				end: "nov 20 2025, 11:59",
+				name: "Sandbox Witch",
+				start: "nov 20 2025, 12:00",
+				end: "dec 04 2025, 11:59",
 			},
 			{
-				name: "Gold & Silver Medal Shop - Oct",
-				start: "Oct 01 2025, 5:00",
-				end: "Nov 1 2025, 4:59",
+				name: "Gold & Silver Medal Shop - Dec",
+				start: "Dec 01 2025, 5:00",
+				end: "Jan 1 2026, 4:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Nov",
@@ -446,14 +446,14 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 17",
-				start: "nov 10 2025, 12:00",
-				end: "nov 24 2025, 4:59",
+				name: "Season 18",
+				start: "nov 24 2025, 12:00",
+				end: "dec 8 2025, 4:59",
 			},
 			{
-				name: "Match Medal Shop - November",
-				start: "Nov 01 2025, 5:00",
-				end: "Dec 1 2025, 4:59",
+				name: "Match Medal Shop - Decemeber",
+				start: "Dec 01 2025, 5:00",
+				end: "Jan 1 2026, 4:59",
 			},
 		]
 	},
@@ -539,9 +539,9 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Halloween Featured Fate Weave",
-                "start": "oct 30 2025, 12:00",
-                "end": "nov 26 2025, 11:59"
+				name: "Christmas Featured Fate Weave",
+                "start": "nov 29 2025, 12:00",
+                "end": "jan 1 2026, 11:59"
 			},
             {
 				name: "PMMM Beginnings / Eternal Showcase",
@@ -684,19 +684,19 @@ var timerData = [
         	{
         "type": "Gacha",
         "title": [
-			"【Exclusive New】 Alina (Halloween)",
-            "『【新限定】 [Marigold Dadaism] アリナ・グレイ』"
+			"【Exclusive New】 Sayaka & Kyoko Chrismas",
+            "『【新限定】美樹さやか & 佐倉杏子(クリスマス)』"
         ],
         "image": [
-            "imgs/exedra/exc/alina_halloween.png",
+            "imgs/exedra/exc/xmass-gacha.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Marigold Dadaism | Flame Attacker",
-                "start": "nov 6 2025, 12:00",
-                "end": "nov 25 2025, 11:59"
+                name: "[Buon Natale Grazioso] | [Yuletide Gift] ",
+                "start": "nov 29 2025, 12:00",
+                "end": "dec 31 2025, 11:59"
             //    extraPriority: 1000
             }
         ]
