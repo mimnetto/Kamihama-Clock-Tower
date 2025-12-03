@@ -470,9 +470,9 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Halloween Celebration Packs",
-                "start": "oct 30 2025, 12:00",
-                "end": "nov 25 2025, 23:59",
+				name: "Train Spree Packs SALE",
+                "start": "nov 29 2025, 12:00",
+                "end": "dec 31 2025, 11:59"
 			},
 			{
 				name: "Training Spree Packs",
@@ -681,10 +681,10 @@ var timerData = [
             }
         ]
     },
-        	{
+    {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】 Sayaka & Kyoko Chrismas",
+			"【Exclusive New】 [Buon Natale Grazioso] Sayaka Miki",
             "『【新限定】美樹さやか & 佐倉杏子(クリスマス)』"
         ],
         "image": [
@@ -694,11 +694,29 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "[Buon Natale Grazioso] | [Yuletide Gift] ",
+                name: "First Pull Free!",
                 "start": "nov 29 2025, 12:00",
                 "end": "dec 31 2025, 11:59"
-            //    extraPriority: 1000
-            }
+            },
+        ]
+    },
+            	{
+        "type": "Gacha",
+        "title": [
+			"【Exclusive New】 [Buon Natale Grazioso] Sayaka Miki",
+            "『【新限定】佐倉杏子(クリスマス)』"
+        ],
+        "image": [
+            "imgs/exedra/exc/xmass-gacha-kyoko.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "[Yuletide Gift] Kyoko Sakura",
+                "start": "dec 11 2025, 12:00",
+                "end": "dec 31 2025, 11:59"
+            },
         ]
     },
     {
