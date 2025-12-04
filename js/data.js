@@ -417,9 +417,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Sandbox Witch",
-				start: "nov 20 2025, 12:00",
-				end: "dec 04 2025, 11:59",
+				name: "Spindle Witch",
+				start: "dec 04 2025, 12:00",
+				end: "dec 18 2025, 11:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Dec",
