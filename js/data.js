@@ -446,9 +446,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 18",
-				start: "nov 24 2025, 12:00",
-				end: "dec 8 2025, 4:59",
+				name: "Season 19",
+				start: "dec 08 2025, 12:00",
+				end: "dec 22 2025, 4:59",
 			},
 			{
 				name: "Match Medal Shop - Decemeber",
@@ -547,6 +547,11 @@ var timerData = [
 				name: "PMMM Beginnings / Eternal Showcase",
                 "start": "oct 10 2025, 12:00",
                 "end": "dec 24 2025, 23:59"
+			},
+                        {
+				name: "[Time Stop Strike] Homura Akemi",
+                "start": "dec 12 2025, 17:30",
+                "end": "dec 17 2025, 23:59"
 			},
 		]
 	},
