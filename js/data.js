@@ -200,9 +200,9 @@ var timerData = [
                 "end": "dec 31 2025, 11:59"
 			},
             {
-				name: "Tower | Mirror Layers 66-70",
-                "start": "nov 6 2025, 12:00",
-                "end": "nov 20 2025, 11:59",
+				name: "Tower | Mirror Layers 71-75",
+                "start": "dec 11 2025, 12:00",
+                "end": "dec 25 2025, 11:59",
 			},
             {
 				"name": "Score Attack【VS Artist Witch】",
@@ -661,26 +661,6 @@ var timerData = [
             }
         ]
     },
-       	{
-        "type": "Gacha",
-        "title": [
-			"【Exclusive】Homura Akemi (Ribbon) Paid and Free",
-            "『暁美ほむら（リボン）ガチャ』"
-        ],
-        "image": [
-            "imgs/exedra/anni/homu.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "Dark Art Dominion (Void Attacker)",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 31 2025, 11:59",
-            //    extraPriority: 1000
-            }
-        ]
-    },
     {
         "type": "Gacha",
         "title": [
@@ -755,6 +735,26 @@ var timerData = [
                 name: "Void Breaker",
                 "start": "nov 18 2025, 12:00",
                 "end": "dec 3 2025, 11:59"
+            //    extraPriority: 1000
+            }
+        ]
+    },
+           	{
+        "type": "Gacha",
+        "title": [
+			"【Featured】[Time Stop Strike] Homura Akemi!",
+            "『　[時間停止攻撃] 暁美ほむらピックアップガチャ』"
+        ],
+        "image": [
+            "imgs/exedra/feat/moemura.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Includes a Bonus Gauge",
+                "start": "dec 12 2025, 17:30",
+                "end": "dec 16 2025, 23:59",
             //    extraPriority: 1000
             }
         ]
