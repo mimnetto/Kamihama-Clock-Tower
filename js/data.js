@@ -539,7 +539,7 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Christmas Featured Fate Weave",
+				name: "Christmas Sayaka & Kyoko Featured Fate Weave",
                 "start": "nov 29 2025, 12:00",
                 "end": "jan 1 2026, 11:59"
 			},
