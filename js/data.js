@@ -417,9 +417,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Spindle Witch",
-				start: "dec 04 2025, 12:00",
-				end: "dec 18 2025, 11:59",
+				name: "Chelation Land Ferris Wheel",
+				start: "dec 18 2025, 12:00",
+				end: "jan 1 2026, 11:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Dec",
