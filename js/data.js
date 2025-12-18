@@ -214,19 +214,19 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Halloween Campaign Latest Information SP",
-			"【ハロウィンキャンペーン最新情報SP】"
+			"【Live Stream】Year-End/Year-Beginning Campaign Special",
+			"【ゆく年くる年キャンペーンSP】"
         ],
         "image": [
             "imgs/exedra/events00/live-stream.png"
         ],
         "column": 0,
-        "priority": 4,
+        "priority": 10,
         "timers": [
 			{
-				"name": "youtube.com/live/SsAbvpZgyko",
-                "start": "Oct 28 2025, 20:00",
-                "end": "Oct 28 2025, 21:00",
+				"name": "https://www.youtube.com/watch?v=NL2i9EwBj0A",
+                "start": "dec 21 2025, 17:30",
+                "end": "dec 21 2025, 19:00",
 			},
         ]
     },
