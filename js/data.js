@@ -143,12 +143,17 @@ var timerData = [
         "timers": [
             {
 				name: "Magia Exedraw - Win up to 30,000 Stones",
-                "start": "dec 21 2025, 18:30",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 01 2026, 4:59"
+			},
+            {
+				name: "Year Endings Fest Login Bonus",
+                "start": "dec 22 2025, 12:00",
                 "end": "jan 01 2026, 4:59"
 			},
             {
 				name: "Crystalis Quest Skip Celebration",
-                "start": "dec 21 2025, 18:30",
+                "start": "dec 22 2025, 12:00",
                 "end": "jan 15 2026, 11:59"
 			},
             {
@@ -512,7 +517,12 @@ var timerData = [
         ],
 		column: 2,
 		priority: 5,
-		timers: [	
+		timers: [
+            {
+				name: "Year Endings Fest Collect & Exchange Medals",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 01 2026, 4:59"
+			},	
             {
 				name: "Yuletide Tale: Where Our Hearts Begin",
                 "start": "dec 22 2025, 12:00",
@@ -527,11 +537,6 @@ var timerData = [
 				name: "A St. Magica Academy Christmas: Part Nice",
                 "start": "nov 29 2025, 12:00",
                 "end": "jan 1 2026, 11:59",
-			},
-            {
-				name: "Forever Halloween Part 2",
-                "start": "nov 6 2025, 12:00",
-                "end": "nov 26 2025, 11:59",
 			},
             {
 				name: "Half Anniversary Medals Trader",
@@ -679,7 +684,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【MagiReco Celebration】1 Per Day Free Fate Weave",
+			"【Year Ending Fest】1 Per Day Free Fate Weave",
             "『「マギアレコード編  第1部」完結記念 1日1回無料ガチャ』"
         ],
         "image": [
@@ -690,8 +695,8 @@ var timerData = [
         "timers": [
             {
                 name: "",
-                "start": "aug 28 2025, 12:00",
-                "end": "sept 28 2025, 11:59",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 01 2026, 4:59",
                // extraPriority: 1000
             }
         ]
