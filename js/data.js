@@ -142,14 +142,24 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Christmas - Log in Period ",
-                "start": "nov 29 2025, 12:00",
-                "end": "dec 26 2025, 11:59"
+				name: "Magia Exedraw - Win up to 30,000 Stones",
+                "start": "dec 21 2025, 18:30",
+                "end": "jan 01 2026, 4:59"
 			},
             {
-				name: "Scene 0 Finale Countdown",
-                "start": "nov 8 2025, 12:00",
-                "end": "nov 18 2025, 11:59",
+				name: "Anime Final Episode Celebration Gift",
+                "start": "dec 21 2025, 18:30",
+                "end": "jan 05 2026, 11:59",
+			},
+            {
+				name: "Ultimate Madoka Portrait Gift",
+                "start": "dec 21 2025, 18:30",
+                "end": "jan 05 2026, 11:59",
+			},
+            {
+				name: "Christmas - Log in Period",
+                "start": "nov 29 2025, 12:00",
+                "end": "dec 26 2025, 11:59"
 			},
         ]
     },
@@ -249,28 +259,23 @@ var timerData = [
 			},
         ]
     },
-    	{
+       	{
         "type": "Event",
         "title": [
-            "【Story Event】Scene 0 Part II ",
-			"『scene0 中編 開幕』"
+			"【Story Event】Yuletide Tale: Where Our Hearts Begin",
+			"『『聖夜に刻む1ページ〜君と、ここから〜』』"
         ],
         "image": [
-			"imgs/exedra/events00/scene02.png"
+            "imgs/exedra/story/xmass-story02.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
-				name: "Story Event",
-                "start": "sept 18 2025, 12:00",
-                "end": "oct 02 2025, 11:59",
+				"name": "",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 09 2026, 11:59"
 			},
-            			{
-				name: "Release Celebration Missions",
-                "start": "sept 18 2025, 12:00",
-                "end": "oct 02 2025, 11:59",
-			}
         ]
     },
        	{
@@ -446,9 +451,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 19",
-				start: "dec 08 2025, 12:00",
-				end: "dec 22 2025, 4:59",
+				name: "Season 20",
+				start: "dec 22 2025, 12:00",
+				end: "jan 5 2026, 4:59",
 			},
 			{
 				name: "Match Medal Shop - Decemeber",
@@ -469,6 +474,11 @@ var timerData = [
         "column": 2,
         "priority": 100,
         "timers": [
+            {
+				name: "Final Episode Celebration Packs",
+                "start": "dec 21 2025, 18:30",
+                "end": "jan 05 2026, 11:59"
+			},
 			{
 				name: "Train Spree Packs SALE",
                 "start": "nov 29 2025, 12:00",
@@ -498,6 +508,16 @@ var timerData = [
 		column: 2,
 		priority: 5,
 		timers: [	
+            {
+				name: "Yuletide Tale: Where Our Hearts Begin",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 10 2026, 11:59"
+			},
+            {
+				name: "A St. Magica Academy Christmas: Part Naughty",
+                "start": "dec 11 2025, 12:00",
+                "end": "jan 1 2026, 11:59",
+			},
             {
 				name: "A St. Magica Academy Christmas: Part Nice",
                 "start": "nov 29 2025, 12:00",
@@ -548,10 +568,15 @@ var timerData = [
                 "start": "oct 10 2025, 12:00",
                 "end": "dec 24 2025, 23:59"
 			},
-                        {
-				name: "[Time Stop Strike] Homura Akemi",
-                "start": "dec 12 2025, 17:30",
-                "end": "dec 17 2025, 23:59"
+            {
+				name: "Ultimate Madoka",
+                "start": "dec 21 2025, 18:30",
+                "end": "jan 06 2026, 11:59"
+			},
+            {
+				name: "Ren & Rika (Christmas)",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 10 2026, 11:59"
 			},
 		]
 	},
@@ -666,11 +691,49 @@ var timerData = [
             }
         ]
     },
+            {
+        "type": "Gacha",
+        "title": [
+			"【Exclusive New】🎄[Sacred Gift] Ren Isuzu (Christmas) ",
+            "『【新限定】五十鈴れん(クリスマス)』"
+        ],
+        "image": [
+            "imgs/exedra/exc/xmass-ren.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "First 10 Pull Free!",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 09 2026, 11:59"
+            },
+        ]
+    },
+        {
+        "type": "Gacha",
+        "title": [
+			"【Exclusive New】🎄[Gitterjoy Snow Globe] Rika Ayano (Christmas) ",
+            "『【新限定】綾野梨花(クリスマス)』"
+        ],
+        "image": [
+            "imgs/exedra/exc/xmass-rika.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "First 10 Pull Free!",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 09 2026, 11:59"
+            },
+        ]
+    },
     {
         "type": "Gacha",
         "title": [
 			"【Exclusive New】🎄[Buon Natale Grazioso] Sayaka Miki",
-            "『【新限定】美樹さやか & 佐倉杏子(クリスマス)』"
+            "『【新限定】美樹さやか(クリスマス)』"
         ],
         "image": [
             "imgs/exedra/exc/xmass-gacha.png",
@@ -707,19 +770,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】Mami Tomoe (Halloween)",
-            "『【新限定】 巴マミ(ハロウィン)』"
+			"【Exclusive Rerun】Ultimate Madoka",
+            "『【新限定】 アルティメットまど』"
         ],
         "image": [
-            "imgs/exedra/exc/mami_halloween.png",
+            "imgs/exedra/gacha00/ult-madoka.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Babe-O'-Lantern | Dark Debuffer",
-                "start": "oct 30 2025, 12:00",
-                "end": "nov 25 2025, 11:59"
+                name: "Nothing to Despair, Ever",
+                "start": "dec 21 2025, 18:30",
+                "end": "jan 05 2026, 11:59"
             //    extraPriority: 1000
             }
         ]
@@ -744,24 +807,23 @@ var timerData = [
             }
         ]
     },
-           	{
+            {
         "type": "Gacha",
         "title": [
-			"【Featured】[Time Stop Strike] Homura Akemi!",
-            "『　[時間停止攻撃] 暁美ほむらピックアップガチャ』"
+			"【Web Shop Gift】🎄Free Isuzu or Rika (Christmas) ",
+            "『【無料】どちらかのキオクを無料🎁)』"
         ],
         "image": [
-            "imgs/exedra/feat/moemura.png",
+            "imgs/exedra/exc/free-xmas.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Includes a Bonus Gauge",
-                "start": "dec 12 2025, 17:30",
-                "end": "dec 16 2025, 23:59",
-            //    extraPriority: 1000
-            }
+                name: "https://webshop-gl.games.madoka-exedra.com/",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 09 2026, 11:59"
+            },
         ]
     },
 	{
