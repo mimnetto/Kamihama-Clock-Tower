@@ -147,6 +147,11 @@ var timerData = [
                 "end": "jan 01 2026, 4:59"
 			},
             {
+				name: "Crystalis Quest Skip Celebration",
+                "start": "dec 21 2025, 18:30",
+                "end": "jan 15 2026, 11:59"
+			},
+            {
 				name: "Anime Final Episode Celebration Gift",
                 "start": "dec 21 2025, 18:30",
                 "end": "jan 05 2026, 11:59",
@@ -175,15 +180,15 @@ var timerData = [
         "column": 0,
         "priority": 5,
         "timers": [
+            {
+				name: "Crystalis Quest Play Missions",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 06 2026, 4:59",
+			},
         	{
 				name: "Christmas Missions",
                 "start": "nov 29 2025, 12:00",
                 "end": "dec 31 2025, 11:59"
-			},
-            {
-				name: "Halloween Missions Part 2",
-                "start": "nov 12 2025, 12:00",
-                "end": "nov 25 2025, 11:59",
 			},
             {
 				name: "Main Quest Support Missions",
