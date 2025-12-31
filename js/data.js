@@ -574,9 +574,9 @@ var timerData = [
                 "end": "jan 1 2026, 11:59"
 			},
             {
-				name: "PMMM Beginnings / Eternal Showcase",
-                "start": "oct 10 2025, 12:00",
-                "end": "dec 24 2025, 23:59"
+				name: "【Paid Only】Showcase Fate Weave",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 23 2026, 11:59",
 			},
             {
 				name: "Ultimate Madoka",
@@ -655,8 +655,8 @@ var timerData = [
         "timers": [
             {
                 name: "24 Hours Only!🪄",
-                "start": "oct 31 2025, 12:00",
-                "end": "nov 1 2025, 11:59",
+                "start": "Dec 31 2025, 12:00",
+                "end": "jan 1 2026, 11:59",
                 extraPriority: 1000
             },
         ]
@@ -839,19 +839,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-		    "【Featuted】Showcase Fate Weave",
-            "『放送記念 フィーチャーガチャ 』"
+		    "【Paid Only】Showcase Fate Weave",
+            "『有償限定 ステップアップガチャ』"
         ],
         "image": [
-			"imgs/exedra/gacha00/showcase.png",
+			"imgs/exedra/feat/ny-paid.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: " [Hollow Woman] Mabayu Aki [Baldamente Fortissimo] Sayaka Miki",
-                "start": "sept 18 2025, 12:00",
-                "end": "oct 02 2025, 11:59",
+                name: "Attacker | Buffer&Debuffer | Defender & Healer | Breaker",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 22 2026, 11:59",
             },
             {
                 name: "Flame -[Flame Waltz] [Kugatachi] [Universe's Edge]",
