@@ -152,6 +152,21 @@ var timerData = [
                 "end": "jan 01 2026, 4:59"
 			},
             {
+				name: "Year Greetings Fest 2026: Magia Exedraw",
+                "start": "jan 1 2026, 5:00",
+                "end": "jan 7 2026, 11:59"
+			},
+            {
+				name: "New Year's 3000 Gems and Portrait Gift",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 15 2026, 11:59"
+			},
+            {
+				name: "Year Greetings Fest 2026 Login Bonus",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 15 2026, 11:59"
+			},
+            {
 				name: "Crystalis Quest Skip Celebration",
                 "start": "dec 22 2025, 12:00",
                 "end": "jan 15 2026, 11:59"
@@ -165,11 +180,6 @@ var timerData = [
 				name: "Ultimate Madoka Portrait Gift",
                 "start": "dec 21 2025, 18:30",
                 "end": "jan 05 2026, 11:59",
-			},
-            {
-				name: "Christmas - Log in Period",
-                "start": "nov 29 2025, 12:00",
-                "end": "dec 26 2025, 11:59"
 			},
         ]
     },
@@ -196,9 +206,19 @@ var timerData = [
                 "end": "dec 31 2025, 11:59"
 			},
             {
-				name: "Main Quest Support Missions",
-                "start": "nov 18 2025, 12:00",
-                "end": "dec 3 2025, 11:59",
+				name: "Year Greetings Fest 2026 Missions",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 15 2026, 11:59"
+			},
+            {
+				name: "Year Greetings Fest 2026: Magia Exedraw Missions",
+                "start": "jan 1 2026, 5:00",
+                "end": "jan 7 2026, 11:59"
+			},
+            {
+				name: "Year Greetings Fest 2026: Half QP!",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 15 2026, 11:59"
 			},
         ]
     },
@@ -215,9 +235,9 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "Score Attack【VS Rose Garden Witch (Christmas)】",
-                "start": "nov 29 2025, 12:00",
-                "end": "dec 31 2025, 11:59"
+				"name": "Score Attack【VS AI Chan】",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 09 2026, 11:59"
 			},
             {
 				name: "Tower | Mirror Layers 71-75",
@@ -225,9 +245,9 @@ var timerData = [
                 "end": "dec 25 2025, 11:59",
 			},
             {
-				"name": "Score Attack【VS Artist Witch】",
-                "start": "nov 18 2025, 12:00",
-                "end": "dec 3 2025, 11:59",
+				"name": "Score Attack【VS Commoner's Horse (New Year's)】",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 15 2026, 11:59"
 			},
         ]
     },
@@ -291,19 +311,19 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】A St. Magica Academy Christmas",
+			"【Story Event】Prayers and Play Keep Sickness Away",
 			"『聖マギカ学園のクリスマス』"
         ],
         "image": [
-            "imgs/exedra/story/xmass-story.png"
+            "imgs/exedra/story/nye-story.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				"name": "Part Nice",
-                "start": "nov 29 2025, 12:00",
-                "end": "dec 31 2025, 11:59"
+				"name": "",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 15 2026, 11:59"
 			},
             {
 				"name": "Part Naughty",
@@ -437,9 +457,9 @@ var timerData = [
 				end: "jan 1 2026, 11:59",
 			},
 			{
-				name: "Gold & Silver Medal Shop - Dec",
-				start: "Dec 01 2025, 5:00",
-				end: "Jan 1 2026, 4:59",
+				name: "Gold & Silver Medal Shop - Jan",
+                "start": "jan 1 2026, 5:00",
+                "end": "jan 31 2026, 4:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Nov",
@@ -466,9 +486,9 @@ var timerData = [
 				end: "jan 5 2026, 4:59",
 			},
 			{
-				name: "Match Medal Shop - Decemeber",
-				start: "Dec 01 2025, 5:00",
-				end: "Jan 1 2026, 4:59",
+				name: "Match Medal Shop - January",
+                "start": "jan 1 2026, 5:00",
+                "end": "jan 31 2026, 4:59",
 			},
 		]
 	},
@@ -500,9 +520,14 @@ var timerData = [
                 "end": "dec 31 2025, 11:59"
 			},
             {
-				name: "Premium Bonus Sale",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 31 2025, 11:59",
+				name: "Web shop exclusive Super Training Special Packs",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 31 2026, 11:59",
+			},
+                        {
+				name: "Lucky Bags",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 22 2026, 11:59",
 			},
         ]
     },
@@ -523,6 +548,11 @@ var timerData = [
                 "start": "dec 22 2025, 12:00",
                 "end": "jan 01 2026, 4:59"
 			},	
+             {
+				name: "Year Endings Fest Collect & Exchange Medals",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 01 2026, 4:59"
+			},	
             {
 				name: "Yuletide Tale: Where Our Hearts Begin",
                 "start": "dec 22 2025, 12:00",
@@ -539,19 +569,19 @@ var timerData = [
                 "end": "jan 1 2026, 11:59",
 			},
             {
-				name: "Half Anniversary Medals Trader",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 31 2025, 11:59",
+				name: "Prayers and Play Keep Sickness Away",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 16 2026, 11:59"
 			},
             {
 				name: "Archive Medals Reset",
-                "start": "nov 30 2025, 20:00",
-                "end": "jan 1 2026, 4:59",
+                "start": "jan 1 2026, 5:00",
+                "end": "jan 31 2026, 4:59",
 			},
                         {
 				name: "Steady Steps Reset",
-                "start": "nov 30 2025, 20:00",
-                "end": "jan 1 2026, 4:59",
+                "start": "jan 1 2026, 5:00",
+                "end": "jan 31 2026, 4:59",
 			},
 
 		]
@@ -573,11 +603,11 @@ var timerData = [
                 "start": "nov 29 2025, 12:00",
                 "end": "jan 1 2026, 11:59"
 			},
-            {
-				name: "【Paid Only】Showcase Fate Weave",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 23 2026, 11:59",
-			},
+            // {
+			// 	name: "【Paid Only】Showcase Fate Weave",
+            //     "start": "jan 1 2026, 00:00",
+            //     "end": "jan 23 2026, 11:59",
+			// },
             {
 				name: "Ultimate Madoka",
                 "start": "dec 21 2025, 18:30",
@@ -587,6 +617,11 @@ var timerData = [
 				name: "Ren & Rika (Christmas)",
                 "start": "dec 22 2025, 12:00",
                 "end": "jan 10 2026, 11:59"
+			},
+                        {
+				name: "🌸 Madoka Kaname (Kimono)",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 23 2026, 11:59",
 			},
 		]
 	},
@@ -701,6 +736,50 @@ var timerData = [
             }
         ]
     },
+    	{
+        "type": "Gacha",
+        "title": [
+			"【Year Greetings Fest 2026】1 Per Day Free Fate Weave",
+            "『期間中毎日1日1回無料ガチャ開催！』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/free.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "",
+                "start": "jan 1 2026, 05:00",
+                "end": "jan 15 2026, 11:59"
+               // extraPriority: 1000
+            }
+        ]
+    },
+        {
+        "type": "Gacha",
+        "title": [
+			"【Exclusive New】🌸 Madoka Kaname (Kimono) | Pluvia☆Neujahr",
+            "『【新限定】鹿目まどか(晴着)』"
+        ],
+        "image": [
+            "imgs/exedra/exc/madoka-ny.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Paid Step Up",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 22 2026, 11:59"
+            },
+            {
+                name: "Free Gem Gacha",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 22 2026, 11:59"
+            },
+        ]
+    },
             {
         "type": "Gacha",
         "title": [
@@ -736,25 +815,6 @@ var timerData = [
                 name: "First 10 Pull Free!",
                 "start": "dec 22 2025, 12:00",
                 "end": "jan 09 2026, 11:59"
-            },
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-			"【Exclusive New】🎄[Buon Natale Grazioso] Sayaka Miki",
-            "『【新限定】美樹さやか(クリスマス)』"
-        ],
-        "image": [
-            "imgs/exedra/exc/xmass-gacha.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "First 10 Pull Free!",
-                "start": "nov 29 2025, 12:00",
-                "end": "dec 31 2025, 11:59"
             },
         ]
     },
@@ -849,7 +909,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "Attacker | Buffer&Debuffer | Defender & Healer | Breaker",
+                name: "1 Time Only for Each",
                 "start": "jan 1 2026, 00:00",
                 "end": "jan 22 2026, 11:59",
             },
