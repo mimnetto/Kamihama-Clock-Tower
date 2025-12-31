@@ -761,6 +761,25 @@ var timerData = [
             },
         ]
     },
+	{
+        "type": "Gacha",
+        "title": [
+		    "【Paid Only】Showcase Fate Weave",
+            "『有償限定 ステップアップガチャ』"
+        ],
+        "image": [
+			"imgs/exedra/feat/ny-paid.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "1 Time Only for Each",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 22 2026, 11:59",
+            },
+        ]
+    },
             {
         "type": "Gacha",
         "title": [
@@ -874,40 +893,6 @@ var timerData = [
                 name: "https://webshop-gl.games.madoka-exedra.com/",
                 "start": "dec 22 2025, 12:00",
                 "end": "jan 09 2026, 11:59"
-            },
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-		    "【Paid Only】Showcase Fate Weave",
-            "『有償限定 ステップアップガチャ』"
-        ],
-        "image": [
-			"imgs/exedra/feat/ny-paid.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "1 Time Only for Each",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 22 2026, 11:59",
-            },
-            {
-                name: "Flame -[Flame Waltz] [Kugatachi] [Universe's Edge]",
-                "start": "sept 9 2025, 12:00",
-                "end": "sept 13 2025, 11:59",
-            },
-            {
-                name: "Forest - [Tiro Finale] [Folter Gefängnis] [Judgement Earth]",
-                "start": "sept 13 2025, 12:00",
-                "end": "sept 17 2025, 11:59",
-            },
-            {
-                name: "Light - [Hollow Woman] [Cherry Ballad] [Oracle Ray]",
-                "start": "sept 17 2025, 12:00",
-                "end": "sept 21 2025, 11:59",
             },
         ]
     },
