@@ -1,5 +1,5 @@
 var releaseDate = "march 26 2025, 04:00";
-var possibleNextAnnouncementDate = "sept 28 2025, 16:00";
+var possibleNextAnnouncementDate = "jan 9 2026, 12:00";
 var nextAnniversary = "march 27 2026, 04:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -330,25 +330,6 @@ var timerData = [
                 "start": "dec 11 2025, 12:00",
                 "end": "dec 31 2025, 11:59"
 			},
-        ]
-    },
-		{
-        "type": "Event",
-        "title": [
-			"Happy Birthday Iroha!",
-			"『いろはの誕生日おめでとう』"
-        ],
-        "image": [
-            "imgs/exedra/other/iroha-birth.png"
-        ],
-        "column": 0,
-        "priority": 9,
-        "timers": [
-			{
-				"name": "In Game Story & Login Bonus",
-                "start": "aug 22 2025, 00:00",
-                "end": "aug 28 2025, 23:59",
-			}
         ]
     },
     	{
