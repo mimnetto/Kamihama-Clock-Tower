@@ -254,8 +254,8 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Year-End/Year-Beginning Campaign Special",
-			"【ゆく年くる年キャンペーンSP】"
+			"【Live Stream】Madoka Magica Grand Lottery Drawing & Crescent Memoria Part 2",
+			"【Crescent Memoria第2弾 最新情報SP】"
         ],
         "image": [
             "imgs/exedra/events00/live-stream.png"
@@ -264,9 +264,9 @@ var timerData = [
         "priority": 10,
         "timers": [
 			{
-				"name": "https://www.youtube.com/watch?v=NL2i9EwBj0A",
-                "start": "dec 21 2025, 17:30",
-                "end": "dec 21 2025, 19:00",
+				"name": "https://www.youtube.com/watch?v=MTAmhG7IAFA",
+                "start": "jan 08 2026, 20:00",
+                "end": "jan 08 2026, 21:00",
 			},
         ]
     },
@@ -433,9 +433,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Chelation Land Ferris Wheel",
-				start: "dec 18 2025, 12:00",
-				end: "jan 1 2026, 11:59",
+				name: "Uwasa of the Commoner's Horse",
+				start: "jan 1 2026, 12:00",
+				end: "jan 15 2026, 11:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Jan",
@@ -462,9 +462,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 20",
-				start: "dec 22 2025, 12:00",
-				end: "jan 5 2026, 4:59",
+				name: "Season 21",
+				start: "jan 5 2026, 12:00",
+				end: "jan 19 2026, 4:59",
 			},
 			{
 				name: "Match Medal Shop - January",
@@ -606,31 +606,35 @@ var timerData = [
 			},
 		]
 	},
-
-// {
-// 		type: "Other",
-// 		title: [
-// 		"Unlimited Fate Weave Pool Additions",
-// 		"Countdown"
-// 		],
-// 		image: [
-//             "imgs/exedra/other/fate-pool.png"
-//         ],
-// 		column: 2,
-// 		priority: 0,
-// 		timers: [
-// 			{
-// 				name: "★5 Mami Tomoe | Tiro Finale - Buffer",
-// 				start: "april 10 2024, 16:00",
-// 				end: "may 31 2024, 12:00",
-// 			},
-// 			{
-// 				name: "★5 Kyoko Sakura | Kugatachi - Attacker",
-// 				start: "april 10 2024, 16:00",
-// 				end: "may 31 2024, 12:00",
-// 			},
-// 		]
-// 	},
+	{
+		type: "Other",
+		title: [
+		"Style Ticket Trader",
+		"「スタイルチケットイベント」"
+		],
+		image: [
+            "imgs/exedra/other/style-ticket.png"
+        ],
+		column: 2,
+		priority: 3,
+		timers: [	
+            {
+				name: "Yuletide Tale",
+                "start": "dec 22 2025, 12:00",
+                "end": "jan 10 2026, 11:59"
+			},
+            {
+				name: "New Years Outfits",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 23 2026, 11:59",
+			},
+                        {
+				name: "Magia Day Outfit",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 23 2026, 11:59",
+			},
+		]
+	},
 	{
         type: "Maintenance",
         title: [
