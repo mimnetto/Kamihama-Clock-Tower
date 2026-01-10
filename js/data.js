@@ -110,25 +110,6 @@ var timerData = [
 			}
 			]
     },
-    	{
-        "type": "Event",
-        "title": [
-			"Magia Exedra Steam Release",
-			"『まどドラ Steam版』"
-        ],
-        "image": [
-            "imgs/ex/re-steam.png"
-        ],
-        "column": 0,
-        "priority": 9,
-        "timers": [
-			{
-				"name": "Exact Time of Release Unknown",
-                "start": "July 17 2025, 02:00",
-                "end": "julu 18 2025, 00:00",
-			}
-        ]
-    },
 	{
         "type": "Event",
         "title": [
@@ -142,9 +123,9 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Magia Exedraw - Win up to 30,000 Stones",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 01 2026, 4:59"
+				name: "Crescent Memoria Release Celebration",
+                "start": "jan 9 2026, 12:00",
+                "end": "jan 29 2026, 11:59",
 			},
             {
 				name: "Year Endings Fest Login Bonus",
@@ -186,6 +167,25 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
+			"Exedraw Prize Redemption Period",
+			"『エクセドラ』"
+        ],
+        "image": [
+            "imgs/exedra/events00/lotto.png"
+        ],
+        "column": 0,
+        "priority": 5,
+        "timers": [
+			{
+				"name": "",
+                "start": "jan 9 2026, 12:00",
+                "end": "jan 15 2026, 11:59",
+			}
+        ]
+    },
+    	{
+        "type": "Event",
+        "title": [
             "Limited Time Missions",
 			"『限定ミッション』"
         ],
@@ -196,9 +196,9 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Crystalis Quest Play Missions",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 06 2026, 4:59",
+				name: "Crescent Memoria 2 Missions",
+                "start": "jan 9 2026, 12:00",
+                "end": "jan 29 2026, 11:59",
 			},
         	{
 				name: "Christmas Missions",
@@ -240,14 +240,14 @@ var timerData = [
                 "end": "jan 09 2026, 11:59"
 			},
             {
-				name: "Tower | Mirror Layers 71-75",
-                "start": "dec 11 2025, 12:00",
-                "end": "dec 25 2025, 11:59",
-			},
-            {
 				"name": "Score Attack【VS Commoner's Horse (New Year's)】",
                 "start": "jan 1 2026, 00:00",
                 "end": "jan 15 2026, 11:59"
+			},
+             {
+				name: "Tower | Mirror Layers 76-80",
+                "start": "jan 9 2026, 12:00",
+                "end": "jan 23 2026, 11:59",
 			},
         ]
     },
@@ -273,8 +273,8 @@ var timerData = [
         	{
         "type": "Event",
         "title": [
-			"【Story Event】Crescent Memoria Part 1",
-			"『Crescent Memoria』第1弾"
+			"【Story Event】Crescent Memoria Part 2",
+			"『Crescent Memoria』第2弾"
         ],
         "image": [
             "imgs/exedra/anni/cresmoon.png"
@@ -283,9 +283,14 @@ var timerData = [
         "priority": 1,
         "timers": [
 			{
-				"name": "",
-                "start": "oct 20 2025, 12:00",
-                "end": "nov 03 2025, 11:59",
+				"name": "Release Celebration",
+                "start": "jan 9 2026, 12:00",
+                "end": "jan 29 2026, 11:59",
+			},
+			{
+				"name": "Event Story Quest",
+                "start": "jan 9 2026, 12:00",
+                "end": "jan 23 2026, 11:59",
 			},
         ]
     },
@@ -525,41 +530,21 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
-				name: "Year Endings Fest Collect & Exchange Medals",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 01 2026, 4:59"
-			},	
-             {
-				name: "Year Endings Fest Collect & Exchange Medals",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 01 2026, 4:59"
-			},	
-            {
-				name: "Yuletide Tale: Where Our Hearts Begin",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 10 2026, 11:59"
-			},
-            {
-				name: "A St. Magica Academy Christmas: Part Naughty",
-                "start": "dec 11 2025, 12:00",
-                "end": "jan 1 2026, 11:59",
-			},
-            {
-				name: "A St. Magica Academy Christmas: Part Nice",
-                "start": "nov 29 2025, 12:00",
-                "end": "jan 1 2026, 11:59",
-			},
-            {
 				name: "Prayers and Play Keep Sickness Away",
                 "start": "jan 1 2026, 00:00",
                 "end": "jan 16 2026, 11:59"
 			},
             {
+				name: "Crescent Memoria Part 2",
+                "start": "jan 9 2026, 12:00",
+                "end": "jan 24 2026, 11:59",
+			},	
+            {
 				name: "Archive Medals Reset",
                 "start": "jan 1 2026, 5:00",
                 "end": "jan 31 2026, 4:59",
 			},
-                        {
+             {
 				name: "Steady Steps Reset",
                 "start": "jan 1 2026, 5:00",
                 "end": "jan 31 2026, 4:59",
@@ -590,9 +575,9 @@ var timerData = [
             //     "end": "jan 23 2026, 11:59",
 			// },
             {
-				name: "Ultimate Madoka",
-                "start": "dec 21 2025, 18:30",
-                "end": "jan 06 2026, 11:59"
+				name: "Kanae Yukino",
+                "start": "jan 9 2026, 12:00",
+                "end": "jan 24 2026, 11:59",
 			},
             {
 				name: "Ren & Rika (Christmas)",
@@ -741,6 +726,26 @@ var timerData = [
             }
         ]
     },
+    {
+        "type": "Gacha",
+        "title": [
+			"【Unlimited New】[Thoughtless] Kanae Yukino",
+            "『  [無思考] 雪野かなえ』"
+        ],
+        "image": [
+            "imgs/exedra/gacha00/kanae.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Dark Debuffer",
+                "start": "jan 9 2026, 12:00",
+                "end": "jan 23 2026, 11:59",
+            //    extraPriority: 1000
+            }
+        ]
+     },
         {
         "type": "Gacha",
         "title": [
@@ -861,40 +866,20 @@ var timerData = [
             }
         ]
     },
-    {
+            {
         "type": "Gacha",
         "title": [
-			"【Unlimited New】[Groundhog Daze] Mabayu Aki",
-            "『  [解はデジャ・ブ]愛生まばゆ』"
+			"【Year Kickoff Campaign】Free weekly 10-draw Fate Weave!",
+            "『【ニューイヤーキャンペーン】10連無料ガチャ開催！)』"
         ],
         "image": [
-            "imgs/exedra/exc/mabayu02.png",
+            "imgs/exedra/gacha00/free-10.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Void Breaker",
-                "start": "nov 18 2025, 12:00",
-                "end": "dec 3 2025, 11:59"
-            //    extraPriority: 1000
-            }
-        ]
-    },
-            {
-        "type": "Gacha",
-        "title": [
-			"【Web Shop Gift】🎄Free Isuzu or Rika (Christmas) ",
-            "『【無料】どちらかのキオクを無料🎁)』"
-        ],
-        "image": [
-            "imgs/exedra/exc/free-xmas.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "https://webshop-gl.games.madoka-exedra.com/",
+                name: "Once a week",
                 "start": "dec 22 2025, 12:00",
                 "end": "jan 09 2026, 11:59"
             },
@@ -903,59 +888,29 @@ var timerData = [
        	{
         "type": "Gacha",
         "title": [
-			"【Free】PMMM Beginnings / Eternal Celebration",
-            "『 魔法少女まどか☆マギカTV Edition 放送記念』"
+			"【Year Kickoff Campaign】Free weekly 10-draw Fate Weave!",
+            "『【ニューイヤーキャンペーン】10連無料ガチャ開催！)』"
         ],
         "image": [
-            "imgs/exedra/anni/tv.png",
+            "imgs/exedra/gacha00/free-10.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Week 3 Free Pull & Showcase",
-                "start": "oct 26 2025, 17:30",
-                "end": "oct 28 2025, 23:59",
+                name: "Week 1 Free Pull",
+                "start": "jan 9 2026, 12:00",
+                "end": "jan 11 2026, 23:59",
             },
             {
-                name: "Week 4 Free Pull & Showcase",
-                "start": "nov 2 2025, 17:30",
-                "end": "nov 4 2025, 23:59",
+                name: "Week 2 Free Pull",
+                "start": "jan 16 2026, 12:00",
+                "end": "jan 18 2026, 23:59",
             },
             {
-                name: "Week 5 Free Pull & Showcase",
-                "start": "nov 9 2025, 17:30",
-                "end": "nov 11 2025, 23:59",
-            },
-            {
-                name: "Week 6 Free Pull & Showcase",
-                "start": "nov 16 2025, 17:30",
-                "end": "nov 18 2025, 23:59",
-            },
-            {
-                name: "Week 7 Free Pull & Showcase",
-                "start": "nov 23 2025, 17:30",
-                "end": "nov 25 2025, 23:59",
-            },
-            {
-                name: "Week 8 Free Pull & Showcase",
-                "start": "nov 30 2025, 17:30",
-                "end": "dec 2 2025, 23:59",
-            },
-            {
-                name: "Week 9 Free Pull & Showcase",
-                "start": "dec 7 2025, 17:30",
-                "end": "dec 9 2025, 23:59",
-            },
-            {
-                name: "Week 10 Free Pull & Showcase",
-                "start": "dec 14 2025, 17:30",
-                "end": "dec 16 2025, 23:59",
-            },
-            {
-                name: "Week 11 Free Pull & Showcase",
-                "start": "dec 21 2025, 17:30",
-                "end": "dec 23 2025, 23:59",
+                name: "Week 3 Free Pull",
+                "start": "jan 23 2026, 12:00",
+                "end": "jan 25 2026, 23:59",
             },
         ]
     },
