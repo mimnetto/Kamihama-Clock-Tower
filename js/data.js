@@ -201,9 +201,9 @@ var timerData = [
                 "end": "jan 29 2026, 11:59",
 			},
         	{
-				name: "Christmas Missions",
-                "start": "nov 29 2025, 12:00",
-                "end": "dec 31 2025, 11:59"
+				name: "Link Raid Daily Bonus Increase",
+				start: "jan 15 2026, 12:00",
+				end: "jan 19 2026, 11:59",
 			},
             {
 				name: "Year Greetings Fest 2026 Missions",
@@ -438,9 +438,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Uwasa of the Commoner's Horse",
-				start: "jan 1 2026, 12:00",
-				end: "jan 15 2026, 11:59",
+				name: "【Daily Bonus x2】AI Chan",
+				start: "jan 15 2026, 12:00",
+				end: "jan 19 2026, 11:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Jan",
