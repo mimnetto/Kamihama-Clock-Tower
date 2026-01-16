@@ -611,12 +611,12 @@ var timerData = [
             {
 				name: "New Years Outfits",
                 "start": "jan 1 2026, 00:00",
-                "end": "jan 23 2026, 11:59",
+                "end": "jan 16 2026, 11:59",
 			},
                         {
 				name: "Magia Day Outfit",
                 "start": "jan 1 2026, 00:00",
-                "end": "jan 23 2026, 11:59",
+                "end": "jan 16 2026, 11:59",
 			},
 		]
 	},
