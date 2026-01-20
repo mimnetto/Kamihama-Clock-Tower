@@ -764,7 +764,7 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "Void Debuffer",
+                name: "Void Defender",
                 "start": "jan 19 2026, 12:00",
                 "end": "feb 02 2026, 11:59",
                 extraPriority: 1000
