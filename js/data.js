@@ -771,6 +771,30 @@ var timerData = [
             }
         ]
      },
+         {
+        "type": "Gacha",
+        "title": [
+			"【Exclusive New】🌸 Madoka Kaname (Kimono) | Pluvia☆Neujahr",
+            "『【新限定】鹿目まどか(晴着)』"
+        ],
+        "image": [
+            "imgs/exedra/exc/madoka-ny.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Paid Step Up",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 22 2026, 11:59"
+            },
+            {
+                name: "Free Gem Gacha",
+                "start": "jan 1 2026, 00:00",
+                "end": "jan 22 2026, 11:59"
+            },
+        ]
+    },
 	{
         "type": "Gacha",
         "title": [
@@ -787,25 +811,6 @@ var timerData = [
                 name: "1 Time Only for Each",
                 "start": "jan 1 2026, 00:00",
                 "end": "jan 22 2026, 11:59",
-            },
-        ]
-    },
-            {
-        "type": "Gacha",
-        "title": [
-			"【Exclusive New】🎄[Sacred Gift] Ren Isuzu (Christmas) ",
-            "『【新限定】五十鈴れん(クリスマス)』"
-        ],
-        "image": [
-            "imgs/exedra/exc/xmass-ren.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "First 10 Pull Free!",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 09 2026, 11:59"
             },
         ]
     },
