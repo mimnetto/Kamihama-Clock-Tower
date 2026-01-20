@@ -240,9 +240,9 @@ var timerData = [
                 "end": "jan 09 2026, 11:59"
 			},
             {
-				"name": "Score Attack【VS Commoner's Horse (New Year's)】",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 15 2026, 11:59"
+				"name": "Score Attack【VS Niddle Witch】",
+                "start": "jan 19 2026, 12:00",
+                "end": "feb 02 2026, 11:59"
 			},
              {
 				name: "Tower | Mirror Layers 76-80",
@@ -297,19 +297,19 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】Yuletide Tale: Where Our Hearts Begin",
-			"『『聖夜に刻む1ページ〜君と、ここから〜』』"
+			"【Story Event】Next Act: In Search of an Ordinary Life",
+			"『新ストーリー これからも続く物語』"
         ],
         "image": [
-            "imgs/exedra/story/xmass-story02.png"
+            "imgs/exedra/story/me-every-day.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
 				"name": "",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 09 2026, 11:59"
+                "start": "jan 19 2026, 12:00",
+                "end": "feb 02 2026, 11:59"
 			},
         ]
     },
@@ -440,7 +440,7 @@ var timerData = [
 			{
 				name: "【Daily Bonus x2】AI Chan",
 				start: "jan 15 2026, 12:00",
-				end: "jan 19 2026, 11:59",
+				end: "jan 29 2026, 11:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Jan",
@@ -467,9 +467,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 21",
-				start: "jan 5 2026, 12:00",
-				end: "jan 19 2026, 4:59",
+				name: "Season 22",
+				start: "jan 19 2026, 12:00",
+				end: "feb 02 2026, 4:59",
 			},
 			{
 				name: "Match Medal Shop - January",
@@ -535,6 +535,11 @@ var timerData = [
                 "end": "jan 16 2026, 11:59"
 			},
             {
+				name: "Next Act: In Search of an Ordinary Life",
+                "start": "jan 19 2026, 12:00",
+                "end": "feb 03 2026, 11:59"
+			},
+            {
 				name: "Crescent Memoria Part 2",
                 "start": "jan 9 2026, 12:00",
                 "end": "jan 24 2026, 11:59",
@@ -580,9 +585,9 @@ var timerData = [
                 "end": "jan 24 2026, 11:59",
 			},
             {
-				name: "Ren & Rika (Christmas)",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 10 2026, 11:59"
+				name: "Koito Asakos",
+                "start": "jan 19 2026, 12:00",
+                "end": "feb 03 2026, 11:59",
 			},
                         {
 				name: "🌸 Madoka Kaname (Kimono)",
@@ -746,30 +751,26 @@ var timerData = [
             }
         ]
      },
-        {
+    {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】🌸 Madoka Kaname (Kimono) | Pluvia☆Neujahr",
-            "『【新限定】鹿目まどか(晴着)』"
+			"【Unlimited New】[Soaring Storyteller] Koito Asako",
+            "『[天翔ける語り部] 浅古小糸』"
         ],
         "image": [
-            "imgs/exedra/exc/madoka-ny.png",
+            "imgs/exedra/gacha00/koito.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Paid Step Up",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 22 2026, 11:59"
-            },
-            {
-                name: "Free Gem Gacha",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 22 2026, 11:59"
-            },
+                name: "Void Debuffer",
+                "start": "jan 19 2026, 12:00",
+                "end": "feb 02 2026, 11:59",
+                extraPriority: 1000
+            }
         ]
-    },
+     },
 	{
         "type": "Gacha",
         "title": [
