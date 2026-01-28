@@ -128,14 +128,14 @@ var timerData = [
                 "end": "jan 29 2026, 11:59",
 			},
             {
-				name: "Year Endings Fest Login Bonus",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 01 2026, 4:59"
+				name: "Get 3,000 Magica Stones for your first login!",
+                "start": "jan 30 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
 			},
             {
-				name: "Year Greetings Fest 2026: Magia Exedraw",
-                "start": "jan 1 2026, 5:00",
-                "end": "jan 7 2026, 11:59"
+				name: "Rebellion Release Celebration Campaign",
+                "start": "feb 6 2026, 5:00",
+                "end": "jan 29 2026, 11:59"
 			},
             {
 				name: "New Year's 3000 Gems and Portrait Gift",
@@ -201,9 +201,9 @@ var timerData = [
                 "end": "jan 29 2026, 11:59",
 			},
         	{
-				name: "Link Raid Daily Bonus Increase",
-				start: "jan 15 2026, 12:00",
-				end: "jan 19 2026, 11:59",
+				name: "Invite-a-Friend",
+                "start": "jan 28 2026, 12:00",
+                "end": "feb 28 2026, 11:59",
 			},
             {
 				name: "Year Greetings Fest 2026 Missions",
@@ -254,8 +254,8 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Madoka Magica Grand Lottery Drawing & Crescent Memoria Part 2",
-			"【Crescent Memoria第2弾 最新情報SP】"
+			"【Live Stream】[Magic Cake Dish] Nagisa Momoe Introduction",
+			"【[魔法のケーキドーム]百江なぎさ紹介】"
         ],
         "image": [
             "imgs/exedra/events00/live-stream.png"
@@ -264,13 +264,13 @@ var timerData = [
         "priority": 10,
         "timers": [
 			{
-				"name": "https://www.youtube.com/watch?v=MTAmhG7IAFA",
-                "start": "jan 08 2026, 20:00",
-                "end": "jan 08 2026, 21:00",
+				"name": "No URL given yet",
+                "start": "feb 05 2026, 20:00",
+                "end": "feb 05 2026, 21:00",
 			},
         ]
     },
-        	{
+    {
         "type": "Event",
         "title": [
 			"【Story Event】Crescent Memoria Part 2",
@@ -340,24 +340,19 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-            "【Campaign】Half Anniversary Campaign & Missions!",
-			"『ハーフアニバーサリー記念 50大キャンペーン』"
+            "【Campaign】Rebellion Release Celebration Campaign!🦎",
+			"『叛逆の物語 実装決定🦎』"
         ],
         "image": [
-			"imgs/exedra/anni/anni-fifty.png"
+			"imgs/exedra/events00/rebel01.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
-			{
-				name: "One Per Day Free 10-Draw Fate Weave",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 31 2025, 11:59",
-			},
             {
-				name: "Madoka's Birthday Story Event",
-                "start": "oct 03 2025, 00:00",
-                "end": "oct 10 2025, 23:59",
+				name: "Rebellion Release Celebration",
+                "start": "jan 30 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
 			},
 			{
 				name: "Magia Day Half Anniversary Celebration Gift Distribution",
@@ -654,7 +649,7 @@ var timerData = [
     		{
         "type": "Gacha",
         "title": [
-			"【FREE】One Free Magia Fate Weave 10-Draw",
+			"【FREE】One Free Magia Fate Weave 10-Draw | [Groundhog Daze] Mabayu Aki",
             "『マギアガチャ10連1回無料』"
         ],
         "image": [
@@ -665,9 +660,9 @@ var timerData = [
         "timers": [
             {
                 name: "24 Hours Only!🪄",
-                "start": "Dec 31 2025, 12:00",
-                "end": "jan 1 2026, 11:59",
-                extraPriority: 1000
+                "start": "jan 31 2026, 12:00",
+                "end": "feb 1 2026, 11:59",
+                // extraPriority: 1000
             },
         ]
     },
@@ -767,31 +762,31 @@ var timerData = [
                 name: "Void Defender",
                 "start": "jan 19 2026, 12:00",
                 "end": "feb 02 2026, 11:59",
-                extraPriority: 1000
+                // extraPriority: 1000
             }
         ]
      },
          {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】🌸 Madoka Kaname (Kimono) | Pluvia☆Neujahr",
-            "『【新限定】鹿目まどか(晴着)』"
+			"【Exclusive New】Devil Homura | Falsified Phenomena",
+            "『【新限定】悪魔ほむら)』"
         ],
         "image": [
-            "imgs/exedra/exc/madoka-ny.png",
+            "imgs/exedra/gacha00/devil-homu.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Paid Step Up",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 22 2026, 11:59"
+                name: "Paid Only Step Fate Weave",
+                "start": "jan 30 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
             },
             {
                 name: "Free Gem Gacha",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 22 2026, 11:59"
+                "start": "jan 30 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
             },
         ]
     },
@@ -875,19 +870,19 @@ var timerData = [
             {
         "type": "Gacha",
         "title": [
-			"【Year Kickoff Campaign】Free weekly 10-draw Fate Weave!",
-            "『【ニューイヤーキャンペーン】10連無料ガチャ開催！)』"
+			"【Rebellion Campaign】One Per Day Free 10-Draw Fate Weave🌙",
+            "『【新編】1日1回無料10連ガチャを開催💫』"
         ],
         "image": [
-            "imgs/exedra/gacha00/free-10.png",
+            "imgs/exedra/gacha00/free.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 1,
         "timers": [
             {
-                name: "Once a week",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 09 2026, 11:59"
+                name: "Perform a 10-draw 10 times to get a 5★ medal",
+                "start": "jan 28 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
             },
         ]
     },
