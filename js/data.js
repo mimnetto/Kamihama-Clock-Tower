@@ -433,9 +433,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "【Daily Bonus x2】AI Chan",
-				start: "jan 15 2026, 12:00",
-				end: "jan 29 2026, 11:59",
+				name: "Sandbox Witch",
+				start: "jan 29 2026, 12:00",
+				end: "feb 12 2026, 11:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Jan",
