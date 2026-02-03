@@ -196,29 +196,34 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Crescent Memoria 2 Missions",
-                "start": "jan 9 2026, 12:00",
-                "end": "jan 29 2026, 11:59",
+				name: "Kioku Super Training Part 1",
+                "start": "jan 30 2026, 12:00",
+                "end": "feb 08 2026, 11:59",
 			},
-        	{
-				name: "Invite-a-Friend",
-                "start": "jan 28 2026, 12:00",
+            {
+				name: "Kioku Super Training Part 2",
+                "start": "feb 08 2026, 12:00",
+                "end": "feb 18 2026, 11:59",
+			},
+            {
+				name: "Kioku Super Training Part 3",
+                "start": "feb 18 2026, 12:00",
                 "end": "feb 28 2026, 11:59",
 			},
             {
-				name: "Year Greetings Fest 2026 Missions",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 15 2026, 11:59"
+				name: "Chaos Mode Challenge",
+                "start": "jan 30 2026, 12:00",
+                "end": "mar 31 2026, 11:59",
 			},
             {
-				name: "Year Greetings Fest 2026: Magia Exedraw Missions",
-                "start": "jan 1 2026, 5:00",
-                "end": "jan 7 2026, 11:59"
+				name: "Main Quest Full Clear",
+                "start": "jan 30 2026, 12:00",
+                "end": "feb 28 2026, 11:59",
 			},
-            {
-				name: "Year Greetings Fest 2026: Half QP!",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 15 2026, 11:59"
+        	{
+				name: "Invite-a-Friend",
+                "start": "Jan 20 2026, 12:00",
+                "end": "feb 28 2026, 11:59",
 			},
         ]
     },
@@ -438,9 +443,9 @@ var timerData = [
 				end: "feb 12 2026, 11:59",
 			},
 			{
-				name: "Gold & Silver Medal Shop - Jan",
-                "start": "jan 1 2026, 5:00",
-                "end": "jan 31 2026, 4:59",
+				name: "Gold & Silver Medal Shop - Feb",
+                "start": "feb 1 2026, 5:00",
+                "end": "feb 28 2026, 4:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Nov",
@@ -462,14 +467,14 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 22",
-				start: "jan 19 2026, 12:00",
-				end: "feb 02 2026, 4:59",
+				name: "Season 23",
+				start: "feb 02 2026, 12:00",
+				end: "feb 16 2026, 4:59",
 			},
 			{
-				name: "Match Medal Shop - January",
-                "start": "jan 1 2026, 5:00",
-                "end": "jan 31 2026, 4:59",
+				name: "Match Medal Shop - Feb",
+                "start": "feb 1 2026, 5:00",
+                "end": "feb 28 2026, 4:59",
 			},
 		]
 	},
@@ -486,14 +491,14 @@ var timerData = [
         "priority": 100,
         "timers": [
             {
-				name: "Final Episode Celebration Packs",
-                "start": "dec 21 2025, 18:30",
-                "end": "jan 05 2026, 11:59"
+				name: "Premium Bonus SALE",
+                "start": "jan 30 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
 			},
 			{
-				name: "Train Spree Packs SALE",
-                "start": "nov 29 2025, 12:00",
-                "end": "dec 31 2025, 11:59"
+				name: "Training Spree Packs SALE",
+                "start": "jan 30 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
 			},
 			{
 				name: "Web shop exclusive Ultra Training Special Pack",
@@ -525,29 +530,29 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
-				name: "Prayers and Play Keep Sickness Away",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 16 2026, 11:59"
+				name: "Rebellion Part 1",
+                "start": "jan 30 2026, 12:00",
+                "end": "march 1 2026, 11:59"
 			},
+            {
+				name: "Cheesecake Trader",
+                "start": "jan 30 2026, 12:00",
+                "end": "march 1 2026, 11:59"
+			},	
             {
 				name: "Next Act: In Search of an Ordinary Life",
                 "start": "jan 19 2026, 12:00",
                 "end": "feb 03 2026, 11:59"
 			},
             {
-				name: "Crescent Memoria Part 2",
-                "start": "jan 9 2026, 12:00",
-                "end": "jan 24 2026, 11:59",
-			},	
-            {
 				name: "Archive Medals Reset",
-                "start": "jan 1 2026, 5:00",
-                "end": "jan 31 2026, 4:59",
+                "start": "feb 1 2026, 5:00",
+                "end": "feb 28 2026, 4:59",
 			},
              {
 				name: "Steady Steps Reset",
-                "start": "jan 1 2026, 5:00",
-                "end": "jan 31 2026, 4:59",
+                "start": "feb 1 2026, 5:00",
+                "end": "feb 28 2026, 4:59",
 			},
 
 		]
@@ -565,9 +570,9 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Christmas Sayaka & Kyoko Featured Fate Weave",
-                "start": "nov 29 2025, 12:00",
-                "end": "jan 1 2026, 11:59"
+				name: "Devil Homura",
+                "start": "jan 30 2026, 12:00",
+                "end": "march 1 2026, 11:59"
 			},
             // {
 			// 	name: "【Paid Only】Showcase Fate Weave",
@@ -575,9 +580,9 @@ var timerData = [
             //     "end": "jan 23 2026, 11:59",
 			// },
             {
-				name: "Kanae Yukino",
-                "start": "jan 9 2026, 12:00",
-                "end": "jan 24 2026, 11:59",
+				name: "Kioku Trading Medal (Rebellion Release)",
+                "start": "jan 30 2026, 12:00",
+                "end": "march 1 2026, 11:59"
 			},
             {
 				name: "Koito Asakos",
