@@ -619,14 +619,14 @@ var timerData = [
 		priority: 3,
 		timers: [	
             {
-				name: "Yuletide Tale",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 10 2026, 11:59"
+				name: "Nagisa Magia Day",
+                "start": "feb 06 2026, 12:00",
+                "end": "mar 1 2026, 11:59"
 			},
             {
-				name: "New Years Outfits",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 16 2026, 11:59",
+				name: "Homura Rebellion Uniform",
+                "start": "feb 06 2026, 12:00",
+                "end": "mar 1 2026, 11:59"
 			},
                         {
 				name: "Magia Day Outfit",
