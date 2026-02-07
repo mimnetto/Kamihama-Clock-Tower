@@ -123,9 +123,9 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Crescent Memoria Release Celebration",
-                "start": "jan 9 2026, 12:00",
-                "end": "jan 29 2026, 11:59",
+				name: "Rebellion Release Celebration",
+                "start": "feb 06 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
 			},
             {
 				name: "Get 3,000 Magica Stones for your first login!",
@@ -196,6 +196,11 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
+				name: "Rebellion Part II Event Medal Portrait Missions",
+                "start": "feb 06 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
+			},
+            {
 				name: "Kioku Super Training Part 1",
                 "start": "jan 30 2026, 12:00",
                 "end": "feb 08 2026, 11:59",
@@ -250,9 +255,9 @@ var timerData = [
                 "end": "feb 02 2026, 11:59"
 			},
              {
-				name: "Tower | Mirror Layers 76-80",
-                "start": "jan 9 2026, 12:00",
-                "end": "jan 23 2026, 11:59",
+				name: "Tower | Mirror Layers 81-85",
+                "start": "feb 06 2026, 12:00",
+                "end": "feb 20 2026, 11:59",
 			},
         ]
     },
@@ -359,15 +364,15 @@ var timerData = [
                 "start": "jan 30 2026, 12:00",
                 "end": "feb 28 2026, 11:59"
 			},
-			{
-				name: "Magia Day Half Anniversary Celebration Gift Distribution",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 31 2025, 11:59",
+            {
+				name: "Stroy Event Rebellion Part I",
+                "start": "jan 30 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
 			},
-        	{
-				name: "Gallery Update Heartsand Gift Distribution",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 31 2025, 11:59",
+            {
+				name: "Stroy Event Rebellion Part II",
+                "start": "feb 06 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
 			},
 			{
 				name: "Upgrade Quest Fest Half QP",
@@ -530,8 +535,13 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
-				name: "Rebellion Part 1",
+				name: "Rebellion Part I",
                 "start": "jan 30 2026, 12:00",
+                "end": "march 1 2026, 11:59"
+			},
+            {
+				name: "Rebellion Part II",
+                "start": "feb 06 2026, 12:00",
                 "end": "march 1 2026, 11:59"
 			},
             {
@@ -585,14 +595,14 @@ var timerData = [
                 "end": "march 1 2026, 11:59"
 			},
             {
-				name: "Koito Asakos",
-                "start": "jan 19 2026, 12:00",
-                "end": "feb 03 2026, 11:59",
+				name: "Nagisa Momoe 🧀",
+                "start": "feb 6 2026, 12:00",
+                "end": "mar 1 2026, 11:59",
 			},
                         {
-				name: "🌸 Madoka Kaname (Kimono)",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 23 2026, 11:59",
+				name: "Follow-Up Attack Showcase",
+                "start": "feb 06 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
 			},
 		]
 	},
@@ -734,19 +744,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Unlimited New】[Thoughtless] Kanae Yukino",
-            "『  [無思考] 雪野かなえ』"
+			"【Unlimited New】[Magic Cake Dish] Nagisa Momoe 🧀",
+            "『[魔法のケーキドーム] 百江なぎさ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/kanae.png",
+            "imgs/exedra/gacha00/nagisa.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Dark Debuffer",
-                "start": "jan 9 2026, 12:00",
-                "end": "jan 23 2026, 11:59",
+                name: "Light Healer",
+                "start": "feb 6 2026, 12:00",
+                "end": "feb 28 2026, 11:59",
             //    extraPriority: 1000
             }
         ]
@@ -855,19 +865,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive Rerun】Ultimate Madoka",
-            "『【新限定】 アルティメットまど』"
+			"【Featured】Follow-Up Attack Showcase",
+            "『『追撃』フィーチャーガチャ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/ult-madoka.png",
+            "imgs/exedra/gacha00/follow-up.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Nothing to Despair, Ever",
-                "start": "dec 21 2025, 18:30",
-                "end": "jan 05 2026, 11:59"
+                name: " Eternal Sakura | Ui Tamaki | Alina Grey",
+                "start": "feb 06 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
             //    extraPriority: 1000
             }
         ]
