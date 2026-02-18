@@ -457,7 +457,7 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Kumanoki no Yume",
+				name: "Kumanoko no Yume",
 				start: "feb 12 2026, 12:00",
 				end: "feb 26 2026, 11:59",
 			},
