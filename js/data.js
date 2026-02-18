@@ -134,33 +134,13 @@ var timerData = [
 			},
             {
 				name: "Rebellion Release Celebration Campaign",
-                "start": "feb 6 2026, 5:00",
-                "end": "jan 29 2026, 11:59"
+                "start": "feb 6 2026, 12:00",
+                "end": "feb 28 2026, 11:59"
 			},
             {
-				name: "New Year's 3000 Gems and Portrait Gift",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 15 2026, 11:59"
-			},
-            {
-				name: "Year Greetings Fest 2026 Login Bonus",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 15 2026, 11:59"
-			},
-            {
-				name: "Crystalis Quest Skip Celebration",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 15 2026, 11:59"
-			},
-            {
-				name: "Anime Final Episode Celebration Gift",
-                "start": "dec 21 2025, 18:30",
-                "end": "jan 05 2026, 11:59",
-			},
-            {
-				name: "Ultimate Madoka Portrait Gift",
-                "start": "dec 21 2025, 18:30",
-                "end": "jan 05 2026, 11:59",
+				name: "Sweet Delights Campaign",
+                "start": "feb 17 2026, 12:00",
+                "end": "mar 10 2026, 11:59",
 			},
         ]
     },
@@ -186,7 +166,7 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-            "Limited Time Missions",
+            "Limited Time Missions and Events",
 			"『限定ミッション』"
         ],
         "image": [
@@ -230,6 +210,40 @@ var timerData = [
                 "start": "Jan 20 2026, 12:00",
                 "end": "feb 28 2026, 11:59",
 			},
+        	{
+				name: "Sweet Delights Missions Part 1",
+                "start": "feb 17 2026, 12:00",
+                "end": "feb 27 2026, 4:59",
+			},
+        	{
+				name: "Sweet Delights Missions Part 2",
+                "start": "feb 27 2026, 12:00",
+                "end": "mar 9 2026, 4:59",
+			},
+        ]
+    },
+    	{
+        "type": "Event",
+        "title": [
+            "Mini Events",
+			"『ミニイベント』"
+        ],
+        "image": [
+			"imgs/exedra/other/mini-events.png"
+        ],
+        "column": 0,
+        "priority": 5,
+        "timers": [
+            {
+				name: "Kioku Super Training EXP Quest",
+                "start": "jan 30 2026, 12:00",
+                "end": "feb 28 2026, 11:59",
+			},
+        	{
+				name: "Homemade and Heartfelt Valentines!",
+                "start": "feb 10 2026, 12:00",
+                "end": "feb 20 2026, 11:59",
+			},
         ]
     },
 	{
@@ -244,20 +258,20 @@ var timerData = [
         "column": 0,
         "priority": 1,
         "timers": [
-			{
-				"name": "Score Attack【VS AI Chan】",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 09 2026, 11:59"
-			},
-            {
-				"name": "Score Attack【VS Niddle Witch】",
-                "start": "jan 19 2026, 12:00",
-                "end": "feb 02 2026, 11:59"
-			},
              {
 				name: "Tower | Mirror Layers 81-85",
                 "start": "feb 06 2026, 12:00",
                 "end": "feb 20 2026, 11:59",
+			},
+			{
+				"name": "Score Attack【VS Yaginoko no Yume】",
+                "start": "jan 30 2026, 12:00",
+                "end": "march 1 2026, 11:59"
+			},
+            {
+				"name": "Score Attack【VS Chocolate Witch】",
+                "start": "feb 17 2026, 12:00",
+                "end": "mar 18 2026, 11:59",
 			},
         ]
     },
@@ -283,24 +297,24 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"【Story Event】Crescent Memoria Part 2",
-			"『Crescent Memoria』第2弾"
+			"【Story Event】Sweet Magic from the Heart",
+			"『想い伝わる甘い魔法』"
         ],
         "image": [
-            "imgs/exedra/anni/cresmoon.png"
+            "imgs/exedra/story/vday-story.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				"name": "Release Celebration",
-                "start": "jan 9 2026, 12:00",
-                "end": "jan 29 2026, 11:59",
+				"name": "Part 1",
+                "start": "feb 17 2026, 12:00",
+                "end": "mar 18 2026, 11:59",
 			},
 			{
-				"name": "Event Story Quest",
-                "start": "jan 9 2026, 12:00",
-                "end": "jan 23 2026, 11:59",
+				"name": "Part 2",
+                "start": "feb 27 2026, 12:00",
+                "end": "mar 18 2026, 11:59",
 			},
         ]
     },
@@ -443,9 +457,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Sandbox Witch",
-				start: "jan 29 2026, 12:00",
-				end: "feb 12 2026, 11:59",
+				name: "Kumanoki no Yume",
+				start: "feb 12 2026, 12:00",
+				end: "feb 26 2026, 11:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Feb",
@@ -472,9 +486,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 23",
-				start: "feb 02 2026, 12:00",
-				end: "feb 16 2026, 4:59",
+				name: "Season 24",
+				start: "feb 16 2026, 12:00",
+				end: "mar 02 2026, 4:59",
 			},
 			{
 				name: "Match Medal Shop - Feb",
@@ -506,9 +520,9 @@ var timerData = [
                 "end": "feb 28 2026, 11:59"
 			},
 			{
-				name: "Web shop exclusive Ultra Training Special Pack",
-                "start": "nov 29 2025, 12:00",
-                "end": "dec 31 2025, 11:59"
+				name: "Campaign Packs (Kyoko Sakura)",
+                "start": "feb 17 2026, 12:00",
+                "end": "mar 18 2026, 11:59",
 			},
             {
 				name: "Web shop exclusive Super Training Special Packs",
@@ -534,6 +548,16 @@ var timerData = [
 		column: 2,
 		priority: 5,
 		timers: [
+        	{
+				name: "Homemade and Heartfelt Valentines Chocolate",
+                "start": "feb 10 2026, 12:00",
+                "end": "feb 21 2026, 11:59",
+			},
+            {
+				name: "Cheesecake Trader",
+                "start": "jan 30 2026, 12:00",
+                "end": "march 1 2026, 11:59"
+			},
             {
 				name: "Rebellion Part I",
                 "start": "jan 30 2026, 12:00",
@@ -545,15 +569,15 @@ var timerData = [
                 "end": "march 1 2026, 11:59"
 			},
             {
-				name: "Cheesecake Trader",
-                "start": "jan 30 2026, 12:00",
-                "end": "march 1 2026, 11:59"
+				name: "Magical Sweetbite Trader",
+                "start": "feb 17 2026, 12:00",
+                "end": "mar 19 2026, 11:59",
 			},	
             {
-				name: "Next Act: In Search of an Ordinary Life",
-                "start": "jan 19 2026, 12:00",
-                "end": "feb 03 2026, 11:59"
-			},
+				name: "Sweet Magic from the Heart Trader",
+                "start": "feb 17 2026, 12:00",
+                "end": "mar 19 2026, 11:59",
+			},	
             {
 				name: "Archive Medals Reset",
                 "start": "feb 1 2026, 5:00",
@@ -599,10 +623,15 @@ var timerData = [
                 "start": "feb 6 2026, 12:00",
                 "end": "mar 1 2026, 11:59",
 			},
-                        {
+            {
 				name: "Follow-Up Attack Showcase",
                 "start": "feb 06 2026, 12:00",
                 "end": "feb 28 2026, 11:59"
+			},
+            {
+				name: "Sweet Delights Kyoko & Mami",
+                "start": "feb 17 2026, 12:00",
+                "end": "mar 19 2026, 11:59",
 			},
 		]
 	},
@@ -628,10 +657,10 @@ var timerData = [
                 "start": "feb 06 2026, 12:00",
                 "end": "mar 1 2026, 11:59"
 			},
-                        {
-				name: "Magia Day Outfit",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 16 2026, 11:59",
+            {
+				name: "Valentine's Day",
+                "start": "feb 17 2026, 12:00",
+                "end": "mar 19 2026, 11:59",
 			},
 		]
 	},
@@ -761,27 +790,7 @@ var timerData = [
             }
         ]
      },
-    {
-        "type": "Gacha",
-        "title": [
-			"【Unlimited New】[Soaring Storyteller] Koito Asako",
-            "『[天翔ける語り部] 浅古小糸』"
-        ],
-        "image": [
-            "imgs/exedra/gacha00/koito.png",
-        ],
-        "column": 1,
-        "priority": 0,
-        "timers": [
-            {
-                name: "Void Defender",
-                "start": "jan 19 2026, 12:00",
-                "end": "feb 02 2026, 11:59",
-                // extraPriority: 1000
-            }
-        ]
-     },
-         {
+     {
         "type": "Gacha",
         "title": [
 			"【Exclusive New】Devil Homura | Falsified Phenomena",
@@ -805,6 +814,26 @@ var timerData = [
             },
         ]
     },
+    {
+        "type": "Gacha",
+        "title": [
+			"【Exclusive New】[Crimson Confectioner] Kyoko Sakura",
+            "『【限定★5 】[紅珠焼菓] 佐倉杏子』"
+        ],
+        "image": [
+            "imgs/exedra/exc/vday-kyoko.png",
+        ],
+        "column": 1,
+        "priority": 0,
+        "timers": [
+            {
+                name: "Fire Breaker",
+                "start": "feb 17 2026, 12:00",
+                "end": "mar 18 2026, 11:59",
+                // extraPriority: 1000
+            }
+        ]
+     },
 	{
         "type": "Gacha",
         "title": [
@@ -824,25 +853,26 @@ var timerData = [
             },
         ]
     },
-        {
+    {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】🎄[Gitterjoy Snow Globe] Rika Ayano (Christmas) ",
-            "『【新限定】綾野梨花(クリスマス)』"
+			"【Exclusive New】[Panna Vorticosa] Mami Tomoe",
+            "『【限定★5 】[パンナ・ヴォルティコーザ]巴マミ』"
         ],
         "image": [
-            "imgs/exedra/exc/xmass-rika.png",
+            "imgs/exedra/exc/vday-mami.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "First 10 Pull Free!",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 09 2026, 11:59"
-            },
+                name: "Fire Breaker",
+                "start": "feb 27 2026, 12:00",
+                "end": "mar 18 2026, 11:59",
+                // extraPriority: 1000
+            }
         ]
-    },
+     },
             	{
         "type": "Gacha",
         "title": [
