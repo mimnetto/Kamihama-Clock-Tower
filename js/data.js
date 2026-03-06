@@ -457,14 +457,14 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Kumanoko no Yume",
-				start: "feb 12 2026, 12:00",
-				end: "feb 26 2026, 11:59",
+				name: "Spindle Witch",
+				start: "feb 26 2026, 12:00",
+				end: "march 12 2026, 11:59",
 			},
 			{
-				name: "Gold & Silver Medal Shop - Feb",
-                "start": "feb 1 2026, 5:00",
-                "end": "feb 28 2026, 4:59",
+				name: "Gold & Silver Medal Shop - March",
+                "start": "march 1 2026, 5:00",
+                "end": "march 31 2026, 4:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Nov",
@@ -486,14 +486,14 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 24",
-				start: "feb 16 2026, 12:00",
-				end: "mar 02 2026, 4:59",
+				name: "Season 25",
+				start: "mar 02 2026, 12:00",
+				end: "mar 15 2026, 23:59",
 			},
 			{
-				name: "Match Medal Shop - Feb",
-                "start": "feb 1 2026, 5:00",
-                "end": "feb 28 2026, 4:59",
+				name: "Match Medal Shop - March",
+                "start": "march 1 2026, 5:00",
+                "end": "march 31 2026, 4:59",
 			},
 		]
 	},
@@ -509,15 +509,15 @@ var timerData = [
         "column": 2,
         "priority": 100,
         "timers": [
-            {
-				name: "Premium Bonus SALE",
-                "start": "jan 30 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
+			{
+				name: "Training Spree Packs",
+                "start": "feb 27 2026, 12:00",
+                "end": "mar 31 2026, 11:59",
 			},
 			{
-				name: "Training Spree Packs SALE",
-                "start": "jan 30 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
+				name: "Campaign Packs (Mami Tomoe)",
+                "start": "feb 27 2026, 12:00",
+                "end": "mar 18 2026, 11:59",
 			},
 			{
 				name: "Campaign Packs (Kyoko Sakura)",
@@ -648,19 +648,19 @@ var timerData = [
 		priority: 3,
 		timers: [	
             {
-				name: "Nagisa Magia Day",
-                "start": "feb 06 2026, 12:00",
-                "end": "mar 1 2026, 11:59"
-			},
-            {
-				name: "Homura Rebellion Uniform",
-                "start": "feb 06 2026, 12:00",
-                "end": "mar 1 2026, 11:59"
+				name: "Limited Time Items",
+                "start": "feb 27 2026, 12:00",
+                "end": "mar 19 2026, 11:59"
 			},
             {
 				name: "Valentine's Day",
                 "start": "feb 17 2026, 12:00",
                 "end": "mar 19 2026, 11:59",
+			},
+            {
+				name: "Homura Rebellion Uniform",
+                "start": "feb 06 2026, 12:00",
+                "end": "mar 1 2026, 11:59"
 			},
 		]
 	},
