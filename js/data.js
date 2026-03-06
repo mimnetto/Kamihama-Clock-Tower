@@ -278,8 +278,8 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】[Magic Cake Dish] Nagisa Momoe Introduction",
-			"【[魔法のケーキドーム]百江なぎさ紹介】"
+			"【Live Stream】1st Anniversary Stream",
+			"【1周年生放送】"
         ],
         "image": [
             "imgs/exedra/events00/live-stream.png"
@@ -288,9 +288,9 @@ var timerData = [
         "priority": 10,
         "timers": [
 			{
-				"name": "No URL given yet",
-                "start": "feb 05 2026, 20:00",
-                "end": "feb 05 2026, 21:00",
+				"name": "youtube.com/watch?v=8-ldYEbZ1ds",
+                "start": "march 6 2026, 20:00",
+                "end": "march 6 2026, 21:30",
 			},
         ]
     },
