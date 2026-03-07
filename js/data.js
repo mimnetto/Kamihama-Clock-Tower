@@ -278,19 +278,19 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】1st Anniversary Stream",
-			"【1周年生放送】"
+			"【Live Stream】Exedra Party 2026",
+			"【Exedra Party 2026】"
         ],
         "image": [
-            "imgs/exedra/events00/live-stream.png"
+            "imgs/exedra/other/first.png"
         ],
         "column": 0,
         "priority": 10,
         "timers": [
 			{
-				"name": "youtube.com/watch?v=8-ldYEbZ1ds",
-                "start": "march 6 2026, 20:00",
-                "end": "march 6 2026, 21:30",
+				"name": "youtube.com/watch?v=DTlZJ_yMW3Q",
+                "start": "march 27 2026, 19:00",
+                "end": "march 27 2026, 21:00",
 			},
         ]
     },
