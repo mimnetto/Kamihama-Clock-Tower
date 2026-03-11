@@ -123,9 +123,9 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Rebellion Release Celebration",
-                "start": "feb 06 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
+				name: "1st Anniversary Countdown",
+                "start": "march 10 2026, 12:00",
+                "end": "march 27 2026, 11:59"
 			},
             {
 				name: "Get 3,000 Magica Stones for your first login!",
@@ -176,39 +176,14 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Rebellion Part II Event Medal Portrait Missions",
-                "start": "feb 06 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
-			},
-            {
-				name: "Kioku Super Training Part 1",
-                "start": "jan 30 2026, 12:00",
-                "end": "feb 08 2026, 11:59",
-			},
-            {
-				name: "Kioku Super Training Part 2",
-                "start": "feb 08 2026, 12:00",
-                "end": "feb 18 2026, 11:59",
-			},
-            {
-				name: "Kioku Super Training Part 3",
-                "start": "feb 18 2026, 12:00",
-                "end": "feb 28 2026, 11:59",
+				name: "1st Anniversary Countdown Missions",
+                "start": "march 10 2026, 12:00",
+                "end": "march 27 2026, 11:59"
 			},
             {
 				name: "Chaos Mode Challenge",
                 "start": "jan 30 2026, 12:00",
                 "end": "mar 31 2026, 11:59",
-			},
-            {
-				name: "Main Quest Full Clear",
-                "start": "jan 30 2026, 12:00",
-                "end": "feb 28 2026, 11:59",
-			},
-        	{
-				name: "Invite-a-Friend",
-                "start": "Jan 20 2026, 12:00",
-                "end": "feb 28 2026, 11:59",
 			},
         	{
 				name: "Sweet Delights Missions Part 1",
@@ -259,14 +234,14 @@ var timerData = [
         "priority": 1,
         "timers": [
              {
-				name: "Tower | Mirror Layers 81-85",
-                "start": "feb 06 2026, 12:00",
-                "end": "feb 20 2026, 11:59",
+				name: "Tower | Mirror Layers 86-90",
+                "start": "march 10 2026, 12:00",
+                "end": "march 27 2026, 11:59",
 			},
 			{
-				"name": "Score Attack【VS Yaginoko no Yume】",
-                "start": "jan 30 2026, 12:00",
-                "end": "march 1 2026, 11:59"
+				"name": "Score Attack【VS Corbeau】",
+                "start": "march 10 2026, 12:00",
+                "end": "march 28 2026, 11:59"
 			},
             {
 				"name": "Score Attack【VS Chocolate Witch】",
@@ -292,6 +267,30 @@ var timerData = [
                 "start": "march 27 2026, 19:00",
                 "end": "march 27 2026, 21:00",
 			},
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+			"【Story Event】Puella Magi Darc Magica",
+			"『魔法少女たると☆マギカ』"
+        ],
+        "image": [
+            "imgs/exedra/story/tart.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				"name": "Part 1",
+                "start": "march 10 2026, 12:00",
+                "end": "march 28 2026, 11:59"
+			},
+			// {
+			// 	"name": "Part 2",
+            //     "start": "feb 27 2026, 12:00",
+            //     "end": "mar 18 2026, 11:59",
+			// },
         ]
     },
     {
@@ -548,15 +547,15 @@ var timerData = [
 		column: 2,
 		priority: 5,
 		timers: [
+            {
+				name: "Puella Magi Darc Magica Trader",
+                "start": "march 10 2026, 12:00",
+                "end": "march 29 2026, 11:59"
+			},
         	{
 				name: "Homemade and Heartfelt Valentines Chocolate",
                 "start": "feb 10 2026, 12:00",
                 "end": "feb 21 2026, 11:59",
-			},
-            {
-				name: "Cheesecake Trader",
-                "start": "jan 30 2026, 12:00",
-                "end": "march 1 2026, 11:59"
 			},
             {
 				name: "Rebellion Part I",
@@ -580,13 +579,13 @@ var timerData = [
 			},	
             {
 				name: "Archive Medals Reset",
-                "start": "feb 1 2026, 5:00",
-                "end": "feb 28 2026, 4:59",
+                "start": "mar 1 2026, 5:00",
+                "end": "mar 31 2026, 4:59",
 			},
              {
 				name: "Steady Steps Reset",
-                "start": "feb 1 2026, 5:00",
-                "end": "feb 28 2026, 4:59",
+                "start": "mar 1 2026, 5:00",
+                "end": "mar 31 2026, 4:59",
 			},
 
 		]
@@ -604,9 +603,9 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Devil Homura",
-                "start": "jan 30 2026, 12:00",
-                "end": "march 1 2026, 11:59"
+				name: "[La Lumière] Darc",
+                "start": "march 10 2026, 12:00",
+                "end": "march 29 2026, 11:59",
 			},
             // {
 			// 	name: "【Paid Only】Showcase Fate Weave",
@@ -678,8 +677,8 @@ var timerData = [
         timers: [
 			{
                 name: "Maintenance",
-				start: "nov 4 2025, 14:00",
-				end: "nov 4 2025, 14:59"
+				start: "mar 17 2026, 13:00",
+				end: "mar 17 2026, 14:59"
 				// extraPriority: 100
             },
             {
@@ -713,8 +712,8 @@ var timerData = [
 		{
         "type": "Gacha",
         "title": [
-			"【FREE】One Per Day Free 10-Draw Fate Weave",
-            "『最大100連！1日1回無料10連ガチャ』"
+			"【FREE】One Per Day Free Fate Weave",
+            "『1日1回無料ガチャ』"
         ],
         "image": [
             "imgs/exedra/anni/100.png",
@@ -723,9 +722,9 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "100 Pulls Total Between The Dates",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 31 2025, 11:59",
+                name: "",
+                "start": "mar 10 2026, 12:00",
+                "end": "mar 27 2026, 11:59",
                 // extraPriority: 100
             },
         ]
@@ -773,47 +772,43 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Unlimited New】[Magic Cake Dish] Nagisa Momoe 🧀",
-            "『[魔法のケーキドーム] 百江なぎさ』"
+			"【Unlimited New】 [La Lumière] Darc",
+            "『[ラ・リュミエール] タルト』"
         ],
         "image": [
-            "imgs/exedra/gacha00/nagisa.png",
+            "imgs/exedra/fate/tart.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Light Healer",
-                "start": "feb 6 2026, 12:00",
-                "end": "feb 28 2026, 11:59",
+                name: "Light Defender",
+                "start": "march 10 2026, 12:00",
+                "end": "march 28 2026, 11:59",
             //    extraPriority: 1000
             }
         ]
      },
-     {
+    {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】Devil Homura | Falsified Phenomena",
-            "『【新限定】悪魔ほむら)』"
+			"【Unlimited New】 [La Danse Macabre] Corbeau",
+            "『[ラ・ダンス・マカブル]コルボー』"
         ],
         "image": [
-            "imgs/exedra/gacha00/devil-homu.png",
+            "imgs/exedra/fate/corb.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "Paid Only Step Fate Weave",
-                "start": "jan 30 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
-            },
-            {
-                name: "Free Gem Gacha",
-                "start": "jan 30 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
-            },
+                name: "",
+                "start": "march 18 2026, 12:00",
+                "end": "april 5 2026, 11:59",
+            //    extraPriority: 1000
+            }
         ]
-    },
+     },
     {
         "type": "Gacha",
         "title": [
