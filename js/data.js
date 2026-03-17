@@ -260,7 +260,7 @@ var timerData = [
             "imgs/exedra/other/first.png"
         ],
         "column": 0,
-        "priority": 10,
+        "priority": 9,
         "timers": [
 			{
 				"name": "youtube.com/watch?v=DTlZJ_yMW3Q",
@@ -673,18 +673,12 @@ var timerData = [
 			"imgs/exedra/other/maintenance.png"
 		],
         column: 0,
-        priority: 0,
+        priority: 10,
         timers: [
-			{
-                name: "Maintenance",
-				start: "mar 17 2026, 13:00",
-				end: "mar 17 2026, 14:59"
-				// extraPriority: 100
-            },
             {
                 name: "Maintenance",
-				start: "march 11 2024, 15:00",
-				end: "march 11 2024, 16:00"
+				start: "march 17 2026, 15:00",
+				end: "march 17 2026, 16:59"
 				// extraPriority: 100
             }
         ]
