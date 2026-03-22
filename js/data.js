@@ -456,6 +456,11 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
+				name: "Chelation Land Ferris Wheel",
+				start: "march 12 2026, 12:00",
+				end: "march 26 2026, 11:59",
+			},
+            {
 				name: "Spindle Witch",
 				start: "feb 26 2026, 12:00",
 				end: "march 12 2026, 11:59",
@@ -485,9 +490,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 25",
-				start: "mar 02 2026, 12:00",
-				end: "mar 15 2026, 23:59",
+				name: "Season 26",
+				start: "mar 16 2026, 12:00",
+				end: "mar 29 2026, 23:59",
 			},
 			{
 				name: "Match Medal Shop - March",
@@ -548,7 +553,7 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
-				name: "Puella Magi Darc Magica Trader",
+				name: "Puella Magi Darc Magica & Brave Banner Trader",
                 "start": "march 10 2026, 12:00",
                 "end": "march 29 2026, 11:59"
 			},
@@ -593,7 +598,7 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Fate Weave Trader Coins",
+		"Fate Weave Trader Medals",
 		"「ガチャコインのショップ」"
 		],
 		image: [
@@ -602,6 +607,11 @@ var timerData = [
 		column: 2,
 		priority: 3,
 		timers: [	
+			{
+				name: "[La Danse Macabre] Corbeau",
+                "start": "march 18 2026, 12:00",
+                "end": "march 29 2026, 11:59",
+			},
 			{
 				name: "[La Lumière] Darc",
                 "start": "march 10 2026, 12:00",
@@ -613,9 +623,9 @@ var timerData = [
             //     "end": "jan 23 2026, 11:59",
 			// },
             {
-				name: "Kioku Trading Medal (Rebellion Release)",
-                "start": "jan 30 2026, 12:00",
-                "end": "march 1 2026, 11:59"
+				name: "1st Anniversary Countdown Medals",
+                "start": "march 10 2026, 12:00",
+                 "end": "march 27 2026, 11:59",
 			},
             {
 				name: "Nagisa Momoe 🧀",
