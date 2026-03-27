@@ -210,9 +210,9 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Kioku Super Training EXP Quest",
-                "start": "jan 30 2026, 12:00",
-                "end": "feb 28 2026, 11:59",
+				name: "Portraits of the Past and Promise",
+                "start": "mar 27 2026, 00:00",
+                "end": "april 30 2026, 11:59",
 			},
         	{
 				name: "Homemade and Heartfelt Valentines!",
@@ -455,6 +455,11 @@ var timerData = [
 		column: 2,
 		priority: 0,
 		timers: [
+            {
+				name: "Ai Chan",
+				start: "march 26 2026, 12:00",
+				end: "april 09 2026, 11:59",
+			},
 			{
 				name: "Chelation Land Ferris Wheel",
 				start: "march 12 2026, 12:00",
@@ -610,7 +615,7 @@ var timerData = [
 			{
 				name: "[La Danse Macabre] Corbeau",
                 "start": "march 18 2026, 12:00",
-                "end": "march 29 2026, 11:59",
+                "end": "april 06 2026, 11:59",
 			},
 			{
 				name: "[La Lumière] Darc",
@@ -625,7 +630,7 @@ var timerData = [
             {
 				name: "1st Anniversary Countdown Medals",
                 "start": "march 10 2026, 12:00",
-                 "end": "march 27 2026, 11:59",
+                 "end": "march 28 2026, 11:59",
 			},
             {
 				name: "Nagisa Momoe 🧀",
