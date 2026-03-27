@@ -577,20 +577,10 @@ var timerData = [
                 "start": "march 27 2026, 22:00",
                 "end": "may 1 2026, 11:59"
 			},
-            {
-				name: "Rebellion Part II",
-                "start": "feb 06 2026, 12:00",
-                "end": "march 1 2026, 11:59"
-			},
-            {
-				name: "Magical Sweetbite Trader",
-                "start": "feb 17 2026, 12:00",
-                "end": "mar 19 2026, 11:59",
-			},	
-            {
-				name: "Sweet Magic from the Heart Trader",
-                "start": "feb 17 2026, 12:00",
-                "end": "mar 19 2026, 11:59",
+        	{
+				name: "Sumire's Flower",
+                "start": "march 27 2026, 22:00",
+                "end": "may 1 2026, 11:59"
 			},
             {
 				name: "Friend Medal Reset",
