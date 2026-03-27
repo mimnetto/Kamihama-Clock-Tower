@@ -129,8 +129,8 @@ var timerData = [
 			},
             {
 				name: "Get 3,000 Magica Stones for your first login!",
-                "start": "jan 30 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
+                "start": "mar 27 2026, 00:00",
+                "end": "april 30 2026, 11:59"
 			},
             {
 				name: "Rebellion Release Celebration Campaign",
