@@ -123,9 +123,9 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "1st Anniversary Countdown",
-                "start": "march 10 2026, 12:00",
-                "end": "march 27 2026, 11:59"
+				name: "1st Anniversary",
+                "start": "march 27 2026, 22:00",
+                "end": "april 30 2026, 11:59"
 			},
             {
 				name: "Get 3,000 Magica Stones for your first login!",
@@ -133,9 +133,9 @@ var timerData = [
                 "end": "april 30 2026, 11:59"
 			},
             {
-				name: "Rebellion Release Celebration Campaign",
-                "start": "feb 6 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
+				name: "1st Anniversary Portrait Gift",
+                "start": "march 27 2026, 22:00",
+                "end": "april 30 2026, 11:59"
 			},
             {
 				name: "Sweet Delights Campaign",
@@ -186,14 +186,14 @@ var timerData = [
                 "end": "mar 31 2026, 11:59",
 			},
         	{
-				name: "Sweet Delights Missions Part 1",
-                "start": "feb 17 2026, 12:00",
-                "end": "feb 27 2026, 4:59",
+				name: "1st Anniversary Missions Part 1",
+                "start": "march 27 2026, 22:00",
+                "end": "april 14 2026, 11:59",
 			},
         	{
-				name: "Sweet Delights Missions Part 2",
-                "start": "feb 27 2026, 12:00",
-                "end": "mar 9 2026, 4:59",
+				name: "1st Anniversary Missions Part 2",
+                "start": "april 14 2026, 12:00",
+                "end": "april 30 2026, 11:59",
 			},
         ]
     },
@@ -244,9 +244,9 @@ var timerData = [
                 "end": "march 28 2026, 11:59"
 			},
             {
-				"name": "Score Attack【VS Chocolate Witch】",
-                "start": "feb 17 2026, 12:00",
-                "end": "mar 18 2026, 11:59",
+				"name": "Score Attack【VS Critic Witch】",
+                "start": "march 27 2026, 22:00",
+                "end": "April 30 2026, 11:59",
 			},
         ]
     },
@@ -272,6 +272,30 @@ var timerData = [
     {
         "type": "Event",
         "title": [
+			"【Story Event】Crescent Memoria Part 3 - The Finale",
+			"『Crescent Memoria 第3弾』"
+        ],
+        "image": [
+            "imgs/exedra/story/cresent.png"
+        ],
+        "column": 0,
+        "priority": 0,
+        "timers": [
+			{
+				"name": "",
+                "start": "march 27 2026, 22:00",
+                "end": "april 30 2026, 11:59",
+			},
+			// {
+			// 	"name": "Part 2",
+            //     "start": "feb 27 2026, 12:00",
+            //     "end": "mar 18 2026, 11:59",
+			// },
+        ]
+        },
+    {
+        "type": "Event",
+        "title": [
 			"【Story Event】Puella Magi Darc Magica",
 			"『魔法少女たると☆マギカ』"
         ],
@@ -279,7 +303,7 @@ var timerData = [
             "imgs/exedra/story/tart.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 0,
         "timers": [
 			{
 				"name": "Part 1",
@@ -292,31 +316,7 @@ var timerData = [
             //     "end": "mar 18 2026, 11:59",
 			// },
         ]
-    },
-    {
-        "type": "Event",
-        "title": [
-			"【Story Event】Sweet Magic from the Heart",
-			"『想い伝わる甘い魔法』"
-        ],
-        "image": [
-            "imgs/exedra/story/vday-story.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			{
-				"name": "Part 1",
-                "start": "feb 17 2026, 12:00",
-                "end": "mar 18 2026, 11:59",
-			},
-			{
-				"name": "Part 2",
-                "start": "feb 27 2026, 12:00",
-                "end": "mar 18 2026, 11:59",
-			},
-        ]
-    },
+        },
        	{
         "type": "Event",
         "title": [
@@ -363,29 +363,29 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-            "【Campaign】Rebellion Release Celebration Campaign!🦎",
-			"『叛逆の物語 実装決定🦎』"
+            "【Campaign】1st Anniversary Campaign!",
+			"『1st Anniversary記念キャンペーン』"
         ],
         "image": [
-			"imgs/exedra/events00/rebel01.png"
+			"imgs/exedra/events00/first.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
+            // {
+			// 	name: "Rebellion Release Celebration",
+            //     "start": "march 27 2026, 22:00",
+            //     "end": "april 22 2026, 11:59"
+			// },
             {
-				name: "Rebellion Release Celebration",
-                "start": "jan 30 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
+				name: "Magia Exedraw",
+                "start": "march 28 2026, 5:00",
+                "end": "april 22 2026, 4:59"
 			},
             {
-				name: "Stroy Event Rebellion Part I",
-                "start": "jan 30 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
-			},
-            {
-				name: "Stroy Event Rebellion Part II",
-                "start": "feb 06 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
+				name: "The Lighthouse Main Story Prologue",
+                "start": "march 27 2026, 22:00",
+                "end": "april 1 2026, 12:00"
 			},
 			{
 				name: "Upgrade Quest Fest Half QP",
@@ -399,28 +399,28 @@ var timerData = [
 			},
             {
 				name: "Welcome Back Campaign",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 31 2025, 11:59",
+                "start": "march 27 2026, 22:00",
+                "end": "april 4 2026, 11:59",
 			},
             {
-				name: "Magia Day 2025 Announcement Campaign Goal",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 31 2025, 11:59",
+				name: "1st Anniversary Portrait Gift",
+                "start": "march 27 2026, 22:00",
+                "end": "april 30 2026, 11:59"
 			},
         	{
-				name: "Half Anniversary Missions Part 1",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 09 2025, 11:59",
+				name: "1st Anniversary Missions Part 1",
+                "start": "march 27 2026, 22:00",
+                "end": "april 14 2026, 11:59",
 			},
-			{
-				name: "Half Anniversary Missions Part 2",
-                "start": "oct 09 2025, 12:00",
-                "end": "oct 20 2025, 11:59",
+        	{
+				name: "1st Anniversary Missions Part 2",
+                "start": "april 14 2026, 12:00",
+                "end": "april 30 2026, 11:59",
 			},
             {
-				name: "Half Anniversary Missions Part 3",
-                "start": "oct 20 2025, 12:00",
-                "end": "oct 31 2025, 11:59",
+				name: "Magia Exedraw Draw Period",
+                "start": "april 22 2026, 5:00",
+                "end": "april 24 2026, 11:59"
 			},
         ]
     },
@@ -524,14 +524,19 @@ var timerData = [
                 "end": "mar 31 2026, 11:59",
 			},
 			{
-				name: "Campaign Packs (Mami Tomoe)",
-                "start": "feb 27 2026, 12:00",
-                "end": "mar 18 2026, 11:59",
+				name: "Training Spree Packs",
+                "start": "march 27 2026, 22:00",
+                "end": "April 30 2026, 11:59",
 			},
 			{
-				name: "Campaign Packs (Kyoko Sakura)",
-                "start": "feb 17 2026, 12:00",
-                "end": "mar 18 2026, 11:59",
+				name: "1st Anniversary Packs",
+                "start": "march 27 2026, 22:00",
+                "end": "April 30 2026, 11:59",
+			},
+			{
+				name: "Premium Bonus Sale",
+                "start": "march 27 2026, 22:00",
+                "end": "April 30 2026, 11:59",
 			},
             {
 				name: "Web shop exclusive Super Training Special Packs",
@@ -562,15 +567,15 @@ var timerData = [
                 "start": "march 10 2026, 12:00",
                 "end": "march 29 2026, 11:59"
 			},
-        	{
-				name: "Homemade and Heartfelt Valentines Chocolate",
-                "start": "feb 10 2026, 12:00",
-                "end": "feb 21 2026, 11:59",
-			},
             {
-				name: "Rebellion Part I",
-                "start": "jan 30 2026, 12:00",
-                "end": "march 1 2026, 11:59"
+				name: "1st Anniversary Medal Trader",
+                "start": "april 14 2026, 12:00",
+                "end": "may 01 2026, 11:59",
+			},
+        	{
+				name: "Crescent Memoria Part 3",
+                "start": "march 27 2026, 22:00",
+                "end": "may 1 2026, 11:59"
 			},
             {
 				name: "Rebellion Part II",
@@ -586,7 +591,12 @@ var timerData = [
 				name: "Sweet Magic from the Heart Trader",
                 "start": "feb 17 2026, 12:00",
                 "end": "mar 19 2026, 11:59",
-			},	
+			},
+            {
+				name: "Friend Medal Reset",
+                "start": "mar 1 2026, 5:00",
+                "end": "mar 31 2026, 4:59",
+			},
             {
 				name: "Archive Medals Reset",
                 "start": "mar 1 2026, 5:00",
@@ -628,19 +638,19 @@ var timerData = [
             //     "end": "jan 23 2026, 11:59",
 			// },
             {
-				name: "1st Anniversary Countdown Medals",
-                "start": "march 10 2026, 12:00",
-                 "end": "march 28 2026, 11:59",
+				name: "1st Anniversary Kioku Medals",
+                "start": "march 27 2026, 22:00",
+                "end": "may 01 2026, 11:59",
 			},
             {
-				name: "Nagisa Momoe 🧀",
-                "start": "feb 6 2026, 12:00",
-                "end": "mar 1 2026, 11:59",
+				name: "Sumire & Fuka",
+                "start": "march 27 2026, 22:00",
+                "end": "may 01 2026, 11:59",
 			},
             {
-				name: "Follow-Up Attack Showcase",
-                "start": "feb 06 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
+				name: "5★ Kioku Trading Medals",
+                "start": "march 27 2026, 22:00",
+                "end": "may 01 2026, 11:59",
 			},
             {
 				name: "Sweet Delights Kyoko & Mami",
@@ -667,9 +677,9 @@ var timerData = [
                 "end": "mar 19 2026, 11:59"
 			},
             {
-				name: "Valentine's Day",
-                "start": "feb 17 2026, 12:00",
-                "end": "mar 19 2026, 11:59",
+				name: "Cresent Memoria - Sumire",
+                "start": "march 27 2026, 22:00",
+                "end": "may 01 2026, 11:59",
 			},
             {
 				name: "Homura Rebellion Uniform",
@@ -701,19 +711,19 @@ var timerData = [
     		{
         "type": "Gacha",
         "title": [
-			"【FREE】One Free Magia Fate Weave 10-Draw | [Groundhog Daze] Mabayu Aki",
+			"【FREE】One Free Magia Fate Weave 10-Draw | Nagisa & Koito",
             "『マギアガチャ10連1回無料』"
         ],
         "image": [
             "imgs/exedra/gacha00/free-24.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 1,
         "timers": [
             {
                 name: "24 Hours Only!🪄",
-                "start": "jan 31 2026, 12:00",
-                "end": "feb 1 2026, 11:59",
+                "start": "march 30 2026, 12:00",
+                "end": "april 1 2026, 11:59",
                 // extraPriority: 1000
             },
         ]
@@ -741,8 +751,8 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Year Ending Fest】1 Per Day Free Fate Weave",
-            "『「マギアレコード編  第1部」完結記念 1日1回無料ガチャ』"
+			"【1st Anni】Up to 150 Draws! One Per Day Free 10-Draw Fate Weave",
+            "『最大150連！1日1回無料10連ガチャ』"
         ],
         "image": [
             "imgs/exedra/gacha00/free.png",
@@ -752,28 +762,28 @@ var timerData = [
         "timers": [
             {
                 name: "",
-                "start": "dec 22 2025, 12:00",
-                "end": "jan 01 2026, 4:59",
-               // extraPriority: 1000
+                "start": "march 27 2026, 22:00",
+                "end": "april 30 2026, 11:59",
+                extraPriority: 1000
             }
         ]
     },
     	{
         "type": "Gacha",
         "title": [
-			"【Year Greetings Fest 2026】1 Per Day Free Fate Weave",
-            "『期間中毎日1日1回無料ガチャ開催！』"
+			"【Collab】Monogatari Series",
+            "『物語シリーズ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/free.png",
+            "imgs/exedra/anni/monogatari.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: "",
-                "start": "jan 1 2026, 05:00",
-                "end": "jan 15 2026, 11:59"
+                name: "Coming Soon - Times will be updated",
+                "start": "april 6 2026, 12:00",
+                "end": "april 20 2026, 11:59"
                // extraPriority: 1000
             }
         ]
@@ -821,58 +831,62 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】[Crimson Confectioner] Kyoko Sakura",
-            "『【限定★5 】[紅珠焼菓] 佐倉杏子』"
+			"【Exclusive New】Sumire & Fuka",
+            "『【限定★5 】夜明すみれ＆日暮ふうか』"
         ],
         "image": [
-            "imgs/exedra/exc/vday-kyoko.png",
+            "imgs/exedra/anni/sumi.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 2,
         "timers": [
             {
-                name: "Fire Breaker",
-                "start": "feb 17 2026, 12:00",
-                "end": "mar 18 2026, 11:59",
-                // extraPriority: 1000
-            }
+                name: "Free Gems",
+                "start": "march 27 2026, 22:00",
+                "end": "april 30 2026, 11:59",
+            },
+            {
+                name: "Paid Step Up",
+                "start": "march 27 2026, 22:00",
+                "end": "april 30 2026, 11:59",
+            },
         ]
      },
 	{
         "type": "Gacha",
         "title": [
-		    "【Paid Only】Showcase Fate Weave",
+		    "【Paid Only】One 5★ Kioku Guaranteed",
             "『有償限定 ステップアップガチャ』"
         ],
         "image": [
-			"imgs/exedra/feat/ny-paid.png",
+			"imgs/exedra/anni/paid.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 2,
         "timers": [
             {
-                name: "1 Time Only for Each",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 22 2026, 11:59",
+                name: "1 Time Only",
+                "start": "march 27 2026, 22:00",
+                "end": "april 30 2026, 11:59",
             },
         ]
     },
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】[Panna Vorticosa] Mami Tomoe",
-            "『【限定★5 】[パンナ・ヴォルティコーザ]巴マミ』"
+			"【Exclusive Redux】Homura Akemi (Ribbon)",
+            "『【限定★5 】暁美ほむら 黒い魔力による制圧"
         ],
         "image": [
-            "imgs/exedra/exc/vday-mami.png",
+            "imgs/exedra/anni/homu.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 1,
         "timers": [
             {
-                name: "Fire Breaker",
-                "start": "feb 27 2026, 12:00",
-                "end": "mar 18 2026, 11:59",
+                name: "Dark Art Dominion",
+                "start": "april 24 2026, 12:00",
+                "end": "may 7 2026, 11:59",
                 // extraPriority: 1000
             }
         ]
@@ -938,29 +952,34 @@ var timerData = [
        	{
         "type": "Gacha",
         "title": [
-			"【Year Kickoff Campaign】Free weekly 10-draw Fate Weave!",
-            "『【ニューイヤーキャンペーン】10連無料ガチャ開催！)』"
+			"【1st Anniversary】Exclusive Kioku",
+            "『【1st Anniversary】限定★5キオク)』"
         ],
         "image": [
-            "imgs/exedra/gacha00/free-10.png",
+            "imgs/exedra/anni/anni01.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 2,
         "timers": [
             {
-                name: "Week 1 Free Pull",
-                "start": "jan 9 2026, 12:00",
-                "end": "jan 11 2026, 23:59",
+                name: "Week 1 Swimsuit ",
+                "start": "march 27 2026, 22:00",
+                "end": "april 03 2026, 11:59",
             },
             {
-                name: "Week 2 Free Pull",
-                "start": "jan 16 2026, 12:00",
-                "end": "jan 18 2026, 23:59",
+                name: "Week 2 Halloween",
+                "start": "april 03 2026, 12:00",
+                "end": "april 10 2026, 11:59",
             },
             {
-                name: "Week 3 Free Pull",
-                "start": "jan 23 2026, 12:00",
-                "end": "jan 25 2026, 23:59",
+                name: "Week 3 Winter Sayaka x Kyoko",
+                "start": "april 03 2026, 12:00",
+                "end": "april 10 2026, 11:59",
+            },
+            {
+                name: "Week 4 Winter Ren x Rika",
+                "start": "april 10 2026, 12:00",
+                "end": "april 14 2026, 11:59",
             },
         ]
     },
