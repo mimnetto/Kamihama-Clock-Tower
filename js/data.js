@@ -808,7 +808,7 @@ var timerData = [
             "imgs/exedra/fate/corb.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 1,
         "timers": [
             {
                 name: "",
