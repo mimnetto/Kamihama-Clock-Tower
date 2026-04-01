@@ -159,7 +159,7 @@ var timerData = [
             "imgs/exedra/events00/lotto.png"
         ],
         "column": 0,
-        "priority": 5,
+        "priority": 0,
         "timers": [
             {
 				name: "Ticket Acquisition",
@@ -299,7 +299,7 @@ var timerData = [
             "imgs/exedra/story/cresent.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
 				"name": "",
