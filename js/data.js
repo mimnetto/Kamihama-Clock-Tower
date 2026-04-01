@@ -123,6 +123,11 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
+				name: "Magia Et Cetera Portrait",
+                "start": "april 1 2026, 00:00",
+                "end": "april 8 2026, 23:59",
+			},
+            {
 				name: "1st Anniversary",
                 "start": "march 27 2026, 22:00",
                 "end": "april 30 2026, 11:59"
@@ -136,11 +141,6 @@ var timerData = [
 				name: "1st Anniversary Portrait Gift",
                 "start": "march 27 2026, 22:00",
                 "end": "april 30 2026, 11:59"
-			},
-            {
-				name: "Sweet Delights Campaign",
-                "start": "feb 17 2026, 12:00",
-                "end": "mar 10 2026, 11:59",
 			},
         ]
     },
@@ -209,15 +209,15 @@ var timerData = [
         "column": 0,
         "priority": 5,
         "timers": [
+        	{
+				name: "Magia Et Cetera Lighthouse Stamp Rally",
+                "start": "april 1 2026, 00:00",
+                "end": "april 8 2026, 23:59",
+			},
             {
 				name: "Portraits of the Past and Promise",
                 "start": "mar 27 2026, 00:00",
                 "end": "april 30 2026, 11:59",
-			},
-        	{
-				name: "Homemade and Heartfelt Valentines!",
-                "start": "feb 10 2026, 12:00",
-                "end": "feb 20 2026, 11:59",
 			},
         ]
     },
@@ -471,9 +471,9 @@ var timerData = [
 				end: "march 12 2026, 11:59",
 			},
 			{
-				name: "Gold & Silver Medal Shop - March",
-                "start": "march 1 2026, 5:00",
-                "end": "march 31 2026, 4:59",
+				name: "Gold & Silver Medal Shop - April",
+                "start": "April 1 2026, 5:00",
+                "end": "April 30 2026, 4:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Nov",
@@ -714,7 +714,7 @@ var timerData = [
                 name: "24 Hours Only!🪄",
                 "start": "march 30 2026, 12:00",
                 "end": "april 1 2026, 11:59",
-                // extraPriority: 1000
+                extraPriority: 1000
             },
         ]
     },
