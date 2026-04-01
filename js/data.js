@@ -584,18 +584,18 @@ var timerData = [
 			},
             {
 				name: "Friend Medal Reset",
-                "start": "mar 1 2026, 5:00",
-                "end": "mar 31 2026, 4:59",
+                "start": "April 1 2026, 5:00",
+                "end": "April 30 2026, 4:59",
 			},
             {
 				name: "Archive Medals Reset",
-                "start": "mar 1 2026, 5:00",
-                "end": "mar 31 2026, 4:59",
+                "start": "April 1 2026, 5:00",
+                "end": "April 30 2026, 4:59",
 			},
              {
 				name: "Steady Steps Reset",
-                "start": "mar 1 2026, 5:00",
-                "end": "mar 31 2026, 4:59",
+                "start": "April 1 2026, 5:00",
+                "end": "April 30 2026, 4:59",
 			},
 
 		]
