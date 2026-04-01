@@ -120,7 +120,7 @@ var timerData = [
 			"imgs/exedra/login/login.png"
         ],
         "column": 0,
-        "priority": 5,
+        "priority": 7,
         "timers": [
             {
 				name: "Magia Et Cetera Portrait",
@@ -207,7 +207,7 @@ var timerData = [
 			"imgs/exedra/other/mini-events.png"
         ],
         "column": 0,
-        "priority": 5,
+        "priority": 6,
         "timers": [
         	{
 				name: "Magia Et Cetera Lighthouse Stamp Rally",
