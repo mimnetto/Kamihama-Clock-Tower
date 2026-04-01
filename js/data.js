@@ -142,12 +142,17 @@ var timerData = [
                 "start": "march 27 2026, 22:00",
                 "end": "april 30 2026, 11:59"
 			},
+            {
+				name: "Exedraw Special Login Bonus",
+                "start": "april 24 2026, 5:00",
+                "end": "may 1 2026, 11:59"
+			},
         ]
     },
     	{
         "type": "Event",
         "title": [
-			"Exedraw Prize Redemption Period",
+			"Exedraw!",
 			"『エクセドラ』"
         ],
         "image": [
@@ -156,11 +161,26 @@ var timerData = [
         "column": 0,
         "priority": 5,
         "timers": [
-			{
-				"name": "",
-                "start": "jan 9 2026, 12:00",
-                "end": "jan 15 2026, 11:59",
-			}
+            {
+				name: "Ticket Acquisition",
+                "start": "march 27 2026, 22:00",
+                "end": "april 22 2026, 4:59"
+			},
+            {
+				name: "Draw Period",
+                "start": "april 22 2026, 5:00",
+                "end": "april 24 2026, 11:59"
+			},
+            {
+				name: "Prize Claim Period",
+                "start": "april 24 2026, 12:00",
+                "end": "april 30 2026, 11:59"
+			},
+            {
+				name: "Special Login Bonus",
+                "start": "april 24 2026, 5:00",
+                "end": "may 1 2026, 11:59"
+			},
         ]
     },
     	{
@@ -379,7 +399,7 @@ var timerData = [
 			// },
             {
 				name: "Magia Exedraw",
-                "start": "march 28 2026, 5:00",
+                "start": "march 27 2026, 22:00",
                 "end": "april 22 2026, 4:59"
 			},
             {
@@ -387,20 +407,25 @@ var timerData = [
                 "start": "march 27 2026, 22:00",
                 "end": "april 1 2026, 12:00"
 			},
+            {
+				name: "Buffs Applied to Main Quest",
+                "start": "march 27 2026, 22:00",
+                "end": "april 30 2026, 11:59"
+			},
 			{
 				name: "Upgrade Quest Fest Half QP",
-                "start": "sept 29 2025, 17:00",
-                "end": "oct 14 2025, 11:59",
+                "start": "April 1 2026, 5:00",
+                "end": "april 14 2026, 11:59",
 			},
             {
 				name: "Invite-a-Friend",
-                "start": "sept 29 2025, 20:00",
-                "end": "oct 31 2025, 11:59",
+                "start": "march 27 2026, 22:00",
+                "end": "april 30 2026, 11:59",
 			},
             {
 				name: "Welcome Back Campaign",
                 "start": "march 27 2026, 22:00",
-                "end": "april 4 2026, 11:59",
+                "end": "april 30 2026, 11:59",
 			},
             {
 				name: "1st Anniversary Portrait Gift",
@@ -443,6 +468,35 @@ var timerData = [
 			}
         ]
     },
+	{
+		type: "Other",
+		title: [
+		"Exedra Crisis",
+		"『エクセドラクライシス』"
+		],
+		image: [
+            "imgs/exedra/other/ex-crisis.png"
+        ],
+		column: 2,
+		priority: 0,
+		timers: [
+			{
+				name: "Desert Witch",
+				start: "april 1 2026, 12:00",
+				end: "april 8 2026, 23:59",
+			},
+			{
+				name: "Ranking Results Viewability",
+                "start": "april 9 2026, 00:00",
+                "end": "April 13 2026, 4:59",
+			},
+			{
+				name: "Trader",
+                "start": "april 1 2026, 12:00",
+                "end": "April 20 2026, 11:59",
+			},
+		]
+	            },
             	{
 		type: "Other",
 		title: [
@@ -472,8 +526,8 @@ var timerData = [
 			},
 			{
 				name: "Gold & Silver Medal Shop - April",
-                "start": "April 1 2026, 5:00",
-                "end": "April 30 2026, 4:59",
+                "start": "march 31 2026, 12:00",
+                "end": "may 1 2026, 4:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - Nov",
@@ -495,14 +549,14 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 26",
-				start: "mar 16 2026, 12:00",
-				end: "mar 29 2026, 23:59",
+				name: "Season 27",
+				start: "mar 30 2026, 12:00",
+				end: "april 12 2026, 23:59",
 			},
 			{
-				name: "Match Medal Shop - March",
-                "start": "march 1 2026, 5:00",
-                "end": "march 31 2026, 4:59",
+				name: "Match Medal Shop - April",
+                "start": "April 1 2026, 5:00",
+                "end": "may 1 2026, 4:59",
 			},
 		]
 	},
@@ -569,7 +623,7 @@ var timerData = [
 			},
             {
 				name: "1st Anniversary Medal Trader",
-                "start": "april 14 2026, 12:00",
+                "start": "march 27 2026, 22:00",
                 "end": "may 01 2026, 11:59",
 			},
         	{
@@ -590,12 +644,12 @@ var timerData = [
             {
 				name: "Archive Medals Reset",
                 "start": "April 1 2026, 5:00",
-                "end": "April 30 2026, 4:59",
+                "end": "may 1 2026, 4:59",
 			},
              {
 				name: "Steady Steps Reset",
                 "start": "April 1 2026, 5:00",
-                "end": "April 30 2026, 4:59",
+                "end": "may 1 2026, 4:59",
 			},
 
 		]
@@ -772,7 +826,7 @@ var timerData = [
         "timers": [
             {
                 name: "Coming Soon - Times will be updated",
-                "start": "april 6 2026, 12:00",
+                "start": "april 4 2026, 12:00",
                 "end": "april 20 2026, 11:59"
                // extraPriority: 1000
             }
@@ -963,13 +1017,13 @@ var timerData = [
             },
             {
                 name: "Week 3 Winter Sayaka x Kyoko",
-                "start": "april 03 2026, 12:00",
-                "end": "april 10 2026, 11:59",
+                "start": "april 10 2026, 12:00",
+                "end": "april 17 2026, 11:59",
             },
             {
                 name: "Week 4 Winter Ren x Rika",
-                "start": "april 10 2026, 12:00",
-                "end": "april 14 2026, 11:59",
+                "start": "april 17 2026, 12:00",
+                "end": "april 24 2026, 11:59",
             },
         ]
     },
