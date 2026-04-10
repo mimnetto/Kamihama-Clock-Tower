@@ -123,9 +123,19 @@ var timerData = [
         "priority": 7,
         "timers": [
             {
-				name: "Magia Et Cetera Portrait",
-                "start": "april 1 2026, 00:00",
-                "end": "april 8 2026, 23:59",
+				name: "Monogatari Celebration Part 1",
+                "start": "april 6 2026, 12:00",
+                "end": "may 05 2026, 11:59",
+			},
+            {
+				name: "Monogatari Celebration Part 2",
+                "start": "april 14 2026, 12:00",
+                "end": "may 05 2026, 11:59",
+			},
+            {
+				name: "Monogatari Celebration 1 Time 3,000 Gem Gift",
+                "start": "april 6 2026, 12:00",
+                "end": "may 05 2026, 11:59",
 			},
             {
 				name: "1st Anniversary",
@@ -201,9 +211,14 @@ var timerData = [
                 "end": "march 27 2026, 11:59"
 			},
             {
-				name: "Chaos Mode Challenge",
-                "start": "jan 30 2026, 12:00",
-                "end": "mar 31 2026, 11:59",
+				name: "Monogatari Celebration Missions Part 1",
+                "start": "april 6 2026, 12:00",
+                "end": "may 05 2026, 11:59",
+			},
+            {
+				name: "Monogatari Celebration Missions Part 2",
+                "start": "april 14 2026, 12:00",
+                "end": "may 05 2026, 11:59",
 			},
         	{
 				name: "1st Anniversary Missions Part 1",
@@ -251,7 +266,7 @@ var timerData = [
             "imgs/exedra/other/score-attack.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 3,
         "timers": [
              {
 				name: "Tower | Mirror Layers 86-90",
@@ -305,6 +320,30 @@ var timerData = [
 				"name": "",
                 "start": "march 27 2026, 22:00",
                 "end": "april 30 2026, 11:59",
+			},
+			// {
+			// 	"name": "Part 2",
+            //     "start": "feb 27 2026, 12:00",
+            //     "end": "mar 18 2026, 11:59",
+			// },
+        ]
+        },
+    {
+        "type": "Event",
+        "title": [
+			"【Story Event】Monogatari Series Collab Labyrinth Story",
+			"『～ラビリンス・ストーリー～』"
+        ],
+        "image": [
+            "imgs/exedra/story/mono-story.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+			{
+				"name": "Part 1",
+                "start": "april 6 2026, 12:00",
+                "end": "may 05 2026, 11:59",
 			},
 			// {
 			// 	"name": "Part 2",
@@ -524,6 +563,11 @@ var timerData = [
 				start: "feb 26 2026, 12:00",
 				end: "march 12 2026, 11:59",
 			},
+            {
+				name: "Uwasa of the Commoner's Horse",
+				start: "april 09 2026, 12:00",
+				end: "april 24 2026, 11:59",
+			},
 			{
 				name: "Gold & Silver Medal Shop - April",
                 "start": "march 31 2026, 12:00",
@@ -573,6 +617,11 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
+				name: "Monogatari Series Collab Packs",
+                "start": "april 6 2026, 12:00",
+                "end": "may 05 2026, 11:59",
+			},
+			{
 				name: "Training Spree Packs",
                 "start": "feb 27 2026, 12:00",
                 "end": "mar 31 2026, 11:59",
@@ -617,9 +666,9 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
-				name: "Puella Magi Darc Magica & Brave Banner Trader",
-                "start": "march 10 2026, 12:00",
-                "end": "march 29 2026, 11:59"
+				name: "Monogatari Collab Labyrinth Story & Dumplings",
+                "start": "april 6 2026, 12:00",
+                "end": "may 06 2026, 11:59",
 			},
             {
 				name: "1st Anniversary Medal Trader",
@@ -667,9 +716,9 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "[La Danse Macabre] Corbeau",
-                "start": "march 18 2026, 12:00",
-                "end": "april 06 2026, 11:59",
+				name: "Shinobu Oshino & Mayoi Hachikuji",
+                "start": "april 6 2026, 12:00",
+                "end": "may 06 2026, 11:59",
 			},
 			{
 				name: "[La Lumière] Darc",
@@ -815,19 +864,39 @@ var timerData = [
     	{
         "type": "Gacha",
         "title": [
-			"【Collab】Monogatari Series",
-            "『物語シリーズ』"
+			"【Monogatari Series Collab Exclusive】Shinobu Oshino",
+            "『〈物語〉シリーズコラボ限定★5忍野忍』"
         ],
         "image": [
-            "imgs/exedra/anni/monogatari.png",
+            "imgs/exedra/fate/mono01.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 4,
         "timers": [
             {
-                name: "Coming Soon - Times will be updated",
-                "start": "april 4 2026, 12:00",
-                "end": "april 20 2026, 11:59"
+                name: "Flame Attacker",
+                "start": "april 6 2026, 12:00",
+                "end": "may 05 2026, 11:59"
+               // extraPriority: 1000
+            }
+        ]
+    },
+    	{
+        "type": "Gacha",
+        "title": [
+			"【Monogatari Series Collab Exclusive】Mayoi Hachikuji",
+            "『〈物語〉シリーズコラボ限定★5八九寺真宵』"
+        ],
+        "image": [
+            "imgs/exedra/fate/mono00.png",
+        ],
+        "column": 1,
+        "priority": 4,
+        "timers": [
+            {
+                name: "Aqua Defender",
+                "start": "april 6 2026, 12:00",
+                "end": "may 05 2026, 11:59"
                // extraPriority: 1000
             }
         ]
