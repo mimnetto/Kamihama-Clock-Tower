@@ -274,9 +274,9 @@ var timerData = [
                 "end": "march 27 2026, 11:59",
 			},
 			{
-				"name": "Score Attack【VS Corbeau】",
-                "start": "march 10 2026, 12:00",
-                "end": "march 28 2026, 11:59"
+				"name": "Score Attack【VS Bunny Eared Witch】",
+                "start": "april 14 2026, 12:00",
+                "end": "may 05 2026, 11:59",
 			},
             {
 				"name": "Score Attack【VS Critic Witch】",
@@ -345,11 +345,11 @@ var timerData = [
                 "start": "april 6 2026, 12:00",
                 "end": "may 05 2026, 11:59",
 			},
-			// {
-			// 	"name": "Part 2",
-            //     "start": "feb 27 2026, 12:00",
-            //     "end": "mar 18 2026, 11:59",
-			// },
+			{
+				"name": "Part 2",
+                "start": "april 14 2026, 12:00",
+                "end": "may 05 2026, 11:59",
+			},
         ]
         },
     {
@@ -593,9 +593,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 27",
-				start: "mar 30 2026, 12:00",
-				end: "april 12 2026, 23:59",
+				name: "Season 28",
+				start: "april 13 2026, 12:00",
+				end: "april 26 2026, 23:59",
 			},
 			{
 				name: "Match Medal Shop - April",
@@ -666,8 +666,13 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
-				name: "Monogatari Collab Labyrinth Story & Dumplings",
+				name: "Monogatari Collab Labyrinth & Dumplings",
                 "start": "april 6 2026, 12:00",
+                "end": "may 06 2026, 11:59",
+			},
+            {
+				name: "Monogatari Collab Labyrinth Part 2",
+                "start": "april 14 2026, 12:00",
                 "end": "may 06 2026, 11:59",
 			},
             {
@@ -716,7 +721,7 @@ var timerData = [
 		priority: 3,
 		timers: [	
 			{
-				name: "Shinobu Oshino & Mayoi Hachikuji",
+				name: "Shinobu Oshino, Mayoi Hachikuji & Yotsugi Ononoki",
                 "start": "april 6 2026, 12:00",
                 "end": "may 06 2026, 11:59",
 			},
@@ -766,8 +771,8 @@ var timerData = [
 		timers: [	
             {
 				name: "Limited Time Items",
-                "start": "feb 27 2026, 12:00",
-                "end": "mar 19 2026, 11:59"
+                "start": "april 14 2026, 12:00",
+                "end": "may 05 2026, 11:59",
 			},
             {
 				name: "Cresent Memoria - Sumire",
@@ -858,6 +863,26 @@ var timerData = [
                 "start": "march 27 2026, 22:00",
                 "end": "april 30 2026, 11:59",
                 extraPriority: 1000
+            }
+        ]
+    },
+    	{
+        "type": "Gacha",
+        "title": [
+			"【Monogatari Series Collab Exclusive】Yotsugi Ononoki",
+            "『〈物語〉[シリーズコラボ限定★5斧乃木余接』"
+        ],
+        "image": [
+            "imgs/exedra/fate/mono02.png",
+        ],
+        "column": 1,
+        "priority": 4,
+        "timers": [
+            {
+                name: "Forest Breaker",
+                "start": "april 14 2026, 12:00",
+                "end": "may 05 2026, 11:59",
+               // extraPriority: 1000
             }
         ]
     },
