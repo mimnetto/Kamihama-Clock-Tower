@@ -1,6 +1,6 @@
 var releaseDate = "march 26 2025, 04:00";
-var possibleNextAnnouncementDate = "jan 9 2026, 12:00";
-var nextAnniversary = "march 27 2026, 04:00";
+var possibleNextAnnouncementDate = "april 23 2026, 20:00";
+var nextAnniversary = "march 27 2027, 04:00";
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
