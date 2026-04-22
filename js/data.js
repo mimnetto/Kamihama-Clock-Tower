@@ -182,6 +182,11 @@ var timerData = [
                 "end": "april 24 2026, 11:59"
 			},
             {
+				name: "Live Stream",
+                "start": "april 23 2026, 20:00",
+                "end": "april 23 2026, 22:00",
+			},
+            {
 				name: "Prize Claim Period",
                 "start": "april 24 2026, 12:00",
                 "end": "april 30 2026, 11:59"
@@ -269,9 +274,9 @@ var timerData = [
         "priority": 3,
         "timers": [
              {
-				name: "Tower | Mirror Layers 86-90",
-                "start": "march 10 2026, 12:00",
-                "end": "march 27 2026, 11:59",
+				name: "Tower | Mirror Layers 91-95",
+                "start": "april 20 2026, 12:00",
+                "end": "may 7 2026, 11:59",
 			},
 			{
 				"name": "Score Attack【VS Bunny Eared Witch】",
@@ -288,19 +293,19 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Exedra Party 2026",
-			"【Exedra Party 2026】"
+			"【Live Stream】Exedra News: Golden Week Pre-Broadcast Special]",
+			"【 エクセドラ通信 GW直前生放送SP】"
         ],
         "image": [
-            "imgs/exedra/other/first.png"
+            "imgs/exedra/events00/live-stream.png"
         ],
         "column": 0,
         "priority": 9,
         "timers": [
 			{
-				"name": "youtube.com/watch?v=DTlZJ_yMW3Q",
-                "start": "march 27 2026, 19:00",
-                "end": "march 27 2026, 21:00",
+				"name": "https://www.youtube.com/watch?v=KWTe-Jlxsno",
+                "start": "april 23 2026, 20:00",
+                "end": "april 23 2026, 22:00",
 			},
         ]
     },
