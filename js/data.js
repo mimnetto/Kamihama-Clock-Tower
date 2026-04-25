@@ -123,6 +123,11 @@ var timerData = [
         "priority": 7,
         "timers": [
             {
+				name: "Darc Magica Finale Celebration",
+                "start": "April 24 2026, 12:00",
+                "end": "May 20 2026, 11:59"
+			},
+            {
 				name: "Monogatari Celebration Part 1",
                 "start": "april 6 2026, 12:00",
                 "end": "may 05 2026, 11:59",
@@ -166,7 +171,7 @@ var timerData = [
 			"『エクセドラ』"
         ],
         "image": [
-            "imgs/exedra/events00/lotto.png"
+            "imgs/exedra/events00/lotto00.png"
         ],
         "column": 0,
         "priority": 0,
@@ -211,9 +216,9 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "1st Anniversary Countdown Missions",
-                "start": "march 10 2026, 12:00",
-                "end": "march 27 2026, 11:59"
+				name: "After Party Missions",
+                "start": "April 24 2026, 12:00",
+                "end": "May 7 2026, 11:59"
 			},
             {
 				name: "Monogatari Celebration Missions Part 1",
@@ -360,19 +365,19 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"【Story Event】Puella Magi Darc Magica",
+			"【Story Event】Darc Magica Part II Act I",
 			"『魔法少女たると☆マギカ』"
         ],
         "image": [
-            "imgs/exedra/story/tart.png"
+            "imgs/exedra/events00/darc002.png"
         ],
         "column": 0,
-        "priority": 0,
+        "priority": 1,
         "timers": [
 			{
-				"name": "Part 1",
-                "start": "march 10 2026, 12:00",
-                "end": "march 28 2026, 11:59"
+				"name": "Act 1",
+                "start": "April 24 2026, 12:00",
+                "end": "May 20 2026, 11:59"
 			},
 			// {
 			// 	"name": "Part 2",
@@ -442,9 +447,9 @@ var timerData = [
             //     "end": "april 22 2026, 11:59"
 			// },
             {
-				name: "Magia Exedraw",
-                "start": "march 27 2026, 22:00",
-                "end": "april 22 2026, 4:59"
+				name: "After Party Missions",
+                "start": "April 24 2026, 12:00",
+                "end": "May 20 2026, 11:59"
 			},
             {
 				name: "The Lighthouse Main Story Prologue",
@@ -553,6 +558,11 @@ var timerData = [
 		column: 2,
 		priority: 0,
 		timers: [
+            {
+				name: "Walpurgisnacht Descends",
+				start: "April 24 2026, 12:0",
+				end: "may 07 2026, 11:59",
+			},
             {
 				name: "Ai Chan",
 				start: "march 26 2026, 12:00",
@@ -671,6 +681,11 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
+				name: "Darc Magica Part II Act I",
+                "start": "April 24 2026, 12:00",
+                "end": "May 21 2026, 11:59"
+			},
+            {
 				name: "Monogatari Collab Labyrinth & Dumplings",
                 "start": "april 6 2026, 12:00",
                 "end": "may 06 2026, 11:59",
@@ -724,7 +739,17 @@ var timerData = [
         ],
 		column: 2,
 		priority: 3,
-		timers: [	
+		timers: [
+			{
+                name: "Homura Akemi (Ribbon)",
+                "start": "april 24 2026, 12:00",
+                "end": "may 8 2026, 11:59",
+			},
+			{
+                name: "Melissa & Liz ",
+                "start": "april 24 2026, 12:00",
+                "end": "may 21 2026, 11:59",
+			},
 			{
 				name: "Shinobu Oshino, Mayoi Hachikuji & Yotsugi Ononoki",
                 "start": "april 6 2026, 12:00",
@@ -774,6 +799,11 @@ var timerData = [
 		column: 2,
 		priority: 3,
 		timers: [	
+            {
+				name: "Limited Time Items - Homura",
+                "start": "April 24 2026, 12:00",
+                "end": "May 20 2026, 11:59"
+			},
             {
 				name: "Limited Time Items",
                 "start": "april 14 2026, 12:00",
@@ -934,19 +964,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Unlimited New】 [La Lumière] Darc",
-            "『[ラ・リュミエール] タルト』"
+			"【Unlimited New】 Liz & Melissa",
+            "『リズとメリッサ』"
         ],
         "image": [
-            "imgs/exedra/fate/tart.png",
+            "imgs/exedra/fate/darc02.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 5,
         "timers": [
             {
-                name: "Light Defender",
-                "start": "march 10 2026, 12:00",
-                "end": "march 28 2026, 11:59",
+                name: "[Désintégration] Melissa |  [L'Ombre] Liz ",
+                "start": "april 24 2026, 12:00",
+                "end": "may 20 2026, 11:59",
             //    extraPriority: 1000
             }
         ]
@@ -1024,7 +1054,7 @@ var timerData = [
             "imgs/exedra/anni/homu.png",
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 3,
         "timers": [
             {
                 name: "Dark Art Dominion",
