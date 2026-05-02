@@ -379,11 +379,11 @@ var timerData = [
                 "start": "April 24 2026, 12:00",
                 "end": "May 20 2026, 11:59"
 			},
-			// {
-			// 	"name": "Part 2",
-            //     "start": "feb 27 2026, 12:00",
-            //     "end": "mar 18 2026, 11:59",
-			// },
+			{
+				"name": "Part 2",
+                "start": "april 30 2026, 12:00",
+                "end": "may 20 2026, 11:59",
+			},
         ]
         },
        	{
@@ -530,19 +530,19 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Desert Witch",
-				start: "april 1 2026, 12:00",
-				end: "april 8 2026, 23:59",
+				name: "Artist Witch",
+				start: "may 1 2026, 12:00",
+				end: "may 8 2026, 23:59",
 			},
 			{
 				name: "Ranking Results Viewability",
-                "start": "april 9 2026, 00:00",
-                "end": "April 13 2026, 4:59",
+                "start": "may 9 2026, 00:00",
+                "end": "may 12 2026, 4:59",
 			},
 			{
 				name: "Trader",
-                "start": "april 1 2026, 12:00",
-                "end": "April 20 2026, 11:59",
+                "start": "may 1 2026, 12:00",
+                "end": "june 20 2026, 11:59",
 			},
 		]
 	            },
@@ -584,14 +584,9 @@ var timerData = [
 				end: "april 24 2026, 11:59",
 			},
 			{
-				name: "Gold & Silver Medal Shop - April",
-                "start": "march 31 2026, 12:00",
-                "end": "may 1 2026, 4:59",
-			},
-			{
-				name: "Gold & Silver Medal Shop - Nov",
-				start: "Nov 01 2025, 5:00",
-				end: "Dec 1 2025, 4:59",
+				name: "Gold & Silver Medal Shop - May",
+                "start": "may 1 2026, 5:00",
+                "end": "june 1 2026, 4:59",
 			},
 		]
 	},
@@ -613,9 +608,9 @@ var timerData = [
 				end: "may 10 2026, 23:59",
 			},
 			{
-				name: "Match Medal Shop - April",
-                "start": "April 1 2026, 5:00",
-                "end": "may 1 2026, 4:59",
+				name: "Match Medal Shop - May",
+                "start": "may 1 2026, 5:00",
+                "end": "june 1 2026, 4:59",
 			},
 		]
 	},
@@ -637,14 +632,14 @@ var timerData = [
                 "end": "may 05 2026, 11:59",
 			},
 			{
-				name: "Training Spree Packs",
-                "start": "feb 27 2026, 12:00",
-                "end": "mar 31 2026, 11:59",
+				name: "Darc Magica Celebration Packs",
+                "start": "april 30 2026, 12:00",
+                "end": "may 20 2026, 11:59",
 			},
 			{
 				name: "Training Spree Packs",
-                "start": "march 27 2026, 22:00",
-                "end": "April 30 2026, 11:59",
+                "start": "april 30 2026, 12:00",
+                "end": "may 31 2026, 11:59",
 			},
 			{
 				name: "1st Anniversary Packs",
@@ -686,6 +681,11 @@ var timerData = [
                 "end": "May 21 2026, 11:59"
 			},
             {
+				name: "Darc Magica Part II Act II",
+                "start": "April 30 2026, 12:00",
+                "end": "May 21 2026, 11:59"
+			},
+            {
 				name: "Monogatari Collab Labyrinth & Dumplings",
                 "start": "april 6 2026, 12:00",
                 "end": "may 06 2026, 11:59",
@@ -712,18 +712,18 @@ var timerData = [
 			},
             {
 				name: "Friend Medal Reset",
-                "start": "April 1 2026, 5:00",
-                "end": "April 30 2026, 4:59",
+                "start": "may 1 2026, 5:00",
+                "end": "june 1 2026, 4:59",
 			},
             {
 				name: "Archive Medals Reset",
-                "start": "April 1 2026, 5:00",
-                "end": "may 1 2026, 4:59",
+                "start": "may 1 2026, 5:00",
+                "end": "june 1 2026, 4:59",
 			},
              {
 				name: "Steady Steps Reset",
-                "start": "April 1 2026, 5:00",
-                "end": "may 1 2026, 4:59",
+                "start": "may 1 2026, 5:00",
+                "end": "june 1 2026, 4:59",
 			},
 
 		]
@@ -741,6 +741,11 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
+				name: "Shinobu Oshino, Mayoi Hachikuji & Yotsugi Ononoki",
+                "start": "april 6 2026, 12:00",
+                "end": "may 06 2026, 11:59",
+			},
+			{
                 name: "Homura Akemi (Ribbon)",
                 "start": "april 24 2026, 12:00",
                 "end": "may 8 2026, 11:59",
@@ -751,20 +756,20 @@ var timerData = [
                 "end": "may 21 2026, 11:59",
 			},
 			{
-				name: "Shinobu Oshino, Mayoi Hachikuji & Yotsugi Ononoki",
-                "start": "april 6 2026, 12:00",
-                "end": "may 06 2026, 11:59",
-			},
-			{
 				name: "[La Lumière] Darc",
                 "start": "march 10 2026, 12:00",
                 "end": "march 29 2026, 11:59",
 			},
-            // {
-			// 	name: "【Paid Only】Showcase Fate Weave",
-            //     "start": "jan 1 2026, 00:00",
-            //     "end": "jan 23 2026, 11:59",
-			// },
+			{
+				name: "[La Porte du Paradis] Darc (Final)",
+                "start": "april 30 2026, 12:00",
+                "end": "may 21 2026, 11:59",
+			},
+            {
+				name: "Showcase Fate Weave",
+                "start": "april 30 2026, 12:00",
+                "end": "may 12 2026, 11:59"
+			},
             {
 				name: "1st Anniversary Kioku Medals",
                 "start": "march 27 2026, 22:00",
@@ -901,6 +906,30 @@ var timerData = [
             }
         ]
     },
+    {
+        "type": "Gacha",
+        "title": [
+			"【Exclusive New】[La Porte du Paradis] Darc (Final)",
+            "『【限定★5 】[ラ・ポルトゥ・ドゥ・パラディ] タルト ver.Final 』"
+        ],
+        "image": [
+            "imgs/exedra/feat/finaltart.png",
+        ],
+        "column": 1,
+        "priority": 5,
+        "timers": [
+            {
+                name: "Free Gems",
+                "start": "april 30 2026, 12:00",
+                "end": "may 20 2026, 11:59",
+            },
+            {
+                name: "Paid Step Up",
+                "start": "april 30 2026, 12:00",
+                "end": "may 20 2026, 11:59",
+            },
+        ]
+     },
     	{
         "type": "Gacha",
         "title": [
@@ -981,50 +1010,6 @@ var timerData = [
             }
         ]
      },
-    {
-        "type": "Gacha",
-        "title": [
-			"【Unlimited New】 [La Danse Macabre] Corbeau",
-            "『[ラ・ダンス・マカブル]コルボー』"
-        ],
-        "image": [
-            "imgs/exedra/fate/corb.png",
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "",
-                "start": "march 18 2026, 12:00",
-                "end": "april 5 2026, 11:59",
-            //    extraPriority: 1000
-            }
-        ]
-     },
-    {
-        "type": "Gacha",
-        "title": [
-			"【Exclusive New】Sumire & Fuka",
-            "『【限定★5 】夜明すみれ＆日暮ふうか』"
-        ],
-        "image": [
-            "imgs/exedra/anni/sumi.png",
-        ],
-        "column": 1,
-        "priority": 2,
-        "timers": [
-            {
-                name: "Free Gems",
-                "start": "march 27 2026, 22:00",
-                "end": "april 30 2026, 11:59",
-            },
-            {
-                name: "Paid Step Up",
-                "start": "march 27 2026, 22:00",
-                "end": "april 30 2026, 11:59",
-            },
-        ]
-     },
 	{
         "type": "Gacha",
         "title": [
@@ -1086,19 +1071,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Featured】Follow-Up Attack Showcase",
-            "『『追撃』フィーチャーガチャ』"
+			"【Featured】Showcase Fateweave",
+            "『ロール別フィーチャーガチャ開催』"
         ],
         "image": [
-            "imgs/exedra/gacha00/follow-up.png",
+            "imgs/exedra/feat/role.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
-                name: " Eternal Sakura | Ui Tamaki | Alina Grey",
-                "start": "feb 06 2026, 12:00",
-                "end": "feb 28 2026, 11:59"
+                name: "",
+                "start": "april 30 2026, 12:00",
+                "end": "may 11 2026, 11:59"
             //    extraPriority: 1000
             }
         ]
