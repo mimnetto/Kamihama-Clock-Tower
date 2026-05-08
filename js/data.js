@@ -255,9 +255,9 @@ var timerData = [
         "priority": 6,
         "timers": [
         	{
-				name: "Magia Et Cetera Lighthouse Stamp Rally",
-                "start": "april 1 2026, 00:00",
-                "end": "april 8 2026, 23:59",
+				name: "Player EXP Quest",
+                "start": "may 07 2026, 12:00",
+                "end": "may 31 2026, 11:59",
 			},
             {
 				name: "Portraits of the Past and Promise",
@@ -575,8 +575,8 @@ var timerData = [
 			},
             {
 				name: "Spindle Witch",
-				start: "feb 26 2026, 12:00",
-				end: "march 12 2026, 11:59",
+				start: "may 07 2026, 12:00",
+				end: "may 21 2026, 11:59",
 			},
             {
 				name: "Uwasa of the Commoner's Horse",
