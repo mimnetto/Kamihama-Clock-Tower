@@ -128,9 +128,9 @@ var timerData = [
                 "end": "May 20 2026, 11:59"
 			},
             {
-				name: "Monogatari Celebration Part 1",
-                "start": "april 6 2026, 12:00",
-                "end": "may 05 2026, 11:59",
+				name: "Crystalis Update Celebration",
+                "start": "may 11 2026, 12:00",
+                "end": "may 26 2026, 11:59",
 			},
             {
 				name: "Monogatari Celebration Part 2",
@@ -216,9 +216,9 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "After Party Missions",
-                "start": "April 24 2026, 12:00",
-                "end": "May 7 2026, 11:59"
+				name: "Crystalis Update Celebration - Daily Reset",
+                "start": "may 11 2026, 12:00",
+                "end": "may 26 2026, 11:59",
 			},
             {
 				name: "Monogatari Celebration Missions Part 1",
@@ -408,25 +408,20 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】Prayers and Play Keep Sickness Away",
+			"【Story Event】Rise of the Waning Moon",
 			"『聖マギカ学園のクリスマス』"
         ],
         "image": [
-            "imgs/exedra/story/nye-story.png"
+            "imgs/exedra/events00/waning.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 3,
         "timers": [
 			{
 				"name": "",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 15 2026, 11:59"
-			},
-            {
-				"name": "Part Naughty",
-                "start": "dec 11 2025, 12:00",
-                "end": "dec 31 2025, 11:59"
-			},
+                "start": "may 11 2026, 12:00",
+                "end": "may 25 2026, 11:59",
+			}
         ]
     },
     	{
@@ -603,9 +598,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 29",
-				start: "april 27 2026, 12:00",
-				end: "may 10 2026, 23:59",
+				name: "Season 30",
+				start: "may 11 2026, 12:00",
+				end: "may 24 2026, 23:59",
 			},
 			{
 				name: "Match Medal Shop - May",
@@ -676,6 +671,11 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
+				name: "Rise of the Waning Moon",
+                "start": "may 11 2026, 12:00",
+                "end": "may 26 2026, 11:59",
+			},
+            {
 				name: "Darc Magica Part II Act I",
                 "start": "April 24 2026, 12:00",
                 "end": "May 21 2026, 11:59"
@@ -684,11 +684,6 @@ var timerData = [
 				name: "Darc Magica Part II Act II",
                 "start": "April 30 2026, 12:00",
                 "end": "May 21 2026, 11:59"
-			},
-            {
-				name: "Monogatari Collab Labyrinth & Dumplings",
-                "start": "april 6 2026, 12:00",
-                "end": "may 06 2026, 11:59",
 			},
             {
 				name: "Monogatari Collab Labyrinth Part 2",
@@ -740,10 +735,10 @@ var timerData = [
 		column: 2,
 		priority: 3,
 		timers: [
-			{
-				name: "Shinobu Oshino, Mayoi Hachikuji & Yotsugi Ononoki",
-                "start": "april 6 2026, 12:00",
-                "end": "may 06 2026, 11:59",
+            {
+				name: "Kanagi Izumi",
+                "start": "may 11 2026, 12:00",
+                "end": "may 26 2026, 11:59",
 			},
 			{
                 name: "Homura Akemi (Ribbon)",
@@ -933,20 +928,20 @@ var timerData = [
     	{
         "type": "Gacha",
         "title": [
-			"【Monogatari Series Collab Exclusive】Yotsugi Ononoki",
-            "『〈物語〉[シリーズコラボ限定★5斧乃木余接』"
+			"【Unlimited New】[Light of Reckoning] Kanagi Izumi",
+            "『新★5キオク 和泉十七夜』"
         ],
         "image": [
-            "imgs/exedra/fate/mono02.png",
+            "imgs/exedra/fate/kanagi.png",
         ],
         "column": 1,
         "priority": 4,
         "timers": [
             {
-                name: "Forest Breaker",
-                "start": "april 14 2026, 12:00",
-                "end": "may 05 2026, 11:59",
-               // extraPriority: 1000
+                name: "Featured and Step-up",
+                "start": "may 11 2026, 12:00",
+                "end": "may 25 2026, 11:59",
+               extraPriority: 1000
             }
         ]
     },
