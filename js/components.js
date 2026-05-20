@@ -2,8 +2,8 @@ Vue.component("text-timer", {
     props: ["d_since_release", "t_to_next_ann", "t_to_next_anniv", "t_to_mandatory"],
     template: 
     `<h4>
-        <span class="timer-number">{{ d_since_release }}</span> Days since <span >Magia Exedra</span> released <span v-if="nextAnnVisible()"></br> <span v-html="tNext(t_to_next_anniv)"></span> until the first anniversary.</span>
-        </br><span v-if="nextEvVisible()"><a href="https://www.youtube.com/watch?v=KWTe-Jlxsno" target="_blank">Magia Exedraw Results</a> in <span v-html="tNext(t_to_next_ann)"></span>.</span></span>
+        <span class="timer-number">{{ d_since_release }}</span> Days since <span >Magia Exedra</span> released <span v-if="nextAnnVisible()"></br> <span v-html="tNext(t_to_next_anniv)"></span> until the next anniversary.</span>
+        </br><span v-if="nextEvVisible()"><a href="https://www.youtube.com/watch?v=KWTe-Jlxsno" target="_blank">Magia Exedraw Results</a> in <span v-html="tNext(t_to_next_ann)"></span></span></span>
     </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
  
     methods: {

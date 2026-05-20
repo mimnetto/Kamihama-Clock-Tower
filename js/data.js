@@ -123,9 +123,9 @@ var timerData = [
         "priority": 7,
         "timers": [
             {
-				name: "Darc Magica Finale Celebration",
-                "start": "April 24 2026, 12:00",
-                "end": "May 20 2026, 11:59"
+				name: "Rise to the Challenge",
+                "start": "may 20 2026, 12:00",
+                "end": "june 08 2026, 11:59"
 			},
             {
 				name: "Crystalis Update Celebration",
@@ -279,9 +279,9 @@ var timerData = [
         "priority": 3,
         "timers": [
              {
-				name: "Tower | Mirror Layers 91-95",
-                "start": "april 20 2026, 12:00",
-                "end": "may 7 2026, 11:59",
+				name: "Tower | Mirror Layers 96-100",
+                "start": "may 20 2026, 12:00",
+                "end": "june 8 2026, 11:59",
 			},
 			{
 				"name": "Score Attack【VS Bunny Eared Witch】",
@@ -396,7 +396,7 @@ var timerData = [
             "imgs/exedra/events00/mami-dopple.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
 			{
 				"name": "",
@@ -415,7 +415,7 @@ var timerData = [
             "imgs/exedra/events00/waning.png"
         ],
         "column": 0,
-        "priority": 3,
+        "priority": 2,
         "timers": [
 			{
 				"name": "",
@@ -671,7 +671,7 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
-				name: "Rise of the Waning Moon",
+				name: "Rise of the Waning Moon & Dirgeflower",
                 "start": "may 11 2026, 12:00",
                 "end": "may 26 2026, 11:59",
 			},
@@ -928,7 +928,7 @@ var timerData = [
          	{
         "type": "Gacha",
         "title": [
-			"【New】[Doppel of Invitations] Mami Tomoe (Doppel)",
+			"【Unlimited New】[Doppel of Invitations] Mami Tomoe (Doppel)",
             "『新★5キオク[ご招待のドッペル] 巴マミ』"
         ],
         "image": [
