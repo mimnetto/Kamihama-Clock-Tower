@@ -389,19 +389,19 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】Next Act: In Search of an Ordinary Life",
+			"【Story Event】Mami Tomoe: A Doppel Tale",
 			"『新ストーリー これからも続く物語』"
         ],
         "image": [
-            "imgs/exedra/story/me-every-day.png"
+            "imgs/exedra/events00/mami-dopple.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
 				"name": "",
-                "start": "jan 19 2026, 12:00",
-                "end": "feb 02 2026, 11:59"
+                "start": "may 20 2026, 12:00",
+                "end": "June 03 2026, 11:59",
 			},
         ]
     },
@@ -686,9 +686,9 @@ var timerData = [
                 "end": "May 21 2026, 11:59"
 			},
             {
-				name: "Monogatari Collab Labyrinth Part 2",
-                "start": "april 14 2026, 12:00",
-                "end": "may 06 2026, 11:59",
+				name: "Mami Tomoe: A Doppel Tale",
+                "start": "may 20 2026, 12:00",
+                "end": "June 04 2026, 11:59",
 			},
             {
 				name: "1st Anniversary Medal Trader",
@@ -741,9 +741,9 @@ var timerData = [
                 "end": "may 26 2026, 11:59",
 			},
 			{
-                name: "Homura Akemi (Ribbon)",
-                "start": "april 24 2026, 12:00",
-                "end": "may 8 2026, 11:59",
+                name: "Mami Tomoe (Doppel)",
+                "start": "may 20 2026, 12:00",
+                "end": "June 04 2026, 11:59"
 			},
 			{
                 name: "Melissa & Liz ",
@@ -925,6 +925,26 @@ var timerData = [
             },
         ]
      },
+         	{
+        "type": "Gacha",
+        "title": [
+			"【New】[Doppel of Invitations] Mami Tomoe (Doppel)",
+            "『新★5キオク[ご招待のドッペル] 巴マミ』"
+        ],
+        "image": [
+            "imgs/exedra/fate/mami-dopple.png",
+        ],
+        "column": 1,
+        "priority": 4,
+        "timers": [
+            {
+                name: "Light Breaker",
+                "start": "may 20 2026, 12:00",
+                "end": "June 03 2026, 11:59",
+               extraPriority: 1000
+            }
+        ]
+    },
     	{
         "type": "Gacha",
         "title": [
