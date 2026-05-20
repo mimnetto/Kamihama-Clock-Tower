@@ -216,9 +216,9 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Crystalis　Quest Play Missions",
+				name: "Crystalis Quest Play - Resets Daily",
                 "start": "may 11 2026, 12:00",
-                "end": "may 26 2026, 11:59",
+                "end": "may 26 2026, 4:59",
 			},
             {
 				name: "Crystalis Drop Rate Doubled",
