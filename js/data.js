@@ -537,7 +537,7 @@ var timerData = [
 			{
 				name: "Trader",
                 "start": "may 1 2026, 12:00",
-                "end": "june 20 2026, 11:59",
+                "end": "may 19 2026, 11:59",
 			},
 		]
 	            },
