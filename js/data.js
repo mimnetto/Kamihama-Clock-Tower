@@ -740,15 +740,15 @@ var timerData = [
 		column: 2,
 		priority: 3,
 		timers: [
-            {
-				name: "Kanagi Izumi",
-                "start": "may 11 2026, 12:00",
-                "end": "may 26 2026, 11:59",
-			},
 			{
                 name: "Mami Tomoe (Doppel)",
                 "start": "may 20 2026, 12:00",
                 "end": "June 04 2026, 11:59"
+			},
+            {
+				name: "Kanagi Izumi",
+                "start": "may 11 2026, 12:00",
+                "end": "may 26 2026, 11:59",
 			},
 			{
                 name: "Melissa & Liz ",
