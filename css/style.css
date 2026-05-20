@@ -768,6 +768,10 @@ img.pre {
     max-width: 150px;
 }
 
+img.pree {
+    max-width: 150px;
+    padding-top: 3px;
+}
 
 /* ******************* */
 /* update          */

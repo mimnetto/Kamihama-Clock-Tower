@@ -216,14 +216,19 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Crystalis Update Celebration - Daily Reset",
+				name: "Crystalis　Quest Play Missions",
                 "start": "may 11 2026, 12:00",
                 "end": "may 26 2026, 11:59",
 			},
             {
-				name: "Monogatari Celebration Missions Part 1",
-                "start": "april 6 2026, 12:00",
-                "end": "may 05 2026, 11:59",
+				name: "Crystalis Drop Rate Doubled",
+                "start": "may 11 2026, 12:00",
+                "end": "may 26 2026, 11:59",
+			},
+            {
+				name: "Rise to the Challenge Chaos Challenge",
+                "start": "may 20 2026, 12:00",
+                "end": "June 30 2026, 11:59",
 			},
             {
 				name: "Monogatari Celebration Missions Part 2",
