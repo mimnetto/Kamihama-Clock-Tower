@@ -559,8 +559,13 @@ var timerData = [
 		priority: 0,
 		timers: [
             {
+				name: "Kumanoko no Yume",
+				start: "may 21 2026, 12:00",
+				end: "june 04 2026, 11:59",
+			},
+            {
 				name: "Walpurgisnacht Descends",
-				start: "April 24 2026, 12:0",
+				start: "April 24 2026, 12:00",
 				end: "may 07 2026, 11:59",
 			},
             {
