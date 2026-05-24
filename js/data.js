@@ -608,9 +608,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 30",
-				start: "may 11 2026, 12:00",
-				end: "may 24 2026, 23:59",
+				name: "Season 31",
+				start: "may 25 2026, 12:00",
+				end: "june 7 2026, 23:59",
 			},
 			{
 				name: "Match Medal Shop - May",
