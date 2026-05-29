@@ -128,9 +128,9 @@ var timerData = [
                 "end": "june 08 2026, 11:59"
 			},
             {
-				name: "Crystalis Update Celebration",
-                "start": "may 11 2026, 12:00",
-                "end": "may 26 2026, 11:59",
+				name: "Magia Exedra Summer Splash",
+                "start": "may 29 2026, 12:00",
+                "end": "june 30 2026, 11:59",
 			},
             {
 				name: "Monogatari Celebration Part 2",
@@ -322,25 +322,25 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"【Story Event】Crescent Memoria Part 3 - The Finale",
-			"『Crescent Memoria 第3弾』"
+			"【Story Event】Welcome to Magia Island",
+			"『ようこそ！マギアアイランドへ』"
         ],
         "image": [
-            "imgs/exedra/story/cresent.png"
+            "imgs/exedra/story/summer.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				"name": "",
-                "start": "march 27 2026, 22:00",
-                "end": "april 30 2026, 11:59",
+				"name": "Part 1",
+                "start": "may 29 2026, 12:00",
+                "end": "june 30 2026, 11:59",
 			},
-			// {
-			// 	"name": "Part 2",
-            //     "start": "feb 27 2026, 12:00",
-            //     "end": "mar 18 2026, 11:59",
-			// },
+			{
+				"name": "Part 2",
+                "start": "June 16 2026, 12:00",
+                "end": "june 30 2026, 11:59",
+			},
         ]
         },
     {
@@ -530,9 +530,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Artist Witch",
-				start: "may 1 2026, 12:00",
-				end: "may 8 2026, 23:59",
+				name: "Darkness Witch",
+				start: "june 1 2026, 12:00",
+				end: "june 8 2026, 23:59",
 			},
 			{
 				name: "Ranking Results Viewability",
@@ -647,9 +647,14 @@ var timerData = [
                 "end": "may 31 2026, 11:59",
 			},
 			{
-				name: "1st Anniversary Packs",
-                "start": "march 27 2026, 22:00",
-                "end": "April 30 2026, 11:59",
+				name: "Summer Splash Packs",
+                "start": "may 29 2026, 12:00",
+                "end": "june 30 2026, 11:59",
+			},
+			{
+				name: "Summer Training Spree Packs",
+                "start": "may 29 2026, 12:00",
+                "end": "june 30 2026, 11:59"
 			},
 			{
 				name: "Premium Bonus Sale",
@@ -686,9 +691,9 @@ var timerData = [
                 "end": "may 26 2026, 11:59",
 			},
             {
-				name: "Darc Magica Part II Act I",
-                "start": "April 24 2026, 12:00",
-                "end": "May 21 2026, 11:59"
+				name: "Welcome to Magia Island",
+                "start": "may 29 2026, 12:00",
+                "end": "july 1 2026, 11:59",
 			},
             {
 				name: "Darc Magica Part II Act II",
@@ -751,9 +756,9 @@ var timerData = [
                 "end": "June 04 2026, 11:59"
 			},
             {
-				name: "Kanagi Izumi",
-                "start": "may 11 2026, 12:00",
-                "end": "may 26 2026, 11:59",
+				name: "Swimsuit Homura",
+                "start": "may 29 2026, 12:00",
+                "end": "july 1 2026, 11:59",
 			},
 			{
                 name: "Melissa & Liz ",
@@ -854,19 +859,19 @@ var timerData = [
     		{
         "type": "Gacha",
         "title": [
-			"【FREE】One Free Magia Fate Weave 10-Draw | Nagisa & Koito",
+			"【FREE】One Free Magia Fate Weave 10-Draw | Corbeau",
             "『マギアガチャ10連1回無料』"
         ],
         "image": [
             "imgs/exedra/gacha00/free-24.png",
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 6,
         "timers": [
             {
                 name: "24 Hours Only!🪄",
-                "start": "march 30 2026, 12:00",
-                "end": "april 1 2026, 11:59",
+                "start": "may 31 2026, 12:00",
+                "end": "june 1 2026, 11:59",
                 extraPriority: 1000
             },
         ]
@@ -878,15 +883,15 @@ var timerData = [
             "『1日1回無料ガチャ』"
         ],
         "image": [
-            "imgs/exedra/anni/100.png",
+            "imgs/exedra/feat/free.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 5,
         "timers": [
             {
-                name: "",
-                "start": "mar 10 2026, 12:00",
-                "end": "mar 27 2026, 11:59",
+                name: "Up to 60 Draws",
+                "start": "may 29 2026, 12:00",
+                "end": "june 30 2026, 11:59",
                 // extraPriority: 100
             },
         ]
@@ -914,24 +919,48 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】[La Porte du Paradis] Darc (Final)",
-            "『【限定★5 】[ラ・ポルトゥ・ドゥ・パラディ] タルト ver.Final 』"
+			"【Exclusive New】Splashin' Kyubey Blast] Homura Akemi",
+            "『【限定★5 】[キュゥべえボムによる爆破攻撃]暁美ほむら』"
         ],
         "image": [
-            "imgs/exedra/feat/finaltart.png",
+            "imgs/exedra/fate/swim-homu.png",
         ],
         "column": 1,
         "priority": 5,
         "timers": [
             {
                 name: "Free Gems",
-                "start": "april 30 2026, 12:00",
-                "end": "may 20 2026, 11:59",
+                "start": "may 29 2026, 12:00",
+                "end": "june 30 2026, 11:59",
             },
             {
                 name: "Paid Step Up",
-                "start": "april 30 2026, 12:00",
-                "end": "may 20 2026, 11:59",
+                "start": "may 29 2026, 12:00",
+                "end": "june 30 2026, 11:59",
+            },
+        ]
+     },
+    {
+        "type": "Gacha",
+        "title": [
+			"【Exclusive New】Kyoko Sakura (Swimsuit)",
+            "『【限定★5 】佐倉杏子(水着)』"
+        ],
+        "image": [
+            "imgs/exedra/fate/swim-kyoko.png",
+        ],
+        "column": 1,
+        "priority": 5,
+        "timers": [
+            {
+                name: "Free Gems",
+                "start": "June 16 2026, 12:00",
+                "end": "june 30 2026, 11:59",
+            },
+            {
+                name: "Paid Step Up",
+                "start": "june 16 2026, 12:00",
+                "end": "june 30 2026, 11:59",
             },
         ]
      },
@@ -1096,19 +1125,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Featured】Showcase Fateweave",
-            "『ロール別フィーチャーガチャ開催』"
+			"【Featured】2025 Swimsuit Fateweave",
+            "『2025水着キオクピックアップガチャ』"
         ],
         "image": [
-            "imgs/exedra/feat/role.png",
+            "imgs/exedra/feat/swim.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "",
-                "start": "april 30 2026, 12:00",
-                "end": "may 11 2026, 11:59"
+                "start": "June 5 2026, 12:00",
+                "end": "june 30 2026, 11:59"
             //    extraPriority: 1000
             }
         ]
