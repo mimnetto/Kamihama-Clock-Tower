@@ -979,13 +979,13 @@ var timerData = [
             "imgs/exedra/fate/mami-dopple.png",
         ],
         "column": 1,
-        "priority": 4,
+        "priority": 5,
         "timers": [
             {
                 name: "Light Breaker",
                 "start": "may 20 2026, 12:00",
                 "end": "June 03 2026, 11:59",
-               extraPriority: 1000
+            //    extraPriority: 1000
             }
         ]
     },
