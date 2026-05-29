@@ -334,7 +334,7 @@ var timerData = [
             "imgs/exedra/story/summer.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
 			{
 				"name": "Part 1",
