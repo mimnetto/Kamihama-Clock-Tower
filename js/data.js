@@ -216,9 +216,14 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Crystalis Quest Play - Resets Daily",
-                "start": "may 11 2026, 12:00",
-                "end": "may 26 2026, 4:59",
+				name: "Summer Splash Missions",
+               "start": "may 29 2026, 12:00",
+                "end": "june 30 2026, 11:59",
+			},
+            {
+				name: "Daily Summer Splash Missions",
+               "start": "may 29 2026, 12:00",
+                "end": "june 30 2026, 11:59",
 			},
             {
 				name: "Crystalis Drop Rate Doubled",
@@ -866,7 +871,7 @@ var timerData = [
             "imgs/exedra/gacha00/free-24.png",
         ],
         "column": 1,
-        "priority": 6,
+        "priority": 4,
         "timers": [
             {
                 name: "24 Hours Only!🪄",
@@ -950,7 +955,7 @@ var timerData = [
             "imgs/exedra/fate/swim-kyoko.png",
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 3,
         "timers": [
             {
                 name: "Free Gems",
