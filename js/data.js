@@ -584,8 +584,8 @@ var timerData = [
 			},
 			{
 				name: "Chelation Land Ferris Wheel",
-				start: "march 12 2026, 12:00",
-				end: "march 26 2026, 11:59",
+				start: "june 4 2026, 12:00",
+				end: "june 16 2026, 4:59",
 			},
             {
 				name: "Spindle Witch",
