@@ -164,6 +164,25 @@ var timerData = [
 			},
         ]
     },
+        	{
+        "type": "Event",
+        "title": [
+            "Limited Time Daily Missions",
+			"『限定デイリーミッション』"
+        ],
+        "image": [
+			"imgs/exedra/other/limited-day.png"
+        ],
+        "column": 0,
+        "priority": 5,
+        "timers": [
+            {
+				name: "Summer Splash Daily Missions",
+               "start": "may 29 2026, 12:00",
+                "end": "june 30 2026, 11:59",
+			},
+        ]
+    },
     	{
         "type": "Event",
         "title": [
@@ -221,9 +240,9 @@ var timerData = [
                 "end": "june 30 2026, 11:59",
 			},
             {
-				name: "Daily Summer Splash Missions",
-               "start": "may 29 2026, 12:00",
-                "end": "june 30 2026, 11:59",
+				name: "Half QP",
+               "start": "June 1 2026, 5:00",
+                "end": "june 15 2026, 11:59",
 			},
             {
 				name: "Crystalis Drop Rate Doubled",
@@ -234,21 +253,6 @@ var timerData = [
 				name: "Rise to the Challenge Chaos Challenge",
                 "start": "may 20 2026, 12:00",
                 "end": "June 30 2026, 11:59",
-			},
-            {
-				name: "Monogatari Celebration Missions Part 2",
-                "start": "april 14 2026, 12:00",
-                "end": "may 05 2026, 11:59",
-			},
-        	{
-				name: "1st Anniversary Missions Part 1",
-                "start": "march 27 2026, 22:00",
-                "end": "april 14 2026, 11:59",
-			},
-        	{
-				name: "1st Anniversary Missions Part 2",
-                "start": "april 14 2026, 12:00",
-                "end": "april 30 2026, 11:59",
 			},
         ]
     },
@@ -541,13 +545,13 @@ var timerData = [
 			},
 			{
 				name: "Ranking Results Viewability",
-                "start": "may 9 2026, 00:00",
-                "end": "may 12 2026, 4:59",
+                "start": "june 9 2026, 00:00",
+                "end": "june 12 2026, 4:59",
 			},
 			{
 				name: "Trader",
-                "start": "may 1 2026, 12:00",
-                "end": "may 19 2026, 11:59",
+                "start": "june 1 2026, 12:00",
+                "end": "june 19 2026, 11:59",
 			},
 		]
 	            },
@@ -594,9 +598,9 @@ var timerData = [
 				end: "april 24 2026, 11:59",
 			},
 			{
-				name: "Gold & Silver Medal Shop - May",
-                "start": "may 1 2026, 5:00",
-                "end": "june 1 2026, 4:59",
+				name: "Gold & Silver Medal Shop - June",
+                "start": "June 1 2026, 5:00",
+                "end": "July 1 2026, 4:59",
 			},
 		]
 	},
@@ -618,9 +622,9 @@ var timerData = [
 				end: "june 7 2026, 23:59",
 			},
 			{
-				name: "Match Medal Shop - May",
-                "start": "may 1 2026, 5:00",
-                "end": "june 1 2026, 4:59",
+				name: "Match Medal Shop - June",
+                "start": "June 1 2026, 5:00",
+                "end": "July 1 2026, 4:59",
 			},
 		]
 	},
@@ -696,7 +700,7 @@ var timerData = [
                 "end": "may 26 2026, 11:59",
 			},
             {
-				name: "Welcome to Magia Island",
+				name: "Welcome to Magia Island Medals & Guava",
                 "start": "may 29 2026, 12:00",
                 "end": "july 1 2026, 11:59",
 			},
@@ -726,19 +730,19 @@ var timerData = [
                 "end": "may 1 2026, 11:59"
 			},
             {
-				name: "Friend Medal Reset",
-                "start": "may 1 2026, 5:00",
-                "end": "june 1 2026, 4:59",
+				name: "Friend Medal Shop Reset",
+                "start": "June 1 2026, 5:00",
+                "end": "July 1 2026, 4:59",
 			},
             {
-				name: "Archive Medals Reset",
-                "start": "may 1 2026, 5:00",
-                "end": "june 1 2026, 4:59",
+				name: "Archive Medals Shop Reset",
+                "start": "June 1 2026, 5:00",
+                "end": "July 1 2026, 4:59",
 			},
              {
 				name: "Steady Steps Reset",
-                "start": "may 1 2026, 5:00",
-                "end": "june 1 2026, 4:59",
+                "start": "June 1 2026, 5:00",
+                "end": "July 1 2026, 4:59",
 			},
 
 		]
