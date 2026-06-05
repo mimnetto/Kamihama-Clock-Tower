@@ -1141,7 +1141,7 @@ var timerData = [
             "imgs/exedra/feat/swim.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 4,
         "timers": [
             {
                 name: "",
