@@ -765,7 +765,7 @@ var timerData = [
                 "end": "June 04 2026, 11:59"
 			},
             {
-				name: "Swimsuit Homura",
+				name: "Summer Splash Featured",
                 "start": "may 29 2026, 12:00",
                 "end": "july 1 2026, 11:59",
 			},
