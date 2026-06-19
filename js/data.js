@@ -133,14 +133,14 @@ var timerData = [
                 "end": "june 30 2026, 11:59",
 			},
             {
-				name: "Monogatari Celebration Part 2",
-                "start": "april 14 2026, 12:00",
-                "end": "may 05 2026, 11:59",
+				name: "Summer Memories Portrait Bonus",
+                "start": "June 16 2026, 12:00",
+                "end": "june 30 2026, 11:59",
 			},
             {
-				name: "Monogatari Celebration 1 Time 3,000 Gem Gift",
-                "start": "april 6 2026, 12:00",
-                "end": "may 05 2026, 11:59",
+				name: "Exedra Quest Chapter 1 Release Bonus",
+                "start": "June 16 2026, 12:00",
+                "end": "july 2 2026, 11:59",
 			},
             {
 				name: "1st Anniversary",
@@ -245,14 +245,14 @@ var timerData = [
                 "end": "june 15 2026, 11:59",
 			},
             {
-				name: "Crystalis Drop Rate Doubled",
-                "start": "may 11 2026, 12:00",
-                "end": "may 26 2026, 11:59",
-			},
-            {
 				name: "Rise to the Challenge Chaos Challenge",
                 "start": "may 20 2026, 12:00",
                 "end": "June 30 2026, 11:59",
+			},
+            {
+				name: "Link Raid Update Campaign",
+                "start": "June 16 2026, 12:00",
+                "end": "July 2 2026, 11:59",
 			},
         ]
     },
@@ -298,9 +298,9 @@ var timerData = [
                 "end": "june 8 2026, 11:59",
 			},
 			{
-				"name": "Score Attack【VS Bunny Eared Witch】",
-                "start": "april 14 2026, 12:00",
-                "end": "may 05 2026, 11:59",
+				"name": "Score Attack【VS Dog Witch】",
+                "start": "June 16 2026, 12:00",
+                "end": "june 30 2026, 11:59",
 			},
             {
 				"name": "Score Attack【VS Critic Witch】",
@@ -594,8 +594,8 @@ var timerData = [
 			},
             {
 				name: "Uwasa of the Commoner's Horse",
-				start: "april 09 2026, 12:00",
-				end: "april 24 2026, 11:59",
+				start: "June 16 2026, 12:00",
+				end: "July 2 2026, 11:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - June",
