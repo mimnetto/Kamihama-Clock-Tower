@@ -312,7 +312,7 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Madoka Magica Summer Campaign! Special Realease Info]",
+			"【Live Stream】Madoka Magica Summer Campaign! Special Realease Info",
 			"【まどドラサマーキャンペーン！情報解禁SP】"
         ],
         "image": [
