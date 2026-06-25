@@ -293,9 +293,9 @@ var timerData = [
         "priority": 3,
         "timers": [
              {
-				name: "Tower | Mirror Layers 96-100",
-                "start": "may 20 2026, 12:00",
-                "end": "june 8 2026, 11:59",
+				name: "Tower | Mirror Layers 101-105",
+                "start": "june 22 2026, 12:00",
+                "end": "july 6 2026, 11:59",
 			},
 			{
 				"name": "Score Attack【VS Dog Witch】",
@@ -312,8 +312,8 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Exedra News: Golden Week Pre-Broadcast Special]",
-			"【 エクセドラ通信 GW直前生放送SP】"
+			"【Live Stream】Madoka Magica Summer Campaign! Special Realease Info]",
+			"【まどドラサマーキャンペーン！情報解禁SP】"
         ],
         "image": [
             "imgs/exedra/events00/live-stream.png"
@@ -322,9 +322,9 @@ var timerData = [
         "priority": 9,
         "timers": [
 			{
-				"name": "https://www.youtube.com/watch?v=KWTe-Jlxsno",
-                "start": "april 23 2026, 20:00",
-                "end": "april 23 2026, 22:00",
+				"name": "https://www.youtube.com/watch?v=_JGpHjGpaw8",
+                "start": "june 28 2026, 20:00",
+                "end": "june 28 2026, 21:00",
 			},
         ]
     },
@@ -602,6 +602,11 @@ var timerData = [
                 "start": "June 1 2026, 5:00",
                 "end": "July 1 2026, 4:59",
 			},
+			{
+				name: "Gold & Silver Medal Shop - July",
+                "start": "july 1 2026, 5:00",
+                "end": "aug 1 2026, 4:59",
+			},
 		]
 	},
 	{
@@ -621,10 +626,25 @@ var timerData = [
 				start: "june 8 2026, 12:00",
 				end: "june 22 2026, 23:59",
 			},
+            {
+				name: "Season 33",
+				start: "june 22 2026, 12:00",
+				end: "july 05 2026, 23:59",
+			},
+			{
+				name: "Season 34",
+				start: "july 06 2026, 12:00",
+				end: "july 19 2026, 23:59",
+			},
 			{
 				name: "Match Medal Shop - June",
                 "start": "June 1 2026, 5:00",
                 "end": "July 1 2026, 4:59",
+			},
+			{
+				name: "Match Medal Shop - July",
+                "start": "july 1 2026, 5:00",
+                "end": "aug 1 2026, 4:59",
 			},
 		]
 	},
@@ -959,7 +979,7 @@ var timerData = [
             "imgs/exedra/fate/swim-kyoko.png",
         ],
         "column": 1,
-        "priority": 3,
+        "priority": 5,
         "timers": [
             {
                 name: "Free Gems",
