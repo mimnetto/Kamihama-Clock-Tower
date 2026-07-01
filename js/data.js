@@ -123,44 +123,19 @@ var timerData = [
         "priority": 7,
         "timers": [
             {
-				name: "Rise to the Challenge",
-                "start": "may 20 2026, 12:00",
-                "end": "june 08 2026, 11:59"
-			},
-            {
-				name: "Magia Exedra Summer Splash",
-                "start": "may 29 2026, 12:00",
-                "end": "june 30 2026, 11:59",
-			},
-            {
-				name: "Summer Memories Portrait Bonus",
-                "start": "June 16 2026, 12:00",
-                "end": "june 30 2026, 11:59",
-			},
-            {
 				name: "Exedra Quest Chapter 1 Release Bonus",
                 "start": "June 16 2026, 12:00",
                 "end": "july 2 2026, 11:59",
 			},
             {
-				name: "1st Anniversary",
-                "start": "march 27 2026, 22:00",
-                "end": "april 30 2026, 11:59"
+				name: "Sizzling Summer Campaign",
+                "start": "June 29 2026, 12:00",
+                "end": "july 31 2026, 11:59",
 			},
             {
-				name: "Get 3,000 Magica Stones for your first login!",
-                "start": "mar 27 2026, 00:00",
-                "end": "april 30 2026, 11:59"
-			},
-            {
-				name: "1st Anniversary Portrait Gift",
-                "start": "march 27 2026, 22:00",
-                "end": "april 30 2026, 11:59"
-			},
-            {
-				name: "Exedraw Special Login Bonus",
-                "start": "april 24 2026, 5:00",
-                "end": "may 1 2026, 11:59"
+				name: "Sizzling Summer 1st Login 3,000 Magica Stones",
+                "start": "June 29 2026, 12:00",
+                "end": "july 13 2026, 11:59",
 			},
         ]
     },
@@ -235,19 +210,19 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Summer Splash Missions",
-               "start": "may 29 2026, 12:00",
-                "end": "june 30 2026, 11:59",
+				name: "Exedra Crisis Play Missions",
+				start: "july 1 2026, 12:00",
+				end: "july 8 2026, 23:59",
 			},
             {
-				name: "Half QP",
-               "start": "June 1 2026, 5:00",
-                "end": "june 15 2026, 11:59",
+				name: "Hotel Pool Rescue Medal Missions",
+                "start": "June 29 2026, 12:00",
+                "end": "July 31 2026, 11:59",
 			},
             {
-				name: "Rise to the Challenge Chaos Challenge",
-                "start": "may 20 2026, 12:00",
-                "end": "June 30 2026, 11:59",
+				name: "Finding Our Formula Medal Missions",
+                "start": "June 29 2026, 12:00",
+                "end": "July 31 2026, 11:59",
 			},
             {
 				name: "Link Raid Update Campaign",
@@ -269,9 +244,14 @@ var timerData = [
         "priority": 6,
         "timers": [
         	{
-				name: "Player EXP Quest",
-                "start": "may 07 2026, 12:00",
-                "end": "may 31 2026, 11:59",
+				name: "Sizzling Summer Bingo Part 1",
+                "start": "June 29 2026, 12:00",
+                "end": "july 31 2026, 11:59",
+			},
+        	{
+				name: "Sizzling Summer Bingo Part 2",
+                "start": "July 10 2026, 12:00",
+                "end": "july 31 2026, 11:59",
 			},
             {
 				name: "Portraits of the Past and Promise",
@@ -331,48 +311,48 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"【Story Event】Welcome to Magia Island",
-			"『ようこそ！マギアアイランドへ』"
+			"【Story Event】Hotel Pool Rescue",
+			"『ホテルプールの危機を救え！ プール掃除編』"
         ],
         "image": [
-            "imgs/exedra/story/summer.png"
+            "imgs/exedra/story/pool.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
 				"name": "Part 1",
-                "start": "may 29 2026, 12:00",
-                "end": "june 30 2026, 11:59",
+                "start": "June 29 2026, 12:00",
+                "end": "July 31 2026, 11:59",
 			},
 			{
 				"name": "Part 2",
-                "start": "June 16 2026, 12:00",
-                "end": "june 30 2026, 11:59",
+                "start": "april 14 2026, 12:00",
+                "end": "may 05 2026, 11:59",
 			},
         ]
         },
     {
         "type": "Event",
         "title": [
-			"【Story Event】Monogatari Series Collab Labyrinth Story",
-			"『～ラビリンス・ストーリー～』"
+			"【Story Event】Finding Our Formula",
+			"『アタシとあーしの方程式』"
         ],
         "image": [
-            "imgs/exedra/story/mono-story.png"
+            "imgs/exedra/story/formula.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
-				"name": "Part 1",
-                "start": "april 6 2026, 12:00",
-                "end": "may 05 2026, 11:59",
+				"name": "",
+                "start": "June 29 2026, 12:00",
+                "end": "July 31 2026, 11:59",
 			},
 			{
 				"name": "Part 2",
-                "start": "april 14 2026, 12:00",
-                "end": "may 05 2026, 11:59",
+                "start": "June 16 2026, 12:00",
+                "end": "june 30 2026, 11:59",
 			},
         ]
         },
@@ -539,19 +519,19 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Darkness Witch",
-				start: "june 1 2026, 12:00",
-				end: "june 8 2026, 23:59",
+				name: "Dog Witch",
+				start: "july 1 2026, 12:00",
+				end: "july 8 2026, 23:59",
 			},
 			{
 				name: "Ranking Results Viewability",
-                "start": "june 9 2026, 00:00",
-                "end": "june 12 2026, 4:59",
+                "start": "july 9 2026, 00:00",
+                "end": "july 13 2026, 4:59",
 			},
 			{
 				name: "Trader",
-                "start": "june 1 2026, 12:00",
-                "end": "june 19 2026, 11:59",
+                "start": "july 1 2026, 12:00",
+                "end": "july 20 2026, 11:59",
 			},
 		]
 	            },
@@ -567,6 +547,16 @@ var timerData = [
 		column: 2,
 		priority: 0,
 		timers: [
+            {
+				name: "Uwasa of the Commoner's Horse",
+				start: "June 16 2026, 12:00",
+				end: "July 2 2026, 11:59",
+			},
+            {
+				name: "Sandbox Witch (end date not final)",
+				start: "July 2 2026, 12:00",
+				end: "july 16 2026, 11:59",
+			},
             {
 				name: "Kumanoko no Yume",
 				start: "may 21 2026, 12:00",
@@ -591,11 +581,6 @@ var timerData = [
 				name: "Spindle Witch",
 				start: "may 07 2026, 12:00",
 				end: "may 21 2026, 11:59",
-			},
-            {
-				name: "Uwasa of the Commoner's Horse",
-				start: "June 16 2026, 12:00",
-				end: "July 2 2026, 11:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - June",
@@ -661,24 +646,14 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Monogatari Series Collab Packs",
-                "start": "april 6 2026, 12:00",
-                "end": "may 05 2026, 11:59",
-			},
-			{
-				name: "Darc Magica Celebration Packs",
-                "start": "april 30 2026, 12:00",
-                "end": "may 20 2026, 11:59",
-			},
-			{
 				name: "Training Spree Packs",
-                "start": "april 30 2026, 12:00",
-                "end": "may 31 2026, 11:59",
+                "start": "June 29 2026, 12:00",
+                "end": "july 31 2026, 11:59",
 			},
 			{
-				name: "Summer Splash Packs",
-                "start": "may 29 2026, 12:00",
-                "end": "june 30 2026, 11:59",
+				name: "Sizzling Summer Packs | Iroha",
+                "start": "June 29 2026, 12:00",
+                "end": "july 31 2026, 11:59",
 			},
 			{
 				name: "Summer Training Spree Packs",
@@ -715,14 +690,14 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
-				name: "Rise of the Waning Moon & Dirgeflower",
-                "start": "may 11 2026, 12:00",
-                "end": "may 26 2026, 11:59",
+				name: "Finding Our Formula",
+                "start": "June 29 2026, 12:00",
+                "end": "aug 1 2026, 11:59",
 			},
             {
-				name: "Welcome to Magia Island Medals & Guava",
-                "start": "may 29 2026, 12:00",
-                "end": "july 1 2026, 11:59",
+				name: "Hotel Pool Rescue",
+                "start": "June 29 2026, 12:00",
+                "end": "aug 1 2026, 11:59",
 			},
             {
 				name: "Darc Magica Part II Act II",
@@ -751,18 +726,18 @@ var timerData = [
 			},
             {
 				name: "Friend Medal Shop Reset",
-                "start": "June 1 2026, 5:00",
-                "end": "July 1 2026, 4:59",
+                "start": "july 1 2026, 5:00",
+                "end": "aug 1 2026, 4:59",
 			},
             {
 				name: "Archive Medals Shop Reset",
-                "start": "June 1 2026, 5:00",
-                "end": "July 1 2026, 4:59",
+                "start": "july 1 2026, 5:00",
+                "end": "aug 1 2026, 4:59",
 			},
              {
 				name: "Steady Steps Reset",
-                "start": "June 1 2026, 5:00",
-                "end": "July 1 2026, 4:59",
+                "start": "july 1 2026, 5:00",
+                "end": "aug 1 2026, 4:59",
 			},
 
 		]
@@ -780,14 +755,14 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-                name: "Mami Tomoe (Doppel)",
-                "start": "may 20 2026, 12:00",
-                "end": "June 04 2026, 11:59"
+                name: "Hinano Miyako and Emiri Kisaki",
+                "start": "June 29 2026, 12:00",
+                "end": "aug 1 2026, 11:59",
 			},
             {
-				name: "Summer Splash Featured",
-                "start": "may 29 2026, 12:00",
-                "end": "july 1 2026, 11:59",
+				name: "Sizzling Summer Featured (Iroha & Yachan)",
+                "start": "June 29 2026, 12:00",
+                "end": "aug 1 2026, 11:59"
 			},
 			{
                 name: "Melissa & Liz ",
@@ -888,7 +863,7 @@ var timerData = [
     		{
         "type": "Gacha",
         "title": [
-			"【FREE】One Free Magia Fate Weave 10-Draw ",
+			"【FREE】One Free Magia Fate Weave 10-Draw",
             "『マギアガチャ10連1回無料』"
         ],
         "image": [
@@ -899,8 +874,8 @@ var timerData = [
         "timers": [
             {
                 name: "24 Hours Only!🪄",
-                "start": "june 30 2026, 12:00",
-                "end": "july 1 2026, 11:59",
+                "start": "may 31 2026, 12:00",
+                "end": "june 1 2026, 11:59",
                 extraPriority: 1000
             },
         ]
@@ -948,43 +923,43 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】Splashin' Kyubey Blast] Homura Akemi",
-            "『【限定★5 】[キュゥべえボムによる爆破攻撃]暁美ほむら』"
+			"【Exclusive New】[Evoluzione Presente] Iroha Tamaki",
+            "『【限定★5 】[エヴォルツィオーネ・プレゼンテ]環いろは』"
         ],
         "image": [
-            "imgs/exedra/fate/swim-homu.png",
+            "imgs/exedra/fate/swim-iro.png",
         ],
         "column": 1,
         "priority": 5,
         "timers": [
             {
                 name: "Free Gems",
-                "start": "may 29 2026, 12:00",
-                "end": "june 30 2026, 11:59",
+                "start": "June 29 2026, 12:00",
+                "end": "July 31 2026, 11:59",
             },
             {
                 name: "Paid Step Up",
-                "start": "may 29 2026, 12:00",
-                "end": "june 30 2026, 11:59",
+                "start": "June 29 2026, 12:00",
+                "end": "July 31 2026, 11:59",
             },
         ]
      },
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】Kyoko Sakura (Swimsuit)",
-            "『【限定★5 】佐倉杏子(水着)』"
+			"【New】Hinano Miyako and Emiri Kisaki",
+            "『【★5 】都ひなのと木崎衣美里』"
         ],
         "image": [
-            "imgs/exedra/fate/swim-kyoko.png",
+            "imgs/exedra/fate/hinaemi.png",
         ],
         "column": 1,
         "priority": 5,
         "timers": [
             {
-                name: "Free Gems",
-                "start": "June 16 2026, 12:00",
-                "end": "june 30 2026, 11:59",
+                name: "",
+                "start": "June 29 2026, 12:00",
+                "end": "July 31 2026, 11:59",
             },
             {
                 name: "Paid Step Up",
