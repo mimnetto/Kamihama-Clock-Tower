@@ -888,7 +888,7 @@ var timerData = [
     		{
         "type": "Gacha",
         "title": [
-			"【FREE】One Free Magia Fate Weave 10-Draw | Corbeau",
+			"【FREE】One Free Magia Fate Weave 10-Draw ",
             "『マギアガチャ10連1回無料』"
         ],
         "image": [
@@ -899,8 +899,8 @@ var timerData = [
         "timers": [
             {
                 name: "24 Hours Only!🪄",
-                "start": "may 31 2026, 12:00",
-                "end": "june 1 2026, 11:59",
+                "start": "june 30 2026, 12:00",
+                "end": "july 1 2026, 11:59",
                 extraPriority: 1000
             },
         ]
