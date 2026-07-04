@@ -553,7 +553,7 @@ var timerData = [
 				end: "July 2 2026, 11:59",
 			},
             {
-				name: "Sandbox Witch (end date not final)",
+				name: "Sandbox Witch",
 				start: "July 2 2026, 12:00",
 				end: "july 16 2026, 11:59",
 			},
@@ -850,12 +850,12 @@ var timerData = [
 			"imgs/exedra/other/maintenance.png"
 		],
         column: 0,
-        priority: 10,
+        priority: 1,
         timers: [
             {
                 name: "Maintenance",
-				start: "march 17 2026, 15:00",
-				end: "march 17 2026, 16:59"
+				start: "July 9 2026, 14:00",
+				end: "july 9 2026, 15:59"
 				// extraPriority: 100
             }
         ]
