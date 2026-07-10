@@ -292,8 +292,8 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Madoka Magica Summer Campaign! Special Realease Info",
-			"【まどドラサマーキャンペーン！情報解禁SP】"
+			"【Live Stream】Summer Event & New Swimsuit ★5 Kioku Information Released",
+			"【エクセドラ通信 まどドラ サマーイベント＆水着新★5キオク情報解禁】"
         ],
         "image": [
             "imgs/exedra/events00/live-stream.png"
@@ -302,9 +302,9 @@ var timerData = [
         "priority": 9,
         "timers": [
 			{
-				"name": "https://www.youtube.com/watch?v=_JGpHjGpaw8",
-                "start": "june 28 2026, 20:00",
-                "end": "june 28 2026, 21:00",
+				"name": "https://www.youtube.com/watch?v=vfs5gLU8X0M",
+                "start": "july 14 2026, 20:00",
+                "end": "july 14 2026, 21:30",
 			},
         ]
     },
