@@ -210,12 +210,12 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Exedra Crisis Play Missions",
-				start: "july 1 2026, 12:00",
-				end: "july 8 2026, 23:59",
+				name: "Hotel Pool Rescue: Staffing Snafu Medal Missions",
+                "start": "June 29 2026, 12:00",
+                "end": "July 31 2026, 11:59",
 			},
             {
-				name: "Hotel Pool Rescue Medal Missions",
+				name: "Hotel Pool Rescue: Poolside Panic Medal Missions",
                 "start": "June 29 2026, 12:00",
                 "end": "July 31 2026, 11:59",
 			},
@@ -278,14 +278,14 @@ var timerData = [
                 "end": "july 6 2026, 11:59",
 			},
 			{
-				"name": "Score Attack【VS Dog Witch】",
+				"name": "Score Attack【VS Rubber Witch】",
                 "start": "June 16 2026, 12:00",
                 "end": "june 30 2026, 11:59",
 			},
             {
 				"name": "Score Attack【VS Critic Witch】",
-                "start": "march 27 2026, 22:00",
-                "end": "April 30 2026, 11:59",
+                "start": "july 15 2026, 12:00",
+                "end": "July 31 2026, 11:59",
 			},
         ]
     },
@@ -321,14 +321,14 @@ var timerData = [
         "priority": 2,
         "timers": [
 			{
-				"name": "Part 1",
+				"name": "Hotel Pool Rescue: Poolside Panic",
                 "start": "June 29 2026, 12:00",
                 "end": "July 31 2026, 11:59",
 			},
 			{
-				"name": "Part 2",
-                "start": "april 14 2026, 12:00",
-                "end": "may 05 2026, 11:59",
+				"name": "Hotel Pool Rescue: Staffing Snafu",
+                "start": "july 15 2026, 12:00",
+                "end": "July 31 2026, 11:59",
 			},
         ]
         },
@@ -569,8 +569,8 @@ var timerData = [
 			},
             {
 				name: "Ai Chan",
-				start: "march 26 2026, 12:00",
-				end: "april 09 2026, 11:59",
+				start: "July 16 2026, 12:00",
+				end: "July 30 2026, 11:59",
 			},
 			{
 				name: "Chelation Land Ferris Wheel",
@@ -651,6 +651,11 @@ var timerData = [
                 "end": "july 31 2026, 11:59",
 			},
 			{
+				name: "Sizzling Summer Packs | Yachan",
+                "start": "July 15 2026, 12:00",
+                "end": "july 31 2026, 11:59",
+			},
+			{
 				name: "Sizzling Summer Packs | Iroha",
                 "start": "June 29 2026, 12:00",
                 "end": "july 31 2026, 11:59",
@@ -690,12 +695,17 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
+				name: "Hotel Pool Rescue: Staffing Snafu",
+                "start": "July 15 2026, 12:00",
+                "end": "aug 1 2026, 11:59",
+			},
+            {
 				name: "Finding Our Formula",
                 "start": "June 29 2026, 12:00",
                 "end": "aug 1 2026, 11:59",
 			},
             {
-				name: "Hotel Pool Rescue",
+				name: "Hotel Pool Rescue: Poolside Panic",
                 "start": "June 29 2026, 12:00",
                 "end": "aug 1 2026, 11:59",
 			},
@@ -920,6 +930,30 @@ var timerData = [
             }
         ]
     },
+    {
+        "type": "Gacha",
+        "title": [
+			"【Exclusive New】[Absolute Venus] Yachiyo Nanami",
+            "『【限定★5 】[アブソリュート・ヴィーナス]七海やちよ』"
+        ],
+        "image": [
+            "imgs/exedra/fate/swim-yachan.png",
+        ],
+        "column": 1,
+        "priority": 5,
+        "timers": [
+            {
+                name: "Free Gems",
+                "start": "july 15 2026, 12:00",
+                "end": "July 31 2026, 11:59",
+            },
+            {
+                name: "Paid Step Up",
+                "start": "july 15 2026, 12:00",
+                "end": "July 31 2026, 11:59",
+            },
+        ]
+     },
     {
         "type": "Gacha",
         "title": [
