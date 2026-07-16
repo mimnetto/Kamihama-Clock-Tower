@@ -283,7 +283,7 @@ var timerData = [
                 "end": "june 30 2026, 11:59",
 			},
             {
-				"name": "Score Attack【VS Critic Witch】",
+				"name": "Score Attack【VS Rubber Witch】",
                 "start": "july 15 2026, 12:00",
                 "end": "July 31 2026, 11:59",
 			},
