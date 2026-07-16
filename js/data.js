@@ -570,7 +570,7 @@ var timerData = [
             {
 				name: "Ai Chan",
 				start: "July 16 2026, 12:00",
-				end: "July 30 2026, 11:59",
+				end: "July 31 2026, 11:59",
 			},
 			{
 				name: "Chelation Land Ferris Wheel",
