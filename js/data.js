@@ -254,9 +254,9 @@ var timerData = [
                 "end": "july 31 2026, 11:59",
 			},
             {
-				name: "Portraits of the Past and Promise",
-                "start": "mar 27 2026, 00:00",
-                "end": "april 30 2026, 11:59",
+				name: "Sizzling Summer Bingo Part 3",
+                "start": "July 21 2026, 12:00",
+                "end": "july 31 2026, 11:59",
 			},
         ]
     },
@@ -273,9 +273,9 @@ var timerData = [
         "priority": 3,
         "timers": [
              {
-				name: "Tower | Mirror Layers 101-105",
-                "start": "june 22 2026, 12:00",
-                "end": "july 6 2026, 11:59",
+				name: "Tower | Mirror Layers 106-110",
+                "start": "July 21 2026, 12:00",
+                "end": "aug 9 2026, 11:59",
 			},
 			{
 				"name": "Score Attack【VS Rubber Witch】",
@@ -607,9 +607,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 32",
-				start: "june 8 2026, 12:00",
-				end: "june 22 2026, 23:59",
+				name: "Season 35",
+				start: "July 20 2026, 12:00",
+				end: "aug 2 2026, 23:59",
 			},
             {
 				name: "Season 33",
