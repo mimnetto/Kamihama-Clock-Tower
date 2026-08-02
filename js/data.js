@@ -705,11 +705,6 @@ var timerData = [
                 "end": "oct 1 2026, 11:59",
 			},
             {
-				name: "So Close, Yet So Far",
-                "start": "July 31 2026, 12:00",
-                "end": "oct 1 2026, 11:59",
-			},
-            {
 				name: "Waking Dreamer After Dark",
                 "start": "July 31 2026, 12:00",
                 "end": "sep 1 2026, 11:59"
