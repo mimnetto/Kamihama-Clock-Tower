@@ -280,7 +280,7 @@ var timerData = [
              {
 				name: "Tower | Mirror Layers 106-110",
                 "start": "July 21 2026, 12:00",
-                "end": "aug 9 2026, 11:59",
+                "end": "aug 4 2026, 11:59",
 			},
 			{
 				"name": "Score Attack【VS Rubber Witch】",
@@ -661,9 +661,9 @@ var timerData = [
                 "end": "sept 30 2026, 11:59",
 			},
 			{
-				name: "Sizzling Summer Packs | Iroha",
-                "start": "June 29 2026, 12:00",
-                "end": "july 31 2026, 11:59",
+				name: "Premium Bonus Sale",
+                "start": "July 31 2026, 12:00",
+                "end": "sept 27 2026, 11:59",
 			},
 			{
 				name: "Summer Training Spree Packs",
@@ -829,9 +829,9 @@ var timerData = [
 		priority: 3,
 		timers: [	
             {
-				name: "Limited Time Items - Homura",
-                "start": "April 24 2026, 12:00",
-                "end": "May 20 2026, 11:59"
+				name: "Limited Time Items - Magia Day Sayaka & Mami",
+                "start": "July 31 2026, 12:00",
+                "end": "sept 30 2026, 11:59",
 			},
             {
 				name: "Limited Time Items",
