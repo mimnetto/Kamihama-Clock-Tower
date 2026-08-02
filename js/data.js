@@ -350,7 +350,7 @@ var timerData = [
         "priority": 2,
         "timers": [
 			{
-				"name": "Event and Medal Missions",
+				"name": "Event",
                 "start": "July 31 2026, 12:00",
                 "end": "sept 30 2026, 11:59",
 			},
