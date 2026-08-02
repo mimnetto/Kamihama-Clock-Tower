@@ -123,17 +123,17 @@ var timerData = [
         "priority": 7,
         "timers": [
             {
-				name: "Exedra Quest Chapter 1 Release Bonus",
-                "start": "June 16 2026, 12:00",
-                "end": "july 2 2026, 11:59",
+				name: "Rebellion Redux Celebration 1st Login 3,000 Magica Stones",
+                "start": "July 31 2026, 12:00",
+                "end": "aug 31 2026, 11:59"
 			},
             {
-				name: "Sizzling Summer Campaign",
-                "start": "June 29 2026, 12:00",
-                "end": "july 31 2026, 11:59",
+				name: "Rebellion Redux Celebration Bonus Part 1",
+                "start": "July 31 2026, 12:00",
+                "end": "aug 31 2026, 11:59"
 			},
             {
-				name: "Sizzling Summer 1st Login 3,000 Magica Stones",
+				name: "Sizzling Summer ",
                 "start": "June 29 2026, 12:00",
                 "end": "july 13 2026, 11:59",
 			},
@@ -165,20 +165,20 @@ var timerData = [
 			"『エクセドラ』"
         ],
         "image": [
-            "imgs/exedra/events00/lotto00.png"
+            "imgs/exedra/events00/lotto.png"
         ],
         "column": 0,
         "priority": 0,
         "timers": [
             {
 				name: "Ticket Acquisition",
-                "start": "march 27 2026, 22:00",
-                "end": "april 22 2026, 4:59"
+                "start": "July 31 2026, 12:00",
+                "end": "aug 31 2026, 11:59"
 			},
             {
 				name: "Draw Period",
-                "start": "april 22 2026, 5:00",
-                "end": "april 24 2026, 11:59"
+                "start": "aug 31 2026, 12:00",
+                "end": "sept 01 2026, 11:59"
 			},
             {
 				name: "Live Stream",
@@ -187,8 +187,13 @@ var timerData = [
 			},
             {
 				name: "Prize Claim Period",
-                "start": "april 24 2026, 12:00",
-                "end": "april 30 2026, 11:59"
+                "start": "sept 01 2026, 12:00",
+                "end": "sept 08 2026, 11:59"
+			},
+            {
+				name: "Trader",
+                "start": "July 31 2026, 12:00",
+                "end": "sept 09 2026, 11:59"
 			},
             {
 				name: "Special Login Bonus",
@@ -210,19 +215,19 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Hotel Pool Rescue: Staffing Snafu Medal Missions",
-                "start": "June 29 2026, 12:00",
-                "end": "July 31 2026, 11:59",
+				name: "Rebellion Redux Celebration Missions Part 1",
+                "start": "July 31 2026, 12:00",
+                "end": "aug 31 2026, 11:59"
 			},
             {
-				name: "Hotel Pool Rescue: Poolside Panic Medal Missions",
-                "start": "June 29 2026, 12:00",
-                "end": "July 31 2026, 11:59",
+				name: "Half QP",
+                "start": "July 31 2026, 12:00",
+                "end": "aug 15 2026, 11:59"
 			},
             {
-				name: "Finding Our Formula Medal Missions",
-                "start": "June 29 2026, 12:00",
-                "end": "July 31 2026, 11:59",
+				name: "Exedra Quest Clear Missions",
+                "start": "July 31 2026, 12:00",
+                "end": "oct 31 2026, 11:59",
 			},
             {
 				name: "Link Raid Update Campaign",
@@ -311,19 +316,19 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"【Story Event】Hotel Pool Rescue",
-			"『ホテルプールの危機を救え！ プール掃除編』"
+			"【Story Event】Rebellion- Nightmare Story",
+			"『[新編]叛逆の物語 Nightmareストーリー』"
         ],
         "image": [
-            "imgs/exedra/story/pool.png"
+            "imgs/exedra/story/nightmare.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
-				"name": "Hotel Pool Rescue: Poolside Panic",
-                "start": "June 29 2026, 12:00",
-                "end": "July 31 2026, 11:59",
+				"name": "Event and Medal Missions",
+                "start": "July 31 2026, 12:00",
+                "end": "sept 30 2026, 11:59",
 			},
 			{
 				"name": "Hotel Pool Rescue: Staffing Snafu",
@@ -335,19 +340,19 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"【Story Event】Finding Our Formula",
-			"『アタシとあーしの方程式』"
+			"【Story Event】So Close, Yet So Far",
+			"『近くて遠い場所』"
         ],
         "image": [
-            "imgs/exedra/story/formula.png"
+            "imgs/exedra/story/so-close.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
-				"name": "",
-                "start": "June 29 2026, 12:00",
-                "end": "July 31 2026, 11:59",
+				"name": "Event and Medal Missions",
+                "start": "July 31 2026, 12:00",
+                "end": "sept 30 2026, 11:59",
 			},
 			{
 				"name": "Part 2",
@@ -359,19 +364,19 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"【Story Event】Darc Magica Part II Act I",
-			"『魔法少女たると☆マギカ』"
+			"【Story Event】 Waking Dreamer After Dark",
+			"『空想少女は夜を生きる』"
         ],
         "image": [
-            "imgs/exedra/events00/darc002.png"
+            "imgs/exedra/story/dreamer.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				"name": "Act 1",
-                "start": "April 24 2026, 12:00",
-                "end": "May 20 2026, 11:59"
+				"name": "Event and Medal Missions",
+                "start": "July 31 2026, 12:00",
+                "end": "aug 31 2026, 11:59"
 			},
 			{
 				"name": "Part 2",
@@ -519,19 +524,19 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Dog Witch",
-				start: "july 1 2026, 12:00",
-				end: "july 8 2026, 23:59",
+				name: "Box Witch",
+				start: "aug 1 2026, 12:00",
+				end: "aug 8 2026, 23:59",
 			},
 			{
 				name: "Ranking Results Viewability",
-                "start": "july 9 2026, 00:00",
-                "end": "july 13 2026, 4:59",
+                "start": "aug 9 2026, 00:00",
+                "end": "aug 12 2026, 4:59",
 			},
 			{
 				name: "Trader",
-                "start": "july 1 2026, 12:00",
-                "end": "july 20 2026, 11:59",
+                "start": "aug 1 2026, 12:00",
+                "end": "aug 20 2026, 11:59",
 			},
 		]
 	            },
@@ -559,8 +564,8 @@ var timerData = [
 			},
             {
 				name: "Kumanoko no Yume",
-				start: "may 21 2026, 12:00",
-				end: "june 04 2026, 11:59",
+				start: "July 31 2026, 12:00",
+				end: "aug 14 2026, 11:59",
 			},
             {
 				name: "Walpurgisnacht Descends",
@@ -583,9 +588,9 @@ var timerData = [
 				end: "may 21 2026, 11:59",
 			},
 			{
-				name: "Gold & Silver Medal Shop - June",
-                "start": "June 1 2026, 5:00",
-                "end": "July 1 2026, 4:59",
+				name: "Gold & Silver Medal Shop - Aug",
+                "start": "aug 1 2026, 5:00",
+                "end": "sept 1 2026, 4:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - July",
@@ -622,9 +627,9 @@ var timerData = [
 				end: "july 19 2026, 23:59",
 			},
 			{
-				name: "Match Medal Shop - June",
-                "start": "June 1 2026, 5:00",
-                "end": "July 1 2026, 4:59",
+				name: "Match Medal Shop - Aug",
+                "start": "aug 1 2026, 5:00",
+                "end": "sept 1 2026, 4:59",
 			},
 			{
 				name: "Match Medal Shop - July",
@@ -647,13 +652,13 @@ var timerData = [
         "timers": [
 			{
 				name: "Training Spree Packs",
-                "start": "June 29 2026, 12:00",
-                "end": "july 31 2026, 11:59",
+                   "start": "July 31 2026, 12:00",
+                "end": "aug 31 2026, 11:59"
 			},
 			{
-				name: "Sizzling Summer Packs | Yachan",
-                "start": "July 15 2026, 12:00",
-                "end": "july 31 2026, 11:59",
+				name: "Rebellion Packs - Mami & Sayaka",
+                "start": "July 31 2026, 12:00",
+                "end": "sept 30 2026, 11:59",
 			},
 			{
 				name: "Sizzling Summer Packs | Iroha",
@@ -695,19 +700,19 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
-				name: "Hotel Pool Rescue: Staffing Snafu",
-                "start": "July 15 2026, 12:00",
-                "end": "aug 1 2026, 11:59",
+				name: "Rebellion- Nightmare Story",
+                "start": "July 31 2026, 12:00",
+                "end": "oct 1 2026, 11:59",
 			},
             {
-				name: "Finding Our Formula",
-                "start": "June 29 2026, 12:00",
-                "end": "aug 1 2026, 11:59",
+				name: "So Close, Yet So Far",
+                "start": "July 31 2026, 12:00",
+                "end": "oct 1 2026, 11:59",
 			},
             {
-				name: "Hotel Pool Rescue: Poolside Panic",
-                "start": "June 29 2026, 12:00",
-                "end": "aug 1 2026, 11:59",
+				name: "Waking Dreamer After Dark",
+                "start": "July 31 2026, 12:00",
+                "end": "sep 1 2026, 11:59"
 			},
             {
 				name: "Darc Magica Part II Act II",
@@ -736,18 +741,18 @@ var timerData = [
 			},
             {
 				name: "Friend Medal Shop Reset",
-                "start": "july 1 2026, 5:00",
-                "end": "aug 1 2026, 4:59",
+                "start": "aug 1 2026, 5:00",
+                "end": "sep 1 2026, 4:59",
 			},
             {
 				name: "Archive Medals Shop Reset",
-                "start": "july 1 2026, 5:00",
-                "end": "aug 1 2026, 4:59",
+                "start": "aug 1 2026, 5:00",
+                "end": "sep 1 2026, 4:59",
 			},
              {
 				name: "Steady Steps Reset",
-                "start": "july 1 2026, 5:00",
-                "end": "aug 1 2026, 4:59",
+                "start": "aug 1 2026, 5:00",
+                "end": "sep 1 2026, 4:59",
 			},
 
 		]
@@ -765,14 +770,14 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-                name: "Hinano Miyako and Emiri Kisaki",
-                "start": "June 29 2026, 12:00",
-                "end": "aug 1 2026, 11:59",
+                name: "[Luminous Tenet] Kush Irina ",
+                "start": "July 31 2026, 12:00",
+                "end": "sept 1 2026, 11:59",
 			},
             {
-				name: "Sizzling Summer Featured (Iroha & Yachan)",
-                "start": "June 29 2026, 12:00",
-                "end": "aug 1 2026, 11:59"
+				name: "Sayaka & Mami (Rebellion)",
+                "start": "July 31 2026, 12:00",
+                "end": "oct 1 2026, 11:59",
 			},
 			{
                 name: "Melissa & Liz ",
@@ -933,24 +938,24 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】[Absolute Venus] Yachiyo Nanami",
-            "『【限定★5 】[アブソリュート・ヴィーナス]七海やちよ』"
+			"【Exclusive New】Rebellion Redux Mami & Sayaka",
+            "『【限定★5 】美樹さやか(叛逆の物語) & 巴マミ(叛逆の物語)登場』"
         ],
         "image": [
-            "imgs/exedra/fate/swim-yachan.png",
+            "imgs/exedra/fate/rebel00.png",
         ],
         "column": 1,
         "priority": 5,
         "timers": [
             {
-                name: "Free Gems",
-                "start": "july 15 2026, 12:00",
-                "end": "July 31 2026, 11:59",
+                name: "Mami Tomoe (Rebellion) - Defender",
+                "start": "July 31 2026, 12:00",
+                "end": "sept 30 2026, 11:59",
             },
             {
-                name: "Paid Step Up",
-                "start": "july 15 2026, 12:00",
-                "end": "July 31 2026, 11:59",
+                name: "Sayaka Miki (Rebellion) - Healer",
+                "start": "July 31 2026, 12:00",
+                "end": "sept 30 2026, 11:59",
             },
         ]
      },
@@ -981,19 +986,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【New】Hinano Miyako and Emiri Kisaki",
-            "『【★5 】都ひなのと木崎衣美里』"
+			"【New】[Luminous Tenet] Kush Irina ",
+            "『【★5 】[赫奕の福音]入名クシュ』"
         ],
         "image": [
-            "imgs/exedra/fate/hinaemi.png",
+            "imgs/exedra/fate/kush.png",
         ],
         "column": 1,
         "priority": 5,
         "timers": [
             {
                 name: "",
-                "start": "June 29 2026, 12:00",
-                "end": "July 31 2026, 11:59",
+                "start": "July 31 2026, 12:00",
+                "end": "aug 31 2026, 11:59"
             },
             {
                 name: "Paid Step Up",
