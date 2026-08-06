@@ -612,9 +612,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 35",
-				start: "July 20 2026, 12:00",
-				end: "aug 2 2026, 23:59",
+				name: "Season 36",
+				start: "aug 3 2026, 12:00",
+				end: "aug 16 2026, 23:59",
 			},
             {
 				name: "Season 33",
