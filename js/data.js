@@ -110,6 +110,25 @@ var timerData = [
 			}
 			]
     },
+        	{
+        "type": "Event",
+        "title": [
+            "Magia Day 2026 -1.5th Anniversary-",
+			"『Magia Day 2026 -1.5th Anniversary-』"
+        ],
+        "image": [
+			"imgs/exedra/events00/magia-day.png"
+        ],
+        "column": 0,
+        "priority": 5,
+        "timers": [
+            {
+				name: "https://madoka-exedra.com/magiaday2026",
+               "start": "sept 27 2026, 17:00",
+                "end": "sept 27 2026, 19:00",
+			},
+        ]
+    },
 	{
         "type": "Event",
         "title": [
@@ -133,9 +152,24 @@ var timerData = [
                 "end": "aug 31 2026, 11:59"
 			},
             {
-				name: "Sizzling Summer ",
-                "start": "June 29 2026, 12:00",
-                "end": "july 13 2026, 11:59",
+				name: "Rebellion Redux Celebration Bonus Part 2",
+                "start": "aug 22 2026, 12:00",
+                "end": "aug 29 2026, 11:59"
+			},
+            {
+				name: "10 Keys Gift Part 1",
+                "start": "aug 11 2026, 20:00",
+                "end": "aug 29 2026, 21:59",
+			},
+            {
+				name: "10 Keys Gift Part 2",
+                "start": "aug 12 2026, 20:00",
+                "end": "aug 29 2026, 21:59",
+			},
+            {
+				name: "10 Keys Gift Part 2",
+                "start": "aug 13 2026, 20:00",
+                "end": "aug 29 2026, 21:59",
 			},
         ]
     },
@@ -283,9 +317,9 @@ var timerData = [
                 "end": "aug 4 2026, 11:59",
 			},
 			{
-				"name": "Score Attack【VS Rubber Witch】",
-                "start": "June 16 2026, 12:00",
-                "end": "june 30 2026, 11:59",
+				"name": "Score Attack【VS Devil Homura】",
+                "start": "June 13 2026, 22:00",
+                "end": "aug 28 2026, 21:59",
 			},
             {
 				"name": "Score Attack【VS Rubber Witch】",
@@ -330,17 +364,31 @@ var timerData = [
                 "start": "July 31 2026, 12:00",
                 "end": "sept 30 2026, 11:59",
 			},
+        ]
+        },
+    {
+        "type": "Event",
+        "title": [
+			"【Story Event】Rebellion Redux",
+			"『[新編]叛逆の物語』"
+        ],
+        "image": [
+            "imgs/exedra/story/rebel-redux02.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
 			{
-				"name": "Hotel Pool Rescue: Staffing Snafu",
-                "start": "july 15 2026, 12:00",
-                "end": "July 31 2026, 11:59",
+				"name": "Event and Medal Missions",
+                "start": "aug 13 2026, 22:00",
+                "end": "sept 30 2026, 11:59",
 			},
         ]
         },
     {
         "type": "Event",
         "title": [
-			"【Story Event】So Close, Yet So Far",
+			"【Story Event】What-If Story Event",
 			"『近くて遠い場所』"
         ],
         "image": [
@@ -350,33 +398,33 @@ var timerData = [
         "priority": 2,
         "timers": [
 			{
-				"name": "Event",
+				"name": "So Close, Yet So Far - Sayaka",
                 "start": "July 31 2026, 12:00",
                 "end": "sept 30 2026, 11:59",
 			},
 			{
-				"name": "Part 2",
-                "start": "June 16 2026, 12:00",
-                "end": "june 30 2026, 11:59",
+				"name": "Moments to Myself - Mami",
+                "start": "aug 07 2026, 12:00",
+                "end": "sept 30 2026, 11:59",
 			},
         ]
         },
     {
         "type": "Event",
         "title": [
-			"【Story Event】 Waking Dreamer After Dark",
-			"『空想少女は夜を生きる』"
+			"【Story Event】Redux Story Event",
+			"『叛逆の物語』"
         ],
         "image": [
-            "imgs/exedra/story/dreamer.png"
+            "imgs/exedra/story/rebel-redux.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				"name": "Event and Medal Missions",
-                "start": "July 31 2026, 12:00",
-                "end": "aug 31 2026, 11:59"
+				"name": "All Redux Stories",
+                "start": "aug 13 2026, 22:00",
+                "end": "sept 30 2026, 11:59"
 			},
 			{
 				"name": "Part 2",
@@ -564,8 +612,8 @@ var timerData = [
 			},
             {
 				name: "Kumanoko no Yume",
-				start: "July 31 2026, 12:00",
-				end: "aug 14 2026, 11:59",
+				start: "aug 14 2026, 12:00",
+				end: "aug 29 2026, 11:59",
 			},
             {
 				name: "Walpurgisnacht Descends",
@@ -666,9 +714,9 @@ var timerData = [
                 "end": "sept 27 2026, 11:59",
 			},
 			{
-				name: "Summer Training Spree Packs",
-                "start": "may 29 2026, 12:00",
-                "end": "june 30 2026, 11:59"
+				name: "Rebellion Packs - Madoka Kami & Akuma Homura",
+                "start": "aug 13 2026, 22:00",
+                "end": "sept 30 2026, 11:59",
 			},
 			{
 				name: "Premium Bonus Sale",
@@ -710,9 +758,9 @@ var timerData = [
                 "end": "sep 1 2026, 11:59"
 			},
             {
-				name: "Darc Magica Part II Act II",
-                "start": "April 30 2026, 12:00",
-                "end": "May 21 2026, 11:59"
+				name: "Story of Rebellion Redux",
+                "start": "aug 13 2026, 22:00",
+                "end": "oct 1 2026, 11:59",
 			},
             {
 				name: "Mami Tomoe: A Doppel Tale",
@@ -775,9 +823,9 @@ var timerData = [
                 "end": "oct 1 2026, 11:59",
 			},
 			{
-                name: "Melissa & Liz ",
-                "start": "april 24 2026, 12:00",
-                "end": "may 21 2026, 11:59",
+                name: "Ultimate Madoka & Devil Homura Redux ",
+                "start": "aug 13 2026, 22:00",
+                "end": "oct 1 2026, 11:59"
 			},
 			{
 				name: "[La Lumière] Darc",
@@ -1144,40 +1192,39 @@ var timerData = [
             	{
         "type": "Gacha",
         "title": [
-			"【Exclusive New】🎄[Yuletide Gift] Kyoko Sakura",
-            "『【新限定】佐倉杏子(クリスマス)』"
+			"【Free Daily】Free 10-draws up to 100 draws ",
+            "『最大100連まで毎日10連ガチャ無料』"
         ],
         "image": [
-            "imgs/exedra/exc/xmass-gacha-kyoko.png",
+            "imgs/exedra/fate/ten-free0826.png",
         ],
         "column": 1,
-        "priority": 0,
+        "priority": 10,
         "timers": [
             {
-                name: "First 10 Pull Free!",
-                "start": "dec 11 2025, 12:00",
-                "end": "dec 31 2025, 11:59"
+                name: "Featuring Ultimate Madoka & Devil Homura ",
+                "start": "aug 13 2026, 22:00",
+                "end": "sept 30 2026, 11:59"
             },
         ]
     },
     {
         "type": "Gacha",
         "title": [
-			"【Featured】2025 Swimsuit Fateweave",
-            "『2025水着キオクピックアップガチャ』"
+			"【Exclusive】Ultimate Madoka & Devil Homura Redux",
+            "『アルティメットまどか・悪魔ほむら』"
         ],
         "image": [
-            "imgs/exedra/feat/swim.png",
+            "imgs/exedra/fate/mado-homu-kami.png",
         ],
         "column": 1,
-        "priority": 4,
+        "priority": 9,
         "timers": [
             {
-                name: "",
-                "start": "June 5 2026, 12:00",
-                "end": "june 30 2026, 11:59"
-            //    extraPriority: 1000
-            }
+                name: "First 30 Pulls Free!",
+                "start": "aug 13 2026, 22:00",
+                "end": "sept 30 2026, 11:59"
+            },
         ]
     },
             {
