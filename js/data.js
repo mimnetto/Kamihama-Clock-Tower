@@ -960,8 +960,8 @@ var timerData = [
         timers: [
             {
                 name: "Maintenance",
-				start: "July 9 2026, 14:00",
-				end: "july 9 2026, 15:59"
+				start: "aug 24 2026, 14:00",
+				end: "aug 24 2026, 15:59"
 				// extraPriority: 100
             }
         ]
