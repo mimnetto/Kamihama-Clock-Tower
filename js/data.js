@@ -168,18 +168,18 @@ var timerData = [
 			},
             {
 				name: "10 Keys Gift Part 1",
+                "start": "aug 10 2026, 20:00",
+                "end": "aug 28 2026, 21:59",
+			},
+            {
+				name: "10 Keys Gift Part 2",
                 "start": "aug 11 2026, 20:00",
-                "end": "aug 29 2026, 21:59",
+                "end": "aug 28 2026, 21:59",
 			},
             {
 				name: "10 Keys Gift Part 2",
                 "start": "aug 12 2026, 20:00",
-                "end": "aug 29 2026, 21:59",
-			},
-            {
-				name: "10 Keys Gift Part 2",
-                "start": "aug 13 2026, 20:00",
-                "end": "aug 29 2026, 21:59",
+                "end": "aug 28 2026, 21:59",
 			},
         ]
     },
@@ -328,7 +328,7 @@ var timerData = [
 			},
 			{
 				"name": "Score Attack【VS Devil Homura】",
-                "start": "June 13 2026, 22:00",
+                "start": "aug 13 2026, 22:00",
                 "end": "aug 28 2026, 21:59",
 			},
             {
@@ -930,9 +930,9 @@ var timerData = [
                 "end": "sept 30 2026, 11:59",
 			},
             {
-				name: "Limited Time Items",
-                "start": "april 14 2026, 12:00",
-                "end": "may 05 2026, 11:59",
+				name: "Limited Time Items - Homura School Uniform",
+                "start": "aug 13 2026, 22:00",
+                "end": "oct 01 2026, 11:59",
 			},
             {
 				name: "Cresent Memoria - Sumire",
