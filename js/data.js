@@ -157,6 +157,16 @@ var timerData = [
                 "end": "aug 29 2026, 11:59"
 			},
             {
+				name: "Magia Et Cetera: 100 Episodes Celebration✨",
+                "start": "aug 18 2026, 12:00",
+                "end": "aug 31 2026, 11:59",
+			},
+            {
+				name: "Iroha's Birthday",
+                "start": "aug 22 2026, 00:00",
+                "end": "aug 29 2026, 23:59",
+			},
+            {
 				name: "10 Keys Gift Part 1",
                 "start": "aug 11 2026, 20:00",
                 "end": "aug 29 2026, 21:59",
@@ -312,9 +322,9 @@ var timerData = [
         "priority": 3,
         "timers": [
              {
-				name: "Tower | Mirror Layers 106-110",
-                "start": "July 21 2026, 12:00",
-                "end": "aug 4 2026, 11:59",
+				name: "Tower | Mirror Layers 111-115",
+                "start": "aug 21 2026, 12:00",
+                "end": "sep 4 2026, 11:59",
 			},
 			{
 				"name": "Score Attack【VS Devil Homura】",
@@ -347,6 +357,25 @@ var timerData = [
 			},
         ]
     },
+    {
+        "type": "Event",
+        "title": [
+			"【Story Event】Waking Dreamer After Dark",
+			"『空想少女は夜を生きる』"
+        ],
+        "image": [
+            "imgs/exedra/story/dreamer.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+			{
+				"name": "Event and Medal Missions",
+                "start": "July 31 2026, 12:00",
+                "end": "aug 31 2026, 11:59"
+			},
+        ]
+        },
     {
         "type": "Event",
         "title": [
@@ -436,19 +465,38 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】Mami Tomoe: A Doppel Tale",
-			"『新ストーリー これからも続く物語』"
+			"【Story Event】Iroha's Birthday 2026: A Summer School Special",
+			"『「環いろは」のお誕生日』"
         ],
         "image": [
-            "imgs/exedra/events00/mami-dopple.png"
+            "imgs/exedra/story/iroha-birth.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
 				"name": "",
-                "start": "may 20 2026, 12:00",
-                "end": "June 03 2026, 11:59",
+                "start": "aug 22 2026, 00:00",
+                "end": "aug 29 2026, 23:59",
+			},
+        ]
+    },
+       	{
+        "type": "Event",
+        "title": [
+			"【Story Event】Magia Et Cetera: 100 Episodes Celebration✨",
+			"『マギア☆エトセトラ100話到達記念』"
+        ],
+        "image": [
+            "imgs/exedra/story/papa100.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+			{
+				"name": "",
+                "start": "aug 18 2026, 12:00",
+                "end": "aug 31 2026, 11:59",
 			},
         ]
     },
@@ -660,9 +708,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 36",
-				start: "aug 3 2026, 12:00",
-				end: "aug 16 2026, 23:59",
+				name: "Season 37",
+				start: "aug 17 2026, 12:00",
+				end: "aug 30 2026, 23:59",
 			},
             {
 				name: "Season 33",
