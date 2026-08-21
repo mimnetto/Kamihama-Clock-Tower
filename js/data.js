@@ -154,7 +154,7 @@ var timerData = [
             {
 				name: "Rebellion Redux Celebration Bonus Part 2",
                 "start": "aug 22 2026, 12:00",
-                "end": "aug 29 2026, 11:59"
+                "end": "aug 28 2026, 21:59"
 			},
             {
 				name: "Magia Et Cetera: 100 Episodes Celebration✨",
@@ -961,7 +961,7 @@ var timerData = [
             {
                 name: "Maintenance",
 				start: "aug 24 2026, 14:00",
-				end: "aug 24 2026, 15:59"
+				end: "aug 24 2026, 15:29"
 				// extraPriority: 100
             }
         ]
