@@ -120,7 +120,7 @@ var timerData = [
 			"imgs/exedra/events00/magia-day.png"
         ],
         "column": 0,
-        "priority": 5,
+        "priority": 6,
         "timers": [
             {
 				name: "https://madoka-exedra.com/magiaday2026",
@@ -162,14 +162,14 @@ var timerData = [
                 "end": "aug 31 2026, 11:59",
 			},
             {
-				name: "Iroha's Birthday",
-                "start": "aug 22 2026, 00:00",
-                "end": "aug 29 2026, 23:59",
+				name: "Walpurgisnacht Rising feat. 5★ Limited Madoka",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 29 2026, 23:59",
 			},
             {
-				name: "10 Keys Gift Part 1",
-                "start": "aug 10 2026, 20:00",
-                "end": "aug 28 2026, 21:59",
+				name: "Walpurgisnacht Rising 3,000 Magica Stones Gift",
+                "start": "aug 28 2026, 22:00",
+                "end": "sept 30 2026, 23:59",
 			},
             {
 				name: "10 Keys Gift Part 2",
@@ -269,14 +269,29 @@ var timerData = [
                 "end": "aug 15 2026, 11:59"
 			},
             {
+				name: "Main Quest Clear Support Buffs (Standard)",
+                "start": "aug 28 2026, 22:00",
+                "end": "sept 27 2026, 11:59",
+			},
+            {
+				name: "EX and S Crystalis Droprates Doubled",
+                "start": "aug 28 2026, 22:00",
+                "end": "sept 8 2026, 11:59",
+			},
+            {
 				name: "Exedra Quest Clear Missions",
                 "start": "July 31 2026, 12:00",
                 "end": "oct 31 2026, 11:59",
 			},
             {
-				name: "Link Raid Update Campaign",
-                "start": "June 16 2026, 12:00",
-                "end": "July 2 2026, 11:59",
+				name: "Main Quest Clear Missions (No Offcial End Date)",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 04 2026, 11:59",
+			},
+            {
+				name: "Invite-a-Friend",
+                "start": "aug 28 2026, 22:00",
+                "end": "nov 30 2026, 11:59",
 			},
         ]
     },
@@ -293,19 +308,29 @@ var timerData = [
         "priority": 6,
         "timers": [
         	{
-				name: "Sizzling Summer Bingo Part 1",
-                "start": "June 29 2026, 12:00",
-                "end": "july 31 2026, 11:59",
+				name: "Walpurg Rising Bingo",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 30 2026, 11:59",
 			},
         	{
-				name: "Sizzling Summer Bingo Part 2",
-                "start": "July 10 2026, 12:00",
-                "end": "july 31 2026, 11:59",
+				name: "Kioku Crystal Release Part 1",
+                "start": "aug 28 2026, 5:00",
+                "end": "sept 05 2026, 4:59",
 			},
-            {
-				name: "Sizzling Summer Bingo Part 3",
-                "start": "July 21 2026, 12:00",
-                "end": "july 31 2026, 11:59",
+        	{
+				name: "Kioku Crystal Release Part 2",
+                "start": "sept 05 2026, 5:00",
+                "end": "sept 12 2026, 4:59",
+			},
+        	{
+				name: "Kioku Crystal Release Part 3",
+                "start": "sept 12 2026, 5:00",
+                "end": "sept 19 2026, 4:59",
+			},
+        	{
+				name: "Kioku Crystal Release Part 4",
+                "start": "sept 19 2026, 5:00",
+                "end": "sept 27 2026, 20:59",
 			},
         ]
     },
@@ -503,19 +528,38 @@ var timerData = [
        	{
         "type": "Event",
         "title": [
-			"【Story Event】Rise of the Waning Moon",
-			"『聖マギカ学園のクリスマス』"
+			"【Story Event】Sweet Dreams and Shifting Realities",
+			"『虚映が見せる夢 定まらない現実を添えて』"
         ],
         "image": [
-            "imgs/exedra/events00/waning.png"
+            "imgs/exedra/story/sweet-dreams.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 3,
         "timers": [
 			{
-				"name": "",
-                "start": "may 11 2026, 12:00",
-                "end": "may 25 2026, 11:59",
+				"name": "Event and Medal Missions",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 29 2026, 11:59",
+			}
+        ]
+    },
+       	{
+        "type": "Event",
+        "title": [
+			"【Story Event】Hollow Utopia",
+			"『虚ろなユートピア』"
+        ],
+        "image": [
+            "imgs/exedra/story/hollow.png"
+        ],
+        "column": 0,
+        "priority": 3,
+        "timers": [
+			{
+				"name": "Event and Medal Missions",
+                "start": "aug 28 2026, 22:00",
+                "end": "sept 30 2026, 11:59",
 			}
         ]
     },
@@ -589,25 +633,6 @@ var timerData = [
         ]
     },
 	{
-        "type": "Event",
-        "title": [
-            "Puella Magi Madoka Magica: Scene 0 Finale",
-			"『魔法少女まどか☆マギカ scene0 完結編』"
-        ],
-        "image": [
-			"imgs/exedra/events00/scene-finale.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			{
-				name: "Main Quest Addition & Event",
-                "start": "nov 18 2025, 12:00",
-                "end": "dec 3 2025, 11:59",
-			}
-        ]
-    },
-	{
 		type: "Other",
 		title: [
 		"Exedra Crisis",
@@ -649,6 +674,11 @@ var timerData = [
 		priority: 0,
 		timers: [
             {
+				name: "Birdcage Witch",
+				start: "aug 29 2026, 12:00",
+				end: "sept 10 2026, 11:59",
+			},
+            {
 				name: "Uwasa of the Commoner's Horse",
 				start: "June 16 2026, 12:00",
 				end: "July 2 2026, 11:59",
@@ -689,9 +719,9 @@ var timerData = [
                 "end": "sept 1 2026, 4:59",
 			},
 			{
-				name: "Gold & Silver Medal Shop - July",
-                "start": "july 1 2026, 5:00",
-                "end": "aug 1 2026, 4:59",
+				name: "Gold & Silver Medal Shop - September",
+                "start": "sept 1 2026, 5:00",
+                "end": "oct 1 2026, 4:59",
 			},
 		]
 	},
@@ -713,9 +743,9 @@ var timerData = [
 				end: "aug 30 2026, 23:59",
 			},
             {
-				name: "Season 33",
-				start: "june 22 2026, 12:00",
-				end: "july 05 2026, 23:59",
+				name: "Season 38",
+				start: "aug 31 2026, 12:00",
+				end: "sept 13 2026, 23:59",
 			},
 			{
 				name: "Season 34",
@@ -728,9 +758,9 @@ var timerData = [
                 "end": "sept 1 2026, 4:59",
 			},
 			{
-				name: "Match Medal Shop - July",
-                "start": "july 1 2026, 5:00",
-                "end": "aug 1 2026, 4:59",
+				name: "Match Medal Shop - September",
+                "start": "sept 1 2026, 5:00",
+                "end": "oct 1 2026, 4:59",
 			},
 		]
 	},
@@ -767,19 +797,19 @@ var timerData = [
                 "end": "sept 30 2026, 11:59",
 			},
 			{
-				name: "Premium Bonus Sale",
-                "start": "march 27 2026, 22:00",
-                "end": "April 30 2026, 11:59",
+				name: "Walpurgis Rising Packs - Madoka",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 29 2026, 11:59",
 			},
             {
-				name: "Web shop exclusive Super Training Special Packs",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 31 2026, 11:59",
+				name: "5★ Kioku Selection Pack",
+                "start": "aug 28 2026, 22:00",
+                "end": "sept 30 2026, 11:59",
 			},
-                        {
-				name: "Lucky Bags",
-                "start": "jan 1 2026, 00:00",
-                "end": "jan 22 2026, 11:59",
+			{
+				name: "Training Spree Packs",
+                "start": "aug 28 2026, 22:00",
+                "end": "sept 30 2026, 11:59",
 			},
         ]
     },
@@ -811,19 +841,19 @@ var timerData = [
                 "end": "oct 1 2026, 11:59",
 			},
             {
-				name: "Mami Tomoe: A Doppel Tale",
-                "start": "may 20 2026, 12:00",
-                "end": "June 04 2026, 11:59",
+				name: "Hallow Utopia",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 1 2026, 11:59",
 			},
             {
-				name: "1st Anniversary Medal Trader",
-                "start": "march 27 2026, 22:00",
-                "end": "may 01 2026, 11:59",
+				name: "Sweet Dreams and Shifting Realities",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 30 2026, 11:59",
 			},
         	{
-				name: "Crescent Memoria Part 3",
-                "start": "march 27 2026, 22:00",
-                "end": "may 1 2026, 11:59"
+				name: "Main Quest Clear Missions 5★ Medal",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 04 2026, 11:59",
 			},
         	{
 				name: "Sumire's Flower",
@@ -876,14 +906,14 @@ var timerData = [
                 "end": "oct 1 2026, 11:59"
 			},
 			{
-				name: "[La Lumière] Darc",
-                "start": "march 10 2026, 12:00",
-                "end": "march 29 2026, 11:59",
+				name: "[Thuderous Waltz] Uwasa Tsuruno",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 1 2026, 11:59",
 			},
 			{
-				name: "[La Porte du Paradis] Darc (Final)",
-                "start": "april 30 2026, 12:00",
-                "end": "may 21 2026, 11:59",
+				name: "[Vinctio☆Magica] Madoka Kaname (Walpurg Rising)",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 30 2026, 11:59"
 			},
             {
 				name: "Showcase Fate Weave",
@@ -891,9 +921,9 @@ var timerData = [
                 "end": "may 12 2026, 11:59"
 			},
             {
-				name: "1st Anniversary Kioku Medals",
-                "start": "march 27 2026, 22:00",
-                "end": "may 01 2026, 11:59",
+				name: "5★ Kioku Selection Pack Medals",
+                "start": "aug 28 2026, 22:00",
+                "end": "sept 30 2026, 11:59",
 			},
             {
 				name: "Sumire & Fuka",
@@ -915,7 +945,7 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Style Ticket Trader",
+		"Limited Time Style Ticket Trader",
 		"「スタイルチケットイベント」"
 		],
 		image: [
@@ -925,19 +955,19 @@ var timerData = [
 		priority: 3,
 		timers: [	
             {
-				name: "Limited Time Items - Magia Day Sayaka & Mami",
+				name: "Magia Day Sayaka & Mami",
                 "start": "July 31 2026, 12:00",
                 "end": "sept 30 2026, 11:59",
 			},
             {
-				name: "Limited Time Items - Homura School Uniform",
+				name: "Homura School Uniform",
                 "start": "aug 13 2026, 22:00",
                 "end": "oct 01 2026, 11:59",
 			},
             {
-				name: "Cresent Memoria - Sumire",
-                "start": "march 27 2026, 22:00",
-                "end": "may 01 2026, 11:59",
+				name: "Homura School Uniform II",
+                "start": "aug 29 2026, 22:00",
+                "end": "oct 30 2026, 11:59",
 			},
             {
 				name: "Homura Rebellion Uniform",
@@ -999,10 +1029,10 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-                name: "Up to 60 Draws",
-                "start": "may 29 2026, 12:00",
-                "end": "june 30 2026, 11:59",
-                // extraPriority: 100
+                name: "5★ draw rate 50% for Step 5 on each cycle",
+                "start": "aug 28 2026, 22:00",
+                "end": "sept 30 2026, 11:59",
+                extraPriority: 100
             },
         ]
     },
@@ -1101,142 +1131,43 @@ var timerData = [
          	{
         "type": "Gacha",
         "title": [
-			"【Unlimited New】[Doppel of Invitations] Mami Tomoe (Doppel)",
-            "『新★5キオク[ご招待のドッペル] 巴マミ』"
+			"【Limited New】[Vinctio☆Magica] Madoka Kaname (Walpurg Rising)",
+            "『新★5キオク鹿目まどか(ワルプルギスの廻天)』"
         ],
         "image": [
-            "imgs/exedra/fate/mami-dopple.png",
+            "imgs/exedra/fate/mado-walp.png",
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 9,
         "timers": [
             {
-                name: "Light Breaker",
-                "start": "may 20 2026, 12:00",
-                "end": "June 03 2026, 11:59",
+                name: "Light Debuffer",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 29 2026, 11:59",
             //    extraPriority: 1000
             }
         ]
     },
-    	{
+         	{
         "type": "Gacha",
         "title": [
-			"【Unlimited New】[Light of Reckoning] Kanagi Izumi",
-            "『新★5キオク 和泉十七夜』"
+			"【Unlimited New】[Thuderous Waltz] Uwasa Tsuruno",
+            "『新★5キオク[ウワサの雷扇痺舞]ウワサの鶴乃』"
         ],
         "image": [
-            "imgs/exedra/fate/kanagi.png",
+            "imgs/exedra/fate/uwasa-tsu.png",
         ],
         "column": 1,
-        "priority": 4,
+        "priority": 9,
         "timers": [
             {
-                name: "Featured and Step-up",
-                "start": "may 11 2026, 12:00",
-                "end": "may 25 2026, 11:59",
-               extraPriority: 1000
-            }
-        ]
-    },
-    	{
-        "type": "Gacha",
-        "title": [
-			"【Monogatari Series Collab Exclusive】Shinobu Oshino",
-            "『〈物語〉シリーズコラボ限定★5忍野忍』"
-        ],
-        "image": [
-            "imgs/exedra/fate/mono01.png",
-        ],
-        "column": 1,
-        "priority": 4,
-        "timers": [
-            {
-                name: "Flame Attacker",
-                "start": "april 6 2026, 12:00",
-                "end": "may 05 2026, 11:59"
-               // extraPriority: 1000
-            }
-        ]
-    },
-    	{
-        "type": "Gacha",
-        "title": [
-			"【Monogatari Series Collab Exclusive】Mayoi Hachikuji",
-            "『〈物語〉シリーズコラボ限定★5八九寺真宵』"
-        ],
-        "image": [
-            "imgs/exedra/fate/mono00.png",
-        ],
-        "column": 1,
-        "priority": 4,
-        "timers": [
-            {
-                name: "Aqua Defender",
-                "start": "april 6 2026, 12:00",
-                "end": "may 05 2026, 11:59"
-               // extraPriority: 1000
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-			"【Unlimited New】 Liz & Melissa",
-            "『リズとメリッサ』"
-        ],
-        "image": [
-            "imgs/exedra/fate/darc02.png",
-        ],
-        "column": 1,
-        "priority": 5,
-        "timers": [
-            {
-                name: "[Désintégration] Melissa |  [L'Ombre] Liz ",
-                "start": "april 24 2026, 12:00",
-                "end": "may 20 2026, 11:59",
+                name: "Fire Defender",
+                "start": "aug 28 2026, 22:00",
+                "end": "sept 30 2026, 11:59",
             //    extraPriority: 1000
             }
         ]
-     },
-	{
-        "type": "Gacha",
-        "title": [
-		    "【Paid Only】One 5★ Kioku Guaranteed",
-            "『有償限定 ステップアップガチャ』"
-        ],
-        "image": [
-			"imgs/exedra/anni/paid.png",
-        ],
-        "column": 1,
-        "priority": 2,
-        "timers": [
-            {
-                name: "1 Time Only",
-                "start": "march 27 2026, 22:00",
-                "end": "april 30 2026, 11:59",
-            },
-        ]
     },
-    {
-        "type": "Gacha",
-        "title": [
-			"【Exclusive Redux】Homura Akemi (Ribbon)",
-            "『【限定★5 】暁美ほむら 黒い魔力による制圧"
-        ],
-        "image": [
-            "imgs/exedra/anni/homu.png",
-        ],
-        "column": 1,
-        "priority": 3,
-        "timers": [
-            {
-                name: "Dark Art Dominion",
-                "start": "april 24 2026, 12:00",
-                "end": "may 7 2026, 11:59",
-                // extraPriority: 1000
-            }
-        ]
-     },
             	{
         "type": "Gacha",
         "title": [
@@ -1297,24 +1228,24 @@ var timerData = [
        	{
         "type": "Gacha",
         "title": [
-			"【1st Anniversary】Exclusive Kioku",
-            "『【1st Anniversary】限定★5キオク)』"
+			"Special Fate Weaves",
+            "『 スペシャルなガチャ』"
         ],
         "image": [
-            "imgs/exedra/anni/anni01.png",
+            "imgs/exedra/other/special-fate.png",
         ],
         "column": 1,
         "priority": 2,
         "timers": [
             {
-                name: "Week 1 Swimsuit ",
-                "start": "march 27 2026, 22:00",
-                "end": "april 03 2026, 11:59",
+                name: "Walpurg Rising 5★ Guarenteed Showcase",
+                "start": "aug 28 2026, 22:00",
+                "end": "sept 30 2026, 11:59",
             },
             {
-                name: "Week 2 Halloween",
-                "start": "april 03 2026, 12:00",
-                "end": "april 10 2026, 11:59",
+                name: "Free 5★ Attacker Guaranteed Fate Weave",
+                "start": "aug 28 2026, 22:00",
+                "end": "sept 28 2026, 20:59",
             },
             {
                 name: "Week 3 Winter Sayaka x Kyoko",
