@@ -861,19 +861,14 @@ var timerData = [
                 "end": "may 1 2026, 11:59"
 			},
             {
-				name: "Friend Medal Shop Reset",
+				name: "Permanent Shop Resets - Aug",
                 "start": "aug 1 2026, 5:00",
                 "end": "sep 1 2026, 4:59",
 			},
             {
-				name: "Archive Medals Shop Reset",
-                "start": "aug 1 2026, 5:00",
-                "end": "sep 1 2026, 4:59",
-			},
-             {
-				name: "Steady Steps Reset",
-                "start": "aug 1 2026, 5:00",
-                "end": "sep 1 2026, 4:59",
+				name: "Permanent Shop Resets - September",
+                "start": "sept 1 2026, 5:00",
+                "end": "oct 1 2026, 4:59",
 			},
 
 		]
