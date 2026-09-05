@@ -645,19 +645,19 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Box Witch",
-				start: "aug 1 2026, 12:00",
-				end: "aug 8 2026, 23:59",
+				name: "Silver Witch",
+				start: "sep 1 2026, 12:00",
+				end: "sep 8 2026, 23:59",
 			},
 			{
 				name: "Ranking Results Viewability",
-                "start": "aug 9 2026, 00:00",
-                "end": "aug 12 2026, 4:59",
+                "start": "sep 9 2026, 00:00",
+                "end": "sep 11 2026, 4:59",
 			},
 			{
 				name: "Trader",
-                "start": "aug 1 2026, 12:00",
-                "end": "aug 20 2026, 11:59",
+                "start": "sep 1 2026, 12:00",
+                "end": "sep 20 2026, 11:59",
 			},
 		]
 	            },
