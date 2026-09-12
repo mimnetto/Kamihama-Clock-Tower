@@ -142,6 +142,11 @@ var timerData = [
         "priority": 7,
         "timers": [
             {
+				name: "1.5th Anniversary Countdown",
+                "start": "sept 18 2026, 12:00",
+                "end": "sept 27 2026, 20:59"
+			},
+            {
 				name: "Rebellion Redux Celebration 1st Login 3,000 Magica Stones",
                 "start": "July 31 2026, 12:00",
                 "end": "aug 31 2026, 11:59"
@@ -216,13 +221,13 @@ var timerData = [
         "timers": [
             {
 				name: "Ticket Acquisition",
-                "start": "July 31 2026, 12:00",
-                "end": "aug 31 2026, 11:59"
+                "start": "sept 10 2026, 12:00",
+                "end": "oct 15 2026, 11:59"
 			},
             {
 				name: "Draw Period",
-                "start": "aug 31 2026, 12:00",
-                "end": "sept 01 2026, 11:59"
+                "start": "oct 15 2026, 12:00",
+                "end": "oct 16 2026, 11:59"
 			},
             {
 				name: "Live Stream",
@@ -231,8 +236,13 @@ var timerData = [
 			},
             {
 				name: "Prize Claim Period",
-                "start": "sept 01 2026, 12:00",
-                "end": "sept 08 2026, 11:59"
+                "start": "oct 16 2026, 12:00",
+                "end": "oct 22 2026, 11:59"
+			},
+            {
+				name: "Special Login Bonus",
+                "start": "oct 16 2026, 12:00",
+                "end": "nov 30 2026, 11:59"
 			},
             {
 				name: "Trader",
@@ -259,24 +269,14 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "Rebellion Redux Celebration Missions Part 1",
-                "start": "July 31 2026, 12:00",
-                "end": "aug 31 2026, 11:59"
-			},
-            {
-				name: "Half QP",
-                "start": "July 31 2026, 12:00",
-                "end": "aug 15 2026, 11:59"
+				name: "1.5th Anniversary Countdown Missions",
+                "start": "sept 18 2026, 12:00",
+                "end": "sept 27 2026, 20:59"
 			},
             {
 				name: "Main Quest Clear Support Buffs (Standard)",
                 "start": "aug 28 2026, 22:00",
                 "end": "sept 27 2026, 11:59",
-			},
-            {
-				name: "EX and S Crystalis Droprates Doubled",
-                "start": "aug 28 2026, 22:00",
-                "end": "sept 8 2026, 11:59",
 			},
             {
 				name: "Exedra Quest Clear Missions",
@@ -311,6 +311,11 @@ var timerData = [
 				name: "Walpurg Rising Bingo",
                 "start": "aug 28 2026, 22:00",
                 "end": "oct 30 2026, 11:59",
+			},
+        	{
+				name: "Magica Stone Bingo",
+                "start": "sept 10 2026, 12:00",
+                "end": "sept 27 2026, 20:59"
 			},
         	{
 				name: "Kioku Crystal Release Part 1",
@@ -361,6 +366,11 @@ var timerData = [
                 "start": "july 15 2026, 12:00",
                 "end": "July 31 2026, 11:59",
 			},
+            {
+				"name": "Magical Girl Towers",
+                "start": "sept 18 2026, 12:00",
+                "end": "sept 30 2026, 11:59",
+			},
         ]
     },
     	{
@@ -385,19 +395,38 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"【Story Event】Waking Dreamer After Dark",
-			"『空想少女は夜を生きる』"
+			"【Story Event】Missing My Bear〜 Where are you, Kumanosuke!?",
+			"『Missing My Bear〜熊乃介はどこデスカ!?〜』"
         ],
         "image": [
-            "imgs/exedra/story/dreamer.png"
+            "imgs/exedra/story/ashley.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 3,
         "timers": [
 			{
 				"name": "Event and Medal Missions",
-                "start": "July 31 2026, 12:00",
-                "end": "aug 31 2026, 11:59"
+                "start": "Sept 10 2026, 12:00",
+                "end": "sept 30 2026, 11:59"
+			},
+        ]
+        },
+    {
+        "type": "Event",
+        "title": [
+			"【Story Event】Nagisa's Wish",
+			"『百江なぎさは願いを叶えた』"
+        ],
+        "image": [
+            "imgs/exedra/story/nagisa.png"
+        ],
+        "column": 0,
+        "priority": 3,
+        "timers": [
+			{
+				"name": "Event and Medal Missions",
+                "start": "Sept 10 2026, 12:00",
+                "end": "sept 30 2026, 11:59"
 			},
         ]
         },
@@ -674,6 +703,11 @@ var timerData = [
 		priority: 0,
 		timers: [
             {
+				"name": "Greatly Increase Link Raid Rewards",
+                "start": "sept 10 2026, 12:00",
+                "end": "sept 24 2026, 11:59",
+			},
+            {
 				name: "Birdcage Witch",
 				start: "aug 29 2026, 12:00",
 				end: "sept 10 2026, 11:59",
@@ -685,8 +719,8 @@ var timerData = [
 			},
             {
 				name: "Sandbox Witch",
-				start: "July 2 2026, 12:00",
-				end: "july 16 2026, 11:59",
+                "start": "sept 10 2026, 12:00",
+                "end": "sept 24 2026, 11:59",
 			},
             {
 				name: "Kumanoko no Yume",
@@ -778,8 +812,13 @@ var timerData = [
         "timers": [
 			{
 				name: "Training Spree Packs",
-                   "start": "July 31 2026, 12:00",
+                "start": "July 31 2026, 12:00",
                 "end": "aug 31 2026, 11:59"
+			},
+			{
+				name: "Ashley Taylor Celebration Packs",
+                "start": "sept 10 2026, 12:00",
+                "end": "sept 30 2026, 11:59"
 			},
 			{
 				name: "Rebellion Packs - Mami & Sayaka",
@@ -826,6 +865,16 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
+				name: "Where are you, Kumanosuke!?",
+                "start": "Sept 10 2026, 12:00",
+                "end": "oct 1 2026, 11:59"
+			},
+            {
+				name: "Nagisa's Wish",
+                "start": "Sept 10 2026, 12:00",
+                "end": "oct 1 2026, 11:59"
+			},
+            {
 				name: "Rebellion- Nightmare Story",
                 "start": "July 31 2026, 12:00",
                 "end": "oct 1 2026, 11:59",
@@ -844,11 +893,6 @@ var timerData = [
 				name: "Hallow Utopia",
                 "start": "aug 28 2026, 22:00",
                 "end": "oct 1 2026, 11:59",
-			},
-            {
-				name: "Sweet Dreams and Shifting Realities",
-                "start": "aug 28 2026, 22:00",
-                "end": "oct 30 2026, 11:59",
 			},
         	{
 				name: "Main Quest Clear Missions 5★ Medal",
@@ -886,9 +930,14 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
-                name: "[Luminous Tenet] Kush Irina ",
-                "start": "July 31 2026, 12:00",
-                "end": "sept 1 2026, 11:59",
+                name: "[Carnival Cuddleboom] Ashley Taylor",
+                "start": "Sept 10 2026, 12:00",
+                "end": "oct 1 2026, 11:59"
+			},
+			{
+                name: "[Magic Cake Dish] Nagisa Momoe",
+                "start": "Sept 10 2026, 12:00",
+                "end": "oct 1 2026, 11:59"
 			},
             {
 				name: "Sayaka & Mami (Rebellion)",
@@ -1123,6 +1172,46 @@ var timerData = [
             },
         ]
      },
+         	{
+        "type": "Gacha",
+        "title": [
+			"【Limited New】[Carnival Cuddleboom] Ashley Taylor",
+            "『[デンジャラスグロかわカーニバル]アシュリー・テイラー』"
+        ],
+        "image": [
+            "imgs/exedra/fate/ashley.png",
+        ],
+        "column": 1,
+        "priority": 9,
+        "timers": [
+            {
+                name: "Void Buffer",
+                "start": "Sept 10 2026, 12:00",
+                "end": "sept 30 2026, 11:59"
+            //    extraPriority: 1000
+            }
+        ]
+    },
+         	{
+        "type": "Gacha",
+        "title": [
+			"【Unlimited Rerun】[Magic Cake Dish] Nagisa Momoe",
+            "『[魔法のケーキドーム] 百江なぎさ』"
+        ],
+        "image": [
+            "imgs/exedra/fate/nagisa.png",
+        ],
+        "column": 1,
+        "priority": 9,
+        "timers": [
+            {
+                name: "Light Healer",
+                "start": "Sept 10 2026, 12:00",
+                "end": "sept 30 2026, 11:59"
+            //    extraPriority: 1000
+            }
+        ]
+    },
          	{
         "type": "Gacha",
         "title": [
