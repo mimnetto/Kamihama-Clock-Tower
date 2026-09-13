@@ -357,9 +357,9 @@ var timerData = [
                 "end": "sep 4 2026, 11:59",
 			},
 			{
-				"name": "Score Attack【VS Devil Homura】",
-                "start": "aug 13 2026, 22:00",
-                "end": "aug 28 2026, 21:59",
+				"name": "Score Attack【VS Bunny Eared Witch】",
+                "start": "Sept 10 2026, 12:00",
+                "end": "sept 30 2026, 11:59"
 			},
             {
 				"name": "Score Attack【VS Rubber Witch】",
