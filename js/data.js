@@ -714,8 +714,8 @@ var timerData = [
 			},
             {
 				name: "Uwasa of the Commoner's Horse",
-				start: "June 16 2026, 12:00",
-				end: "July 2 2026, 11:59",
+				start: "sept 24 2026, 12:00",
+				end: "oct 08 2026, 11:59",
 			},
             {
 				name: "Sandbox Witch",
@@ -748,14 +748,14 @@ var timerData = [
 				end: "may 21 2026, 11:59",
 			},
 			{
-				name: "Gold & Silver Medal Shop - Aug",
-                "start": "aug 1 2026, 5:00",
-                "end": "sept 1 2026, 4:59",
-			},
-			{
 				name: "Gold & Silver Medal Shop - September",
                 "start": "sept 1 2026, 5:00",
                 "end": "oct 1 2026, 4:59",
+			},
+			{
+				name: "Gold & Silver Medal Shop - October",
+                "start": "oct 1 2026, 5:00",
+                "end": "nov 1 2026, 4:59",
 			},
 		]
 	},
