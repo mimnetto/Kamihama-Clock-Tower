@@ -376,8 +376,8 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Walpurgis Rising Campaign Info",
-			"【〈ワルプルギスの廻天〉上映記念キャンペーン情報解禁 スペシャル特番】"
+			"【Live Stream】Magia Day 2026 -1.5th Anniversary-",
+			"【まどドラ 1.5周年記念 特別生放送】"
         ],
         "image": [
             "imgs/exedra/events00/live-stream.png"
@@ -386,9 +386,9 @@ var timerData = [
         "priority": 9,
         "timers": [
 			{
-				"name": "https://www.youtube.com/watch?v=agOE4mFWWkE",
-                "start": "aug 28 2026, 20:00",
-                "end": "aug 28 2026, 21:30",
+				"name": "https://www.youtube.com/live/TX6T97pcb5Q",
+                "start": "sept 27 2026, 17:00",
+                "end": "sept 27 2026, 19:00",
 			},
         ]
     },
@@ -787,14 +787,14 @@ var timerData = [
 				end: "july 19 2026, 23:59",
 			},
 			{
-				name: "Match Medal Shop - Aug",
-                "start": "aug 1 2026, 5:00",
-                "end": "sept 1 2026, 4:59",
-			},
-			{
 				name: "Match Medal Shop - September",
                 "start": "sept 1 2026, 5:00",
                 "end": "oct 1 2026, 4:59",
+			},
+			{
+				name: "Match Medal Shop - October",
+                "start": "oct 1 2026, 5:00",
+                "end": "nov 1 2026, 4:59",
 			},
 		]
 	},
