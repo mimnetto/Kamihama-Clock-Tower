@@ -884,6 +884,11 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
+				name: "My Friend",
+                "start": "sept 27 2026, 21:00",
+                "end": "nov 1 2026, 11:59",
+			},
+            {
 				name: "Where are you, Kumanosuke!?",
                 "start": "Sept 10 2026, 12:00",
                 "end": "oct 1 2026, 11:59"
