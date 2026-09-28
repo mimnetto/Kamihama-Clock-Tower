@@ -142,29 +142,14 @@ var timerData = [
         "priority": 7,
         "timers": [
             {
-				name: "1.5th Anniversary Countdown",
-                "start": "sept 18 2026, 12:00",
-                "end": "sept 27 2026, 20:59"
+				name: "1.5th Anniversary Login Bonus",
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 31 2026, 11:59"
 			},
             {
-				name: "Rebellion Redux Celebration 1st Login 3,000 Magica Stones",
-                "start": "July 31 2026, 12:00",
-                "end": "aug 31 2026, 11:59"
-			},
-            {
-				name: "Rebellion Redux Celebration Bonus Part 1",
-                "start": "July 31 2026, 12:00",
-                "end": "aug 31 2026, 11:59"
-			},
-            {
-				name: "Rebellion Redux Celebration Bonus Part 2",
-                "start": "aug 22 2026, 12:00",
-                "end": "aug 28 2026, 21:59"
-			},
-            {
-				name: "Magia Et Cetera: 100 Episodes Celebration✨",
-                "start": "aug 18 2026, 12:00",
-                "end": "aug 31 2026, 11:59",
+				name: "1.5th Anniversary Gift Claim Period",
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 31 2026, 11:59"
 			},
             {
 				name: "Walpurgisnacht Rising feat. 5★ Limited Madoka",
@@ -175,16 +160,6 @@ var timerData = [
 				name: "Walpurgisnacht Rising 3,000 Magica Stones Gift",
                 "start": "aug 28 2026, 22:00",
                 "end": "sept 30 2026, 23:59",
-			},
-            {
-				name: "10 Keys Gift Part 2",
-                "start": "aug 11 2026, 20:00",
-                "end": "aug 28 2026, 21:59",
-			},
-            {
-				name: "10 Keys Gift Part 2",
-                "start": "aug 12 2026, 20:00",
-                "end": "aug 28 2026, 21:59",
 			},
         ]
     },
@@ -269,9 +244,9 @@ var timerData = [
         "priority": 5,
         "timers": [
             {
-				name: "1.5th Anniversary Countdown Missions",
-                "start": "sept 18 2026, 12:00",
-                "end": "sept 27 2026, 20:59"
+				name: "Half QP",
+                "start": "sept 28 2026, 5:00",
+                "end": "oct 9 2026, 11:59",
 			},
             {
 				name: "Main Quest Clear Support Buffs (Standard)",
@@ -308,7 +283,17 @@ var timerData = [
         "priority": 6,
         "timers": [
         	{
-				name: "Walpurg Rising Bingo",
+				name: "1.5th Anniversary Bingo Pt. 1",
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 31 2026, 11:59",
+			},
+        	{
+				name: "1.5th Anniversary Bingo Pt. 2",
+                "start": "oct 09 2026, 12:00",
+                "end": "oct 31 2026, 11:59",
+			},
+        	{
+				name: "Walpurgis Rising Bingo",
                 "start": "aug 28 2026, 22:00",
                 "end": "oct 30 2026, 11:59",
 			},
@@ -351,6 +336,11 @@ var timerData = [
         "column": 0,
         "priority": 3,
         "timers": [
+			{
+				"name": "Score Attack【VS Box Witch】",
+                "start": "Sept 27 2026, 21:00",
+                "end": "nov 05 2026, 11:59"
+			},
              {
 				name: "Tower | Mirror Layers 111-115",
                 "start": "aug 21 2026, 12:00",
@@ -392,6 +382,25 @@ var timerData = [
 			},
         ]
     },
+    {
+        "type": "Event",
+        "title": [
+			"【What-If Story Event】My Friend",
+			"『私の友達／わたしの友達』"
+        ],
+        "image": [
+            "imgs/exedra/story/my-friend.png"
+        ],
+        "column": 0,
+        "priority": 3,
+        "timers": [
+			{
+				"name": "Event, Increased Rewards and Medal Missions",
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 31 2026, 11:59",
+			},
+        ]
+        },
     {
         "type": "Event",
         "title": [
@@ -772,9 +781,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 39",
-				start: "sept 14 2026, 12:00",
-				end: "sept 27 2026, 23:59",
+				name: "Season 40",
+				start: "sept 28 2026, 12:00",
+				end: "oct 12 2026, 23:59",
 			},
             {
 				name: "Season 38",
@@ -811,9 +820,19 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
+				name: "Homura Akemi Walpurgis Celebration Packs",
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 31 2026, 11:59",
+			},
+			{
+				name: "1.5th Anniversary 5★ Selection Packs",
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 31 2026, 11:59",
+			},
+			{
 				name: "Training Spree Packs",
-                "start": "July 31 2026, 12:00",
-                "end": "aug 31 2026, 11:59"
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 31 2026, 11:59",
 			},
 			{
 				name: "Ashley Taylor Celebration Packs",
@@ -836,7 +855,7 @@ var timerData = [
                 "end": "sept 30 2026, 11:59",
 			},
 			{
-				name: "Walpurgis Rising Packs - Madoka",
+				name: "Madoka Walpurgis Celebration Packs",
                 "start": "aug 28 2026, 22:00",
                 "end": "oct 29 2026, 11:59",
 			},
@@ -930,6 +949,16 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
+                name: "[Metallicized Projectile] Homura Akemi",
+                "start": "sept 27 2026, 21:00",
+                "end": "nov 1 2026, 11:59",
+			},
+			{
+                name: "[Exclusive Reruns] Kyoko Sakura & Rika Ayano",
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 17 2026, 11:59",
+			},
+			{
                 name: "[Carnival Cuddleboom] Ashley Taylor",
                 "start": "Sept 10 2026, 12:00",
                 "end": "oct 1 2026, 11:59"
@@ -966,18 +995,8 @@ var timerData = [
 			},
             {
 				name: "5★ Kioku Selection Pack Medals",
-                "start": "aug 28 2026, 22:00",
-                "end": "sept 30 2026, 11:59",
-			},
-            {
-				name: "Sumire & Fuka",
-                "start": "march 27 2026, 22:00",
-                "end": "may 01 2026, 11:59",
-			},
-            {
-				name: "5★ Kioku Trading Medals",
-                "start": "march 27 2026, 22:00",
-                "end": "may 01 2026, 11:59",
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 31 2026, 11:59",
 			},
             {
 				name: "Sweet Delights Kyoko & Mami",
@@ -1050,12 +1069,12 @@ var timerData = [
             "imgs/exedra/gacha00/free-24.png",
         ],
         "column": 1,
-        "priority": 4,
+        "priority": 100,
         "timers": [
             {
                 name: "24 Hours Only!🪄",
-                "start": "may 31 2026, 12:00",
-                "end": "june 1 2026, 11:59",
+                "start": "sept 30 2026, 12:00",
+                "end": "oct 1 2026, 11:59",
                 extraPriority: 1000
             },
         ]
@@ -1070,13 +1089,13 @@ var timerData = [
             "imgs/exedra/feat/free.png",
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 20,
         "timers": [
             {
                 name: "5★ draw rate 50% for Step 5 on each cycle",
                 "start": "aug 28 2026, 22:00",
                 "end": "sept 30 2026, 11:59",
-                extraPriority: 100
+                // extraPriority: 100
             },
         ]
     },
@@ -1087,15 +1106,15 @@ var timerData = [
             "『最大150連！1日1回無料10連ガチャ』"
         ],
         "image": [
-            "imgs/exedra/gacha00/free.png",
+            "imgs/exedra/fate/ten-free-anni.png",
         ],
         "column": 1,
         "priority": 0,
         "timers": [
             {
                 name: "",
-                "start": "march 27 2026, 22:00",
-                "end": "april 30 2026, 11:59",
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 31 2026, 11:59",
                 extraPriority: 1000
             }
         ]
@@ -1148,30 +1167,26 @@ var timerData = [
             },
         ]
      },
-    {
+         	{
         "type": "Gacha",
         "title": [
-			"【New】[Luminous Tenet] Kush Irina ",
-            "『【★5 】[赫奕の福音]入名クシュ』"
+			"【Limited New】[Metallicized Projectile] Homura Akemi (Walpurg Rising)",
+            "『新★5キオク暁美ほむら(ワルプルギスの廻天)』"
         ],
         "image": [
-            "imgs/exedra/fate/kush.png",
+            "imgs/exedra/fate/homu-walp.png",
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 9,
         "timers": [
             {
-                name: "",
-                "start": "July 31 2026, 12:00",
-                "end": "aug 31 2026, 11:59"
-            },
-            {
-                name: "Paid Step Up",
-                "start": "june 16 2026, 12:00",
-                "end": "june 30 2026, 11:59",
-            },
+                name: "Flame Atacker",
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 31 2026, 11:59",
+            //    extraPriority: 1000
+            }
         ]
-     },
+    },
          	{
         "type": "Gacha",
         "title": [
@@ -1306,6 +1321,25 @@ var timerData = [
                 name: "Perform a 10-draw 10 times to get a 5★ medal",
                 "start": "jan 28 2026, 12:00",
                 "end": "feb 28 2026, 11:59"
+            },
+        ]
+    },
+      	{
+        "type": "Gacha",
+        "title": [
+			"1.5th Anniversary Exclusive Reruns",
+            "『1.5th記念・限定キオク復刻』"
+        ],
+        "image": [
+            "imgs/exedra/fate/ex-rerun.png",
+        ],
+        "column": 1,
+        "priority": 2,
+        "timers": [
+            {
+                name: "[Crimson Confectioner] Kyoko Sakura",
+                "start": "sept 27 2026, 21:00",
+                "end": "oct 07 2026, 11:59",
             },
         ]
     },
