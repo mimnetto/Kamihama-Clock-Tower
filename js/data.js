@@ -683,19 +683,19 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Silver Witch",
-				start: "sep 1 2026, 12:00",
-				end: "sep 8 2026, 23:59",
+				name: "Rose Garden Witch",
+				start: "oct 1 2026, 12:00",
+				end: "oct 8 2026, 23:59",
 			},
 			{
 				name: "Ranking Results Viewability",
-                "start": "sep 9 2026, 00:00",
-                "end": "sep 11 2026, 4:59",
+                "start": "oct 9 2026, 00:00",
+                "end": "oct 11 2026, 4:59",
 			},
 			{
 				name: "Trader",
-                "start": "sep 1 2026, 12:00",
-                "end": "sep 20 2026, 11:59",
+                "start": "oct 1 2026, 12:00",
+                "end": "oct 20 2026, 11:59",
 			},
 		]
 	            },
@@ -989,7 +989,7 @@ var timerData = [
                 "end": "oct 1 2026, 11:59",
 			},
 			{
-				name: "[Vinctio☆Magica] Madoka Kaname (Walpurg Rising)",
+				name: "[Vinctio☆Magica] Madoka Kaname",
                 "start": "aug 28 2026, 22:00",
                 "end": "oct 30 2026, 11:59"
 			},
