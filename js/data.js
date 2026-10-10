@@ -206,8 +206,8 @@ var timerData = [
 			},
             {
 				name: "Live Stream",
-                "start": "april 23 2026, 20:00",
-                "end": "april 23 2026, 22:00",
+                "start": "oct 15 2026, 20:00",
+                "end": "oct 15 2026, 22:00",
 			},
             {
 				name: "Prize Claim Period",
@@ -366,8 +366,8 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-			"【Live Stream】Magia Day 2026 -1.5th Anniversary-",
-			"【まどドラ 1.5周年記念 特別生放送】"
+			"【Live Stream】Magia Exedra -1.5th Anniversary- Part 2",
+			"【エクセドラ通信 まどドラ1.5th Anniversary 第2弾生放送】"
         ],
         "image": [
             "imgs/exedra/events00/live-stream.png"
@@ -376,9 +376,9 @@ var timerData = [
         "priority": 9,
         "timers": [
 			{
-				"name": "https://www.youtube.com/live/TX6T97pcb5Q",
-                "start": "sept 27 2026, 17:00",
-                "end": "sept 27 2026, 19:00",
+				"name": "https://www.youtube.com/watch?v=mtj3BPoH5r0",
+                "start": "oct 15 2026, 20:00",
+                "end": "oct 15 2026, 22:00",
 			},
         ]
     },
@@ -404,19 +404,19 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"【Story Event】Missing My Bear〜 Where are you, Kumanosuke!?",
-			"『Missing My Bear〜熊乃介はどこデスカ!?〜』"
+			"【Story Event】Anything for Who I Care About!",
+			"『推し事のために、お仕事を！』"
         ],
         "image": [
-            "imgs/exedra/story/ashley.png"
+            "imgs/exedra/story/sorana.png"
         ],
         "column": 0,
         "priority": 3,
         "timers": [
 			{
 				"name": "Event and Medal Missions",
-                "start": "Sept 10 2026, 12:00",
-                "end": "sept 30 2026, 11:59"
+                "start": "oct 8 2026, 12:00",
+                "end": "oct 31 2026, 11:59"
 			},
         ]
         },
@@ -717,6 +717,11 @@ var timerData = [
                 "end": "sept 24 2026, 11:59",
 			},
             {
+				name: "Darkness Witch",
+				start: "oct 8 2026, 12:00",
+				end: "oct 22 2026, 11:59",
+			},
+            {
 				name: "Birdcage Witch",
 				start: "aug 29 2026, 12:00",
 				end: "sept 10 2026, 11:59",
@@ -883,10 +888,20 @@ var timerData = [
 		column: 2,
 		priority: 5,
 		timers: [
+        	{
+				name: "Anything for Who I Care About!",
+                "start": "oct 8 2026, 12:00",
+                "end": "nov 1 2026, 11:59"
+			},
             {
 				name: "My Friend",
                 "start": "sept 27 2026, 21:00",
                 "end": "nov 1 2026, 11:59",
+			},
+        	{
+				name: "Sweet Dreams and Shifting Realities",
+                "start": "aug 28 2026, 22:00",
+                "end": "oct 30 2026, 11:59"
 			},
             {
 				name: "Where are you, Kumanosuke!?",
@@ -923,11 +938,6 @@ var timerData = [
                 "start": "aug 28 2026, 22:00",
                 "end": "oct 04 2026, 11:59",
 			},
-        	{
-				name: "Sumire's Flower",
-                "start": "march 27 2026, 22:00",
-                "end": "may 1 2026, 11:59"
-			},
             {
 				name: "Permanent Shop Resets - Aug",
                 "start": "aug 1 2026, 5:00",
@@ -953,6 +963,11 @@ var timerData = [
 		column: 2,
 		priority: 3,
 		timers: [
+            {
+                name: "Exclusive Kioku Redux Wishlist",
+                "start": "oct 10 2026, 12:00",
+                "end": "nov 1 2026, 11:59",
+			},
 			{
                 name: "[Metallicized Projectile] Homura Akemi",
                 "start": "sept 27 2026, 21:00",
@@ -992,11 +1007,6 @@ var timerData = [
 				name: "[Vinctio☆Magica] Madoka Kaname",
                 "start": "aug 28 2026, 22:00",
                 "end": "oct 30 2026, 11:59"
-			},
-            {
-				name: "Showcase Fate Weave",
-                "start": "april 30 2026, 12:00",
-                "end": "may 12 2026, 11:59"
 			},
             {
 				name: "5★ Kioku Selection Pack Medals",
@@ -1342,9 +1352,14 @@ var timerData = [
         "priority": 2,
         "timers": [
             {
-                name: "[Crimson Confectioner] Kyoko Sakura",
-                "start": "sept 27 2026, 21:00",
-                "end": "oct 07 2026, 11:59",
+                name: "Exclusive Kioku Redux Wishlist",
+                "start": "oct 10 2026, 12:00",
+                "end": "oct 31 2026, 11:59",
+            },
+            {
+                name: "[Glitterjoy Snow Globe] Rika Ayano",
+                "start": "oct 7 2026, 12:00",
+                "end": "oct 16 2026, 11:59",
             },
         ]
     },
