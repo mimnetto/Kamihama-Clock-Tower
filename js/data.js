@@ -142,6 +142,16 @@ var timerData = [
         "priority": 7,
         "timers": [
             {
+				name: "Exedraw Special Login Bonus",
+                "start": "oct 16 2026, 12:00",
+                "end": "nov 30 2026, 11:59"
+			},
+            {
+				name: "Exedra Quest Release Celebration",
+                "start": "oct 16 2026, 12:00",
+                "end": "nov 13 2026, 11:59"
+			},
+            {
 				name: "1.5th Anniversary Login Bonus",
                 "start": "sept 27 2026, 21:00",
                 "end": "oct 31 2026, 11:59"
@@ -298,9 +308,9 @@ var timerData = [
                 "end": "oct 30 2026, 11:59",
 			},
         	{
-				name: "Magica Stone Bingo",
-                "start": "sept 10 2026, 12:00",
-                "end": "sept 27 2026, 20:59"
+				name: "Exedra Quest Ch1 PtII ActII Bingo",
+                "start": "oct 16 2026, 12:00",
+                "end": "nov 13 2026, 11:59",
 			},
         	{
 				name: "Kioku Crystal Release Part 1",
@@ -337,9 +347,14 @@ var timerData = [
         "priority": 3,
         "timers": [
 			{
+				"name": "Score Attack【VS Anomalia】",
+                "start": "Oct 16 2026, 12:00",
+                "end": "oct 30 2026, 11:59",
+			},
+			{
 				"name": "Score Attack【VS Box Witch】",
-                "start": "Sept 27 2026, 21:00",
-                "end": "nov 05 2026, 11:59"
+                "start": "Oct 16 2026, 12:00",
+                "end": "oct 13 2026, 11:59",
 			},
              {
 				name: "Tower | Mirror Layers 111-115",
@@ -382,6 +397,25 @@ var timerData = [
 			},
         ]
     },
+    {
+        "type": "Event",
+        "title": [
+			"【Redux Story Event】Forever Halloween",
+			"『パラレルスハロウィンナイトは永遠に前編』"
+        ],
+        "image": [
+            "imgs/exedra/story/forever-halloween.png"
+        ],
+        "column": 0,
+        "priority": 3,
+        "timers": [
+			{
+				"name": "Part 1 Event & Medal Missions",
+                "start": "oct 16 2026, 12:00",
+                "end": "nov 13 2026, 11:59",
+			},
+        ]
+        },
     {
         "type": "Event",
         "title": [
@@ -436,25 +470,6 @@ var timerData = [
 				"name": "Event and Medal Missions",
                 "start": "Sept 10 2026, 12:00",
                 "end": "sept 30 2026, 11:59"
-			},
-        ]
-        },
-    {
-        "type": "Event",
-        "title": [
-			"【Story Event】Rebellion- Nightmare Story",
-			"『[新編]叛逆の物語 Nightmareストーリー』"
-        ],
-        "image": [
-            "imgs/exedra/story/nightmare.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-			{
-				"name": "Event and Medal Missions",
-                "start": "July 31 2026, 12:00",
-                "end": "sept 30 2026, 11:59",
 			},
         ]
         },
@@ -786,9 +801,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 40",
-				start: "sept 28 2026, 12:00",
-				end: "oct 12 2026, 23:59",
+				name: "Season 41",
+				start: "oct 12 2026, 12:00",
+				end: "oct 25 2026, 23:59",
 			},
             {
 				name: "Season 38",
@@ -825,6 +840,11 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
+				name: "Sayaka Miki (Anomalia) Celebration Packs",
+                "start": "Oct 16 2026, 12:00",
+                "end": "nov 13 2026, 11:59",
+			},
+			{
 				name: "Homura Akemi Walpurgis Celebration Packs",
                 "start": "sept 27 2026, 21:00",
                 "end": "oct 31 2026, 11:59",
@@ -838,11 +858,6 @@ var timerData = [
 				name: "Training Spree Packs",
                 "start": "sept 27 2026, 21:00",
                 "end": "oct 31 2026, 11:59",
-			},
-			{
-				name: "Ashley Taylor Celebration Packs",
-                "start": "sept 10 2026, 12:00",
-                "end": "sept 30 2026, 11:59"
 			},
 			{
 				name: "Rebellion Packs - Mami & Sayaka",
@@ -888,6 +903,11 @@ var timerData = [
 		column: 2,
 		priority: 5,
 		timers: [
+            {
+				name: "Forever Halloween Part 1",
+                "start": "oct 16 2026, 12:00",
+                "end": "nov 14 2026, 11:59",
+			},
         	{
 				name: "Anything for Who I Care About!",
                 "start": "oct 8 2026, 12:00",
@@ -905,11 +925,6 @@ var timerData = [
 			},
             {
 				name: "Where are you, Kumanosuke!?",
-                "start": "Sept 10 2026, 12:00",
-                "end": "oct 1 2026, 11:59"
-			},
-            {
-				name: "Nagisa's Wish",
                 "start": "Sept 10 2026, 12:00",
                 "end": "oct 1 2026, 11:59"
 			},
@@ -963,6 +978,16 @@ var timerData = [
 		column: 2,
 		priority: 3,
 		timers: [
+			{
+				name: "[Venusta Dissonanz] Sayaka Miki (Anomalia) ",
+                "start": "Oct 16 2026, 12:00",
+                "end": "nov 14 2026, 11:59",
+			},
+            {
+                name: "2025 Halloween Redux",
+                "start": "oct 16 2026, 12:00",
+                "end": "nov 03 2026, 11:59",
+            },
             {
                 name: "Exclusive Kioku Redux Wishlist",
                 "start": "oct 10 2026, 12:00",
@@ -997,11 +1022,6 @@ var timerData = [
                 name: "Ultimate Madoka & Devil Homura Redux ",
                 "start": "aug 13 2026, 22:00",
                 "end": "oct 1 2026, 11:59"
-			},
-			{
-				name: "[Thuderous Waltz] Uwasa Tsuruno",
-                "start": "aug 28 2026, 22:00",
-                "end": "oct 1 2026, 11:59",
 			},
 			{
 				name: "[Vinctio☆Magica] Madoka Kaname",
@@ -1137,24 +1157,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】Rebellion Redux Mami & Sayaka",
-            "『【限定★5 】美樹さやか(叛逆の物語) & 巴マミ(叛逆の物語)登場』"
+			"【Exclusive New】[Venusta Dissonanz] Sayaka Miki (Anomalia)",
+            "『【限定★5 】美樹さやか(アノマリア)♬』"
         ],
         "image": [
-            "imgs/exedra/fate/rebel00.png",
+            "imgs/exedra/fate/anomalia.png",
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 10,
         "timers": [
             {
-                name: "Mami Tomoe (Rebellion) - Defender",
-                "start": "July 31 2026, 12:00",
-                "end": "sept 30 2026, 11:59",
-            },
-            {
-                name: "Sayaka Miki (Rebellion) - Healer",
-                "start": "July 31 2026, 12:00",
-                "end": "sept 30 2026, 11:59",
+                name: "Void Leader Attacker",
+                "start": "Oct 16 2026, 12:00",
+                "end": "nov 13 2026, 11:59",
             },
         ]
      },
@@ -1357,9 +1372,9 @@ var timerData = [
                 "end": "oct 31 2026, 11:59",
             },
             {
-                name: "[Glitterjoy Snow Globe] Rika Ayano",
-                "start": "oct 7 2026, 12:00",
-                "end": "oct 16 2026, 11:59",
+                name: "[Bebe-O'-Lantern] Mami Tomoe",
+                "start": "oct 16 2026, 12:00",
+                "end": "oct 25 2026, 11:59",
             },
         ]
     },
