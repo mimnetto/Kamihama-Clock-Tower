@@ -1158,7 +1158,7 @@ var timerData = [
         "type": "Gacha",
         "title": [
 			"【Exclusive New】[Venusta Dissonanz] Sayaka Miki (Anomalia)",
-            "『【限定★5 】美樹さやか(アノマリア)♬』"
+            "『【新★5キオク】美樹さやか(アノマリア)♬』"
         ],
         "image": [
             "imgs/exedra/fate/anomalia.png",
