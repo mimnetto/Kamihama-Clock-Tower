@@ -357,9 +357,9 @@ var timerData = [
                 "end": "oct 13 2026, 11:59",
 			},
              {
-				name: "Tower | Mirror Layers 111-115",
-                "start": "aug 21 2026, 12:00",
-                "end": "sep 4 2026, 11:59",
+				name: "Tower | Mirror Layers 116-120",
+                "start": "oct 19 2026, 12:00",
+                "end": "nov 19 2026, 11:59",
 			},
 			{
 				"name": "Score Attack【VS Bunny Eared Witch】",
@@ -728,8 +728,13 @@ var timerData = [
 		timers: [
             {
 				"name": "Greatly Increase Link Raid Rewards",
-                "start": "sept 10 2026, 12:00",
+                "start": "jan 22 2026, 12:00",
                 "end": "sept 24 2026, 11:59",
+			},
+            {
+				name: "Dessert Witch 🎃",
+				start: "oct 22 2026, 12:00",
+				end: "nov 5 2026, 11:59",
 			},
             {
 				name: "Darkness Witch",
