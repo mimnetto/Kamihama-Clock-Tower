@@ -782,9 +782,9 @@ var timerData = [
 				end: "may 21 2026, 11:59",
 			},
 			{
-				name: "Gold & Silver Medal Shop - September",
-                "start": "sept 1 2026, 5:00",
-                "end": "oct 1 2026, 4:59",
+				name: "Gold & Silver Medal Shop - November",
+                "start": "Nov 1 2026, 5:00",
+                "end": "Dec 1 2026, 4:59",
 			},
 			{
 				name: "Gold & Silver Medal Shop - October",
@@ -806,9 +806,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 41",
-				start: "oct 12 2026, 12:00",
-				end: "oct 25 2026, 23:59",
+				name: "Season 42",
+				start: "oct 24 2026, 12:00",
+				end: "Nov 8 2026, 23:59",
 			},
             {
 				name: "Season 38",
@@ -821,9 +821,9 @@ var timerData = [
 				end: "july 19 2026, 23:59",
 			},
 			{
-				name: "Match Medal Shop - September",
-                "start": "sept 1 2026, 5:00",
-                "end": "oct 1 2026, 4:59",
+				name: "Match Medal Shop - November",
+                "start": "Nov 1 2026, 5:00",
+                "end": "Dec 1 2026, 4:59",
 			},
 			{
 				name: "Match Medal Shop - October",
@@ -959,9 +959,9 @@ var timerData = [
                 "end": "oct 04 2026, 11:59",
 			},
             {
-				name: "Permanent Shop Resets - Aug",
-                "start": "aug 1 2026, 5:00",
-                "end": "sep 1 2026, 4:59",
+				name: "Permanent Shop Resets - November",
+                "start": "Nov 1 2026, 5:00",
+                "end": "Dec 1 2026, 4:59",
 			},
             {
 				name: "Permanent Shop Resets - September",
