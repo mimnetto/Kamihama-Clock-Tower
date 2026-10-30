@@ -142,6 +142,11 @@ var timerData = [
         "priority": 7,
         "timers": [
             {
+				name: "Halloween Login Bonus",
+                "start": "oct 30 2026, 12:00",
+                "end": "nov 30 2026, 11:59",
+			},
+            {
 				name: "Exedraw Special Login Bonus",
                 "start": "oct 16 2026, 12:00",
                 "end": "nov 30 2026, 11:59"
@@ -167,9 +172,9 @@ var timerData = [
                 "end": "oct 29 2026, 23:59",
 			},
             {
-				name: "Walpurgisnacht Rising 3,000 Magica Stones Gift",
-                "start": "aug 28 2026, 22:00",
-                "end": "sept 30 2026, 23:59",
+				name: "Halloween Campaign 3,000 Gems Claim",
+                "start": "oct 30 2026, 12:00",
+                "end": "nov 30 2026, 11:59",
 			},
         ]
     },
@@ -283,11 +288,11 @@ var timerData = [
     	{
         "type": "Event",
         "title": [
-            "Mini Events",
+            "Bingo Missions",
 			"『ミニイベント』"
         ],
         "image": [
-			"imgs/exedra/other/mini-events.png"
+			"imgs/exedra/other/bingo.png"
         ],
         "column": 0,
         "priority": 6,
@@ -303,6 +308,11 @@ var timerData = [
                 "end": "oct 31 2026, 11:59",
 			},
         	{
+				name: "Weekly Bingo 1",
+                "start": "oct 30 2026, 12:00",
+                "end": "nov 9 2026, 4:59",
+			},
+        	{
 				name: "Walpurgis Rising Bingo",
                 "start": "aug 28 2026, 22:00",
                 "end": "oct 30 2026, 11:59",
@@ -313,24 +323,38 @@ var timerData = [
                 "end": "nov 13 2026, 11:59",
 			},
         	{
-				name: "Kioku Crystal Release Part 1",
-                "start": "aug 28 2026, 5:00",
-                "end": "sept 05 2026, 4:59",
+				name: "Weekly Bingo 2",
+                "start": "nov 9 2026, 5:00",
+                "end": "nov 16 2026, 4:59",
 			},
         	{
-				name: "Kioku Crystal Release Part 2",
-                "start": "sept 05 2026, 5:00",
-                "end": "sept 12 2026, 4:59",
+				name: "Weekly Bingo 3",
+                "start": "nov 16 2026, 5:00",
+                "end": "nov 23 2026, 4:59",
 			},
         	{
-				name: "Kioku Crystal Release Part 3",
-                "start": "sept 12 2026, 5:00",
-                "end": "sept 19 2026, 4:59",
+				name: "Weekly Bingo 2",
+                "start": "nov 23 2026, 5:00",
+                "end": "nov 30 2026, 4:59",
 			},
+        ]
+    },
+    	{
+        "type": "Event",
+        "title": [
+            "Mini Events",
+			"『ミニイベント』"
+        ],
+        "image": [
+			"imgs/exedra/other/mini-events.png"
+        ],
+        "column": 0,
+        "priority": 6,
+        "timers": [
         	{
-				name: "Kioku Crystal Release Part 4",
-                "start": "sept 19 2026, 5:00",
-                "end": "sept 27 2026, 20:59",
+				name: "1.5th Anniversary Bingo Pt. 1",
+                "start": "sept 27 2025, 21:00",
+                "end": "oct 31 2025, 11:59",
 			},
         ]
     },
@@ -400,6 +424,49 @@ var timerData = [
     {
         "type": "Event",
         "title": [
+			"【Story Event】Felicia Mitsuki: A Doppel Tale",
+			"『深月フェリシア ドッペル編』"
+        ],
+        "image": [
+            "imgs/exedra/story/doppeltale.png"
+        ],
+        "column": 0,
+        "priority": 3,
+        "timers": [
+			{
+				"name": "Event and Medal Missions",
+                "start": "oct 30 2026, 12:00",
+                "end": "Nov 30 2026, 11:59"
+			},
+        ]
+        },
+    {
+        "type": "Event",
+        "title": [
+			"【Story Event】Forever Holloween Night",
+			"『「ハロウィンナイトは永遠に』"
+        ],
+        "image": [
+            "imgs/exedra/story/karin00.png"
+        ],
+        "column": 0,
+        "priority": 3,
+        "timers": [
+			{
+				"name": "Part 1 Event and Medal Missions",
+                "start": "oct 30 2026, 12:00",
+                "end": "nov 30 2026, 11:59",
+			},
+			{
+				"name": "Part 2 Event and Medal Missions",
+                "start": "nov 7 2026, 12:00",
+                "end": "nov 30 2026, 11:59",
+			},
+        ]
+        },
+    {
+        "type": "Event",
+        "title": [
 			"【Redux Story Event】Forever Halloween",
 			"『パラレルスハロウィンナイトは永遠に前編』"
         ],
@@ -412,6 +479,11 @@ var timerData = [
 			{
 				"name": "Part 1 Event & Medal Missions",
                 "start": "oct 16 2026, 12:00",
+                "end": "nov 13 2026, 11:59",
+			},
+			{
+				"name": "Part 2 Event & Medal Missions",
+                "start": "oct 25 2026, 12:00",
                 "end": "nov 13 2026, 11:59",
 			},
         ]
@@ -451,44 +523,6 @@ var timerData = [
 				"name": "Event and Medal Missions",
                 "start": "oct 8 2026, 12:00",
                 "end": "oct 31 2026, 11:59"
-			},
-        ]
-        },
-    {
-        "type": "Event",
-        "title": [
-			"【Story Event】Nagisa's Wish",
-			"『百江なぎさは願いを叶えた』"
-        ],
-        "image": [
-            "imgs/exedra/story/nagisa.png"
-        ],
-        "column": 0,
-        "priority": 3,
-        "timers": [
-			{
-				"name": "Event and Medal Missions",
-                "start": "Sept 10 2026, 12:00",
-                "end": "sept 30 2026, 11:59"
-			},
-        ]
-        },
-    {
-        "type": "Event",
-        "title": [
-			"【Story Event】Rebellion Redux",
-			"『[新編]叛逆の物語』"
-        ],
-        "image": [
-            "imgs/exedra/story/rebel-redux02.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-			{
-				"name": "Event and Medal Missions",
-                "start": "aug 13 2026, 22:00",
-                "end": "sept 30 2026, 11:59",
 			},
         ]
         },
@@ -845,6 +879,16 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
+				name: "Halloween Packs - Karin Misono",
+                "start": "Oct 30 2026, 12:00",
+                "end": "nov 30 2026, 11:59",
+			},
+			{
+				name: "Training Spree Packs",
+                "start": "Oct 30 2026, 12:00",
+                "end": "nov 30 2026, 11:59",
+			},
+			{
 				name: "Sayaka Miki (Anomalia) Celebration Packs",
                 "start": "Oct 16 2026, 12:00",
                 "end": "nov 13 2026, 11:59",
@@ -863,11 +907,6 @@ var timerData = [
 				name: "Training Spree Packs",
                 "start": "sept 27 2026, 21:00",
                 "end": "oct 31 2026, 11:59",
-			},
-			{
-				name: "Rebellion Packs - Mami & Sayaka",
-                "start": "July 31 2026, 12:00",
-                "end": "sept 30 2026, 11:59",
 			},
 			{
 				name: "Premium Bonus Sale",
@@ -909,6 +948,16 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
+				name: "Felicia Mitsuki: A Doppel Tale",
+                "start": "oct 30 2026, 12:00",
+                "end": "Nov 30 2026, 11:59"
+			},
+            {
+				name: "Forever Halloween Part 2",
+                "start": "oct 25 2026, 12:00",
+                "end": "nov 14 2026, 11:59",
+			},
+            {
 				name: "Forever Halloween Part 1",
                 "start": "oct 16 2026, 12:00",
                 "end": "nov 14 2026, 11:59",
@@ -929,11 +978,6 @@ var timerData = [
                 "end": "oct 30 2026, 11:59"
 			},
             {
-				name: "Where are you, Kumanosuke!?",
-                "start": "Sept 10 2026, 12:00",
-                "end": "oct 1 2026, 11:59"
-			},
-            {
 				name: "Rebellion- Nightmare Story",
                 "start": "July 31 2026, 12:00",
                 "end": "oct 1 2026, 11:59",
@@ -949,9 +993,9 @@ var timerData = [
                 "end": "oct 1 2026, 11:59",
 			},
             {
-				name: "Hallow Utopia",
-                "start": "aug 28 2026, 22:00",
-                "end": "oct 1 2026, 11:59",
+				name: "Forever Holloween Night",
+                "start": "oct 30 2026, 12:00",
+                "end": "dec 1 2026, 11:59",
 			},
         	{
 				name: "Main Quest Clear Missions 5★ Medal",
@@ -984,6 +1028,21 @@ var timerData = [
 		priority: 3,
 		timers: [
 			{
+                name: "[Pumpkin Death Squall] Karin Misono",
+                "start": "oct 30 2026, 12:00",
+                "end": "dec 1 2026, 11:59"
+			},
+			{
+                name: "[Doppel of Agitation] Felicia Mitsuki",
+                "start": "oct 30 2026, 12:00",
+                "end": "dec 1 2026, 11:59"
+			},
+			{
+                name: "Sumire Yoake & Fuka Higure",
+                "start": "oct 30 2026, 12:00",
+                "end": "dec 15 2026, 11:59",
+			},
+			{
 				name: "[Venusta Dissonanz] Sayaka Miki (Anomalia) ",
                 "start": "Oct 16 2026, 12:00",
                 "end": "nov 14 2026, 11:59",
@@ -1002,21 +1061,6 @@ var timerData = [
                 name: "[Metallicized Projectile] Homura Akemi",
                 "start": "sept 27 2026, 21:00",
                 "end": "nov 1 2026, 11:59",
-			},
-			{
-                name: "[Exclusive Reruns] Kyoko Sakura & Rika Ayano",
-                "start": "sept 27 2026, 21:00",
-                "end": "oct 17 2026, 11:59",
-			},
-			{
-                name: "[Carnival Cuddleboom] Ashley Taylor",
-                "start": "Sept 10 2026, 12:00",
-                "end": "oct 1 2026, 11:59"
-			},
-			{
-                name: "[Magic Cake Dish] Nagisa Momoe",
-                "start": "Sept 10 2026, 12:00",
-                "end": "oct 1 2026, 11:59"
 			},
             {
 				name: "Sayaka & Mami (Rebellion)",
@@ -1102,19 +1146,19 @@ var timerData = [
     		{
         "type": "Gacha",
         "title": [
-			"【FREE】One Free Magia Fate Weave 10-Draw",
+			"【FREE】Felicia Mitsuki (Doppel) 10-Draw",
             "『マギアガチャ10連1回無料』"
         ],
         "image": [
             "imgs/exedra/gacha00/free-24.png",
         ],
         "column": 1,
-        "priority": 100,
+        "priority": 21,
         "timers": [
             {
                 name: "24 Hours Only!🪄",
-                "start": "sept 30 2026, 12:00",
-                "end": "oct 1 2026, 11:59",
+                "start": "oct 31 2026, 12:00",
+                "end": "nov 1 2026, 11:59",
                 extraPriority: 1000
             },
         ]
@@ -1129,12 +1173,12 @@ var timerData = [
             "imgs/exedra/feat/free.png",
         ],
         "column": 1,
-        "priority": 20,
+        "priority": 3,
         "timers": [
             {
                 name: "5★ draw rate 50% for Step 5 on each cycle",
-                "start": "aug 28 2026, 22:00",
-                "end": "sept 30 2026, 11:59",
+                "start": "oct 30 2026, 12:00",
+                "end": "nov 30 2026, 11:59",
                 // extraPriority: 100
             },
         ]
@@ -1155,7 +1199,7 @@ var timerData = [
                 name: "",
                 "start": "sept 27 2026, 21:00",
                 "end": "oct 31 2026, 11:59",
-                extraPriority: 1000
+                // extraPriority: 1000
             }
         ]
     },
@@ -1181,19 +1225,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】[Evoluzione Presente] Iroha Tamaki",
-            "『【限定★5 】[エヴォルツィオーネ・プレゼンテ]環いろは』"
+			"【Exclusive Redux】Sumire Yoake & Fuka Higure",
+            "『【限定★5 】夜明すみれ＆日暮ふうか』"
         ],
         "image": [
-            "imgs/exedra/fate/swim-iro.png",
+            "imgs/exedra/feat/sumika.png",
         ],
         "column": 1,
         "priority": 5,
         "timers": [
             {
-                name: "Free Gems",
-                "start": "June 29 2026, 12:00",
-                "end": "July 31 2026, 11:59",
+                name: "",
+                "start": "oct 30 2026, 12:00",
+                "end": "dec 14 2026, 11:59",
             },
             {
                 name: "Paid Step Up",
@@ -1225,19 +1269,19 @@ var timerData = [
          	{
         "type": "Gacha",
         "title": [
-			"【Limited New】[Carnival Cuddleboom] Ashley Taylor",
-            "『[デンジャラスグロかわカーニバル]アシュリー・テイラー』"
+			"【Limited New】[Pumpkin Death Squall] Karin Misono",
+            "『[パンプキン・デススコール]御園かりん 』"
         ],
         "image": [
-            "imgs/exedra/fate/ashley.png",
+            "imgs/exedra/feat/karin.png",
         ],
         "column": 1,
         "priority": 9,
         "timers": [
             {
-                name: "Void Buffer",
-                "start": "Sept 10 2026, 12:00",
-                "end": "sept 30 2026, 11:59"
+                name: "Flame Debuffer",
+                "start": "oct 30 2026, 12:00",
+                "end": "nov 30 2026, 11:59"
             //    extraPriority: 1000
             }
         ]
@@ -1245,19 +1289,19 @@ var timerData = [
          	{
         "type": "Gacha",
         "title": [
-			"【Unlimited Rerun】[Magic Cake Dish] Nagisa Momoe",
-            "『[魔法のケーキドーム] 百江なぎさ』"
+			"【Unlimited New】[Doppel of Agitation] Felicia Mitsuki",
+            "『[攪拌のドッペル]深月フェリシア』"
         ],
         "image": [
-            "imgs/exedra/fate/nagisa.png",
+            "imgs/exedra/feat/fa-doppel.png",
         ],
         "column": 1,
         "priority": 9,
         "timers": [
             {
-                name: "Light Healer",
-                "start": "Sept 10 2026, 12:00",
-                "end": "sept 30 2026, 11:59"
+                name: "Dark Breaker",
+                "start": "oct 30 2026, 12:00",
+                "end": "nov 30 2026, 11:59"
             //    extraPriority: 1000
             }
         ]
@@ -1377,9 +1421,9 @@ var timerData = [
                 "end": "oct 31 2026, 11:59",
             },
             {
-                name: "[Bebe-O'-Lantern] Mami Tomoe",
-                "start": "oct 16 2026, 12:00",
-                "end": "oct 25 2026, 11:59",
+                name: "[Marigold Dadaism] Alina Grey",
+                "start": "oct 25 2026, 12:00",
+                "end": "nov 2 2026, 11:59",
             },
         ]
     },
