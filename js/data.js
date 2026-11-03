@@ -732,7 +732,7 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Rose Garden Witch",
+				name: "Graffiti Witch",
 				start: "nov 1 2026, 12:00",
 				end: "nov 8 2026, 23:59",
 			},
