@@ -733,18 +733,18 @@ var timerData = [
 		timers: [
 			{
 				name: "Rose Garden Witch",
-				start: "oct 1 2026, 12:00",
-				end: "oct 8 2026, 23:59",
+				start: "nov 1 2026, 12:00",
+				end: "nov 8 2026, 23:59",
 			},
 			{
 				name: "Ranking Results Viewability",
-                "start": "oct 9 2026, 00:00",
-                "end": "oct 11 2026, 4:59",
+                "start": "nov 9 2026, 00:00",
+                "end": "nov 11 2026, 4:59",
 			},
 			{
 				name: "Trader",
-                "start": "oct 1 2026, 12:00",
-                "end": "oct 20 2026, 11:59",
+                "start": "nov 1 2026, 12:00",
+                "end": "nov 20 2026, 11:59",
 			},
 		]
 	            },
