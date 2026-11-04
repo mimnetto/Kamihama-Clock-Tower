@@ -314,8 +314,8 @@ var timerData = [
 			},
         	{
 				name: "Walpurgis Rising Bingo",
-                "start": "aug 28 2026, 22:00",
-                "end": "oct 30 2026, 11:59",
+                "start": "sep 27 2026, 21:00",
+                "end": "nov 30 2026, 11:59",
 			},
         	{
 				name: "Exedra Quest Ch1 PtII ActII Bingo",
@@ -377,8 +377,8 @@ var timerData = [
 			},
 			{
 				"name": "Score Attack【VS Box Witch】",
-                "start": "Oct 16 2026, 12:00",
-                "end": "oct 13 2026, 11:59",
+                "start": "sep 28 2026, 21:00",
+                "end": "nov 5 2026, 11:59",
 			},
              {
 				name: "Tower | Mirror Layers 116-120",
@@ -627,7 +627,7 @@ var timerData = [
 			{
 				"name": "Event and Medal Missions",
                 "start": "aug 28 2026, 22:00",
-                "end": "oct 29 2026, 11:59",
+                "end": "nov 30 2026, 11:59",
 			}
         ]
     },
@@ -841,7 +841,7 @@ var timerData = [
 		timers: [
 			{
 				name: "Season 42",
-				start: "oct 24 2026, 12:00",
+				start: "oct 26 2026, 12:00",
 				end: "Nov 8 2026, 23:59",
 			},
             {
@@ -975,7 +975,7 @@ var timerData = [
         	{
 				name: "Sweet Dreams and Shifting Realities",
                 "start": "aug 28 2026, 22:00",
-                "end": "oct 30 2026, 11:59"
+                "end": "dec 1 2026, 11:59"
 			},
             {
 				name: "Rebellion- Nightmare Story",
@@ -1043,7 +1043,7 @@ var timerData = [
                 "end": "dec 15 2026, 11:59",
 			},
 			{
-				name: "[Venusta Dissonanz] Sayaka Miki (Anomalia) ",
+				name: "[Venusta Dissonanza] Sayaka Miki (Anomalia) ",
                 "start": "Oct 16 2026, 12:00",
                 "end": "nov 14 2026, 11:59",
 			},
@@ -1196,9 +1196,9 @@ var timerData = [
         "priority": 0,
         "timers": [
             {
-                name: "",
+                name: "Extended!",
                 "start": "sept 27 2026, 21:00",
-                "end": "oct 31 2026, 11:59",
+                "end": "nov 30 2026, 11:59",
                 // extraPriority: 1000
             }
         ]
@@ -1206,7 +1206,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"【Exclusive New】[Venusta Dissonanz] Sayaka Miki (Anomalia)",
+			"【Exclusive New】[Venusta Dissonanza] Sayaka Miki (Anomalia)",
             "『【新★5キオク】美樹さやか(アノマリア)♬』"
         ],
         "image": [
