@@ -371,6 +371,11 @@ var timerData = [
         "priority": 3,
         "timers": [
 			{
+				"name": "Score Attack【VS Ai Chan】",
+                "start": "nov 5 2026, 12:00",
+                "end": "dec 5 2026, 11:59",
+			},
+			{
 				"name": "Score Attack【VS Anomalia】",
                 "start": "Oct 16 2026, 12:00",
                 "end": "oct 30 2026, 11:59",
@@ -459,7 +464,7 @@ var timerData = [
 			},
 			{
 				"name": "Part 2 Event and Medal Missions",
-                "start": "nov 7 2026, 12:00",
+                "start": "nov 6 2026, 12:00",
                 "end": "nov 30 2026, 11:59",
 			},
         ]
@@ -792,8 +797,8 @@ var timerData = [
 			},
             {
 				name: "Kumanoko no Yume",
-				start: "aug 14 2026, 12:00",
-				end: "aug 29 2026, 11:59",
+				start: "dec 05 2026, 12:00",
+				end: "nov 19 2026, 11:59",
 			},
             {
 				name: "Walpurgisnacht Descends",
@@ -879,6 +884,11 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
+				name: "Halloween Packs - Kyoko Sakura",
+                "start": "nov 6 2026, 12:00",
+                "end": "nov 30 2026, 11:59",
+			},
+			{
 				name: "Halloween Packs - Karin Misono",
                 "start": "Oct 30 2026, 12:00",
                 "end": "nov 30 2026, 11:59",
@@ -948,6 +958,11 @@ var timerData = [
 		priority: 5,
 		timers: [
             {
+				name: "Forever Holloween Night Part 2",
+                "start": "nov 6 2026, 12:00",
+                "end": "dec 1 2026, 11:59",
+			},
+            {
 				name: "Felicia Mitsuki: A Doppel Tale",
                 "start": "oct 30 2026, 12:00",
                 "end": "Nov 30 2026, 11:59"
@@ -993,7 +1008,7 @@ var timerData = [
                 "end": "oct 1 2026, 11:59",
 			},
             {
-				name: "Forever Holloween Night",
+				name: "Forever Holloween Night Part 1",
                 "start": "oct 30 2026, 12:00",
                 "end": "dec 1 2026, 11:59",
 			},
@@ -1027,6 +1042,11 @@ var timerData = [
 		column: 2,
 		priority: 3,
 		timers: [
+			{
+				name: "[All Souls' Repose] Kyoko Sakura (Halloween)",
+                "start": "nov 6 2026, 12:00",
+                "end": "dec 1 2026, 11:59",
+			},
 			{
                 name: "[Pumpkin Death Squall] Karin Misono",
                 "start": "oct 30 2026, 12:00",
@@ -1203,6 +1223,25 @@ var timerData = [
             }
         ]
     },
+    {
+        "type": "Gacha",
+        "title": [
+			"【Exclusive New】[All Souls' Repose] Kyoko Sakura (Halloween)",
+            "『【新★5キオク】佐倉杏子(ハロウィン)』"
+        ],
+        "image": [
+            "imgs/exedra/fate/Kyoko-dopple.png",
+        ],
+        "column": 1,
+        "priority": 10,
+        "timers": [
+            {
+                name: "Dark Healer",
+                "start": "nov 6 2026, 12:00",
+                "end": "nov 30 2026, 11:59",
+            },
+        ]
+     },
     {
         "type": "Gacha",
         "title": [
