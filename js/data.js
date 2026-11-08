@@ -1230,7 +1230,7 @@ var timerData = [
             "『【新★5キオク】佐倉杏子(ハロウィン)』"
         ],
         "image": [
-            "imgs/exedra/fate/Kyoko-hw.png",
+            "imgs/exedra/fate/kyoko-hw.png",
         ],
         "column": 1,
         "priority": 10,
