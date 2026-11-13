@@ -797,7 +797,7 @@ var timerData = [
 			},
             {
 				name: "Kumanoko no Yume",
-				start: "dec 05 2026, 12:00",
+				start: "nov 05 2026, 12:00",
 				end: "nov 19 2026, 11:59",
 			},
             {
@@ -845,9 +845,9 @@ var timerData = [
 		priority: 0,
 		timers: [
 			{
-				name: "Season 42",
-				start: "oct 26 2026, 12:00",
-				end: "Nov 8 2026, 23:59",
+				name: "Season 43",
+				start: "nov 9 2026, 12:00",
+				end: "Nov 22 2026, 23:59",
 			},
             {
 				name: "Season 38",
@@ -1479,12 +1479,12 @@ var timerData = [
         "priority": 2,
         "timers": [
             {
-                name: "Walpurg Rising 5★ Guarenteed Showcase",
-                "start": "aug 28 2026, 22:00",
-                "end": "sept 30 2026, 11:59",
+                name: "One 5★ Kioku Guaranteed Flame Wishlist",
+                "start": "nov 09 2026, 12:00",
+                "end": "nov 30 2026, 11:59",
             },
             {
-                name: "Free 5★ Attacker Guaranteed Fate Weave",
+                name: "Free  Attacker Guaranteed Fate Weave",
                 "start": "aug 28 2026, 22:00",
                 "end": "sept 28 2026, 20:59",
             },
