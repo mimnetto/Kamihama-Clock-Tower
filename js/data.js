@@ -142,6 +142,11 @@ var timerData = [
         "priority": 7,
         "timers": [
             {
+				name: "Sorana Magica Ch 2 Release",
+                "start": "nov 13 2026, 12:00",
+                "end": "dec 18 2026, 11:59",
+			},
+            {
 				name: "Halloween Login Bonus",
                 "start": "oct 30 2026, 12:00",
                 "end": "nov 30 2026, 11:59",
@@ -260,8 +265,8 @@ var timerData = [
         "timers": [
             {
 				name: "Half QP",
-                "start": "sept 28 2026, 5:00",
-                "end": "oct 9 2026, 11:59",
+                "start": "nov 20 2026, 5:00",
+                "end": "dec 18 2026, 11:59",
 			},
             {
 				name: "Main Quest Clear Support Buffs (Standard)",
@@ -297,6 +302,16 @@ var timerData = [
         "column": 0,
         "priority": 6,
         "timers": [
+        	{
+				name: "Sorana Magica Bingo 1",
+                "start": "nov 13 2026, 12:00",
+                "end": "dec 18 2026, 11:59",
+			},
+        	{
+				name: "Sorana Magica Bingo 2",
+                "start": "nov 20 2026, 12:00",
+                "end": "dec 18 2026, 11:59",
+			},
         	{
 				name: "1.5th Anniversary Bingo Pt. 1",
                 "start": "sept 27 2026, 21:00",
@@ -1368,19 +1383,19 @@ var timerData = [
          	{
         "type": "Gacha",
         "title": [
-			"【Unlimited New】[Thuderous Waltz] Uwasa Tsuruno",
-            "『新★5キオク[ウワサの雷扇痺舞]ウワサの鶴乃』"
+			"【Exclusive New】[Overdrive Impulse] Lilly Candy",
+            "『[オーバードライブ・インパルス]リリー・キャンディー』"
         ],
         "image": [
-            "imgs/exedra/fate/uwasa-tsu.png",
+            "imgs/exedra/fate/lily-candy.png",
         ],
         "column": 1,
-        "priority": 9,
+        "priority": 11,
         "timers": [
             {
-                name: "Fire Defender",
-                "start": "aug 28 2026, 22:00",
-                "end": "sept 30 2026, 11:59",
+                name: "Void Braker (Estimated end date) ",
+                "start": "nov 16 2026, 12:00",
+                "end": "dec 18 2026, 11:59",
             //    extraPriority: 1000
             }
         ]
